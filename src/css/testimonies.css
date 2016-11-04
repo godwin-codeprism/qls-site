@@ -1,0 +1,33 @@
+.c-confes {
+    width: 100%;
+    margin: auto;
+    height: 220px;
+    padding: 0px;
+    box-shadow: 1px 1px 15px rgba(44, 62, 80, 0.39) inset;
+}
+
+.c-confes {
+    background-image: url('../images/c-confes-bg.jpg');
+    background-size: 100% 100%;
+}
+
+.c-confes-img img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+    width: 77px;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.c-confes-txt {
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+}
+
+.c-confes-name {
+    display: block;
+    text-align: center;
+    padding-bottom: 4px;
+    font-size: 18px;
+}

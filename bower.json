@@ -1,0 +1,28 @@
+{
+  "name": "quick-learn-systems-website",
+  "description": "Quick Learn Systems Website",
+  "main": "imports.js",
+  "authors": [
+    "Godwin Vinny Carole"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "quick",
+    "learn",
+    "systems",
+    "webite",
+    "godwin"
+  ],
+  "homepage": "www.quicklearnsys.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ng-scrollbars": "^0.0.10"
+  }
+}

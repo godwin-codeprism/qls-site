@@ -1,0 +1,13 @@
+.panel{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.40);
+}
+table th {
+    background-color: #263944;
+    color: #fff;
+}
+table tr td{
+    border: 1px solid #c5d5e4;
+}
+table tr:nth-child(even){
+    background-color: #ecf0f1;
+}
