@@ -3,7 +3,9 @@ var usersTemplate = require('../views/users.html'),
     aboutTemplate = require('../views/about.html'),
     upcoming_eventsTemplate = require('../views/upcoming_events.html'),
     serviesTemplate = require('../views/services.html'),
-    contactTemplate = require('../views/contact.html');
+    contactTemplate = require('../views/contact.html'),
+    termsTemplate = require('../views/terms.html'),
+    accreditationsTemplate = require('../views/accreditations.html');
 angular.module("qls", ["ngSanitize", "ui.router", "ngScrollbars"])
     .config(["$stateProvider", "$urlRouterProvider", "ScrollBarsProvider", function (e, t, n) {
         t.otherwise("/home"), e.state("app", {
@@ -104,7 +106,14 @@ angular.module("qls", ["ngSanitize", "ui.router", "ngScrollbars"])
         }).state("app.users.togaf", {
             url: "togaf",
             templateUrl: "views/classroom_courses/togaf.component.html"
-        }), n.defaults = {
+        }).state("app.users.terms", {
+            url: "terms",
+            template: termsTemplate
+        }).state("app.users.accreditations", {
+            url: "accreditations",
+            template: accreditationsTemplate
+        }), 
+        n.defaults = {
             scrollButtons: {
                 scrollAmount: "auto",
                 enable: !0
