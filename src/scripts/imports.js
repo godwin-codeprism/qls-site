@@ -6,6 +6,7 @@ require('../css/font-awesome.css');
 require('bootstrap/dist/js/bootstrap.min');
 require('angular-sanitize');
 require('angular-ui-router');
+require('ng-meta');
 //require('ng-scrollbars/dist/scrollbars.min.js');
 //require('malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min');
 

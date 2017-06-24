@@ -70,6 +70,18 @@
         "title": "COBIT 5 Foundation",
         "text": "COBIT 5 is the only business framework for the governance and management of enterprise IT.",
         "url": "#/cobit"
+    },
+    {
+        "image": "images/togaf.png",
+        "title": "SAFe 4.1 (SAFe Agilist)",
+        "text": "A complete methodology for large-scale, multi-team agile project teams to carry out this transformation seamlessly.",
+        "url": "#/safe"
+    },
+    {
+        "image": "images/cobit.png",
+        "title": "DevOps Master",
+        "text": "Set of principles, methods and practices for communication and integration between software development and IT professionals.",
+        "url": "#/dev_ops"
     }
 
 ]

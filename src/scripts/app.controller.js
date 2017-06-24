@@ -1,4 +1,4 @@
 angular.module('qls')
-    .controller('appController', ['$scope', function ($scope) {
-        
+    .controller('appController', ['$scope','ngMeta', function ($scope,ngMeta) {
+        //ngMeta.setTitle('QuickLearn Systems');
     }])
