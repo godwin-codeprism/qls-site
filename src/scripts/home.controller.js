@@ -1,26 +1,26 @@
 angular.module('qls')
     .controller('homeController', ['$scope', '$http', function ($scope, $http) {
-        $http.get('data/events.json').success(function (res) {
+        $http.get('data/events.json'+ '?id=' + new Date().getTime()).success(function (res) {
             $scope.events = res;
         }).error(function () {
             console.log('Failed to load events.json');
         });
-        $http.get('data/online_events.json').success(function (res) {
+        $http.get('data/online_events.json'+ '?id=' + new Date().getTime()).success(function (res) {
             $scope.onlineEvents = res;
         }).error(function () {
-            console.log('Failed to load online_events.json');
+            console.log('Failed to load online_events.json'+ '?id=' + new Date().getTime());
         });
-        $http.get('data/courses.json').success(function (res) {
+        $http.get('data/courses.json'+ '?id=' + new Date().getTime()).success(function (res) {
             $scope.courses = res;
         }).error(function () {
             console.log('Failed to load courses.json');
         });
-        $http.get('data/testimonials/testimonials.json').success(function (res) {
+        $http.get('data/testimonials/testimonials.json'+ '?id=' + new Date().getTime()).success(function (res) {
             $scope.testimonials = res;
         }).error(function () {
             console.log('Failed to load courses.json');
         });
-        $http.get('data/clients/clients.json')
+        $http.get('data/clients/clients.json'+ '?id=' + new Date().getTime())
             .success(function (res) {
                 $scope.clients = res;
             })
@@ -63,7 +63,7 @@ angular.module('qls')
         $scope.siteContactSubmit = "Submit";
         $scope.contactSubmit = function () {
             $http.post('endpoints/send-mail.php', $scope.siteContact).success(function (res) {
-                if(res == 'ok'){
+                if (res == 'ok') {
                     $scope.siteContactSubmit = 'Message sent sucessfully';
                 }
             }).error(function (err) {

@@ -1,15 +1,71 @@
 body {
     background-image: url('../images/body-bg.png');
 }
+
 .main-container {
     padding: 0px;
 }
-.shadow-container{
+
+.shadow-container {
     box-shadow: 0px -25px 40px 0px rgba(0, 0, 0, 0.12);
-    padding-top:5%;
+    padding-top: 5%;
 }
+
 .scroller {
     white-space: pre-line;
     overflow-y: hidden;
     position: relative;
+}
+
+.enquiry-container {
+    position: fixed;
+    top: 24vh;
+    z-index: 9000;
+    right: -320px;
+    transition: all .51s ease-in-out;
+}
+
+.enquiry-label {
+    width: 40px;
+    height: 140px;
+    float: left;
+    overflow: hidden;
+    background-color: #2c3e50;
+    color: white;
+    border-radius: 15px 0px 0px 15px;
+    box-shadow: 0px -5px 6px rgba(16, 30, 43, 0.15);
+    border: 1px solid #799abb;
+    cursor: pointer;
+    transition: all .51s ease;
+}
+.enquiry-open{
+    right: 0px;
+}
+.enquiry-close{
+    right: -320px;
+}
+.enquiry-label:hover {
+    background-color: #2c3e50;
+}
+
+.enquiry-label p {
+    width: 140px;
+    position: absolute;
+    left: -49px;
+    top: 45px;
+    transform: rotate(-90deg);
+    font-family: Raleway;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: large;
+}
+
+.enquiry-form-container {
+    width: 320px;
+    min-height: 420px;
+    padding-top: 15px;
+    float: left;
+    background-color: white;
+    border-radius: 0px 0px 0px 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }

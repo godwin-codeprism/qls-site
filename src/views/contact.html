@@ -35,8 +35,8 @@
                         <div class="form-group">
                             <label for="select" class="col-lg-3 control-label">Course Interested *</label>
                             <div class="col-lg-9">
-                                <select class="form-control" id="select" ng-model="siteContact.courseInterested">
-                         <option ng-repeat="course in coursesList" value="{{course}}">{{course}}</option>
+                                <select class="form-control" id="select" ng-model="siteContact.courseInterested" ng-init="siteContact.courseInterested = coursesList[0]">
+                            <option ng-repeat="course in coursesList" ng-disabled="$index == 0" value="{{course}}">{{course}}</option>
                         </select>
                             </div>
                         </div>
@@ -49,7 +49,8 @@
                         <div class="form-group">
                             <div class="col-lg-3"></div>
                             <div class="col-lg-6 text-center">
-                                <input type="submit" class="btn btn-block" ng-class="siteContactSubmit == 'Submit' ? 'btn-primary' :'btn-success'" ng-disabled="siteContactSubmit !== 'Submit'" value="{{siteContactSubmit}}">
+                                <input type="submit" class="btn btn-block" ng-class="siteContactSubmit == 'Submit' ? 'btn-primary' :'btn-success'" ng-disabled="siteContactSubmit !== 'Submit'"
+                                    value="{{siteContactSubmit}}">
                             </div>
                             <div class="col-lg-3"></div>
                         </div>
@@ -73,7 +74,8 @@
                     <h2 class="text-primary text-center"><strong>Office Address</strong></h2>
                     <p class="text-left">
                         <address>
-                            QuickLearn Systems, Lorven. Office No. 2, Block A &amp; B, 2nd Floor, Vaishnavi Cynsoure, Near Gachibowali Flyover, Hyderabad 500034.
+                            QuickLearn Systems, Lorven. Office No. 2, Block A &amp; B, 2nd Floor, Vaishnavi Cynsoure, Near Gachibowali Flyover, Hyderabad
+                            500034.
                         </address>
                     </p>
                     <div class="container-fluid" style="padding:0px">
