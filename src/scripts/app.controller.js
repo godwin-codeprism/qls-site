@@ -1,5 +1,5 @@
 angular.module('qls')
-    .controller('appController', ['$scope', 'ngMeta', function ($scope, ngMeta) {
+    .controller('appController', ['$scope', 'ngMeta', '$http', function ($scope, ngMeta, $http) {
         $scope.enquiryState = true;
         $scope.coursesList = [
             "Select a course",

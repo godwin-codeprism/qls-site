@@ -102,7 +102,7 @@
     </div>
     <div class="enquiry-form-container">
         <div class="container-fluid">
-            <form class="form-horizontal" ng-submit="contactSubmit()">
+            <form class="form-horizontal">
                 <div class="form-group">
                     <div class="col-sm-12">
                         <input type="text" ng-model="siteContact.fullname" class="form-control" id="fullName" placeholder="Full Name" required>
@@ -132,12 +132,12 @@
                 </div>
                 <div class="form-group">
                     <div class="col-sm-12 text-center">
-                        <input type="submit" class="btn btn-block" ng-class="siteContactSubmit == 'Submit' ? 'btn-primary' :'btn-success'" ng-disabled="siteContactSubmit !== 'Submit'"
-                            value="{{siteContactSubmit}}">
+                       <button class="btn pull-right" ng-class="siteContactSubmit == 'Submit' ? 'btn-primary' :'btn-success'" ng-disabled="siteContactSubmit !== 'Submit'"
+                            type="submit" ng-click="contactSubmit()">{{siteContactSubmit}}</button>
                     </div>
                 </div>
             </form>
-            <div class="form-hide">
+            <div class="form-hide" ng-hide="siteContactSubmit == 'Submit'">
                 <div class="panel panel-default" style="width:80%;">
                     <div class="panel-heading text-center" style="line-height:0px;">
                         <h3 class="text-success"><i class="ion-ios-checkmark-outline text-success"></i> Message Sent</h3>
@@ -156,12 +156,16 @@
         <div class="row">
             <div class="col-sm-3">
                 <div class="container-fluid text-left" style="font-size:small">
-                    <h3>Disclaimer</h3>
-                    <p>ITIL<sup>®</sup> is a registered trade mark of AXELOS Limited. The Swirl logo<sup>™</sup> is a trade
-                        mark of AXELOS Limited<br>PRINCE2<sup>®</sup> is a registered trade mark of AXELOS Limited. The Swirl
-                        logo
-                        <sup>™</sup> is a trade mark of AXELOS Limited.<br>PMP<sup>®</sup> is a registered mark of the Project
-                        Management Institute, Inc. All rights reserved.</p>
+                    <h3>Popular Courses</h3>
+                    <ul class="popular-courses">
+                        <li><a ui-sref="app.itil_foundation">ITIL Foundation</a></li>
+                        <li><a ui-sref="app.pmp">PMP</a></li>
+                        <li><a ui-sref="app.prince2foundation">Prince2</a></li>
+                        <li><a ui-sref="app.dev_ops">DevOps Master</a></li>
+                        <li><a ui-sref="app.scrum">Scrum Master</a></li>
+                        <li><a ui-sref="app.safe">Safe Agile</a></li>
+                        <li><a ui-sref="app.green_belt">Lean Six Sigm Green Belt</a></li>
+                    </ul>
                 </div>
             </div>
             <div class="col-sm-4">

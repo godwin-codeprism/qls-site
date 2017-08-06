@@ -36,12 +36,6 @@
         "url": "app.prince2foundation"
     },
     {
-        "image": "images/msp.png",
-        "title": "MSP",
-        "text": "Managing Successful Programmes is a methodology that comprises a set of principles and processes for use when managing a programme. ",
-        "url": "app.msp"
-    },
-    {
         "image": "images/scrum.png",
         "title": "Scrum Master",
         "text": "A ScrumMaster is well equipped to use Scrum, an agile methodology to any project to ensure its success.",
@@ -58,12 +52,6 @@
         "title": "Six Sigma Black Belt",
         "text": "Six Sigma Black Belt trainees obtain a solid understanding of the tools and methods associated with the Six Sigma approach.",
         "url": "app.black_belt"
-    },
-    {
-        "image": "images/togaf.png",
-        "title": "TOGAF",
-        "text": "An Open Group standard, is proven enterprise architecture methodology and framework.",
-        "url": "app.togaf"
     },
     {
         "image": "images/cobit.png",

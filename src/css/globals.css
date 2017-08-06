@@ -86,3 +86,11 @@ body {
     align-items: center;
     animation: zoomIn .25s ease;
 }
+.popular-courses{
+    list-style: none;
+    padding: 0px;
+}
+.popular-courses a{
+    color: #2c3e50;
+    font-size: large;
+}
