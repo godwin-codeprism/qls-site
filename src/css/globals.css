@@ -75,12 +75,12 @@ body {
 
 .form-hide {
     position: absolute;
-    width: 100%;
+    width: 89%;
     height: 100%;
     z-index: 1;
     background-color: rgba(245, 245, 245, 0.82);
     top: 0;
-    left: 0;
+    right: 0;
     display: flex;
     justify-content: center;
     align-items: center;

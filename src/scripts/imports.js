@@ -4,6 +4,7 @@ window.mCustomScrollbar = require('./malihu-custom-scrollbar-plugin/jquery.mCust
 window.angular = require('angular');
 require('../css/bootstrap.min.css');
 require('../css/font-awesome.css');
+require('../css/ionicons.css');
 require('bootstrap/dist/js/bootstrap.min');
 require('angular-sanitize');
 require('angular-ui-router');

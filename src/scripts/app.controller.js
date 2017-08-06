@@ -1,6 +1,6 @@
 angular.module('qls')
     .controller('appController', ['$scope', 'ngMeta', function ($scope, ngMeta) {
-        $scope.enquiryState = false;
+        $scope.enquiryState = true;
         $scope.coursesList = [
             "Select a course",
             "ITIL Foundation",

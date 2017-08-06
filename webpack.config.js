@@ -16,14 +16,26 @@ module.exports = {
         port: 3000
     },
     module: {
-        loaders: [
-            { test: /\.css$/, loader: 'style-loader!css-loader' },
+        loaders: [{
+                test: /\.css$/,
+                loader: 'style-loader!css-loader'
+            },
             {
-                test: /\.html$/,
+                test: /\.(png|jpg)$/,
+                loader: "file-loader?name=[path][name].[ext]&context=./src/assests"
+            },
+            {
+                test: /\.(html)$/,
                 loader: "html"
             },
-            //{ test: /\.(png|jpg|eot|woff2|woff|svg|ttf)$/, loader: "url-loader?limit=100000" },
-            { test: /\.(png|jpg|eot|woff2|woff|svg|ttf)$/, loader: "file?name=[path][name].[ext]&context=./src/assests" }
+            {
+                test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?(\-alpha\.[0-9])?$/,
+                loader: "file-loader?name=[path][name].[ext]&context=./src/assests"
+            },
+            {
+                test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?(\-alpha\.[0-9])?$/,
+                loader: "file-loader?name=[path][name].[ext]&context=./src/assests"
+            }
         ]
     },
     plugins: [
