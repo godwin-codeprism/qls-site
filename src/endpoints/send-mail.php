@@ -17,7 +17,7 @@
 
     $Email -> Username = 'info@quicklearnsys.com';
 
-    $Email -> Password = 'info_4321';
+    $Email -> Password = '@QLS@XYZ123';
 
     $Email -> SMTPSecure = 'ssl';
 
