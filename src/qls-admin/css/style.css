@@ -1,0 +1,350 @@
+body {
+    background-color: #F0F3F4;
+}
+
+i {
+    font-size: x-large;
+}
+
+.contianer-login {
+    min-height: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #008fe2), color-stop(100%, #00b29c));
+    background: -webkit-linear-gradient(-65deg, #008fe2 0, #00b29c 100%);
+    background: -o-linear-gradient(-65deg, #008fe2 0, #00b29c 100%);
+    background: -ms-linear-gradient(-65deg, #008fe2 0, #00b29c 100%);
+    background: linear-gradient(154deg, #008fe2 0, #00b29c 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#008fe2', endColorstr='#00b29c', GradientType=1);
+}
+
+.nav-title {
+    height: 60px;
+}
+
+.nav-title-text {
+    height: 60px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-weight: lighter;
+    font-family: Segoe UI;
+}
+
+.panel-login {
+    width: 450px;
+    height: 400px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.form-login {
+    display: block;
+    margin: auto;
+}
+
+.login-heading {
+    border-bottom: 1px solid white;
+    margin-bottom: 25px;
+}
+
+input[type='submit'] {
+    width: 130px;
+}
+
+
+/*---------------------DASHBOARD---------------------*/
+
+.container-mother {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.navbar-fixed-top {
+    box-shadow: 2px 0 3px rgba(0, 0, 0, .5);
+    color: white;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.menu-div {
+    width: 30px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-div i {
+    transition: all .51s ease-in-out;
+    cursor: pointer;
+    font-size: large;
+}
+
+.menu-div i:hover {
+    color: #36cde8;
+}
+
+.logout-div {
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.sidebar {
+    width: 18%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #2c3e50;
+    transition: width .25s ease;
+    box-shadow: -2px 0px 3px rgba(0, 0, 0, .5) inset;
+}
+
+.sidebar-icons {
+    width: 4%;
+}
+
+.container-tabs {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-top: 100px;
+}
+
+.tabs {
+    width: 98%;
+    color: white;
+}
+
+.tabs-indicator {
+    width: 2%;
+    min-width: 5px;
+    height: 30px;
+    background-color: #36cde8;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    transition: all .51s ease;
+}
+
+.tabs ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.tab {
+    width: 100%;
+    height: 30px;
+    padding: 0px;
+    margin: 0px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.tab:hover {
+    color: #36cde8;
+}
+
+.tab div {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.fa-angle-down {
+    transition: all .51s ease;
+}
+
+.arrow-up {
+    transform: rotate(180deg);
+}
+
+.tabs-sub li.ng-hide-remove {
+    animation: flipInX .51s ease;
+}
+
+.tabs-sub li.ng-hide-add {
+    animation: flipOutX .51s ease;
+}
+
+.tab-title.ng-hide-remove,
+.tab-arrow.ng-hide-remove,
+.tabs-sub.ng-hide-remove {
+    animation: fadeIn .51s ease;
+}
+
+
+/*---------------workspace-----------------*/
+
+.workspace {
+    width: 82%;
+    padding-top: 70px;
+    position: absolute;
+    right: 0;
+    transition: width .25s ease;
+}
+
+.workspace-smallMenu {
+    width: 96%
+}
+
+.instructions li {
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+
+.tab-heading {
+    text-transform: uppercase;
+    opacity: 0.7;
+    font-size: xx-large;
+    letter-spacing: 1px;
+}
+
+thead {
+    background-color: #2c3e50;
+    color: snow;
+}
+
+.card {
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 24px;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .25);
+}
+
+.card-heading {
+    color: #666;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .12);
+    height: 44px;
+    font-size: 16px;
+    padding: 14px 22px;
+}
+
+.card-title {
+    font-weight: 400;
+    opacity: .9;
+    margin-top: 0;
+    font-size: 22px;
+    margin-bottom: 0;
+}
+
+.card-body {
+    padding: 15px 22px;
+    height: 100%;
+}
+
+.repeat-item.ng-enter,
+.repeat-item.ng-leave {
+    transition: all 1.2s ease;
+}
+
+.repeat-item.ng-enter,
+.repeat-item.ng-leave.ng-leave-active {
+    opacity: 0;
+    animation: fadeOut .25s ease-out;
+}
+
+.repeat-item.ng-leave,
+.repeat-item.ng-enter.ng-enter-active {
+    opacity: 1;
+    animation: fadeIn .25s ease-in;
+}
+
+.btn-action {
+    position: relative !important;
+    z-index: 5 !important;
+    transition: all .25s ease;
+    margin: 0px !important;
+}
+
+.btn-action:hover {
+    z-index: 500 !important;
+    transform: scale3d(1.2, 1.25, 1);
+}
+
+.text[contenteditable=true] {
+    background-color: white;
+    box-shadow: 0px 0px 2px rgba(44, 62, 80, 0.6) inset;
+    border-radius: 6px;
+    outline: none;
+}
+
+.link_btn {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+td[data-type=image] {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    position: relative;
+    vertical-align: middle !important;
+}
+
+td[data-type=image] img {
+    width: 100%;
+    height: auto;
+}
+
+.img-overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(44, 62, 80, 0.61);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-overlay a {
+    width: 40px;
+    height: 40px;
+    color: white;
+    font-size: x-large;
+    background-color: rgba(44, 62, 80, 0.8);
+    border-radius: 4px;
+    margin-right: 5px !important;
+    border: 1px solid rgba(236, 240, 241, 0.44);
+    cursor: pointer;
+}
+
+.img-overlay input[type=file] {
+    display: none;
+}
+
+.change-img {
+    color: white;
+    font-size: small;
+    background-color: rgba(44, 62, 80, 0.8);
+    border-radius: 4px;
+    margin-right: 5px !important;
+    border: 1px solid rgba(236, 240, 241, 0.44);
+    cursor: pointer;
+}
