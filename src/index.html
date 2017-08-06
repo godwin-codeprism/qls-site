@@ -62,10 +62,21 @@
 
 <body>
     <ui-view></ui-view>
+    <script>
+        function loadJS(file) {
+            // DOM: Create the script element
+            var jsElm = document.createElement("script");
+            // set the type attribute
+            jsElm.type = "text/javascript";
+            // make the script element load file
+            jsElm.src = file;
+            // finally insert the element to the body element in order to load the script
+            document.body.appendChild(jsElm);
+        }
+        loadJS("scripts/jquery/dist/jquery.min.js");
+        loadJS("godwin.js");
+        loadJS("scripts/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js");
+        loadJS("scripts/ng-scrollbars/dist/scrollbars.min.js");
+    </script>
 </body>
-<script src="scripts/jquery/dist/jquery.min.js"></script>
-<script src="godwin.js"></script>
-<script src="scripts/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
-<script src="scripts/ng-scrollbars/dist/scrollbars.min.js"></script>
-
 </html>
