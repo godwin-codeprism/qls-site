@@ -1,6 +1,6 @@
 angular.module('qls')
-    .controller('appController', ['$scope', 'ngMeta', '$http', function ($scope, ngMeta, $http) {
-        $scope.enquiryState = true;
+    .controller('appController', ['$rootScope', '$scope', 'ngMeta', '$http', function ($rootScope, $scope, ngMeta, $http) {
+        $rootScope.enquiryState = false;
         $scope.coursesList = [
             "Select a course",
             "ITIL Foundation",
@@ -47,6 +47,6 @@ angular.module('qls')
         }
 
         $scope.enquiryToggle = function () {
-            $scope.enquiryState = $scope.enquiryState ? false : true;
+            $rootScope.enquiryState = $rootScope.enquiryState ? false : true;
         }
     }])
