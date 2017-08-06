@@ -1,14 +1,14 @@
-var angular = require('angular');
-//global.jQuery = require('jquery');
+window.jQuery = require('jquery');
+window.$ = jQuery;
+window.mCustomScrollbar = require('./malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js');
+window.angular = require('angular');
 require('../css/bootstrap.min.css');
 require('../css/font-awesome.css');
-//require('malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css');
 require('bootstrap/dist/js/bootstrap.min');
 require('angular-sanitize');
 require('angular-ui-router');
 require('ng-meta');
-//require('ng-scrollbars/dist/scrollbars.min.js');
-//require('malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min');
+require('./ng-scrollbars/scrollbars.min.js');
 
 //css
 require('../css/globals.css');
