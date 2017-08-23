@@ -36,6 +36,12 @@
         "url": "app.prince2foundation"
     },
     {
+        "image": "images/msp.png",
+        "title": "MSP",
+        "text": "Managing Successful Programmes is a methodology that comprises a set of principles and processes for use when managing a programme. ",
+        "url": "app.msp"
+    },
+    {
         "image": "images/scrum.png",
         "title": "Scrum Master",
         "text": "A ScrumMaster is well equipped to use Scrum, an agile methodology to any project to ensure its success.",
@@ -54,6 +60,12 @@
         "url": "app.black_belt"
     },
     {
+        "image": "images/togaf.png",
+        "title": "TOGAF",
+        "text": "An Open Group standard, is proven enterprise architecture methodology and framework.",
+        "url": "app.togaf"
+    },
+    {
         "image": "images/cobit.png",
         "title": "COBIT 5 Foundation",
         "text": "COBIT 5 is the only business framework for the governance and management of enterprise IT.",
@@ -61,7 +73,7 @@
     },
     {
         "image": "images/safe.png",
-        "title": "SAFe 4.5 (SAFe Agilist)",
+        "title": "SAFe 4.1 (SAFe Agilist)",
         "text": "A complete methodology for large-scale, multi-team agile project teams to carry out this transformation seamlessly.",
         "url": "app.safe"
     },
