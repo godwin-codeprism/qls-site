@@ -1,9 +1,9 @@
-.events{
+.events {
     box-shadow: 3px 2px 7px rgba(0, 0, 0, 0.2);
     padding: 0px;
 }
 
-.event-date{
+.event-date {
     border-radius: 4px;
     width: 100%;
     background-color: #bddad4;
@@ -16,21 +16,54 @@
 }
 
 .scrollbar-element {
-  position: relative;
-  flex: auto 1 1;
+    position: relative;
+    flex: auto 1 1;
 }
 
 .list-container {
-  position: relative;
-  padding: 8px;
-  border: 1px solid #ccc;
-  background-color: #fff;
+    position: relative;
+    padding: 8px;
+    border: 1px solid #ccc;
+    background-color: #fff;
 }
-.event-card{
+
+.event-card {
     background-color: #ecf0f1;
     padding: 5px;
     cursor: pointer;
     border: 2px solid #dce4ec;
     border-radius: 4px;
     box-shadow: 0px 0px 15px rgb(218, 233, 236) inset;
+}
+
+#myCarousel {
+    height: 600px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+#myCarousel .item {
+    height: 600px;
+    overflow: hidden;
+}
+#myCarousel img{
+    min-width: 100%;
+    height: 100%;
+}
+.event-details {
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    height: 150px;
+    color: white;
+    overflow: hidden;
+    box-shadow: 0px -10px 25px rgba(0, 0, 0, 0.45);
+    background-color: rgba(255, 255, 255, 0.25);
+}
+.blur-img{
+    clip: rect(450px,1366px,600px,0px);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    filter: blur(25px);
 }

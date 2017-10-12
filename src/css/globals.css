@@ -94,3 +94,7 @@ body {
     color: #2c3e50;
     font-size: large;
 }
+
+.remove-padding{
+    padding: 0px;
+}
