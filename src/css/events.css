@@ -47,6 +47,7 @@
 }
 #myCarousel img{
     min-width: 100%;
+    max-width: none;
     height: 100%;
 }
 .event-details {
@@ -58,12 +59,12 @@
     color: white;
     overflow: hidden;
     box-shadow: 0px -10px 25px rgba(0, 0, 0, 0.45);
-    background-color: rgba(255, 255, 255, 0.25);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 .blur-img{
     clip: rect(450px,1366px,600px,0px);
     position: absolute;
     top: 0;
-    width: 100%;
-    filter: blur(25px);
+    min-width: 100%;
+    filter: blur(15px);
 }
