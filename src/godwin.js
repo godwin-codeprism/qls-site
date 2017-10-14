@@ -52126,7 +52126,7 @@
 
 
 	// module
-	exports.push([module.id, ".jumbotron_banner {\r\n    width: 100% !important;\r\n    height: 700px !important;\r\n    background-image: url(" + __webpack_require__(61) + ") !important;\r\n    background-size: 100% 100% !important;\r\n    color: white !important;\r\n    font-family: 'Raleway', sans-serif !important;\r\n    margin-bottom: 0px !important;\r\n    border-radius: 0px !important;\r\n}\r\n\r\n.jumbotron_banner_h1 {\r\n    font-family: 'Raleway', sans-serif;\r\n}", ""]);
+	exports.push([module.id, ".jumbotron_banner {\r\n    width: 100% !important;\r\n    height: 700px !important;\r\n    background-image: url(" + __webpack_require__(61) + ") !important;\r\n    background-size: contain !important;\r\n    background-position: center top;\r\n    color: white !important;\r\n    font-family: 'Raleway', sans-serif !important;\r\n    margin-bottom: 0px !important;\r\n    border-radius: 0px !important;\r\n}\r\n\r\n.jumbotron_banner_h1 {\r\n    font-family: 'Raleway', sans-serif;\r\n}", ""]);
 
 	// exports
 
