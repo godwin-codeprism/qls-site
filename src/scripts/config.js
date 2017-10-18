@@ -6,8 +6,8 @@ var usersTemplate = require('../views/users.html'),
     contactTemplate = require('../views/contact.html'),
     termsTemplate = require('../views/terms.html'),
     accreditationsTemplate = require('../views/accreditations.html');
-angular.module("qls", ["ngSanitize", "ui.router", "ngScrollbars", "ngMeta"])
-    .config(["$stateProvider", "$urlRouterProvider", "ScrollBarsProvider", "ngMetaProvider", "$locationProvider", function ($stateProvider, $urlRouterProvider, ScrollBarsProvider, ngMetaProvider, $locationProvider) {
+angular.module("qls", ["ngSanitize", "ui.router", "ngMeta"])
+    .config(["$stateProvider", "$urlRouterProvider", "ngMetaProvider", "$locationProvider", function ($stateProvider, $urlRouterProvider, ngMetaProvider, $locationProvider) {
         $stateProvider.decorator('data', ngMetaProvider.mergeNestedStateData);
         $locationProvider.html5Mode(true);
         $urlRouterProvider.otherwise("/"),
@@ -513,17 +513,7 @@ angular.module("qls", ["ngSanitize", "ui.router", "ngScrollbars", "ngMeta"])
                 meta: {
                     disableUpdate: true
                 }
-            }),
-            ScrollBarsProvider.defaults = {
-                scrollButtons: {
-                    scrollAmount: "auto",
-                    enable: !0
-                },
-                scrollInertia: 400,
-                axis: "y",
-                theme: "dark-thin",
-                autoHideScrollbar: !1
-            }
+            })
     }]).run(["$transitions", "$rootScope", "$state", "$location", "$window", "ngMeta", function ( $transitions, $rootScope, t, n, r, ngMeta) {
         ngMeta.init();
           $transitions.onBefore({}, function (trans) {
