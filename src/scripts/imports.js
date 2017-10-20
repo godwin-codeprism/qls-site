@@ -20,6 +20,7 @@ require('../css/testimonies.css');
 require('../css/about.css');
 require('../css/classroom_courses.css');
 require('../css/contact.css');
+require('../css/mobile-menu.css');
 
 //Godwin's scripts
 require('./config');

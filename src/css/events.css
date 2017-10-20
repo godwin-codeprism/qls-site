@@ -65,7 +65,8 @@
     padding-top: 15px;
 }
 .blur-img{
-    clip: rect(450px,1366px,600px,0px);
+    margin-top:10px;
+    clip: rect(440px,1366px,600px,0px);
     position: absolute;
     top: 0;
     min-width: 100%;

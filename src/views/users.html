@@ -2,50 +2,79 @@
     <div class="container-fluid">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            <a class="navbar-brand" style="padding-top:10px;" ui-sref="app.home"><img src="../images/logo_nav.png" alt="Quick LearnSystems"></a>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" style="padding-top:10px;" ui-sref="app.home">
+                <img src="../images/logo_nav.png" alt="Quick LearnSystems">
+            </a>
         </div>
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-                <li><a ui-sref="app.home">Home</a></li>
+                <li>
+                    <a ui-sref="app.home">Home</a>
+                </li>
                 <li class="dropdown">
                     <a aria-expanded="false">
-                            About <span class="caret"></span>
-                        </a>
+                        About
+                        <span class="caret"></span>
+                    </a>
                     <ul class="dropdown-menu dropdown-intial">
-                        <li><a ui-sref="app.about">Mission /Vision</a></li>
+                        <li>
+                            <a ui-sref="app.about">Mission /Vision</a>
+                        </li>
                     </ul>
                 </li>
                 <li class="dropdown">
-                    <a aria-expanded="false">Classroom Courses<span class="caret"></span></a>
+                    <a aria-expanded="false">Classroom Courses
+                        <span class="caret"></span>
+                    </a>
                     <ul class="dropdown-menu dropdown-intial">
                         <li class="dropdown-submenu">
-                            <a tabindex="-1">Service Management</a>
+                            <a>Service Management</a>
                             <ul class="dropdown-menu dropdown-intial">
-                                <li><a tabindex="-1" ui-sref="app.itil_foundation">ITIL Foundation</a></li>
+                                <li>
+                                    <a ui-sref="app.itil_foundation">ITIL Foundation</a>
+                                </li>
                                 <li class="dropdown-submenu">
                                     <a ui-sref="app.itil_intermediate">ITIL Intermediate</a>
                                     <ul class="dropdown-menu dropdown-intial">
                                         <li class="dropdown-submenu">
                                             <a>ITIL Lifecycle Modules</a>
                                             <ul class="dropdown-menu dropdown-intial">
-                                                <li><a ui-sref="app.service_strategy">ITIL Service Strategy</a></li>
-                                                <li><a ui-sref="app.service_design">ITIL Service Design</a></li>
-                                                <li><a ui-sref="app.service_transition">ITIL Service Transition</a></li>
-                                                <li><a ui-sref="app.service_operation">ITIL Service Operation</a></li>
-                                                <li><a ui-sref="app.continual_service">ITIL Continual Service Improvement</a></li>
+                                                <li>
+                                                    <a ui-sref="app.service_strategy">ITIL Service Strategy</a>
+                                                </li>
+                                                <li>
+                                                    <a ui-sref="app.service_design">ITIL Service Design</a>
+                                                </li>
+                                                <li>
+                                                    <a ui-sref="app.service_transition">ITIL Service Transition</a>
+                                                </li>
+                                                <li>
+                                                    <a ui-sref="app.service_operation">ITIL Service Operation</a>
+                                                </li>
+                                                <li>
+                                                    <a ui-sref="app.continual_service">ITIL Continual Service Improvement</a>
+                                                </li>
                                             </ul>
                                         </li>
                                         <li class="dropdown-submenu">
                                             <a>ITIL Capability Module</a>
                                             <ul class="dropdown-menu dropdown-intial">
-                                                <li><a ui-sref="app.soa">ITIL Service, Offering and Agreement (SOA)</a></li>
-                                                <li><a ui-sref="app.ppo">ITIL Planning, Protection and Optimization (PPO)</a></li>
-                                                <li><a ui-sref="app.rcv">ITIL Release, Control and Validation (RCV)</a></li>
-                                                <li><a ui-sref="app.osa">ITIL Operational, Support and Analysis (OSA)</a></li>
+                                                <li>
+                                                    <a ui-sref="app.soa">ITIL Service, Offering and Agreement (SOA)</a>
+                                                </li>
+                                                <li>
+                                                    <a ui-sref="app.ppo">ITIL Planning, Protection and Optimization (PPO)</a>
+                                                </li>
+                                                <li>
+                                                    <a ui-sref="app.rcv">ITIL Release, Control and Validation (RCV)</a>
+                                                </li>
+                                                <li>
+                                                    <a ui-sref="app.osa">ITIL Operational, Support and Analysis (OSA)</a>
+                                                </li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -53,53 +82,261 @@
                                 <li class="dropdown-submenu">
                                     <a>ITIL Expert</a>
                                     <ul class="dropdown-menu dropdown-intial">
-                                        <li><a ui-sref="app.malc">ITIL<sup>&reg;</sup> Managing Across The Lifecycle</a></li>
+                                        <li>
+                                            <a ui-sref="app.malc">ITIL
+                                                <sup>&reg;</sup> Managing Across The Lifecycle</a>
+                                        </li>
                                     </ul>
                                 </li>
-                                <li><a ui-sref="app.siam">SIAM Foundation</a></li>
+                                <li>
+                                    <a ui-sref="app.siam">SIAM Foundation</a>
+                                </li>
                             </ul>
                         </li>
                         <li class="dropdown-submenu">
                             <a>Project &amp; Program Management</a>
                             <ul class="dropdown-menu dropdown-intial">
-                                <li><a ui-sref="app.capm">CAPM</a></li>
-                                <li><a ui-sref="app.pmp">PMP</a></li>
-                                <li><a ui-sref="app.acp">ACP</a></li>
-                                <li><a ui-sref="app.prince2foundation">Prince2 Foundation</a></li>
-                                <li><a ui-sref="app.prince2practitioner">Prince2 Practitioner</a></li>
-                                <li><a ui-sref="app.prince2agile">Prince2 Agile</a></li>
-                                <li><a ui-sref="app.scrum">Scrum Master</a></li>
-                                <li><a ui-sref="app.msp">Managing Successful Programs</a></li>
-                                <li><a ui-sref="app.safe">SAFe 4.5 (SAFe Agilist)</a></li>
-                                <li><a ui-sref="app.dev_ops">DevOps Master</a></li>
+                                <li>
+                                    <a ui-sref="app.capm">CAPM</a>
+                                </li>
+                                <li>
+                                    <a ui-sref="app.pmp">PMP</a>
+                                </li>
+                                <li>
+                                    <a ui-sref="app.acp">ACP</a>
+                                </li>
+                                <li>
+                                    <a ui-sref="app.prince2foundation">Prince2 Foundation</a>
+                                </li>
+                                <li>
+                                    <a ui-sref="app.prince2practitioner">Prince2 Practitioner</a>
+                                </li>
+                                <li>
+                                    <a ui-sref="app.prince2agile">Prince2 Agile</a>
+                                </li>
+                                <li>
+                                    <a ui-sref="app.scrum">Scrum Master</a>
+                                </li>
+                                <li>
+                                    <a ui-sref="app.msp">Managing Successful Programs</a>
+                                </li>
+                                <li>
+                                    <a ui-sref="app.safe">SAFe 4.5 (SAFe Agilist)</a>
+                                </li>
+                                <li>
+                                    <a ui-sref="app.dev_ops">DevOps Master</a>
+                                </li>
                             </ul>
                         </li>
                         <li class="dropdown-submenu">
                             <a>Quality Management</a>
                             <ul class="dropdown-menu dropdown-intial">
-                                <li><a ui-sref="app.green_belt">Lean Six Sigma Green Belt</a></li>
-                                <li><a ui-sref="app.black_belt">Lean Six Sigma Black Belt</a></li>
+                                <li>
+                                    <a ui-sref="app.green_belt">Lean Six Sigma Green Belt</a>
+                                </li>
+                                <li>
+                                    <a ui-sref="app.black_belt">Lean Six Sigma Black Belt</a>
+                                </li>
                             </ul>
                         </li>
                         <li class="dropdown-submenu">
                             <a>IT Governance &amp; Architecture</a>
                             <ul class="dropdown-menu dropdown-intial">
-                                <li><a ui-sref="app.cobit">COBIT 5 Foundation</a></li>
-                                <li><a ui-sref="app.togaf">TOGAF 9.1 Level  1 &amp; Level 2</a></li>
+                                <li>
+                                    <a ui-sref="app.cobit">COBIT 5 Foundation</a>
+                                </li>
+                                <li>
+                                    <a ui-sref="app.togaf">TOGAF 9.1 Level 1 &amp; Level 2</a>
+                                </li>
                             </ul>
                         </li>
                     </ul>
                 </li>
-                <li><a ui-sref="app.upcoming_events">Upcoming Events</a></li>
-                <li><a ui-sref="app.services">Services</a></li>
-                <li><a ui-sref="app.contact">Contact Us</a></li>
+                <li>
+                    <a ui-sref="app.upcoming_events">Upcoming Events</a>
+                </li>
+                <li>
+                    <a ui-sref="app.services">Services</a>
+                </li>
+                <li>
+                    <a ui-sref="app.contact">Contact Us</a>
+                </li>
             </ul>
         </div>
     </div>
 </nav>
+<div class="mobile-menu-container">
+    <div class="mobile-menu-panel">
+        <h3>Menu</h3>
+        <hr>
+        <ul class="mobile-menu-list">
+            <li>
+                <a ui-sref="app.home">Home</a>
+            </li>
+            <li class="dropdown-mobile">
+                <a aria-expanded="false">
+                    About
+                    <span class="caret"></span>
+                </a>
+                <ul class="dropdown-mobile-menu dropdown-mobile-intial level-1 list-1">
+                    <li>
+                        <a ui-sref="app.about">Mission /Vision</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="dropdown-mobile">
+                <a aria-expanded="false">Classroom Courses
+                    <span class="caret"></span>
+                </a>
+                <ul class="dropdown-mobile-menu dropdown-mobile-intial level-1 list-4">
+                    <li class="dropdown-mobile-submenu">
+                        <a>Service Management <span class="caret"></span></a>
+                        <ul class="dropdown-mobile-menu dropdown-mobile-intial level-2 list-4">
+                            <li>
+                                <a ui-sref="app.itil_foundation">ITIL Foundation</a>
+                            </li>
+                            <li class="dropdown-mobile-submenu">
+                                <a ui-sref="app.itil_intermediate">ITIL Intermediate</a>
+                                <ul class="dropdown-mobile-menu dropdown-mobile-intial level-3 list-2">
+                                    <li class="dropdown-mobile-submenu">
+                                        <a>ITIL Lifecycle Modules</a>
+                                        <ul class="dropdown-mobile-menu dropdown-mobile-intial level-4 list-5">
+                                            <li>
+                                                <a ui-sref="app.service_strategy">ITIL Service Strategy</a>
+                                            </li>
+                                            <li>
+                                                <a ui-sref="app.service_design">ITIL Service Design</a>
+                                            </li>
+                                            <li>
+                                                <a ui-sref="app.service_transition">ITIL Service Transition</a>
+                                            </li>
+                                            <li>
+                                                <a ui-sref="app.service_operation">ITIL Service Operation</a>
+                                            </li>
+                                            <li>
+                                                <a ui-sref="app.continual_service">ITIL Continual Service Improvement</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-mobile-submenu">
+                                        <a>ITIL Capability Module</a>
+                                        <ul class="dropdown-mobile-menu dropdown-mobile-intial level-4 list-4">
+                                            <li>
+                                                <a ui-sref="app.soa">ITIL Service, Offering and Agreement (SOA)</a>
+                                            </li>
+                                            <li>
+                                                <a ui-sref="app.ppo">ITIL Planning, Protection and Optimization (PPO)</a>
+                                            </li>
+                                            <li>
+                                                <a ui-sref="app.rcv">ITIL Release, Control and Validation (RCV)</a>
+                                            </li>
+                                            <li>
+                                                <a ui-sref="app.osa">ITIL Operational, Support and Analysis (OSA)</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-mobile-submenu">
+                                <a>ITIL Expert</a>
+                                <ul class="dropdown-mobile-menu dropdown-mobile-intial level-3 list-1">
+                                    <li>
+                                        <a ui-sref="app.malc">ITIL
+                                            <sup>&reg;</sup> Managing Across The Lifecycle</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a ui-sref="app.siam">SIAM Foundation</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-mobile-submenu">
+                        <a>Project &amp; Program Management <span class="caret"></span></a>
+                        <ul class="dropdown-mobile-menu dropdown-mobile-intial level-1 list-10">
+                            <li>
+                                <a ui-sref="app.capm">CAPM</a>
+                            </li>
+                            <li>
+                                <a ui-sref="app.pmp">PMP</a>
+                            </li>
+                            <li>
+                                <a ui-sref="app.acp">ACP</a>
+                            </li>
+                            <li>
+                                <a ui-sref="app.prince2foundation">Prince2 Foundation</a>
+                            </li>
+                            <li>
+                                <a ui-sref="app.prince2practitioner">Prince2 Practitioner</a>
+                            </li>
+                            <li>
+                                <a ui-sref="app.prince2agile">Prince2 Agile</a>
+                            </li>
+                            <li>
+                                <a ui-sref="app.scrum">Scrum Master</a>
+                            </li>
+                            <li>
+                                <a ui-sref="app.msp">Managing Successful Programs</a>
+                            </li>
+                            <li>
+                                <a ui-sref="app.safe">SAFe 4.5 (SAFe Agilist)</a>
+                            </li>
+                            <li>
+                                <a ui-sref="app.dev_ops">DevOps Master</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-mobile-submenu">
+                        <a>Quality Management <span class="caret"></span></a>
+                        <ul class="dropdown-mobile-menu dropdown-mobile-intial level-2 list-2">
+                            <li>
+                                <a ui-sref="app.green_belt">Lean Six Sigma Green Belt</a>
+                            </li>
+                            <li>
+                                <a ui-sref="app.black_belt">Lean Six Sigma Black Belt</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-mobile-submenu">
+                        <a>IT Governance &amp; Architecture <span class="caret"></span></a>
+                        <ul class="dropdown-mobile-menu dropdown-mobile-intial level-2 list-2">
+                            <li>
+                                <a ui-sref="app.cobit">COBIT 5 Foundation</a>
+                            </li>
+                            <li>
+                                <a ui-sref="app.togaf">TOGAF 9.1 Level 1 &amp; Level 2</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a ui-sref="app.upcoming_events">Upcoming Events</a>
+            </li>
+            <li>
+                <a ui-sref="app.services">Services</a>
+            </li>
+            <li>
+                <a ui-sref="app.contact">Contact Us</a>
+            </li>
+        </ul>
+    </div>
+    <script>
+        $('.caret').parent().click(function () {
+            console.log(this);
+            if($(this).parent().hasClass('hovered')){
+                $(this).parent().removeClass('hovered');
+            }else{
+                $('.mobile-menu-list>li').removeClass('hovered');
+                $(this).parent().addClass('hovered');
+            }
+        });
+    </script>
+</div>
 <div class="enquiry-container" ng-class="enquiryState ? 'enquiry-open' : 'enquiry-close'">
     <div class="enquiry-label" ng-click="enquiryToggle()">
-        <p><i class="fa fa-question-circle" aria-hidden="true"></i> Enquiry</p>
+        <p>
+            <i class="fa fa-question-circle" aria-hidden="true"></i> Enquiry</p>
     </div>
     <div class="enquiry-form-container">
         <div class="container-fluid">
@@ -133,7 +370,7 @@
                 </div>
                 <div class="form-group">
                     <div class="col-sm-12 text-center">
-                       <button class="btn pull-right" ng-class="siteContactSubmit == 'Submit' ? 'btn-primary' :'btn-success'" ng-disabled="siteContactSubmit !== 'Submit'"
+                        <button class="btn pull-right" ng-class="siteContactSubmit == 'Submit' ? 'btn-primary' :'btn-success'" ng-disabled="siteContactSubmit !== 'Submit'"
                             type="submit" ng-click="contactSubmit()">{{siteContactSubmit}}</button>
                     </div>
                 </div>
@@ -141,10 +378,14 @@
             <div class="form-hide" ng-hide="siteContactSubmit == 'Submit'">
                 <div class="panel panel-default" style="width:80%;">
                     <div class="panel-heading text-center" style="line-height:0px;">
-                        <h3 class="text-success"><i class="ion-ios-checkmark-outline text-success"></i> Message Sent</h3>
+                        <h3 class="text-success">
+                            <i class="ion-ios-checkmark-outline text-success"></i> Message Sent</h3>
                     </div>
                     <div class="panel-body text-center">
-                        <p>Thank you for contacting <br>QuickLearn Systems. <br><br> A team member will be in touch with you shortly.</p>
+                        <p>Thank you for contacting
+                            <br>QuickLearn Systems.
+                            <br>
+                            <br> A team member will be in touch with you shortly.</p>
                     </div>
                 </div>
             </div>
@@ -159,13 +400,27 @@
                 <div class="container-fluid text-left" style="font-size:small">
                     <h3>Popular Courses</h3>
                     <ul class="popular-courses">
-                        <li><a ui-sref="app.itil_foundation">ITIL Foundation</a></li>
-                        <li><a ui-sref="app.pmp">PMP</a></li>
-                        <li><a ui-sref="app.prince2foundation">Prince2</a></li>
-                        <li><a ui-sref="app.dev_ops">DevOps Master</a></li>
-                        <li><a ui-sref="app.scrum">Scrum Master</a></li>
-                        <li><a ui-sref="app.safe">Safe Agile</a></li>
-                        <li><a ui-sref="app.green_belt">Lean Six Sigm Green Belt</a></li>
+                        <li>
+                            <a ui-sref="app.itil_foundation">ITIL Foundation</a>
+                        </li>
+                        <li>
+                            <a ui-sref="app.pmp">PMP</a>
+                        </li>
+                        <li>
+                            <a ui-sref="app.prince2foundation">Prince2</a>
+                        </li>
+                        <li>
+                            <a ui-sref="app.dev_ops">DevOps Master</a>
+                        </li>
+                        <li>
+                            <a ui-sref="app.scrum">Scrum Master</a>
+                        </li>
+                        <li>
+                            <a ui-sref="app.safe">Safe Agile</a>
+                        </li>
+                        <li>
+                            <a ui-sref="app.green_belt">Lean Six Sigm Green Belt</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -173,30 +428,75 @@
                 <h3 class="text-center">Finds us on</h3>
                 <ul class="social-network social-circle">
                     <!--<li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>-->
-                    <li><a href="https://www.facebook.com/QuickLearn-Systems-860154054085242" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="https://twitter.com/quicklearnsys" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="https://plus.google.com/109738846000587914274" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
-                    <li><a href="https://in.linkedin.com/in/quicklearn-systems-1494ba12a" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                    <li>
+                        <a href="https://www.facebook.com/QuickLearn-Systems-860154054085242" class="icoFacebook" title="Facebook">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/quicklearnsys" class="icoTwitter" title="Twitter">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://plus.google.com/109738846000587914274" class="icoGoogle" title="Google +">
+                            <i class="fa fa-google-plus"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://in.linkedin.com/in/quicklearn-systems-1494ba12a" class="icoLinkedin" title="Linkedin">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                    </li>
                 </ul>
                 <h3 class="text-center">Payment Options</h3>
-                <small>We accept Payment by Cash, Cheque, <br/>Online Fund Transfer and Credit Cards</small>
+                <small>We accept Payment by Cash, Cheque,
+                    <br/>Online Fund Transfer and Credit Cards</small>
                 <br/>
                 <ul class="social-network social-circle">
-                    <li><a href="#" class="icoTwitter" title="Visa"><i class="fa fa-cc-visa"></i></a></li>
-                    <li><a href="#" class="icoTwitter" title="Master Card"><i class="	fa fa-cc-mastercard"></i></a></li>
-                    <li><a href="#" class="icoTwitter" title="Google Wallet"><i class="fa fa-google-wallet"></i></a></li>
-                    <li><a href="#" class="icoTwitter" title="PayPal"><i class="fa fa-paypal"></i></a></li>
+                    <li>
+                        <a href="#" class="icoTwitter" title="Visa">
+                            <i class="fa fa-cc-visa"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="icoTwitter" title="Master Card">
+                            <i class="	fa fa-cc-mastercard"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="icoTwitter" title="Google Wallet">
+                            <i class="fa fa-google-wallet"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="icoTwitter" title="PayPal">
+                            <i class="fa fa-paypal"></i>
+                        </a>
+                    </li>
                 </ul>
             </div>
             <div class="col-sm-2">
                 <h3 class="text-left">Company</h3>
                 <ul class="footer-company">
-                    <li><a ui-sref="app.about">About Us</a></li>
-                    <li><a ui-sref="app.home">Courses</a></li>
-                    <li><a ui-sref="app.upcoming_events">Upcoming Events</a></li>
-                    <li><a ui-sref="app.contact">Contact Us</a></li>
-                    <li><a ui-sref="app.terms">Term and conditions</a></li>
-                    <li><a ui-sref="app.accreditations">Accreditation</a></li>
+                    <li>
+                        <a ui-sref="app.about">About Us</a>
+                    </li>
+                    <li>
+                        <a ui-sref="app.home">Courses</a>
+                    </li>
+                    <li>
+                        <a ui-sref="app.upcoming_events">Upcoming Events</a>
+                    </li>
+                    <li>
+                        <a ui-sref="app.contact">Contact Us</a>
+                    </li>
+                    <li>
+                        <a ui-sref="app.terms">Term and conditions</a>
+                    </li>
+                    <li>
+                        <a ui-sref="app.accreditations">Accreditation</a>
+                    </li>
                 </ul>
             </div>
             <div class="col-sm-3">
@@ -209,7 +509,8 @@
                         <input class="form-control" id="email" name="email" placeholder="Email" type="email" ng-model="siteContact.email" required>
                     </div>
                 </div>
-                <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5" ng-model="siteContact.message"></textarea><br>
+                <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5" ng-model="siteContact.message"></textarea>
+                <br>
                 <div class="row">
                     <div class="col-sm-12 form-group">
                         <button class="btn pull-right" ng-class="siteContactSubmit == 'Submit' ? 'btn-primary' :'btn-success'" ng-disabled="siteContactSubmit !== 'Submit'"

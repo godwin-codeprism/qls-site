@@ -1,0 +1,155 @@
+.mobile-menu-container {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9001;
+    background-color: rgba(135, 207, 235, 0.514);
+}
+
+.mobile-menu-panel {
+    width: 75%;
+    height: 100%;
+    padding-top: 60px;
+    background-color: #28394a;
+    box-shadow: 0px 0px 5px black;
+}
+
+.mobile-menu-panel h3 {
+    color: white;
+    margin: 10px 0px;
+    padding: 0px;
+    padding-left: 10px;
+}
+
+.mobile-menu-panel hr {
+    width: 90%;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 10px;
+}
+
+.mobile-menu-list {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    overflow: scroll;
+}
+
+.mobile-menu-list>li {
+    border-bottom: 1px solid #2e3f52;
+}
+
+.mobile-menu-list li a {
+    color: white;
+    display: block;
+    width: inherit;
+    position: relative;
+    line-height: 20px;
+    height: 40px;
+    padding: 10px;
+    transition: all .51s ease;
+}
+
+.mobile-menu-list>li.hovered>a {
+    background-color: #36cde8;
+    color: #2e3f52;
+}
+.dropdown-mobile-submenu.hovered>a{
+    background-color: #0bb8d3;
+    color: #637991;
+}
+.mobile-menu-list a {
+    text-decoration: none !important;
+}
+
+.dropdown-mobile-menu {
+    margin: 0px;
+    padding: 0px;
+}
+
+.dropdown-mobile-menu li {
+    background-color: transparent;
+}
+
+.dropdown-mobile-menu {
+    display: none;
+}
+
+.level-1,
+.level-2,
+.level-3,
+.level-4 {
+    display: none;
+}
+
+.mobile-menu-list>li.hovered .level-1 {
+    display: block;
+    height: 0px;
+    overflow: hidden;
+    transition: all .25s ease-in-out;
+}
+
+.level-1,
+.level-2,
+.level-3,
+.level-4 {
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.52) inset;
+}
+
+.level-1 {
+    background-color: #202f40;
+}
+
+.level-2 {
+    background-color: #182838;
+}
+
+.level-3 {
+    background-color: #122436;
+}
+
+.level-4 {
+    background-color: #0e2031;
+}
+
+.mobile-menu-list>li.hovered .list-1 {
+    animation: slideDown-1 0.5s forwards;
+}
+
+.mobile-menu-list>li.hovered .list-2 {
+    animation: slideDown-2 0.5s forwards;
+}
+
+.mobile-menu-list>li.hovered .list-4 {
+    animation: slideDown-4 0.5s forwards;
+}
+
+@keyframes slideDown-1 {
+    from {
+        height: 0px;
+    }
+    to {
+        height: 40px;
+    }
+}
+
+@keyframes slideDown-2 {
+    from {
+        height: 0px;
+    }
+    to {
+        height: 80px;
+    }
+}
+
+@keyframes slideDown-4 {
+    from {
+        height: 0px;
+    }
+    to {
+        height: 160px;
+    }
+}

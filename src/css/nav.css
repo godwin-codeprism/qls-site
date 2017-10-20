@@ -10,6 +10,7 @@ a{
 .navbar {
     -webkit-transition: all .25s ease-in-out;
     transition: all .25s ease-in-out;
+    z-index: 9003;
 }
 
 .dropdown:hover>.dropdown-menu {
