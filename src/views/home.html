@@ -53,7 +53,7 @@
 </div>
 <div class="container-fluid remove-padding">
     <div class="col-sm-12 remove-padding">
-        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner" role="listbox">
                 <div class="item" ng-repeat="event in events" ng-class="{active:!$index}">
                     <img ng-src="./images/{{event.slider}}.jpg">
@@ -67,7 +67,7 @@
                             <p><i class="fa fa-location-arrow" aria-hidden="true"></i> <b>Location:</b> {{event.location}}</p>
                         </div>
                         <div class="hidden-xs hidden-sm col-md-6 col-lg-4" style="padding-top:15px;">
-                            <a ng-href="{{event.link}}"></a><button class="btn btn-primary btn-block btn-lg" style="font-family:Raleway">Register Now</button>
+                            <a ng-href="{{event.link}}" style="text-decoration: none;"><button class="btn btn-primary btn-block btn-lg" style="font-family:Raleway">Register Now</button></a>
                         </div>
                         <div class="col-xs-12 col-sm-12 hidden-md hidden-lg text-center" style="font-size:medium; padding-top:0px; font-family:Raleway;">
                             <p><i class="fa fa-clipboard" aria-hidden="true"></i> <b>Course:</b> {{event.training}}</p>
@@ -75,7 +75,7 @@
                             <p><i class="fa fa-location-arrow" aria-hidden="true"></i> <b>Location:</b> {{event.location}}</p>
                         </div>
                         <div class="col-xs-12 col-sm-12 hidden-md hidden-lg">
-                            <a ng-href="{{event.link}}"></a><button class="btn btn-primary btn-sm btn-block" style="font-family:Raleway">Register Now</button>
+                            <a ng-href="{{event.link}}" style="text-decoration: none;"><button class="btn btn-primary btn-sm btn-block" style="font-family:Raleway">Register Now</button></a>
                         </div>
                     </div>
                 </div>
