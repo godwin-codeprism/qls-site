@@ -15,12 +15,13 @@
   "license": "MIT",
   "dependencies": {
     "angular": "1.5.8",
-    "angular-animate": "1.5.8",
+    "angular-animate": "^1.5.8",
     "angular-sanitize": "1.5.8",
     "angular-ui-router": "1.0.0-beta.2",
-    "ionicons": "3.0.0",
+    "animate.css": "^3.5.2",
     "bootstrap": "3.3.7",
     "font-awesome": "4.6.3",
+    "ionicons": "3.0.0",
     "jquery": "3.1.0",
     "ng-meta": "1.0.0"
   },

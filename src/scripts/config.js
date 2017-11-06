@@ -6,7 +6,7 @@ var usersTemplate = require('../views/users.html'),
     contactTemplate = require('../views/contact.html'),
     termsTemplate = require('../views/terms.html'),
     accreditationsTemplate = require('../views/accreditations.html');
-angular.module("qls", ["ngSanitize", "ui.router", "ngMeta"])
+angular.module("qls", ["ngSanitize", "ui.router", "ngMeta", "ngAnimate"])
     .config(["$stateProvider", "$urlRouterProvider", "ngMetaProvider", "$locationProvider", function ($stateProvider, $urlRouterProvider, ngMetaProvider, $locationProvider) {
         $stateProvider.decorator('data', ngMetaProvider.mergeNestedStateData);
         $locationProvider.html5Mode(true);
@@ -514,17 +514,18 @@ angular.module("qls", ["ngSanitize", "ui.router", "ngMeta"])
                     disableUpdate: true
                 }
             })
-    }]).run(["$transitions", "$rootScope", "$state", "$location", "$window", "ngMeta", function ( $transitions, $rootScope, t, n, r, ngMeta) {
+    }]).run(["$transitions", "$rootScope", "$state", "$location", "$window", "ngMeta", function ($transitions, $rootScope, t, n, r, ngMeta) {
         ngMeta.init();
-          $transitions.onBefore({}, function (trans) {
-              if (trans.$to().name != 'app'){
-                  $rootScope.enquiryState = true;
-              }else{
-                  $rootScope.enquiryState = false;
-              }
-          })
+        $transitions.onBefore({}, function (trans) {
+            $rootScope.mobileMenuState = false;
+            if (trans.$to().name != 'app') {
+                $rootScope.enquiryState = true;
+            } else {
+                $rootScope.enquiryState = false;
+            }
+        })
         $rootScope.$watch(function () {
-            return n.path()
+            return n.path();
         }, function (e) {
             r.scrollTo(0, 0)
         })

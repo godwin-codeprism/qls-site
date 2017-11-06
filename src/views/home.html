@@ -2,7 +2,7 @@
     <div class="container-fluid">
         <div class="col-md-12 text-center" style="padding-top:4%">
             <!--<img src="../images/logo.png" alt="Qick Learn Systems" width="30%" />-->
-            <div class="container">
+            <div class="container-fluid">
                 <svg id="Layer_1" style="width: 40%;" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 462.09 293.1">
                     <defs>
                         <style>
@@ -132,7 +132,7 @@
             </div>
 
         </div>
-        <div class="container">
+        <div class="container-fluid">
             <div class="col-sm-3" ng-repeat="course in courses | filter:query">
                 <div class="container card">
                     <div class="col-sm-12 card-image">
@@ -156,7 +156,7 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
                 <div class="item" ng-class="{'active': $index == 0}" ng-repeat="testimonial in testimonials" style="height: 200px;">
-                    <div class="container" style="margin-top:2%;">
+                    <div class="container-fluid" style="margin-top:2%;">
                         <div class="row text-center">
                             <div class="col-md-12 c-confes-img">
                                 <img ng-src="{{testimonial.image}}">

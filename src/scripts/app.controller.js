@@ -1,6 +1,7 @@
 angular.module('qls')
     .controller('appController', ['$rootScope', '$scope', 'ngMeta', '$http', function ($rootScope, $scope, ngMeta, $http) {
         $rootScope.enquiryState = false;
+        $rootScope.mobileMenuState = false;
         $scope.coursesList = [
             "Select a course",
             "ITIL Foundation",
@@ -50,5 +51,13 @@ angular.module('qls')
 
         $scope.enquiryToggle = function () {
             $rootScope.enquiryState = $rootScope.enquiryState ? false : true;
+        }
+
+        $scope.mobileMenuToggle = function(){
+            if($rootScope.mobileMenuState){
+                $rootScope.mobileMenuState = false;
+            }else{
+                $rootScope.mobileMenuState = true;
+            }
         }
     }])

@@ -98,3 +98,6 @@ body {
 .remove-padding{
     padding: 0px;
 }
+.courses img{
+    width: 100%;
+}

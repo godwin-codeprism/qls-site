@@ -122,3 +122,19 @@
 .level-4 {
     background-color: #0e2031;
 }
+
+.mobile-menu-container.ng-hide-remove {
+    animation: fadeIn .51s;
+}
+
+.mobile-menu-container.ng-hide {
+    animation: fadeOut .51s;
+}
+
+.mobile-menu-panel.ng-hide-remove {
+    animation: slideInLeft .25s;
+}
+
+.mobile-menu-panel.ng-hide {
+    animation: slideOutLeft .25s;
+}

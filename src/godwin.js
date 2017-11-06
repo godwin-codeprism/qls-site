@@ -48,11 +48,13 @@
 	window.$ = jQuery;
 	window.angular = __webpack_require__(2);
 	__webpack_require__(4);
+	__webpack_require__(101);
 	__webpack_require__(30);
 	__webpack_require__(37);
 	__webpack_require__(43);
 	__webpack_require__(44);
 	__webpack_require__(46);
+	__webpack_require__(99);
 	__webpack_require__(47);
 
 	//css
@@ -51969,7 +51971,7 @@
 
 
 	// module
-	exports.push([module.id, "body {\r\n    background-image: url(" + __webpack_require__(50) + ");\r\n}\r\n\r\n.main-container {\r\n    padding: 0px;\r\n}\r\n\r\n.shadow-container {\r\n    box-shadow: 0px -25px 40px 0px rgba(0, 0, 0, 0.12);\r\n    padding-top: 5%;\r\n}\r\n\r\n.scroller {\r\n    white-space: pre-line;\r\n    overflow-y: hidden;\r\n    position: relative;\r\n}\r\n\r\n.enquiry-container {\r\n    position: fixed;\r\n    top: 24vh;\r\n    z-index: 9000;\r\n    right: -320px;\r\n    transition: all .51s ease-in-out;\r\n}\r\n\r\n.enquiry-label {\r\n    width: 40px;\r\n    height: 140px;\r\n    float: left;\r\n    overflow: hidden;\r\n    background-color: #2c3e50;\r\n    color: white;\r\n    border-radius: 15px 0px 0px 15px;\r\n    box-shadow: 0px -5px 6px rgba(16, 30, 43, 0.15);\r\n    border: 1px solid #799abb;\r\n    cursor: pointer;\r\n    transition: all .51s ease;\r\n}\r\n\r\n.enquiry-open {\r\n    right: 0px;\r\n}\r\n\r\n.enquiry-close {\r\n    right: -320px;\r\n}\r\n\r\n.enquiry-label:hover {\r\n    background-color: #2c3e50;\r\n}\r\n\r\n.enquiry-label p {\r\n    width: 140px;\r\n    position: absolute;\r\n    left: -49px;\r\n    top: 45px;\r\n    transform: rotate(-90deg);\r\n    font-family: Raleway;\r\n    letter-spacing: 2px;\r\n    text-transform: uppercase;\r\n    font-size: large;\r\n}\r\n\r\n.enquiry-form-container {\r\n    width: 320px;\r\n    min-height: 420px;\r\n    padding-top: 15px;\r\n    float: left;\r\n    background-color: white;\r\n    border-radius: 0px 0px 0px 5px;\r\n    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);\r\n}\r\n\r\n.form-hide {\r\n    position: absolute;\r\n    width: 89%;\r\n    height: 100%;\r\n    z-index: 1;\r\n    background-color: rgba(245, 245, 245, 0.82);\r\n    top: 0;\r\n    right: 0;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n    animation: zoomIn .25s ease;\r\n}\r\n.popular-courses{\r\n    list-style: none;\r\n    padding: 0px;\r\n}\r\n.popular-courses a{\r\n    color: #2c3e50;\r\n    font-size: large;\r\n}\r\n\r\n.remove-padding{\r\n    padding: 0px;\r\n}", ""]);
+	exports.push([module.id, "body {\r\n    background-image: url(" + __webpack_require__(50) + ");\r\n}\r\n\r\n.main-container {\r\n    padding: 0px;\r\n}\r\n\r\n.shadow-container {\r\n    box-shadow: 0px -25px 40px 0px rgba(0, 0, 0, 0.12);\r\n    padding-top: 5%;\r\n}\r\n\r\n.scroller {\r\n    white-space: pre-line;\r\n    overflow-y: hidden;\r\n    position: relative;\r\n}\r\n\r\n.enquiry-container {\r\n    position: fixed;\r\n    top: 24vh;\r\n    z-index: 9000;\r\n    right: -320px;\r\n    transition: all .51s ease-in-out;\r\n}\r\n\r\n.enquiry-label {\r\n    width: 40px;\r\n    height: 140px;\r\n    float: left;\r\n    overflow: hidden;\r\n    background-color: #2c3e50;\r\n    color: white;\r\n    border-radius: 15px 0px 0px 15px;\r\n    box-shadow: 0px -5px 6px rgba(16, 30, 43, 0.15);\r\n    border: 1px solid #799abb;\r\n    cursor: pointer;\r\n    transition: all .51s ease;\r\n}\r\n\r\n.enquiry-open {\r\n    right: 0px;\r\n}\r\n\r\n.enquiry-close {\r\n    right: -320px;\r\n}\r\n\r\n.enquiry-label:hover {\r\n    background-color: #2c3e50;\r\n}\r\n\r\n.enquiry-label p {\r\n    width: 140px;\r\n    position: absolute;\r\n    left: -49px;\r\n    top: 45px;\r\n    transform: rotate(-90deg);\r\n    font-family: Raleway;\r\n    letter-spacing: 2px;\r\n    text-transform: uppercase;\r\n    font-size: large;\r\n}\r\n\r\n.enquiry-form-container {\r\n    width: 320px;\r\n    min-height: 420px;\r\n    padding-top: 15px;\r\n    float: left;\r\n    background-color: white;\r\n    border-radius: 0px 0px 0px 5px;\r\n    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);\r\n}\r\n\r\n.form-hide {\r\n    position: absolute;\r\n    width: 89%;\r\n    height: 100%;\r\n    z-index: 1;\r\n    background-color: rgba(245, 245, 245, 0.82);\r\n    top: 0;\r\n    right: 0;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n    animation: zoomIn .25s ease;\r\n}\r\n.popular-courses{\r\n    list-style: none;\r\n    padding: 0px;\r\n}\r\n.popular-courses a{\r\n    color: #2c3e50;\r\n    font-size: large;\r\n}\r\n\r\n.remove-padding{\r\n    padding: 0px;\r\n}\r\n.courses img{\r\n    width: 100%;\r\n}", ""]);
 
 	// exports
 
@@ -52405,7 +52407,7 @@
 
 
 	// module
-	exports.push([module.id, ".mobile-menu-container {\r\n    width: 100%;\r\n    height: 100%;\r\n    position: fixed;\r\n    top: 0;\r\n    left: 0;\r\n    z-index: 9001;\r\n    background-color: rgba(135, 207, 235, 0.514);\r\n}\r\n\r\n.mobile-menu-panel {\r\n    width: 75%;\r\n    height: 100%;\r\n    padding-top: 60px;\r\n    background-color: #28394a;\r\n    box-shadow: 0px 0px 5px black;\r\n}\r\n\r\n.mobile-menu-panel h3 {\r\n    color: white;\r\n    margin: 10px 0px;\r\n    padding: 0px;\r\n    padding-left: 10px;\r\n}\r\n\r\n.mobile-menu-panel hr {\r\n    width: 90%;\r\n    margin: 0px;\r\n    padding: 0px;\r\n    margin-left: 10px;\r\n}\r\n\r\n.mobile-menu-list {\r\n    overflow: scroll;\r\n    height: 100%;\r\n    padding: 0px;\r\n}\r\n\r\n.mobile-menu-list>li {\r\n    list-style: none;\r\n    border-bottom: 1px solid #2e3f52;\r\n    cursor: pointer;\r\n}\r\n\r\n.mobile-menu-list li a {\r\n    color: white;\r\n    display: block;\r\n    width: inherit;\r\n    position: relative;\r\n    line-height: 20px;\r\n    height: 40px;\r\n    padding: 10px;\r\n    transition: all .51s ease;\r\n}\r\n\r\n.godwin {\r\n    background-color: #28394A;\r\n}\r\n\r\n.mobile-menu-list>li>a:hover {\r\n    background-color: #36cde8;\r\n    color: #2e3f52;\r\n}\r\n\r\n.dropdown-mobile-submenu>a:hover {\r\n    background-color: #0bb8d3;\r\n    color: #637991;\r\n}\r\n\r\n.mobile-menu-list a {\r\n    text-decoration: none !important;\r\n}\r\n\r\n.dropdown-mobile-menu {\r\n    margin: 0px;\r\n    padding: 0px;\r\n}\r\n\r\n.dropdown-mobile-menu li {\r\n    background-color: transparent;\r\n}\r\n\r\n.level-1,\r\n.level-2,\r\n.level-3,\r\n.level-4 {\r\n    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.52) inset;\r\n}\r\n\r\n.level-1 a:before {\r\n    content: \"  \";\r\n    white-space: pre;\r\n}\r\n\r\n.level-2 a:before {\r\n    content: \"    \";\r\n    white-space: pre;\r\n}\r\n\r\n.level-3 a:before {\r\n    content: \"      \";\r\n    white-space: pre;\r\n}\r\n\r\n.level-4 a:before {\r\n    content: \"        \";\r\n    white-space: pre;\r\n}\r\n\r\n.level-1 {\r\n    background-color: #202f40;\r\n}\r\n\r\n.level-2 {\r\n    background-color: #182838;\r\n}\r\n\r\n.level-3 {\r\n    background-color: #122436;\r\n}\r\n\r\n.level-4 {\r\n    background-color: #0e2031;\r\n}", ""]);
+	exports.push([module.id, ".mobile-menu-container {\r\n    width: 100%;\r\n    height: 100%;\r\n    position: fixed;\r\n    top: 0;\r\n    left: 0;\r\n    z-index: 9001;\r\n    background-color: rgba(135, 207, 235, 0.514);\r\n}\r\n\r\n.mobile-menu-panel {\r\n    width: 75%;\r\n    height: 100%;\r\n    padding-top: 60px;\r\n    background-color: #28394a;\r\n    box-shadow: 0px 0px 5px black;\r\n}\r\n\r\n.mobile-menu-panel h3 {\r\n    color: white;\r\n    margin: 10px 0px;\r\n    padding: 0px;\r\n    padding-left: 10px;\r\n}\r\n\r\n.mobile-menu-panel hr {\r\n    width: 90%;\r\n    margin: 0px;\r\n    padding: 0px;\r\n    margin-left: 10px;\r\n}\r\n\r\n.mobile-menu-list {\r\n    overflow: scroll;\r\n    height: 100%;\r\n    padding: 0px;\r\n}\r\n\r\n.mobile-menu-list>li {\r\n    list-style: none;\r\n    border-bottom: 1px solid #2e3f52;\r\n    cursor: pointer;\r\n}\r\n\r\n.mobile-menu-list li a {\r\n    color: white;\r\n    display: block;\r\n    width: inherit;\r\n    position: relative;\r\n    line-height: 20px;\r\n    height: 40px;\r\n    padding: 10px;\r\n    transition: all .51s ease;\r\n}\r\n\r\n.godwin {\r\n    background-color: #28394A;\r\n}\r\n\r\n.mobile-menu-list>li>a:hover {\r\n    background-color: #36cde8;\r\n    color: #2e3f52;\r\n}\r\n\r\n.dropdown-mobile-submenu>a:hover {\r\n    background-color: #0bb8d3;\r\n    color: #637991;\r\n}\r\n\r\n.mobile-menu-list a {\r\n    text-decoration: none !important;\r\n}\r\n\r\n.dropdown-mobile-menu {\r\n    margin: 0px;\r\n    padding: 0px;\r\n}\r\n\r\n.dropdown-mobile-menu li {\r\n    background-color: transparent;\r\n}\r\n\r\n.level-1,\r\n.level-2,\r\n.level-3,\r\n.level-4 {\r\n    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.52) inset;\r\n}\r\n\r\n.level-1 a:before {\r\n    content: \"  \";\r\n    white-space: pre;\r\n}\r\n\r\n.level-2 a:before {\r\n    content: \"    \";\r\n    white-space: pre;\r\n}\r\n\r\n.level-3 a:before {\r\n    content: \"      \";\r\n    white-space: pre;\r\n}\r\n\r\n.level-4 a:before {\r\n    content: \"        \";\r\n    white-space: pre;\r\n}\r\n\r\n.level-1 {\r\n    background-color: #202f40;\r\n}\r\n\r\n.level-2 {\r\n    background-color: #182838;\r\n}\r\n\r\n.level-3 {\r\n    background-color: #122436;\r\n}\r\n\r\n.level-4 {\r\n    background-color: #0e2031;\r\n}\r\n\r\n.mobile-menu-container.ng-hide-remove {\r\n    animation: fadeIn .51s;\r\n}\r\n\r\n.mobile-menu-container.ng-hide {\r\n    animation: fadeOut .51s;\r\n}\r\n\r\n.mobile-menu-panel.ng-hide-remove {\r\n    animation: slideInLeft .25s;\r\n}\r\n\r\n.mobile-menu-panel.ng-hide {\r\n    animation: slideOutLeft .25s;\r\n}", ""]);
 
 	// exports
 
@@ -52422,7 +52424,7 @@
 	    contactTemplate = __webpack_require__(89),
 	    termsTemplate = __webpack_require__(90),
 	    accreditationsTemplate = __webpack_require__(92);
-	angular.module("qls", ["ngSanitize", "ui.router", "ngMeta"])
+	angular.module("qls", ["ngSanitize", "ui.router", "ngMeta", "ngAnimate"])
 	    .config(["$stateProvider", "$urlRouterProvider", "ngMetaProvider", "$locationProvider", function ($stateProvider, $urlRouterProvider, ngMetaProvider, $locationProvider) {
 	        $stateProvider.decorator('data', ngMetaProvider.mergeNestedStateData);
 	        $locationProvider.html5Mode(true);
@@ -52930,17 +52932,18 @@
 	                    disableUpdate: true
 	                }
 	            })
-	    }]).run(["$transitions", "$rootScope", "$state", "$location", "$window", "ngMeta", function ( $transitions, $rootScope, t, n, r, ngMeta) {
+	    }]).run(["$transitions", "$rootScope", "$state", "$location", "$window", "ngMeta", function ($transitions, $rootScope, t, n, r, ngMeta) {
 	        ngMeta.init();
-	          $transitions.onBefore({}, function (trans) {
-	              if (trans.$to().name != 'app'){
-	                  $rootScope.enquiryState = true;
-	              }else{
-	                  $rootScope.enquiryState = false;
-	              }
-	          })
+	        $transitions.onBefore({}, function (trans) {
+	            $rootScope.mobileMenuState = false;
+	            if (trans.$to().name != 'app') {
+	                $rootScope.enquiryState = true;
+	            } else {
+	                $rootScope.enquiryState = false;
+	            }
+	        })
 	        $rootScope.$watch(function () {
-	            return n.path()
+	            return n.path();
 	        }, function (e) {
 	            r.scrollTo(0, 0)
 	        })
@@ -52950,7 +52953,7 @@
 /* 77 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = "<nav class=\"navbar navbar-default navbar-fixed-top\" role=\"navigation\">\r\n    <div class=\"container-fluid\">\r\n        <div class=\"navbar-header\">\r\n            <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\"#myNavbar\">\r\n                <span class=\"icon-bar\"></span>\r\n                <span class=\"icon-bar\"></span>\r\n                <span class=\"icon-bar\"></span>\r\n            </button>\r\n            <a class=\"navbar-brand\" style=\"padding-top:10px;\" ui-sref=\"app.home\">\r\n                <img src=\"" + __webpack_require__(78) + "\" alt=\"Quick LearnSystems\">\r\n            </a>\r\n        </div>\r\n        <div class=\"collapse navbar-collapse\">\r\n            <ul class=\"nav navbar-nav\">\r\n                <li>\r\n                    <a ui-sref=\"app.home\">Home</a>\r\n                </li>\r\n                <li class=\"dropdown\">\r\n                    <a aria-expanded=\"false\">\r\n                        About\r\n                        <span class=\"caret\"></span>\r\n                    </a>\r\n                    <ul class=\"dropdown-menu dropdown-intial\">\r\n                        <li>\r\n                            <a ui-sref=\"app.about\">Mission /Vision</a>\r\n                        </li>\r\n                    </ul>\r\n                </li>\r\n                <li class=\"dropdown\">\r\n                    <a aria-expanded=\"false\">Classroom Courses\r\n                        <span class=\"caret\"></span>\r\n                    </a>\r\n                    <ul class=\"dropdown-menu dropdown-intial\">\r\n                        <li class=\"dropdown-submenu\">\r\n                            <a>Service Management</a>\r\n                            <ul class=\"dropdown-menu dropdown-intial\">\r\n                                <li>\r\n                                    <a ui-sref=\"app.itil_foundation\">ITIL Foundation</a>\r\n                                </li>\r\n                                <li class=\"dropdown-submenu\">\r\n                                    <a ui-sref=\"app.itil_intermediate\">ITIL Intermediate</a>\r\n                                    <ul class=\"dropdown-menu dropdown-intial\">\r\n                                        <li class=\"dropdown-submenu\">\r\n                                            <a>ITIL Lifecycle Modules</a>\r\n                                            <ul class=\"dropdown-menu dropdown-intial\">\r\n                                                <li>\r\n                                                    <a ui-sref=\"app.service_strategy\">ITIL Service Strategy</a>\r\n                                                </li>\r\n                                                <li>\r\n                                                    <a ui-sref=\"app.service_design\">ITIL Service Design</a>\r\n                                                </li>\r\n                                                <li>\r\n                                                    <a ui-sref=\"app.service_transition\">ITIL Service Transition</a>\r\n                                                </li>\r\n                                                <li>\r\n                                                    <a ui-sref=\"app.service_operation\">ITIL Service Operation</a>\r\n                                                </li>\r\n                                                <li>\r\n                                                    <a ui-sref=\"app.continual_service\">ITIL Continual Service Improvement</a>\r\n                                                </li>\r\n                                            </ul>\r\n                                        </li>\r\n                                        <li class=\"dropdown-submenu\">\r\n                                            <a>ITIL Capability Module</a>\r\n                                            <ul class=\"dropdown-menu dropdown-intial\">\r\n                                                <li>\r\n                                                    <a ui-sref=\"app.soa\">ITIL Service, Offering and Agreement (SOA)</a>\r\n                                                </li>\r\n                                                <li>\r\n                                                    <a ui-sref=\"app.ppo\">ITIL Planning, Protection and Optimization (PPO)</a>\r\n                                                </li>\r\n                                                <li>\r\n                                                    <a ui-sref=\"app.rcv\">ITIL Release, Control and Validation (RCV)</a>\r\n                                                </li>\r\n                                                <li>\r\n                                                    <a ui-sref=\"app.osa\">ITIL Operational, Support and Analysis (OSA)</a>\r\n                                                </li>\r\n                                            </ul>\r\n                                        </li>\r\n                                    </ul>\r\n                                </li>\r\n                                <li class=\"dropdown-submenu\">\r\n                                    <a>ITIL Expert</a>\r\n                                    <ul class=\"dropdown-menu dropdown-intial\">\r\n                                        <li>\r\n                                            <a ui-sref=\"app.malc\">ITIL\r\n                                                <sup>&reg;</sup> Managing Across The Lifecycle</a>\r\n                                        </li>\r\n                                    </ul>\r\n                                </li>\r\n                                <li>\r\n                                    <a ui-sref=\"app.siam\">SIAM Foundation</a>\r\n                                </li>\r\n                            </ul>\r\n                        </li>\r\n                        <li class=\"dropdown-submenu\">\r\n                            <a>Project &amp; Program Management</a>\r\n                            <ul class=\"dropdown-menu dropdown-intial\">\r\n                                <li>\r\n                                    <a ui-sref=\"app.capm\">CAPM</a>\r\n                                </li>\r\n                                <li>\r\n                                    <a ui-sref=\"app.pmp\">PMP</a>\r\n                                </li>\r\n                                <li>\r\n                                    <a ui-sref=\"app.acp\">ACP</a>\r\n                                </li>\r\n                                <li>\r\n                                    <a ui-sref=\"app.prince2foundation\">Prince2 Foundation</a>\r\n                                </li>\r\n                                <li>\r\n                                    <a ui-sref=\"app.prince2practitioner\">Prince2 Practitioner</a>\r\n                                </li>\r\n                                <li>\r\n                                    <a ui-sref=\"app.prince2agile\">Prince2 Agile</a>\r\n                                </li>\r\n                                <li>\r\n                                    <a ui-sref=\"app.scrum\">Scrum Master</a>\r\n                                </li>\r\n                                <li>\r\n                                    <a ui-sref=\"app.msp\">Managing Successful Programs</a>\r\n                                </li>\r\n                                <li>\r\n                                    <a ui-sref=\"app.safe\">SAFe 4.5 (SAFe Agilist)</a>\r\n                                </li>\r\n                                <li>\r\n                                    <a ui-sref=\"app.dev_ops\">DevOps Master</a>\r\n                                </li>\r\n                            </ul>\r\n                        </li>\r\n                        <li class=\"dropdown-submenu\">\r\n                            <a>Quality Management</a>\r\n                            <ul class=\"dropdown-menu dropdown-intial\">\r\n                                <li>\r\n                                    <a ui-sref=\"app.green_belt\">Lean Six Sigma Green Belt</a>\r\n                                </li>\r\n                                <li>\r\n                                    <a ui-sref=\"app.black_belt\">Lean Six Sigma Black Belt</a>\r\n                                </li>\r\n                            </ul>\r\n                        </li>\r\n                        <li class=\"dropdown-submenu\">\r\n                            <a>IT Governance &amp; Architecture</a>\r\n                            <ul class=\"dropdown-menu dropdown-intial\">\r\n                                <li>\r\n                                    <a ui-sref=\"app.cobit\">COBIT 5 Foundation</a>\r\n                                </li>\r\n                                <li>\r\n                                    <a ui-sref=\"app.togaf\">TOGAF 9.1 Level 1 &amp; Level 2</a>\r\n                                </li>\r\n                            </ul>\r\n                        </li>\r\n                    </ul>\r\n                </li>\r\n                <li>\r\n                    <a ui-sref=\"app.upcoming_events\">Upcoming Events</a>\r\n                </li>\r\n                <li>\r\n                    <a ui-sref=\"app.services\">Services</a>\r\n                </li>\r\n                <li>\r\n                    <a ui-sref=\"app.contact\">Contact Us</a>\r\n                </li>\r\n            </ul>\r\n        </div>\r\n    </div>\r\n</nav>\r\n<div class=\"mobile-menu-container\">\r\n    <div class=\"mobile-menu-panel\">\r\n        <h3>Menu</h3>\r\n        <hr>\r\n        <ul class=\"mobile-menu-list\">\r\n            <li>\r\n                <a ui-sref=\"app.home\">Home</a>\r\n            </li>\r\n            <li class=\"dropdown-mobile\">\r\n                <a aria-expanded=\"false\" data-toggle=\"collapse\" data-target=\"#li-About\">About\r\n                    <span class=\"caret\"></span>\r\n                </a>\r\n                <ul class=\"dropdown-mobile-menu dropdown-mobile-intial level-1 list-1 panel-collapse collapse\" id=\"li-About\">\r\n                    <li>\r\n                        <a ui-sref=\"app.about\">Mission /Vision</a>\r\n                    </li>\r\n                </ul>\r\n            </li>\r\n            <li class=\"dropdown-mobile\">\r\n                <a aria-expanded=\"false\" data-toggle=\"collapse\" data-target=\"#li-Classroom\">Classroom Courses\r\n                    <span class=\"caret\"></span>\r\n                </a>\r\n                <ul class=\"dropdown-mobile-menu dropdown-mobile-intial level-1 list-4 panel-collapse collapse\" id=\"li-Classroom\">\r\n                    <li class=\"dropdown-mobile-submenu\">\r\n                        <a data-toggle=\"collapse\" data-target=\"#li-ServiceManagement\">Service Management\r\n                            <span class=\"caret\"></span>\r\n                        </a>\r\n                        <ul class=\"dropdown-mobile-menu dropdown-mobile-intial level-2 list-4 panel-collapse collapse\" id=\"li-ServiceManagement\">\r\n                            <li>\r\n                                <a ui-sref=\"app.itil_foundation\">ITIL Foundation</a>\r\n                            </li>\r\n                            <li class=\"dropdown-mobile-submenu\">\r\n                                <a ui-sref=\"app.itil_intermediate\" data-toggle=\"collapse\" data-target=\"#li-Intermediate\">ITIL Intermediate\r\n                                    <span class=\"caret\"></span>\r\n                                </a>\r\n                                <ul class=\"dropdown-mobile-menu dropdown-mobile-intial level-3 list-2 panel-collapse collapse\" id=\"li-Intermediate\">\r\n                                    <li class=\"dropdown-mobile-submenu\">\r\n                                        <a data-toggle=\"collapse\" data-target=\"#li-LifecycleModules\">ITIL Lifecycle Modules\r\n                                            <span class=\"caret\"></span>\r\n                                        </a>\r\n                                        <ul class=\"dropdown-mobile-menu dropdown-mobile-intial level-4 list-5 panel-collapse collapse\" id=\"li-LifecycleModules\">\r\n                                            <li>\r\n                                                <a ui-sref=\"app.service_strategy\">ITIL Service Strategy</a>\r\n                                            </li>\r\n                                            <li>\r\n                                                <a ui-sref=\"app.service_design\">ITIL Service Design</a>\r\n                                            </li>\r\n                                            <li>\r\n                                                <a ui-sref=\"app.service_transition\">ITIL Service Transition</a>\r\n                                            </li>\r\n                                            <li>\r\n                                                <a ui-sref=\"app.service_operation\">ITIL Service Operation</a>\r\n                                            </li>\r\n                                            <li>\r\n                                                <a ui-sref=\"app.continual_service\">ITIL Continual Service Improvement</a>\r\n                                            </li>\r\n                                        </ul>\r\n                                    </li>\r\n                                    <li class=\"dropdown-mobile-submenu\">\r\n                                        <a data-toggle=\"collapse\" data-target=\"#li-CapabilityModule\">ITIL Capability Module\r\n                                            <span class=\"caret\"></span>\r\n                                        </a>\r\n                                        <ul class=\"dropdown-mobile-menu dropdown-mobile-intial level-4 list-4 panel-collapse collapse\" id=\"li-CapabilityModule\">\r\n                                            <li>\r\n                                                <a ui-sref=\"app.soa\">ITIL Service, Offering and Agreement (SOA)</a>\r\n                                            </li>\r\n                                            <li>\r\n                                                <a ui-sref=\"app.ppo\">ITIL Planning, Protection and Optimization (PPO)</a>\r\n                                            </li>\r\n                                            <li>\r\n                                                <a ui-sref=\"app.rcv\">ITIL Release, Control and Validation (RCV)</a>\r\n                                            </li>\r\n                                            <li>\r\n                                                <a ui-sref=\"app.osa\">ITIL Operational, Support and Analysis (OSA)</a>\r\n                                            </li>\r\n                                        </ul>\r\n                                    </li>\r\n                                </ul>\r\n                            </li>\r\n                            <li class=\"dropdown-mobile-submenu\">\r\n                                <a data-toggle=\"collapse\" data-target=\"#li-ITILExpert\">ITIL Expert\r\n                                    <span class=\"caret\"></span>\r\n                                </a>\r\n                                <ul class=\"dropdown-mobile-menu dropdown-mobile-intial level-3 list-1 panel-collapse collapse\" id=\"li-ITILExpert\">\r\n                                    <li>\r\n                                        <a ui-sref=\"app.malc\">ITIL\r\n                                            <sup>&reg;</sup> Managing Across The Lifecycle</a>\r\n                                    </li>\r\n                                </ul>\r\n                            </li>\r\n                            <li>\r\n                                <a ui-sref=\"app.siam\">SIAM Foundation</a>\r\n                            </li>\r\n                        </ul>\r\n                    </li>\r\n                    <li class=\"dropdown-mobile-submenu\">\r\n                        <a data-toggle=\"collapse\" data-target=\"#li-ProjectProgramManagement\">Project & Program Management\r\n                            <span class=\"caret\"></span>\r\n                        </a>\r\n                        <ul class=\"dropdown-mobile-menu dropdown-mobile-intial level-2 list-10 panel-collapse collapse\" id=\"li-ProjectProgramManagement\">\r\n                            <li>\r\n                                <a ui-sref=\"app.capm\">CAPM</a>\r\n                            </li>\r\n                            <li>\r\n                                <a ui-sref=\"app.pmp\">PMP</a>\r\n                            </li>\r\n                            <li>\r\n                                <a ui-sref=\"app.acp\">ACP</a>\r\n                            </li>\r\n                            <li>\r\n                                <a ui-sref=\"app.prince2foundation\">Prince2 Foundation</a>\r\n                            </li>\r\n                            <li>\r\n                                <a ui-sref=\"app.prince2practitioner\">Prince2 Practitioner</a>\r\n                            </li>\r\n                            <li>\r\n                                <a ui-sref=\"app.prince2agile\">Prince2 Agile</a>\r\n                            </li>\r\n                            <li>\r\n                                <a ui-sref=\"app.scrum\">Scrum Master</a>\r\n                            </li>\r\n                            <li>\r\n                                <a ui-sref=\"app.msp\">Managing Successful Programs</a>\r\n                            </li>\r\n                            <li>\r\n                                <a ui-sref=\"app.safe\">SAFe 4.5 (SAFe Agilist)</a>\r\n                            </li>\r\n                            <li>\r\n                                <a ui-sref=\"app.dev_ops\">DevOps Master</a>\r\n                            </li>\r\n                        </ul>\r\n                    </li>\r\n                    <li class=\"dropdown-mobile-submenu\">\r\n                        <a data-toggle=\"collapse\" data-target=\"#li-QualityManagement\">Quality Management\r\n                            <span class=\"caret\"></span>\r\n                        </a>\r\n                        <ul class=\"dropdown-mobile-menu dropdown-mobile-intial level-2 list-2 panel-collapse collapse\" id=\"li-QualityManagement\">\r\n                            <li>\r\n                                <a ui-sref=\"app.green_belt\">Lean Six Sigma Green Belt</a>\r\n                            </li>\r\n                            <li>\r\n                                <a ui-sref=\"app.black_belt\">Lean Six Sigma Black Belt</a>\r\n                            </li>\r\n                        </ul>\r\n                    </li>\r\n                    <li class=\"dropdown-mobile-submenu\">\r\n                        <a data-toggle=\"collapse\" data-target=\"#li-ITGovernanceArchitecture\">IT Governance & Architecture\r\n                            <span class=\"caret\"></span>\r\n                        </a>\r\n                        <ul class=\"dropdown-mobile-menu dropdown-mobile-intial level-2 list-2 panel-collapse collapse\" id=\"li-ITGovernanceArchitecture\">\r\n                            <li>\r\n                                <a ui-sref=\"app.cobit\">COBIT 5 Foundation</a>\r\n                            </li>\r\n                            <li>\r\n                                <a ui-sref=\"app.togaf\">TOGAF 9.1 Level 1 &amp; Level 2</a>\r\n                            </li>\r\n                        </ul>\r\n                    </li>\r\n                </ul>\r\n            </li>\r\n            <li>\r\n                <a ui-sref=\"app.upcoming_events\">Upcoming Events</a>\r\n            </li>\r\n            <li>\r\n                <a ui-sref=\"app.services\">Services</a>\r\n            </li>\r\n            <li>\r\n                <a ui-sref=\"app.contact\">Contact Us</a>\r\n            </li>\r\n        </ul>\r\n    </div>\r\n</div>\r\n<div class=\"enquiry-container\" ng-class=\"enquiryState ? 'enquiry-open' : 'enquiry-close'\">\r\n    <div class=\"enquiry-label\" ng-click=\"enquiryToggle()\">\r\n        <p>\r\n            <i class=\"fa fa-question-circle\" aria-hidden=\"true\"></i> Enquiry</p>\r\n    </div>\r\n    <div class=\"enquiry-form-container\">\r\n        <div class=\"container-fluid\">\r\n            <form class=\"form-horizontal\">\r\n                <div class=\"form-group\">\r\n                    <div class=\"col-sm-12\">\r\n                        <input type=\"text\" ng-model=\"siteContact.fullname\" class=\"form-control\" id=\"fullName\" placeholder=\"Full Name\" required>\r\n                    </div>\r\n                </div>\r\n                <div class=\"form-group\">\r\n                    <div class=\"col-sm-12\">\r\n                        <input type=\"text\" ng-model=\"siteContact.email\" class=\"form-control\" id=\"email\" placeholder=\"Email\" required>\r\n                    </div>\r\n                </div>\r\n                <div class=\"form-group\">\r\n                    <div class=\"col-sm-12\">\r\n                        <input type=\"text\" ng-model=\"siteContact.mobile\" class=\"form-control\" id=\"mobile\" placeholder=\"Mobile Number\">\r\n                    </div>\r\n                </div>\r\n                <div class=\"form-group\">\r\n                    <div class=\"col-sm-12\">\r\n                        <select class=\"form-control\" id=\"select\" ng-model=\"siteContact.courseInterested\" ng-init=\"siteContact.courseInterested = coursesList[0]\">\r\n                            <option ng-repeat=\"course in coursesList\" ng-disabled=\"$index == 0\" value=\"{{course}}\">{{course}}</option>\r\n                        </select>\r\n                    </div>\r\n                </div>\r\n                <div class=\"form-group\">\r\n                    <div class=\"col-sm-12\">\r\n                        <textarea class=\"form-control\" rows=\"3\" id=\"textArea\" placeholder=\"Your Remarks\" ng-model=\"siteContact.message\"></textarea>\r\n                    </div>\r\n                </div>\r\n                <div class=\"form-group\">\r\n                    <div class=\"col-sm-12 text-center\">\r\n                        <button class=\"btn pull-right\" ng-class=\"siteContactSubmit == 'Submit' ? 'btn-primary' :'btn-success'\" ng-disabled=\"siteContactSubmit !== 'Submit'\"\r\n                            type=\"submit\" ng-click=\"contactSubmit()\">{{siteContactSubmit}}</button>\r\n                    </div>\r\n                </div>\r\n            </form>\r\n            <div class=\"form-hide\" ng-hide=\"siteContactSubmit == 'Submit'\">\r\n                <div class=\"panel panel-default\" style=\"width:80%;\">\r\n                    <div class=\"panel-heading text-center\" style=\"line-height:0px;\">\r\n                        <h3 class=\"text-success\">\r\n                            <i class=\"ion-ios-checkmark-outline text-success\"></i> Message Sent</h3>\r\n                    </div>\r\n                    <div class=\"panel-body text-center\">\r\n                        <p>Thank you for contacting\r\n                            <br>QuickLearn Systems.\r\n                            <br>\r\n                            <br> A team member will be in touch with you shortly.</p>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n<ui-view></ui-view>\r\n<footer class=\"container-fluid text-center\" style=\"padding:0px\">\r\n    <div class=\"container-fluid\">\r\n        <div class=\"row\">\r\n            <div class=\"col-sm-3\">\r\n                <div class=\"container-fluid text-left\" style=\"font-size:small\">\r\n                    <h3>Popular Courses</h3>\r\n                    <ul class=\"popular-courses\">\r\n                        <li>\r\n                            <a ui-sref=\"app.itil_foundation\">ITIL Foundation</a>\r\n                        </li>\r\n                        <li>\r\n                            <a ui-sref=\"app.pmp\">PMP</a>\r\n                        </li>\r\n                        <li>\r\n                            <a ui-sref=\"app.prince2foundation\">Prince2</a>\r\n                        </li>\r\n                        <li>\r\n                            <a ui-sref=\"app.dev_ops\">DevOps Master</a>\r\n                        </li>\r\n                        <li>\r\n                            <a ui-sref=\"app.scrum\">Scrum Master</a>\r\n                        </li>\r\n                        <li>\r\n                            <a ui-sref=\"app.safe\">Safe Agile</a>\r\n                        </li>\r\n                        <li>\r\n                            <a ui-sref=\"app.green_belt\">Lean Six Sigm Green Belt</a>\r\n                        </li>\r\n                    </ul>\r\n                </div>\r\n            </div>\r\n            <div class=\"col-sm-4\">\r\n                <h3 class=\"text-center\">Finds us on</h3>\r\n                <ul class=\"social-network social-circle\">\r\n                    <!--<li><a href=\"#\" class=\"icoRss\" title=\"Rss\"><i class=\"fa fa-rss\"></i></a></li>-->\r\n                    <li>\r\n                        <a href=\"https://www.facebook.com/QuickLearn-Systems-860154054085242\" class=\"icoFacebook\" title=\"Facebook\">\r\n                            <i class=\"fa fa-facebook\"></i>\r\n                        </a>\r\n                    </li>\r\n                    <li>\r\n                        <a href=\"https://twitter.com/quicklearnsys\" class=\"icoTwitter\" title=\"Twitter\">\r\n                            <i class=\"fa fa-twitter\"></i>\r\n                        </a>\r\n                    </li>\r\n                    <li>\r\n                        <a href=\"https://plus.google.com/109738846000587914274\" class=\"icoGoogle\" title=\"Google +\">\r\n                            <i class=\"fa fa-google-plus\"></i>\r\n                        </a>\r\n                    </li>\r\n                    <li>\r\n                        <a href=\"https://in.linkedin.com/in/quicklearn-systems-1494ba12a\" class=\"icoLinkedin\" title=\"Linkedin\">\r\n                            <i class=\"fa fa-linkedin\"></i>\r\n                        </a>\r\n                    </li>\r\n                </ul>\r\n                <h3 class=\"text-center\">Payment Options</h3>\r\n                <small>We accept Payment by Cash, Cheque,\r\n                    <br/>Online Fund Transfer and Credit Cards</small>\r\n                <br/>\r\n                <ul class=\"social-network social-circle\">\r\n                    <li>\r\n                        <a href=\"#\" class=\"icoTwitter\" title=\"Visa\">\r\n                            <i class=\"fa fa-cc-visa\"></i>\r\n                        </a>\r\n                    </li>\r\n                    <li>\r\n                        <a href=\"#\" class=\"icoTwitter\" title=\"Master Card\">\r\n                            <i class=\"\tfa fa-cc-mastercard\"></i>\r\n                        </a>\r\n                    </li>\r\n                    <li>\r\n                        <a href=\"#\" class=\"icoTwitter\" title=\"Google Wallet\">\r\n                            <i class=\"fa fa-google-wallet\"></i>\r\n                        </a>\r\n                    </li>\r\n                    <li>\r\n                        <a href=\"#\" class=\"icoTwitter\" title=\"PayPal\">\r\n                            <i class=\"fa fa-paypal\"></i>\r\n                        </a>\r\n                    </li>\r\n                </ul>\r\n            </div>\r\n            <div class=\"col-sm-2\">\r\n                <h3 class=\"text-left\">Company</h3>\r\n                <ul class=\"footer-company\">\r\n                    <li>\r\n                        <a ui-sref=\"app.about\">About Us</a>\r\n                    </li>\r\n                    <li>\r\n                        <a ui-sref=\"app.home\">Courses</a>\r\n                    </li>\r\n                    <li>\r\n                        <a ui-sref=\"app.upcoming_events\">Upcoming Events</a>\r\n                    </li>\r\n                    <li>\r\n                        <a ui-sref=\"app.contact\">Contact Us</a>\r\n                    </li>\r\n                    <li>\r\n                        <a ui-sref=\"app.terms\">Term and conditions</a>\r\n                    </li>\r\n                    <li>\r\n                        <a ui-sref=\"app.accreditations\">Accreditation</a>\r\n                    </li>\r\n                </ul>\r\n            </div>\r\n            <div class=\"col-sm-3\">\r\n                <h3 class=\"text-left\">Quick Enquiry</h3>\r\n                <div class=\"row\">\r\n                    <div class=\"col-sm-6 form-group\">\r\n                        <input class=\"form-control\" id=\"name\" name=\"name\" placeholder=\"Name\" type=\"text\" ng-model=\"siteContact.fullname\" required>\r\n                    </div>\r\n                    <div class=\"col-sm-6 form-group\">\r\n                        <input class=\"form-control\" id=\"email\" name=\"email\" placeholder=\"Email\" type=\"email\" ng-model=\"siteContact.email\" required>\r\n                    </div>\r\n                </div>\r\n                <textarea class=\"form-control\" id=\"comments\" name=\"comments\" placeholder=\"Comment\" rows=\"5\" ng-model=\"siteContact.message\"></textarea>\r\n                <br>\r\n                <div class=\"row\">\r\n                    <div class=\"col-sm-12 form-group\">\r\n                        <button class=\"btn pull-right\" ng-class=\"siteContactSubmit == 'Submit' ? 'btn-primary' :'btn-success'\" ng-disabled=\"siteContactSubmit !== 'Submit'\"\r\n                            type=\"submit\" ng-click=\"contactSubmit()\">{{siteContactSubmit}}</button>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n    <div class=\"container-fluid footer-band\">\r\n        <div class=\"col-lg-12\">\r\n            <h6>&copy; 2016-2017 - QucikLearn Systems. All Rights Reserved. The certification names are the trademarks of their\r\n                respective owners.\r\n            </h6>\r\n        </div>\r\n    </div>\r\n</footer>";
+	module.exports = "<nav class=\"navbar navbar-default navbar-fixed-top\" role=\"navigation\">\r\n    <div class=\"container-fluid\">\r\n        <div class=\"navbar-header\">\r\n            <button type=\"button\" class=\"navbar-toggle\" ng-click=\"mobileMenuToggle()\">\r\n                <span class=\"icon-bar\"></span>\r\n                <span class=\"icon-bar\"></span>\r\n                <span class=\"icon-bar\"></span>\r\n            </button>\r\n            <a class=\"navbar-brand\" style=\"padding-top:10px;\" ui-sref=\"app.home\">\r\n                <img src=\"" + __webpack_require__(78) + "\" alt=\"Quick LearnSystems\">\r\n            </a>\r\n        </div>\r\n        <div class=\"collapse navbar-collapse\">\r\n            <ul class=\"nav navbar-nav\">\r\n                <li>\r\n                    <a ui-sref=\"app.home\">Home</a>\r\n                </li>\r\n                <li class=\"dropdown\">\r\n                    <a aria-expanded=\"false\">\r\n                        About\r\n                        <span class=\"caret\"></span>\r\n                    </a>\r\n                    <ul class=\"dropdown-menu dropdown-intial\">\r\n                        <li>\r\n                            <a ui-sref=\"app.about\">Mission /Vision</a>\r\n                        </li>\r\n                    </ul>\r\n                </li>\r\n                <li class=\"dropdown\">\r\n                    <a aria-expanded=\"false\">Classroom Courses\r\n                        <span class=\"caret\"></span>\r\n                    </a>\r\n                    <ul class=\"dropdown-menu dropdown-intial\">\r\n                        <li class=\"dropdown-submenu\">\r\n                            <a>Service Management</a>\r\n                            <ul class=\"dropdown-menu dropdown-intial\">\r\n                                <li>\r\n                                    <a ui-sref=\"app.itil_foundation\">ITIL Foundation</a>\r\n                                </li>\r\n                                <li class=\"dropdown-submenu\">\r\n                                    <a ui-sref=\"app.itil_intermediate\">ITIL Intermediate</a>\r\n                                    <ul class=\"dropdown-menu dropdown-intial\">\r\n                                        <li class=\"dropdown-submenu\">\r\n                                            <a>ITIL Lifecycle Modules</a>\r\n                                            <ul class=\"dropdown-menu dropdown-intial\">\r\n                                                <li>\r\n                                                    <a ui-sref=\"app.service_strategy\">ITIL Service Strategy</a>\r\n                                                </li>\r\n                                                <li>\r\n                                                    <a ui-sref=\"app.service_design\">ITIL Service Design</a>\r\n                                                </li>\r\n                                                <li>\r\n                                                    <a ui-sref=\"app.service_transition\">ITIL Service Transition</a>\r\n                                                </li>\r\n                                                <li>\r\n                                                    <a ui-sref=\"app.service_operation\">ITIL Service Operation</a>\r\n                                                </li>\r\n                                                <li>\r\n                                                    <a ui-sref=\"app.continual_service\">ITIL Continual Service Improvement</a>\r\n                                                </li>\r\n                                            </ul>\r\n                                        </li>\r\n                                        <li class=\"dropdown-submenu\">\r\n                                            <a>ITIL Capability Module</a>\r\n                                            <ul class=\"dropdown-menu dropdown-intial\">\r\n                                                <li>\r\n                                                    <a ui-sref=\"app.soa\">ITIL Service, Offering and Agreement (SOA)</a>\r\n                                                </li>\r\n                                                <li>\r\n                                                    <a ui-sref=\"app.ppo\">ITIL Planning, Protection and Optimization (PPO)</a>\r\n                                                </li>\r\n                                                <li>\r\n                                                    <a ui-sref=\"app.rcv\">ITIL Release, Control and Validation (RCV)</a>\r\n                                                </li>\r\n                                                <li>\r\n                                                    <a ui-sref=\"app.osa\">ITIL Operational, Support and Analysis (OSA)</a>\r\n                                                </li>\r\n                                            </ul>\r\n                                        </li>\r\n                                    </ul>\r\n                                </li>\r\n                                <li class=\"dropdown-submenu\">\r\n                                    <a>ITIL Expert</a>\r\n                                    <ul class=\"dropdown-menu dropdown-intial\">\r\n                                        <li>\r\n                                            <a ui-sref=\"app.malc\">ITIL\r\n                                                <sup>&reg;</sup> Managing Across The Lifecycle</a>\r\n                                        </li>\r\n                                    </ul>\r\n                                </li>\r\n                                <li>\r\n                                    <a ui-sref=\"app.siam\">SIAM Foundation</a>\r\n                                </li>\r\n                            </ul>\r\n                        </li>\r\n                        <li class=\"dropdown-submenu\">\r\n                            <a>Project &amp; Program Management</a>\r\n                            <ul class=\"dropdown-menu dropdown-intial\">\r\n                                <li>\r\n                                    <a ui-sref=\"app.capm\">CAPM</a>\r\n                                </li>\r\n                                <li>\r\n                                    <a ui-sref=\"app.pmp\">PMP</a>\r\n                                </li>\r\n                                <li>\r\n                                    <a ui-sref=\"app.acp\">ACP</a>\r\n                                </li>\r\n                                <li>\r\n                                    <a ui-sref=\"app.prince2foundation\">Prince2 Foundation</a>\r\n                                </li>\r\n                                <li>\r\n                                    <a ui-sref=\"app.prince2practitioner\">Prince2 Practitioner</a>\r\n                                </li>\r\n                                <li>\r\n                                    <a ui-sref=\"app.prince2agile\">Prince2 Agile</a>\r\n                                </li>\r\n                                <li>\r\n                                    <a ui-sref=\"app.scrum\">Scrum Master</a>\r\n                                </li>\r\n                                <li>\r\n                                    <a ui-sref=\"app.msp\">Managing Successful Programs</a>\r\n                                </li>\r\n                                <li>\r\n                                    <a ui-sref=\"app.safe\">SAFe 4.5 (SAFe Agilist)</a>\r\n                                </li>\r\n                                <li>\r\n                                    <a ui-sref=\"app.dev_ops\">DevOps Master</a>\r\n                                </li>\r\n                            </ul>\r\n                        </li>\r\n                        <li class=\"dropdown-submenu\">\r\n                            <a>Quality Management</a>\r\n                            <ul class=\"dropdown-menu dropdown-intial\">\r\n                                <li>\r\n                                    <a ui-sref=\"app.green_belt\">Lean Six Sigma Green Belt</a>\r\n                                </li>\r\n                                <li>\r\n                                    <a ui-sref=\"app.black_belt\">Lean Six Sigma Black Belt</a>\r\n                                </li>\r\n                            </ul>\r\n                        </li>\r\n                        <li class=\"dropdown-submenu\">\r\n                            <a>IT Governance &amp; Architecture</a>\r\n                            <ul class=\"dropdown-menu dropdown-intial\">\r\n                                <li>\r\n                                    <a ui-sref=\"app.cobit\">COBIT 5 Foundation</a>\r\n                                </li>\r\n                                <li>\r\n                                    <a ui-sref=\"app.togaf\">TOGAF 9.1 Level 1 &amp; Level 2</a>\r\n                                </li>\r\n                            </ul>\r\n                        </li>\r\n                    </ul>\r\n                </li>\r\n                <li>\r\n                    <a ui-sref=\"app.upcoming_events\">Upcoming Events</a>\r\n                </li>\r\n                <li>\r\n                    <a ui-sref=\"app.services\">Services</a>\r\n                </li>\r\n                <li>\r\n                    <a ui-sref=\"app.contact\">Contact Us</a>\r\n                </li>\r\n            </ul>\r\n        </div>\r\n    </div>\r\n</nav>\r\n<div class=\"mobile-menu-container\" ng-show=\"mobileMenuState\">\r\n    <div class=\"mobile-menu-panel\" ng-show=\"mobileMenuState\">\r\n        <h3>Menu</h3>\r\n        <hr>\r\n        <ul class=\"mobile-menu-list\">\r\n            <li>\r\n                <a ui-sref=\"app.home\">Home</a>\r\n            </li>\r\n            <li class=\"dropdown-mobile\">\r\n                <a aria-expanded=\"false\" data-toggle=\"collapse\" data-target=\"#li-About\">About\r\n                    <span class=\"caret\"></span>\r\n                </a>\r\n                <ul class=\"dropdown-mobile-menu dropdown-mobile-intial level-1 list-1 panel-collapse collapse\" id=\"li-About\">\r\n                    <li>\r\n                        <a ui-sref=\"app.about\">Mission /Vision</a>\r\n                    </li>\r\n                </ul>\r\n            </li>\r\n            <li class=\"dropdown-mobile\">\r\n                <a aria-expanded=\"false\" data-toggle=\"collapse\" data-target=\"#li-Classroom\">Classroom Courses\r\n                    <span class=\"caret\"></span>\r\n                </a>\r\n                <ul class=\"dropdown-mobile-menu dropdown-mobile-intial level-1 list-4 panel-collapse collapse\" id=\"li-Classroom\">\r\n                    <li class=\"dropdown-mobile-submenu\">\r\n                        <a data-toggle=\"collapse\" data-target=\"#li-ServiceManagement\">Service Management\r\n                            <span class=\"caret\"></span>\r\n                        </a>\r\n                        <ul class=\"dropdown-mobile-menu dropdown-mobile-intial level-2 list-4 panel-collapse collapse\" id=\"li-ServiceManagement\">\r\n                            <li>\r\n                                <a ui-sref=\"app.itil_foundation\">ITIL Foundation</a>\r\n                            </li>\r\n                            <li class=\"dropdown-mobile-submenu\">\r\n                                <a ui-sref=\"app.itil_intermediate\" data-toggle=\"collapse\" data-target=\"#li-Intermediate\">ITIL Intermediate\r\n                                    <span class=\"caret\"></span>\r\n                                </a>\r\n                                <ul class=\"dropdown-mobile-menu dropdown-mobile-intial level-3 list-2 panel-collapse collapse\" id=\"li-Intermediate\">\r\n                                    <li class=\"dropdown-mobile-submenu\">\r\n                                        <a data-toggle=\"collapse\" data-target=\"#li-LifecycleModules\">ITIL Lifecycle Modules\r\n                                            <span class=\"caret\"></span>\r\n                                        </a>\r\n                                        <ul class=\"dropdown-mobile-menu dropdown-mobile-intial level-4 list-5 panel-collapse collapse\" id=\"li-LifecycleModules\">\r\n                                            <li>\r\n                                                <a ui-sref=\"app.service_strategy\">ITIL Service Strategy</a>\r\n                                            </li>\r\n                                            <li>\r\n                                                <a ui-sref=\"app.service_design\">ITIL Service Design</a>\r\n                                            </li>\r\n                                            <li>\r\n                                                <a ui-sref=\"app.service_transition\">ITIL Service Transition</a>\r\n                                            </li>\r\n                                            <li>\r\n                                                <a ui-sref=\"app.service_operation\">ITIL Service Operation</a>\r\n                                            </li>\r\n                                            <li>\r\n                                                <a ui-sref=\"app.continual_service\">ITIL Continual Service Improvement</a>\r\n                                            </li>\r\n                                        </ul>\r\n                                    </li>\r\n                                    <li class=\"dropdown-mobile-submenu\">\r\n                                        <a data-toggle=\"collapse\" data-target=\"#li-CapabilityModule\">ITIL Capability Module\r\n                                            <span class=\"caret\"></span>\r\n                                        </a>\r\n                                        <ul class=\"dropdown-mobile-menu dropdown-mobile-intial level-4 list-4 panel-collapse collapse\" id=\"li-CapabilityModule\">\r\n                                            <li>\r\n                                                <a ui-sref=\"app.soa\">ITIL Service, Offering and Agreement (SOA)</a>\r\n                                            </li>\r\n                                            <li>\r\n                                                <a ui-sref=\"app.ppo\">ITIL Planning, Protection and Optimization (PPO)</a>\r\n                                            </li>\r\n                                            <li>\r\n                                                <a ui-sref=\"app.rcv\">ITIL Release, Control and Validation (RCV)</a>\r\n                                            </li>\r\n                                            <li>\r\n                                                <a ui-sref=\"app.osa\">ITIL Operational, Support and Analysis (OSA)</a>\r\n                                            </li>\r\n                                        </ul>\r\n                                    </li>\r\n                                </ul>\r\n                            </li>\r\n                            <li class=\"dropdown-mobile-submenu\">\r\n                                <a data-toggle=\"collapse\" data-target=\"#li-ITILExpert\">ITIL Expert\r\n                                    <span class=\"caret\"></span>\r\n                                </a>\r\n                                <ul class=\"dropdown-mobile-menu dropdown-mobile-intial level-3 list-1 panel-collapse collapse\" id=\"li-ITILExpert\">\r\n                                    <li>\r\n                                        <a ui-sref=\"app.malc\">ITIL\r\n                                            <sup>&reg;</sup> Managing Across The Lifecycle</a>\r\n                                    </li>\r\n                                </ul>\r\n                            </li>\r\n                            <li>\r\n                                <a ui-sref=\"app.siam\">SIAM Foundation</a>\r\n                            </li>\r\n                        </ul>\r\n                    </li>\r\n                    <li class=\"dropdown-mobile-submenu\">\r\n                        <a data-toggle=\"collapse\" data-target=\"#li-ProjectProgramManagement\">Project & Program Management\r\n                            <span class=\"caret\"></span>\r\n                        </a>\r\n                        <ul class=\"dropdown-mobile-menu dropdown-mobile-intial level-2 list-10 panel-collapse collapse\" id=\"li-ProjectProgramManagement\">\r\n                            <li>\r\n                                <a ui-sref=\"app.capm\">CAPM</a>\r\n                            </li>\r\n                            <li>\r\n                                <a ui-sref=\"app.pmp\">PMP</a>\r\n                            </li>\r\n                            <li>\r\n                                <a ui-sref=\"app.acp\">ACP</a>\r\n                            </li>\r\n                            <li>\r\n                                <a ui-sref=\"app.prince2foundation\">Prince2 Foundation</a>\r\n                            </li>\r\n                            <li>\r\n                                <a ui-sref=\"app.prince2practitioner\">Prince2 Practitioner</a>\r\n                            </li>\r\n                            <li>\r\n                                <a ui-sref=\"app.prince2agile\">Prince2 Agile</a>\r\n                            </li>\r\n                            <li>\r\n                                <a ui-sref=\"app.scrum\">Scrum Master</a>\r\n                            </li>\r\n                            <li>\r\n                                <a ui-sref=\"app.msp\">Managing Successful Programs</a>\r\n                            </li>\r\n                            <li>\r\n                                <a ui-sref=\"app.safe\">SAFe 4.5 (SAFe Agilist)</a>\r\n                            </li>\r\n                            <li>\r\n                                <a ui-sref=\"app.dev_ops\">DevOps Master</a>\r\n                            </li>\r\n                        </ul>\r\n                    </li>\r\n                    <li class=\"dropdown-mobile-submenu\">\r\n                        <a data-toggle=\"collapse\" data-target=\"#li-QualityManagement\">Quality Management\r\n                            <span class=\"caret\"></span>\r\n                        </a>\r\n                        <ul class=\"dropdown-mobile-menu dropdown-mobile-intial level-2 list-2 panel-collapse collapse\" id=\"li-QualityManagement\">\r\n                            <li>\r\n                                <a ui-sref=\"app.green_belt\">Lean Six Sigma Green Belt</a>\r\n                            </li>\r\n                            <li>\r\n                                <a ui-sref=\"app.black_belt\">Lean Six Sigma Black Belt</a>\r\n                            </li>\r\n                        </ul>\r\n                    </li>\r\n                    <li class=\"dropdown-mobile-submenu\">\r\n                        <a data-toggle=\"collapse\" data-target=\"#li-ITGovernanceArchitecture\">IT Governance & Architecture\r\n                            <span class=\"caret\"></span>\r\n                        </a>\r\n                        <ul class=\"dropdown-mobile-menu dropdown-mobile-intial level-2 list-2 panel-collapse collapse\" id=\"li-ITGovernanceArchitecture\">\r\n                            <li>\r\n                                <a ui-sref=\"app.cobit\">COBIT 5 Foundation</a>\r\n                            </li>\r\n                            <li>\r\n                                <a ui-sref=\"app.togaf\">TOGAF 9.1 Level 1 &amp; Level 2</a>\r\n                            </li>\r\n                        </ul>\r\n                    </li>\r\n                </ul>\r\n            </li>\r\n            <li>\r\n                <a ui-sref=\"app.upcoming_events\">Upcoming Events</a>\r\n            </li>\r\n            <li>\r\n                <a ui-sref=\"app.services\">Services</a>\r\n            </li>\r\n            <li>\r\n                <a ui-sref=\"app.contact\">Contact Us</a>\r\n            </li>\r\n        </ul>\r\n    </div>\r\n</div>\r\n<div class=\"enquiry-container\" ng-class=\"enquiryState ? 'enquiry-open' : 'enquiry-close'\">\r\n    <div class=\"enquiry-label\" ng-click=\"enquiryToggle()\">\r\n        <p>\r\n            <i class=\"fa fa-question-circle\" aria-hidden=\"true\"></i> Enquiry</p>\r\n    </div>\r\n    <div class=\"enquiry-form-container\">\r\n        <div class=\"container-fluid\">\r\n            <form class=\"form-horizontal\">\r\n                <div class=\"form-group\">\r\n                    <div class=\"col-sm-12\">\r\n                        <input type=\"text\" ng-model=\"siteContact.fullname\" class=\"form-control\" id=\"fullName\" placeholder=\"Full Name\" required>\r\n                    </div>\r\n                </div>\r\n                <div class=\"form-group\">\r\n                    <div class=\"col-sm-12\">\r\n                        <input type=\"text\" ng-model=\"siteContact.email\" class=\"form-control\" id=\"email\" placeholder=\"Email\" required>\r\n                    </div>\r\n                </div>\r\n                <div class=\"form-group\">\r\n                    <div class=\"col-sm-12\">\r\n                        <input type=\"text\" ng-model=\"siteContact.mobile\" class=\"form-control\" id=\"mobile\" placeholder=\"Mobile Number\">\r\n                    </div>\r\n                </div>\r\n                <div class=\"form-group\">\r\n                    <div class=\"col-sm-12\">\r\n                        <select class=\"form-control\" id=\"select\" ng-model=\"siteContact.courseInterested\" ng-init=\"siteContact.courseInterested = coursesList[0]\">\r\n                            <option ng-repeat=\"course in coursesList\" ng-disabled=\"$index == 0\" value=\"{{course}}\">{{course}}</option>\r\n                        </select>\r\n                    </div>\r\n                </div>\r\n                <div class=\"form-group\">\r\n                    <div class=\"col-sm-12\">\r\n                        <textarea class=\"form-control\" rows=\"3\" id=\"textArea\" placeholder=\"Your Remarks\" ng-model=\"siteContact.message\"></textarea>\r\n                    </div>\r\n                </div>\r\n                <div class=\"form-group\">\r\n                    <div class=\"col-sm-12 text-center\">\r\n                        <button class=\"btn pull-right\" ng-class=\"siteContactSubmit == 'Submit' ? 'btn-primary' :'btn-success'\" ng-disabled=\"siteContactSubmit !== 'Submit'\"\r\n                            type=\"submit\" ng-click=\"contactSubmit()\">{{siteContactSubmit}}</button>\r\n                    </div>\r\n                </div>\r\n            </form>\r\n            <div class=\"form-hide\" ng-hide=\"siteContactSubmit == 'Submit'\">\r\n                <div class=\"panel panel-default\" style=\"width:80%;\">\r\n                    <div class=\"panel-heading text-center\" style=\"line-height:0px;\">\r\n                        <h3 class=\"text-success\">\r\n                            <i class=\"ion-ios-checkmark-outline text-success\"></i> Message Sent</h3>\r\n                    </div>\r\n                    <div class=\"panel-body text-center\">\r\n                        <p>Thank you for contacting\r\n                            <br>QuickLearn Systems.\r\n                            <br>\r\n                            <br> A team member will be in touch with you shortly.</p>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n<ui-view></ui-view>\r\n<footer class=\"container-fluid text-center\" style=\"padding:0px\">\r\n    <div class=\"container-fluid\">\r\n        <div class=\"row\">\r\n            <div class=\"col-sm-3\">\r\n                <div class=\"container-fluid text-left\" style=\"font-size:small\">\r\n                    <h3>Popular Courses</h3>\r\n                    <ul class=\"popular-courses\">\r\n                        <li>\r\n                            <a ui-sref=\"app.itil_foundation\">ITIL Foundation</a>\r\n                        </li>\r\n                        <li>\r\n                            <a ui-sref=\"app.pmp\">PMP</a>\r\n                        </li>\r\n                        <li>\r\n                            <a ui-sref=\"app.prince2foundation\">Prince2</a>\r\n                        </li>\r\n                        <li>\r\n                            <a ui-sref=\"app.dev_ops\">DevOps Master</a>\r\n                        </li>\r\n                        <li>\r\n                            <a ui-sref=\"app.scrum\">Scrum Master</a>\r\n                        </li>\r\n                        <li>\r\n                            <a ui-sref=\"app.safe\">Safe Agile</a>\r\n                        </li>\r\n                        <li>\r\n                            <a ui-sref=\"app.green_belt\">Lean Six Sigm Green Belt</a>\r\n                        </li>\r\n                    </ul>\r\n                </div>\r\n            </div>\r\n            <div class=\"col-sm-4\">\r\n                <h3 class=\"text-center\">Finds us on</h3>\r\n                <ul class=\"social-network social-circle\">\r\n                    <!--<li><a href=\"#\" class=\"icoRss\" title=\"Rss\"><i class=\"fa fa-rss\"></i></a></li>-->\r\n                    <li>\r\n                        <a href=\"https://www.facebook.com/QuickLearn-Systems-860154054085242\" class=\"icoFacebook\" title=\"Facebook\">\r\n                            <i class=\"fa fa-facebook\"></i>\r\n                        </a>\r\n                    </li>\r\n                    <li>\r\n                        <a href=\"https://twitter.com/quicklearnsys\" class=\"icoTwitter\" title=\"Twitter\">\r\n                            <i class=\"fa fa-twitter\"></i>\r\n                        </a>\r\n                    </li>\r\n                    <li>\r\n                        <a href=\"https://plus.google.com/109738846000587914274\" class=\"icoGoogle\" title=\"Google +\">\r\n                            <i class=\"fa fa-google-plus\"></i>\r\n                        </a>\r\n                    </li>\r\n                    <li>\r\n                        <a href=\"https://in.linkedin.com/in/quicklearn-systems-1494ba12a\" class=\"icoLinkedin\" title=\"Linkedin\">\r\n                            <i class=\"fa fa-linkedin\"></i>\r\n                        </a>\r\n                    </li>\r\n                </ul>\r\n                <h3 class=\"text-center\">Payment Options</h3>\r\n                <small>We accept Payment by Cash, Cheque,\r\n                    <br/>Online Fund Transfer and Credit Cards</small>\r\n                <br/>\r\n                <ul class=\"social-network social-circle\">\r\n                    <li>\r\n                        <a href=\"#\" class=\"icoTwitter\" title=\"Visa\">\r\n                            <i class=\"fa fa-cc-visa\"></i>\r\n                        </a>\r\n                    </li>\r\n                    <li>\r\n                        <a href=\"#\" class=\"icoTwitter\" title=\"Master Card\">\r\n                            <i class=\"\tfa fa-cc-mastercard\"></i>\r\n                        </a>\r\n                    </li>\r\n                    <li>\r\n                        <a href=\"#\" class=\"icoTwitter\" title=\"Google Wallet\">\r\n                            <i class=\"fa fa-google-wallet\"></i>\r\n                        </a>\r\n                    </li>\r\n                    <li>\r\n                        <a href=\"#\" class=\"icoTwitter\" title=\"PayPal\">\r\n                            <i class=\"fa fa-paypal\"></i>\r\n                        </a>\r\n                    </li>\r\n                </ul>\r\n            </div>\r\n            <div class=\"col-sm-2\">\r\n                <h3 class=\"text-left\">Company</h3>\r\n                <ul class=\"footer-company\">\r\n                    <li>\r\n                        <a ui-sref=\"app.about\">About Us</a>\r\n                    </li>\r\n                    <li>\r\n                        <a ui-sref=\"app.home\">Courses</a>\r\n                    </li>\r\n                    <li>\r\n                        <a ui-sref=\"app.upcoming_events\">Upcoming Events</a>\r\n                    </li>\r\n                    <li>\r\n                        <a ui-sref=\"app.contact\">Contact Us</a>\r\n                    </li>\r\n                    <li>\r\n                        <a ui-sref=\"app.terms\">Term and conditions</a>\r\n                    </li>\r\n                    <li>\r\n                        <a ui-sref=\"app.accreditations\">Accreditation</a>\r\n                    </li>\r\n                </ul>\r\n            </div>\r\n            <div class=\"col-sm-3\">\r\n                <h3 class=\"text-left\">Quick Enquiry</h3>\r\n                <div class=\"row\">\r\n                    <div class=\"col-sm-6 form-group\">\r\n                        <input class=\"form-control\" id=\"name\" name=\"name\" placeholder=\"Name\" type=\"text\" ng-model=\"siteContact.fullname\" required>\r\n                    </div>\r\n                    <div class=\"col-sm-6 form-group\">\r\n                        <input class=\"form-control\" id=\"email\" name=\"email\" placeholder=\"Email\" type=\"email\" ng-model=\"siteContact.email\" required>\r\n                    </div>\r\n                </div>\r\n                <textarea class=\"form-control\" id=\"comments\" name=\"comments\" placeholder=\"Comment\" rows=\"5\" ng-model=\"siteContact.message\"></textarea>\r\n                <br>\r\n                <div class=\"row\">\r\n                    <div class=\"col-sm-12 form-group\">\r\n                        <button class=\"btn pull-right\" ng-class=\"siteContactSubmit == 'Submit' ? 'btn-primary' :'btn-success'\" ng-disabled=\"siteContactSubmit !== 'Submit'\"\r\n                            type=\"submit\" ng-click=\"contactSubmit()\">{{siteContactSubmit}}</button>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n    <div class=\"container-fluid footer-band\">\r\n        <div class=\"col-lg-12\">\r\n            <h6>&copy; 2016-2017 - QucikLearn Systems. All Rights Reserved. The certification names are the trademarks of their\r\n                respective owners.\r\n            </h6>\r\n        </div>\r\n    </div>\r\n</footer>";
 
 /***/ },
 /* 78 */
@@ -52962,19 +52965,19 @@
 /* 79 */
 /***/ function(module, exports) {
 
-	module.exports = "<div class=\"jumbotron jumbotron_banner text-center\">\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-md-12 text-center\" style=\"padding-top:4%\">\r\n            <!--<img src=\"../images/logo.png\" alt=\"Qick Learn Systems\" width=\"30%\" />-->\r\n            <div class=\"container\">\r\n                <svg id=\"Layer_1\" style=\"width: 40%;\" data-name=\"Layer 1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 462.09 293.1\">\r\n                    <defs>\r\n                        <style>\r\n                            .cls-1 {\r\n                                fill: #c1c1c1;\r\n                            }\r\n\r\n                            .cls-2 {\r\n                                fill: #fff;\r\n                            }\r\n\r\n                            .cls-3 {\r\n                                fill: #eee;\r\n                            }\r\n                        </style>\r\n                    </defs>\r\n                    <title>logo</title>\r\n                    <g id=\"_Group_\" data-name=\"&lt;Group&gt;\">\r\n                        <path id=\"_Path_\" data-name=\"&lt;Path&gt;\" class=\"cls-1\" d=\"M179.46,361.85a111.1,111.1,0,1,1,99.94-62.45L300,331.19c14.5-22.12,24-57.68,24-80.5a144.47,144.47,0,1,0-86.78,132.53l-13.15-30.7A110.77,110.77,0,0,1,179.46,361.85Z\"\r\n                            transform=\"translate(-30.91 -102.14)\" />\r\n                        <path id=\"_Path_2\" data-name=\"&lt;Path&gt;\" class=\"cls-1\" d=\"M490,341a41.53,41.53,0,0,0-8.3-12.5,38.29,38.29,0,0,0-13-8.69q-7.72-3.22-18.84-3.22h-58a17.84,17.84,0,0,1-4.78-.49,7.72,7.72,0,0,1-2.83-1.46,8.69,8.69,0,0,1-3.32-7,9.27,9.27,0,0,1,2.73-6.83,8.24,8.24,0,0,1,3-1.85,15.54,15.54,0,0,1,5.17-.68h94.9v-35H389.9q-13.28,0-21.28,3.22a37.68,37.68,0,0,0-13.28,8.69,41.48,41.48,0,0,0-8.3,12.5,37.58,37.58,0,0,0-3,15,38.49,38.49,0,0,0,2.93,15.13,40.33,40.33,0,0,0,8.2,12.4,37.51,37.51,0,0,0,13.38,8.69q8.1,3.22,21.38,3.22h53.7a19.89,19.89,0,0,1,6,.68,7.7,7.7,0,0,1,3.42,2.25,9.53,9.53,0,0,1,2.73,7,8.64,8.64,0,0,1-5.76,8.49,18.06,18.06,0,0,1-6.35.88H309.38c-8,.24-14.71-1.39-16.88-3.48a43.57,43.57,0,0,1-6.67-8.17L221.59,246.33l-27.93,18.6,54.95,89.89c4,6.24,6.07,9.81,8.91,14.62a67.62,67.62,0,0,0,8.82,11.78c6.54,7.42,12.82,10.48,18.35,12.23s12.33,1.79,20.41,1.79H449.85q11.72,0,19.82-3.71a39.7,39.7,0,0,0,13.57-10,42.29,42.29,0,0,0,7.13-11.91A37.84,37.84,0,0,0,490,341Z\"\r\n                            transform=\"translate(-30.91 -102.14)\" />\r\n                    </g>\r\n                    <g id=\"_Group_2\" data-name=\"&lt;Group&gt;\">\r\n                        <path id=\"_Path_3\" data-name=\"&lt;Path&gt;\" class=\"cls-2\" d=\"M175.46,391.24V357.85a111.16,111.16,0,1,1,0-222.32V102.14a144.55,144.55,0,1,0,0,289.1Z\"\r\n                            transform=\"translate(-30.91 -102.14)\" />\r\n                        <path id=\"_Path_4\" data-name=\"&lt;Path&gt;\" class=\"cls-3\" d=\"M286.62,246.69a110.7,110.7,0,0,1-11.22,48.71L296,327.19c14.5-22.12,24-57.68,24-80.5A144.55,144.55,0,0,0,175.46,102.14v33.39A111.16,111.16,0,0,1,286.62,246.69Z\"\r\n                            transform=\"translate(-30.91 -102.14)\" />\r\n                        <path id=\"_Path_5\" data-name=\"&lt;Path&gt;\" class=\"cls-3\" d=\"M220.08,348.52a110.77,110.77,0,0,1-44.62,9.33v33.39a144,144,0,0,0,57.77-12Z\"\r\n                            transform=\"translate(-30.91 -102.14)\" />\r\n                        <path id=\"_Compound_Path_\" data-name=\"&lt;Compound Path&gt;\" class=\"cls-3\" d=\"M301.09,391.24c-8.07,0-14.87,0-20.41-1.79s-11.81-4.81-18.35-12.23a67.62,67.62,0,0,1-8.82-11.78c-2.85-4.81-4.93-8.38-8.91-14.62l-54.95-89.89,27.93-18.6L281.83,345.8A43.56,43.56,0,0,0,288.5,354c2.17,2.1,8.84,3.72,16.88,3.48H371.6l20,33.78Z\"\r\n                            transform=\"translate(-30.91 -102.14)\" />\r\n                        <path id=\"_Compound_Path_2\" data-name=\"&lt;Compound Path&gt;\" class=\"cls-2\" d=\"M482.75,294.19h-94.9a15.54,15.54,0,0,0-5.17.68,8.24,8.24,0,0,0-3,1.85,9.27,9.27,0,0,0-2.73,6.83,8.69,8.69,0,0,0,3.32,7,7.73,7.73,0,0,0,2.83,1.46,17.84,17.84,0,0,0,4.78.49h58q11.13,0,18.84,3.22a38.29,38.29,0,0,1,13,8.69A41.54,41.54,0,0,1,486,337a37.84,37.84,0,0,1,.39,28.7,42.29,42.29,0,0,1-7.13,11.91,39.7,39.7,0,0,1-13.57,10q-8.1,3.71-19.82,3.71H388.17l-70.28-33.78H439.6a18.06,18.06,0,0,0,6.35-.88,8.64,8.64,0,0,0,5.76-8.49,9.53,9.53,0,0,0-2.73-7,7.7,7.7,0,0,0-3.42-2.25,19.89,19.89,0,0,0-6-.68H385.9q-13.28,0-21.38-3.22a37.51,37.51,0,0,1-13.38-8.69,40.32,40.32,0,0,1-8.2-12.4A38.49,38.49,0,0,1,340,298.68a37.58,37.58,0,0,1,3-15,41.48,41.48,0,0,1,8.3-12.5,37.68,37.68,0,0,1,13.28-8.69q8-3.22,21.28-3.22h96.85Z\"\r\n                            transform=\"translate(-30.91 -102.14)\" />\r\n                    </g>\r\n                </svg>\r\n            </div>\r\n\r\n            <h1 class=\"lead jumbotron_banner_h1\">Welcome to QuickLearn Systems</h1>\r\n            <p>Set your sights on the finish line. Achieve your project goals.</p>\r\n        </div>\r\n    </div>\r\n    <div class=\"container-fuild\" style=\"margin-top:15px;\">\r\n        <div class=\"col-md-12 text-center\" onclick=\" $('html, body').animate({scrollTop:$('.jumbotron').height()+38}, 500, 'swing')\">\r\n            <i class=\"fa fa-angle-down\" style=\"font-size:80px;cursor:pointer\"></i>\r\n        </div>\r\n    </div>\r\n</div>\r\n<div class=\"container-fluid remove-padding\">\r\n    <div class=\"col-sm-12 remove-padding\">\r\n        <div id=\"myCarousel\" class=\"carousel slide\" data-ride=\"carousel\">\r\n            <div class=\"carousel-inner\" role=\"listbox\">\r\n                <div class=\"item\" ng-repeat=\"event in events\" ng-class=\"{active:!$index}\">\r\n                    <img ng-src=\"./images/{{event.slider}}.jpg\">\r\n                    <img ng-src=\"./images/{{event.slider}}.jpg\" class=\"blur-img\">\r\n                    <img ng-src=\"./images/{{event.slider}}_cap.png\" class=\"img-caption\">\r\n                    <div class=\"event-details container-fluid\">\r\n                        <div class=\"hidden-xs hidden-sm col-md-1 col-lg-1\"></div>\r\n                        <div class=\"hidden-xs hidden-sm col-md-5 col-lg-7\">\r\n                            <p><i class=\"fa fa-clipboard\" aria-hidden=\"true\"></i> <b>Course:</b> {{event.training}}</p>\r\n                            <p><i class=\"fa fa-calendar\" aria-hidden=\"true\"></i> <b>Date:</b> {{event.date}}</p>\r\n                            <p><i class=\"fa fa-location-arrow\" aria-hidden=\"true\"></i> <b>Location:</b> {{event.location}}</p>\r\n                        </div>\r\n                        <div class=\"hidden-xs hidden-sm col-md-6 col-lg-4\" style=\"padding-top:15px;\">\r\n                            <a ng-href=\"{{event.link}}\" style=\"text-decoration: none;\"><button class=\"btn btn-primary btn-block btn-lg\" style=\"font-family:Raleway\">Register Now</button></a>\r\n                        </div>\r\n                        <div class=\"col-xs-12 col-sm-12 hidden-md hidden-lg text-center\" style=\"font-size:medium; padding-top:0px; font-family:Raleway;\">\r\n                            <p><i class=\"fa fa-clipboard\" aria-hidden=\"true\"></i> <b>Course:</b> {{event.training}}</p>\r\n                            <p><i class=\"fa fa-calendar\" aria-hidden=\"true\"></i> <b>Date:</b> {{event.date}}</p>\r\n                            <p><i class=\"fa fa-location-arrow\" aria-hidden=\"true\"></i> <b>Location:</b> {{event.location}}</p>\r\n                        </div>\r\n                        <div class=\"col-xs-12 col-sm-12 hidden-md hidden-lg\">\r\n                            <a ng-href=\"{{event.link}}\" style=\"text-decoration: none;\"><button class=\"btn btn-primary btn-sm btn-block\" style=\"font-family:Raleway\">Register Now</button></a>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n\r\n                <!-- Left and right controls -->\r\n                <a class=\"left carousel-control\" data-target=\"#myCarousel\" role=\"button\" data-slide=\"prev\">\r\n                    <span class=\"glyphicon glyphicon-chevron-left\" aria-hidden=\"true\"></span>\r\n                    <span class=\"sr-only\">Previous</span>\r\n                </a>\r\n                <a class=\"right carousel-control\" data-target=\"#myCarousel\" role=\"button\" data-slide=\"next\">\r\n                    <span class=\"glyphicon glyphicon-chevron-right\" aria-hidden=\"true\"></span>\r\n                    <span class=\"sr-only\">Next</span>\r\n                </a>\r\n            </div>\r\n        </div>\r\n        <!-- <div class=\"col-sm-4 events\">\r\n            <div class=\"panel panel-primary\" style=\"margin-bottom:0px;\">\r\n                <div class=\"panel-heading\">\r\n                    <h3 class=\"panel-title\">Upcoming Events</h3>\r\n                </div>\r\n                <div class=\"panel-body panel-events\" ng-scrollbars>\r\n                    <div class=\"container-fluid\" style=\"padding:0px;\">\r\n                        <div ng-repeat=\"event in events\">\r\n                            <div class=\"col-sm-12 event-card\" style=\"margin-bottom: 10px;\">\r\n                                <p>\r\n                                    <strong>{{event.training}}</strong>\r\n                                </p>\r\n                                <p>Date: {{event.date}}\r\n                                    <br>Location: {{event.location}}</p>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div> -->\r\n    </div>\r\n    <br/>\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-md-12 text-center\">\r\n            <h2>Courses We Offer</h2>\r\n        </div>\r\n        <div class=\"container-fluid\">\r\n            <div class=\"row\">\r\n                <div class=\"col-sm-2\"></div>\r\n                <div class=\"col-sm-8\">\r\n                    <div class=\"input-group\">\r\n                        <input type=\"search\" class=\"form-control\" placeholder=\"Search for courses\" ng-model=\"query\">\r\n                        <span class=\"input-group-addon btn btn-primary\">\r\n                            <i class=\"fa fa-search\"></i> Search</span>\r\n                    </div>\r\n                    <hr class=\"divider\" style=\"border-top: 1px solid #3e4f5f;\">\r\n                </div>\r\n                <div class=\"col-sm-2\"></div>\r\n            </div>\r\n\r\n        </div>\r\n        <div class=\"container\">\r\n            <div class=\"col-sm-3\" ng-repeat=\"course in courses | filter:query\">\r\n                <div class=\"container card\">\r\n                    <div class=\"col-sm-12 card-image\">\r\n                        <img ng-src=\"{{course.image}}\" alt=\"{{course.title}}\" width=\"100%\" />\r\n                    </div>\r\n                    <div class=\"col-sm-12 card-content\">\r\n                        <h4 class=\"text-primary\">{{course.title}}</h4>\r\n                        <p>{{course.text}}</p>\r\n                        <hr class=\"card-divider\" style=\"border-top: 1px solid #ddd;\">\r\n                        <div class=\"col-sm-12 text-right card-btn\">\r\n                            <a class=\"btn btn-primary btn-sm\" ui-sref=\"{{course.url}}\">Learn More</a>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n    <br/>\r\n    <div class=\"container c-confes\">\r\n        <div id=\"cConfesCarousel\" class=\"carousel slide\" data-ride=\"carousel\">\r\n            <!-- Wrapper for slides -->\r\n            <div class=\"carousel-inner\" role=\"listbox\">\r\n                <div class=\"item\" ng-class=\"{'active': $index == 0}\" ng-repeat=\"testimonial in testimonials\" style=\"height: 200px;\">\r\n                    <div class=\"container\" style=\"margin-top:2%;\">\r\n                        <div class=\"row text-center\">\r\n                            <div class=\"col-md-12 c-confes-img\">\r\n                                <img ng-src=\"{{testimonial.image}}\">\r\n                            </div>\r\n                            <div class=\"col-md-12 c-confes-txt\">“{{testimonial.message}}”</div>\r\n                            <div class=\"col-md-12 c-confes-name\">\r\n                                <h4>{{testimonial.name}}</h4>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n            <!-- Left and right controls -->\r\n            <a class=\"left carousel-control\" data-target=\"#cConfesCarousel\" role=\"button\" data-slide=\"prev\" style=\"background-image:none;color:#263944;\">\r\n                <span class=\"glyphicon glyphicon-chevron-left\" aria-hidden=\"true\"></span>\r\n                <span class=\"sr-only\">Previous</span>\r\n            </a>\r\n            <a class=\"right carousel-control\" data-target=\"#cConfesCarousel\" role=\"button\" data-slide=\"next\" style=\"background-image:none;color:#263944;\">\r\n                <span class=\"glyphicon glyphicon-chevron-right\" aria-hidden=\"true\"></span>\r\n                <span class=\"sr-only\">Next</span>\r\n            </a>\r\n        </div>\r\n    </div>\r\n    <br/>\r\n    <div class=\"container text-center\">\r\n        <h3>Our Clients</h3>\r\n        <br>\r\n        <div class=\"row\">\r\n            <div class=\"col-sm-2\" ng-repeat=\"client in clients\">\r\n                <img ng-src=\"{{client.logo}}\" class=\"img-responsive\" style=\"width:100%;padding:5px;\" alt=\"{{client.name}}\">\r\n            </div>\r\n        </div>\r\n    </div>\r\n    <br/>";
+	module.exports = "<div class=\"jumbotron jumbotron_banner text-center\">\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-md-12 text-center\" style=\"padding-top:4%\">\r\n            <!--<img src=\"../images/logo.png\" alt=\"Qick Learn Systems\" width=\"30%\" />-->\r\n            <div class=\"container-fluid\">\r\n                <svg id=\"Layer_1\" style=\"width: 40%;\" data-name=\"Layer 1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 462.09 293.1\">\r\n                    <defs>\r\n                        <style>\r\n                            .cls-1 {\r\n                                fill: #c1c1c1;\r\n                            }\r\n\r\n                            .cls-2 {\r\n                                fill: #fff;\r\n                            }\r\n\r\n                            .cls-3 {\r\n                                fill: #eee;\r\n                            }\r\n                        </style>\r\n                    </defs>\r\n                    <title>logo</title>\r\n                    <g id=\"_Group_\" data-name=\"&lt;Group&gt;\">\r\n                        <path id=\"_Path_\" data-name=\"&lt;Path&gt;\" class=\"cls-1\" d=\"M179.46,361.85a111.1,111.1,0,1,1,99.94-62.45L300,331.19c14.5-22.12,24-57.68,24-80.5a144.47,144.47,0,1,0-86.78,132.53l-13.15-30.7A110.77,110.77,0,0,1,179.46,361.85Z\"\r\n                            transform=\"translate(-30.91 -102.14)\" />\r\n                        <path id=\"_Path_2\" data-name=\"&lt;Path&gt;\" class=\"cls-1\" d=\"M490,341a41.53,41.53,0,0,0-8.3-12.5,38.29,38.29,0,0,0-13-8.69q-7.72-3.22-18.84-3.22h-58a17.84,17.84,0,0,1-4.78-.49,7.72,7.72,0,0,1-2.83-1.46,8.69,8.69,0,0,1-3.32-7,9.27,9.27,0,0,1,2.73-6.83,8.24,8.24,0,0,1,3-1.85,15.54,15.54,0,0,1,5.17-.68h94.9v-35H389.9q-13.28,0-21.28,3.22a37.68,37.68,0,0,0-13.28,8.69,41.48,41.48,0,0,0-8.3,12.5,37.58,37.58,0,0,0-3,15,38.49,38.49,0,0,0,2.93,15.13,40.33,40.33,0,0,0,8.2,12.4,37.51,37.51,0,0,0,13.38,8.69q8.1,3.22,21.38,3.22h53.7a19.89,19.89,0,0,1,6,.68,7.7,7.7,0,0,1,3.42,2.25,9.53,9.53,0,0,1,2.73,7,8.64,8.64,0,0,1-5.76,8.49,18.06,18.06,0,0,1-6.35.88H309.38c-8,.24-14.71-1.39-16.88-3.48a43.57,43.57,0,0,1-6.67-8.17L221.59,246.33l-27.93,18.6,54.95,89.89c4,6.24,6.07,9.81,8.91,14.62a67.62,67.62,0,0,0,8.82,11.78c6.54,7.42,12.82,10.48,18.35,12.23s12.33,1.79,20.41,1.79H449.85q11.72,0,19.82-3.71a39.7,39.7,0,0,0,13.57-10,42.29,42.29,0,0,0,7.13-11.91A37.84,37.84,0,0,0,490,341Z\"\r\n                            transform=\"translate(-30.91 -102.14)\" />\r\n                    </g>\r\n                    <g id=\"_Group_2\" data-name=\"&lt;Group&gt;\">\r\n                        <path id=\"_Path_3\" data-name=\"&lt;Path&gt;\" class=\"cls-2\" d=\"M175.46,391.24V357.85a111.16,111.16,0,1,1,0-222.32V102.14a144.55,144.55,0,1,0,0,289.1Z\"\r\n                            transform=\"translate(-30.91 -102.14)\" />\r\n                        <path id=\"_Path_4\" data-name=\"&lt;Path&gt;\" class=\"cls-3\" d=\"M286.62,246.69a110.7,110.7,0,0,1-11.22,48.71L296,327.19c14.5-22.12,24-57.68,24-80.5A144.55,144.55,0,0,0,175.46,102.14v33.39A111.16,111.16,0,0,1,286.62,246.69Z\"\r\n                            transform=\"translate(-30.91 -102.14)\" />\r\n                        <path id=\"_Path_5\" data-name=\"&lt;Path&gt;\" class=\"cls-3\" d=\"M220.08,348.52a110.77,110.77,0,0,1-44.62,9.33v33.39a144,144,0,0,0,57.77-12Z\"\r\n                            transform=\"translate(-30.91 -102.14)\" />\r\n                        <path id=\"_Compound_Path_\" data-name=\"&lt;Compound Path&gt;\" class=\"cls-3\" d=\"M301.09,391.24c-8.07,0-14.87,0-20.41-1.79s-11.81-4.81-18.35-12.23a67.62,67.62,0,0,1-8.82-11.78c-2.85-4.81-4.93-8.38-8.91-14.62l-54.95-89.89,27.93-18.6L281.83,345.8A43.56,43.56,0,0,0,288.5,354c2.17,2.1,8.84,3.72,16.88,3.48H371.6l20,33.78Z\"\r\n                            transform=\"translate(-30.91 -102.14)\" />\r\n                        <path id=\"_Compound_Path_2\" data-name=\"&lt;Compound Path&gt;\" class=\"cls-2\" d=\"M482.75,294.19h-94.9a15.54,15.54,0,0,0-5.17.68,8.24,8.24,0,0,0-3,1.85,9.27,9.27,0,0,0-2.73,6.83,8.69,8.69,0,0,0,3.32,7,7.73,7.73,0,0,0,2.83,1.46,17.84,17.84,0,0,0,4.78.49h58q11.13,0,18.84,3.22a38.29,38.29,0,0,1,13,8.69A41.54,41.54,0,0,1,486,337a37.84,37.84,0,0,1,.39,28.7,42.29,42.29,0,0,1-7.13,11.91,39.7,39.7,0,0,1-13.57,10q-8.1,3.71-19.82,3.71H388.17l-70.28-33.78H439.6a18.06,18.06,0,0,0,6.35-.88,8.64,8.64,0,0,0,5.76-8.49,9.53,9.53,0,0,0-2.73-7,7.7,7.7,0,0,0-3.42-2.25,19.89,19.89,0,0,0-6-.68H385.9q-13.28,0-21.38-3.22a37.51,37.51,0,0,1-13.38-8.69,40.32,40.32,0,0,1-8.2-12.4A38.49,38.49,0,0,1,340,298.68a37.58,37.58,0,0,1,3-15,41.48,41.48,0,0,1,8.3-12.5,37.68,37.68,0,0,1,13.28-8.69q8-3.22,21.28-3.22h96.85Z\"\r\n                            transform=\"translate(-30.91 -102.14)\" />\r\n                    </g>\r\n                </svg>\r\n            </div>\r\n\r\n            <h1 class=\"lead jumbotron_banner_h1\">Welcome to QuickLearn Systems</h1>\r\n            <p>Set your sights on the finish line. Achieve your project goals.</p>\r\n        </div>\r\n    </div>\r\n    <div class=\"container-fuild\" style=\"margin-top:15px;\">\r\n        <div class=\"col-md-12 text-center\" onclick=\" $('html, body').animate({scrollTop:$('.jumbotron').height()+38}, 500, 'swing')\">\r\n            <i class=\"fa fa-angle-down\" style=\"font-size:80px;cursor:pointer\"></i>\r\n        </div>\r\n    </div>\r\n</div>\r\n<div class=\"container-fluid remove-padding\">\r\n    <div class=\"col-sm-12 remove-padding\">\r\n        <div id=\"myCarousel\" class=\"carousel slide\" data-ride=\"carousel\">\r\n            <div class=\"carousel-inner\" role=\"listbox\">\r\n                <div class=\"item\" ng-repeat=\"event in events\" ng-class=\"{active:!$index}\">\r\n                    <img ng-src=\"./images/{{event.slider}}.jpg\">\r\n                    <img ng-src=\"./images/{{event.slider}}.jpg\" class=\"blur-img\">\r\n                    <img ng-src=\"./images/{{event.slider}}_cap.png\" class=\"img-caption\">\r\n                    <div class=\"event-details container-fluid\">\r\n                        <div class=\"hidden-xs hidden-sm col-md-1 col-lg-1\"></div>\r\n                        <div class=\"hidden-xs hidden-sm col-md-5 col-lg-7\">\r\n                            <p><i class=\"fa fa-clipboard\" aria-hidden=\"true\"></i> <b>Course:</b> {{event.training}}</p>\r\n                            <p><i class=\"fa fa-calendar\" aria-hidden=\"true\"></i> <b>Date:</b> {{event.date}}</p>\r\n                            <p><i class=\"fa fa-location-arrow\" aria-hidden=\"true\"></i> <b>Location:</b> {{event.location}}</p>\r\n                        </div>\r\n                        <div class=\"hidden-xs hidden-sm col-md-6 col-lg-4\" style=\"padding-top:15px;\">\r\n                            <a ng-href=\"{{event.link}}\" style=\"text-decoration: none;\"><button class=\"btn btn-primary btn-block btn-lg\" style=\"font-family:Raleway\">Register Now</button></a>\r\n                        </div>\r\n                        <div class=\"col-xs-12 col-sm-12 hidden-md hidden-lg text-center\" style=\"font-size:medium; padding-top:0px; font-family:Raleway;\">\r\n                            <p><i class=\"fa fa-clipboard\" aria-hidden=\"true\"></i> <b>Course:</b> {{event.training}}</p>\r\n                            <p><i class=\"fa fa-calendar\" aria-hidden=\"true\"></i> <b>Date:</b> {{event.date}}</p>\r\n                            <p><i class=\"fa fa-location-arrow\" aria-hidden=\"true\"></i> <b>Location:</b> {{event.location}}</p>\r\n                        </div>\r\n                        <div class=\"col-xs-12 col-sm-12 hidden-md hidden-lg\">\r\n                            <a ng-href=\"{{event.link}}\" style=\"text-decoration: none;\"><button class=\"btn btn-primary btn-sm btn-block\" style=\"font-family:Raleway\">Register Now</button></a>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n\r\n                <!-- Left and right controls -->\r\n                <a class=\"left carousel-control\" data-target=\"#myCarousel\" role=\"button\" data-slide=\"prev\">\r\n                    <span class=\"glyphicon glyphicon-chevron-left\" aria-hidden=\"true\"></span>\r\n                    <span class=\"sr-only\">Previous</span>\r\n                </a>\r\n                <a class=\"right carousel-control\" data-target=\"#myCarousel\" role=\"button\" data-slide=\"next\">\r\n                    <span class=\"glyphicon glyphicon-chevron-right\" aria-hidden=\"true\"></span>\r\n                    <span class=\"sr-only\">Next</span>\r\n                </a>\r\n            </div>\r\n        </div>\r\n        <!-- <div class=\"col-sm-4 events\">\r\n            <div class=\"panel panel-primary\" style=\"margin-bottom:0px;\">\r\n                <div class=\"panel-heading\">\r\n                    <h3 class=\"panel-title\">Upcoming Events</h3>\r\n                </div>\r\n                <div class=\"panel-body panel-events\" ng-scrollbars>\r\n                    <div class=\"container-fluid\" style=\"padding:0px;\">\r\n                        <div ng-repeat=\"event in events\">\r\n                            <div class=\"col-sm-12 event-card\" style=\"margin-bottom: 10px;\">\r\n                                <p>\r\n                                    <strong>{{event.training}}</strong>\r\n                                </p>\r\n                                <p>Date: {{event.date}}\r\n                                    <br>Location: {{event.location}}</p>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div> -->\r\n    </div>\r\n    <br/>\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-md-12 text-center\">\r\n            <h2>Courses We Offer</h2>\r\n        </div>\r\n        <div class=\"container-fluid\">\r\n            <div class=\"row\">\r\n                <div class=\"col-sm-2\"></div>\r\n                <div class=\"col-sm-8\">\r\n                    <div class=\"input-group\">\r\n                        <input type=\"search\" class=\"form-control\" placeholder=\"Search for courses\" ng-model=\"query\">\r\n                        <span class=\"input-group-addon btn btn-primary\">\r\n                            <i class=\"fa fa-search\"></i> Search</span>\r\n                    </div>\r\n                    <hr class=\"divider\" style=\"border-top: 1px solid #3e4f5f;\">\r\n                </div>\r\n                <div class=\"col-sm-2\"></div>\r\n            </div>\r\n\r\n        </div>\r\n        <div class=\"container-fluid\">\r\n            <div class=\"col-sm-3\" ng-repeat=\"course in courses | filter:query\">\r\n                <div class=\"container card\">\r\n                    <div class=\"col-sm-12 card-image\">\r\n                        <img ng-src=\"{{course.image}}\" alt=\"{{course.title}}\" width=\"100%\" />\r\n                    </div>\r\n                    <div class=\"col-sm-12 card-content\">\r\n                        <h4 class=\"text-primary\">{{course.title}}</h4>\r\n                        <p>{{course.text}}</p>\r\n                        <hr class=\"card-divider\" style=\"border-top: 1px solid #ddd;\">\r\n                        <div class=\"col-sm-12 text-right card-btn\">\r\n                            <a class=\"btn btn-primary btn-sm\" ui-sref=\"{{course.url}}\">Learn More</a>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n    <br/>\r\n    <div class=\"container c-confes\">\r\n        <div id=\"cConfesCarousel\" class=\"carousel slide\" data-ride=\"carousel\">\r\n            <!-- Wrapper for slides -->\r\n            <div class=\"carousel-inner\" role=\"listbox\">\r\n                <div class=\"item\" ng-class=\"{'active': $index == 0}\" ng-repeat=\"testimonial in testimonials\" style=\"height: 200px;\">\r\n                    <div class=\"container-fluid\" style=\"margin-top:2%;\">\r\n                        <div class=\"row text-center\">\r\n                            <div class=\"col-md-12 c-confes-img\">\r\n                                <img ng-src=\"{{testimonial.image}}\">\r\n                            </div>\r\n                            <div class=\"col-md-12 c-confes-txt\">“{{testimonial.message}}”</div>\r\n                            <div class=\"col-md-12 c-confes-name\">\r\n                                <h4>{{testimonial.name}}</h4>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n            <!-- Left and right controls -->\r\n            <a class=\"left carousel-control\" data-target=\"#cConfesCarousel\" role=\"button\" data-slide=\"prev\" style=\"background-image:none;color:#263944;\">\r\n                <span class=\"glyphicon glyphicon-chevron-left\" aria-hidden=\"true\"></span>\r\n                <span class=\"sr-only\">Previous</span>\r\n            </a>\r\n            <a class=\"right carousel-control\" data-target=\"#cConfesCarousel\" role=\"button\" data-slide=\"next\" style=\"background-image:none;color:#263944;\">\r\n                <span class=\"glyphicon glyphicon-chevron-right\" aria-hidden=\"true\"></span>\r\n                <span class=\"sr-only\">Next</span>\r\n            </a>\r\n        </div>\r\n    </div>\r\n    <br/>\r\n    <div class=\"container text-center\">\r\n        <h3>Our Clients</h3>\r\n        <br>\r\n        <div class=\"row\">\r\n            <div class=\"col-sm-2\" ng-repeat=\"client in clients\">\r\n                <img ng-src=\"{{client.logo}}\" class=\"img-responsive\" style=\"width:100%;padding:5px;\" alt=\"{{client.name}}\">\r\n            </div>\r\n        </div>\r\n    </div>\r\n    <br/>";
 
 /***/ },
 /* 80 */
 /***/ function(module, exports) {
 
-	module.exports = "<div class=\"jumbotron text-center\">\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-md-12 text-center\" style=\"padding-top:4%\">\r\n            <h1 class=\"lead about_h1\">About QuickLearn Systems</h1>\r\n            <p class=\"caption\">Value for time and money invested is the prime aspiration of Quicklearn Systems.</p>\r\n        </div>\r\n    </div>\r\n</div>\r\n<div class=\"container-fluid about_page\">\r\n    <div class=\"col-lg-12 about-us\">\r\n        <div class=\"col-lg-6\">\r\n            <h2 class=\"lead about_h2\">About QuickLearn Systems</h2>\r\n            <p class=\"about_p\">QuickLearn Systems is professional training and certification provider catering its services from last 4 years.\r\n                Quicklearn provides world class training that includes online trainings, E-learning and Classroom trainings.\r\n                Customer satisfaction, Value for time and money invested is the prime aspiration of Quicklearn Systems. We\r\n                customize the trainings based on your requirements to ensure you get the best out from the trainings.</p>\r\n            <p class=\"about_p\">We strongly believe that it can be achieved by understanding the challenges in detail from customer perspective\r\n                and guide them accordingly to suit their career requirements and achieve their goals. Our Service and Support\r\n                team is equipped with the best Systems to provide transparent &amp; seamless Service to our customers. We\r\n                strongly believe in professionalism and ethics which we demonstrate in our business. Our Main goal is to\r\n                guide you through your success and ensure you grow up the ladder with a framework that suits every individual.</p>\r\n            <p class=\"about_p\">\r\n                We are a leading training provider for working professionals in the areas of Project &amp; Program Management, Service Management,\r\n                IT Governance &amp; Architecture and Quality Management. We offer live-online (instructor-led online), classroom\r\n                (instructor-led classroom), E-learning (online self-learning) courses, Customized and Corporate Trainings.\r\n            </p>\r\n            <p class=\"about_p\">\r\n                Whether it is an Individual or a Corporate, QuickLearn Systems strives to make the learning experience effective and fruitful\r\n                for the customer. QuickLearn Systems has several physical &amp; satellite training centers across India &amp;\r\n                the world. QuickLearn Systems is known in Major Metros in and across the globe.\r\n            </p>\r\n\r\n        </div>\r\n    </div>\r\n</div>\r\n<div class=\"container-fluid vision \">\r\n    <div class=\"container text-center\">\r\n        <h2 class=\"text-default\">Vision</h2>\r\n        <span class=\"text-default lead\">We are Limited not by Our Abilities but by Our Vision...</span>\r\n        <div class=\"container\">\r\n            <div class=\"col-sm-12\">\r\n                <div class=\"col-sm-1\"></div>\r\n                <div class=\"col-sm-10\">\r\n                    <p class=\"about_p\">Be the standard and benchmark to beat. Be the standard that other enterprise training institutes strive\r\n                        to reach. To be respected and appreciated by our customers for the outstanding quality of our trainings,creativity,\r\n                        helpfulness and the effectiveness of our training programs.\r\n                    </p>\r\n                </div>\r\n                <div class=\"col-sm-1\"></div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n<div class=\"mission\">\r\n    <div class=\"container\">\r\n        <div class=\"col-sm-6\">\r\n            <h1 class=\"text-default about_h1\">Mission</h1>\r\n            <span class=\"text-default lead\">Where there is a will there is only the A - Z way…</span>\r\n            <p class=\"about_p\">Enable Customers with the knowledge capable to develop and enhance their skills to create different, endeavours\r\n                to be a professional. We offer flexible trainings, customized training and solutions designed to educate,\r\n                inspire and motivate individuals and businesses helping you reach and achieve your goals and aspirations.</p>\r\n        </div>\r\n    </div>\r\n    <div class=\"container\">\r\n        <div class=\"col-sm-6\">\r\n        <h1 class=\"text-default about_h1\">Values</h1>\r\n        <span class=\"text-default lead\">We at QuickLearn Systems,<br/> Fully Committed to help you succeed.</span>\r\n        <ul>\r\n            <li><p class=\"about_p\"><b>Quality</b> teaching and learning.</p></li>\r\n            <li><p class=\"about_p\"><b>Respect</b> and <b>Care</b> for all.</p></li>\r\n            <li><p class=\"about_p\"><b>Customer Satisfaction</b> is our priority.</p></li>\r\n            <li><p class=\"about_p\"><b>Focus</b> on <b>continuous improvement</b>.</p></li>\r\n            <li><p class=\"about_p\"><b>Long Term Relationship</b> with <b>Our customers</b>.</p></li>\r\n        </ul>\r\n        </div>\r\n    </div>\r\n</div>";
+	module.exports = "<div class=\"jumbotron text-center\">\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-md-12 text-center\" style=\"padding-top:4%\">\r\n            <h1 class=\"lead about_h1\">About QuickLearn Systems</h1>\r\n            <p class=\"caption\">Value for time and money invested is the prime aspiration of Quicklearn Systems.</p>\r\n        </div>\r\n    </div>\r\n</div>\r\n<div class=\"container-fluid about_page\">\r\n    <div class=\"col-lg-12 about-us\">\r\n        <div class=\"col-lg-6\">\r\n            <h2 class=\"lead about_h2\">About QuickLearn Systems</h2>\r\n            <p class=\"about_p\">QuickLearn Systems is professional training and certification provider catering its services from last 4 years.\r\n                Quicklearn provides world class training that includes online trainings, E-learning and Classroom trainings.\r\n                Customer satisfaction, Value for time and money invested is the prime aspiration of Quicklearn Systems. We\r\n                customize the trainings based on your requirements to ensure you get the best out from the trainings.</p>\r\n            <p class=\"about_p\">We strongly believe that it can be achieved by understanding the challenges in detail from customer perspective\r\n                and guide them accordingly to suit their career requirements and achieve their goals. Our Service and Support\r\n                team is equipped with the best Systems to provide transparent &amp; seamless Service to our customers. We\r\n                strongly believe in professionalism and ethics which we demonstrate in our business. Our Main goal is to\r\n                guide you through your success and ensure you grow up the ladder with a framework that suits every individual.</p>\r\n            <p class=\"about_p\">\r\n                We are a leading training provider for working professionals in the areas of Project &amp; Program Management, Service Management,\r\n                IT Governance &amp; Architecture and Quality Management. We offer live-online (instructor-led online), classroom\r\n                (instructor-led classroom), E-learning (online self-learning) courses, Customized and Corporate Trainings.\r\n            </p>\r\n            <p class=\"about_p\">\r\n                Whether it is an Individual or a Corporate, QuickLearn Systems strives to make the learning experience effective and fruitful\r\n                for the customer. QuickLearn Systems has several physical &amp; satellite training centers across India &amp;\r\n                the world. QuickLearn Systems is known in Major Metros in and across the globe.\r\n            </p>\r\n\r\n        </div>\r\n    </div>\r\n</div>\r\n<div class=\"container-fluid vision \">\r\n    <div class=\"container text-center\">\r\n        <h2 class=\"text-default\">Vision</h2>\r\n        <span class=\"text-default lead\">We are Limited not by Our Abilities but by Our Vision...</span>\r\n        <div class=\"container-fluid\">\r\n            <div class=\"col-sm-12\">\r\n                <div class=\"col-sm-1\"></div>\r\n                <div class=\"col-sm-10\">\r\n                    <p class=\"about_p\">Be the standard and benchmark to beat. Be the standard that other enterprise training institutes strive\r\n                        to reach. To be respected and appreciated by our customers for the outstanding quality of our trainings,creativity,\r\n                        helpfulness and the effectiveness of our training programs.\r\n                    </p>\r\n                </div>\r\n                <div class=\"col-sm-1\"></div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n<div class=\"mission\">\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-sm-6\">\r\n            <h1 class=\"text-default about_h1\">Mission</h1>\r\n            <span class=\"text-default lead\">Where there is a will there is only the A - Z way…</span>\r\n            <p class=\"about_p\">Enable Customers with the knowledge capable to develop and enhance their skills to create different, endeavours\r\n                to be a professional. We offer flexible trainings, customized training and solutions designed to educate,\r\n                inspire and motivate individuals and businesses helping you reach and achieve your goals and aspirations.</p>\r\n        </div>\r\n    </div>\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-sm-6\">\r\n            <h1 class=\"text-default about_h1\">Values</h1>\r\n            <span class=\"text-default lead\">We at QuickLearn Systems,\r\n                <br/> Fully Committed to help you succeed.</span>\r\n            <ul>\r\n                <li>\r\n                    <p class=\"about_p\">\r\n                        <b>Quality</b> teaching and learning.</p>\r\n                </li>\r\n                <li>\r\n                    <p class=\"about_p\">\r\n                        <b>Respect</b> and\r\n                        <b>Care</b> for all.</p>\r\n                </li>\r\n                <li>\r\n                    <p class=\"about_p\">\r\n                        <b>Customer Satisfaction</b> is our priority.</p>\r\n                </li>\r\n                <li>\r\n                    <p class=\"about_p\">\r\n                        <b>Focus</b> on\r\n                        <b>continuous improvement</b>.</p>\r\n                </li>\r\n                <li>\r\n                    <p class=\"about_p\">\r\n                        <b>Long Term Relationship</b> with\r\n                        <b>Our customers</b>.</p>\r\n                </li>\r\n            </ul>\r\n        </div>\r\n    </div>\r\n</div>";
 
 /***/ },
 /* 81 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = "<div class=\"jumbotron text-center\">\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-md-12 text-center\" style=\"padding-top:4%;\">\r\n            <h1 class=\"lead\" style=\"font-size: 3em; margin-top: 2em;\">Upcoming Events</h1>\r\n        </div>\r\n    </div>\r\n</div>\r\n<div class=\"container-fluid content-container\">\r\n    <div class=\"container\">\r\n        <div class=\"col-md-8\">\r\n            <h2>Class Room Training Schedule:</h2>\r\n            <p>If following schedule does not match with your availibilty , please call us..</p>\r\n            <table class=\"table table-striped table-hover\">\r\n                <thead>\r\n                    <tr>\r\n                        <th width=\"40%\">Training Name</th>\r\n                        <th>Schedule Date</th>\r\n                        <th>Location</th>\r\n                        <th>Select Training</th>\r\n                    </tr>\r\n                </thead>\r\n                <tbody>\r\n                    <tr ng-repeat=\"event in events\">\r\n                        <td>{{event.training}}</td>\r\n                        <td align>{{event.date}}</td>\r\n                        <td>{{event.location}}</td>\r\n                        <td><a href=\"{{event.link}}\">Click Here</a></td>\r\n                    </tr>\r\n                </tbody>\r\n            </table>\r\n        </div>\r\n        <div class=\"col-md-4\">\r\n            <img src=\"" + __webpack_require__(82) + "\" alt=\"Upcoming Events\">\r\n        </div>\r\n    </div>\r\n    <div class=\"container\">\r\n        <div class=\"col-md-4\">\r\n            <img src=\"" + __webpack_require__(83) + "\" alt=\"Online Events\" style=\"margin-top: 50%;\">\r\n        </div>\r\n        <div class=\"col-md-8\">\r\n            <h2>Online Training Schedule:</h2>\r\n            <table class=\"table table-striped table-hover\">\r\n                <thead>\r\n                    <tr>\r\n                        <th width=\"40%\">Training Name</th>\r\n                        <th>Schedule Date</th>\r\n                        <th>Location</th>\r\n                        <th>Select Training</th>\r\n                    </tr>\r\n                </thead>\r\n                <tbody>\r\n                    <tr ng-repeat=\"event in onlineEvents\">\r\n                        <td>{{event.training}}</td>\r\n                        <td align>{{event.date}}</td>\r\n                        <td>{{event.location}}</td>\r\n                        <td><a href=\"{{event.link}}\">Click Here</a></td>\r\n                    </tr>\r\n                </tbody>\r\n            </table>\r\n        </div>\r\n    </div>\r\n</div>";
+	module.exports = "<div class=\"jumbotron text-center\">\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-md-12 text-center\" style=\"padding-top:4%;\">\r\n            <h1 class=\"lead\" style=\"font-size: 3em; margin-top: 2em;\">Upcoming Events</h1>\r\n        </div>\r\n    </div>\r\n</div>\r\n<div class=\"container-fluid content-container courses\">\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-md-8\">\r\n            <h2>Class Room Training Schedule:</h2>\r\n            <p>If following schedule does not match with your availibilty , please call us..</p>\r\n            <table class=\"table table-striped table-hover\">\r\n                <thead>\r\n                    <tr>\r\n                        <th width=\"40%\">Training Name</th>\r\n                        <th>Schedule Date</th>\r\n                        <th>Location</th>\r\n                        <th>Select Training</th>\r\n                    </tr>\r\n                </thead>\r\n                <tbody>\r\n                    <tr ng-repeat=\"event in events\">\r\n                        <td>{{event.training}}</td>\r\n                        <td align>{{event.date}}</td>\r\n                        <td>{{event.location}}</td>\r\n                        <td><a href=\"{{event.link}}\">Click Here</a></td>\r\n                    </tr>\r\n                </tbody>\r\n            </table>\r\n        </div>\r\n        <div class=\"col-md-4\">\r\n            <img src=\"" + __webpack_require__(82) + "\" alt=\"Upcoming Events\">\r\n        </div>\r\n    </div>\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-md-4\">\r\n            <img src=\"" + __webpack_require__(83) + "\" alt=\"Online Events\" style=\"margin-top: 50%;\">\r\n        </div>\r\n        <div class=\"col-md-8\">\r\n            <h2>Online Training Schedule:</h2>\r\n            <table class=\"table table-striped table-hover\">\r\n                <thead>\r\n                    <tr>\r\n                        <th width=\"40%\">Training Name</th>\r\n                        <th>Schedule Date</th>\r\n                        <th>Location</th>\r\n                        <th>Select Training</th>\r\n                    </tr>\r\n                </thead>\r\n                <tbody>\r\n                    <tr ng-repeat=\"event in onlineEvents\">\r\n                        <td>{{event.training}}</td>\r\n                        <td align>{{event.date}}</td>\r\n                        <td>{{event.location}}</td>\r\n                        <td><a href=\"{{event.link}}\">Click Here</a></td>\r\n                    </tr>\r\n                </tbody>\r\n            </table>\r\n        </div>\r\n    </div>\r\n</div>";
 
 /***/ },
 /* 82 */
@@ -52992,7 +52995,7 @@
 /* 84 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = "<div class=\"jumbotron text-center\">\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-md-12 text-center\" style=\"padding-top:4%;\">\r\n            <h1 class=\"lead\" style=\"font-size: 3em; margin-top: 2em;\">Our Services</h1>\r\n        </div>\r\n    </div>\r\n</div>\r\n<div class=\"container-fluid content-container\">\r\n    <div class=\"container\">\r\n        <div class=\"col-lg-8\">\r\n            <h2>Classroom Training</h2>\r\n            <p>At Quicklearn System we believe learning is just not about gaining knowledge; it is also about attaining wisdom.\r\n                Classroom Training is the best way to network with people along with finishing your course. The Trainees\r\n                will get an opportunity to meet with the professionals and cross train the knowledge from them. Though, there\r\n                is advancement in the modes of learning, yet, classroom training has its own charm.</p>\r\n            <p>The Training groups are customized as per the requirement of the trainees. There is always a human-touch involved\r\n                in classroom training unlike the online training courses. There is flexibility to interact with the group\r\n                members. The trainees can clear their doubts instantly with the trainers. Quicklearn System ensures that\r\n                trainees are more refined and productive after the course.</p>\r\n            <p>Regardless of your location, accelerate your knowledge by attending a course in one of our classrooms training\r\n                program. These highly reciprocated classes provide hands-on practical training using examples, so you can\r\n                apply real-world scenarios to practice and refine your own skills.</p>\r\n            <ul>\r\n                <li>\r\n                    <p>Training groups can be large or small</p>\r\n                </li>\r\n                <li>\r\n                    <p>The classroom environment provides the important “human touch,” which is often missing in technology-based\r\n                        training\r\n                    </p>\r\n                </li>\r\n                <li>\r\n                    <p>Group interaction enhances learning. Employees learn from one another as well as from the trainer</p>\r\n                </li>\r\n                <li>\r\n                    <p>The group setting also teaches employees how to interact with one another in a professional, productive,\r\n                        cooperative way</p>\r\n                </li>\r\n                <p>We have the team of vast and varied industry experience trainers having in-depth knowledge in their respective\r\n                    knowledge areas.</p>\r\n            </ul>\r\n        </div>\r\n        <div class=\"col-lg-4 text-center\"><img src=\"" + __webpack_require__(85) + "\" alt=\"Classroom Training\"></div>\r\n    </div>\r\n    <div class=\"container\">\r\n        <div class=\"col-lg-4\">\r\n            <img src=\"" + __webpack_require__(86) + "\" alt=\"eLearning\" style=\"width:100%; margin-top:50%;\">\r\n        </div>\r\n        <div class=\"col-lg-8\">\r\n            <h2>E-Learning Training</h2>\r\n            <p>Quicklearn System provides you flexible eLearning that can be done in short chunks of time that can fit around\r\n                your daily schedule. Trainees will have a set time of learning, normally divided into modules, with a deadline\r\n                in which to do them in. This way, if you want to do all of the learning in one day as you work better this\r\n                way, you can.</p>\r\n            <p>Quicklearn System eLearning courses aren’t confined to be fixed to try and suit the needs of the majority. If\r\n                you feel you already know a particular area well and don’t need to spend an hour on it again, then you can\r\n                skim over it and concentrate that time on something you feel you need to work more at. Everyone is able to\r\n                learn at their own pace.</p>\r\n            <p>Quicklearn System eLearning’s focuses more on an Individual to suit their requirements. You can get directly\r\n                in touch with the instructor via email to clarify your doubts. With clever design, user experience, and multimedia,\r\n                eLearning’s can prove to be a richer and more effective learning experience than traditional methods and\r\n                channels.\r\n            </p>\r\n        </div>\r\n    </div>\r\n    <div class=\"container\">\r\n        <div class=\"col-lg-6\">\r\n            <h2>Customized and Corporate Trainings</h2>\r\n            <p>Quicklearn systems offer complete customized and corporate training solutions in order to address the business\r\n                needs and learning objectives of our clients. We understand that your business and training goals are unique,\r\n                and many organizations today want a more highly customized training program for improving the delivery of\r\n                services. We emphasise on Employee Motivation, engagement and performance.</p>\r\n            <p>With rich and diverse exposure across industry we have trained almost 2500 people across different, verticals\r\n                like Information Technology, BPO, Telecom, Oil and Gas, Healthcare, Banking and Financial Services Industries.</p>\r\n            <p>We build your training from the ground up. We’ll work together to identify and understand your training objectives\r\n                and goals. From there, we’ll select the specific skills, strategies and the appropriate delivery style to\r\n                accomplish the objectives, develop the content, incorporate your culture, design exercises and activities\r\n                for active participation and provide follow-up post training activities.</p>\r\n            <p>You’ll have an opportunity to discuss your training and development objectives with our hand-selected trainer\r\n                who will incorporate your input into the training day. Unlike other training companies, the trainer facilitating\r\n                your event will be an integral part of this process. Our trainers don’t just “show up and talk.” </p>\r\n            <p>We would work with your Learning and Development team to understand what it takes for your training to be a successful.</p>\r\n        </div>\r\n        <div class=\"col-lg-6\">\r\n            <img src=\"" + __webpack_require__(87) + "\" alt=\"Corporate trainings\" style=\"width:100%;margin-top:10%;\">\r\n        </div>\r\n        <div class=\"col-lg-12\">\r\n            <p><b>STEP 1</b>: Requirement gathering</p>\r\n            <p>Getting started with discussing your specific training objectives and business goals with your organisation.\r\n                Time frames and deadline, your organization’s culture, details about the participants, delivery style, and\r\n                most importantly the training outcome you desire are all an integral part of this discussion.</p>\r\n            <p><b>STEP 2</b>: Counselling the topics and content</p>\r\n            <p>Based on your business needs and objectives, our team will guide you with appropriate training solution inclusive\r\n                of training, certifying body, trainer of your choice and content.</p>\r\n            <p><b>STEP 3</b>: Develop Custom Content </p>\r\n            <p>Based on your organization requirements we will customize a program by developing customized content, examples,\r\n                exercises and activities specifically for your organization.</p>\r\n            <p><b>STEP 4</b>: Delivery and Assessment</p>\r\n            <p>Our trainer will deliver an interactive day that is on target with your business goals and objectives. Depending\r\n                on the delivery style identified as the best choice for your group, your training program is maximized for\r\n                retention by including both traditional and experiential learning models. Incorporating small and large group\r\n                activities, case studies, role-plays and interactive exercises presented by one of our skilled and dynamic\r\n                trainers, you can count on a program that educates and inspires your participants while meeting your important\r\n                business goals.</p>\r\n            <p>At the end of the session the participant progress and knowledge gain is assessed and. This will ensure the training\r\n                objectives are met.</p>\r\n            <p><b>STEP 5</b>: Follow-Up</p>\r\n            <p>Your Satisfaction is utmost priority for us. We conduct satisfaction and quality assessments at the close of\r\n                each training day to ensure we meet your objectives. Should you feel something’s been missed, we’ll work\r\n                until we’ve matched your expectations and needs.</p>\r\n            <p><b>STEP 6</b>: Post Training Support and Activities</p>\r\n            <p>After initial training, post training support is a critical element in maximizing your organization’s training\r\n                investment. We offer a wide range of techniques which reinforce the new concepts and skills presented. We\r\n                also offer you post activities and Validation techniques so that your trainees do are in touch with the subject.</p>\r\n        </div>\r\n    </div>\r\n    <div class=\"container\">\r\n        <div class=\"col-lg-8\">\r\n            <h2>Live Virtual training</h2>\r\n            <p>At Quicklearn systems the most important aspects of a successful virtual training strategy is to consider audience\r\n                and their primary objectives. The primary learning objectives will help you to select key pieces of information\r\n                that should be included in your Virtual course plan, and will also help you to develop a virtual learning\r\n                strategy that caters to their varied learning needs. </p>\r\n            <p>At Quicklearn systems the focus is on user-friendly content delivery. We actively engage and thought-provoking\r\n                questions to drive the discussion and make it an interactive session. This means that we should be delivering\r\n                the key pieces of information, and then asking engaging questions that make the employee think and interact.\r\n                This makes them feel as though they are active participants, rather than just attendees at a lecture.</p>\r\n            <p>Drawing attention to important content and offer periodic recaps. It’s a proven fact that too much information\r\n                at once can lead to cognitive overload. As such, we try to keep sessions as short as possible.</p>\r\n            <p>This enables participants all across the world to attend Best in Class, Project Management, Program Management,\r\n                Quality Management &amp; IT Service Management trainings irrespective of their geographical location &amp;\r\n                also let them save on Travel related Costs.</p>\r\n        </div>\r\n        <div class=\"col-lg-4\"><img src=\"" + __webpack_require__(88) + "\" alt=\"Live virtual training\" style=\"width:100%;margin-top:25%;\"></div>\r\n    </div>\r\n    <div class=\"container\">\r\n        <div class=\"col-lg-12\">\r\n            <h2>Contact Us:</h2>\r\n            <p>For More information regarding your Training requirement. Write to us at: <a href=\"mailto:info@quicklearnsys.com\">info@quicklearnsys.com</a> or call us at +91 9100195152</p>\r\n        </div>\r\n    </div>\r\n</div>";
+	module.exports = "<div class=\"jumbotron text-center\">\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-md-12 text-center\" style=\"padding-top:4%;\">\r\n            <h1 class=\"lead\" style=\"font-size: 3em; margin-top: 2em;\">Our Services</h1>\r\n        </div>\r\n    </div>\r\n</div>\r\n<div class=\"container-fluid content-container courses\">\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-lg-8\">\r\n            <h2>Classroom Training</h2>\r\n            <p>At Quicklearn System we believe learning is just not about gaining knowledge; it is also about attaining wisdom.\r\n                Classroom Training is the best way to network with people along with finishing your course. The Trainees\r\n                will get an opportunity to meet with the professionals and cross train the knowledge from them. Though, there\r\n                is advancement in the modes of learning, yet, classroom training has its own charm.</p>\r\n            <p>The Training groups are customized as per the requirement of the trainees. There is always a human-touch involved\r\n                in classroom training unlike the online training courses. There is flexibility to interact with the group\r\n                members. The trainees can clear their doubts instantly with the trainers. Quicklearn System ensures that\r\n                trainees are more refined and productive after the course.</p>\r\n            <p>Regardless of your location, accelerate your knowledge by attending a course in one of our classrooms training\r\n                program. These highly reciprocated classes provide hands-on practical training using examples, so you can\r\n                apply real-world scenarios to practice and refine your own skills.</p>\r\n            <ul>\r\n                <li>\r\n                    <p>Training groups can be large or small</p>\r\n                </li>\r\n                <li>\r\n                    <p>The classroom environment provides the important “human touch,” which is often missing in technology-based\r\n                        training\r\n                    </p>\r\n                </li>\r\n                <li>\r\n                    <p>Group interaction enhances learning. Employees learn from one another as well as from the trainer</p>\r\n                </li>\r\n                <li>\r\n                    <p>The group setting also teaches employees how to interact with one another in a professional, productive,\r\n                        cooperative way</p>\r\n                </li>\r\n                <p>We have the team of vast and varied industry experience trainers having in-depth knowledge in their respective\r\n                    knowledge areas.</p>\r\n            </ul>\r\n        </div>\r\n        <div class=\"col-lg-4 text-center\"><img src=\"" + __webpack_require__(85) + "\" alt=\"Classroom Training\"></div>\r\n    </div>\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-lg-4\">\r\n            <img src=\"" + __webpack_require__(86) + "\" alt=\"eLearning\" style=\"width:100%; margin-top:50%;\">\r\n        </div>\r\n        <div class=\"col-lg-8\">\r\n            <h2>E-Learning Training</h2>\r\n            <p>Quicklearn System provides you flexible eLearning that can be done in short chunks of time that can fit around\r\n                your daily schedule. Trainees will have a set time of learning, normally divided into modules, with a deadline\r\n                in which to do them in. This way, if you want to do all of the learning in one day as you work better this\r\n                way, you can.</p>\r\n            <p>Quicklearn System eLearning courses aren’t confined to be fixed to try and suit the needs of the majority. If\r\n                you feel you already know a particular area well and don’t need to spend an hour on it again, then you can\r\n                skim over it and concentrate that time on something you feel you need to work more at. Everyone is able to\r\n                learn at their own pace.</p>\r\n            <p>Quicklearn System eLearning’s focuses more on an Individual to suit their requirements. You can get directly\r\n                in touch with the instructor via email to clarify your doubts. With clever design, user experience, and multimedia,\r\n                eLearning’s can prove to be a richer and more effective learning experience than traditional methods and\r\n                channels.\r\n            </p>\r\n        </div>\r\n    </div>\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-lg-6\">\r\n            <h2>Customized and Corporate Trainings</h2>\r\n            <p>Quicklearn systems offer complete customized and corporate training solutions in order to address the business\r\n                needs and learning objectives of our clients. We understand that your business and training goals are unique,\r\n                and many organizations today want a more highly customized training program for improving the delivery of\r\n                services. We emphasise on Employee Motivation, engagement and performance.</p>\r\n            <p>With rich and diverse exposure across industry we have trained almost 2500 people across different, verticals\r\n                like Information Technology, BPO, Telecom, Oil and Gas, Healthcare, Banking and Financial Services Industries.</p>\r\n            <p>We build your training from the ground up. We’ll work together to identify and understand your training objectives\r\n                and goals. From there, we’ll select the specific skills, strategies and the appropriate delivery style to\r\n                accomplish the objectives, develop the content, incorporate your culture, design exercises and activities\r\n                for active participation and provide follow-up post training activities.</p>\r\n            <p>You’ll have an opportunity to discuss your training and development objectives with our hand-selected trainer\r\n                who will incorporate your input into the training day. Unlike other training companies, the trainer facilitating\r\n                your event will be an integral part of this process. Our trainers don’t just “show up and talk.” </p>\r\n            <p>We would work with your Learning and Development team to understand what it takes for your training to be a successful.</p>\r\n        </div>\r\n        <div class=\"col-lg-6\">\r\n            <img src=\"" + __webpack_require__(87) + "\" alt=\"Corporate trainings\" style=\"width:100%;margin-top:10%;\">\r\n        </div>\r\n        <div class=\"col-lg-12\">\r\n            <p><b>STEP 1</b>: Requirement gathering</p>\r\n            <p>Getting started with discussing your specific training objectives and business goals with your organisation.\r\n                Time frames and deadline, your organization’s culture, details about the participants, delivery style, and\r\n                most importantly the training outcome you desire are all an integral part of this discussion.</p>\r\n            <p><b>STEP 2</b>: Counselling the topics and content</p>\r\n            <p>Based on your business needs and objectives, our team will guide you with appropriate training solution inclusive\r\n                of training, certifying body, trainer of your choice and content.</p>\r\n            <p><b>STEP 3</b>: Develop Custom Content </p>\r\n            <p>Based on your organization requirements we will customize a program by developing customized content, examples,\r\n                exercises and activities specifically for your organization.</p>\r\n            <p><b>STEP 4</b>: Delivery and Assessment</p>\r\n            <p>Our trainer will deliver an interactive day that is on target with your business goals and objectives. Depending\r\n                on the delivery style identified as the best choice for your group, your training program is maximized for\r\n                retention by including both traditional and experiential learning models. Incorporating small and large group\r\n                activities, case studies, role-plays and interactive exercises presented by one of our skilled and dynamic\r\n                trainers, you can count on a program that educates and inspires your participants while meeting your important\r\n                business goals.</p>\r\n            <p>At the end of the session the participant progress and knowledge gain is assessed and. This will ensure the training\r\n                objectives are met.</p>\r\n            <p><b>STEP 5</b>: Follow-Up</p>\r\n            <p>Your Satisfaction is utmost priority for us. We conduct satisfaction and quality assessments at the close of\r\n                each training day to ensure we meet your objectives. Should you feel something’s been missed, we’ll work\r\n                until we’ve matched your expectations and needs.</p>\r\n            <p><b>STEP 6</b>: Post Training Support and Activities</p>\r\n            <p>After initial training, post training support is a critical element in maximizing your organization’s training\r\n                investment. We offer a wide range of techniques which reinforce the new concepts and skills presented. We\r\n                also offer you post activities and Validation techniques so that your trainees do are in touch with the subject.</p>\r\n        </div>\r\n    </div>\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-lg-8\">\r\n            <h2>Live Virtual training</h2>\r\n            <p>At Quicklearn systems the most important aspects of a successful virtual training strategy is to consider audience\r\n                and their primary objectives. The primary learning objectives will help you to select key pieces of information\r\n                that should be included in your Virtual course plan, and will also help you to develop a virtual learning\r\n                strategy that caters to their varied learning needs. </p>\r\n            <p>At Quicklearn systems the focus is on user-friendly content delivery. We actively engage and thought-provoking\r\n                questions to drive the discussion and make it an interactive session. This means that we should be delivering\r\n                the key pieces of information, and then asking engaging questions that make the employee think and interact.\r\n                This makes them feel as though they are active participants, rather than just attendees at a lecture.</p>\r\n            <p>Drawing attention to important content and offer periodic recaps. It’s a proven fact that too much information\r\n                at once can lead to cognitive overload. As such, we try to keep sessions as short as possible.</p>\r\n            <p>This enables participants all across the world to attend Best in Class, Project Management, Program Management,\r\n                Quality Management &amp; IT Service Management trainings irrespective of their geographical location &amp;\r\n                also let them save on Travel related Costs.</p>\r\n        </div>\r\n        <div class=\"col-lg-4\"><img src=\"" + __webpack_require__(88) + "\" alt=\"Live virtual training\" style=\"width:100%;margin-top:25%;\"></div>\r\n    </div>\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-lg-12\">\r\n            <h2>Contact Us:</h2>\r\n            <p>For More information regarding your Training requirement. Write to us at: <a href=\"mailto:info@quicklearnsys.com\">info@quicklearnsys.com</a> or call us at +91 9100195152</p>\r\n        </div>\r\n    </div>\r\n</div>";
 
 /***/ },
 /* 85 */
@@ -53028,7 +53031,7 @@
 /* 90 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = "<div class=\"jumbotron text-center\">\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-md-12 text-center\" style=\"padding-top:4%;\">\r\n            <h1 class=\"lead\" style=\"font-size: 3em; margin-top: 2em;\">Terms and Conditions</h1>\r\n        </div>\r\n    </div>\r\n</div>\r\n<div class=\"container-fluid content-container\">\r\n    <div class=\"container\">\r\n        <div class=\"col-lg-8\">\r\n            <h2>Terms of Use</h2>\r\n            <h3>Please read the following carefully</h3>\r\n            <p>These terms and conditions (\"Terms and Conditions\") control your use of this website gvstechnosoft.com (\"Website\").\r\n                In these Terms and Conditions, \"QuickLearn Systems\" is referred to as the \"Company\", \"us,\" or \"we.\"</p>\r\n            <p>'You' refers as user or a paying customer. If you are a company or another person who gives access to company\r\n                products, you agree to take responsibility in full in case of damages or indemnification that could properly\r\n                lie against the customer.</p>\r\n            <p>The QuickLearn Systems web site (the 'Site'), the educational services made available through the site and the\r\n                content (the 'Products') are owned, operated and maintained, as applicable, by QuickLearn Systems ('we',\r\n                'our', 'us', or the 'Company'). The Site, Products and Content are, collectively, the 'Company Products'.</p>\r\n            <p>By (a) using or accessing the Company Products, including, but not limited to downloading or accessing, (b) offering\r\n                a Course through the Site or through Software; you agree to the terms and conditions set forth in these Terms\r\n                of Use (the \"Terms\")</p>\r\n            <p>By using this website or its Products and Services, You Agree and Warrant that you have read, Understood, and\r\n                agree to be bound by these terms. Company's privacy policy can be found at privacy policy. If you do not\r\n                accept these terms, you must not use - and are not authorized to use - all or any portion of the company's\r\n                website and its products or services (as defined below).</p>\r\n        </div>\r\n        <div class=\"col-lg-4 text-center\"><img src=\"" + __webpack_require__(91) + "\" alt=\"Terms And Conditions\"></div>\r\n    </div>\r\n    <div class=\"container\">\r\n        <div class=\"col-lg-12\">\r\n            <h2>Please read them carefully before you use the services of this site.</h2>\r\n            <ul>\r\n                <li>\r\n                    <p>You should not use this site in an unlawful manner; you must respect website terms and conditions and\r\n                        follow the privacy policy.</p>\r\n                </li>\r\n                <li>\r\n                    <p>Under no situations or circumstances, the company will be liable for any change in the content which\r\n                        it provides on the website through its products and services, including but not limited to any errors,\r\n                        omissions, loss or damage experienced in connection with the use of exposure, any content made available\r\n                        via our products, services or various resources such as email, blog etc.</p>\r\n                </li>\r\n                <li>\r\n                    <p>Our services are free to any user with access to the internet. However, we are not responsible for the\r\n                        charges incurred for the usage of hardware, software or internet services provider fee. Also, the\r\n                        user is fully responsible for the proper functioning of computer hardware and internet access</p>\r\n                </li>\r\n                <li>\r\n                    <p>You will be required to use login credentials for some of the sections on the site and the company reserves\r\n                        the right to block access to our services for any user who does not follow these conditions</p>\r\n                </li>\r\n                <li>\r\n                    <p>We make sure that users get uninterrupted access to our service, but there is no obligation to do so.</p>\r\n                </li>\r\n                <li>\r\n                    <p>QuickLearn Systems is not responsible and is not obligated for issues in your network or server beyond\r\n                        certain limits.</p>\r\n                </li>\r\n            </ul>\r\n        </div>\r\n        <div class=\"container\">\r\n            <div class=\"col-lg-12\">\r\n                <h2>Website usage guidelines</h2>\r\n                <ul>\r\n                    <li>\r\n                        <p>Do not Insult, abuse, harass, stalk, threaten or otherwise infringe the rights of others;</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>Do not publish post, distribute or disseminate any defamatory, infringing, indecent, offensive or\r\n                            unlawful material or information.</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>Do not upload, install, transfer files which are protected by Intellectual Property laws or software\r\n                            which affect other computers.</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>It's prohibited to edit HTML source code, reverse engineer or attempt to hack.</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>Do not run Spam services/scripts or anything which could affect infrastructure, and in turn, users.</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>Do not communicate spam, advertise or sell services such as digital downloads, eBooks or phishing\r\n                            links.\r\n                        </p>\r\n                    </li>\r\n                    <li>\r\n                        <p>You may not copy, distribute and indulge in plagiarism with website content or user submitted content.</p>\r\n                    </li>\r\n                </ul>\r\n            </div>\r\n        </div>\r\n        <div class=\"container\">\r\n            <div class=\"col-lg-12\">\r\n                <h2>The content</h2>\r\n                <p>All website content or information that can be seen, heard or otherwise experienced on the Site is copyrighted\r\n                    and belongs to QuickLearn Systems or its partners, affiliates or third parties. You may use the Site,\r\n                    the Service and the Content for your own personal, non-commercial use only.</p>\r\n                <p>You may download and print the available material for your own personal, non-commercial use only.</p>\r\n                <p>You will not transfer any information from the website or produce derivative work which you can display,\r\n                    distribute or transmit.</p>\r\n            </div>\r\n        </div>\r\n        <div class=\"container\">\r\n            <div class=\"col-lg-12\">\r\n                <h2>Links and Hyperlinks Terms</h2>\r\n                <p>This website may have links to other websites. We do not undertake any control on the content of these websites;\r\n                    nor are we responsible for their website content. The sole purpose of the links included is to provide\r\n                    users information. Hence, QuickLearn Systems will not be held responsible.</p>\r\n            </div>\r\n        </div>\r\n        <div class=\"container\">\r\n            <div class=\"col-lg-12\">\r\n                <h2>Hyperlinks</h2>\r\n                <ul>\r\n                    <li>\r\n                        <p>You may not mirror or frame the home page or any other pages of this Site on any other web site or\r\n                            web page.\r\n                        </p>\r\n                    </li>\r\n                    <li>\r\n                        <p>Do not link to QuickLearn Systems pages and subpages with spam links/anchor text which could provide\r\n                            false impression. This may create misunderstanding for the users.</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>Do not use or include copyrighted or registered trademarks, or Intellectual property images, design\r\n                            or content as a link to QuickLearn Systems website.</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>Do not link to pages which support racism, terrorism.</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>Do not link to pages which provide pornographic content and violate human rights.</p>\r\n                    </li>\r\n                </ul>\r\n            </div>\r\n        </div>\r\n        <div class=\"continer\">\r\n            <div class=\"col-lg-12\">\r\n                <h2>Copyright and Intellectual Property</h2>\r\n                <p>We value and respect others intellectual property and expect our users to do the same.</p>\r\n                <p>The entire contents of the Site are protected by copyright and trademark laws. The owner of the copyrights\r\n                    and trademarks are gvstechnosoft.com, its affiliates or other third party licensors. The material on\r\n                    the site, including text, graphics, code and/or software is copyrighted and belongs to QuickLearn Systems;\r\n                    therefore you may not duplicate, modify, publish or reproduce the content in any manner.</p>\r\n                <p>QuickLearn Systems does not take any responsibility for the content on other sites (except our partners and\r\n                    affiliates), that you may find when searching or accessing QuickLearn Systems products or services. The\r\n                    privacy policy and terms of use of the sites that you visit will administer that material.</p>\r\n                <p>QuickLearn Systems has all the rights to disable or prohibit access to the users who do not respect and involve\r\n                    in the infringement of QuickLearn Systems intellectual property. You are not allowed to use any of the\r\n                    digital images or logos from the website. In case of copyright issues, there has to be a written consent\r\n                    from the trademark owner\r\n                </p>\r\n            </div>\r\n        </div>\r\n        <div class=\"container\">\r\n            <div class=\"col-lg-12\">\r\n                <h2>Claims of Intellectual Property Violations</h2>\r\n                <p>If you believe that your work has been used without your permission in a way which prompts for copyright\r\n                    infringement. Please provide us the below information and we will act on it.</p>\r\n                <ul>\r\n                    <li>\r\n                        <p>The authorized person who will act on behalf of the owner of the copyright, should send a digital\r\n                            or physical signature</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>A description of the copyrighted work that you claim to be infringing your IP</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>A description of where and how the material that you claim is infringing is located on the QuickLearn\r\n                            Systems website, with enough detail that we may find it on the website</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>Contact Details - Address, telephone number, and email address.</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>A statement by you, that the information which you provided is accurate and your claim of the copyright\r\n                            or intellectual property is on your owner's behalf</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>You can reach QuickLearn Systems to notify your claims of copyright By email- <a class=\"link\">support@quicklearnsys.com</a></p>\r\n                    </li>\r\n                </ul>\r\n            </div>\r\n        </div>\r\n        <div class=\"container\">\r\n            <div class=\"col-lg-12\">\r\n                <h2>Transaction Terms</h2>\r\n                <p>If you believe that your work has been used without your permission in a way which prompts for copyright infringement. Please provide us the below information and we will act on it.</p>\r\n                <ul>\r\n                    <li>\r\n                        <p>To make a transaction on QuickLearn Systems website, you are bound to pay for that transaction</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>Please pay close attention to your payment details such as total bill, taxes, shipping costs, discounts</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>There are certain products which require additional terms and conditions which you have to agree before you make the purchase</p>\r\n                    </li>\r\n                </ul>\r\n                <p>WE MAKE NO WARRANTIES OF ANY KIND, EXPRESSED OR IMPLIED, WITH RESPECT TO ANY PRODUCTS OR SERVICES SOLD ON OR THROUGH QUICKLEARN SYSTEMS.</p>\r\n                <p>No additional or different terms contained in any purchase order, document, transmission or other communication shall be binding upon QuickLearn Systems unless agreed to by QuickLearn Systems in writing.</p>\r\n                <p>QuickLearn Systems reserves the right to modify, change without prior notice and in its sole discretion, to limit the order quantity on any item and to refuse service to anyone.</p>\r\n            </div>\r\n        </div>\r\n        <div class=\"container\">\r\n            <div class=\"col-lg-12\">\r\n                <h2>Pricing Disclaimer</h2>\r\n                <p>All prices, products and offers of QuickLearn Systems website are subject to change without notice.</p>\r\n                <p>While we make sure to provide most accurate and up-to-date information, in some cases one or more items on our web site may be priced incorrectly. This might happen due to human errors, digital images, technical error or a mismatch in pricing information received from our suppliers.</p>\r\n                <p>QuickLearn Systems reserves the right to change prices for all our products, offers or deals. These changes are done due to market conditions, course termination, providers, price changes, errors in advertisements and other mitigating circumstances. However the price you paid at the time of purchase still holds for you.</p>\r\n                <h2>Proprietary Use of QuickLearn Systems Study Material</h2>\r\n                <p>QuickLearn Systems reserves the right to change prices for all our products, offers or deals. These changes are done due to market conditions, course termination, providers, price changes, errors in advertisements and other mitigating circumstances. However the price you paid at the time of purchase still holds for you.</p>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>";
+	module.exports = "<div class=\"jumbotron text-center\">\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-md-12 text-center\" style=\"padding-top:4%;\">\r\n            <h1 class=\"lead\" style=\"font-size: 3em; margin-top: 2em;\">Terms and Conditions</h1>\r\n        </div>\r\n    </div>\r\n</div>\r\n<div class=\"container-fluid content-container courses\">\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-lg-8\">\r\n            <h2>Terms of Use</h2>\r\n            <h3>Please read the following carefully</h3>\r\n            <p>These terms and conditions (\"Terms and Conditions\") control your use of this website gvstechnosoft.com (\"Website\").\r\n                In these Terms and Conditions, \"QuickLearn Systems\" is referred to as the \"Company\", \"us,\" or \"we.\"</p>\r\n            <p>'You' refers as user or a paying customer. If you are a company or another person who gives access to company\r\n                products, you agree to take responsibility in full in case of damages or indemnification that could properly\r\n                lie against the customer.</p>\r\n            <p>The QuickLearn Systems web site (the 'Site'), the educational services made available through the site and the\r\n                content (the 'Products') are owned, operated and maintained, as applicable, by QuickLearn Systems ('we',\r\n                'our', 'us', or the 'Company'). The Site, Products and Content are, collectively, the 'Company Products'.</p>\r\n            <p>By (a) using or accessing the Company Products, including, but not limited to downloading or accessing, (b) offering\r\n                a Course through the Site or through Software; you agree to the terms and conditions set forth in these Terms\r\n                of Use (the \"Terms\")</p>\r\n            <p>By using this website or its Products and Services, You Agree and Warrant that you have read, Understood, and\r\n                agree to be bound by these terms. Company's privacy policy can be found at privacy policy. If you do not\r\n                accept these terms, you must not use - and are not authorized to use - all or any portion of the company's\r\n                website and its products or services (as defined below).</p>\r\n        </div>\r\n        <div class=\"col-lg-4 text-center\"><img src=\"" + __webpack_require__(91) + "\" alt=\"Terms And Conditions\"></div>\r\n    </div>\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-lg-12\">\r\n            <h2>Please read them carefully before you use the services of this site.</h2>\r\n            <ul>\r\n                <li>\r\n                    <p>You should not use this site in an unlawful manner; you must respect website terms and conditions and\r\n                        follow the privacy policy.</p>\r\n                </li>\r\n                <li>\r\n                    <p>Under no situations or circumstances, the company will be liable for any change in the content which\r\n                        it provides on the website through its products and services, including but not limited to any errors,\r\n                        omissions, loss or damage experienced in connection with the use of exposure, any content made available\r\n                        via our products, services or various resources such as email, blog etc.</p>\r\n                </li>\r\n                <li>\r\n                    <p>Our services are free to any user with access to the internet. However, we are not responsible for the\r\n                        charges incurred for the usage of hardware, software or internet services provider fee. Also, the\r\n                        user is fully responsible for the proper functioning of computer hardware and internet access</p>\r\n                </li>\r\n                <li>\r\n                    <p>You will be required to use login credentials for some of the sections on the site and the company reserves\r\n                        the right to block access to our services for any user who does not follow these conditions</p>\r\n                </li>\r\n                <li>\r\n                    <p>We make sure that users get uninterrupted access to our service, but there is no obligation to do so.</p>\r\n                </li>\r\n                <li>\r\n                    <p>QuickLearn Systems is not responsible and is not obligated for issues in your network or server beyond\r\n                        certain limits.</p>\r\n                </li>\r\n            </ul>\r\n        </div>\r\n        <div class=\"container-fluid\">\r\n            <div class=\"col-lg-12\">\r\n                <h2>Website usage guidelines</h2>\r\n                <ul>\r\n                    <li>\r\n                        <p>Do not Insult, abuse, harass, stalk, threaten or otherwise infringe the rights of others;</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>Do not publish post, distribute or disseminate any defamatory, infringing, indecent, offensive or\r\n                            unlawful material or information.</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>Do not upload, install, transfer files which are protected by Intellectual Property laws or software\r\n                            which affect other computers.</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>It's prohibited to edit HTML source code, reverse engineer or attempt to hack.</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>Do not run Spam services/scripts or anything which could affect infrastructure, and in turn, users.</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>Do not communicate spam, advertise or sell services such as digital downloads, eBooks or phishing\r\n                            links.\r\n                        </p>\r\n                    </li>\r\n                    <li>\r\n                        <p>You may not copy, distribute and indulge in plagiarism with website content or user submitted content.</p>\r\n                    </li>\r\n                </ul>\r\n            </div>\r\n        </div>\r\n        <div class=\"container-fluid\">\r\n            <div class=\"col-lg-12\">\r\n                <h2>The content</h2>\r\n                <p>All website content or information that can be seen, heard or otherwise experienced on the Site is copyrighted\r\n                    and belongs to QuickLearn Systems or its partners, affiliates or third parties. You may use the Site,\r\n                    the Service and the Content for your own personal, non-commercial use only.</p>\r\n                <p>You may download and print the available material for your own personal, non-commercial use only.</p>\r\n                <p>You will not transfer any information from the website or produce derivative work which you can display,\r\n                    distribute or transmit.</p>\r\n            </div>\r\n        </div>\r\n        <div class=\"container-fluid\">\r\n            <div class=\"col-lg-12\">\r\n                <h2>Links and Hyperlinks Terms</h2>\r\n                <p>This website may have links to other websites. We do not undertake any control on the content of these websites;\r\n                    nor are we responsible for their website content. The sole purpose of the links included is to provide\r\n                    users information. Hence, QuickLearn Systems will not be held responsible.</p>\r\n            </div>\r\n        </div>\r\n        <div class=\"container-fluid\">\r\n            <div class=\"col-lg-12\">\r\n                <h2>Hyperlinks</h2>\r\n                <ul>\r\n                    <li>\r\n                        <p>You may not mirror or frame the home page or any other pages of this Site on any other web site or\r\n                            web page.\r\n                        </p>\r\n                    </li>\r\n                    <li>\r\n                        <p>Do not link to QuickLearn Systems pages and subpages with spam links/anchor text which could provide\r\n                            false impression. This may create misunderstanding for the users.</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>Do not use or include copyrighted or registered trademarks, or Intellectual property images, design\r\n                            or content as a link to QuickLearn Systems website.</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>Do not link to pages which support racism, terrorism.</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>Do not link to pages which provide pornographic content and violate human rights.</p>\r\n                    </li>\r\n                </ul>\r\n            </div>\r\n        </div>\r\n        <div class=\"continer\">\r\n            <div class=\"col-lg-12\">\r\n                <h2>Copyright and Intellectual Property</h2>\r\n                <p>We value and respect others intellectual property and expect our users to do the same.</p>\r\n                <p>The entire contents of the Site are protected by copyright and trademark laws. The owner of the copyrights\r\n                    and trademarks are gvstechnosoft.com, its affiliates or other third party licensors. The material on\r\n                    the site, including text, graphics, code and/or software is copyrighted and belongs to QuickLearn Systems;\r\n                    therefore you may not duplicate, modify, publish or reproduce the content in any manner.</p>\r\n                <p>QuickLearn Systems does not take any responsibility for the content on other sites (except our partners and\r\n                    affiliates), that you may find when searching or accessing QuickLearn Systems products or services. The\r\n                    privacy policy and terms of use of the sites that you visit will administer that material.</p>\r\n                <p>QuickLearn Systems has all the rights to disable or prohibit access to the users who do not respect and involve\r\n                    in the infringement of QuickLearn Systems intellectual property. You are not allowed to use any of the\r\n                    digital images or logos from the website. In case of copyright issues, there has to be a written consent\r\n                    from the trademark owner\r\n                </p>\r\n            </div>\r\n        </div>\r\n        <div class=\"container-fluid\">\r\n            <div class=\"col-lg-12\">\r\n                <h2>Claims of Intellectual Property Violations</h2>\r\n                <p>If you believe that your work has been used without your permission in a way which prompts for copyright\r\n                    infringement. Please provide us the below information and we will act on it.</p>\r\n                <ul>\r\n                    <li>\r\n                        <p>The authorized person who will act on behalf of the owner of the copyright, should send a digital\r\n                            or physical signature</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>A description of the copyrighted work that you claim to be infringing your IP</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>A description of where and how the material that you claim is infringing is located on the QuickLearn\r\n                            Systems website, with enough detail that we may find it on the website</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>Contact Details - Address, telephone number, and email address.</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>A statement by you, that the information which you provided is accurate and your claim of the copyright\r\n                            or intellectual property is on your owner's behalf</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>You can reach QuickLearn Systems to notify your claims of copyright By email- <a class=\"link\">support@quicklearnsys.com</a></p>\r\n                    </li>\r\n                </ul>\r\n            </div>\r\n        </div>\r\n        <div class=\"container-fluid\">\r\n            <div class=\"col-lg-12\">\r\n                <h2>Transaction Terms</h2>\r\n                <p>If you believe that your work has been used without your permission in a way which prompts for copyright infringement. Please provide us the below information and we will act on it.</p>\r\n                <ul>\r\n                    <li>\r\n                        <p>To make a transaction on QuickLearn Systems website, you are bound to pay for that transaction</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>Please pay close attention to your payment details such as total bill, taxes, shipping costs, discounts</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>There are certain products which require additional terms and conditions which you have to agree before you make the purchase</p>\r\n                    </li>\r\n                </ul>\r\n                <p>WE MAKE NO WARRANTIES OF ANY KIND, EXPRESSED OR IMPLIED, WITH RESPECT TO ANY PRODUCTS OR SERVICES SOLD ON OR THROUGH QUICKLEARN SYSTEMS.</p>\r\n                <p>No additional or different terms contained in any purchase order, document, transmission or other communication shall be binding upon QuickLearn Systems unless agreed to by QuickLearn Systems in writing.</p>\r\n                <p>QuickLearn Systems reserves the right to modify, change without prior notice and in its sole discretion, to limit the order quantity on any item and to refuse service to anyone.</p>\r\n            </div>\r\n        </div>\r\n        <div class=\"container-fluid\">\r\n            <div class=\"col-lg-12\">\r\n                <h2>Pricing Disclaimer</h2>\r\n                <p>All prices, products and offers of QuickLearn Systems website are subject to change without notice.</p>\r\n                <p>While we make sure to provide most accurate and up-to-date information, in some cases one or more items on our web site may be priced incorrectly. This might happen due to human errors, digital images, technical error or a mismatch in pricing information received from our suppliers.</p>\r\n                <p>QuickLearn Systems reserves the right to change prices for all our products, offers or deals. These changes are done due to market conditions, course termination, providers, price changes, errors in advertisements and other mitigating circumstances. However the price you paid at the time of purchase still holds for you.</p>\r\n                <h2>Proprietary Use of QuickLearn Systems Study Material</h2>\r\n                <p>QuickLearn Systems reserves the right to change prices for all our products, offers or deals. These changes are done due to market conditions, course termination, providers, price changes, errors in advertisements and other mitigating circumstances. However the price you paid at the time of purchase still holds for you.</p>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>";
 
 /***/ },
 /* 91 */
@@ -53073,6 +53076,7 @@
 	angular.module('qls')
 	    .controller('appController', ['$rootScope', '$scope', 'ngMeta', '$http', function ($rootScope, $scope, ngMeta, $http) {
 	        $rootScope.enquiryState = false;
+	        $rootScope.mobileMenuState = false;
 	        $scope.coursesList = [
 	            "Select a course",
 	            "ITIL Foundation",
@@ -53122,6 +53126,14 @@
 
 	        $scope.enquiryToggle = function () {
 	            $rootScope.enquiryState = $rootScope.enquiryState ? false : true;
+	        }
+
+	        $scope.mobileMenuToggle = function(){
+	            if($rootScope.mobileMenuState){
+	                $rootScope.mobileMenuState = false;
+	            }else{
+	                $rootScope.mobileMenuState = true;
+	            }
 	        }
 	    }])
 
@@ -53236,6 +53248,4199 @@
 	            })
 	        }
 	    }]);
+
+/***/ },
+/* 99 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(100);
+	module.exports = 'ngAnimate';
+
+
+/***/ },
+/* 100 */
+/***/ function(module, exports) {
+
+	/**
+	 * @license AngularJS v1.5.8
+	 * (c) 2010-2016 Google, Inc. http://angularjs.org
+	 * License: MIT
+	 */
+	(function(window, angular) {'use strict';
+
+	var ELEMENT_NODE = 1;
+	var COMMENT_NODE = 8;
+
+	var ADD_CLASS_SUFFIX = '-add';
+	var REMOVE_CLASS_SUFFIX = '-remove';
+	var EVENT_CLASS_PREFIX = 'ng-';
+	var ACTIVE_CLASS_SUFFIX = '-active';
+	var PREPARE_CLASS_SUFFIX = '-prepare';
+
+	var NG_ANIMATE_CLASSNAME = 'ng-animate';
+	var NG_ANIMATE_CHILDREN_DATA = '$$ngAnimateChildren';
+
+	// Detect proper transitionend/animationend event names.
+	var CSS_PREFIX = '', TRANSITION_PROP, TRANSITIONEND_EVENT, ANIMATION_PROP, ANIMATIONEND_EVENT;
+
+	// If unprefixed events are not supported but webkit-prefixed are, use the latter.
+	// Otherwise, just use W3C names, browsers not supporting them at all will just ignore them.
+	// Note: Chrome implements `window.onwebkitanimationend` and doesn't implement `window.onanimationend`
+	// but at the same time dispatches the `animationend` event and not `webkitAnimationEnd`.
+	// Register both events in case `window.onanimationend` is not supported because of that,
+	// do the same for `transitionend` as Safari is likely to exhibit similar behavior.
+	// Also, the only modern browser that uses vendor prefixes for transitions/keyframes is webkit
+	// therefore there is no reason to test anymore for other vendor prefixes:
+	// http://caniuse.com/#search=transition
+	if ((window.ontransitionend === void 0) && (window.onwebkittransitionend !== void 0)) {
+	  CSS_PREFIX = '-webkit-';
+	  TRANSITION_PROP = 'WebkitTransition';
+	  TRANSITIONEND_EVENT = 'webkitTransitionEnd transitionend';
+	} else {
+	  TRANSITION_PROP = 'transition';
+	  TRANSITIONEND_EVENT = 'transitionend';
+	}
+
+	if ((window.onanimationend === void 0) && (window.onwebkitanimationend !== void 0)) {
+	  CSS_PREFIX = '-webkit-';
+	  ANIMATION_PROP = 'WebkitAnimation';
+	  ANIMATIONEND_EVENT = 'webkitAnimationEnd animationend';
+	} else {
+	  ANIMATION_PROP = 'animation';
+	  ANIMATIONEND_EVENT = 'animationend';
+	}
+
+	var DURATION_KEY = 'Duration';
+	var PROPERTY_KEY = 'Property';
+	var DELAY_KEY = 'Delay';
+	var TIMING_KEY = 'TimingFunction';
+	var ANIMATION_ITERATION_COUNT_KEY = 'IterationCount';
+	var ANIMATION_PLAYSTATE_KEY = 'PlayState';
+	var SAFE_FAST_FORWARD_DURATION_VALUE = 9999;
+
+	var ANIMATION_DELAY_PROP = ANIMATION_PROP + DELAY_KEY;
+	var ANIMATION_DURATION_PROP = ANIMATION_PROP + DURATION_KEY;
+	var TRANSITION_DELAY_PROP = TRANSITION_PROP + DELAY_KEY;
+	var TRANSITION_DURATION_PROP = TRANSITION_PROP + DURATION_KEY;
+
+	var ngMinErr = angular.$$minErr('ng');
+	function assertArg(arg, name, reason) {
+	  if (!arg) {
+	    throw ngMinErr('areq', "Argument '{0}' is {1}", (name || '?'), (reason || "required"));
+	  }
+	  return arg;
+	}
+
+	function mergeClasses(a,b) {
+	  if (!a && !b) return '';
+	  if (!a) return b;
+	  if (!b) return a;
+	  if (isArray(a)) a = a.join(' ');
+	  if (isArray(b)) b = b.join(' ');
+	  return a + ' ' + b;
+	}
+
+	function packageStyles(options) {
+	  var styles = {};
+	  if (options && (options.to || options.from)) {
+	    styles.to = options.to;
+	    styles.from = options.from;
+	  }
+	  return styles;
+	}
+
+	function pendClasses(classes, fix, isPrefix) {
+	  var className = '';
+	  classes = isArray(classes)
+	      ? classes
+	      : classes && isString(classes) && classes.length
+	          ? classes.split(/\s+/)
+	          : [];
+	  forEach(classes, function(klass, i) {
+	    if (klass && klass.length > 0) {
+	      className += (i > 0) ? ' ' : '';
+	      className += isPrefix ? fix + klass
+	                            : klass + fix;
+	    }
+	  });
+	  return className;
+	}
+
+	function removeFromArray(arr, val) {
+	  var index = arr.indexOf(val);
+	  if (val >= 0) {
+	    arr.splice(index, 1);
+	  }
+	}
+
+	function stripCommentsFromElement(element) {
+	  if (element instanceof jqLite) {
+	    switch (element.length) {
+	      case 0:
+	        return element;
+
+	      case 1:
+	        // there is no point of stripping anything if the element
+	        // is the only element within the jqLite wrapper.
+	        // (it's important that we retain the element instance.)
+	        if (element[0].nodeType === ELEMENT_NODE) {
+	          return element;
+	        }
+	        break;
+
+	      default:
+	        return jqLite(extractElementNode(element));
+	    }
+	  }
+
+	  if (element.nodeType === ELEMENT_NODE) {
+	    return jqLite(element);
+	  }
+	}
+
+	function extractElementNode(element) {
+	  if (!element[0]) return element;
+	  for (var i = 0; i < element.length; i++) {
+	    var elm = element[i];
+	    if (elm.nodeType == ELEMENT_NODE) {
+	      return elm;
+	    }
+	  }
+	}
+
+	function $$addClass($$jqLite, element, className) {
+	  forEach(element, function(elm) {
+	    $$jqLite.addClass(elm, className);
+	  });
+	}
+
+	function $$removeClass($$jqLite, element, className) {
+	  forEach(element, function(elm) {
+	    $$jqLite.removeClass(elm, className);
+	  });
+	}
+
+	function applyAnimationClassesFactory($$jqLite) {
+	  return function(element, options) {
+	    if (options.addClass) {
+	      $$addClass($$jqLite, element, options.addClass);
+	      options.addClass = null;
+	    }
+	    if (options.removeClass) {
+	      $$removeClass($$jqLite, element, options.removeClass);
+	      options.removeClass = null;
+	    }
+	  };
+	}
+
+	function prepareAnimationOptions(options) {
+	  options = options || {};
+	  if (!options.$$prepared) {
+	    var domOperation = options.domOperation || noop;
+	    options.domOperation = function() {
+	      options.$$domOperationFired = true;
+	      domOperation();
+	      domOperation = noop;
+	    };
+	    options.$$prepared = true;
+	  }
+	  return options;
+	}
+
+	function applyAnimationStyles(element, options) {
+	  applyAnimationFromStyles(element, options);
+	  applyAnimationToStyles(element, options);
+	}
+
+	function applyAnimationFromStyles(element, options) {
+	  if (options.from) {
+	    element.css(options.from);
+	    options.from = null;
+	  }
+	}
+
+	function applyAnimationToStyles(element, options) {
+	  if (options.to) {
+	    element.css(options.to);
+	    options.to = null;
+	  }
+	}
+
+	function mergeAnimationDetails(element, oldAnimation, newAnimation) {
+	  var target = oldAnimation.options || {};
+	  var newOptions = newAnimation.options || {};
+
+	  var toAdd = (target.addClass || '') + ' ' + (newOptions.addClass || '');
+	  var toRemove = (target.removeClass || '') + ' ' + (newOptions.removeClass || '');
+	  var classes = resolveElementClasses(element.attr('class'), toAdd, toRemove);
+
+	  if (newOptions.preparationClasses) {
+	    target.preparationClasses = concatWithSpace(newOptions.preparationClasses, target.preparationClasses);
+	    delete newOptions.preparationClasses;
+	  }
+
+	  // noop is basically when there is no callback; otherwise something has been set
+	  var realDomOperation = target.domOperation !== noop ? target.domOperation : null;
+
+	  extend(target, newOptions);
+
+	  // TODO(matsko or sreeramu): proper fix is to maintain all animation callback in array and call at last,but now only leave has the callback so no issue with this.
+	  if (realDomOperation) {
+	    target.domOperation = realDomOperation;
+	  }
+
+	  if (classes.addClass) {
+	    target.addClass = classes.addClass;
+	  } else {
+	    target.addClass = null;
+	  }
+
+	  if (classes.removeClass) {
+	    target.removeClass = classes.removeClass;
+	  } else {
+	    target.removeClass = null;
+	  }
+
+	  oldAnimation.addClass = target.addClass;
+	  oldAnimation.removeClass = target.removeClass;
+
+	  return target;
+	}
+
+	function resolveElementClasses(existing, toAdd, toRemove) {
+	  var ADD_CLASS = 1;
+	  var REMOVE_CLASS = -1;
+
+	  var flags = {};
+	  existing = splitClassesToLookup(existing);
+
+	  toAdd = splitClassesToLookup(toAdd);
+	  forEach(toAdd, function(value, key) {
+	    flags[key] = ADD_CLASS;
+	  });
+
+	  toRemove = splitClassesToLookup(toRemove);
+	  forEach(toRemove, function(value, key) {
+	    flags[key] = flags[key] === ADD_CLASS ? null : REMOVE_CLASS;
+	  });
+
+	  var classes = {
+	    addClass: '',
+	    removeClass: ''
+	  };
+
+	  forEach(flags, function(val, klass) {
+	    var prop, allow;
+	    if (val === ADD_CLASS) {
+	      prop = 'addClass';
+	      allow = !existing[klass] || existing[klass + REMOVE_CLASS_SUFFIX];
+	    } else if (val === REMOVE_CLASS) {
+	      prop = 'removeClass';
+	      allow = existing[klass] || existing[klass + ADD_CLASS_SUFFIX];
+	    }
+	    if (allow) {
+	      if (classes[prop].length) {
+	        classes[prop] += ' ';
+	      }
+	      classes[prop] += klass;
+	    }
+	  });
+
+	  function splitClassesToLookup(classes) {
+	    if (isString(classes)) {
+	      classes = classes.split(' ');
+	    }
+
+	    var obj = {};
+	    forEach(classes, function(klass) {
+	      // sometimes the split leaves empty string values
+	      // incase extra spaces were applied to the options
+	      if (klass.length) {
+	        obj[klass] = true;
+	      }
+	    });
+	    return obj;
+	  }
+
+	  return classes;
+	}
+
+	function getDomNode(element) {
+	  return (element instanceof jqLite) ? element[0] : element;
+	}
+
+	function applyGeneratedPreparationClasses(element, event, options) {
+	  var classes = '';
+	  if (event) {
+	    classes = pendClasses(event, EVENT_CLASS_PREFIX, true);
+	  }
+	  if (options.addClass) {
+	    classes = concatWithSpace(classes, pendClasses(options.addClass, ADD_CLASS_SUFFIX));
+	  }
+	  if (options.removeClass) {
+	    classes = concatWithSpace(classes, pendClasses(options.removeClass, REMOVE_CLASS_SUFFIX));
+	  }
+	  if (classes.length) {
+	    options.preparationClasses = classes;
+	    element.addClass(classes);
+	  }
+	}
+
+	function clearGeneratedClasses(element, options) {
+	  if (options.preparationClasses) {
+	    element.removeClass(options.preparationClasses);
+	    options.preparationClasses = null;
+	  }
+	  if (options.activeClasses) {
+	    element.removeClass(options.activeClasses);
+	    options.activeClasses = null;
+	  }
+	}
+
+	function blockTransitions(node, duration) {
+	  // we use a negative delay value since it performs blocking
+	  // yet it doesn't kill any existing transitions running on the
+	  // same element which makes this safe for class-based animations
+	  var value = duration ? '-' + duration + 's' : '';
+	  applyInlineStyle(node, [TRANSITION_DELAY_PROP, value]);
+	  return [TRANSITION_DELAY_PROP, value];
+	}
+
+	function blockKeyframeAnimations(node, applyBlock) {
+	  var value = applyBlock ? 'paused' : '';
+	  var key = ANIMATION_PROP + ANIMATION_PLAYSTATE_KEY;
+	  applyInlineStyle(node, [key, value]);
+	  return [key, value];
+	}
+
+	function applyInlineStyle(node, styleTuple) {
+	  var prop = styleTuple[0];
+	  var value = styleTuple[1];
+	  node.style[prop] = value;
+	}
+
+	function concatWithSpace(a,b) {
+	  if (!a) return b;
+	  if (!b) return a;
+	  return a + ' ' + b;
+	}
+
+	var $$rAFSchedulerFactory = ['$$rAF', function($$rAF) {
+	  var queue, cancelFn;
+
+	  function scheduler(tasks) {
+	    // we make a copy since RAFScheduler mutates the state
+	    // of the passed in array variable and this would be difficult
+	    // to track down on the outside code
+	    queue = queue.concat(tasks);
+	    nextTick();
+	  }
+
+	  queue = scheduler.queue = [];
+
+	  /* waitUntilQuiet does two things:
+	   * 1. It will run the FINAL `fn` value only when an uncanceled RAF has passed through
+	   * 2. It will delay the next wave of tasks from running until the quiet `fn` has run.
+	   *
+	   * The motivation here is that animation code can request more time from the scheduler
+	   * before the next wave runs. This allows for certain DOM properties such as classes to
+	   * be resolved in time for the next animation to run.
+	   */
+	  scheduler.waitUntilQuiet = function(fn) {
+	    if (cancelFn) cancelFn();
+
+	    cancelFn = $$rAF(function() {
+	      cancelFn = null;
+	      fn();
+	      nextTick();
+	    });
+	  };
+
+	  return scheduler;
+
+	  function nextTick() {
+	    if (!queue.length) return;
+
+	    var items = queue.shift();
+	    for (var i = 0; i < items.length; i++) {
+	      items[i]();
+	    }
+
+	    if (!cancelFn) {
+	      $$rAF(function() {
+	        if (!cancelFn) nextTick();
+	      });
+	    }
+	  }
+	}];
+
+	/**
+	 * @ngdoc directive
+	 * @name ngAnimateChildren
+	 * @restrict AE
+	 * @element ANY
+	 *
+	 * @description
+	 *
+	 * ngAnimateChildren allows you to specify that children of this element should animate even if any
+	 * of the children's parents are currently animating. By default, when an element has an active `enter`, `leave`, or `move`
+	 * (structural) animation, child elements that also have an active structural animation are not animated.
+	 *
+	 * Note that even if `ngAnimteChildren` is set, no child animations will run when the parent element is removed from the DOM (`leave` animation).
+	 *
+	 *
+	 * @param {string} ngAnimateChildren If the value is empty, `true` or `on`,
+	 *     then child animations are allowed. If the value is `false`, child animations are not allowed.
+	 *
+	 * @example
+	 * <example module="ngAnimateChildren" name="ngAnimateChildren" deps="angular-animate.js" animations="true">
+	     <file name="index.html">
+	       <div ng-controller="mainController as main">
+	         <label>Show container? <input type="checkbox" ng-model="main.enterElement" /></label>
+	         <label>Animate children? <input type="checkbox" ng-model="main.animateChildren" /></label>
+	         <hr>
+	         <div ng-animate-children="{{main.animateChildren}}">
+	           <div ng-if="main.enterElement" class="container">
+	             List of items:
+	             <div ng-repeat="item in [0, 1, 2, 3]" class="item">Item {{item}}</div>
+	           </div>
+	         </div>
+	       </div>
+	     </file>
+	     <file name="animations.css">
+
+	      .container.ng-enter,
+	      .container.ng-leave {
+	        transition: all ease 1.5s;
+	      }
+
+	      .container.ng-enter,
+	      .container.ng-leave-active {
+	        opacity: 0;
+	      }
+
+	      .container.ng-leave,
+	      .container.ng-enter-active {
+	        opacity: 1;
+	      }
+
+	      .item {
+	        background: firebrick;
+	        color: #FFF;
+	        margin-bottom: 10px;
+	      }
+
+	      .item.ng-enter,
+	      .item.ng-leave {
+	        transition: transform 1.5s ease;
+	      }
+
+	      .item.ng-enter {
+	        transform: translateX(50px);
+	      }
+
+	      .item.ng-enter-active {
+	        transform: translateX(0);
+	      }
+	    </file>
+	    <file name="script.js">
+	      angular.module('ngAnimateChildren', ['ngAnimate'])
+	        .controller('mainController', function() {
+	          this.animateChildren = false;
+	          this.enterElement = false;
+	        });
+	    </file>
+	  </example>
+	 */
+	var $$AnimateChildrenDirective = ['$interpolate', function($interpolate) {
+	  return {
+	    link: function(scope, element, attrs) {
+	      var val = attrs.ngAnimateChildren;
+	      if (isString(val) && val.length === 0) { //empty attribute
+	        element.data(NG_ANIMATE_CHILDREN_DATA, true);
+	      } else {
+	        // Interpolate and set the value, so that it is available to
+	        // animations that run right after compilation
+	        setData($interpolate(val)(scope));
+	        attrs.$observe('ngAnimateChildren', setData);
+	      }
+
+	      function setData(value) {
+	        value = value === 'on' || value === 'true';
+	        element.data(NG_ANIMATE_CHILDREN_DATA, value);
+	      }
+	    }
+	  };
+	}];
+
+	var ANIMATE_TIMER_KEY = '$$animateCss';
+
+	/**
+	 * @ngdoc service
+	 * @name $animateCss
+	 * @kind object
+	 *
+	 * @description
+	 * The `$animateCss` service is a useful utility to trigger customized CSS-based transitions/keyframes
+	 * from a JavaScript-based animation or directly from a directive. The purpose of `$animateCss` is NOT
+	 * to side-step how `$animate` and ngAnimate work, but the goal is to allow pre-existing animations or
+	 * directives to create more complex animations that can be purely driven using CSS code.
+	 *
+	 * Note that only browsers that support CSS transitions and/or keyframe animations are capable of
+	 * rendering animations triggered via `$animateCss` (bad news for IE9 and lower).
+	 *
+	 * ## Usage
+	 * Once again, `$animateCss` is designed to be used inside of a registered JavaScript animation that
+	 * is powered by ngAnimate. It is possible to use `$animateCss` directly inside of a directive, however,
+	 * any automatic control over cancelling animations and/or preventing animations from being run on
+	 * child elements will not be handled by Angular. For this to work as expected, please use `$animate` to
+	 * trigger the animation and then setup a JavaScript animation that injects `$animateCss` to trigger
+	 * the CSS animation.
+	 *
+	 * The example below shows how we can create a folding animation on an element using `ng-if`:
+	 *
+	 * ```html
+	 * <!-- notice the `fold-animation` CSS class -->
+	 * <div ng-if="onOff" class="fold-animation">
+	 *   This element will go BOOM
+	 * </div>
+	 * <button ng-click="onOff=true">Fold In</button>
+	 * ```
+	 *
+	 * Now we create the **JavaScript animation** that will trigger the CSS transition:
+	 *
+	 * ```js
+	 * ngModule.animation('.fold-animation', ['$animateCss', function($animateCss) {
+	 *   return {
+	 *     enter: function(element, doneFn) {
+	 *       var height = element[0].offsetHeight;
+	 *       return $animateCss(element, {
+	 *         from: { height:'0px' },
+	 *         to: { height:height + 'px' },
+	 *         duration: 1 // one second
+	 *       });
+	 *     }
+	 *   }
+	 * }]);
+	 * ```
+	 *
+	 * ## More Advanced Uses
+	 *
+	 * `$animateCss` is the underlying code that ngAnimate uses to power **CSS-based animations** behind the scenes. Therefore CSS hooks
+	 * like `.ng-EVENT`, `.ng-EVENT-active`, `.ng-EVENT-stagger` are all features that can be triggered using `$animateCss` via JavaScript code.
+	 *
+	 * This also means that just about any combination of adding classes, removing classes, setting styles, dynamically setting a keyframe animation,
+	 * applying a hardcoded duration or delay value, changing the animation easing or applying a stagger animation are all options that work with
+	 * `$animateCss`. The service itself is smart enough to figure out the combination of options and examine the element styling properties in order
+	 * to provide a working animation that will run in CSS.
+	 *
+	 * The example below showcases a more advanced version of the `.fold-animation` from the example above:
+	 *
+	 * ```js
+	 * ngModule.animation('.fold-animation', ['$animateCss', function($animateCss) {
+	 *   return {
+	 *     enter: function(element, doneFn) {
+	 *       var height = element[0].offsetHeight;
+	 *       return $animateCss(element, {
+	 *         addClass: 'red large-text pulse-twice',
+	 *         easing: 'ease-out',
+	 *         from: { height:'0px' },
+	 *         to: { height:height + 'px' },
+	 *         duration: 1 // one second
+	 *       });
+	 *     }
+	 *   }
+	 * }]);
+	 * ```
+	 *
+	 * Since we're adding/removing CSS classes then the CSS transition will also pick those up:
+	 *
+	 * ```css
+	 * /&#42; since a hardcoded duration value of 1 was provided in the JavaScript animation code,
+	 * the CSS classes below will be transitioned despite them being defined as regular CSS classes &#42;/
+	 * .red { background:red; }
+	 * .large-text { font-size:20px; }
+	 *
+	 * /&#42; we can also use a keyframe animation and $animateCss will make it work alongside the transition &#42;/
+	 * .pulse-twice {
+	 *   animation: 0.5s pulse linear 2;
+	 *   -webkit-animation: 0.5s pulse linear 2;
+	 * }
+	 *
+	 * @keyframes pulse {
+	 *   from { transform: scale(0.5); }
+	 *   to { transform: scale(1.5); }
+	 * }
+	 *
+	 * @-webkit-keyframes pulse {
+	 *   from { -webkit-transform: scale(0.5); }
+	 *   to { -webkit-transform: scale(1.5); }
+	 * }
+	 * ```
+	 *
+	 * Given this complex combination of CSS classes, styles and options, `$animateCss` will figure everything out and make the animation happen.
+	 *
+	 * ## How the Options are handled
+	 *
+	 * `$animateCss` is very versatile and intelligent when it comes to figuring out what configurations to apply to the element to ensure the animation
+	 * works with the options provided. Say for example we were adding a class that contained a keyframe value and we wanted to also animate some inline
+	 * styles using the `from` and `to` properties.
+	 *
+	 * ```js
+	 * var animator = $animateCss(element, {
+	 *   from: { background:'red' },
+	 *   to: { background:'blue' }
+	 * });
+	 * animator.start();
+	 * ```
+	 *
+	 * ```css
+	 * .rotating-animation {
+	 *   animation:0.5s rotate linear;
+	 *   -webkit-animation:0.5s rotate linear;
+	 * }
+	 *
+	 * @keyframes rotate {
+	 *   from { transform: rotate(0deg); }
+	 *   to { transform: rotate(360deg); }
+	 * }
+	 *
+	 * @-webkit-keyframes rotate {
+	 *   from { -webkit-transform: rotate(0deg); }
+	 *   to { -webkit-transform: rotate(360deg); }
+	 * }
+	 * ```
+	 *
+	 * The missing pieces here are that we do not have a transition set (within the CSS code nor within the `$animateCss` options) and the duration of the animation is
+	 * going to be detected from what the keyframe styles on the CSS class are. In this event, `$animateCss` will automatically create an inline transition
+	 * style matching the duration detected from the keyframe style (which is present in the CSS class that is being added) and then prepare both the transition
+	 * and keyframe animations to run in parallel on the element. Then when the animation is underway the provided `from` and `to` CSS styles will be applied
+	 * and spread across the transition and keyframe animation.
+	 *
+	 * ## What is returned
+	 *
+	 * `$animateCss` works in two stages: a preparation phase and an animation phase. Therefore when `$animateCss` is first called it will NOT actually
+	 * start the animation. All that is going on here is that the element is being prepared for the animation (which means that the generated CSS classes are
+	 * added and removed on the element). Once `$animateCss` is called it will return an object with the following properties:
+	 *
+	 * ```js
+	 * var animator = $animateCss(element, { ... });
+	 * ```
+	 *
+	 * Now what do the contents of our `animator` variable look like:
+	 *
+	 * ```js
+	 * {
+	 *   // starts the animation
+	 *   start: Function,
+	 *
+	 *   // ends (aborts) the animation
+	 *   end: Function
+	 * }
+	 * ```
+	 *
+	 * To actually start the animation we need to run `animation.start()` which will then return a promise that we can hook into to detect when the animation ends.
+	 * If we choose not to run the animation then we MUST run `animation.end()` to perform a cleanup on the element (since some CSS classes and styles may have been
+	 * applied to the element during the preparation phase). Note that all other properties such as duration, delay, transitions and keyframes are just properties
+	 * and that changing them will not reconfigure the parameters of the animation.
+	 *
+	 * ### runner.done() vs runner.then()
+	 * It is documented that `animation.start()` will return a promise object and this is true, however, there is also an additional method available on the
+	 * runner called `.done(callbackFn)`. The done method works the same as `.finally(callbackFn)`, however, it does **not trigger a digest to occur**.
+	 * Therefore, for performance reasons, it's always best to use `runner.done(callback)` instead of `runner.then()`, `runner.catch()` or `runner.finally()`
+	 * unless you really need a digest to kick off afterwards.
+	 *
+	 * Keep in mind that, to make this easier, ngAnimate has tweaked the JS animations API to recognize when a runner instance is returned from $animateCss
+	 * (so there is no need to call `runner.done(doneFn)` inside of your JavaScript animation code).
+	 * Check the {@link ngAnimate.$animateCss#usage animation code above} to see how this works.
+	 *
+	 * @param {DOMElement} element the element that will be animated
+	 * @param {object} options the animation-related options that will be applied during the animation
+	 *
+	 * * `event` - The DOM event (e.g. enter, leave, move). When used, a generated CSS class of `ng-EVENT` and `ng-EVENT-active` will be applied
+	 * to the element during the animation. Multiple events can be provided when spaces are used as a separator. (Note that this will not perform any DOM operation.)
+	 * * `structural` - Indicates that the `ng-` prefix will be added to the event class. Setting to `false` or omitting will turn `ng-EVENT` and
+	 * `ng-EVENT-active` in `EVENT` and `EVENT-active`. Unused if `event` is omitted.
+	 * * `easing` - The CSS easing value that will be applied to the transition or keyframe animation (or both).
+	 * * `transitionStyle` - The raw CSS transition style that will be used (e.g. `1s linear all`).
+	 * * `keyframeStyle` - The raw CSS keyframe animation style that will be used (e.g. `1s my_animation linear`).
+	 * * `from` - The starting CSS styles (a key/value object) that will be applied at the start of the animation.
+	 * * `to` - The ending CSS styles (a key/value object) that will be applied across the animation via a CSS transition.
+	 * * `addClass` - A space separated list of CSS classes that will be added to the element and spread across the animation.
+	 * * `removeClass` - A space separated list of CSS classes that will be removed from the element and spread across the animation.
+	 * * `duration` - A number value representing the total duration of the transition and/or keyframe (note that a value of 1 is 1000ms). If a value of `0`
+	 * is provided then the animation will be skipped entirely.
+	 * * `delay` - A number value representing the total delay of the transition and/or keyframe (note that a value of 1 is 1000ms). If a value of `true` is
+	 * used then whatever delay value is detected from the CSS classes will be mirrored on the elements styles (e.g. by setting delay true then the style value
+	 * of the element will be `transition-delay: DETECTED_VALUE`). Using `true` is useful when you want the CSS classes and inline styles to all share the same
+	 * CSS delay value.
+	 * * `stagger` - A numeric time value representing the delay between successively animated elements
+	 * ({@link ngAnimate#css-staggering-animations Click here to learn how CSS-based staggering works in ngAnimate.})
+	 * * `staggerIndex` - The numeric index representing the stagger item (e.g. a value of 5 is equal to the sixth item in the stagger; therefore when a
+	 *   `stagger` option value of `0.1` is used then there will be a stagger delay of `600ms`)
+	 * * `applyClassesEarly` - Whether or not the classes being added or removed will be used when detecting the animation. This is set by `$animate` when enter/leave/move animations are fired to ensure that the CSS classes are resolved in time. (Note that this will prevent any transitions from occurring on the classes being added and removed.)
+	 * * `cleanupStyles` - Whether or not the provided `from` and `to` styles will be removed once
+	 *    the animation is closed. This is useful for when the styles are used purely for the sake of
+	 *    the animation and do not have a lasting visual effect on the element (e.g. a collapse and open animation).
+	 *    By default this value is set to `false`.
+	 *
+	 * @return {object} an object with start and end methods and details about the animation.
+	 *
+	 * * `start` - The method to start the animation. This will return a `Promise` when called.
+	 * * `end` - This method will cancel the animation and remove all applied CSS classes and styles.
+	 */
+	var ONE_SECOND = 1000;
+	var BASE_TEN = 10;
+
+	var ELAPSED_TIME_MAX_DECIMAL_PLACES = 3;
+	var CLOSING_TIME_BUFFER = 1.5;
+
+	var DETECT_CSS_PROPERTIES = {
+	  transitionDuration:      TRANSITION_DURATION_PROP,
+	  transitionDelay:         TRANSITION_DELAY_PROP,
+	  transitionProperty:      TRANSITION_PROP + PROPERTY_KEY,
+	  animationDuration:       ANIMATION_DURATION_PROP,
+	  animationDelay:          ANIMATION_DELAY_PROP,
+	  animationIterationCount: ANIMATION_PROP + ANIMATION_ITERATION_COUNT_KEY
+	};
+
+	var DETECT_STAGGER_CSS_PROPERTIES = {
+	  transitionDuration:      TRANSITION_DURATION_PROP,
+	  transitionDelay:         TRANSITION_DELAY_PROP,
+	  animationDuration:       ANIMATION_DURATION_PROP,
+	  animationDelay:          ANIMATION_DELAY_PROP
+	};
+
+	function getCssKeyframeDurationStyle(duration) {
+	  return [ANIMATION_DURATION_PROP, duration + 's'];
+	}
+
+	function getCssDelayStyle(delay, isKeyframeAnimation) {
+	  var prop = isKeyframeAnimation ? ANIMATION_DELAY_PROP : TRANSITION_DELAY_PROP;
+	  return [prop, delay + 's'];
+	}
+
+	function computeCssStyles($window, element, properties) {
+	  var styles = Object.create(null);
+	  var detectedStyles = $window.getComputedStyle(element) || {};
+	  forEach(properties, function(formalStyleName, actualStyleName) {
+	    var val = detectedStyles[formalStyleName];
+	    if (val) {
+	      var c = val.charAt(0);
+
+	      // only numerical-based values have a negative sign or digit as the first value
+	      if (c === '-' || c === '+' || c >= 0) {
+	        val = parseMaxTime(val);
+	      }
+
+	      // by setting this to null in the event that the delay is not set or is set directly as 0
+	      // then we can still allow for negative values to be used later on and not mistake this
+	      // value for being greater than any other negative value.
+	      if (val === 0) {
+	        val = null;
+	      }
+	      styles[actualStyleName] = val;
+	    }
+	  });
+
+	  return styles;
+	}
+
+	function parseMaxTime(str) {
+	  var maxValue = 0;
+	  var values = str.split(/\s*,\s*/);
+	  forEach(values, function(value) {
+	    // it's always safe to consider only second values and omit `ms` values since
+	    // getComputedStyle will always handle the conversion for us
+	    if (value.charAt(value.length - 1) == 's') {
+	      value = value.substring(0, value.length - 1);
+	    }
+	    value = parseFloat(value) || 0;
+	    maxValue = maxValue ? Math.max(value, maxValue) : value;
+	  });
+	  return maxValue;
+	}
+
+	function truthyTimingValue(val) {
+	  return val === 0 || val != null;
+	}
+
+	function getCssTransitionDurationStyle(duration, applyOnlyDuration) {
+	  var style = TRANSITION_PROP;
+	  var value = duration + 's';
+	  if (applyOnlyDuration) {
+	    style += DURATION_KEY;
+	  } else {
+	    value += ' linear all';
+	  }
+	  return [style, value];
+	}
+
+	function createLocalCacheLookup() {
+	  var cache = Object.create(null);
+	  return {
+	    flush: function() {
+	      cache = Object.create(null);
+	    },
+
+	    count: function(key) {
+	      var entry = cache[key];
+	      return entry ? entry.total : 0;
+	    },
+
+	    get: function(key) {
+	      var entry = cache[key];
+	      return entry && entry.value;
+	    },
+
+	    put: function(key, value) {
+	      if (!cache[key]) {
+	        cache[key] = { total: 1, value: value };
+	      } else {
+	        cache[key].total++;
+	      }
+	    }
+	  };
+	}
+
+	// we do not reassign an already present style value since
+	// if we detect the style property value again we may be
+	// detecting styles that were added via the `from` styles.
+	// We make use of `isDefined` here since an empty string
+	// or null value (which is what getPropertyValue will return
+	// for a non-existing style) will still be marked as a valid
+	// value for the style (a falsy value implies that the style
+	// is to be removed at the end of the animation). If we had a simple
+	// "OR" statement then it would not be enough to catch that.
+	function registerRestorableStyles(backup, node, properties) {
+	  forEach(properties, function(prop) {
+	    backup[prop] = isDefined(backup[prop])
+	        ? backup[prop]
+	        : node.style.getPropertyValue(prop);
+	  });
+	}
+
+	var $AnimateCssProvider = ['$animateProvider', function($animateProvider) {
+	  var gcsLookup = createLocalCacheLookup();
+	  var gcsStaggerLookup = createLocalCacheLookup();
+
+	  this.$get = ['$window', '$$jqLite', '$$AnimateRunner', '$timeout',
+	               '$$forceReflow', '$sniffer', '$$rAFScheduler', '$$animateQueue',
+	       function($window,   $$jqLite,   $$AnimateRunner,   $timeout,
+	                $$forceReflow,   $sniffer,   $$rAFScheduler, $$animateQueue) {
+
+	    var applyAnimationClasses = applyAnimationClassesFactory($$jqLite);
+
+	    var parentCounter = 0;
+	    function gcsHashFn(node, extraClasses) {
+	      var KEY = "$$ngAnimateParentKey";
+	      var parentNode = node.parentNode;
+	      var parentID = parentNode[KEY] || (parentNode[KEY] = ++parentCounter);
+	      return parentID + '-' + node.getAttribute('class') + '-' + extraClasses;
+	    }
+
+	    function computeCachedCssStyles(node, className, cacheKey, properties) {
+	      var timings = gcsLookup.get(cacheKey);
+
+	      if (!timings) {
+	        timings = computeCssStyles($window, node, properties);
+	        if (timings.animationIterationCount === 'infinite') {
+	          timings.animationIterationCount = 1;
+	        }
+	      }
+
+	      // we keep putting this in multiple times even though the value and the cacheKey are the same
+	      // because we're keeping an internal tally of how many duplicate animations are detected.
+	      gcsLookup.put(cacheKey, timings);
+	      return timings;
+	    }
+
+	    function computeCachedCssStaggerStyles(node, className, cacheKey, properties) {
+	      var stagger;
+
+	      // if we have one or more existing matches of matching elements
+	      // containing the same parent + CSS styles (which is how cacheKey works)
+	      // then staggering is possible
+	      if (gcsLookup.count(cacheKey) > 0) {
+	        stagger = gcsStaggerLookup.get(cacheKey);
+
+	        if (!stagger) {
+	          var staggerClassName = pendClasses(className, '-stagger');
+
+	          $$jqLite.addClass(node, staggerClassName);
+
+	          stagger = computeCssStyles($window, node, properties);
+
+	          // force the conversion of a null value to zero incase not set
+	          stagger.animationDuration = Math.max(stagger.animationDuration, 0);
+	          stagger.transitionDuration = Math.max(stagger.transitionDuration, 0);
+
+	          $$jqLite.removeClass(node, staggerClassName);
+
+	          gcsStaggerLookup.put(cacheKey, stagger);
+	        }
+	      }
+
+	      return stagger || {};
+	    }
+
+	    var cancelLastRAFRequest;
+	    var rafWaitQueue = [];
+	    function waitUntilQuiet(callback) {
+	      rafWaitQueue.push(callback);
+	      $$rAFScheduler.waitUntilQuiet(function() {
+	        gcsLookup.flush();
+	        gcsStaggerLookup.flush();
+
+	        // DO NOT REMOVE THIS LINE OR REFACTOR OUT THE `pageWidth` variable.
+	        // PLEASE EXAMINE THE `$$forceReflow` service to understand why.
+	        var pageWidth = $$forceReflow();
+
+	        // we use a for loop to ensure that if the queue is changed
+	        // during this looping then it will consider new requests
+	        for (var i = 0; i < rafWaitQueue.length; i++) {
+	          rafWaitQueue[i](pageWidth);
+	        }
+	        rafWaitQueue.length = 0;
+	      });
+	    }
+
+	    function computeTimings(node, className, cacheKey) {
+	      var timings = computeCachedCssStyles(node, className, cacheKey, DETECT_CSS_PROPERTIES);
+	      var aD = timings.animationDelay;
+	      var tD = timings.transitionDelay;
+	      timings.maxDelay = aD && tD
+	          ? Math.max(aD, tD)
+	          : (aD || tD);
+	      timings.maxDuration = Math.max(
+	          timings.animationDuration * timings.animationIterationCount,
+	          timings.transitionDuration);
+
+	      return timings;
+	    }
+
+	    return function init(element, initialOptions) {
+	      // all of the animation functions should create
+	      // a copy of the options data, however, if a
+	      // parent service has already created a copy then
+	      // we should stick to using that
+	      var options = initialOptions || {};
+	      if (!options.$$prepared) {
+	        options = prepareAnimationOptions(copy(options));
+	      }
+
+	      var restoreStyles = {};
+	      var node = getDomNode(element);
+	      if (!node
+	          || !node.parentNode
+	          || !$$animateQueue.enabled()) {
+	        return closeAndReturnNoopAnimator();
+	      }
+
+	      var temporaryStyles = [];
+	      var classes = element.attr('class');
+	      var styles = packageStyles(options);
+	      var animationClosed;
+	      var animationPaused;
+	      var animationCompleted;
+	      var runner;
+	      var runnerHost;
+	      var maxDelay;
+	      var maxDelayTime;
+	      var maxDuration;
+	      var maxDurationTime;
+	      var startTime;
+	      var events = [];
+
+	      if (options.duration === 0 || (!$sniffer.animations && !$sniffer.transitions)) {
+	        return closeAndReturnNoopAnimator();
+	      }
+
+	      var method = options.event && isArray(options.event)
+	            ? options.event.join(' ')
+	            : options.event;
+
+	      var isStructural = method && options.structural;
+	      var structuralClassName = '';
+	      var addRemoveClassName = '';
+
+	      if (isStructural) {
+	        structuralClassName = pendClasses(method, EVENT_CLASS_PREFIX, true);
+	      } else if (method) {
+	        structuralClassName = method;
+	      }
+
+	      if (options.addClass) {
+	        addRemoveClassName += pendClasses(options.addClass, ADD_CLASS_SUFFIX);
+	      }
+
+	      if (options.removeClass) {
+	        if (addRemoveClassName.length) {
+	          addRemoveClassName += ' ';
+	        }
+	        addRemoveClassName += pendClasses(options.removeClass, REMOVE_CLASS_SUFFIX);
+	      }
+
+	      // there may be a situation where a structural animation is combined together
+	      // with CSS classes that need to resolve before the animation is computed.
+	      // However this means that there is no explicit CSS code to block the animation
+	      // from happening (by setting 0s none in the class name). If this is the case
+	      // we need to apply the classes before the first rAF so we know to continue if
+	      // there actually is a detected transition or keyframe animation
+	      if (options.applyClassesEarly && addRemoveClassName.length) {
+	        applyAnimationClasses(element, options);
+	      }
+
+	      var preparationClasses = [structuralClassName, addRemoveClassName].join(' ').trim();
+	      var fullClassName = classes + ' ' + preparationClasses;
+	      var activeClasses = pendClasses(preparationClasses, ACTIVE_CLASS_SUFFIX);
+	      var hasToStyles = styles.to && Object.keys(styles.to).length > 0;
+	      var containsKeyframeAnimation = (options.keyframeStyle || '').length > 0;
+
+	      // there is no way we can trigger an animation if no styles and
+	      // no classes are being applied which would then trigger a transition,
+	      // unless there a is raw keyframe value that is applied to the element.
+	      if (!containsKeyframeAnimation
+	           && !hasToStyles
+	           && !preparationClasses) {
+	        return closeAndReturnNoopAnimator();
+	      }
+
+	      var cacheKey, stagger;
+	      if (options.stagger > 0) {
+	        var staggerVal = parseFloat(options.stagger);
+	        stagger = {
+	          transitionDelay: staggerVal,
+	          animationDelay: staggerVal,
+	          transitionDuration: 0,
+	          animationDuration: 0
+	        };
+	      } else {
+	        cacheKey = gcsHashFn(node, fullClassName);
+	        stagger = computeCachedCssStaggerStyles(node, preparationClasses, cacheKey, DETECT_STAGGER_CSS_PROPERTIES);
+	      }
+
+	      if (!options.$$skipPreparationClasses) {
+	        $$jqLite.addClass(element, preparationClasses);
+	      }
+
+	      var applyOnlyDuration;
+
+	      if (options.transitionStyle) {
+	        var transitionStyle = [TRANSITION_PROP, options.transitionStyle];
+	        applyInlineStyle(node, transitionStyle);
+	        temporaryStyles.push(transitionStyle);
+	      }
+
+	      if (options.duration >= 0) {
+	        applyOnlyDuration = node.style[TRANSITION_PROP].length > 0;
+	        var durationStyle = getCssTransitionDurationStyle(options.duration, applyOnlyDuration);
+
+	        // we set the duration so that it will be picked up by getComputedStyle later
+	        applyInlineStyle(node, durationStyle);
+	        temporaryStyles.push(durationStyle);
+	      }
+
+	      if (options.keyframeStyle) {
+	        var keyframeStyle = [ANIMATION_PROP, options.keyframeStyle];
+	        applyInlineStyle(node, keyframeStyle);
+	        temporaryStyles.push(keyframeStyle);
+	      }
+
+	      var itemIndex = stagger
+	          ? options.staggerIndex >= 0
+	              ? options.staggerIndex
+	              : gcsLookup.count(cacheKey)
+	          : 0;
+
+	      var isFirst = itemIndex === 0;
+
+	      // this is a pre-emptive way of forcing the setup classes to be added and applied INSTANTLY
+	      // without causing any combination of transitions to kick in. By adding a negative delay value
+	      // it forces the setup class' transition to end immediately. We later then remove the negative
+	      // transition delay to allow for the transition to naturally do it's thing. The beauty here is
+	      // that if there is no transition defined then nothing will happen and this will also allow
+	      // other transitions to be stacked on top of each other without any chopping them out.
+	      if (isFirst && !options.skipBlocking) {
+	        blockTransitions(node, SAFE_FAST_FORWARD_DURATION_VALUE);
+	      }
+
+	      var timings = computeTimings(node, fullClassName, cacheKey);
+	      var relativeDelay = timings.maxDelay;
+	      maxDelay = Math.max(relativeDelay, 0);
+	      maxDuration = timings.maxDuration;
+
+	      var flags = {};
+	      flags.hasTransitions          = timings.transitionDuration > 0;
+	      flags.hasAnimations           = timings.animationDuration > 0;
+	      flags.hasTransitionAll        = flags.hasTransitions && timings.transitionProperty == 'all';
+	      flags.applyTransitionDuration = hasToStyles && (
+	                                        (flags.hasTransitions && !flags.hasTransitionAll)
+	                                         || (flags.hasAnimations && !flags.hasTransitions));
+	      flags.applyAnimationDuration  = options.duration && flags.hasAnimations;
+	      flags.applyTransitionDelay    = truthyTimingValue(options.delay) && (flags.applyTransitionDuration || flags.hasTransitions);
+	      flags.applyAnimationDelay     = truthyTimingValue(options.delay) && flags.hasAnimations;
+	      flags.recalculateTimingStyles = addRemoveClassName.length > 0;
+
+	      if (flags.applyTransitionDuration || flags.applyAnimationDuration) {
+	        maxDuration = options.duration ? parseFloat(options.duration) : maxDuration;
+
+	        if (flags.applyTransitionDuration) {
+	          flags.hasTransitions = true;
+	          timings.transitionDuration = maxDuration;
+	          applyOnlyDuration = node.style[TRANSITION_PROP + PROPERTY_KEY].length > 0;
+	          temporaryStyles.push(getCssTransitionDurationStyle(maxDuration, applyOnlyDuration));
+	        }
+
+	        if (flags.applyAnimationDuration) {
+	          flags.hasAnimations = true;
+	          timings.animationDuration = maxDuration;
+	          temporaryStyles.push(getCssKeyframeDurationStyle(maxDuration));
+	        }
+	      }
+
+	      if (maxDuration === 0 && !flags.recalculateTimingStyles) {
+	        return closeAndReturnNoopAnimator();
+	      }
+
+	      if (options.delay != null) {
+	        var delayStyle;
+	        if (typeof options.delay !== "boolean") {
+	          delayStyle = parseFloat(options.delay);
+	          // number in options.delay means we have to recalculate the delay for the closing timeout
+	          maxDelay = Math.max(delayStyle, 0);
+	        }
+
+	        if (flags.applyTransitionDelay) {
+	          temporaryStyles.push(getCssDelayStyle(delayStyle));
+	        }
+
+	        if (flags.applyAnimationDelay) {
+	          temporaryStyles.push(getCssDelayStyle(delayStyle, true));
+	        }
+	      }
+
+	      // we need to recalculate the delay value since we used a pre-emptive negative
+	      // delay value and the delay value is required for the final event checking. This
+	      // property will ensure that this will happen after the RAF phase has passed.
+	      if (options.duration == null && timings.transitionDuration > 0) {
+	        flags.recalculateTimingStyles = flags.recalculateTimingStyles || isFirst;
+	      }
+
+	      maxDelayTime = maxDelay * ONE_SECOND;
+	      maxDurationTime = maxDuration * ONE_SECOND;
+	      if (!options.skipBlocking) {
+	        flags.blockTransition = timings.transitionDuration > 0;
+	        flags.blockKeyframeAnimation = timings.animationDuration > 0 &&
+	                                       stagger.animationDelay > 0 &&
+	                                       stagger.animationDuration === 0;
+	      }
+
+	      if (options.from) {
+	        if (options.cleanupStyles) {
+	          registerRestorableStyles(restoreStyles, node, Object.keys(options.from));
+	        }
+	        applyAnimationFromStyles(element, options);
+	      }
+
+	      if (flags.blockTransition || flags.blockKeyframeAnimation) {
+	        applyBlocking(maxDuration);
+	      } else if (!options.skipBlocking) {
+	        blockTransitions(node, false);
+	      }
+
+	      // TODO(matsko): for 1.5 change this code to have an animator object for better debugging
+	      return {
+	        $$willAnimate: true,
+	        end: endFn,
+	        start: function() {
+	          if (animationClosed) return;
+
+	          runnerHost = {
+	            end: endFn,
+	            cancel: cancelFn,
+	            resume: null, //this will be set during the start() phase
+	            pause: null
+	          };
+
+	          runner = new $$AnimateRunner(runnerHost);
+
+	          waitUntilQuiet(start);
+
+	          // we don't have access to pause/resume the animation
+	          // since it hasn't run yet. AnimateRunner will therefore
+	          // set noop functions for resume and pause and they will
+	          // later be overridden once the animation is triggered
+	          return runner;
+	        }
+	      };
+
+	      function endFn() {
+	        close();
+	      }
+
+	      function cancelFn() {
+	        close(true);
+	      }
+
+	      function close(rejected) { // jshint ignore:line
+	        // if the promise has been called already then we shouldn't close
+	        // the animation again
+	        if (animationClosed || (animationCompleted && animationPaused)) return;
+	        animationClosed = true;
+	        animationPaused = false;
+
+	        if (!options.$$skipPreparationClasses) {
+	          $$jqLite.removeClass(element, preparationClasses);
+	        }
+	        $$jqLite.removeClass(element, activeClasses);
+
+	        blockKeyframeAnimations(node, false);
+	        blockTransitions(node, false);
+
+	        forEach(temporaryStyles, function(entry) {
+	          // There is only one way to remove inline style properties entirely from elements.
+	          // By using `removeProperty` this works, but we need to convert camel-cased CSS
+	          // styles down to hyphenated values.
+	          node.style[entry[0]] = '';
+	        });
+
+	        applyAnimationClasses(element, options);
+	        applyAnimationStyles(element, options);
+
+	        if (Object.keys(restoreStyles).length) {
+	          forEach(restoreStyles, function(value, prop) {
+	            value ? node.style.setProperty(prop, value)
+	                  : node.style.removeProperty(prop);
+	          });
+	        }
+
+	        // the reason why we have this option is to allow a synchronous closing callback
+	        // that is fired as SOON as the animation ends (when the CSS is removed) or if
+	        // the animation never takes off at all. A good example is a leave animation since
+	        // the element must be removed just after the animation is over or else the element
+	        // will appear on screen for one animation frame causing an overbearing flicker.
+	        if (options.onDone) {
+	          options.onDone();
+	        }
+
+	        if (events && events.length) {
+	          // Remove the transitionend / animationend listener(s)
+	          element.off(events.join(' '), onAnimationProgress);
+	        }
+
+	        //Cancel the fallback closing timeout and remove the timer data
+	        var animationTimerData = element.data(ANIMATE_TIMER_KEY);
+	        if (animationTimerData) {
+	          $timeout.cancel(animationTimerData[0].timer);
+	          element.removeData(ANIMATE_TIMER_KEY);
+	        }
+
+	        // if the preparation function fails then the promise is not setup
+	        if (runner) {
+	          runner.complete(!rejected);
+	        }
+	      }
+
+	      function applyBlocking(duration) {
+	        if (flags.blockTransition) {
+	          blockTransitions(node, duration);
+	        }
+
+	        if (flags.blockKeyframeAnimation) {
+	          blockKeyframeAnimations(node, !!duration);
+	        }
+	      }
+
+	      function closeAndReturnNoopAnimator() {
+	        runner = new $$AnimateRunner({
+	          end: endFn,
+	          cancel: cancelFn
+	        });
+
+	        // should flush the cache animation
+	        waitUntilQuiet(noop);
+	        close();
+
+	        return {
+	          $$willAnimate: false,
+	          start: function() {
+	            return runner;
+	          },
+	          end: endFn
+	        };
+	      }
+
+	      function onAnimationProgress(event) {
+	        event.stopPropagation();
+	        var ev = event.originalEvent || event;
+
+	        // we now always use `Date.now()` due to the recent changes with
+	        // event.timeStamp in Firefox, Webkit and Chrome (see #13494 for more info)
+	        var timeStamp = ev.$manualTimeStamp || Date.now();
+
+	        /* Firefox (or possibly just Gecko) likes to not round values up
+	         * when a ms measurement is used for the animation */
+	        var elapsedTime = parseFloat(ev.elapsedTime.toFixed(ELAPSED_TIME_MAX_DECIMAL_PLACES));
+
+	        /* $manualTimeStamp is a mocked timeStamp value which is set
+	         * within browserTrigger(). This is only here so that tests can
+	         * mock animations properly. Real events fallback to event.timeStamp,
+	         * or, if they don't, then a timeStamp is automatically created for them.
+	         * We're checking to see if the timeStamp surpasses the expected delay,
+	         * but we're using elapsedTime instead of the timeStamp on the 2nd
+	         * pre-condition since animationPauseds sometimes close off early */
+	        if (Math.max(timeStamp - startTime, 0) >= maxDelayTime && elapsedTime >= maxDuration) {
+	          // we set this flag to ensure that if the transition is paused then, when resumed,
+	          // the animation will automatically close itself since transitions cannot be paused.
+	          animationCompleted = true;
+	          close();
+	        }
+	      }
+
+	      function start() {
+	        if (animationClosed) return;
+	        if (!node.parentNode) {
+	          close();
+	          return;
+	        }
+
+	        // even though we only pause keyframe animations here the pause flag
+	        // will still happen when transitions are used. Only the transition will
+	        // not be paused since that is not possible. If the animation ends when
+	        // paused then it will not complete until unpaused or cancelled.
+	        var playPause = function(playAnimation) {
+	          if (!animationCompleted) {
+	            animationPaused = !playAnimation;
+	            if (timings.animationDuration) {
+	              var value = blockKeyframeAnimations(node, animationPaused);
+	              animationPaused
+	                  ? temporaryStyles.push(value)
+	                  : removeFromArray(temporaryStyles, value);
+	            }
+	          } else if (animationPaused && playAnimation) {
+	            animationPaused = false;
+	            close();
+	          }
+	        };
+
+	        // checking the stagger duration prevents an accidentally cascade of the CSS delay style
+	        // being inherited from the parent. If the transition duration is zero then we can safely
+	        // rely that the delay value is an intentional stagger delay style.
+	        var maxStagger = itemIndex > 0
+	                         && ((timings.transitionDuration && stagger.transitionDuration === 0) ||
+	                            (timings.animationDuration && stagger.animationDuration === 0))
+	                         && Math.max(stagger.animationDelay, stagger.transitionDelay);
+	        if (maxStagger) {
+	          $timeout(triggerAnimationStart,
+	                   Math.floor(maxStagger * itemIndex * ONE_SECOND),
+	                   false);
+	        } else {
+	          triggerAnimationStart();
+	        }
+
+	        // this will decorate the existing promise runner with pause/resume methods
+	        runnerHost.resume = function() {
+	          playPause(true);
+	        };
+
+	        runnerHost.pause = function() {
+	          playPause(false);
+	        };
+
+	        function triggerAnimationStart() {
+	          // just incase a stagger animation kicks in when the animation
+	          // itself was cancelled entirely
+	          if (animationClosed) return;
+
+	          applyBlocking(false);
+
+	          forEach(temporaryStyles, function(entry) {
+	            var key = entry[0];
+	            var value = entry[1];
+	            node.style[key] = value;
+	          });
+
+	          applyAnimationClasses(element, options);
+	          $$jqLite.addClass(element, activeClasses);
+
+	          if (flags.recalculateTimingStyles) {
+	            fullClassName = node.className + ' ' + preparationClasses;
+	            cacheKey = gcsHashFn(node, fullClassName);
+
+	            timings = computeTimings(node, fullClassName, cacheKey);
+	            relativeDelay = timings.maxDelay;
+	            maxDelay = Math.max(relativeDelay, 0);
+	            maxDuration = timings.maxDuration;
+
+	            if (maxDuration === 0) {
+	              close();
+	              return;
+	            }
+
+	            flags.hasTransitions = timings.transitionDuration > 0;
+	            flags.hasAnimations = timings.animationDuration > 0;
+	          }
+
+	          if (flags.applyAnimationDelay) {
+	            relativeDelay = typeof options.delay !== "boolean" && truthyTimingValue(options.delay)
+	                  ? parseFloat(options.delay)
+	                  : relativeDelay;
+
+	            maxDelay = Math.max(relativeDelay, 0);
+	            timings.animationDelay = relativeDelay;
+	            delayStyle = getCssDelayStyle(relativeDelay, true);
+	            temporaryStyles.push(delayStyle);
+	            node.style[delayStyle[0]] = delayStyle[1];
+	          }
+
+	          maxDelayTime = maxDelay * ONE_SECOND;
+	          maxDurationTime = maxDuration * ONE_SECOND;
+
+	          if (options.easing) {
+	            var easeProp, easeVal = options.easing;
+	            if (flags.hasTransitions) {
+	              easeProp = TRANSITION_PROP + TIMING_KEY;
+	              temporaryStyles.push([easeProp, easeVal]);
+	              node.style[easeProp] = easeVal;
+	            }
+	            if (flags.hasAnimations) {
+	              easeProp = ANIMATION_PROP + TIMING_KEY;
+	              temporaryStyles.push([easeProp, easeVal]);
+	              node.style[easeProp] = easeVal;
+	            }
+	          }
+
+	          if (timings.transitionDuration) {
+	            events.push(TRANSITIONEND_EVENT);
+	          }
+
+	          if (timings.animationDuration) {
+	            events.push(ANIMATIONEND_EVENT);
+	          }
+
+	          startTime = Date.now();
+	          var timerTime = maxDelayTime + CLOSING_TIME_BUFFER * maxDurationTime;
+	          var endTime = startTime + timerTime;
+
+	          var animationsData = element.data(ANIMATE_TIMER_KEY) || [];
+	          var setupFallbackTimer = true;
+	          if (animationsData.length) {
+	            var currentTimerData = animationsData[0];
+	            setupFallbackTimer = endTime > currentTimerData.expectedEndTime;
+	            if (setupFallbackTimer) {
+	              $timeout.cancel(currentTimerData.timer);
+	            } else {
+	              animationsData.push(close);
+	            }
+	          }
+
+	          if (setupFallbackTimer) {
+	            var timer = $timeout(onAnimationExpired, timerTime, false);
+	            animationsData[0] = {
+	              timer: timer,
+	              expectedEndTime: endTime
+	            };
+	            animationsData.push(close);
+	            element.data(ANIMATE_TIMER_KEY, animationsData);
+	          }
+
+	          if (events.length) {
+	            element.on(events.join(' '), onAnimationProgress);
+	          }
+
+	          if (options.to) {
+	            if (options.cleanupStyles) {
+	              registerRestorableStyles(restoreStyles, node, Object.keys(options.to));
+	            }
+	            applyAnimationToStyles(element, options);
+	          }
+	        }
+
+	        function onAnimationExpired() {
+	          var animationsData = element.data(ANIMATE_TIMER_KEY);
+
+	          // this will be false in the event that the element was
+	          // removed from the DOM (via a leave animation or something
+	          // similar)
+	          if (animationsData) {
+	            for (var i = 1; i < animationsData.length; i++) {
+	              animationsData[i]();
+	            }
+	            element.removeData(ANIMATE_TIMER_KEY);
+	          }
+	        }
+	      }
+	    };
+	  }];
+	}];
+
+	var $$AnimateCssDriverProvider = ['$$animationProvider', function($$animationProvider) {
+	  $$animationProvider.drivers.push('$$animateCssDriver');
+
+	  var NG_ANIMATE_SHIM_CLASS_NAME = 'ng-animate-shim';
+	  var NG_ANIMATE_ANCHOR_CLASS_NAME = 'ng-anchor';
+
+	  var NG_OUT_ANCHOR_CLASS_NAME = 'ng-anchor-out';
+	  var NG_IN_ANCHOR_CLASS_NAME = 'ng-anchor-in';
+
+	  function isDocumentFragment(node) {
+	    return node.parentNode && node.parentNode.nodeType === 11;
+	  }
+
+	  this.$get = ['$animateCss', '$rootScope', '$$AnimateRunner', '$rootElement', '$sniffer', '$$jqLite', '$document',
+	       function($animateCss,   $rootScope,   $$AnimateRunner,   $rootElement,   $sniffer,   $$jqLite,   $document) {
+
+	    // only browsers that support these properties can render animations
+	    if (!$sniffer.animations && !$sniffer.transitions) return noop;
+
+	    var bodyNode = $document[0].body;
+	    var rootNode = getDomNode($rootElement);
+
+	    var rootBodyElement = jqLite(
+	      // this is to avoid using something that exists outside of the body
+	      // we also special case the doc fragment case because our unit test code
+	      // appends the $rootElement to the body after the app has been bootstrapped
+	      isDocumentFragment(rootNode) || bodyNode.contains(rootNode) ? rootNode : bodyNode
+	    );
+
+	    var applyAnimationClasses = applyAnimationClassesFactory($$jqLite);
+
+	    return function initDriverFn(animationDetails) {
+	      return animationDetails.from && animationDetails.to
+	          ? prepareFromToAnchorAnimation(animationDetails.from,
+	                                         animationDetails.to,
+	                                         animationDetails.classes,
+	                                         animationDetails.anchors)
+	          : prepareRegularAnimation(animationDetails);
+	    };
+
+	    function filterCssClasses(classes) {
+	      //remove all the `ng-` stuff
+	      return classes.replace(/\bng-\S+\b/g, '');
+	    }
+
+	    function getUniqueValues(a, b) {
+	      if (isString(a)) a = a.split(' ');
+	      if (isString(b)) b = b.split(' ');
+	      return a.filter(function(val) {
+	        return b.indexOf(val) === -1;
+	      }).join(' ');
+	    }
+
+	    function prepareAnchoredAnimation(classes, outAnchor, inAnchor) {
+	      var clone = jqLite(getDomNode(outAnchor).cloneNode(true));
+	      var startingClasses = filterCssClasses(getClassVal(clone));
+
+	      outAnchor.addClass(NG_ANIMATE_SHIM_CLASS_NAME);
+	      inAnchor.addClass(NG_ANIMATE_SHIM_CLASS_NAME);
+
+	      clone.addClass(NG_ANIMATE_ANCHOR_CLASS_NAME);
+
+	      rootBodyElement.append(clone);
+
+	      var animatorIn, animatorOut = prepareOutAnimation();
+
+	      // the user may not end up using the `out` animation and
+	      // only making use of the `in` animation or vice-versa.
+	      // In either case we should allow this and not assume the
+	      // animation is over unless both animations are not used.
+	      if (!animatorOut) {
+	        animatorIn = prepareInAnimation();
+	        if (!animatorIn) {
+	          return end();
+	        }
+	      }
+
+	      var startingAnimator = animatorOut || animatorIn;
+
+	      return {
+	        start: function() {
+	          var runner;
+
+	          var currentAnimation = startingAnimator.start();
+	          currentAnimation.done(function() {
+	            currentAnimation = null;
+	            if (!animatorIn) {
+	              animatorIn = prepareInAnimation();
+	              if (animatorIn) {
+	                currentAnimation = animatorIn.start();
+	                currentAnimation.done(function() {
+	                  currentAnimation = null;
+	                  end();
+	                  runner.complete();
+	                });
+	                return currentAnimation;
+	              }
+	            }
+	            // in the event that there is no `in` animation
+	            end();
+	            runner.complete();
+	          });
+
+	          runner = new $$AnimateRunner({
+	            end: endFn,
+	            cancel: endFn
+	          });
+
+	          return runner;
+
+	          function endFn() {
+	            if (currentAnimation) {
+	              currentAnimation.end();
+	            }
+	          }
+	        }
+	      };
+
+	      function calculateAnchorStyles(anchor) {
+	        var styles = {};
+
+	        var coords = getDomNode(anchor).getBoundingClientRect();
+
+	        // we iterate directly since safari messes up and doesn't return
+	        // all the keys for the coords object when iterated
+	        forEach(['width','height','top','left'], function(key) {
+	          var value = coords[key];
+	          switch (key) {
+	            case 'top':
+	              value += bodyNode.scrollTop;
+	              break;
+	            case 'left':
+	              value += bodyNode.scrollLeft;
+	              break;
+	          }
+	          styles[key] = Math.floor(value) + 'px';
+	        });
+	        return styles;
+	      }
+
+	      function prepareOutAnimation() {
+	        var animator = $animateCss(clone, {
+	          addClass: NG_OUT_ANCHOR_CLASS_NAME,
+	          delay: true,
+	          from: calculateAnchorStyles(outAnchor)
+	        });
+
+	        // read the comment within `prepareRegularAnimation` to understand
+	        // why this check is necessary
+	        return animator.$$willAnimate ? animator : null;
+	      }
+
+	      function getClassVal(element) {
+	        return element.attr('class') || '';
+	      }
+
+	      function prepareInAnimation() {
+	        var endingClasses = filterCssClasses(getClassVal(inAnchor));
+	        var toAdd = getUniqueValues(endingClasses, startingClasses);
+	        var toRemove = getUniqueValues(startingClasses, endingClasses);
+
+	        var animator = $animateCss(clone, {
+	          to: calculateAnchorStyles(inAnchor),
+	          addClass: NG_IN_ANCHOR_CLASS_NAME + ' ' + toAdd,
+	          removeClass: NG_OUT_ANCHOR_CLASS_NAME + ' ' + toRemove,
+	          delay: true
+	        });
+
+	        // read the comment within `prepareRegularAnimation` to understand
+	        // why this check is necessary
+	        return animator.$$willAnimate ? animator : null;
+	      }
+
+	      function end() {
+	        clone.remove();
+	        outAnchor.removeClass(NG_ANIMATE_SHIM_CLASS_NAME);
+	        inAnchor.removeClass(NG_ANIMATE_SHIM_CLASS_NAME);
+	      }
+	    }
+
+	    function prepareFromToAnchorAnimation(from, to, classes, anchors) {
+	      var fromAnimation = prepareRegularAnimation(from, noop);
+	      var toAnimation = prepareRegularAnimation(to, noop);
+
+	      var anchorAnimations = [];
+	      forEach(anchors, function(anchor) {
+	        var outElement = anchor['out'];
+	        var inElement = anchor['in'];
+	        var animator = prepareAnchoredAnimation(classes, outElement, inElement);
+	        if (animator) {
+	          anchorAnimations.push(animator);
+	        }
+	      });
+
+	      // no point in doing anything when there are no elements to animate
+	      if (!fromAnimation && !toAnimation && anchorAnimations.length === 0) return;
+
+	      return {
+	        start: function() {
+	          var animationRunners = [];
+
+	          if (fromAnimation) {
+	            animationRunners.push(fromAnimation.start());
+	          }
+
+	          if (toAnimation) {
+	            animationRunners.push(toAnimation.start());
+	          }
+
+	          forEach(anchorAnimations, function(animation) {
+	            animationRunners.push(animation.start());
+	          });
+
+	          var runner = new $$AnimateRunner({
+	            end: endFn,
+	            cancel: endFn // CSS-driven animations cannot be cancelled, only ended
+	          });
+
+	          $$AnimateRunner.all(animationRunners, function(status) {
+	            runner.complete(status);
+	          });
+
+	          return runner;
+
+	          function endFn() {
+	            forEach(animationRunners, function(runner) {
+	              runner.end();
+	            });
+	          }
+	        }
+	      };
+	    }
+
+	    function prepareRegularAnimation(animationDetails) {
+	      var element = animationDetails.element;
+	      var options = animationDetails.options || {};
+
+	      if (animationDetails.structural) {
+	        options.event = animationDetails.event;
+	        options.structural = true;
+	        options.applyClassesEarly = true;
+
+	        // we special case the leave animation since we want to ensure that
+	        // the element is removed as soon as the animation is over. Otherwise
+	        // a flicker might appear or the element may not be removed at all
+	        if (animationDetails.event === 'leave') {
+	          options.onDone = options.domOperation;
+	        }
+	      }
+
+	      // We assign the preparationClasses as the actual animation event since
+	      // the internals of $animateCss will just suffix the event token values
+	      // with `-active` to trigger the animation.
+	      if (options.preparationClasses) {
+	        options.event = concatWithSpace(options.event, options.preparationClasses);
+	      }
+
+	      var animator = $animateCss(element, options);
+
+	      // the driver lookup code inside of $$animation attempts to spawn a
+	      // driver one by one until a driver returns a.$$willAnimate animator object.
+	      // $animateCss will always return an object, however, it will pass in
+	      // a flag as a hint as to whether an animation was detected or not
+	      return animator.$$willAnimate ? animator : null;
+	    }
+	  }];
+	}];
+
+	// TODO(matsko): use caching here to speed things up for detection
+	// TODO(matsko): add documentation
+	//  by the time...
+
+	var $$AnimateJsProvider = ['$animateProvider', function($animateProvider) {
+	  this.$get = ['$injector', '$$AnimateRunner', '$$jqLite',
+	       function($injector,   $$AnimateRunner,   $$jqLite) {
+
+	    var applyAnimationClasses = applyAnimationClassesFactory($$jqLite);
+	         // $animateJs(element, 'enter');
+	    return function(element, event, classes, options) {
+	      var animationClosed = false;
+
+	      // the `classes` argument is optional and if it is not used
+	      // then the classes will be resolved from the element's className
+	      // property as well as options.addClass/options.removeClass.
+	      if (arguments.length === 3 && isObject(classes)) {
+	        options = classes;
+	        classes = null;
+	      }
+
+	      options = prepareAnimationOptions(options);
+	      if (!classes) {
+	        classes = element.attr('class') || '';
+	        if (options.addClass) {
+	          classes += ' ' + options.addClass;
+	        }
+	        if (options.removeClass) {
+	          classes += ' ' + options.removeClass;
+	        }
+	      }
+
+	      var classesToAdd = options.addClass;
+	      var classesToRemove = options.removeClass;
+
+	      // the lookupAnimations function returns a series of animation objects that are
+	      // matched up with one or more of the CSS classes. These animation objects are
+	      // defined via the module.animation factory function. If nothing is detected then
+	      // we don't return anything which then makes $animation query the next driver.
+	      var animations = lookupAnimations(classes);
+	      var before, after;
+	      if (animations.length) {
+	        var afterFn, beforeFn;
+	        if (event == 'leave') {
+	          beforeFn = 'leave';
+	          afterFn = 'afterLeave'; // TODO(matsko): get rid of this
+	        } else {
+	          beforeFn = 'before' + event.charAt(0).toUpperCase() + event.substr(1);
+	          afterFn = event;
+	        }
+
+	        if (event !== 'enter' && event !== 'move') {
+	          before = packageAnimations(element, event, options, animations, beforeFn);
+	        }
+	        after  = packageAnimations(element, event, options, animations, afterFn);
+	      }
+
+	      // no matching animations
+	      if (!before && !after) return;
+
+	      function applyOptions() {
+	        options.domOperation();
+	        applyAnimationClasses(element, options);
+	      }
+
+	      function close() {
+	        animationClosed = true;
+	        applyOptions();
+	        applyAnimationStyles(element, options);
+	      }
+
+	      var runner;
+
+	      return {
+	        $$willAnimate: true,
+	        end: function() {
+	          if (runner) {
+	            runner.end();
+	          } else {
+	            close();
+	            runner = new $$AnimateRunner();
+	            runner.complete(true);
+	          }
+	          return runner;
+	        },
+	        start: function() {
+	          if (runner) {
+	            return runner;
+	          }
+
+	          runner = new $$AnimateRunner();
+	          var closeActiveAnimations;
+	          var chain = [];
+
+	          if (before) {
+	            chain.push(function(fn) {
+	              closeActiveAnimations = before(fn);
+	            });
+	          }
+
+	          if (chain.length) {
+	            chain.push(function(fn) {
+	              applyOptions();
+	              fn(true);
+	            });
+	          } else {
+	            applyOptions();
+	          }
+
+	          if (after) {
+	            chain.push(function(fn) {
+	              closeActiveAnimations = after(fn);
+	            });
+	          }
+
+	          runner.setHost({
+	            end: function() {
+	              endAnimations();
+	            },
+	            cancel: function() {
+	              endAnimations(true);
+	            }
+	          });
+
+	          $$AnimateRunner.chain(chain, onComplete);
+	          return runner;
+
+	          function onComplete(success) {
+	            close(success);
+	            runner.complete(success);
+	          }
+
+	          function endAnimations(cancelled) {
+	            if (!animationClosed) {
+	              (closeActiveAnimations || noop)(cancelled);
+	              onComplete(cancelled);
+	            }
+	          }
+	        }
+	      };
+
+	      function executeAnimationFn(fn, element, event, options, onDone) {
+	        var args;
+	        switch (event) {
+	          case 'animate':
+	            args = [element, options.from, options.to, onDone];
+	            break;
+
+	          case 'setClass':
+	            args = [element, classesToAdd, classesToRemove, onDone];
+	            break;
+
+	          case 'addClass':
+	            args = [element, classesToAdd, onDone];
+	            break;
+
+	          case 'removeClass':
+	            args = [element, classesToRemove, onDone];
+	            break;
+
+	          default:
+	            args = [element, onDone];
+	            break;
+	        }
+
+	        args.push(options);
+
+	        var value = fn.apply(fn, args);
+	        if (value) {
+	          if (isFunction(value.start)) {
+	            value = value.start();
+	          }
+
+	          if (value instanceof $$AnimateRunner) {
+	            value.done(onDone);
+	          } else if (isFunction(value)) {
+	            // optional onEnd / onCancel callback
+	            return value;
+	          }
+	        }
+
+	        return noop;
+	      }
+
+	      function groupEventedAnimations(element, event, options, animations, fnName) {
+	        var operations = [];
+	        forEach(animations, function(ani) {
+	          var animation = ani[fnName];
+	          if (!animation) return;
+
+	          // note that all of these animations will run in parallel
+	          operations.push(function() {
+	            var runner;
+	            var endProgressCb;
+
+	            var resolved = false;
+	            var onAnimationComplete = function(rejected) {
+	              if (!resolved) {
+	                resolved = true;
+	                (endProgressCb || noop)(rejected);
+	                runner.complete(!rejected);
+	              }
+	            };
+
+	            runner = new $$AnimateRunner({
+	              end: function() {
+	                onAnimationComplete();
+	              },
+	              cancel: function() {
+	                onAnimationComplete(true);
+	              }
+	            });
+
+	            endProgressCb = executeAnimationFn(animation, element, event, options, function(result) {
+	              var cancelled = result === false;
+	              onAnimationComplete(cancelled);
+	            });
+
+	            return runner;
+	          });
+	        });
+
+	        return operations;
+	      }
+
+	      function packageAnimations(element, event, options, animations, fnName) {
+	        var operations = groupEventedAnimations(element, event, options, animations, fnName);
+	        if (operations.length === 0) {
+	          var a,b;
+	          if (fnName === 'beforeSetClass') {
+	            a = groupEventedAnimations(element, 'removeClass', options, animations, 'beforeRemoveClass');
+	            b = groupEventedAnimations(element, 'addClass', options, animations, 'beforeAddClass');
+	          } else if (fnName === 'setClass') {
+	            a = groupEventedAnimations(element, 'removeClass', options, animations, 'removeClass');
+	            b = groupEventedAnimations(element, 'addClass', options, animations, 'addClass');
+	          }
+
+	          if (a) {
+	            operations = operations.concat(a);
+	          }
+	          if (b) {
+	            operations = operations.concat(b);
+	          }
+	        }
+
+	        if (operations.length === 0) return;
+
+	        // TODO(matsko): add documentation
+	        return function startAnimation(callback) {
+	          var runners = [];
+	          if (operations.length) {
+	            forEach(operations, function(animateFn) {
+	              runners.push(animateFn());
+	            });
+	          }
+
+	          runners.length ? $$AnimateRunner.all(runners, callback) : callback();
+
+	          return function endFn(reject) {
+	            forEach(runners, function(runner) {
+	              reject ? runner.cancel() : runner.end();
+	            });
+	          };
+	        };
+	      }
+	    };
+
+	    function lookupAnimations(classes) {
+	      classes = isArray(classes) ? classes : classes.split(' ');
+	      var matches = [], flagMap = {};
+	      for (var i=0; i < classes.length; i++) {
+	        var klass = classes[i],
+	            animationFactory = $animateProvider.$$registeredAnimations[klass];
+	        if (animationFactory && !flagMap[klass]) {
+	          matches.push($injector.get(animationFactory));
+	          flagMap[klass] = true;
+	        }
+	      }
+	      return matches;
+	    }
+	  }];
+	}];
+
+	var $$AnimateJsDriverProvider = ['$$animationProvider', function($$animationProvider) {
+	  $$animationProvider.drivers.push('$$animateJsDriver');
+	  this.$get = ['$$animateJs', '$$AnimateRunner', function($$animateJs, $$AnimateRunner) {
+	    return function initDriverFn(animationDetails) {
+	      if (animationDetails.from && animationDetails.to) {
+	        var fromAnimation = prepareAnimation(animationDetails.from);
+	        var toAnimation = prepareAnimation(animationDetails.to);
+	        if (!fromAnimation && !toAnimation) return;
+
+	        return {
+	          start: function() {
+	            var animationRunners = [];
+
+	            if (fromAnimation) {
+	              animationRunners.push(fromAnimation.start());
+	            }
+
+	            if (toAnimation) {
+	              animationRunners.push(toAnimation.start());
+	            }
+
+	            $$AnimateRunner.all(animationRunners, done);
+
+	            var runner = new $$AnimateRunner({
+	              end: endFnFactory(),
+	              cancel: endFnFactory()
+	            });
+
+	            return runner;
+
+	            function endFnFactory() {
+	              return function() {
+	                forEach(animationRunners, function(runner) {
+	                  // at this point we cannot cancel animations for groups just yet. 1.5+
+	                  runner.end();
+	                });
+	              };
+	            }
+
+	            function done(status) {
+	              runner.complete(status);
+	            }
+	          }
+	        };
+	      } else {
+	        return prepareAnimation(animationDetails);
+	      }
+	    };
+
+	    function prepareAnimation(animationDetails) {
+	      // TODO(matsko): make sure to check for grouped animations and delegate down to normal animations
+	      var element = animationDetails.element;
+	      var event = animationDetails.event;
+	      var options = animationDetails.options;
+	      var classes = animationDetails.classes;
+	      return $$animateJs(element, event, classes, options);
+	    }
+	  }];
+	}];
+
+	var NG_ANIMATE_ATTR_NAME = 'data-ng-animate';
+	var NG_ANIMATE_PIN_DATA = '$ngAnimatePin';
+	var $$AnimateQueueProvider = ['$animateProvider', function($animateProvider) {
+	  var PRE_DIGEST_STATE = 1;
+	  var RUNNING_STATE = 2;
+	  var ONE_SPACE = ' ';
+
+	  var rules = this.rules = {
+	    skip: [],
+	    cancel: [],
+	    join: []
+	  };
+
+	  function makeTruthyCssClassMap(classString) {
+	    if (!classString) {
+	      return null;
+	    }
+
+	    var keys = classString.split(ONE_SPACE);
+	    var map = Object.create(null);
+
+	    forEach(keys, function(key) {
+	      map[key] = true;
+	    });
+	    return map;
+	  }
+
+	  function hasMatchingClasses(newClassString, currentClassString) {
+	    if (newClassString && currentClassString) {
+	      var currentClassMap = makeTruthyCssClassMap(currentClassString);
+	      return newClassString.split(ONE_SPACE).some(function(className) {
+	        return currentClassMap[className];
+	      });
+	    }
+	  }
+
+	  function isAllowed(ruleType, element, currentAnimation, previousAnimation) {
+	    return rules[ruleType].some(function(fn) {
+	      return fn(element, currentAnimation, previousAnimation);
+	    });
+	  }
+
+	  function hasAnimationClasses(animation, and) {
+	    var a = (animation.addClass || '').length > 0;
+	    var b = (animation.removeClass || '').length > 0;
+	    return and ? a && b : a || b;
+	  }
+
+	  rules.join.push(function(element, newAnimation, currentAnimation) {
+	    // if the new animation is class-based then we can just tack that on
+	    return !newAnimation.structural && hasAnimationClasses(newAnimation);
+	  });
+
+	  rules.skip.push(function(element, newAnimation, currentAnimation) {
+	    // there is no need to animate anything if no classes are being added and
+	    // there is no structural animation that will be triggered
+	    return !newAnimation.structural && !hasAnimationClasses(newAnimation);
+	  });
+
+	  rules.skip.push(function(element, newAnimation, currentAnimation) {
+	    // why should we trigger a new structural animation if the element will
+	    // be removed from the DOM anyway?
+	    return currentAnimation.event == 'leave' && newAnimation.structural;
+	  });
+
+	  rules.skip.push(function(element, newAnimation, currentAnimation) {
+	    // if there is an ongoing current animation then don't even bother running the class-based animation
+	    return currentAnimation.structural && currentAnimation.state === RUNNING_STATE && !newAnimation.structural;
+	  });
+
+	  rules.cancel.push(function(element, newAnimation, currentAnimation) {
+	    // there can never be two structural animations running at the same time
+	    return currentAnimation.structural && newAnimation.structural;
+	  });
+
+	  rules.cancel.push(function(element, newAnimation, currentAnimation) {
+	    // if the previous animation is already running, but the new animation will
+	    // be triggered, but the new animation is structural
+	    return currentAnimation.state === RUNNING_STATE && newAnimation.structural;
+	  });
+
+	  rules.cancel.push(function(element, newAnimation, currentAnimation) {
+	    // cancel the animation if classes added / removed in both animation cancel each other out,
+	    // but only if the current animation isn't structural
+
+	    if (currentAnimation.structural) return false;
+
+	    var nA = newAnimation.addClass;
+	    var nR = newAnimation.removeClass;
+	    var cA = currentAnimation.addClass;
+	    var cR = currentAnimation.removeClass;
+
+	    // early detection to save the global CPU shortage :)
+	    if ((isUndefined(nA) && isUndefined(nR)) || (isUndefined(cA) && isUndefined(cR))) {
+	      return false;
+	    }
+
+	    return hasMatchingClasses(nA, cR) || hasMatchingClasses(nR, cA);
+	  });
+
+	  this.$get = ['$$rAF', '$rootScope', '$rootElement', '$document', '$$HashMap',
+	               '$$animation', '$$AnimateRunner', '$templateRequest', '$$jqLite', '$$forceReflow',
+	       function($$rAF,   $rootScope,   $rootElement,   $document,   $$HashMap,
+	                $$animation,   $$AnimateRunner,   $templateRequest,   $$jqLite,   $$forceReflow) {
+
+	    var activeAnimationsLookup = new $$HashMap();
+	    var disabledElementsLookup = new $$HashMap();
+	    var animationsEnabled = null;
+
+	    function postDigestTaskFactory() {
+	      var postDigestCalled = false;
+	      return function(fn) {
+	        // we only issue a call to postDigest before
+	        // it has first passed. This prevents any callbacks
+	        // from not firing once the animation has completed
+	        // since it will be out of the digest cycle.
+	        if (postDigestCalled) {
+	          fn();
+	        } else {
+	          $rootScope.$$postDigest(function() {
+	            postDigestCalled = true;
+	            fn();
+	          });
+	        }
+	      };
+	    }
+
+	    // Wait until all directive and route-related templates are downloaded and
+	    // compiled. The $templateRequest.totalPendingRequests variable keeps track of
+	    // all of the remote templates being currently downloaded. If there are no
+	    // templates currently downloading then the watcher will still fire anyway.
+	    var deregisterWatch = $rootScope.$watch(
+	      function() { return $templateRequest.totalPendingRequests === 0; },
+	      function(isEmpty) {
+	        if (!isEmpty) return;
+	        deregisterWatch();
+
+	        // Now that all templates have been downloaded, $animate will wait until
+	        // the post digest queue is empty before enabling animations. By having two
+	        // calls to $postDigest calls we can ensure that the flag is enabled at the
+	        // very end of the post digest queue. Since all of the animations in $animate
+	        // use $postDigest, it's important that the code below executes at the end.
+	        // This basically means that the page is fully downloaded and compiled before
+	        // any animations are triggered.
+	        $rootScope.$$postDigest(function() {
+	          $rootScope.$$postDigest(function() {
+	            // we check for null directly in the event that the application already called
+	            // .enabled() with whatever arguments that it provided it with
+	            if (animationsEnabled === null) {
+	              animationsEnabled = true;
+	            }
+	          });
+	        });
+	      }
+	    );
+
+	    var callbackRegistry = Object.create(null);
+
+	    // remember that the classNameFilter is set during the provider/config
+	    // stage therefore we can optimize here and setup a helper function
+	    var classNameFilter = $animateProvider.classNameFilter();
+	    var isAnimatableClassName = !classNameFilter
+	              ? function() { return true; }
+	              : function(className) {
+	                return classNameFilter.test(className);
+	              };
+
+	    var applyAnimationClasses = applyAnimationClassesFactory($$jqLite);
+
+	    function normalizeAnimationDetails(element, animation) {
+	      return mergeAnimationDetails(element, animation, {});
+	    }
+
+	    // IE9-11 has no method "contains" in SVG element and in Node.prototype. Bug #10259.
+	    var contains = window.Node.prototype.contains || function(arg) {
+	      // jshint bitwise: false
+	      return this === arg || !!(this.compareDocumentPosition(arg) & 16);
+	      // jshint bitwise: true
+	    };
+
+	    function findCallbacks(parent, element, event) {
+	      var targetNode = getDomNode(element);
+	      var targetParentNode = getDomNode(parent);
+
+	      var matches = [];
+	      var entries = callbackRegistry[event];
+	      if (entries) {
+	        forEach(entries, function(entry) {
+	          if (contains.call(entry.node, targetNode)) {
+	            matches.push(entry.callback);
+	          } else if (event === 'leave' && contains.call(entry.node, targetParentNode)) {
+	            matches.push(entry.callback);
+	          }
+	        });
+	      }
+
+	      return matches;
+	    }
+
+	    function filterFromRegistry(list, matchContainer, matchCallback) {
+	      var containerNode = extractElementNode(matchContainer);
+	      return list.filter(function(entry) {
+	        var isMatch = entry.node === containerNode &&
+	                        (!matchCallback || entry.callback === matchCallback);
+	        return !isMatch;
+	      });
+	    }
+
+	    function cleanupEventListeners(phase, element) {
+	      if (phase === 'close' && !element[0].parentNode) {
+	        // If the element is not attached to a parentNode, it has been removed by
+	        // the domOperation, and we can safely remove the event callbacks
+	        $animate.off(element);
+	      }
+	    }
+
+	    var $animate = {
+	      on: function(event, container, callback) {
+	        var node = extractElementNode(container);
+	        callbackRegistry[event] = callbackRegistry[event] || [];
+	        callbackRegistry[event].push({
+	          node: node,
+	          callback: callback
+	        });
+
+	        // Remove the callback when the element is removed from the DOM
+	        jqLite(container).on('$destroy', function() {
+	          var animationDetails = activeAnimationsLookup.get(node);
+
+	          if (!animationDetails) {
+	            // If there's an animation ongoing, the callback calling code will remove
+	            // the event listeners. If we'd remove here, the callbacks would be removed
+	            // before the animation ends
+	            $animate.off(event, container, callback);
+	          }
+	        });
+	      },
+
+	      off: function(event, container, callback) {
+	        if (arguments.length === 1 && !isString(arguments[0])) {
+	          container = arguments[0];
+	          for (var eventType in callbackRegistry) {
+	            callbackRegistry[eventType] = filterFromRegistry(callbackRegistry[eventType], container);
+	          }
+
+	          return;
+	        }
+
+	        var entries = callbackRegistry[event];
+	        if (!entries) return;
+
+	        callbackRegistry[event] = arguments.length === 1
+	            ? null
+	            : filterFromRegistry(entries, container, callback);
+	      },
+
+	      pin: function(element, parentElement) {
+	        assertArg(isElement(element), 'element', 'not an element');
+	        assertArg(isElement(parentElement), 'parentElement', 'not an element');
+	        element.data(NG_ANIMATE_PIN_DATA, parentElement);
+	      },
+
+	      push: function(element, event, options, domOperation) {
+	        options = options || {};
+	        options.domOperation = domOperation;
+	        return queueAnimation(element, event, options);
+	      },
+
+	      // this method has four signatures:
+	      //  () - global getter
+	      //  (bool) - global setter
+	      //  (element) - element getter
+	      //  (element, bool) - element setter<F37>
+	      enabled: function(element, bool) {
+	        var argCount = arguments.length;
+
+	        if (argCount === 0) {
+	          // () - Global getter
+	          bool = !!animationsEnabled;
+	        } else {
+	          var hasElement = isElement(element);
+
+	          if (!hasElement) {
+	            // (bool) - Global setter
+	            bool = animationsEnabled = !!element;
+	          } else {
+	            var node = getDomNode(element);
+
+	            if (argCount === 1) {
+	              // (element) - Element getter
+	              bool = !disabledElementsLookup.get(node);
+	            } else {
+	              // (element, bool) - Element setter
+	              disabledElementsLookup.put(node, !bool);
+	            }
+	          }
+	        }
+
+	        return bool;
+	      }
+	    };
+
+	    return $animate;
+
+	    function queueAnimation(element, event, initialOptions) {
+	      // we always make a copy of the options since
+	      // there should never be any side effects on
+	      // the input data when running `$animateCss`.
+	      var options = copy(initialOptions);
+
+	      var node, parent;
+	      element = stripCommentsFromElement(element);
+	      if (element) {
+	        node = getDomNode(element);
+	        parent = element.parent();
+	      }
+
+	      options = prepareAnimationOptions(options);
+
+	      // we create a fake runner with a working promise.
+	      // These methods will become available after the digest has passed
+	      var runner = new $$AnimateRunner();
+
+	      // this is used to trigger callbacks in postDigest mode
+	      var runInNextPostDigestOrNow = postDigestTaskFactory();
+
+	      if (isArray(options.addClass)) {
+	        options.addClass = options.addClass.join(' ');
+	      }
+
+	      if (options.addClass && !isString(options.addClass)) {
+	        options.addClass = null;
+	      }
+
+	      if (isArray(options.removeClass)) {
+	        options.removeClass = options.removeClass.join(' ');
+	      }
+
+	      if (options.removeClass && !isString(options.removeClass)) {
+	        options.removeClass = null;
+	      }
+
+	      if (options.from && !isObject(options.from)) {
+	        options.from = null;
+	      }
+
+	      if (options.to && !isObject(options.to)) {
+	        options.to = null;
+	      }
+
+	      // there are situations where a directive issues an animation for
+	      // a jqLite wrapper that contains only comment nodes... If this
+	      // happens then there is no way we can perform an animation
+	      if (!node) {
+	        close();
+	        return runner;
+	      }
+
+	      var className = [node.className, options.addClass, options.removeClass].join(' ');
+	      if (!isAnimatableClassName(className)) {
+	        close();
+	        return runner;
+	      }
+
+	      var isStructural = ['enter', 'move', 'leave'].indexOf(event) >= 0;
+
+	      var documentHidden = $document[0].hidden;
+
+	      // this is a hard disable of all animations for the application or on
+	      // the element itself, therefore  there is no need to continue further
+	      // past this point if not enabled
+	      // Animations are also disabled if the document is currently hidden (page is not visible
+	      // to the user), because browsers slow down or do not flush calls to requestAnimationFrame
+	      var skipAnimations = !animationsEnabled || documentHidden || disabledElementsLookup.get(node);
+	      var existingAnimation = (!skipAnimations && activeAnimationsLookup.get(node)) || {};
+	      var hasExistingAnimation = !!existingAnimation.state;
+
+	      // there is no point in traversing the same collection of parent ancestors if a followup
+	      // animation will be run on the same element that already did all that checking work
+	      if (!skipAnimations && (!hasExistingAnimation || existingAnimation.state != PRE_DIGEST_STATE)) {
+	        skipAnimations = !areAnimationsAllowed(element, parent, event);
+	      }
+
+	      if (skipAnimations) {
+	        // Callbacks should fire even if the document is hidden (regression fix for issue #14120)
+	        if (documentHidden) notifyProgress(runner, event, 'start');
+	        close();
+	        if (documentHidden) notifyProgress(runner, event, 'close');
+	        return runner;
+	      }
+
+	      if (isStructural) {
+	        closeChildAnimations(element);
+	      }
+
+	      var newAnimation = {
+	        structural: isStructural,
+	        element: element,
+	        event: event,
+	        addClass: options.addClass,
+	        removeClass: options.removeClass,
+	        close: close,
+	        options: options,
+	        runner: runner
+	      };
+
+	      if (hasExistingAnimation) {
+	        var skipAnimationFlag = isAllowed('skip', element, newAnimation, existingAnimation);
+	        if (skipAnimationFlag) {
+	          if (existingAnimation.state === RUNNING_STATE) {
+	            close();
+	            return runner;
+	          } else {
+	            mergeAnimationDetails(element, existingAnimation, newAnimation);
+	            return existingAnimation.runner;
+	          }
+	        }
+	        var cancelAnimationFlag = isAllowed('cancel', element, newAnimation, existingAnimation);
+	        if (cancelAnimationFlag) {
+	          if (existingAnimation.state === RUNNING_STATE) {
+	            // this will end the animation right away and it is safe
+	            // to do so since the animation is already running and the
+	            // runner callback code will run in async
+	            existingAnimation.runner.end();
+	          } else if (existingAnimation.structural) {
+	            // this means that the animation is queued into a digest, but
+	            // hasn't started yet. Therefore it is safe to run the close
+	            // method which will call the runner methods in async.
+	            existingAnimation.close();
+	          } else {
+	            // this will merge the new animation options into existing animation options
+	            mergeAnimationDetails(element, existingAnimation, newAnimation);
+
+	            return existingAnimation.runner;
+	          }
+	        } else {
+	          // a joined animation means that this animation will take over the existing one
+	          // so an example would involve a leave animation taking over an enter. Then when
+	          // the postDigest kicks in the enter will be ignored.
+	          var joinAnimationFlag = isAllowed('join', element, newAnimation, existingAnimation);
+	          if (joinAnimationFlag) {
+	            if (existingAnimation.state === RUNNING_STATE) {
+	              normalizeAnimationDetails(element, newAnimation);
+	            } else {
+	              applyGeneratedPreparationClasses(element, isStructural ? event : null, options);
+
+	              event = newAnimation.event = existingAnimation.event;
+	              options = mergeAnimationDetails(element, existingAnimation, newAnimation);
+
+	              //we return the same runner since only the option values of this animation will
+	              //be fed into the `existingAnimation`.
+	              return existingAnimation.runner;
+	            }
+	          }
+	        }
+	      } else {
+	        // normalization in this case means that it removes redundant CSS classes that
+	        // already exist (addClass) or do not exist (removeClass) on the element
+	        normalizeAnimationDetails(element, newAnimation);
+	      }
+
+	      // when the options are merged and cleaned up we may end up not having to do
+	      // an animation at all, therefore we should check this before issuing a post
+	      // digest callback. Structural animations will always run no matter what.
+	      var isValidAnimation = newAnimation.structural;
+	      if (!isValidAnimation) {
+	        // animate (from/to) can be quickly checked first, otherwise we check if any classes are present
+	        isValidAnimation = (newAnimation.event === 'animate' && Object.keys(newAnimation.options.to || {}).length > 0)
+	                            || hasAnimationClasses(newAnimation);
+	      }
+
+	      if (!isValidAnimation) {
+	        close();
+	        clearElementAnimationState(element);
+	        return runner;
+	      }
+
+	      // the counter keeps track of cancelled animations
+	      var counter = (existingAnimation.counter || 0) + 1;
+	      newAnimation.counter = counter;
+
+	      markElementAnimationState(element, PRE_DIGEST_STATE, newAnimation);
+
+	      $rootScope.$$postDigest(function() {
+	        var animationDetails = activeAnimationsLookup.get(node);
+	        var animationCancelled = !animationDetails;
+	        animationDetails = animationDetails || {};
+
+	        // if addClass/removeClass is called before something like enter then the
+	        // registered parent element may not be present. The code below will ensure
+	        // that a final value for parent element is obtained
+	        var parentElement = element.parent() || [];
+
+	        // animate/structural/class-based animations all have requirements. Otherwise there
+	        // is no point in performing an animation. The parent node must also be set.
+	        var isValidAnimation = parentElement.length > 0
+	                                && (animationDetails.event === 'animate'
+	                                    || animationDetails.structural
+	                                    || hasAnimationClasses(animationDetails));
+
+	        // this means that the previous animation was cancelled
+	        // even if the follow-up animation is the same event
+	        if (animationCancelled || animationDetails.counter !== counter || !isValidAnimation) {
+	          // if another animation did not take over then we need
+	          // to make sure that the domOperation and options are
+	          // handled accordingly
+	          if (animationCancelled) {
+	            applyAnimationClasses(element, options);
+	            applyAnimationStyles(element, options);
+	          }
+
+	          // if the event changed from something like enter to leave then we do
+	          // it, otherwise if it's the same then the end result will be the same too
+	          if (animationCancelled || (isStructural && animationDetails.event !== event)) {
+	            options.domOperation();
+	            runner.end();
+	          }
+
+	          // in the event that the element animation was not cancelled or a follow-up animation
+	          // isn't allowed to animate from here then we need to clear the state of the element
+	          // so that any future animations won't read the expired animation data.
+	          if (!isValidAnimation) {
+	            clearElementAnimationState(element);
+	          }
+
+	          return;
+	        }
+
+	        // this combined multiple class to addClass / removeClass into a setClass event
+	        // so long as a structural event did not take over the animation
+	        event = !animationDetails.structural && hasAnimationClasses(animationDetails, true)
+	            ? 'setClass'
+	            : animationDetails.event;
+
+	        markElementAnimationState(element, RUNNING_STATE);
+	        var realRunner = $$animation(element, event, animationDetails.options);
+
+	        // this will update the runner's flow-control events based on
+	        // the `realRunner` object.
+	        runner.setHost(realRunner);
+	        notifyProgress(runner, event, 'start', {});
+
+	        realRunner.done(function(status) {
+	          close(!status);
+	          var animationDetails = activeAnimationsLookup.get(node);
+	          if (animationDetails && animationDetails.counter === counter) {
+	            clearElementAnimationState(getDomNode(element));
+	          }
+	          notifyProgress(runner, event, 'close', {});
+	        });
+	      });
+
+	      return runner;
+
+	      function notifyProgress(runner, event, phase, data) {
+	        runInNextPostDigestOrNow(function() {
+	          var callbacks = findCallbacks(parent, element, event);
+	          if (callbacks.length) {
+	            // do not optimize this call here to RAF because
+	            // we don't know how heavy the callback code here will
+	            // be and if this code is buffered then this can
+	            // lead to a performance regression.
+	            $$rAF(function() {
+	              forEach(callbacks, function(callback) {
+	                callback(element, phase, data);
+	              });
+	              cleanupEventListeners(phase, element);
+	            });
+	          } else {
+	            cleanupEventListeners(phase, element);
+	          }
+	        });
+	        runner.progress(event, phase, data);
+	      }
+
+	      function close(reject) { // jshint ignore:line
+	        clearGeneratedClasses(element, options);
+	        applyAnimationClasses(element, options);
+	        applyAnimationStyles(element, options);
+	        options.domOperation();
+	        runner.complete(!reject);
+	      }
+	    }
+
+	    function closeChildAnimations(element) {
+	      var node = getDomNode(element);
+	      var children = node.querySelectorAll('[' + NG_ANIMATE_ATTR_NAME + ']');
+	      forEach(children, function(child) {
+	        var state = parseInt(child.getAttribute(NG_ANIMATE_ATTR_NAME));
+	        var animationDetails = activeAnimationsLookup.get(child);
+	        if (animationDetails) {
+	          switch (state) {
+	            case RUNNING_STATE:
+	              animationDetails.runner.end();
+	              /* falls through */
+	            case PRE_DIGEST_STATE:
+	              activeAnimationsLookup.remove(child);
+	              break;
+	          }
+	        }
+	      });
+	    }
+
+	    function clearElementAnimationState(element) {
+	      var node = getDomNode(element);
+	      node.removeAttribute(NG_ANIMATE_ATTR_NAME);
+	      activeAnimationsLookup.remove(node);
+	    }
+
+	    function isMatchingElement(nodeOrElmA, nodeOrElmB) {
+	      return getDomNode(nodeOrElmA) === getDomNode(nodeOrElmB);
+	    }
+
+	    /**
+	     * This fn returns false if any of the following is true:
+	     * a) animations on any parent element are disabled, and animations on the element aren't explicitly allowed
+	     * b) a parent element has an ongoing structural animation, and animateChildren is false
+	     * c) the element is not a child of the body
+	     * d) the element is not a child of the $rootElement
+	     */
+	    function areAnimationsAllowed(element, parentElement, event) {
+	      var bodyElement = jqLite($document[0].body);
+	      var bodyElementDetected = isMatchingElement(element, bodyElement) || element[0].nodeName === 'HTML';
+	      var rootElementDetected = isMatchingElement(element, $rootElement);
+	      var parentAnimationDetected = false;
+	      var animateChildren;
+	      var elementDisabled = disabledElementsLookup.get(getDomNode(element));
+
+	      var parentHost = jqLite.data(element[0], NG_ANIMATE_PIN_DATA);
+	      if (parentHost) {
+	        parentElement = parentHost;
+	      }
+
+	      parentElement = getDomNode(parentElement);
+
+	      while (parentElement) {
+	        if (!rootElementDetected) {
+	          // angular doesn't want to attempt to animate elements outside of the application
+	          // therefore we need to ensure that the rootElement is an ancestor of the current element
+	          rootElementDetected = isMatchingElement(parentElement, $rootElement);
+	        }
+
+	        if (parentElement.nodeType !== ELEMENT_NODE) {
+	          // no point in inspecting the #document element
+	          break;
+	        }
+
+	        var details = activeAnimationsLookup.get(parentElement) || {};
+	        // either an enter, leave or move animation will commence
+	        // therefore we can't allow any animations to take place
+	        // but if a parent animation is class-based then that's ok
+	        if (!parentAnimationDetected) {
+	          var parentElementDisabled = disabledElementsLookup.get(parentElement);
+
+	          if (parentElementDisabled === true && elementDisabled !== false) {
+	            // disable animations if the user hasn't explicitly enabled animations on the
+	            // current element
+	            elementDisabled = true;
+	            // element is disabled via parent element, no need to check anything else
+	            break;
+	          } else if (parentElementDisabled === false) {
+	            elementDisabled = false;
+	          }
+	          parentAnimationDetected = details.structural;
+	        }
+
+	        if (isUndefined(animateChildren) || animateChildren === true) {
+	          var value = jqLite.data(parentElement, NG_ANIMATE_CHILDREN_DATA);
+	          if (isDefined(value)) {
+	            animateChildren = value;
+	          }
+	        }
+
+	        // there is no need to continue traversing at this point
+	        if (parentAnimationDetected && animateChildren === false) break;
+
+	        if (!bodyElementDetected) {
+	          // we also need to ensure that the element is or will be a part of the body element
+	          // otherwise it is pointless to even issue an animation to be rendered
+	          bodyElementDetected = isMatchingElement(parentElement, bodyElement);
+	        }
+
+	        if (bodyElementDetected && rootElementDetected) {
+	          // If both body and root have been found, any other checks are pointless,
+	          // as no animation data should live outside the application
+	          break;
+	        }
+
+	        if (!rootElementDetected) {
+	          // If no rootElement is detected, check if the parentElement is pinned to another element
+	          parentHost = jqLite.data(parentElement, NG_ANIMATE_PIN_DATA);
+	          if (parentHost) {
+	            // The pin target element becomes the next parent element
+	            parentElement = getDomNode(parentHost);
+	            continue;
+	          }
+	        }
+
+	        parentElement = parentElement.parentNode;
+	      }
+
+	      var allowAnimation = (!parentAnimationDetected || animateChildren) && elementDisabled !== true;
+	      return allowAnimation && rootElementDetected && bodyElementDetected;
+	    }
+
+	    function markElementAnimationState(element, state, details) {
+	      details = details || {};
+	      details.state = state;
+
+	      var node = getDomNode(element);
+	      node.setAttribute(NG_ANIMATE_ATTR_NAME, state);
+
+	      var oldValue = activeAnimationsLookup.get(node);
+	      var newValue = oldValue
+	          ? extend(oldValue, details)
+	          : details;
+	      activeAnimationsLookup.put(node, newValue);
+	    }
+	  }];
+	}];
+
+	var $$AnimationProvider = ['$animateProvider', function($animateProvider) {
+	  var NG_ANIMATE_REF_ATTR = 'ng-animate-ref';
+
+	  var drivers = this.drivers = [];
+
+	  var RUNNER_STORAGE_KEY = '$$animationRunner';
+
+	  function setRunner(element, runner) {
+	    element.data(RUNNER_STORAGE_KEY, runner);
+	  }
+
+	  function removeRunner(element) {
+	    element.removeData(RUNNER_STORAGE_KEY);
+	  }
+
+	  function getRunner(element) {
+	    return element.data(RUNNER_STORAGE_KEY);
+	  }
+
+	  this.$get = ['$$jqLite', '$rootScope', '$injector', '$$AnimateRunner', '$$HashMap', '$$rAFScheduler',
+	       function($$jqLite,   $rootScope,   $injector,   $$AnimateRunner,   $$HashMap,   $$rAFScheduler) {
+
+	    var animationQueue = [];
+	    var applyAnimationClasses = applyAnimationClassesFactory($$jqLite);
+
+	    function sortAnimations(animations) {
+	      var tree = { children: [] };
+	      var i, lookup = new $$HashMap();
+
+	      // this is done first beforehand so that the hashmap
+	      // is filled with a list of the elements that will be animated
+	      for (i = 0; i < animations.length; i++) {
+	        var animation = animations[i];
+	        lookup.put(animation.domNode, animations[i] = {
+	          domNode: animation.domNode,
+	          fn: animation.fn,
+	          children: []
+	        });
+	      }
+
+	      for (i = 0; i < animations.length; i++) {
+	        processNode(animations[i]);
+	      }
+
+	      return flatten(tree);
+
+	      function processNode(entry) {
+	        if (entry.processed) return entry;
+	        entry.processed = true;
+
+	        var elementNode = entry.domNode;
+	        var parentNode = elementNode.parentNode;
+	        lookup.put(elementNode, entry);
+
+	        var parentEntry;
+	        while (parentNode) {
+	          parentEntry = lookup.get(parentNode);
+	          if (parentEntry) {
+	            if (!parentEntry.processed) {
+	              parentEntry = processNode(parentEntry);
+	            }
+	            break;
+	          }
+	          parentNode = parentNode.parentNode;
+	        }
+
+	        (parentEntry || tree).children.push(entry);
+	        return entry;
+	      }
+
+	      function flatten(tree) {
+	        var result = [];
+	        var queue = [];
+	        var i;
+
+	        for (i = 0; i < tree.children.length; i++) {
+	          queue.push(tree.children[i]);
+	        }
+
+	        var remainingLevelEntries = queue.length;
+	        var nextLevelEntries = 0;
+	        var row = [];
+
+	        for (i = 0; i < queue.length; i++) {
+	          var entry = queue[i];
+	          if (remainingLevelEntries <= 0) {
+	            remainingLevelEntries = nextLevelEntries;
+	            nextLevelEntries = 0;
+	            result.push(row);
+	            row = [];
+	          }
+	          row.push(entry.fn);
+	          entry.children.forEach(function(childEntry) {
+	            nextLevelEntries++;
+	            queue.push(childEntry);
+	          });
+	          remainingLevelEntries--;
+	        }
+
+	        if (row.length) {
+	          result.push(row);
+	        }
+
+	        return result;
+	      }
+	    }
+
+	    // TODO(matsko): document the signature in a better way
+	    return function(element, event, options) {
+	      options = prepareAnimationOptions(options);
+	      var isStructural = ['enter', 'move', 'leave'].indexOf(event) >= 0;
+
+	      // there is no animation at the current moment, however
+	      // these runner methods will get later updated with the
+	      // methods leading into the driver's end/cancel methods
+	      // for now they just stop the animation from starting
+	      var runner = new $$AnimateRunner({
+	        end: function() { close(); },
+	        cancel: function() { close(true); }
+	      });
+
+	      if (!drivers.length) {
+	        close();
+	        return runner;
+	      }
+
+	      setRunner(element, runner);
+
+	      var classes = mergeClasses(element.attr('class'), mergeClasses(options.addClass, options.removeClass));
+	      var tempClasses = options.tempClasses;
+	      if (tempClasses) {
+	        classes += ' ' + tempClasses;
+	        options.tempClasses = null;
+	      }
+
+	      var prepareClassName;
+	      if (isStructural) {
+	        prepareClassName = 'ng-' + event + PREPARE_CLASS_SUFFIX;
+	        $$jqLite.addClass(element, prepareClassName);
+	      }
+
+	      animationQueue.push({
+	        // this data is used by the postDigest code and passed into
+	        // the driver step function
+	        element: element,
+	        classes: classes,
+	        event: event,
+	        structural: isStructural,
+	        options: options,
+	        beforeStart: beforeStart,
+	        close: close
+	      });
+
+	      element.on('$destroy', handleDestroyedElement);
+
+	      // we only want there to be one function called within the post digest
+	      // block. This way we can group animations for all the animations that
+	      // were apart of the same postDigest flush call.
+	      if (animationQueue.length > 1) return runner;
+
+	      $rootScope.$$postDigest(function() {
+	        var animations = [];
+	        forEach(animationQueue, function(entry) {
+	          // the element was destroyed early on which removed the runner
+	          // form its storage. This means we can't animate this element
+	          // at all and it already has been closed due to destruction.
+	          if (getRunner(entry.element)) {
+	            animations.push(entry);
+	          } else {
+	            entry.close();
+	          }
+	        });
+
+	        // now any future animations will be in another postDigest
+	        animationQueue.length = 0;
+
+	        var groupedAnimations = groupAnimations(animations);
+	        var toBeSortedAnimations = [];
+
+	        forEach(groupedAnimations, function(animationEntry) {
+	          toBeSortedAnimations.push({
+	            domNode: getDomNode(animationEntry.from ? animationEntry.from.element : animationEntry.element),
+	            fn: function triggerAnimationStart() {
+	              // it's important that we apply the `ng-animate` CSS class and the
+	              // temporary classes before we do any driver invoking since these
+	              // CSS classes may be required for proper CSS detection.
+	              animationEntry.beforeStart();
+
+	              var startAnimationFn, closeFn = animationEntry.close;
+
+	              // in the event that the element was removed before the digest runs or
+	              // during the RAF sequencing then we should not trigger the animation.
+	              var targetElement = animationEntry.anchors
+	                  ? (animationEntry.from.element || animationEntry.to.element)
+	                  : animationEntry.element;
+
+	              if (getRunner(targetElement)) {
+	                var operation = invokeFirstDriver(animationEntry);
+	                if (operation) {
+	                  startAnimationFn = operation.start;
+	                }
+	              }
+
+	              if (!startAnimationFn) {
+	                closeFn();
+	              } else {
+	                var animationRunner = startAnimationFn();
+	                animationRunner.done(function(status) {
+	                  closeFn(!status);
+	                });
+	                updateAnimationRunners(animationEntry, animationRunner);
+	              }
+	            }
+	          });
+	        });
+
+	        // we need to sort each of the animations in order of parent to child
+	        // relationships. This ensures that the child classes are applied at the
+	        // right time.
+	        $$rAFScheduler(sortAnimations(toBeSortedAnimations));
+	      });
+
+	      return runner;
+
+	      // TODO(matsko): change to reference nodes
+	      function getAnchorNodes(node) {
+	        var SELECTOR = '[' + NG_ANIMATE_REF_ATTR + ']';
+	        var items = node.hasAttribute(NG_ANIMATE_REF_ATTR)
+	              ? [node]
+	              : node.querySelectorAll(SELECTOR);
+	        var anchors = [];
+	        forEach(items, function(node) {
+	          var attr = node.getAttribute(NG_ANIMATE_REF_ATTR);
+	          if (attr && attr.length) {
+	            anchors.push(node);
+	          }
+	        });
+	        return anchors;
+	      }
+
+	      function groupAnimations(animations) {
+	        var preparedAnimations = [];
+	        var refLookup = {};
+	        forEach(animations, function(animation, index) {
+	          var element = animation.element;
+	          var node = getDomNode(element);
+	          var event = animation.event;
+	          var enterOrMove = ['enter', 'move'].indexOf(event) >= 0;
+	          var anchorNodes = animation.structural ? getAnchorNodes(node) : [];
+
+	          if (anchorNodes.length) {
+	            var direction = enterOrMove ? 'to' : 'from';
+
+	            forEach(anchorNodes, function(anchor) {
+	              var key = anchor.getAttribute(NG_ANIMATE_REF_ATTR);
+	              refLookup[key] = refLookup[key] || {};
+	              refLookup[key][direction] = {
+	                animationID: index,
+	                element: jqLite(anchor)
+	              };
+	            });
+	          } else {
+	            preparedAnimations.push(animation);
+	          }
+	        });
+
+	        var usedIndicesLookup = {};
+	        var anchorGroups = {};
+	        forEach(refLookup, function(operations, key) {
+	          var from = operations.from;
+	          var to = operations.to;
+
+	          if (!from || !to) {
+	            // only one of these is set therefore we can't have an
+	            // anchor animation since all three pieces are required
+	            var index = from ? from.animationID : to.animationID;
+	            var indexKey = index.toString();
+	            if (!usedIndicesLookup[indexKey]) {
+	              usedIndicesLookup[indexKey] = true;
+	              preparedAnimations.push(animations[index]);
+	            }
+	            return;
+	          }
+
+	          var fromAnimation = animations[from.animationID];
+	          var toAnimation = animations[to.animationID];
+	          var lookupKey = from.animationID.toString();
+	          if (!anchorGroups[lookupKey]) {
+	            var group = anchorGroups[lookupKey] = {
+	              structural: true,
+	              beforeStart: function() {
+	                fromAnimation.beforeStart();
+	                toAnimation.beforeStart();
+	              },
+	              close: function() {
+	                fromAnimation.close();
+	                toAnimation.close();
+	              },
+	              classes: cssClassesIntersection(fromAnimation.classes, toAnimation.classes),
+	              from: fromAnimation,
+	              to: toAnimation,
+	              anchors: [] // TODO(matsko): change to reference nodes
+	            };
+
+	            // the anchor animations require that the from and to elements both have at least
+	            // one shared CSS class which effectively marries the two elements together to use
+	            // the same animation driver and to properly sequence the anchor animation.
+	            if (group.classes.length) {
+	              preparedAnimations.push(group);
+	            } else {
+	              preparedAnimations.push(fromAnimation);
+	              preparedAnimations.push(toAnimation);
+	            }
+	          }
+
+	          anchorGroups[lookupKey].anchors.push({
+	            'out': from.element, 'in': to.element
+	          });
+	        });
+
+	        return preparedAnimations;
+	      }
+
+	      function cssClassesIntersection(a,b) {
+	        a = a.split(' ');
+	        b = b.split(' ');
+	        var matches = [];
+
+	        for (var i = 0; i < a.length; i++) {
+	          var aa = a[i];
+	          if (aa.substring(0,3) === 'ng-') continue;
+
+	          for (var j = 0; j < b.length; j++) {
+	            if (aa === b[j]) {
+	              matches.push(aa);
+	              break;
+	            }
+	          }
+	        }
+
+	        return matches.join(' ');
+	      }
+
+	      function invokeFirstDriver(animationDetails) {
+	        // we loop in reverse order since the more general drivers (like CSS and JS)
+	        // may attempt more elements, but custom drivers are more particular
+	        for (var i = drivers.length - 1; i >= 0; i--) {
+	          var driverName = drivers[i];
+	          var factory = $injector.get(driverName);
+	          var driver = factory(animationDetails);
+	          if (driver) {
+	            return driver;
+	          }
+	        }
+	      }
+
+	      function beforeStart() {
+	        element.addClass(NG_ANIMATE_CLASSNAME);
+	        if (tempClasses) {
+	          $$jqLite.addClass(element, tempClasses);
+	        }
+	        if (prepareClassName) {
+	          $$jqLite.removeClass(element, prepareClassName);
+	          prepareClassName = null;
+	        }
+	      }
+
+	      function updateAnimationRunners(animation, newRunner) {
+	        if (animation.from && animation.to) {
+	          update(animation.from.element);
+	          update(animation.to.element);
+	        } else {
+	          update(animation.element);
+	        }
+
+	        function update(element) {
+	          var runner = getRunner(element);
+	          if (runner) runner.setHost(newRunner);
+	        }
+	      }
+
+	      function handleDestroyedElement() {
+	        var runner = getRunner(element);
+	        if (runner && (event !== 'leave' || !options.$$domOperationFired)) {
+	          runner.end();
+	        }
+	      }
+
+	      function close(rejected) { // jshint ignore:line
+	        element.off('$destroy', handleDestroyedElement);
+	        removeRunner(element);
+
+	        applyAnimationClasses(element, options);
+	        applyAnimationStyles(element, options);
+	        options.domOperation();
+
+	        if (tempClasses) {
+	          $$jqLite.removeClass(element, tempClasses);
+	        }
+
+	        element.removeClass(NG_ANIMATE_CLASSNAME);
+	        runner.complete(!rejected);
+	      }
+	    };
+	  }];
+	}];
+
+	/**
+	 * @ngdoc directive
+	 * @name ngAnimateSwap
+	 * @restrict A
+	 * @scope
+	 *
+	 * @description
+	 *
+	 * ngAnimateSwap is a animation-oriented directive that allows for the container to
+	 * be removed and entered in whenever the associated expression changes. A
+	 * common usecase for this directive is a rotating banner or slider component which
+	 * contains one image being present at a time. When the active image changes
+	 * then the old image will perform a `leave` animation and the new element
+	 * will be inserted via an `enter` animation.
+	 *
+	 * @animations
+	 * | Animation                        | Occurs                               |
+	 * |----------------------------------|--------------------------------------|
+	 * | {@link ng.$animate#enter enter}  | when the new element is inserted to the DOM  |
+	 * | {@link ng.$animate#leave leave}  | when the old element is removed from the DOM |
+	 *
+	 * @example
+	 * <example name="ngAnimateSwap-directive" module="ngAnimateSwapExample"
+	 *          deps="angular-animate.js"
+	 *          animations="true" fixBase="true">
+	 *   <file name="index.html">
+	 *     <div class="container" ng-controller="AppCtrl">
+	 *       <div ng-animate-swap="number" class="cell swap-animation" ng-class="colorClass(number)">
+	 *         {{ number }}
+	 *       </div>
+	 *     </div>
+	 *   </file>
+	 *   <file name="script.js">
+	 *     angular.module('ngAnimateSwapExample', ['ngAnimate'])
+	 *       .controller('AppCtrl', ['$scope', '$interval', function($scope, $interval) {
+	 *         $scope.number = 0;
+	 *         $interval(function() {
+	 *           $scope.number++;
+	 *         }, 1000);
+	 *
+	 *         var colors = ['red','blue','green','yellow','orange'];
+	 *         $scope.colorClass = function(number) {
+	 *           return colors[number % colors.length];
+	 *         };
+	 *       }]);
+	 *   </file>
+	 *  <file name="animations.css">
+	 *  .container {
+	 *    height:250px;
+	 *    width:250px;
+	 *    position:relative;
+	 *    overflow:hidden;
+	 *    border:2px solid black;
+	 *  }
+	 *  .container .cell {
+	 *    font-size:150px;
+	 *    text-align:center;
+	 *    line-height:250px;
+	 *    position:absolute;
+	 *    top:0;
+	 *    left:0;
+	 *    right:0;
+	 *    border-bottom:2px solid black;
+	 *  }
+	 *  .swap-animation.ng-enter, .swap-animation.ng-leave {
+	 *    transition:0.5s linear all;
+	 *  }
+	 *  .swap-animation.ng-enter {
+	 *    top:-250px;
+	 *  }
+	 *  .swap-animation.ng-enter-active {
+	 *    top:0px;
+	 *  }
+	 *  .swap-animation.ng-leave {
+	 *    top:0px;
+	 *  }
+	 *  .swap-animation.ng-leave-active {
+	 *    top:250px;
+	 *  }
+	 *  .red { background:red; }
+	 *  .green { background:green; }
+	 *  .blue { background:blue; }
+	 *  .yellow { background:yellow; }
+	 *  .orange { background:orange; }
+	 *  </file>
+	 * </example>
+	 */
+	var ngAnimateSwapDirective = ['$animate', '$rootScope', function($animate, $rootScope) {
+	  return {
+	    restrict: 'A',
+	    transclude: 'element',
+	    terminal: true,
+	    priority: 600, // we use 600 here to ensure that the directive is caught before others
+	    link: function(scope, $element, attrs, ctrl, $transclude) {
+	      var previousElement, previousScope;
+	      scope.$watchCollection(attrs.ngAnimateSwap || attrs['for'], function(value) {
+	        if (previousElement) {
+	          $animate.leave(previousElement);
+	        }
+	        if (previousScope) {
+	          previousScope.$destroy();
+	          previousScope = null;
+	        }
+	        if (value || value === 0) {
+	          previousScope = scope.$new();
+	          $transclude(previousScope, function(element) {
+	            previousElement = element;
+	            $animate.enter(element, null, $element);
+	          });
+	        }
+	      });
+	    }
+	  };
+	}];
+
+	/**
+	 * @ngdoc module
+	 * @name ngAnimate
+	 * @description
+	 *
+	 * The `ngAnimate` module provides support for CSS-based animations (keyframes and transitions) as well as JavaScript-based animations via
+	 * callback hooks. Animations are not enabled by default, however, by including `ngAnimate` the animation hooks are enabled for an Angular app.
+	 *
+	 * <div doc-module-components="ngAnimate"></div>
+	 *
+	 * # Usage
+	 * Simply put, there are two ways to make use of animations when ngAnimate is used: by using **CSS** and **JavaScript**. The former works purely based
+	 * using CSS (by using matching CSS selectors/styles) and the latter triggers animations that are registered via `module.animation()`. For
+	 * both CSS and JS animations the sole requirement is to have a matching `CSS class` that exists both in the registered animation and within
+	 * the HTML element that the animation will be triggered on.
+	 *
+	 * ## Directive Support
+	 * The following directives are "animation aware":
+	 *
+	 * | Directive                                                                                                | Supported Animations                                                     |
+	 * |----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
+	 * | {@link ng.directive:ngRepeat#animations ngRepeat}                                                        | enter, leave and move                                                    |
+	 * | {@link ngRoute.directive:ngView#animations ngView}                                                       | enter and leave                                                          |
+	 * | {@link ng.directive:ngInclude#animations ngInclude}                                                      | enter and leave                                                          |
+	 * | {@link ng.directive:ngSwitch#animations ngSwitch}                                                        | enter and leave                                                          |
+	 * | {@link ng.directive:ngIf#animations ngIf}                                                                | enter and leave                                                          |
+	 * | {@link ng.directive:ngClass#animations ngClass}                                                          | add and remove (the CSS class(es) present)                               |
+	 * | {@link ng.directive:ngShow#animations ngShow} & {@link ng.directive:ngHide#animations ngHide}            | add and remove (the ng-hide class value)                                 |
+	 * | {@link ng.directive:form#animation-hooks form} & {@link ng.directive:ngModel#animation-hooks ngModel}    | add and remove (dirty, pristine, valid, invalid & all other validations) |
+	 * | {@link module:ngMessages#animations ngMessages}                                                          | add and remove (ng-active & ng-inactive)                                 |
+	 * | {@link module:ngMessages#animations ngMessage}                                                           | enter and leave                                                          |
+	 *
+	 * (More information can be found by visiting each the documentation associated with each directive.)
+	 *
+	 * ## CSS-based Animations
+	 *
+	 * CSS-based animations with ngAnimate are unique since they require no JavaScript code at all. By using a CSS class that we reference between our HTML
+	 * and CSS code we can create an animation that will be picked up by Angular when an the underlying directive performs an operation.
+	 *
+	 * The example below shows how an `enter` animation can be made possible on an element using `ng-if`:
+	 *
+	 * ```html
+	 * <div ng-if="bool" class="fade">
+	 *    Fade me in out
+	 * </div>
+	 * <button ng-click="bool=true">Fade In!</button>
+	 * <button ng-click="bool=false">Fade Out!</button>
+	 * ```
+	 *
+	 * Notice the CSS class **fade**? We can now create the CSS transition code that references this class:
+	 *
+	 * ```css
+	 * /&#42; The starting CSS styles for the enter animation &#42;/
+	 * .fade.ng-enter {
+	 *   transition:0.5s linear all;
+	 *   opacity:0;
+	 * }
+	 *
+	 * /&#42; The finishing CSS styles for the enter animation &#42;/
+	 * .fade.ng-enter.ng-enter-active {
+	 *   opacity:1;
+	 * }
+	 * ```
+	 *
+	 * The key thing to remember here is that, depending on the animation event (which each of the directives above trigger depending on what's going on) two
+	 * generated CSS classes will be applied to the element; in the example above we have `.ng-enter` and `.ng-enter-active`. For CSS transitions, the transition
+	 * code **must** be defined within the starting CSS class (in this case `.ng-enter`). The destination class is what the transition will animate towards.
+	 *
+	 * If for example we wanted to create animations for `leave` and `move` (ngRepeat triggers move) then we can do so using the same CSS naming conventions:
+	 *
+	 * ```css
+	 * /&#42; now the element will fade out before it is removed from the DOM &#42;/
+	 * .fade.ng-leave {
+	 *   transition:0.5s linear all;
+	 *   opacity:1;
+	 * }
+	 * .fade.ng-leave.ng-leave-active {
+	 *   opacity:0;
+	 * }
+	 * ```
+	 *
+	 * We can also make use of **CSS Keyframes** by referencing the keyframe animation within the starting CSS class:
+	 *
+	 * ```css
+	 * /&#42; there is no need to define anything inside of the destination
+	 * CSS class since the keyframe will take charge of the animation &#42;/
+	 * .fade.ng-leave {
+	 *   animation: my_fade_animation 0.5s linear;
+	 *   -webkit-animation: my_fade_animation 0.5s linear;
+	 * }
+	 *
+	 * @keyframes my_fade_animation {
+	 *   from { opacity:1; }
+	 *   to { opacity:0; }
+	 * }
+	 *
+	 * @-webkit-keyframes my_fade_animation {
+	 *   from { opacity:1; }
+	 *   to { opacity:0; }
+	 * }
+	 * ```
+	 *
+	 * Feel free also mix transitions and keyframes together as well as any other CSS classes on the same element.
+	 *
+	 * ### CSS Class-based Animations
+	 *
+	 * Class-based animations (animations that are triggered via `ngClass`, `ngShow`, `ngHide` and some other directives) have a slightly different
+	 * naming convention. Class-based animations are basic enough that a standard transition or keyframe can be referenced on the class being added
+	 * and removed.
+	 *
+	 * For example if we wanted to do a CSS animation for `ngHide` then we place an animation on the `.ng-hide` CSS class:
+	 *
+	 * ```html
+	 * <div ng-show="bool" class="fade">
+	 *   Show and hide me
+	 * </div>
+	 * <button ng-click="bool=!bool">Toggle</button>
+	 *
+	 * <style>
+	 * .fade.ng-hide {
+	 *   transition:0.5s linear all;
+	 *   opacity:0;
+	 * }
+	 * </style>
+	 * ```
+	 *
+	 * All that is going on here with ngShow/ngHide behind the scenes is the `.ng-hide` class is added/removed (when the hidden state is valid). Since
+	 * ngShow and ngHide are animation aware then we can match up a transition and ngAnimate handles the rest.
+	 *
+	 * In addition the addition and removal of the CSS class, ngAnimate also provides two helper methods that we can use to further decorate the animation
+	 * with CSS styles.
+	 *
+	 * ```html
+	 * <div ng-class="{on:onOff}" class="highlight">
+	 *   Highlight this box
+	 * </div>
+	 * <button ng-click="onOff=!onOff">Toggle</button>
+	 *
+	 * <style>
+	 * .highlight {
+	 *   transition:0.5s linear all;
+	 * }
+	 * .highlight.on-add {
+	 *   background:white;
+	 * }
+	 * .highlight.on {
+	 *   background:yellow;
+	 * }
+	 * .highlight.on-remove {
+	 *   background:black;
+	 * }
+	 * </style>
+	 * ```
+	 *
+	 * We can also make use of CSS keyframes by placing them within the CSS classes.
+	 *
+	 *
+	 * ### CSS Staggering Animations
+	 * A Staggering animation is a collection of animations that are issued with a slight delay in between each successive operation resulting in a
+	 * curtain-like effect. The ngAnimate module (versions >=1.2) supports staggering animations and the stagger effect can be
+	 * performed by creating a **ng-EVENT-stagger** CSS class and attaching that class to the base CSS class used for
+	 * the animation. The style property expected within the stagger class can either be a **transition-delay** or an
+	 * **animation-delay** property (or both if your animation contains both transitions and keyframe animations).
+	 *
+	 * ```css
+	 * .my-animation.ng-enter {
+	 *   /&#42; standard transition code &#42;/
+	 *   transition: 1s linear all;
+	 *   opacity:0;
+	 * }
+	 * .my-animation.ng-enter-stagger {
+	 *   /&#42; this will have a 100ms delay between each successive leave animation &#42;/
+	 *   transition-delay: 0.1s;
+	 *
+	 *   /&#42; As of 1.4.4, this must always be set: it signals ngAnimate
+	 *     to not accidentally inherit a delay property from another CSS class &#42;/
+	 *   transition-duration: 0s;
+	 * }
+	 * .my-animation.ng-enter.ng-enter-active {
+	 *   /&#42; standard transition styles &#42;/
+	 *   opacity:1;
+	 * }
+	 * ```
+	 *
+	 * Staggering animations work by default in ngRepeat (so long as the CSS class is defined). Outside of ngRepeat, to use staggering animations
+	 * on your own, they can be triggered by firing multiple calls to the same event on $animate. However, the restrictions surrounding this
+	 * are that each of the elements must have the same CSS className value as well as the same parent element. A stagger operation
+	 * will also be reset if one or more animation frames have passed since the multiple calls to `$animate` were fired.
+	 *
+	 * The following code will issue the **ng-leave-stagger** event on the element provided:
+	 *
+	 * ```js
+	 * var kids = parent.children();
+	 *
+	 * $animate.leave(kids[0]); //stagger index=0
+	 * $animate.leave(kids[1]); //stagger index=1
+	 * $animate.leave(kids[2]); //stagger index=2
+	 * $animate.leave(kids[3]); //stagger index=3
+	 * $animate.leave(kids[4]); //stagger index=4
+	 *
+	 * window.requestAnimationFrame(function() {
+	 *   //stagger has reset itself
+	 *   $animate.leave(kids[5]); //stagger index=0
+	 *   $animate.leave(kids[6]); //stagger index=1
+	 *
+	 *   $scope.$digest();
+	 * });
+	 * ```
+	 *
+	 * Stagger animations are currently only supported within CSS-defined animations.
+	 *
+	 * ### The `ng-animate` CSS class
+	 *
+	 * When ngAnimate is animating an element it will apply the `ng-animate` CSS class to the element for the duration of the animation.
+	 * This is a temporary CSS class and it will be removed once the animation is over (for both JavaScript and CSS-based animations).
+	 *
+	 * Therefore, animations can be applied to an element using this temporary class directly via CSS.
+	 *
+	 * ```css
+	 * .zipper.ng-animate {
+	 *   transition:0.5s linear all;
+	 * }
+	 * .zipper.ng-enter {
+	 *   opacity:0;
+	 * }
+	 * .zipper.ng-enter.ng-enter-active {
+	 *   opacity:1;
+	 * }
+	 * .zipper.ng-leave {
+	 *   opacity:1;
+	 * }
+	 * .zipper.ng-leave.ng-leave-active {
+	 *   opacity:0;
+	 * }
+	 * ```
+	 *
+	 * (Note that the `ng-animate` CSS class is reserved and it cannot be applied on an element directly since ngAnimate will always remove
+	 * the CSS class once an animation has completed.)
+	 *
+	 *
+	 * ### The `ng-[event]-prepare` class
+	 *
+	 * This is a special class that can be used to prevent unwanted flickering / flash of content before
+	 * the actual animation starts. The class is added as soon as an animation is initialized, but removed
+	 * before the actual animation starts (after waiting for a $digest).
+	 * It is also only added for *structural* animations (`enter`, `move`, and `leave`).
+	 *
+	 * In practice, flickering can appear when nesting elements with structural animations such as `ngIf`
+	 * into elements that have class-based animations such as `ngClass`.
+	 *
+	 * ```html
+	 * <div ng-class="{red: myProp}">
+	 *   <div ng-class="{blue: myProp}">
+	 *     <div class="message" ng-if="myProp"></div>
+	 *   </div>
+	 * </div>
+	 * ```
+	 *
+	 * It is possible that during the `enter` animation, the `.message` div will be briefly visible before it starts animating.
+	 * In that case, you can add styles to the CSS that make sure the element stays hidden before the animation starts:
+	 *
+	 * ```css
+	 * .message.ng-enter-prepare {
+	 *   opacity: 0;
+	 * }
+	 *
+	 * ```
+	 *
+	 * ## JavaScript-based Animations
+	 *
+	 * ngAnimate also allows for animations to be consumed by JavaScript code. The approach is similar to CSS-based animations (where there is a shared
+	 * CSS class that is referenced in our HTML code) but in addition we need to register the JavaScript animation on the module. By making use of the
+	 * `module.animation()` module function we can register the animation.
+	 *
+	 * Let's see an example of a enter/leave animation using `ngRepeat`:
+	 *
+	 * ```html
+	 * <div ng-repeat="item in items" class="slide">
+	 *   {{ item }}
+	 * </div>
+	 * ```
+	 *
+	 * See the **slide** CSS class? Let's use that class to define an animation that we'll structure in our module code by using `module.animation`:
+	 *
+	 * ```js
+	 * myModule.animation('.slide', [function() {
+	 *   return {
+	 *     // make note that other events (like addClass/removeClass)
+	 *     // have different function input parameters
+	 *     enter: function(element, doneFn) {
+	 *       jQuery(element).fadeIn(1000, doneFn);
+	 *
+	 *       // remember to call doneFn so that angular
+	 *       // knows that the animation has concluded
+	 *     },
+	 *
+	 *     move: function(element, doneFn) {
+	 *       jQuery(element).fadeIn(1000, doneFn);
+	 *     },
+	 *
+	 *     leave: function(element, doneFn) {
+	 *       jQuery(element).fadeOut(1000, doneFn);
+	 *     }
+	 *   }
+	 * }]);
+	 * ```
+	 *
+	 * The nice thing about JS-based animations is that we can inject other services and make use of advanced animation libraries such as
+	 * greensock.js and velocity.js.
+	 *
+	 * If our animation code class-based (meaning that something like `ngClass`, `ngHide` and `ngShow` triggers it) then we can still define
+	 * our animations inside of the same registered animation, however, the function input arguments are a bit different:
+	 *
+	 * ```html
+	 * <div ng-class="color" class="colorful">
+	 *   this box is moody
+	 * </div>
+	 * <button ng-click="color='red'">Change to red</button>
+	 * <button ng-click="color='blue'">Change to blue</button>
+	 * <button ng-click="color='green'">Change to green</button>
+	 * ```
+	 *
+	 * ```js
+	 * myModule.animation('.colorful', [function() {
+	 *   return {
+	 *     addClass: function(element, className, doneFn) {
+	 *       // do some cool animation and call the doneFn
+	 *     },
+	 *     removeClass: function(element, className, doneFn) {
+	 *       // do some cool animation and call the doneFn
+	 *     },
+	 *     setClass: function(element, addedClass, removedClass, doneFn) {
+	 *       // do some cool animation and call the doneFn
+	 *     }
+	 *   }
+	 * }]);
+	 * ```
+	 *
+	 * ## CSS + JS Animations Together
+	 *
+	 * AngularJS 1.4 and higher has taken steps to make the amalgamation of CSS and JS animations more flexible. However, unlike earlier versions of Angular,
+	 * defining CSS and JS animations to work off of the same CSS class will not work anymore. Therefore the example below will only result in **JS animations taking
+	 * charge of the animation**:
+	 *
+	 * ```html
+	 * <div ng-if="bool" class="slide">
+	 *   Slide in and out
+	 * </div>
+	 * ```
+	 *
+	 * ```js
+	 * myModule.animation('.slide', [function() {
+	 *   return {
+	 *     enter: function(element, doneFn) {
+	 *       jQuery(element).slideIn(1000, doneFn);
+	 *     }
+	 *   }
+	 * }]);
+	 * ```
+	 *
+	 * ```css
+	 * .slide.ng-enter {
+	 *   transition:0.5s linear all;
+	 *   transform:translateY(-100px);
+	 * }
+	 * .slide.ng-enter.ng-enter-active {
+	 *   transform:translateY(0);
+	 * }
+	 * ```
+	 *
+	 * Does this mean that CSS and JS animations cannot be used together? Do JS-based animations always have higher priority? We can make up for the
+	 * lack of CSS animations by using the `$animateCss` service to trigger our own tweaked-out, CSS-based animations directly from
+	 * our own JS-based animation code:
+	 *
+	 * ```js
+	 * myModule.animation('.slide', ['$animateCss', function($animateCss) {
+	 *   return {
+	 *     enter: function(element) {
+	*        // this will trigger `.slide.ng-enter` and `.slide.ng-enter-active`.
+	 *       return $animateCss(element, {
+	 *         event: 'enter',
+	 *         structural: true
+	 *       });
+	 *     }
+	 *   }
+	 * }]);
+	 * ```
+	 *
+	 * The nice thing here is that we can save bandwidth by sticking to our CSS-based animation code and we don't need to rely on a 3rd-party animation framework.
+	 *
+	 * The `$animateCss` service is very powerful since we can feed in all kinds of extra properties that will be evaluated and fed into a CSS transition or
+	 * keyframe animation. For example if we wanted to animate the height of an element while adding and removing classes then we can do so by providing that
+	 * data into `$animateCss` directly:
+	 *
+	 * ```js
+	 * myModule.animation('.slide', ['$animateCss', function($animateCss) {
+	 *   return {
+	 *     enter: function(element) {
+	 *       return $animateCss(element, {
+	 *         event: 'enter',
+	 *         structural: true,
+	 *         addClass: 'maroon-setting',
+	 *         from: { height:0 },
+	 *         to: { height: 200 }
+	 *       });
+	 *     }
+	 *   }
+	 * }]);
+	 * ```
+	 *
+	 * Now we can fill in the rest via our transition CSS code:
+	 *
+	 * ```css
+	 * /&#42; the transition tells ngAnimate to make the animation happen &#42;/
+	 * .slide.ng-enter { transition:0.5s linear all; }
+	 *
+	 * /&#42; this extra CSS class will be absorbed into the transition
+	 * since the $animateCss code is adding the class &#42;/
+	 * .maroon-setting { background:red; }
+	 * ```
+	 *
+	 * And `$animateCss` will figure out the rest. Just make sure to have the `done()` callback fire the `doneFn` function to signal when the animation is over.
+	 *
+	 * To learn more about what's possible be sure to visit the {@link ngAnimate.$animateCss $animateCss service}.
+	 *
+	 * ## Animation Anchoring (via `ng-animate-ref`)
+	 *
+	 * ngAnimate in AngularJS 1.4 comes packed with the ability to cross-animate elements between
+	 * structural areas of an application (like views) by pairing up elements using an attribute
+	 * called `ng-animate-ref`.
+	 *
+	 * Let's say for example we have two views that are managed by `ng-view` and we want to show
+	 * that there is a relationship between two components situated in within these views. By using the
+	 * `ng-animate-ref` attribute we can identify that the two components are paired together and we
+	 * can then attach an animation, which is triggered when the view changes.
+	 *
+	 * Say for example we have the following template code:
+	 *
+	 * ```html
+	 * <!-- index.html -->
+	 * <div ng-view class="view-animation">
+	 * </div>
+	 *
+	 * <!-- home.html -->
+	 * <a href="#/banner-page">
+	 *   <img src="./banner.jpg" class="banner" ng-animate-ref="banner">
+	 * </a>
+	 *
+	 * <!-- banner-page.html -->
+	 * <img src="./banner.jpg" class="banner" ng-animate-ref="banner">
+	 * ```
+	 *
+	 * Now, when the view changes (once the link is clicked), ngAnimate will examine the
+	 * HTML contents to see if there is a match reference between any components in the view
+	 * that is leaving and the view that is entering. It will scan both the view which is being
+	 * removed (leave) and inserted (enter) to see if there are any paired DOM elements that
+	 * contain a matching ref value.
+	 *
+	 * The two images match since they share the same ref value. ngAnimate will now create a
+	 * transport element (which is a clone of the first image element) and it will then attempt
+	 * to animate to the position of the second image element in the next view. For the animation to
+	 * work a special CSS class called `ng-anchor` will be added to the transported element.
+	 *
+	 * We can now attach a transition onto the `.banner.ng-anchor` CSS class and then
+	 * ngAnimate will handle the entire transition for us as well as the addition and removal of
+	 * any changes of CSS classes between the elements:
+	 *
+	 * ```css
+	 * .banner.ng-anchor {
+	 *   /&#42; this animation will last for 1 second since there are
+	 *          two phases to the animation (an `in` and an `out` phase) &#42;/
+	 *   transition:0.5s linear all;
+	 * }
+	 * ```
+	 *
+	 * We also **must** include animations for the views that are being entered and removed
+	 * (otherwise anchoring wouldn't be possible since the new view would be inserted right away).
+	 *
+	 * ```css
+	 * .view-animation.ng-enter, .view-animation.ng-leave {
+	 *   transition:0.5s linear all;
+	 *   position:fixed;
+	 *   left:0;
+	 *   top:0;
+	 *   width:100%;
+	 * }
+	 * .view-animation.ng-enter {
+	 *   transform:translateX(100%);
+	 * }
+	 * .view-animation.ng-leave,
+	 * .view-animation.ng-enter.ng-enter-active {
+	 *   transform:translateX(0%);
+	 * }
+	 * .view-animation.ng-leave.ng-leave-active {
+	 *   transform:translateX(-100%);
+	 * }
+	 * ```
+	 *
+	 * Now we can jump back to the anchor animation. When the animation happens, there are two stages that occur:
+	 * an `out` and an `in` stage. The `out` stage happens first and that is when the element is animated away
+	 * from its origin. Once that animation is over then the `in` stage occurs which animates the
+	 * element to its destination. The reason why there are two animations is to give enough time
+	 * for the enter animation on the new element to be ready.
+	 *
+	 * The example above sets up a transition for both the in and out phases, but we can also target the out or
+	 * in phases directly via `ng-anchor-out` and `ng-anchor-in`.
+	 *
+	 * ```css
+	 * .banner.ng-anchor-out {
+	 *   transition: 0.5s linear all;
+	 *
+	 *   /&#42; the scale will be applied during the out animation,
+	 *          but will be animated away when the in animation runs &#42;/
+	 *   transform: scale(1.2);
+	 * }
+	 *
+	 * .banner.ng-anchor-in {
+	 *   transition: 1s linear all;
+	 * }
+	 * ```
+	 *
+	 *
+	 *
+	 *
+	 * ### Anchoring Demo
+	 *
+	  <example module="anchoringExample"
+	           name="anchoringExample"
+	           id="anchoringExample"
+	           deps="angular-animate.js;angular-route.js"
+	           animations="true">
+	    <file name="index.html">
+	      <a href="#/">Home</a>
+	      <hr />
+	      <div class="view-container">
+	        <div ng-view class="view"></div>
+	      </div>
+	    </file>
+	    <file name="script.js">
+	      angular.module('anchoringExample', ['ngAnimate', 'ngRoute'])
+	        .config(['$routeProvider', function($routeProvider) {
+	          $routeProvider.when('/', {
+	            templateUrl: 'home.html',
+	            controller: 'HomeController as home'
+	          });
+	          $routeProvider.when('/profile/:id', {
+	            templateUrl: 'profile.html',
+	            controller: 'ProfileController as profile'
+	          });
+	        }])
+	        .run(['$rootScope', function($rootScope) {
+	          $rootScope.records = [
+	            { id:1, title: "Miss Beulah Roob" },
+	            { id:2, title: "Trent Morissette" },
+	            { id:3, title: "Miss Ava Pouros" },
+	            { id:4, title: "Rod Pouros" },
+	            { id:5, title: "Abdul Rice" },
+	            { id:6, title: "Laurie Rutherford Sr." },
+	            { id:7, title: "Nakia McLaughlin" },
+	            { id:8, title: "Jordon Blanda DVM" },
+	            { id:9, title: "Rhoda Hand" },
+	            { id:10, title: "Alexandrea Sauer" }
+	          ];
+	        }])
+	        .controller('HomeController', [function() {
+	          //empty
+	        }])
+	        .controller('ProfileController', ['$rootScope', '$routeParams', function($rootScope, $routeParams) {
+	          var index = parseInt($routeParams.id, 10);
+	          var record = $rootScope.records[index - 1];
+
+	          this.title = record.title;
+	          this.id = record.id;
+	        }]);
+	    </file>
+	    <file name="home.html">
+	      <h2>Welcome to the home page</h1>
+	      <p>Please click on an element</p>
+	      <a class="record"
+	         ng-href="#/profile/{{ record.id }}"
+	         ng-animate-ref="{{ record.id }}"
+	         ng-repeat="record in records">
+	        {{ record.title }}
+	      </a>
+	    </file>
+	    <file name="profile.html">
+	      <div class="profile record" ng-animate-ref="{{ profile.id }}">
+	        {{ profile.title }}
+	      </div>
+	    </file>
+	    <file name="animations.css">
+	      .record {
+	        display:block;
+	        font-size:20px;
+	      }
+	      .profile {
+	        background:black;
+	        color:white;
+	        font-size:100px;
+	      }
+	      .view-container {
+	        position:relative;
+	      }
+	      .view-container > .view.ng-animate {
+	        position:absolute;
+	        top:0;
+	        left:0;
+	        width:100%;
+	        min-height:500px;
+	      }
+	      .view.ng-enter, .view.ng-leave,
+	      .record.ng-anchor {
+	        transition:0.5s linear all;
+	      }
+	      .view.ng-enter {
+	        transform:translateX(100%);
+	      }
+	      .view.ng-enter.ng-enter-active, .view.ng-leave {
+	        transform:translateX(0%);
+	      }
+	      .view.ng-leave.ng-leave-active {
+	        transform:translateX(-100%);
+	      }
+	      .record.ng-anchor-out {
+	        background:red;
+	      }
+	    </file>
+	  </example>
+	 *
+	 * ### How is the element transported?
+	 *
+	 * When an anchor animation occurs, ngAnimate will clone the starting element and position it exactly where the starting
+	 * element is located on screen via absolute positioning. The cloned element will be placed inside of the root element
+	 * of the application (where ng-app was defined) and all of the CSS classes of the starting element will be applied. The
+	 * element will then animate into the `out` and `in` animations and will eventually reach the coordinates and match
+	 * the dimensions of the destination element. During the entire animation a CSS class of `.ng-animate-shim` will be applied
+	 * to both the starting and destination elements in order to hide them from being visible (the CSS styling for the class
+	 * is: `visibility:hidden`). Once the anchor reaches its destination then it will be removed and the destination element
+	 * will become visible since the shim class will be removed.
+	 *
+	 * ### How is the morphing handled?
+	 *
+	 * CSS Anchoring relies on transitions and keyframes and the internal code is intelligent enough to figure out
+	 * what CSS classes differ between the starting element and the destination element. These different CSS classes
+	 * will be added/removed on the anchor element and a transition will be applied (the transition that is provided
+	 * in the anchor class). Long story short, ngAnimate will figure out what classes to add and remove which will
+	 * make the transition of the element as smooth and automatic as possible. Be sure to use simple CSS classes that
+	 * do not rely on DOM nesting structure so that the anchor element appears the same as the starting element (since
+	 * the cloned element is placed inside of root element which is likely close to the body element).
+	 *
+	 * Note that if the root element is on the `<html>` element then the cloned node will be placed inside of body.
+	 *
+	 *
+	 * ## Using $animate in your directive code
+	 *
+	 * So far we've explored how to feed in animations into an Angular application, but how do we trigger animations within our own directives in our application?
+	 * By injecting the `$animate` service into our directive code, we can trigger structural and class-based hooks which can then be consumed by animations. Let's
+	 * imagine we have a greeting box that shows and hides itself when the data changes
+	 *
+	 * ```html
+	 * <greeting-box active="onOrOff">Hi there</greeting-box>
+	 * ```
+	 *
+	 * ```js
+	 * ngModule.directive('greetingBox', ['$animate', function($animate) {
+	 *   return function(scope, element, attrs) {
+	 *     attrs.$observe('active', function(value) {
+	 *       value ? $animate.addClass(element, 'on') : $animate.removeClass(element, 'on');
+	 *     });
+	 *   });
+	 * }]);
+	 * ```
+	 *
+	 * Now the `on` CSS class is added and removed on the greeting box component. Now if we add a CSS class on top of the greeting box element
+	 * in our HTML code then we can trigger a CSS or JS animation to happen.
+	 *
+	 * ```css
+	 * /&#42; normally we would create a CSS class to reference on the element &#42;/
+	 * greeting-box.on { transition:0.5s linear all; background:green; color:white; }
+	 * ```
+	 *
+	 * The `$animate` service contains a variety of other methods like `enter`, `leave`, `animate` and `setClass`. To learn more about what's
+	 * possible be sure to visit the {@link ng.$animate $animate service API page}.
+	 *
+	 *
+	 * ## Callbacks and Promises
+	 *
+	 * When `$animate` is called it returns a promise that can be used to capture when the animation has ended. Therefore if we were to trigger
+	 * an animation (within our directive code) then we can continue performing directive and scope related activities after the animation has
+	 * ended by chaining onto the returned promise that animation method returns.
+	 *
+	 * ```js
+	 * // somewhere within the depths of the directive
+	 * $animate.enter(element, parent).then(function() {
+	 *   //the animation has completed
+	 * });
+	 * ```
+	 *
+	 * (Note that earlier versions of Angular prior to v1.4 required the promise code to be wrapped using `$scope.$apply(...)`. This is not the case
+	 * anymore.)
+	 *
+	 * In addition to the animation promise, we can also make use of animation-related callbacks within our directives and controller code by registering
+	 * an event listener using the `$animate` service. Let's say for example that an animation was triggered on our view
+	 * routing controller to hook into that:
+	 *
+	 * ```js
+	 * ngModule.controller('HomePageController', ['$animate', function($animate) {
+	 *   $animate.on('enter', ngViewElement, function(element) {
+	 *     // the animation for this route has completed
+	 *   }]);
+	 * }])
+	 * ```
+	 *
+	 * (Note that you will need to trigger a digest within the callback to get angular to notice any scope-related changes.)
+	 */
+
+	var copy;
+	var extend;
+	var forEach;
+	var isArray;
+	var isDefined;
+	var isElement;
+	var isFunction;
+	var isObject;
+	var isString;
+	var isUndefined;
+	var jqLite;
+	var noop;
+
+	/**
+	 * @ngdoc service
+	 * @name $animate
+	 * @kind object
+	 *
+	 * @description
+	 * The ngAnimate `$animate` service documentation is the same for the core `$animate` service.
+	 *
+	 * Click here {@link ng.$animate to learn more about animations with `$animate`}.
+	 */
+	angular.module('ngAnimate', [], function initAngularHelpers() {
+	  // Access helpers from angular core.
+	  // Do it inside a `config` block to ensure `window.angular` is available.
+	  noop        = angular.noop;
+	  copy        = angular.copy;
+	  extend      = angular.extend;
+	  jqLite      = angular.element;
+	  forEach     = angular.forEach;
+	  isArray     = angular.isArray;
+	  isString    = angular.isString;
+	  isObject    = angular.isObject;
+	  isUndefined = angular.isUndefined;
+	  isDefined   = angular.isDefined;
+	  isFunction  = angular.isFunction;
+	  isElement   = angular.isElement;
+	})
+	  .directive('ngAnimateSwap', ngAnimateSwapDirective)
+
+	  .directive('ngAnimateChildren', $$AnimateChildrenDirective)
+	  .factory('$$rAFScheduler', $$rAFSchedulerFactory)
+
+	  .provider('$$animateQueue', $$AnimateQueueProvider)
+	  .provider('$$animation', $$AnimationProvider)
+
+	  .provider('$animateCss', $AnimateCssProvider)
+	  .provider('$$animateCssDriver', $$AnimateCssDriverProvider)
+
+	  .provider('$$animateJs', $$AnimateJsProvider)
+	  .provider('$$animateJsDriver', $$AnimateJsDriverProvider);
+
+
+	})(window, window.angular);
+
+
+/***/ },
+/* 101 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+
+	// load the styles
+	var content = __webpack_require__(102);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(29)(content, {});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(false) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept("!!../../node_modules/css-loader/index.js!./animate.min.css", function() {
+				var newContent = require("!!../../node_modules/css-loader/index.js!./animate.min.css");
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 102 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(6)();
+	// imports
+
+
+	// module
+	exports.push([module.id, "@charset \"UTF-8\";\n\n/*!\n * animate.css -http://daneden.me/animate\n * Version - 3.5.1\n * Licensed under the MIT license - http://opensource.org/licenses/MIT\n *\n * Copyright (c) 2016 Daniel Eden\n */\n\n.animated{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.animated.infinite{-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite}.animated.hinge{-webkit-animation-duration:2s;animation-duration:2s}.animated.bounceIn,.animated.bounceOut,.animated.flipOutX,.animated.flipOutY{-webkit-animation-duration:.75s;animation-duration:.75s}@-webkit-keyframes bounce{0%,20%,53%,80%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1);-webkit-transform:translateZ(0);transform:translateZ(0)}40%,43%{-webkit-transform:translate3d(0,-30px,0);transform:translate3d(0,-30px,0)}40%,43%,70%{-webkit-animation-timing-function:cubic-bezier(.755,.05,.855,.06);animation-timing-function:cubic-bezier(.755,.05,.855,.06)}70%{-webkit-transform:translate3d(0,-15px,0);transform:translate3d(0,-15px,0)}90%{-webkit-transform:translate3d(0,-4px,0);transform:translate3d(0,-4px,0)}}@keyframes bounce{0%,20%,53%,80%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1);-webkit-transform:translateZ(0);transform:translateZ(0)}40%,43%{-webkit-transform:translate3d(0,-30px,0);transform:translate3d(0,-30px,0)}40%,43%,70%{-webkit-animation-timing-function:cubic-bezier(.755,.05,.855,.06);animation-timing-function:cubic-bezier(.755,.05,.855,.06)}70%{-webkit-transform:translate3d(0,-15px,0);transform:translate3d(0,-15px,0)}90%{-webkit-transform:translate3d(0,-4px,0);transform:translate3d(0,-4px,0)}}.bounce{-webkit-animation-name:bounce;animation-name:bounce;-webkit-transform-origin:center bottom;transform-origin:center bottom}@-webkit-keyframes flash{0%,50%,to{opacity:1}25%,75%{opacity:0}}@keyframes flash{0%,50%,to{opacity:1}25%,75%{opacity:0}}.flash{-webkit-animation-name:flash;animation-name:flash}@-webkit-keyframes pulse{0%{-webkit-transform:scaleX(1);transform:scaleX(1)}50%{-webkit-transform:scale3d(1.05,1.05,1.05);transform:scale3d(1.05,1.05,1.05)}to{-webkit-transform:scaleX(1);transform:scaleX(1)}}@keyframes pulse{0%{-webkit-transform:scaleX(1);transform:scaleX(1)}50%{-webkit-transform:scale3d(1.05,1.05,1.05);transform:scale3d(1.05,1.05,1.05)}to{-webkit-transform:scaleX(1);transform:scaleX(1)}}.pulse{-webkit-animation-name:pulse;animation-name:pulse}@-webkit-keyframes rubberBand{0%{-webkit-transform:scaleX(1);transform:scaleX(1)}30%{-webkit-transform:scale3d(1.25,.75,1);transform:scale3d(1.25,.75,1)}40%{-webkit-transform:scale3d(.75,1.25,1);transform:scale3d(.75,1.25,1)}50%{-webkit-transform:scale3d(1.15,.85,1);transform:scale3d(1.15,.85,1)}65%{-webkit-transform:scale3d(.95,1.05,1);transform:scale3d(.95,1.05,1)}75%{-webkit-transform:scale3d(1.05,.95,1);transform:scale3d(1.05,.95,1)}to{-webkit-transform:scaleX(1);transform:scaleX(1)}}@keyframes rubberBand{0%{-webkit-transform:scaleX(1);transform:scaleX(1)}30%{-webkit-transform:scale3d(1.25,.75,1);transform:scale3d(1.25,.75,1)}40%{-webkit-transform:scale3d(.75,1.25,1);transform:scale3d(.75,1.25,1)}50%{-webkit-transform:scale3d(1.15,.85,1);transform:scale3d(1.15,.85,1)}65%{-webkit-transform:scale3d(.95,1.05,1);transform:scale3d(.95,1.05,1)}75%{-webkit-transform:scale3d(1.05,.95,1);transform:scale3d(1.05,.95,1)}to{-webkit-transform:scaleX(1);transform:scaleX(1)}}.rubberBand{-webkit-animation-name:rubberBand;animation-name:rubberBand}@-webkit-keyframes shake{0%,to{-webkit-transform:translateZ(0);transform:translateZ(0)}10%,30%,50%,70%,90%{-webkit-transform:translate3d(-10px,0,0);transform:translate3d(-10px,0,0)}20%,40%,60%,80%{-webkit-transform:translate3d(10px,0,0);transform:translate3d(10px,0,0)}}@keyframes shake{0%,to{-webkit-transform:translateZ(0);transform:translateZ(0)}10%,30%,50%,70%,90%{-webkit-transform:translate3d(-10px,0,0);transform:translate3d(-10px,0,0)}20%,40%,60%,80%{-webkit-transform:translate3d(10px,0,0);transform:translate3d(10px,0,0)}}.shake{-webkit-animation-name:shake;animation-name:shake}@-webkit-keyframes headShake{0%{-webkit-transform:translateX(0);transform:translateX(0)}6.5%{-webkit-transform:translateX(-6px) rotateY(-9deg);transform:translateX(-6px) rotateY(-9deg)}18.5%{-webkit-transform:translateX(5px) rotateY(7deg);transform:translateX(5px) rotateY(7deg)}31.5%{-webkit-transform:translateX(-3px) rotateY(-5deg);transform:translateX(-3px) rotateY(-5deg)}43.5%{-webkit-transform:translateX(2px) rotateY(3deg);transform:translateX(2px) rotateY(3deg)}50%{-webkit-transform:translateX(0);transform:translateX(0)}}@keyframes headShake{0%{-webkit-transform:translateX(0);transform:translateX(0)}6.5%{-webkit-transform:translateX(-6px) rotateY(-9deg);transform:translateX(-6px) rotateY(-9deg)}18.5%{-webkit-transform:translateX(5px) rotateY(7deg);transform:translateX(5px) rotateY(7deg)}31.5%{-webkit-transform:translateX(-3px) rotateY(-5deg);transform:translateX(-3px) rotateY(-5deg)}43.5%{-webkit-transform:translateX(2px) rotateY(3deg);transform:translateX(2px) rotateY(3deg)}50%{-webkit-transform:translateX(0);transform:translateX(0)}}.headShake{-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;-webkit-animation-name:headShake;animation-name:headShake}@-webkit-keyframes swing{20%{-webkit-transform:rotate(15deg);transform:rotate(15deg)}40%{-webkit-transform:rotate(-10deg);transform:rotate(-10deg)}60%{-webkit-transform:rotate(5deg);transform:rotate(5deg)}80%{-webkit-transform:rotate(-5deg);transform:rotate(-5deg)}to{-webkit-transform:rotate(0deg);transform:rotate(0deg)}}@keyframes swing{20%{-webkit-transform:rotate(15deg);transform:rotate(15deg)}40%{-webkit-transform:rotate(-10deg);transform:rotate(-10deg)}60%{-webkit-transform:rotate(5deg);transform:rotate(5deg)}80%{-webkit-transform:rotate(-5deg);transform:rotate(-5deg)}to{-webkit-transform:rotate(0deg);transform:rotate(0deg)}}.swing{-webkit-transform-origin:top center;transform-origin:top center;-webkit-animation-name:swing;animation-name:swing}@-webkit-keyframes tada{0%{-webkit-transform:scaleX(1);transform:scaleX(1)}10%,20%{-webkit-transform:scale3d(.9,.9,.9) rotate(-3deg);transform:scale3d(.9,.9,.9) rotate(-3deg)}30%,50%,70%,90%{-webkit-transform:scale3d(1.1,1.1,1.1) rotate(3deg);transform:scale3d(1.1,1.1,1.1) rotate(3deg)}40%,60%,80%{-webkit-transform:scale3d(1.1,1.1,1.1) rotate(-3deg);transform:scale3d(1.1,1.1,1.1) rotate(-3deg)}to{-webkit-transform:scaleX(1);transform:scaleX(1)}}@keyframes tada{0%{-webkit-transform:scaleX(1);transform:scaleX(1)}10%,20%{-webkit-transform:scale3d(.9,.9,.9) rotate(-3deg);transform:scale3d(.9,.9,.9) rotate(-3deg)}30%,50%,70%,90%{-webkit-transform:scale3d(1.1,1.1,1.1) rotate(3deg);transform:scale3d(1.1,1.1,1.1) rotate(3deg)}40%,60%,80%{-webkit-transform:scale3d(1.1,1.1,1.1) rotate(-3deg);transform:scale3d(1.1,1.1,1.1) rotate(-3deg)}to{-webkit-transform:scaleX(1);transform:scaleX(1)}}.tada{-webkit-animation-name:tada;animation-name:tada}@-webkit-keyframes wobble{0%{-webkit-transform:none;transform:none}15%{-webkit-transform:translate3d(-25%,0,0) rotate(-5deg);transform:translate3d(-25%,0,0) rotate(-5deg)}30%{-webkit-transform:translate3d(20%,0,0) rotate(3deg);transform:translate3d(20%,0,0) rotate(3deg)}45%{-webkit-transform:translate3d(-15%,0,0) rotate(-3deg);transform:translate3d(-15%,0,0) rotate(-3deg)}60%{-webkit-transform:translate3d(10%,0,0) rotate(2deg);transform:translate3d(10%,0,0) rotate(2deg)}75%{-webkit-transform:translate3d(-5%,0,0) rotate(-1deg);transform:translate3d(-5%,0,0) rotate(-1deg)}to{-webkit-transform:none;transform:none}}@keyframes wobble{0%{-webkit-transform:none;transform:none}15%{-webkit-transform:translate3d(-25%,0,0) rotate(-5deg);transform:translate3d(-25%,0,0) rotate(-5deg)}30%{-webkit-transform:translate3d(20%,0,0) rotate(3deg);transform:translate3d(20%,0,0) rotate(3deg)}45%{-webkit-transform:translate3d(-15%,0,0) rotate(-3deg);transform:translate3d(-15%,0,0) rotate(-3deg)}60%{-webkit-transform:translate3d(10%,0,0) rotate(2deg);transform:translate3d(10%,0,0) rotate(2deg)}75%{-webkit-transform:translate3d(-5%,0,0) rotate(-1deg);transform:translate3d(-5%,0,0) rotate(-1deg)}to{-webkit-transform:none;transform:none}}.wobble{-webkit-animation-name:wobble;animation-name:wobble}@-webkit-keyframes jello{0%,11.1%,to{-webkit-transform:none;transform:none}22.2%{-webkit-transform:skewX(-12.5deg) skewY(-12.5deg);transform:skewX(-12.5deg) skewY(-12.5deg)}33.3%{-webkit-transform:skewX(6.25deg) skewY(6.25deg);transform:skewX(6.25deg) skewY(6.25deg)}44.4%{-webkit-transform:skewX(-3.125deg) skewY(-3.125deg);transform:skewX(-3.125deg) skewY(-3.125deg)}55.5%{-webkit-transform:skewX(1.5625deg) skewY(1.5625deg);transform:skewX(1.5625deg) skewY(1.5625deg)}66.6%{-webkit-transform:skewX(-.78125deg) skewY(-.78125deg);transform:skewX(-.78125deg) skewY(-.78125deg)}77.7%{-webkit-transform:skewX(.390625deg) skewY(.390625deg);transform:skewX(.390625deg) skewY(.390625deg)}88.8%{-webkit-transform:skewX(-.1953125deg) skewY(-.1953125deg);transform:skewX(-.1953125deg) skewY(-.1953125deg)}}@keyframes jello{0%,11.1%,to{-webkit-transform:none;transform:none}22.2%{-webkit-transform:skewX(-12.5deg) skewY(-12.5deg);transform:skewX(-12.5deg) skewY(-12.5deg)}33.3%{-webkit-transform:skewX(6.25deg) skewY(6.25deg);transform:skewX(6.25deg) skewY(6.25deg)}44.4%{-webkit-transform:skewX(-3.125deg) skewY(-3.125deg);transform:skewX(-3.125deg) skewY(-3.125deg)}55.5%{-webkit-transform:skewX(1.5625deg) skewY(1.5625deg);transform:skewX(1.5625deg) skewY(1.5625deg)}66.6%{-webkit-transform:skewX(-.78125deg) skewY(-.78125deg);transform:skewX(-.78125deg) skewY(-.78125deg)}77.7%{-webkit-transform:skewX(.390625deg) skewY(.390625deg);transform:skewX(.390625deg) skewY(.390625deg)}88.8%{-webkit-transform:skewX(-.1953125deg) skewY(-.1953125deg);transform:skewX(-.1953125deg) skewY(-.1953125deg)}}.jello{-webkit-animation-name:jello;animation-name:jello;-webkit-transform-origin:center;transform-origin:center}@-webkit-keyframes bounceIn{0%,20%,40%,60%,80%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}20%{-webkit-transform:scale3d(1.1,1.1,1.1);transform:scale3d(1.1,1.1,1.1)}40%{-webkit-transform:scale3d(.9,.9,.9);transform:scale3d(.9,.9,.9)}60%{opacity:1;-webkit-transform:scale3d(1.03,1.03,1.03);transform:scale3d(1.03,1.03,1.03)}80%{-webkit-transform:scale3d(.97,.97,.97);transform:scale3d(.97,.97,.97)}to{opacity:1;-webkit-transform:scaleX(1);transform:scaleX(1)}}@keyframes bounceIn{0%,20%,40%,60%,80%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}20%{-webkit-transform:scale3d(1.1,1.1,1.1);transform:scale3d(1.1,1.1,1.1)}40%{-webkit-transform:scale3d(.9,.9,.9);transform:scale3d(.9,.9,.9)}60%{opacity:1;-webkit-transform:scale3d(1.03,1.03,1.03);transform:scale3d(1.03,1.03,1.03)}80%{-webkit-transform:scale3d(.97,.97,.97);transform:scale3d(.97,.97,.97)}to{opacity:1;-webkit-transform:scaleX(1);transform:scaleX(1)}}.bounceIn{-webkit-animation-name:bounceIn;animation-name:bounceIn}@-webkit-keyframes bounceInDown{0%,60%,75%,90%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:translate3d(0,-3000px,0);transform:translate3d(0,-3000px,0)}60%{opacity:1;-webkit-transform:translate3d(0,25px,0);transform:translate3d(0,25px,0)}75%{-webkit-transform:translate3d(0,-10px,0);transform:translate3d(0,-10px,0)}90%{-webkit-transform:translate3d(0,5px,0);transform:translate3d(0,5px,0)}to{-webkit-transform:none;transform:none}}@keyframes bounceInDown{0%,60%,75%,90%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:translate3d(0,-3000px,0);transform:translate3d(0,-3000px,0)}60%{opacity:1;-webkit-transform:translate3d(0,25px,0);transform:translate3d(0,25px,0)}75%{-webkit-transform:translate3d(0,-10px,0);transform:translate3d(0,-10px,0)}90%{-webkit-transform:translate3d(0,5px,0);transform:translate3d(0,5px,0)}to{-webkit-transform:none;transform:none}}.bounceInDown{-webkit-animation-name:bounceInDown;animation-name:bounceInDown}@-webkit-keyframes bounceInLeft{0%,60%,75%,90%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:translate3d(-3000px,0,0);transform:translate3d(-3000px,0,0)}60%{opacity:1;-webkit-transform:translate3d(25px,0,0);transform:translate3d(25px,0,0)}75%{-webkit-transform:translate3d(-10px,0,0);transform:translate3d(-10px,0,0)}90%{-webkit-transform:translate3d(5px,0,0);transform:translate3d(5px,0,0)}to{-webkit-transform:none;transform:none}}@keyframes bounceInLeft{0%,60%,75%,90%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:translate3d(-3000px,0,0);transform:translate3d(-3000px,0,0)}60%{opacity:1;-webkit-transform:translate3d(25px,0,0);transform:translate3d(25px,0,0)}75%{-webkit-transform:translate3d(-10px,0,0);transform:translate3d(-10px,0,0)}90%{-webkit-transform:translate3d(5px,0,0);transform:translate3d(5px,0,0)}to{-webkit-transform:none;transform:none}}.bounceInLeft{-webkit-animation-name:bounceInLeft;animation-name:bounceInLeft}@-webkit-keyframes bounceInRight{0%,60%,75%,90%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:translate3d(3000px,0,0);transform:translate3d(3000px,0,0)}60%{opacity:1;-webkit-transform:translate3d(-25px,0,0);transform:translate3d(-25px,0,0)}75%{-webkit-transform:translate3d(10px,0,0);transform:translate3d(10px,0,0)}90%{-webkit-transform:translate3d(-5px,0,0);transform:translate3d(-5px,0,0)}to{-webkit-transform:none;transform:none}}@keyframes bounceInRight{0%,60%,75%,90%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:translate3d(3000px,0,0);transform:translate3d(3000px,0,0)}60%{opacity:1;-webkit-transform:translate3d(-25px,0,0);transform:translate3d(-25px,0,0)}75%{-webkit-transform:translate3d(10px,0,0);transform:translate3d(10px,0,0)}90%{-webkit-transform:translate3d(-5px,0,0);transform:translate3d(-5px,0,0)}to{-webkit-transform:none;transform:none}}.bounceInRight{-webkit-animation-name:bounceInRight;animation-name:bounceInRight}@-webkit-keyframes bounceInUp{0%,60%,75%,90%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:translate3d(0,3000px,0);transform:translate3d(0,3000px,0)}60%{opacity:1;-webkit-transform:translate3d(0,-20px,0);transform:translate3d(0,-20px,0)}75%{-webkit-transform:translate3d(0,10px,0);transform:translate3d(0,10px,0)}90%{-webkit-transform:translate3d(0,-5px,0);transform:translate3d(0,-5px,0)}to{-webkit-transform:translateZ(0);transform:translateZ(0)}}@keyframes bounceInUp{0%,60%,75%,90%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:translate3d(0,3000px,0);transform:translate3d(0,3000px,0)}60%{opacity:1;-webkit-transform:translate3d(0,-20px,0);transform:translate3d(0,-20px,0)}75%{-webkit-transform:translate3d(0,10px,0);transform:translate3d(0,10px,0)}90%{-webkit-transform:translate3d(0,-5px,0);transform:translate3d(0,-5px,0)}to{-webkit-transform:translateZ(0);transform:translateZ(0)}}.bounceInUp{-webkit-animation-name:bounceInUp;animation-name:bounceInUp}@-webkit-keyframes bounceOut{20%{-webkit-transform:scale3d(.9,.9,.9);transform:scale3d(.9,.9,.9)}50%,55%{opacity:1;-webkit-transform:scale3d(1.1,1.1,1.1);transform:scale3d(1.1,1.1,1.1)}to{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}}@keyframes bounceOut{20%{-webkit-transform:scale3d(.9,.9,.9);transform:scale3d(.9,.9,.9)}50%,55%{opacity:1;-webkit-transform:scale3d(1.1,1.1,1.1);transform:scale3d(1.1,1.1,1.1)}to{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}}.bounceOut{-webkit-animation-name:bounceOut;animation-name:bounceOut}@-webkit-keyframes bounceOutDown{20%{-webkit-transform:translate3d(0,10px,0);transform:translate3d(0,10px,0)}40%,45%{opacity:1;-webkit-transform:translate3d(0,-20px,0);transform:translate3d(0,-20px,0)}to{opacity:0;-webkit-transform:translate3d(0,2000px,0);transform:translate3d(0,2000px,0)}}@keyframes bounceOutDown{20%{-webkit-transform:translate3d(0,10px,0);transform:translate3d(0,10px,0)}40%,45%{opacity:1;-webkit-transform:translate3d(0,-20px,0);transform:translate3d(0,-20px,0)}to{opacity:0;-webkit-transform:translate3d(0,2000px,0);transform:translate3d(0,2000px,0)}}.bounceOutDown{-webkit-animation-name:bounceOutDown;animation-name:bounceOutDown}@-webkit-keyframes bounceOutLeft{20%{opacity:1;-webkit-transform:translate3d(20px,0,0);transform:translate3d(20px,0,0)}to{opacity:0;-webkit-transform:translate3d(-2000px,0,0);transform:translate3d(-2000px,0,0)}}@keyframes bounceOutLeft{20%{opacity:1;-webkit-transform:translate3d(20px,0,0);transform:translate3d(20px,0,0)}to{opacity:0;-webkit-transform:translate3d(-2000px,0,0);transform:translate3d(-2000px,0,0)}}.bounceOutLeft{-webkit-animation-name:bounceOutLeft;animation-name:bounceOutLeft}@-webkit-keyframes bounceOutRight{20%{opacity:1;-webkit-transform:translate3d(-20px,0,0);transform:translate3d(-20px,0,0)}to{opacity:0;-webkit-transform:translate3d(2000px,0,0);transform:translate3d(2000px,0,0)}}@keyframes bounceOutRight{20%{opacity:1;-webkit-transform:translate3d(-20px,0,0);transform:translate3d(-20px,0,0)}to{opacity:0;-webkit-transform:translate3d(2000px,0,0);transform:translate3d(2000px,0,0)}}.bounceOutRight{-webkit-animation-name:bounceOutRight;animation-name:bounceOutRight}@-webkit-keyframes bounceOutUp{20%{-webkit-transform:translate3d(0,-10px,0);transform:translate3d(0,-10px,0)}40%,45%{opacity:1;-webkit-transform:translate3d(0,20px,0);transform:translate3d(0,20px,0)}to{opacity:0;-webkit-transform:translate3d(0,-2000px,0);transform:translate3d(0,-2000px,0)}}@keyframes bounceOutUp{20%{-webkit-transform:translate3d(0,-10px,0);transform:translate3d(0,-10px,0)}40%,45%{opacity:1;-webkit-transform:translate3d(0,20px,0);transform:translate3d(0,20px,0)}to{opacity:0;-webkit-transform:translate3d(0,-2000px,0);transform:translate3d(0,-2000px,0)}}.bounceOutUp{-webkit-animation-name:bounceOutUp;animation-name:bounceOutUp}@-webkit-keyframes fadeIn{0%{opacity:0}to{opacity:1}}@keyframes fadeIn{0%{opacity:0}to{opacity:1}}.fadeIn{-webkit-animation-name:fadeIn;animation-name:fadeIn}@-webkit-keyframes fadeInDown{0%{opacity:0;-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}to{opacity:1;-webkit-transform:none;transform:none}}@keyframes fadeInDown{0%{opacity:0;-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}to{opacity:1;-webkit-transform:none;transform:none}}.fadeInDown{-webkit-animation-name:fadeInDown;animation-name:fadeInDown}@-webkit-keyframes fadeInDownBig{0%{opacity:0;-webkit-transform:translate3d(0,-2000px,0);transform:translate3d(0,-2000px,0)}to{opacity:1;-webkit-transform:none;transform:none}}@keyframes fadeInDownBig{0%{opacity:0;-webkit-transform:translate3d(0,-2000px,0);transform:translate3d(0,-2000px,0)}to{opacity:1;-webkit-transform:none;transform:none}}.fadeInDownBig{-webkit-animation-name:fadeInDownBig;animation-name:fadeInDownBig}@-webkit-keyframes fadeInLeft{0%{opacity:0;-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}to{opacity:1;-webkit-transform:none;transform:none}}@keyframes fadeInLeft{0%{opacity:0;-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}to{opacity:1;-webkit-transform:none;transform:none}}.fadeInLeft{-webkit-animation-name:fadeInLeft;animation-name:fadeInLeft}@-webkit-keyframes fadeInLeftBig{0%{opacity:0;-webkit-transform:translate3d(-2000px,0,0);transform:translate3d(-2000px,0,0)}to{opacity:1;-webkit-transform:none;transform:none}}@keyframes fadeInLeftBig{0%{opacity:0;-webkit-transform:translate3d(-2000px,0,0);transform:translate3d(-2000px,0,0)}to{opacity:1;-webkit-transform:none;transform:none}}.fadeInLeftBig{-webkit-animation-name:fadeInLeftBig;animation-name:fadeInLeftBig}@-webkit-keyframes fadeInRight{0%{opacity:0;-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}to{opacity:1;-webkit-transform:none;transform:none}}@keyframes fadeInRight{0%{opacity:0;-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}to{opacity:1;-webkit-transform:none;transform:none}}.fadeInRight{-webkit-animation-name:fadeInRight;animation-name:fadeInRight}@-webkit-keyframes fadeInRightBig{0%{opacity:0;-webkit-transform:translate3d(2000px,0,0);transform:translate3d(2000px,0,0)}to{opacity:1;-webkit-transform:none;transform:none}}@keyframes fadeInRightBig{0%{opacity:0;-webkit-transform:translate3d(2000px,0,0);transform:translate3d(2000px,0,0)}to{opacity:1;-webkit-transform:none;transform:none}}.fadeInRightBig{-webkit-animation-name:fadeInRightBig;animation-name:fadeInRightBig}@-webkit-keyframes fadeInUp{0%{opacity:0;-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0)}to{opacity:1;-webkit-transform:none;transform:none}}@keyframes fadeInUp{0%{opacity:0;-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0)}to{opacity:1;-webkit-transform:none;transform:none}}.fadeInUp{-webkit-animation-name:fadeInUp;animation-name:fadeInUp}@-webkit-keyframes fadeInUpBig{0%{opacity:0;-webkit-transform:translate3d(0,2000px,0);transform:translate3d(0,2000px,0)}to{opacity:1;-webkit-transform:none;transform:none}}@keyframes fadeInUpBig{0%{opacity:0;-webkit-transform:translate3d(0,2000px,0);transform:translate3d(0,2000px,0)}to{opacity:1;-webkit-transform:none;transform:none}}.fadeInUpBig{-webkit-animation-name:fadeInUpBig;animation-name:fadeInUpBig}@-webkit-keyframes fadeOut{0%{opacity:1}to{opacity:0}}@keyframes fadeOut{0%{opacity:1}to{opacity:0}}.fadeOut{-webkit-animation-name:fadeOut;animation-name:fadeOut}@-webkit-keyframes fadeOutDown{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0)}}@keyframes fadeOutDown{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0)}}.fadeOutDown{-webkit-animation-name:fadeOutDown;animation-name:fadeOutDown}@-webkit-keyframes fadeOutDownBig{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(0,2000px,0);transform:translate3d(0,2000px,0)}}@keyframes fadeOutDownBig{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(0,2000px,0);transform:translate3d(0,2000px,0)}}.fadeOutDownBig{-webkit-animation-name:fadeOutDownBig;animation-name:fadeOutDownBig}@-webkit-keyframes fadeOutLeft{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}}@keyframes fadeOutLeft{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}}.fadeOutLeft{-webkit-animation-name:fadeOutLeft;animation-name:fadeOutLeft}@-webkit-keyframes fadeOutLeftBig{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(-2000px,0,0);transform:translate3d(-2000px,0,0)}}@keyframes fadeOutLeftBig{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(-2000px,0,0);transform:translate3d(-2000px,0,0)}}.fadeOutLeftBig{-webkit-animation-name:fadeOutLeftBig;animation-name:fadeOutLeftBig}@-webkit-keyframes fadeOutRight{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}}@keyframes fadeOutRight{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}}.fadeOutRight{-webkit-animation-name:fadeOutRight;animation-name:fadeOutRight}@-webkit-keyframes fadeOutRightBig{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(2000px,0,0);transform:translate3d(2000px,0,0)}}@keyframes fadeOutRightBig{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(2000px,0,0);transform:translate3d(2000px,0,0)}}.fadeOutRightBig{-webkit-animation-name:fadeOutRightBig;animation-name:fadeOutRightBig}@-webkit-keyframes fadeOutUp{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}}@keyframes fadeOutUp{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}}.fadeOutUp{-webkit-animation-name:fadeOutUp;animation-name:fadeOutUp}@-webkit-keyframes fadeOutUpBig{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(0,-2000px,0);transform:translate3d(0,-2000px,0)}}@keyframes fadeOutUpBig{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(0,-2000px,0);transform:translate3d(0,-2000px,0)}}.fadeOutUpBig{-webkit-animation-name:fadeOutUpBig;animation-name:fadeOutUpBig}@-webkit-keyframes flip{0%{-webkit-transform:perspective(400px) rotateY(-1turn);transform:perspective(400px) rotateY(-1turn)}0%,40%{-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}40%{-webkit-transform:perspective(400px) translateZ(150px) rotateY(-190deg);transform:perspective(400px) translateZ(150px) rotateY(-190deg)}50%{-webkit-transform:perspective(400px) translateZ(150px) rotateY(-170deg);transform:perspective(400px) translateZ(150px) rotateY(-170deg)}50%,80%{-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}80%{-webkit-transform:perspective(400px) scale3d(.95,.95,.95);transform:perspective(400px) scale3d(.95,.95,.95)}to{-webkit-transform:perspective(400px);transform:perspective(400px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}}@keyframes flip{0%{-webkit-transform:perspective(400px) rotateY(-1turn);transform:perspective(400px) rotateY(-1turn)}0%,40%{-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}40%{-webkit-transform:perspective(400px) translateZ(150px) rotateY(-190deg);transform:perspective(400px) translateZ(150px) rotateY(-190deg)}50%{-webkit-transform:perspective(400px) translateZ(150px) rotateY(-170deg);transform:perspective(400px) translateZ(150px) rotateY(-170deg)}50%,80%{-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}80%{-webkit-transform:perspective(400px) scale3d(.95,.95,.95);transform:perspective(400px) scale3d(.95,.95,.95)}to{-webkit-transform:perspective(400px);transform:perspective(400px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}}.animated.flip{-webkit-backface-visibility:visible;backface-visibility:visible;-webkit-animation-name:flip;animation-name:flip}@-webkit-keyframes flipInX{0%{-webkit-transform:perspective(400px) rotateX(90deg);transform:perspective(400px) rotateX(90deg);opacity:0}0%,40%{-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}40%{-webkit-transform:perspective(400px) rotateX(-20deg);transform:perspective(400px) rotateX(-20deg)}60%{-webkit-transform:perspective(400px) rotateX(10deg);transform:perspective(400px) rotateX(10deg);opacity:1}80%{-webkit-transform:perspective(400px) rotateX(-5deg);transform:perspective(400px) rotateX(-5deg)}to{-webkit-transform:perspective(400px);transform:perspective(400px)}}@keyframes flipInX{0%{-webkit-transform:perspective(400px) rotateX(90deg);transform:perspective(400px) rotateX(90deg);opacity:0}0%,40%{-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}40%{-webkit-transform:perspective(400px) rotateX(-20deg);transform:perspective(400px) rotateX(-20deg)}60%{-webkit-transform:perspective(400px) rotateX(10deg);transform:perspective(400px) rotateX(10deg);opacity:1}80%{-webkit-transform:perspective(400px) rotateX(-5deg);transform:perspective(400px) rotateX(-5deg)}to{-webkit-transform:perspective(400px);transform:perspective(400px)}}.flipInX{-webkit-backface-visibility:visible!important;backface-visibility:visible!important;-webkit-animation-name:flipInX;animation-name:flipInX}@-webkit-keyframes flipInY{0%{-webkit-transform:perspective(400px) rotateY(90deg);transform:perspective(400px) rotateY(90deg);opacity:0}0%,40%{-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}40%{-webkit-transform:perspective(400px) rotateY(-20deg);transform:perspective(400px) rotateY(-20deg)}60%{-webkit-transform:perspective(400px) rotateY(10deg);transform:perspective(400px) rotateY(10deg);opacity:1}80%{-webkit-transform:perspective(400px) rotateY(-5deg);transform:perspective(400px) rotateY(-5deg)}to{-webkit-transform:perspective(400px);transform:perspective(400px)}}@keyframes flipInY{0%{-webkit-transform:perspective(400px) rotateY(90deg);transform:perspective(400px) rotateY(90deg);opacity:0}0%,40%{-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}40%{-webkit-transform:perspective(400px) rotateY(-20deg);transform:perspective(400px) rotateY(-20deg)}60%{-webkit-transform:perspective(400px) rotateY(10deg);transform:perspective(400px) rotateY(10deg);opacity:1}80%{-webkit-transform:perspective(400px) rotateY(-5deg);transform:perspective(400px) rotateY(-5deg)}to{-webkit-transform:perspective(400px);transform:perspective(400px)}}.flipInY{-webkit-backface-visibility:visible!important;backface-visibility:visible!important;-webkit-animation-name:flipInY;animation-name:flipInY}@-webkit-keyframes flipOutX{0%{-webkit-transform:perspective(400px);transform:perspective(400px)}30%{-webkit-transform:perspective(400px) rotateX(-20deg);transform:perspective(400px) rotateX(-20deg);opacity:1}to{-webkit-transform:perspective(400px) rotateX(90deg);transform:perspective(400px) rotateX(90deg);opacity:0}}@keyframes flipOutX{0%{-webkit-transform:perspective(400px);transform:perspective(400px)}30%{-webkit-transform:perspective(400px) rotateX(-20deg);transform:perspective(400px) rotateX(-20deg);opacity:1}to{-webkit-transform:perspective(400px) rotateX(90deg);transform:perspective(400px) rotateX(90deg);opacity:0}}.flipOutX{-webkit-animation-name:flipOutX;animation-name:flipOutX;-webkit-backface-visibility:visible!important;backface-visibility:visible!important}@-webkit-keyframes flipOutY{0%{-webkit-transform:perspective(400px);transform:perspective(400px)}30%{-webkit-transform:perspective(400px) rotateY(-15deg);transform:perspective(400px) rotateY(-15deg);opacity:1}to{-webkit-transform:perspective(400px) rotateY(90deg);transform:perspective(400px) rotateY(90deg);opacity:0}}@keyframes flipOutY{0%{-webkit-transform:perspective(400px);transform:perspective(400px)}30%{-webkit-transform:perspective(400px) rotateY(-15deg);transform:perspective(400px) rotateY(-15deg);opacity:1}to{-webkit-transform:perspective(400px) rotateY(90deg);transform:perspective(400px) rotateY(90deg);opacity:0}}.flipOutY{-webkit-backface-visibility:visible!important;backface-visibility:visible!important;-webkit-animation-name:flipOutY;animation-name:flipOutY}@-webkit-keyframes lightSpeedIn{0%{-webkit-transform:translate3d(100%,0,0) skewX(-30deg);transform:translate3d(100%,0,0) skewX(-30deg);opacity:0}60%{-webkit-transform:skewX(20deg);transform:skewX(20deg)}60%,80%{opacity:1}80%{-webkit-transform:skewX(-5deg);transform:skewX(-5deg)}to{-webkit-transform:none;transform:none;opacity:1}}@keyframes lightSpeedIn{0%{-webkit-transform:translate3d(100%,0,0) skewX(-30deg);transform:translate3d(100%,0,0) skewX(-30deg);opacity:0}60%{-webkit-transform:skewX(20deg);transform:skewX(20deg)}60%,80%{opacity:1}80%{-webkit-transform:skewX(-5deg);transform:skewX(-5deg)}to{-webkit-transform:none;transform:none;opacity:1}}.lightSpeedIn{-webkit-animation-name:lightSpeedIn;animation-name:lightSpeedIn;-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}@-webkit-keyframes lightSpeedOut{0%{opacity:1}to{-webkit-transform:translate3d(100%,0,0) skewX(30deg);transform:translate3d(100%,0,0) skewX(30deg);opacity:0}}@keyframes lightSpeedOut{0%{opacity:1}to{-webkit-transform:translate3d(100%,0,0) skewX(30deg);transform:translate3d(100%,0,0) skewX(30deg);opacity:0}}.lightSpeedOut{-webkit-animation-name:lightSpeedOut;animation-name:lightSpeedOut;-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}@-webkit-keyframes rotateIn{0%{transform-origin:center;-webkit-transform:rotate(-200deg);transform:rotate(-200deg);opacity:0}0%,to{-webkit-transform-origin:center}to{transform-origin:center;-webkit-transform:none;transform:none;opacity:1}}@keyframes rotateIn{0%{transform-origin:center;-webkit-transform:rotate(-200deg);transform:rotate(-200deg);opacity:0}0%,to{-webkit-transform-origin:center}to{transform-origin:center;-webkit-transform:none;transform:none;opacity:1}}.rotateIn{-webkit-animation-name:rotateIn;animation-name:rotateIn}@-webkit-keyframes rotateInDownLeft{0%{transform-origin:left bottom;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);opacity:0}0%,to{-webkit-transform-origin:left bottom}to{transform-origin:left bottom;-webkit-transform:none;transform:none;opacity:1}}@keyframes rotateInDownLeft{0%{transform-origin:left bottom;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);opacity:0}0%,to{-webkit-transform-origin:left bottom}to{transform-origin:left bottom;-webkit-transform:none;transform:none;opacity:1}}.rotateInDownLeft{-webkit-animation-name:rotateInDownLeft;animation-name:rotateInDownLeft}@-webkit-keyframes rotateInDownRight{0%{transform-origin:right bottom;-webkit-transform:rotate(45deg);transform:rotate(45deg);opacity:0}0%,to{-webkit-transform-origin:right bottom}to{transform-origin:right bottom;-webkit-transform:none;transform:none;opacity:1}}@keyframes rotateInDownRight{0%{transform-origin:right bottom;-webkit-transform:rotate(45deg);transform:rotate(45deg);opacity:0}0%,to{-webkit-transform-origin:right bottom}to{transform-origin:right bottom;-webkit-transform:none;transform:none;opacity:1}}.rotateInDownRight{-webkit-animation-name:rotateInDownRight;animation-name:rotateInDownRight}@-webkit-keyframes rotateInUpLeft{0%{transform-origin:left bottom;-webkit-transform:rotate(45deg);transform:rotate(45deg);opacity:0}0%,to{-webkit-transform-origin:left bottom}to{transform-origin:left bottom;-webkit-transform:none;transform:none;opacity:1}}@keyframes rotateInUpLeft{0%{transform-origin:left bottom;-webkit-transform:rotate(45deg);transform:rotate(45deg);opacity:0}0%,to{-webkit-transform-origin:left bottom}to{transform-origin:left bottom;-webkit-transform:none;transform:none;opacity:1}}.rotateInUpLeft{-webkit-animation-name:rotateInUpLeft;animation-name:rotateInUpLeft}@-webkit-keyframes rotateInUpRight{0%{transform-origin:right bottom;-webkit-transform:rotate(-90deg);transform:rotate(-90deg);opacity:0}0%,to{-webkit-transform-origin:right bottom}to{transform-origin:right bottom;-webkit-transform:none;transform:none;opacity:1}}@keyframes rotateInUpRight{0%{transform-origin:right bottom;-webkit-transform:rotate(-90deg);transform:rotate(-90deg);opacity:0}0%,to{-webkit-transform-origin:right bottom}to{transform-origin:right bottom;-webkit-transform:none;transform:none;opacity:1}}.rotateInUpRight{-webkit-animation-name:rotateInUpRight;animation-name:rotateInUpRight}@-webkit-keyframes rotateOut{0%{transform-origin:center;opacity:1}0%,to{-webkit-transform-origin:center}to{transform-origin:center;-webkit-transform:rotate(200deg);transform:rotate(200deg);opacity:0}}@keyframes rotateOut{0%{transform-origin:center;opacity:1}0%,to{-webkit-transform-origin:center}to{transform-origin:center;-webkit-transform:rotate(200deg);transform:rotate(200deg);opacity:0}}.rotateOut{-webkit-animation-name:rotateOut;animation-name:rotateOut}@-webkit-keyframes rotateOutDownLeft{0%{transform-origin:left bottom;opacity:1}0%,to{-webkit-transform-origin:left bottom}to{transform-origin:left bottom;-webkit-transform:rotate(45deg);transform:rotate(45deg);opacity:0}}@keyframes rotateOutDownLeft{0%{transform-origin:left bottom;opacity:1}0%,to{-webkit-transform-origin:left bottom}to{transform-origin:left bottom;-webkit-transform:rotate(45deg);transform:rotate(45deg);opacity:0}}.rotateOutDownLeft{-webkit-animation-name:rotateOutDownLeft;animation-name:rotateOutDownLeft}@-webkit-keyframes rotateOutDownRight{0%{transform-origin:right bottom;opacity:1}0%,to{-webkit-transform-origin:right bottom}to{transform-origin:right bottom;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);opacity:0}}@keyframes rotateOutDownRight{0%{transform-origin:right bottom;opacity:1}0%,to{-webkit-transform-origin:right bottom}to{transform-origin:right bottom;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);opacity:0}}.rotateOutDownRight{-webkit-animation-name:rotateOutDownRight;animation-name:rotateOutDownRight}@-webkit-keyframes rotateOutUpLeft{0%{transform-origin:left bottom;opacity:1}0%,to{-webkit-transform-origin:left bottom}to{transform-origin:left bottom;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);opacity:0}}@keyframes rotateOutUpLeft{0%{transform-origin:left bottom;opacity:1}0%,to{-webkit-transform-origin:left bottom}to{transform-origin:left bottom;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);opacity:0}}.rotateOutUpLeft{-webkit-animation-name:rotateOutUpLeft;animation-name:rotateOutUpLeft}@-webkit-keyframes rotateOutUpRight{0%{transform-origin:right bottom;opacity:1}0%,to{-webkit-transform-origin:right bottom}to{transform-origin:right bottom;-webkit-transform:rotate(90deg);transform:rotate(90deg);opacity:0}}@keyframes rotateOutUpRight{0%{transform-origin:right bottom;opacity:1}0%,to{-webkit-transform-origin:right bottom}to{transform-origin:right bottom;-webkit-transform:rotate(90deg);transform:rotate(90deg);opacity:0}}.rotateOutUpRight{-webkit-animation-name:rotateOutUpRight;animation-name:rotateOutUpRight}@-webkit-keyframes hinge{0%{transform-origin:top left}0%,20%,60%{-webkit-transform-origin:top left;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out}20%,60%{-webkit-transform:rotate(80deg);transform:rotate(80deg);transform-origin:top left}40%,80%{-webkit-transform:rotate(60deg);transform:rotate(60deg);-webkit-transform-origin:top left;transform-origin:top left;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;opacity:1}to{-webkit-transform:translate3d(0,700px,0);transform:translate3d(0,700px,0);opacity:0}}@keyframes hinge{0%{transform-origin:top left}0%,20%,60%{-webkit-transform-origin:top left;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out}20%,60%{-webkit-transform:rotate(80deg);transform:rotate(80deg);transform-origin:top left}40%,80%{-webkit-transform:rotate(60deg);transform:rotate(60deg);-webkit-transform-origin:top left;transform-origin:top left;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;opacity:1}to{-webkit-transform:translate3d(0,700px,0);transform:translate3d(0,700px,0);opacity:0}}.hinge{-webkit-animation-name:hinge;animation-name:hinge}@-webkit-keyframes rollIn{0%{opacity:0;-webkit-transform:translate3d(-100%,0,0) rotate(-120deg);transform:translate3d(-100%,0,0) rotate(-120deg)}to{opacity:1;-webkit-transform:none;transform:none}}@keyframes rollIn{0%{opacity:0;-webkit-transform:translate3d(-100%,0,0) rotate(-120deg);transform:translate3d(-100%,0,0) rotate(-120deg)}to{opacity:1;-webkit-transform:none;transform:none}}.rollIn{-webkit-animation-name:rollIn;animation-name:rollIn}@-webkit-keyframes rollOut{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(100%,0,0) rotate(120deg);transform:translate3d(100%,0,0) rotate(120deg)}}@keyframes rollOut{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(100%,0,0) rotate(120deg);transform:translate3d(100%,0,0) rotate(120deg)}}.rollOut{-webkit-animation-name:rollOut;animation-name:rollOut}@-webkit-keyframes zoomIn{0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}50%{opacity:1}}@keyframes zoomIn{0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}50%{opacity:1}}.zoomIn{-webkit-animation-name:zoomIn;animation-name:zoomIn}@-webkit-keyframes zoomInDown{0%{opacity:0;-webkit-transform:scale3d(.1,.1,.1) translate3d(0,-1000px,0);transform:scale3d(.1,.1,.1) translate3d(0,-1000px,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}60%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(0,60px,0);transform:scale3d(.475,.475,.475) translate3d(0,60px,0);-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}@keyframes zoomInDown{0%{opacity:0;-webkit-transform:scale3d(.1,.1,.1) translate3d(0,-1000px,0);transform:scale3d(.1,.1,.1) translate3d(0,-1000px,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}60%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(0,60px,0);transform:scale3d(.475,.475,.475) translate3d(0,60px,0);-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}.zoomInDown{-webkit-animation-name:zoomInDown;animation-name:zoomInDown}@-webkit-keyframes zoomInLeft{0%{opacity:0;-webkit-transform:scale3d(.1,.1,.1) translate3d(-1000px,0,0);transform:scale3d(.1,.1,.1) translate3d(-1000px,0,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}60%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(10px,0,0);transform:scale3d(.475,.475,.475) translate3d(10px,0,0);-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}@keyframes zoomInLeft{0%{opacity:0;-webkit-transform:scale3d(.1,.1,.1) translate3d(-1000px,0,0);transform:scale3d(.1,.1,.1) translate3d(-1000px,0,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}60%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(10px,0,0);transform:scale3d(.475,.475,.475) translate3d(10px,0,0);-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}.zoomInLeft{-webkit-animation-name:zoomInLeft;animation-name:zoomInLeft}@-webkit-keyframes zoomInRight{0%{opacity:0;-webkit-transform:scale3d(.1,.1,.1) translate3d(1000px,0,0);transform:scale3d(.1,.1,.1) translate3d(1000px,0,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}60%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(-10px,0,0);transform:scale3d(.475,.475,.475) translate3d(-10px,0,0);-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}@keyframes zoomInRight{0%{opacity:0;-webkit-transform:scale3d(.1,.1,.1) translate3d(1000px,0,0);transform:scale3d(.1,.1,.1) translate3d(1000px,0,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}60%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(-10px,0,0);transform:scale3d(.475,.475,.475) translate3d(-10px,0,0);-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}.zoomInRight{-webkit-animation-name:zoomInRight;animation-name:zoomInRight}@-webkit-keyframes zoomInUp{0%{opacity:0;-webkit-transform:scale3d(.1,.1,.1) translate3d(0,1000px,0);transform:scale3d(.1,.1,.1) translate3d(0,1000px,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}60%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(0,-60px,0);transform:scale3d(.475,.475,.475) translate3d(0,-60px,0);-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}@keyframes zoomInUp{0%{opacity:0;-webkit-transform:scale3d(.1,.1,.1) translate3d(0,1000px,0);transform:scale3d(.1,.1,.1) translate3d(0,1000px,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}60%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(0,-60px,0);transform:scale3d(.475,.475,.475) translate3d(0,-60px,0);-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}.zoomInUp{-webkit-animation-name:zoomInUp;animation-name:zoomInUp}@-webkit-keyframes zoomOut{0%{opacity:1}50%{-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}50%,to{opacity:0}}@keyframes zoomOut{0%{opacity:1}50%{-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}50%,to{opacity:0}}.zoomOut{-webkit-animation-name:zoomOut;animation-name:zoomOut}@-webkit-keyframes zoomOutDown{40%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(0,-60px,0);transform:scale3d(.475,.475,.475) translate3d(0,-60px,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}to{opacity:0;-webkit-transform:scale3d(.1,.1,.1) translate3d(0,2000px,0);transform:scale3d(.1,.1,.1) translate3d(0,2000px,0);-webkit-transform-origin:center bottom;transform-origin:center bottom;-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}@keyframes zoomOutDown{40%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(0,-60px,0);transform:scale3d(.475,.475,.475) translate3d(0,-60px,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}to{opacity:0;-webkit-transform:scale3d(.1,.1,.1) translate3d(0,2000px,0);transform:scale3d(.1,.1,.1) translate3d(0,2000px,0);-webkit-transform-origin:center bottom;transform-origin:center bottom;-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}.zoomOutDown{-webkit-animation-name:zoomOutDown;animation-name:zoomOutDown}@-webkit-keyframes zoomOutLeft{40%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(42px,0,0);transform:scale3d(.475,.475,.475) translate3d(42px,0,0)}to{opacity:0;-webkit-transform:scale(.1) translate3d(-2000px,0,0);transform:scale(.1) translate3d(-2000px,0,0);-webkit-transform-origin:left center;transform-origin:left center}}@keyframes zoomOutLeft{40%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(42px,0,0);transform:scale3d(.475,.475,.475) translate3d(42px,0,0)}to{opacity:0;-webkit-transform:scale(.1) translate3d(-2000px,0,0);transform:scale(.1) translate3d(-2000px,0,0);-webkit-transform-origin:left center;transform-origin:left center}}.zoomOutLeft{-webkit-animation-name:zoomOutLeft;animation-name:zoomOutLeft}@-webkit-keyframes zoomOutRight{40%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(-42px,0,0);transform:scale3d(.475,.475,.475) translate3d(-42px,0,0)}to{opacity:0;-webkit-transform:scale(.1) translate3d(2000px,0,0);transform:scale(.1) translate3d(2000px,0,0);-webkit-transform-origin:right center;transform-origin:right center}}@keyframes zoomOutRight{40%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(-42px,0,0);transform:scale3d(.475,.475,.475) translate3d(-42px,0,0)}to{opacity:0;-webkit-transform:scale(.1) translate3d(2000px,0,0);transform:scale(.1) translate3d(2000px,0,0);-webkit-transform-origin:right center;transform-origin:right center}}.zoomOutRight{-webkit-animation-name:zoomOutRight;animation-name:zoomOutRight}@-webkit-keyframes zoomOutUp{40%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(0,60px,0);transform:scale3d(.475,.475,.475) translate3d(0,60px,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}to{opacity:0;-webkit-transform:scale3d(.1,.1,.1) translate3d(0,-2000px,0);transform:scale3d(.1,.1,.1) translate3d(0,-2000px,0);-webkit-transform-origin:center bottom;transform-origin:center bottom;-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}@keyframes zoomOutUp{40%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(0,60px,0);transform:scale3d(.475,.475,.475) translate3d(0,60px,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}to{opacity:0;-webkit-transform:scale3d(.1,.1,.1) translate3d(0,-2000px,0);transform:scale3d(.1,.1,.1) translate3d(0,-2000px,0);-webkit-transform-origin:center bottom;transform-origin:center bottom;-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}.zoomOutUp{-webkit-animation-name:zoomOutUp;animation-name:zoomOutUp}@-webkit-keyframes slideInDown{0%{-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0);visibility:visible}to{-webkit-transform:translateZ(0);transform:translateZ(0)}}@keyframes slideInDown{0%{-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0);visibility:visible}to{-webkit-transform:translateZ(0);transform:translateZ(0)}}.slideInDown{-webkit-animation-name:slideInDown;animation-name:slideInDown}@-webkit-keyframes slideInLeft{0%{-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0);visibility:visible}to{-webkit-transform:translateZ(0);transform:translateZ(0)}}@keyframes slideInLeft{0%{-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0);visibility:visible}to{-webkit-transform:translateZ(0);transform:translateZ(0)}}.slideInLeft{-webkit-animation-name:slideInLeft;animation-name:slideInLeft}@-webkit-keyframes slideInRight{0%{-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0);visibility:visible}to{-webkit-transform:translateZ(0);transform:translateZ(0)}}@keyframes slideInRight{0%{-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0);visibility:visible}to{-webkit-transform:translateZ(0);transform:translateZ(0)}}.slideInRight{-webkit-animation-name:slideInRight;animation-name:slideInRight}@-webkit-keyframes slideInUp{0%{-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0);visibility:visible}to{-webkit-transform:translateZ(0);transform:translateZ(0)}}@keyframes slideInUp{0%{-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0);visibility:visible}to{-webkit-transform:translateZ(0);transform:translateZ(0)}}.slideInUp{-webkit-animation-name:slideInUp;animation-name:slideInUp}@-webkit-keyframes slideOutDown{0%{-webkit-transform:translateZ(0);transform:translateZ(0)}to{visibility:hidden;-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0)}}@keyframes slideOutDown{0%{-webkit-transform:translateZ(0);transform:translateZ(0)}to{visibility:hidden;-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0)}}.slideOutDown{-webkit-animation-name:slideOutDown;animation-name:slideOutDown}@-webkit-keyframes slideOutLeft{0%{-webkit-transform:translateZ(0);transform:translateZ(0)}to{visibility:hidden;-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}}@keyframes slideOutLeft{0%{-webkit-transform:translateZ(0);transform:translateZ(0)}to{visibility:hidden;-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}}.slideOutLeft{-webkit-animation-name:slideOutLeft;animation-name:slideOutLeft}@-webkit-keyframes slideOutRight{0%{-webkit-transform:translateZ(0);transform:translateZ(0)}to{visibility:hidden;-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}}@keyframes slideOutRight{0%{-webkit-transform:translateZ(0);transform:translateZ(0)}to{visibility:hidden;-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}}.slideOutRight{-webkit-animation-name:slideOutRight;animation-name:slideOutRight}@-webkit-keyframes slideOutUp{0%{-webkit-transform:translateZ(0);transform:translateZ(0)}to{visibility:hidden;-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}}@keyframes slideOutUp{0%{-webkit-transform:translateZ(0);transform:translateZ(0)}to{visibility:hidden;-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}}.slideOutUp{-webkit-animation-name:slideOutUp;animation-name:slideOutUp}", ""]);
+
+	// exports
+
 
 /***/ }
 /******/ ]);

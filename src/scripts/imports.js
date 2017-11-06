@@ -2,11 +2,13 @@ window.jQuery = require('jquery');
 window.$ = jQuery;
 window.angular = require('angular');
 require('../css/bootstrap.min.css');
+require('../css/animate.min.css');
 require('../css/font-awesome.css');
 require('../css/ionicons.css');
 require('bootstrap/dist/js/bootstrap.min');
 require('angular-sanitize');
 require('angular-ui-router');
+require('angular-animate');
 require('ng-meta');
 
 //css
