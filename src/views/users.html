@@ -165,7 +165,7 @@
         </div>
     </div>
 </nav>
-<!--<div class="mobile-menu-container">
+<div class="mobile-menu-container">
     <div class="mobile-menu-panel">
         <h3>Menu</h3>
         <hr>
@@ -174,33 +174,38 @@
                 <a ui-sref="app.home">Home</a>
             </li>
             <li class="dropdown-mobile">
-                <a aria-expanded="false">
-                    About
+                <a aria-expanded="false" data-toggle="collapse" data-target="#li-About">About
                     <span class="caret"></span>
                 </a>
-                <ul class="dropdown-mobile-menu dropdown-mobile-intial level-1 list-1">
+                <ul class="dropdown-mobile-menu dropdown-mobile-intial level-1 list-1 panel-collapse collapse" id="li-About">
                     <li>
                         <a ui-sref="app.about">Mission /Vision</a>
                     </li>
                 </ul>
             </li>
             <li class="dropdown-mobile">
-                <a aria-expanded="false">Classroom Courses
+                <a aria-expanded="false" data-toggle="collapse" data-target="#li-Classroom">Classroom Courses
                     <span class="caret"></span>
                 </a>
-                <ul class="dropdown-mobile-menu dropdown-mobile-intial level-1 list-4">
+                <ul class="dropdown-mobile-menu dropdown-mobile-intial level-1 list-4 panel-collapse collapse" id="li-Classroom">
                     <li class="dropdown-mobile-submenu">
-                        <a>Service Management <span class="caret"></span></a>
-                        <ul class="dropdown-mobile-menu dropdown-mobile-intial level-2 list-4">
+                        <a data-toggle="collapse" data-target="#li-ServiceManagement">Service Management
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-mobile-menu dropdown-mobile-intial level-2 list-4 panel-collapse collapse" id="li-ServiceManagement">
                             <li>
                                 <a ui-sref="app.itil_foundation">ITIL Foundation</a>
                             </li>
                             <li class="dropdown-mobile-submenu">
-                                <a ui-sref="app.itil_intermediate">ITIL Intermediate</a>
-                                <ul class="dropdown-mobile-menu dropdown-mobile-intial level-3 list-2">
+                                <a ui-sref="app.itil_intermediate" data-toggle="collapse" data-target="#li-Intermediate">ITIL Intermediate
+                                    <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-mobile-menu dropdown-mobile-intial level-3 list-2 panel-collapse collapse" id="li-Intermediate">
                                     <li class="dropdown-mobile-submenu">
-                                        <a>ITIL Lifecycle Modules</a>
-                                        <ul class="dropdown-mobile-menu dropdown-mobile-intial level-4 list-5">
+                                        <a data-toggle="collapse" data-target="#li-LifecycleModules">ITIL Lifecycle Modules
+                                            <span class="caret"></span>
+                                        </a>
+                                        <ul class="dropdown-mobile-menu dropdown-mobile-intial level-4 list-5 panel-collapse collapse" id="li-LifecycleModules">
                                             <li>
                                                 <a ui-sref="app.service_strategy">ITIL Service Strategy</a>
                                             </li>
@@ -219,8 +224,10 @@
                                         </ul>
                                     </li>
                                     <li class="dropdown-mobile-submenu">
-                                        <a>ITIL Capability Module</a>
-                                        <ul class="dropdown-mobile-menu dropdown-mobile-intial level-4 list-4">
+                                        <a data-toggle="collapse" data-target="#li-CapabilityModule">ITIL Capability Module
+                                            <span class="caret"></span>
+                                        </a>
+                                        <ul class="dropdown-mobile-menu dropdown-mobile-intial level-4 list-4 panel-collapse collapse" id="li-CapabilityModule">
                                             <li>
                                                 <a ui-sref="app.soa">ITIL Service, Offering and Agreement (SOA)</a>
                                             </li>
@@ -238,8 +245,10 @@
                                 </ul>
                             </li>
                             <li class="dropdown-mobile-submenu">
-                                <a>ITIL Expert</a>
-                                <ul class="dropdown-mobile-menu dropdown-mobile-intial level-3 list-1">
+                                <a data-toggle="collapse" data-target="#li-ITILExpert">ITIL Expert
+                                    <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-mobile-menu dropdown-mobile-intial level-3 list-1 panel-collapse collapse" id="li-ITILExpert">
                                     <li>
                                         <a ui-sref="app.malc">ITIL
                                             <sup>&reg;</sup> Managing Across The Lifecycle</a>
@@ -252,8 +261,10 @@
                         </ul>
                     </li>
                     <li class="dropdown-mobile-submenu">
-                        <a>Project &amp; Program Management <span class="caret"></span></a>
-                        <ul class="dropdown-mobile-menu dropdown-mobile-intial level-1 list-10">
+                        <a data-toggle="collapse" data-target="#li-ProjectProgramManagement">Project & Program Management
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-mobile-menu dropdown-mobile-intial level-2 list-10 panel-collapse collapse" id="li-ProjectProgramManagement">
                             <li>
                                 <a ui-sref="app.capm">CAPM</a>
                             </li>
@@ -287,8 +298,10 @@
                         </ul>
                     </li>
                     <li class="dropdown-mobile-submenu">
-                        <a>Quality Management <span class="caret"></span></a>
-                        <ul class="dropdown-mobile-menu dropdown-mobile-intial level-2 list-2">
+                        <a data-toggle="collapse" data-target="#li-QualityManagement">Quality Management
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-mobile-menu dropdown-mobile-intial level-2 list-2 panel-collapse collapse" id="li-QualityManagement">
                             <li>
                                 <a ui-sref="app.green_belt">Lean Six Sigma Green Belt</a>
                             </li>
@@ -298,8 +311,10 @@
                         </ul>
                     </li>
                     <li class="dropdown-mobile-submenu">
-                        <a>IT Governance &amp; Architecture <span class="caret"></span></a>
-                        <ul class="dropdown-mobile-menu dropdown-mobile-intial level-2 list-2">
+                        <a data-toggle="collapse" data-target="#li-ITGovernanceArchitecture">IT Governance & Architecture
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-mobile-menu dropdown-mobile-intial level-2 list-2 panel-collapse collapse" id="li-ITGovernanceArchitecture">
                             <li>
                                 <a ui-sref="app.cobit">COBIT 5 Foundation</a>
                             </li>
@@ -321,18 +336,7 @@
             </li>
         </ul>
     </div>
-    <script>
-        $('.caret').parent().click(function () {
-            console.log(this);
-            if($(this).parent().hasClass('hovered')){
-                $(this).parent().removeClass('hovered');
-            }else{
-                $('.mobile-menu-list>li').removeClass('hovered');
-                $(this).parent().addClass('hovered');
-            }
-        });
-    </script>
-</div>-->
+</div>
 <div class="enquiry-container" ng-class="enquiryState ? 'enquiry-open' : 'enquiry-close'">
     <div class="enquiry-label" ng-click="enquiryToggle()">
         <p>
