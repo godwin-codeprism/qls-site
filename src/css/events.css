@@ -37,6 +37,11 @@
 }
 
 #myCarousel {
+    width: 93%;
+    margin: auto;
+    margin-top: 3%;
+    border: 5px solid #2e3f52;
+    overflow: hidden;
     height: 600px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
 }
