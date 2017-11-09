@@ -30,14 +30,14 @@ angular.module('qls')
             "Six Sigma Black Belt",
             "COBIT 5 Foundation",
             "TOGAF 9.1 Level  1 & Level 2"
-        ]
+        ];
         $scope.siteContact = {
             fullname: '',
             email: '',
             mobile: '',
             courseInterested: '',
             message: ''
-        }
+        };
         $scope.siteContactSubmit = "Submit";
         $scope.contactSubmit = function () {
             $http.post('endpoints/send-mail.php', $scope.siteContact).success(function (res) {
@@ -47,11 +47,11 @@ angular.module('qls')
             }).error(function (err) {
                 console.error(err)
             })
-        }
+        };
 
         $scope.enquiryToggle = function () {
             $rootScope.enquiryState = $rootScope.enquiryState ? false : true;
-        }
+        };
 
         $scope.mobileMenuToggle = function(){
             if($rootScope.mobileMenuState){
@@ -59,5 +59,5 @@ angular.module('qls')
             }else{
                 $rootScope.mobileMenuState = true;
             }
-        }
-    }])
+        };
+    }]);

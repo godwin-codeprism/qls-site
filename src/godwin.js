@@ -48,32 +48,32 @@
 	window.$ = jQuery;
 	window.angular = __webpack_require__(2);
 	__webpack_require__(4);
-	__webpack_require__(101);
 	__webpack_require__(30);
-	__webpack_require__(37);
-	__webpack_require__(43);
-	__webpack_require__(44);
+	__webpack_require__(32);
+	__webpack_require__(39);
+	__webpack_require__(45);
 	__webpack_require__(46);
-	__webpack_require__(99);
-	__webpack_require__(47);
+	__webpack_require__(48);
+	__webpack_require__(49);
+	__webpack_require__(51);
 
 	//css
-	__webpack_require__(48);
-	__webpack_require__(51);
-	__webpack_require__(54);
-	__webpack_require__(56);
-	__webpack_require__(59);
-	__webpack_require__(61);
+	__webpack_require__(52);
+	__webpack_require__(55);
+	__webpack_require__(58);
+	__webpack_require__(60);
 	__webpack_require__(63);
 	__webpack_require__(65);
+	__webpack_require__(67);
 	__webpack_require__(69);
-	__webpack_require__(71);
-	__webpack_require__(74);
+	__webpack_require__(73);
+	__webpack_require__(75);
+	__webpack_require__(78);
 
 	//Godwin's scripts
-	__webpack_require__(76);
-	__webpack_require__(97);
-	__webpack_require__(98);
+	__webpack_require__(80);
+	__webpack_require__(101);
+	__webpack_require__(102);
 
 /***/ },
 /* 1 */
@@ -42440,8 +42440,8 @@
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!../../node_modules/css-loader/index.js!./font-awesome.css", function() {
-				var newContent = require("!!../../node_modules/css-loader/index.js!./font-awesome.css");
+			module.hot.accept("!!../../node_modules/css-loader/index.js!./animate.min.css", function() {
+				var newContent = require("!!../../node_modules/css-loader/index.js!./animate.min.css");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -42459,7 +42459,7 @@
 
 
 	// module
-	exports.push([module.id, "@font-face {\r\n  font-family: 'FontAwesome';\r\n  src: url(" + __webpack_require__(32) + ");\r\n  src: url(" + __webpack_require__(32) + ") format('embedded-opentype'), url(" + __webpack_require__(33) + ") format('woff2'), url(" + __webpack_require__(34) + ") format('woff'), url(" + __webpack_require__(35) + ") format('truetype'), url(" + __webpack_require__(36) + "#fontawesomeregular) format('svg');\r\n  font-weight: normal;\r\n  font-style: normal;\r\n}\r\n.fa {\r\n  display: inline-block;\r\n  font: normal normal normal 14px/1 FontAwesome;\r\n  font-size: inherit;\r\n  text-rendering: auto;\r\n  -webkit-font-smoothing: antialiased;\r\n  -moz-osx-font-smoothing: grayscale;\r\n}\r\n/* makes the font 33% larger relative to the icon container */\r\n.fa-lg {\r\n  font-size: 1.33333333em;\r\n  line-height: 0.75em;\r\n  vertical-align: -15%;\r\n}\r\n.fa-2x {\r\n  font-size: 2em;\r\n}\r\n.fa-3x {\r\n  font-size: 3em;\r\n}\r\n.fa-4x {\r\n  font-size: 4em;\r\n}\r\n.fa-5x {\r\n  font-size: 5em;\r\n}\r\n.fa-fw {\r\n  width: 1.28571429em;\r\n  text-align: center;\r\n}\r\n.fa-ul {\r\n  padding-left: 0;\r\n  margin-left: 2.14285714em;\r\n  list-style-type: none;\r\n}\r\n.fa-ul > li {\r\n  position: relative;\r\n}\r\n.fa-li {\r\n  position: absolute;\r\n  left: -2.14285714em;\r\n  width: 2.14285714em;\r\n  top: 0.14285714em;\r\n  text-align: center;\r\n}\r\n.fa-li.fa-lg {\r\n  left: -1.85714286em;\r\n}\r\n.fa-border {\r\n  padding: .2em .25em .15em;\r\n  border: solid 0.08em #eeeeee;\r\n  border-radius: .1em;\r\n}\r\n.fa-pull-left {\r\n  float: left;\r\n}\r\n.fa-pull-right {\r\n  float: right;\r\n}\r\n.fa.fa-pull-left {\r\n  margin-right: .3em;\r\n}\r\n.fa.fa-pull-right {\r\n  margin-left: .3em;\r\n}\r\n/* Deprecated as of 4.4.0 */\r\n.pull-right {\r\n  float: right;\r\n}\r\n.pull-left {\r\n  float: left;\r\n}\r\n.fa.pull-left {\r\n  margin-right: .3em;\r\n}\r\n.fa.pull-right {\r\n  margin-left: .3em;\r\n}\r\n.fa-spin {\r\n  -webkit-animation: fa-spin 2s infinite linear;\r\n  animation: fa-spin 2s infinite linear;\r\n}\r\n.fa-pulse {\r\n  -webkit-animation: fa-spin 1s infinite steps(8);\r\n  animation: fa-spin 1s infinite steps(8);\r\n}\r\n@-webkit-keyframes fa-spin {\r\n  0% {\r\n    -webkit-transform: rotate(0deg);\r\n    transform: rotate(0deg);\r\n  }\r\n  100% {\r\n    -webkit-transform: rotate(359deg);\r\n    transform: rotate(359deg);\r\n  }\r\n}\r\n@keyframes fa-spin {\r\n  0% {\r\n    -webkit-transform: rotate(0deg);\r\n    transform: rotate(0deg);\r\n  }\r\n  100% {\r\n    -webkit-transform: rotate(359deg);\r\n    transform: rotate(359deg);\r\n  }\r\n}\r\n.fa-rotate-90 {\r\n  -ms-filter: \"progid:DXImageTransform.Microsoft.BasicImage(rotation=1)\";\r\n  -webkit-transform: rotate(90deg);\r\n  -ms-transform: rotate(90deg);\r\n  transform: rotate(90deg);\r\n}\r\n.fa-rotate-180 {\r\n  -ms-filter: \"progid:DXImageTransform.Microsoft.BasicImage(rotation=2)\";\r\n  -webkit-transform: rotate(180deg);\r\n  -ms-transform: rotate(180deg);\r\n  transform: rotate(180deg);\r\n}\r\n.fa-rotate-270 {\r\n  -ms-filter: \"progid:DXImageTransform.Microsoft.BasicImage(rotation=3)\";\r\n  -webkit-transform: rotate(270deg);\r\n  -ms-transform: rotate(270deg);\r\n  transform: rotate(270deg);\r\n}\r\n.fa-flip-horizontal {\r\n  -ms-filter: \"progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)\";\r\n  -webkit-transform: scale(-1, 1);\r\n  -ms-transform: scale(-1, 1);\r\n  transform: scale(-1, 1);\r\n}\r\n.fa-flip-vertical {\r\n  -ms-filter: \"progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)\";\r\n  -webkit-transform: scale(1, -1);\r\n  -ms-transform: scale(1, -1);\r\n  transform: scale(1, -1);\r\n}\r\n:root .fa-rotate-90,\r\n:root .fa-rotate-180,\r\n:root .fa-rotate-270,\r\n:root .fa-flip-horizontal,\r\n:root .fa-flip-vertical {\r\n  filter: none;\r\n}\r\n.fa-stack {\r\n  position: relative;\r\n  display: inline-block;\r\n  width: 2em;\r\n  height: 2em;\r\n  line-height: 2em;\r\n  vertical-align: middle;\r\n}\r\n.fa-stack-1x,\r\n.fa-stack-2x {\r\n  position: absolute;\r\n  left: 0;\r\n  width: 100%;\r\n  text-align: center;\r\n}\r\n.fa-stack-1x {\r\n  line-height: inherit;\r\n}\r\n.fa-stack-2x {\r\n  font-size: 2em;\r\n}\r\n.fa-inverse {\r\n  color: #ffffff;\r\n}\r\n/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen\r\n   readers do not read off random characters that represent icons */\r\n.fa-glass:before {\r\n  content: \"\\F000\";\r\n}\r\n.fa-music:before {\r\n  content: \"\\F001\";\r\n}\r\n.fa-search:before {\r\n  content: \"\\F002\";\r\n}\r\n.fa-envelope-o:before {\r\n  content: \"\\F003\";\r\n}\r\n.fa-heart:before {\r\n  content: \"\\F004\";\r\n}\r\n.fa-star:before {\r\n  content: \"\\F005\";\r\n}\r\n.fa-star-o:before {\r\n  content: \"\\F006\";\r\n}\r\n.fa-user:before {\r\n  content: \"\\F007\";\r\n}\r\n.fa-film:before {\r\n  content: \"\\F008\";\r\n}\r\n.fa-th-large:before {\r\n  content: \"\\F009\";\r\n}\r\n.fa-th:before {\r\n  content: \"\\F00A\";\r\n}\r\n.fa-th-list:before {\r\n  content: \"\\F00B\";\r\n}\r\n.fa-check:before {\r\n  content: \"\\F00C\";\r\n}\r\n.fa-remove:before,\r\n.fa-close:before,\r\n.fa-times:before {\r\n  content: \"\\F00D\";\r\n}\r\n.fa-search-plus:before {\r\n  content: \"\\F00E\";\r\n}\r\n.fa-search-minus:before {\r\n  content: \"\\F010\";\r\n}\r\n.fa-power-off:before {\r\n  content: \"\\F011\";\r\n}\r\n.fa-signal:before {\r\n  content: \"\\F012\";\r\n}\r\n.fa-gear:before,\r\n.fa-cog:before {\r\n  content: \"\\F013\";\r\n}\r\n.fa-trash-o:before {\r\n  content: \"\\F014\";\r\n}\r\n.fa-home:before {\r\n  content: \"\\F015\";\r\n}\r\n.fa-file-o:before {\r\n  content: \"\\F016\";\r\n}\r\n.fa-clock-o:before {\r\n  content: \"\\F017\";\r\n}\r\n.fa-road:before {\r\n  content: \"\\F018\";\r\n}\r\n.fa-download:before {\r\n  content: \"\\F019\";\r\n}\r\n.fa-arrow-circle-o-down:before {\r\n  content: \"\\F01A\";\r\n}\r\n.fa-arrow-circle-o-up:before {\r\n  content: \"\\F01B\";\r\n}\r\n.fa-inbox:before {\r\n  content: \"\\F01C\";\r\n}\r\n.fa-play-circle-o:before {\r\n  content: \"\\F01D\";\r\n}\r\n.fa-rotate-right:before,\r\n.fa-repeat:before {\r\n  content: \"\\F01E\";\r\n}\r\n.fa-refresh:before {\r\n  content: \"\\F021\";\r\n}\r\n.fa-list-alt:before {\r\n  content: \"\\F022\";\r\n}\r\n.fa-lock:before {\r\n  content: \"\\F023\";\r\n}\r\n.fa-flag:before {\r\n  content: \"\\F024\";\r\n}\r\n.fa-headphones:before {\r\n  content: \"\\F025\";\r\n}\r\n.fa-volume-off:before {\r\n  content: \"\\F026\";\r\n}\r\n.fa-volume-down:before {\r\n  content: \"\\F027\";\r\n}\r\n.fa-volume-up:before {\r\n  content: \"\\F028\";\r\n}\r\n.fa-qrcode:before {\r\n  content: \"\\F029\";\r\n}\r\n.fa-barcode:before {\r\n  content: \"\\F02A\";\r\n}\r\n.fa-tag:before {\r\n  content: \"\\F02B\";\r\n}\r\n.fa-tags:before {\r\n  content: \"\\F02C\";\r\n}\r\n.fa-book:before {\r\n  content: \"\\F02D\";\r\n}\r\n.fa-bookmark:before {\r\n  content: \"\\F02E\";\r\n}\r\n.fa-print:before {\r\n  content: \"\\F02F\";\r\n}\r\n.fa-camera:before {\r\n  content: \"\\F030\";\r\n}\r\n.fa-font:before {\r\n  content: \"\\F031\";\r\n}\r\n.fa-bold:before {\r\n  content: \"\\F032\";\r\n}\r\n.fa-italic:before {\r\n  content: \"\\F033\";\r\n}\r\n.fa-text-height:before {\r\n  content: \"\\F034\";\r\n}\r\n.fa-text-width:before {\r\n  content: \"\\F035\";\r\n}\r\n.fa-align-left:before {\r\n  content: \"\\F036\";\r\n}\r\n.fa-align-center:before {\r\n  content: \"\\F037\";\r\n}\r\n.fa-align-right:before {\r\n  content: \"\\F038\";\r\n}\r\n.fa-align-justify:before {\r\n  content: \"\\F039\";\r\n}\r\n.fa-list:before {\r\n  content: \"\\F03A\";\r\n}\r\n.fa-dedent:before,\r\n.fa-outdent:before {\r\n  content: \"\\F03B\";\r\n}\r\n.fa-indent:before {\r\n  content: \"\\F03C\";\r\n}\r\n.fa-video-camera:before {\r\n  content: \"\\F03D\";\r\n}\r\n.fa-photo:before,\r\n.fa-image:before,\r\n.fa-picture-o:before {\r\n  content: \"\\F03E\";\r\n}\r\n.fa-pencil:before {\r\n  content: \"\\F040\";\r\n}\r\n.fa-map-marker:before {\r\n  content: \"\\F041\";\r\n}\r\n.fa-adjust:before {\r\n  content: \"\\F042\";\r\n}\r\n.fa-tint:before {\r\n  content: \"\\F043\";\r\n}\r\n.fa-edit:before,\r\n.fa-pencil-square-o:before {\r\n  content: \"\\F044\";\r\n}\r\n.fa-share-square-o:before {\r\n  content: \"\\F045\";\r\n}\r\n.fa-check-square-o:before {\r\n  content: \"\\F046\";\r\n}\r\n.fa-arrows:before {\r\n  content: \"\\F047\";\r\n}\r\n.fa-step-backward:before {\r\n  content: \"\\F048\";\r\n}\r\n.fa-fast-backward:before {\r\n  content: \"\\F049\";\r\n}\r\n.fa-backward:before {\r\n  content: \"\\F04A\";\r\n}\r\n.fa-play:before {\r\n  content: \"\\F04B\";\r\n}\r\n.fa-pause:before {\r\n  content: \"\\F04C\";\r\n}\r\n.fa-stop:before {\r\n  content: \"\\F04D\";\r\n}\r\n.fa-forward:before {\r\n  content: \"\\F04E\";\r\n}\r\n.fa-fast-forward:before {\r\n  content: \"\\F050\";\r\n}\r\n.fa-step-forward:before {\r\n  content: \"\\F051\";\r\n}\r\n.fa-eject:before {\r\n  content: \"\\F052\";\r\n}\r\n.fa-chevron-left:before {\r\n  content: \"\\F053\";\r\n}\r\n.fa-chevron-right:before {\r\n  content: \"\\F054\";\r\n}\r\n.fa-plus-circle:before {\r\n  content: \"\\F055\";\r\n}\r\n.fa-minus-circle:before {\r\n  content: \"\\F056\";\r\n}\r\n.fa-times-circle:before {\r\n  content: \"\\F057\";\r\n}\r\n.fa-check-circle:before {\r\n  content: \"\\F058\";\r\n}\r\n.fa-question-circle:before {\r\n  content: \"\\F059\";\r\n}\r\n.fa-info-circle:before {\r\n  content: \"\\F05A\";\r\n}\r\n.fa-crosshairs:before {\r\n  content: \"\\F05B\";\r\n}\r\n.fa-times-circle-o:before {\r\n  content: \"\\F05C\";\r\n}\r\n.fa-check-circle-o:before {\r\n  content: \"\\F05D\";\r\n}\r\n.fa-ban:before {\r\n  content: \"\\F05E\";\r\n}\r\n.fa-arrow-left:before {\r\n  content: \"\\F060\";\r\n}\r\n.fa-arrow-right:before {\r\n  content: \"\\F061\";\r\n}\r\n.fa-arrow-up:before {\r\n  content: \"\\F062\";\r\n}\r\n.fa-arrow-down:before {\r\n  content: \"\\F063\";\r\n}\r\n.fa-mail-forward:before,\r\n.fa-share:before {\r\n  content: \"\\F064\";\r\n}\r\n.fa-expand:before {\r\n  content: \"\\F065\";\r\n}\r\n.fa-compress:before {\r\n  content: \"\\F066\";\r\n}\r\n.fa-plus:before {\r\n  content: \"\\F067\";\r\n}\r\n.fa-minus:before {\r\n  content: \"\\F068\";\r\n}\r\n.fa-asterisk:before {\r\n  content: \"\\F069\";\r\n}\r\n.fa-exclamation-circle:before {\r\n  content: \"\\F06A\";\r\n}\r\n.fa-gift:before {\r\n  content: \"\\F06B\";\r\n}\r\n.fa-leaf:before {\r\n  content: \"\\F06C\";\r\n}\r\n.fa-fire:before {\r\n  content: \"\\F06D\";\r\n}\r\n.fa-eye:before {\r\n  content: \"\\F06E\";\r\n}\r\n.fa-eye-slash:before {\r\n  content: \"\\F070\";\r\n}\r\n.fa-warning:before,\r\n.fa-exclamation-triangle:before {\r\n  content: \"\\F071\";\r\n}\r\n.fa-plane:before {\r\n  content: \"\\F072\";\r\n}\r\n.fa-calendar:before {\r\n  content: \"\\F073\";\r\n}\r\n.fa-random:before {\r\n  content: \"\\F074\";\r\n}\r\n.fa-comment:before {\r\n  content: \"\\F075\";\r\n}\r\n.fa-magnet:before {\r\n  content: \"\\F076\";\r\n}\r\n.fa-chevron-up:before {\r\n  content: \"\\F077\";\r\n}\r\n.fa-chevron-down:before {\r\n  content: \"\\F078\";\r\n}\r\n.fa-retweet:before {\r\n  content: \"\\F079\";\r\n}\r\n.fa-shopping-cart:before {\r\n  content: \"\\F07A\";\r\n}\r\n.fa-folder:before {\r\n  content: \"\\F07B\";\r\n}\r\n.fa-folder-open:before {\r\n  content: \"\\F07C\";\r\n}\r\n.fa-arrows-v:before {\r\n  content: \"\\F07D\";\r\n}\r\n.fa-arrows-h:before {\r\n  content: \"\\F07E\";\r\n}\r\n.fa-bar-chart-o:before,\r\n.fa-bar-chart:before {\r\n  content: \"\\F080\";\r\n}\r\n.fa-twitter-square:before {\r\n  content: \"\\F081\";\r\n}\r\n.fa-facebook-square:before {\r\n  content: \"\\F082\";\r\n}\r\n.fa-camera-retro:before {\r\n  content: \"\\F083\";\r\n}\r\n.fa-key:before {\r\n  content: \"\\F084\";\r\n}\r\n.fa-gears:before,\r\n.fa-cogs:before {\r\n  content: \"\\F085\";\r\n}\r\n.fa-comments:before {\r\n  content: \"\\F086\";\r\n}\r\n.fa-thumbs-o-up:before {\r\n  content: \"\\F087\";\r\n}\r\n.fa-thumbs-o-down:before {\r\n  content: \"\\F088\";\r\n}\r\n.fa-star-half:before {\r\n  content: \"\\F089\";\r\n}\r\n.fa-heart-o:before {\r\n  content: \"\\F08A\";\r\n}\r\n.fa-sign-out:before {\r\n  content: \"\\F08B\";\r\n}\r\n.fa-linkedin-square:before {\r\n  content: \"\\F08C\";\r\n}\r\n.fa-thumb-tack:before {\r\n  content: \"\\F08D\";\r\n}\r\n.fa-external-link:before {\r\n  content: \"\\F08E\";\r\n}\r\n.fa-sign-in:before {\r\n  content: \"\\F090\";\r\n}\r\n.fa-trophy:before {\r\n  content: \"\\F091\";\r\n}\r\n.fa-github-square:before {\r\n  content: \"\\F092\";\r\n}\r\n.fa-upload:before {\r\n  content: \"\\F093\";\r\n}\r\n.fa-lemon-o:before {\r\n  content: \"\\F094\";\r\n}\r\n.fa-phone:before {\r\n  content: \"\\F095\";\r\n}\r\n.fa-square-o:before {\r\n  content: \"\\F096\";\r\n}\r\n.fa-bookmark-o:before {\r\n  content: \"\\F097\";\r\n}\r\n.fa-phone-square:before {\r\n  content: \"\\F098\";\r\n}\r\n.fa-twitter:before {\r\n  content: \"\\F099\";\r\n}\r\n.fa-facebook-f:before,\r\n.fa-facebook:before {\r\n  content: \"\\F09A\";\r\n}\r\n.fa-github:before {\r\n  content: \"\\F09B\";\r\n}\r\n.fa-unlock:before {\r\n  content: \"\\F09C\";\r\n}\r\n.fa-credit-card:before {\r\n  content: \"\\F09D\";\r\n}\r\n.fa-feed:before,\r\n.fa-rss:before {\r\n  content: \"\\F09E\";\r\n}\r\n.fa-hdd-o:before {\r\n  content: \"\\F0A0\";\r\n}\r\n.fa-bullhorn:before {\r\n  content: \"\\F0A1\";\r\n}\r\n.fa-bell:before {\r\n  content: \"\\F0F3\";\r\n}\r\n.fa-certificate:before {\r\n  content: \"\\F0A3\";\r\n}\r\n.fa-hand-o-right:before {\r\n  content: \"\\F0A4\";\r\n}\r\n.fa-hand-o-left:before {\r\n  content: \"\\F0A5\";\r\n}\r\n.fa-hand-o-up:before {\r\n  content: \"\\F0A6\";\r\n}\r\n.fa-hand-o-down:before {\r\n  content: \"\\F0A7\";\r\n}\r\n.fa-arrow-circle-left:before {\r\n  content: \"\\F0A8\";\r\n}\r\n.fa-arrow-circle-right:before {\r\n  content: \"\\F0A9\";\r\n}\r\n.fa-arrow-circle-up:before {\r\n  content: \"\\F0AA\";\r\n}\r\n.fa-arrow-circle-down:before {\r\n  content: \"\\F0AB\";\r\n}\r\n.fa-globe:before {\r\n  content: \"\\F0AC\";\r\n}\r\n.fa-wrench:before {\r\n  content: \"\\F0AD\";\r\n}\r\n.fa-tasks:before {\r\n  content: \"\\F0AE\";\r\n}\r\n.fa-filter:before {\r\n  content: \"\\F0B0\";\r\n}\r\n.fa-briefcase:before {\r\n  content: \"\\F0B1\";\r\n}\r\n.fa-arrows-alt:before {\r\n  content: \"\\F0B2\";\r\n}\r\n.fa-group:before,\r\n.fa-users:before {\r\n  content: \"\\F0C0\";\r\n}\r\n.fa-chain:before,\r\n.fa-link:before {\r\n  content: \"\\F0C1\";\r\n}\r\n.fa-cloud:before {\r\n  content: \"\\F0C2\";\r\n}\r\n.fa-flask:before {\r\n  content: \"\\F0C3\";\r\n}\r\n.fa-cut:before,\r\n.fa-scissors:before {\r\n  content: \"\\F0C4\";\r\n}\r\n.fa-copy:before,\r\n.fa-files-o:before {\r\n  content: \"\\F0C5\";\r\n}\r\n.fa-paperclip:before {\r\n  content: \"\\F0C6\";\r\n}\r\n.fa-save:before,\r\n.fa-floppy-o:before {\r\n  content: \"\\F0C7\";\r\n}\r\n.fa-square:before {\r\n  content: \"\\F0C8\";\r\n}\r\n.fa-navicon:before,\r\n.fa-reorder:before,\r\n.fa-bars:before {\r\n  content: \"\\F0C9\";\r\n}\r\n.fa-list-ul:before {\r\n  content: \"\\F0CA\";\r\n}\r\n.fa-list-ol:before {\r\n  content: \"\\F0CB\";\r\n}\r\n.fa-strikethrough:before {\r\n  content: \"\\F0CC\";\r\n}\r\n.fa-underline:before {\r\n  content: \"\\F0CD\";\r\n}\r\n.fa-table:before {\r\n  content: \"\\F0CE\";\r\n}\r\n.fa-magic:before {\r\n  content: \"\\F0D0\";\r\n}\r\n.fa-truck:before {\r\n  content: \"\\F0D1\";\r\n}\r\n.fa-pinterest:before {\r\n  content: \"\\F0D2\";\r\n}\r\n.fa-pinterest-square:before {\r\n  content: \"\\F0D3\";\r\n}\r\n.fa-google-plus-square:before {\r\n  content: \"\\F0D4\";\r\n}\r\n.fa-google-plus:before {\r\n  content: \"\\F0D5\";\r\n}\r\n.fa-money:before {\r\n  content: \"\\F0D6\";\r\n}\r\n.fa-caret-down:before {\r\n  content: \"\\F0D7\";\r\n}\r\n.fa-caret-up:before {\r\n  content: \"\\F0D8\";\r\n}\r\n.fa-caret-left:before {\r\n  content: \"\\F0D9\";\r\n}\r\n.fa-caret-right:before {\r\n  content: \"\\F0DA\";\r\n}\r\n.fa-columns:before {\r\n  content: \"\\F0DB\";\r\n}\r\n.fa-unsorted:before,\r\n.fa-sort:before {\r\n  content: \"\\F0DC\";\r\n}\r\n.fa-sort-down:before,\r\n.fa-sort-desc:before {\r\n  content: \"\\F0DD\";\r\n}\r\n.fa-sort-up:before,\r\n.fa-sort-asc:before {\r\n  content: \"\\F0DE\";\r\n}\r\n.fa-envelope:before {\r\n  content: \"\\F0E0\";\r\n}\r\n.fa-linkedin:before {\r\n  content: \"\\F0E1\";\r\n}\r\n.fa-rotate-left:before,\r\n.fa-undo:before {\r\n  content: \"\\F0E2\";\r\n}\r\n.fa-legal:before,\r\n.fa-gavel:before {\r\n  content: \"\\F0E3\";\r\n}\r\n.fa-dashboard:before,\r\n.fa-tachometer:before {\r\n  content: \"\\F0E4\";\r\n}\r\n.fa-comment-o:before {\r\n  content: \"\\F0E5\";\r\n}\r\n.fa-comments-o:before {\r\n  content: \"\\F0E6\";\r\n}\r\n.fa-flash:before,\r\n.fa-bolt:before {\r\n  content: \"\\F0E7\";\r\n}\r\n.fa-sitemap:before {\r\n  content: \"\\F0E8\";\r\n}\r\n.fa-umbrella:before {\r\n  content: \"\\F0E9\";\r\n}\r\n.fa-paste:before,\r\n.fa-clipboard:before {\r\n  content: \"\\F0EA\";\r\n}\r\n.fa-lightbulb-o:before {\r\n  content: \"\\F0EB\";\r\n}\r\n.fa-exchange:before {\r\n  content: \"\\F0EC\";\r\n}\r\n.fa-cloud-download:before {\r\n  content: \"\\F0ED\";\r\n}\r\n.fa-cloud-upload:before {\r\n  content: \"\\F0EE\";\r\n}\r\n.fa-user-md:before {\r\n  content: \"\\F0F0\";\r\n}\r\n.fa-stethoscope:before {\r\n  content: \"\\F0F1\";\r\n}\r\n.fa-suitcase:before {\r\n  content: \"\\F0F2\";\r\n}\r\n.fa-bell-o:before {\r\n  content: \"\\F0A2\";\r\n}\r\n.fa-coffee:before {\r\n  content: \"\\F0F4\";\r\n}\r\n.fa-cutlery:before {\r\n  content: \"\\F0F5\";\r\n}\r\n.fa-file-text-o:before {\r\n  content: \"\\F0F6\";\r\n}\r\n.fa-building-o:before {\r\n  content: \"\\F0F7\";\r\n}\r\n.fa-hospital-o:before {\r\n  content: \"\\F0F8\";\r\n}\r\n.fa-ambulance:before {\r\n  content: \"\\F0F9\";\r\n}\r\n.fa-medkit:before {\r\n  content: \"\\F0FA\";\r\n}\r\n.fa-fighter-jet:before {\r\n  content: \"\\F0FB\";\r\n}\r\n.fa-beer:before {\r\n  content: \"\\F0FC\";\r\n}\r\n.fa-h-square:before {\r\n  content: \"\\F0FD\";\r\n}\r\n.fa-plus-square:before {\r\n  content: \"\\F0FE\";\r\n}\r\n.fa-angle-double-left:before {\r\n  content: \"\\F100\";\r\n}\r\n.fa-angle-double-right:before {\r\n  content: \"\\F101\";\r\n}\r\n.fa-angle-double-up:before {\r\n  content: \"\\F102\";\r\n}\r\n.fa-angle-double-down:before {\r\n  content: \"\\F103\";\r\n}\r\n.fa-angle-left:before {\r\n  content: \"\\F104\";\r\n}\r\n.fa-angle-right:before {\r\n  content: \"\\F105\";\r\n}\r\n.fa-angle-up:before {\r\n  content: \"\\F106\";\r\n}\r\n.fa-angle-down:before {\r\n  content: \"\\F107\";\r\n}\r\n.fa-desktop:before {\r\n  content: \"\\F108\";\r\n}\r\n.fa-laptop:before {\r\n  content: \"\\F109\";\r\n}\r\n.fa-tablet:before {\r\n  content: \"\\F10A\";\r\n}\r\n.fa-mobile-phone:before,\r\n.fa-mobile:before {\r\n  content: \"\\F10B\";\r\n}\r\n.fa-circle-o:before {\r\n  content: \"\\F10C\";\r\n}\r\n.fa-quote-left:before {\r\n  content: \"\\F10D\";\r\n}\r\n.fa-quote-right:before {\r\n  content: \"\\F10E\";\r\n}\r\n.fa-spinner:before {\r\n  content: \"\\F110\";\r\n}\r\n.fa-circle:before {\r\n  content: \"\\F111\";\r\n}\r\n.fa-mail-reply:before,\r\n.fa-reply:before {\r\n  content: \"\\F112\";\r\n}\r\n.fa-github-alt:before {\r\n  content: \"\\F113\";\r\n}\r\n.fa-folder-o:before {\r\n  content: \"\\F114\";\r\n}\r\n.fa-folder-open-o:before {\r\n  content: \"\\F115\";\r\n}\r\n.fa-smile-o:before {\r\n  content: \"\\F118\";\r\n}\r\n.fa-frown-o:before {\r\n  content: \"\\F119\";\r\n}\r\n.fa-meh-o:before {\r\n  content: \"\\F11A\";\r\n}\r\n.fa-gamepad:before {\r\n  content: \"\\F11B\";\r\n}\r\n.fa-keyboard-o:before {\r\n  content: \"\\F11C\";\r\n}\r\n.fa-flag-o:before {\r\n  content: \"\\F11D\";\r\n}\r\n.fa-flag-checkered:before {\r\n  content: \"\\F11E\";\r\n}\r\n.fa-terminal:before {\r\n  content: \"\\F120\";\r\n}\r\n.fa-code:before {\r\n  content: \"\\F121\";\r\n}\r\n.fa-mail-reply-all:before,\r\n.fa-reply-all:before {\r\n  content: \"\\F122\";\r\n}\r\n.fa-star-half-empty:before,\r\n.fa-star-half-full:before,\r\n.fa-star-half-o:before {\r\n  content: \"\\F123\";\r\n}\r\n.fa-location-arrow:before {\r\n  content: \"\\F124\";\r\n}\r\n.fa-crop:before {\r\n  content: \"\\F125\";\r\n}\r\n.fa-code-fork:before {\r\n  content: \"\\F126\";\r\n}\r\n.fa-unlink:before,\r\n.fa-chain-broken:before {\r\n  content: \"\\F127\";\r\n}\r\n.fa-question:before {\r\n  content: \"\\F128\";\r\n}\r\n.fa-info:before {\r\n  content: \"\\F129\";\r\n}\r\n.fa-exclamation:before {\r\n  content: \"\\F12A\";\r\n}\r\n.fa-superscript:before {\r\n  content: \"\\F12B\";\r\n}\r\n.fa-subscript:before {\r\n  content: \"\\F12C\";\r\n}\r\n.fa-eraser:before {\r\n  content: \"\\F12D\";\r\n}\r\n.fa-puzzle-piece:before {\r\n  content: \"\\F12E\";\r\n}\r\n.fa-microphone:before {\r\n  content: \"\\F130\";\r\n}\r\n.fa-microphone-slash:before {\r\n  content: \"\\F131\";\r\n}\r\n.fa-shield:before {\r\n  content: \"\\F132\";\r\n}\r\n.fa-calendar-o:before {\r\n  content: \"\\F133\";\r\n}\r\n.fa-fire-extinguisher:before {\r\n  content: \"\\F134\";\r\n}\r\n.fa-rocket:before {\r\n  content: \"\\F135\";\r\n}\r\n.fa-maxcdn:before {\r\n  content: \"\\F136\";\r\n}\r\n.fa-chevron-circle-left:before {\r\n  content: \"\\F137\";\r\n}\r\n.fa-chevron-circle-right:before {\r\n  content: \"\\F138\";\r\n}\r\n.fa-chevron-circle-up:before {\r\n  content: \"\\F139\";\r\n}\r\n.fa-chevron-circle-down:before {\r\n  content: \"\\F13A\";\r\n}\r\n.fa-html5:before {\r\n  content: \"\\F13B\";\r\n}\r\n.fa-css3:before {\r\n  content: \"\\F13C\";\r\n}\r\n.fa-anchor:before {\r\n  content: \"\\F13D\";\r\n}\r\n.fa-unlock-alt:before {\r\n  content: \"\\F13E\";\r\n}\r\n.fa-bullseye:before {\r\n  content: \"\\F140\";\r\n}\r\n.fa-ellipsis-h:before {\r\n  content: \"\\F141\";\r\n}\r\n.fa-ellipsis-v:before {\r\n  content: \"\\F142\";\r\n}\r\n.fa-rss-square:before {\r\n  content: \"\\F143\";\r\n}\r\n.fa-play-circle:before {\r\n  content: \"\\F144\";\r\n}\r\n.fa-ticket:before {\r\n  content: \"\\F145\";\r\n}\r\n.fa-minus-square:before {\r\n  content: \"\\F146\";\r\n}\r\n.fa-minus-square-o:before {\r\n  content: \"\\F147\";\r\n}\r\n.fa-level-up:before {\r\n  content: \"\\F148\";\r\n}\r\n.fa-level-down:before {\r\n  content: \"\\F149\";\r\n}\r\n.fa-check-square:before {\r\n  content: \"\\F14A\";\r\n}\r\n.fa-pencil-square:before {\r\n  content: \"\\F14B\";\r\n}\r\n.fa-external-link-square:before {\r\n  content: \"\\F14C\";\r\n}\r\n.fa-share-square:before {\r\n  content: \"\\F14D\";\r\n}\r\n.fa-compass:before {\r\n  content: \"\\F14E\";\r\n}\r\n.fa-toggle-down:before,\r\n.fa-caret-square-o-down:before {\r\n  content: \"\\F150\";\r\n}\r\n.fa-toggle-up:before,\r\n.fa-caret-square-o-up:before {\r\n  content: \"\\F151\";\r\n}\r\n.fa-toggle-right:before,\r\n.fa-caret-square-o-right:before {\r\n  content: \"\\F152\";\r\n}\r\n.fa-euro:before,\r\n.fa-eur:before {\r\n  content: \"\\F153\";\r\n}\r\n.fa-gbp:before {\r\n  content: \"\\F154\";\r\n}\r\n.fa-dollar:before,\r\n.fa-usd:before {\r\n  content: \"\\F155\";\r\n}\r\n.fa-rupee:before,\r\n.fa-inr:before {\r\n  content: \"\\F156\";\r\n}\r\n.fa-cny:before,\r\n.fa-rmb:before,\r\n.fa-yen:before,\r\n.fa-jpy:before {\r\n  content: \"\\F157\";\r\n}\r\n.fa-ruble:before,\r\n.fa-rouble:before,\r\n.fa-rub:before {\r\n  content: \"\\F158\";\r\n}\r\n.fa-won:before,\r\n.fa-krw:before {\r\n  content: \"\\F159\";\r\n}\r\n.fa-bitcoin:before,\r\n.fa-btc:before {\r\n  content: \"\\F15A\";\r\n}\r\n.fa-file:before {\r\n  content: \"\\F15B\";\r\n}\r\n.fa-file-text:before {\r\n  content: \"\\F15C\";\r\n}\r\n.fa-sort-alpha-asc:before {\r\n  content: \"\\F15D\";\r\n}\r\n.fa-sort-alpha-desc:before {\r\n  content: \"\\F15E\";\r\n}\r\n.fa-sort-amount-asc:before {\r\n  content: \"\\F160\";\r\n}\r\n.fa-sort-amount-desc:before {\r\n  content: \"\\F161\";\r\n}\r\n.fa-sort-numeric-asc:before {\r\n  content: \"\\F162\";\r\n}\r\n.fa-sort-numeric-desc:before {\r\n  content: \"\\F163\";\r\n}\r\n.fa-thumbs-up:before {\r\n  content: \"\\F164\";\r\n}\r\n.fa-thumbs-down:before {\r\n  content: \"\\F165\";\r\n}\r\n.fa-youtube-square:before {\r\n  content: \"\\F166\";\r\n}\r\n.fa-youtube:before {\r\n  content: \"\\F167\";\r\n}\r\n.fa-xing:before {\r\n  content: \"\\F168\";\r\n}\r\n.fa-xing-square:before {\r\n  content: \"\\F169\";\r\n}\r\n.fa-youtube-play:before {\r\n  content: \"\\F16A\";\r\n}\r\n.fa-dropbox:before {\r\n  content: \"\\F16B\";\r\n}\r\n.fa-stack-overflow:before {\r\n  content: \"\\F16C\";\r\n}\r\n.fa-instagram:before {\r\n  content: \"\\F16D\";\r\n}\r\n.fa-flickr:before {\r\n  content: \"\\F16E\";\r\n}\r\n.fa-adn:before {\r\n  content: \"\\F170\";\r\n}\r\n.fa-bitbucket:before {\r\n  content: \"\\F171\";\r\n}\r\n.fa-bitbucket-square:before {\r\n  content: \"\\F172\";\r\n}\r\n.fa-tumblr:before {\r\n  content: \"\\F173\";\r\n}\r\n.fa-tumblr-square:before {\r\n  content: \"\\F174\";\r\n}\r\n.fa-long-arrow-down:before {\r\n  content: \"\\F175\";\r\n}\r\n.fa-long-arrow-up:before {\r\n  content: \"\\F176\";\r\n}\r\n.fa-long-arrow-left:before {\r\n  content: \"\\F177\";\r\n}\r\n.fa-long-arrow-right:before {\r\n  content: \"\\F178\";\r\n}\r\n.fa-apple:before {\r\n  content: \"\\F179\";\r\n}\r\n.fa-windows:before {\r\n  content: \"\\F17A\";\r\n}\r\n.fa-android:before {\r\n  content: \"\\F17B\";\r\n}\r\n.fa-linux:before {\r\n  content: \"\\F17C\";\r\n}\r\n.fa-dribbble:before {\r\n  content: \"\\F17D\";\r\n}\r\n.fa-skype:before {\r\n  content: \"\\F17E\";\r\n}\r\n.fa-foursquare:before {\r\n  content: \"\\F180\";\r\n}\r\n.fa-trello:before {\r\n  content: \"\\F181\";\r\n}\r\n.fa-female:before {\r\n  content: \"\\F182\";\r\n}\r\n.fa-male:before {\r\n  content: \"\\F183\";\r\n}\r\n.fa-gittip:before,\r\n.fa-gratipay:before {\r\n  content: \"\\F184\";\r\n}\r\n.fa-sun-o:before {\r\n  content: \"\\F185\";\r\n}\r\n.fa-moon-o:before {\r\n  content: \"\\F186\";\r\n}\r\n.fa-archive:before {\r\n  content: \"\\F187\";\r\n}\r\n.fa-bug:before {\r\n  content: \"\\F188\";\r\n}\r\n.fa-vk:before {\r\n  content: \"\\F189\";\r\n}\r\n.fa-weibo:before {\r\n  content: \"\\F18A\";\r\n}\r\n.fa-renren:before {\r\n  content: \"\\F18B\";\r\n}\r\n.fa-pagelines:before {\r\n  content: \"\\F18C\";\r\n}\r\n.fa-stack-exchange:before {\r\n  content: \"\\F18D\";\r\n}\r\n.fa-arrow-circle-o-right:before {\r\n  content: \"\\F18E\";\r\n}\r\n.fa-arrow-circle-o-left:before {\r\n  content: \"\\F190\";\r\n}\r\n.fa-toggle-left:before,\r\n.fa-caret-square-o-left:before {\r\n  content: \"\\F191\";\r\n}\r\n.fa-dot-circle-o:before {\r\n  content: \"\\F192\";\r\n}\r\n.fa-wheelchair:before {\r\n  content: \"\\F193\";\r\n}\r\n.fa-vimeo-square:before {\r\n  content: \"\\F194\";\r\n}\r\n.fa-turkish-lira:before,\r\n.fa-try:before {\r\n  content: \"\\F195\";\r\n}\r\n.fa-plus-square-o:before {\r\n  content: \"\\F196\";\r\n}\r\n.fa-space-shuttle:before {\r\n  content: \"\\F197\";\r\n}\r\n.fa-slack:before {\r\n  content: \"\\F198\";\r\n}\r\n.fa-envelope-square:before {\r\n  content: \"\\F199\";\r\n}\r\n.fa-wordpress:before {\r\n  content: \"\\F19A\";\r\n}\r\n.fa-openid:before {\r\n  content: \"\\F19B\";\r\n}\r\n.fa-institution:before,\r\n.fa-bank:before,\r\n.fa-university:before {\r\n  content: \"\\F19C\";\r\n}\r\n.fa-mortar-board:before,\r\n.fa-graduation-cap:before {\r\n  content: \"\\F19D\";\r\n}\r\n.fa-yahoo:before {\r\n  content: \"\\F19E\";\r\n}\r\n.fa-google:before {\r\n  content: \"\\F1A0\";\r\n}\r\n.fa-reddit:before {\r\n  content: \"\\F1A1\";\r\n}\r\n.fa-reddit-square:before {\r\n  content: \"\\F1A2\";\r\n}\r\n.fa-stumbleupon-circle:before {\r\n  content: \"\\F1A3\";\r\n}\r\n.fa-stumbleupon:before {\r\n  content: \"\\F1A4\";\r\n}\r\n.fa-delicious:before {\r\n  content: \"\\F1A5\";\r\n}\r\n.fa-digg:before {\r\n  content: \"\\F1A6\";\r\n}\r\n.fa-pied-piper-pp:before {\r\n  content: \"\\F1A7\";\r\n}\r\n.fa-pied-piper-alt:before {\r\n  content: \"\\F1A8\";\r\n}\r\n.fa-drupal:before {\r\n  content: \"\\F1A9\";\r\n}\r\n.fa-joomla:before {\r\n  content: \"\\F1AA\";\r\n}\r\n.fa-language:before {\r\n  content: \"\\F1AB\";\r\n}\r\n.fa-fax:before {\r\n  content: \"\\F1AC\";\r\n}\r\n.fa-building:before {\r\n  content: \"\\F1AD\";\r\n}\r\n.fa-child:before {\r\n  content: \"\\F1AE\";\r\n}\r\n.fa-paw:before {\r\n  content: \"\\F1B0\";\r\n}\r\n.fa-spoon:before {\r\n  content: \"\\F1B1\";\r\n}\r\n.fa-cube:before {\r\n  content: \"\\F1B2\";\r\n}\r\n.fa-cubes:before {\r\n  content: \"\\F1B3\";\r\n}\r\n.fa-behance:before {\r\n  content: \"\\F1B4\";\r\n}\r\n.fa-behance-square:before {\r\n  content: \"\\F1B5\";\r\n}\r\n.fa-steam:before {\r\n  content: \"\\F1B6\";\r\n}\r\n.fa-steam-square:before {\r\n  content: \"\\F1B7\";\r\n}\r\n.fa-recycle:before {\r\n  content: \"\\F1B8\";\r\n}\r\n.fa-automobile:before,\r\n.fa-car:before {\r\n  content: \"\\F1B9\";\r\n}\r\n.fa-cab:before,\r\n.fa-taxi:before {\r\n  content: \"\\F1BA\";\r\n}\r\n.fa-tree:before {\r\n  content: \"\\F1BB\";\r\n}\r\n.fa-spotify:before {\r\n  content: \"\\F1BC\";\r\n}\r\n.fa-deviantart:before {\r\n  content: \"\\F1BD\";\r\n}\r\n.fa-soundcloud:before {\r\n  content: \"\\F1BE\";\r\n}\r\n.fa-database:before {\r\n  content: \"\\F1C0\";\r\n}\r\n.fa-file-pdf-o:before {\r\n  content: \"\\F1C1\";\r\n}\r\n.fa-file-word-o:before {\r\n  content: \"\\F1C2\";\r\n}\r\n.fa-file-excel-o:before {\r\n  content: \"\\F1C3\";\r\n}\r\n.fa-file-powerpoint-o:before {\r\n  content: \"\\F1C4\";\r\n}\r\n.fa-file-photo-o:before,\r\n.fa-file-picture-o:before,\r\n.fa-file-image-o:before {\r\n  content: \"\\F1C5\";\r\n}\r\n.fa-file-zip-o:before,\r\n.fa-file-archive-o:before {\r\n  content: \"\\F1C6\";\r\n}\r\n.fa-file-sound-o:before,\r\n.fa-file-audio-o:before {\r\n  content: \"\\F1C7\";\r\n}\r\n.fa-file-movie-o:before,\r\n.fa-file-video-o:before {\r\n  content: \"\\F1C8\";\r\n}\r\n.fa-file-code-o:before {\r\n  content: \"\\F1C9\";\r\n}\r\n.fa-vine:before {\r\n  content: \"\\F1CA\";\r\n}\r\n.fa-codepen:before {\r\n  content: \"\\F1CB\";\r\n}\r\n.fa-jsfiddle:before {\r\n  content: \"\\F1CC\";\r\n}\r\n.fa-life-bouy:before,\r\n.fa-life-buoy:before,\r\n.fa-life-saver:before,\r\n.fa-support:before,\r\n.fa-life-ring:before {\r\n  content: \"\\F1CD\";\r\n}\r\n.fa-circle-o-notch:before {\r\n  content: \"\\F1CE\";\r\n}\r\n.fa-ra:before,\r\n.fa-resistance:before,\r\n.fa-rebel:before {\r\n  content: \"\\F1D0\";\r\n}\r\n.fa-ge:before,\r\n.fa-empire:before {\r\n  content: \"\\F1D1\";\r\n}\r\n.fa-git-square:before {\r\n  content: \"\\F1D2\";\r\n}\r\n.fa-git:before {\r\n  content: \"\\F1D3\";\r\n}\r\n.fa-y-combinator-square:before,\r\n.fa-yc-square:before,\r\n.fa-hacker-news:before {\r\n  content: \"\\F1D4\";\r\n}\r\n.fa-tencent-weibo:before {\r\n  content: \"\\F1D5\";\r\n}\r\n.fa-qq:before {\r\n  content: \"\\F1D6\";\r\n}\r\n.fa-wechat:before,\r\n.fa-weixin:before {\r\n  content: \"\\F1D7\";\r\n}\r\n.fa-send:before,\r\n.fa-paper-plane:before {\r\n  content: \"\\F1D8\";\r\n}\r\n.fa-send-o:before,\r\n.fa-paper-plane-o:before {\r\n  content: \"\\F1D9\";\r\n}\r\n.fa-history:before {\r\n  content: \"\\F1DA\";\r\n}\r\n.fa-circle-thin:before {\r\n  content: \"\\F1DB\";\r\n}\r\n.fa-header:before {\r\n  content: \"\\F1DC\";\r\n}\r\n.fa-paragraph:before {\r\n  content: \"\\F1DD\";\r\n}\r\n.fa-sliders:before {\r\n  content: \"\\F1DE\";\r\n}\r\n.fa-share-alt:before {\r\n  content: \"\\F1E0\";\r\n}\r\n.fa-share-alt-square:before {\r\n  content: \"\\F1E1\";\r\n}\r\n.fa-bomb:before {\r\n  content: \"\\F1E2\";\r\n}\r\n.fa-soccer-ball-o:before,\r\n.fa-futbol-o:before {\r\n  content: \"\\F1E3\";\r\n}\r\n.fa-tty:before {\r\n  content: \"\\F1E4\";\r\n}\r\n.fa-binoculars:before {\r\n  content: \"\\F1E5\";\r\n}\r\n.fa-plug:before {\r\n  content: \"\\F1E6\";\r\n}\r\n.fa-slideshare:before {\r\n  content: \"\\F1E7\";\r\n}\r\n.fa-twitch:before {\r\n  content: \"\\F1E8\";\r\n}\r\n.fa-yelp:before {\r\n  content: \"\\F1E9\";\r\n}\r\n.fa-newspaper-o:before {\r\n  content: \"\\F1EA\";\r\n}\r\n.fa-wifi:before {\r\n  content: \"\\F1EB\";\r\n}\r\n.fa-calculator:before {\r\n  content: \"\\F1EC\";\r\n}\r\n.fa-paypal:before {\r\n  content: \"\\F1ED\";\r\n}\r\n.fa-google-wallet:before {\r\n  content: \"\\F1EE\";\r\n}\r\n.fa-cc-visa:before {\r\n  content: \"\\F1F0\";\r\n}\r\n.fa-cc-mastercard:before {\r\n  content: \"\\F1F1\";\r\n}\r\n.fa-cc-discover:before {\r\n  content: \"\\F1F2\";\r\n}\r\n.fa-cc-amex:before {\r\n  content: \"\\F1F3\";\r\n}\r\n.fa-cc-paypal:before {\r\n  content: \"\\F1F4\";\r\n}\r\n.fa-cc-stripe:before {\r\n  content: \"\\F1F5\";\r\n}\r\n.fa-bell-slash:before {\r\n  content: \"\\F1F6\";\r\n}\r\n.fa-bell-slash-o:before {\r\n  content: \"\\F1F7\";\r\n}\r\n.fa-trash:before {\r\n  content: \"\\F1F8\";\r\n}\r\n.fa-copyright:before {\r\n  content: \"\\F1F9\";\r\n}\r\n.fa-at:before {\r\n  content: \"\\F1FA\";\r\n}\r\n.fa-eyedropper:before {\r\n  content: \"\\F1FB\";\r\n}\r\n.fa-paint-brush:before {\r\n  content: \"\\F1FC\";\r\n}\r\n.fa-birthday-cake:before {\r\n  content: \"\\F1FD\";\r\n}\r\n.fa-area-chart:before {\r\n  content: \"\\F1FE\";\r\n}\r\n.fa-pie-chart:before {\r\n  content: \"\\F200\";\r\n}\r\n.fa-line-chart:before {\r\n  content: \"\\F201\";\r\n}\r\n.fa-lastfm:before {\r\n  content: \"\\F202\";\r\n}\r\n.fa-lastfm-square:before {\r\n  content: \"\\F203\";\r\n}\r\n.fa-toggle-off:before {\r\n  content: \"\\F204\";\r\n}\r\n.fa-toggle-on:before {\r\n  content: \"\\F205\";\r\n}\r\n.fa-bicycle:before {\r\n  content: \"\\F206\";\r\n}\r\n.fa-bus:before {\r\n  content: \"\\F207\";\r\n}\r\n.fa-ioxhost:before {\r\n  content: \"\\F208\";\r\n}\r\n.fa-angellist:before {\r\n  content: \"\\F209\";\r\n}\r\n.fa-cc:before {\r\n  content: \"\\F20A\";\r\n}\r\n.fa-shekel:before,\r\n.fa-sheqel:before,\r\n.fa-ils:before {\r\n  content: \"\\F20B\";\r\n}\r\n.fa-meanpath:before {\r\n  content: \"\\F20C\";\r\n}\r\n.fa-buysellads:before {\r\n  content: \"\\F20D\";\r\n}\r\n.fa-connectdevelop:before {\r\n  content: \"\\F20E\";\r\n}\r\n.fa-dashcube:before {\r\n  content: \"\\F210\";\r\n}\r\n.fa-forumbee:before {\r\n  content: \"\\F211\";\r\n}\r\n.fa-leanpub:before {\r\n  content: \"\\F212\";\r\n}\r\n.fa-sellsy:before {\r\n  content: \"\\F213\";\r\n}\r\n.fa-shirtsinbulk:before {\r\n  content: \"\\F214\";\r\n}\r\n.fa-simplybuilt:before {\r\n  content: \"\\F215\";\r\n}\r\n.fa-skyatlas:before {\r\n  content: \"\\F216\";\r\n}\r\n.fa-cart-plus:before {\r\n  content: \"\\F217\";\r\n}\r\n.fa-cart-arrow-down:before {\r\n  content: \"\\F218\";\r\n}\r\n.fa-diamond:before {\r\n  content: \"\\F219\";\r\n}\r\n.fa-ship:before {\r\n  content: \"\\F21A\";\r\n}\r\n.fa-user-secret:before {\r\n  content: \"\\F21B\";\r\n}\r\n.fa-motorcycle:before {\r\n  content: \"\\F21C\";\r\n}\r\n.fa-street-view:before {\r\n  content: \"\\F21D\";\r\n}\r\n.fa-heartbeat:before {\r\n  content: \"\\F21E\";\r\n}\r\n.fa-venus:before {\r\n  content: \"\\F221\";\r\n}\r\n.fa-mars:before {\r\n  content: \"\\F222\";\r\n}\r\n.fa-mercury:before {\r\n  content: \"\\F223\";\r\n}\r\n.fa-intersex:before,\r\n.fa-transgender:before {\r\n  content: \"\\F224\";\r\n}\r\n.fa-transgender-alt:before {\r\n  content: \"\\F225\";\r\n}\r\n.fa-venus-double:before {\r\n  content: \"\\F226\";\r\n}\r\n.fa-mars-double:before {\r\n  content: \"\\F227\";\r\n}\r\n.fa-venus-mars:before {\r\n  content: \"\\F228\";\r\n}\r\n.fa-mars-stroke:before {\r\n  content: \"\\F229\";\r\n}\r\n.fa-mars-stroke-v:before {\r\n  content: \"\\F22A\";\r\n}\r\n.fa-mars-stroke-h:before {\r\n  content: \"\\F22B\";\r\n}\r\n.fa-neuter:before {\r\n  content: \"\\F22C\";\r\n}\r\n.fa-genderless:before {\r\n  content: \"\\F22D\";\r\n}\r\n.fa-facebook-official:before {\r\n  content: \"\\F230\";\r\n}\r\n.fa-pinterest-p:before {\r\n  content: \"\\F231\";\r\n}\r\n.fa-whatsapp:before {\r\n  content: \"\\F232\";\r\n}\r\n.fa-server:before {\r\n  content: \"\\F233\";\r\n}\r\n.fa-user-plus:before {\r\n  content: \"\\F234\";\r\n}\r\n.fa-user-times:before {\r\n  content: \"\\F235\";\r\n}\r\n.fa-hotel:before,\r\n.fa-bed:before {\r\n  content: \"\\F236\";\r\n}\r\n.fa-viacoin:before {\r\n  content: \"\\F237\";\r\n}\r\n.fa-train:before {\r\n  content: \"\\F238\";\r\n}\r\n.fa-subway:before {\r\n  content: \"\\F239\";\r\n}\r\n.fa-medium:before {\r\n  content: \"\\F23A\";\r\n}\r\n.fa-yc:before,\r\n.fa-y-combinator:before {\r\n  content: \"\\F23B\";\r\n}\r\n.fa-optin-monster:before {\r\n  content: \"\\F23C\";\r\n}\r\n.fa-opencart:before {\r\n  content: \"\\F23D\";\r\n}\r\n.fa-expeditedssl:before {\r\n  content: \"\\F23E\";\r\n}\r\n.fa-battery-4:before,\r\n.fa-battery-full:before {\r\n  content: \"\\F240\";\r\n}\r\n.fa-battery-3:before,\r\n.fa-battery-three-quarters:before {\r\n  content: \"\\F241\";\r\n}\r\n.fa-battery-2:before,\r\n.fa-battery-half:before {\r\n  content: \"\\F242\";\r\n}\r\n.fa-battery-1:before,\r\n.fa-battery-quarter:before {\r\n  content: \"\\F243\";\r\n}\r\n.fa-battery-0:before,\r\n.fa-battery-empty:before {\r\n  content: \"\\F244\";\r\n}\r\n.fa-mouse-pointer:before {\r\n  content: \"\\F245\";\r\n}\r\n.fa-i-cursor:before {\r\n  content: \"\\F246\";\r\n}\r\n.fa-object-group:before {\r\n  content: \"\\F247\";\r\n}\r\n.fa-object-ungroup:before {\r\n  content: \"\\F248\";\r\n}\r\n.fa-sticky-note:before {\r\n  content: \"\\F249\";\r\n}\r\n.fa-sticky-note-o:before {\r\n  content: \"\\F24A\";\r\n}\r\n.fa-cc-jcb:before {\r\n  content: \"\\F24B\";\r\n}\r\n.fa-cc-diners-club:before {\r\n  content: \"\\F24C\";\r\n}\r\n.fa-clone:before {\r\n  content: \"\\F24D\";\r\n}\r\n.fa-balance-scale:before {\r\n  content: \"\\F24E\";\r\n}\r\n.fa-hourglass-o:before {\r\n  content: \"\\F250\";\r\n}\r\n.fa-hourglass-1:before,\r\n.fa-hourglass-start:before {\r\n  content: \"\\F251\";\r\n}\r\n.fa-hourglass-2:before,\r\n.fa-hourglass-half:before {\r\n  content: \"\\F252\";\r\n}\r\n.fa-hourglass-3:before,\r\n.fa-hourglass-end:before {\r\n  content: \"\\F253\";\r\n}\r\n.fa-hourglass:before {\r\n  content: \"\\F254\";\r\n}\r\n.fa-hand-grab-o:before,\r\n.fa-hand-rock-o:before {\r\n  content: \"\\F255\";\r\n}\r\n.fa-hand-stop-o:before,\r\n.fa-hand-paper-o:before {\r\n  content: \"\\F256\";\r\n}\r\n.fa-hand-scissors-o:before {\r\n  content: \"\\F257\";\r\n}\r\n.fa-hand-lizard-o:before {\r\n  content: \"\\F258\";\r\n}\r\n.fa-hand-spock-o:before {\r\n  content: \"\\F259\";\r\n}\r\n.fa-hand-pointer-o:before {\r\n  content: \"\\F25A\";\r\n}\r\n.fa-hand-peace-o:before {\r\n  content: \"\\F25B\";\r\n}\r\n.fa-trademark:before {\r\n  content: \"\\F25C\";\r\n}\r\n.fa-registered:before {\r\n  content: \"\\F25D\";\r\n}\r\n.fa-creative-commons:before {\r\n  content: \"\\F25E\";\r\n}\r\n.fa-gg:before {\r\n  content: \"\\F260\";\r\n}\r\n.fa-gg-circle:before {\r\n  content: \"\\F261\";\r\n}\r\n.fa-tripadvisor:before {\r\n  content: \"\\F262\";\r\n}\r\n.fa-odnoklassniki:before {\r\n  content: \"\\F263\";\r\n}\r\n.fa-odnoklassniki-square:before {\r\n  content: \"\\F264\";\r\n}\r\n.fa-get-pocket:before {\r\n  content: \"\\F265\";\r\n}\r\n.fa-wikipedia-w:before {\r\n  content: \"\\F266\";\r\n}\r\n.fa-safari:before {\r\n  content: \"\\F267\";\r\n}\r\n.fa-chrome:before {\r\n  content: \"\\F268\";\r\n}\r\n.fa-firefox:before {\r\n  content: \"\\F269\";\r\n}\r\n.fa-opera:before {\r\n  content: \"\\F26A\";\r\n}\r\n.fa-internet-explorer:before {\r\n  content: \"\\F26B\";\r\n}\r\n.fa-tv:before,\r\n.fa-television:before {\r\n  content: \"\\F26C\";\r\n}\r\n.fa-contao:before {\r\n  content: \"\\F26D\";\r\n}\r\n.fa-500px:before {\r\n  content: \"\\F26E\";\r\n}\r\n.fa-amazon:before {\r\n  content: \"\\F270\";\r\n}\r\n.fa-calendar-plus-o:before {\r\n  content: \"\\F271\";\r\n}\r\n.fa-calendar-minus-o:before {\r\n  content: \"\\F272\";\r\n}\r\n.fa-calendar-times-o:before {\r\n  content: \"\\F273\";\r\n}\r\n.fa-calendar-check-o:before {\r\n  content: \"\\F274\";\r\n}\r\n.fa-industry:before {\r\n  content: \"\\F275\";\r\n}\r\n.fa-map-pin:before {\r\n  content: \"\\F276\";\r\n}\r\n.fa-map-signs:before {\r\n  content: \"\\F277\";\r\n}\r\n.fa-map-o:before {\r\n  content: \"\\F278\";\r\n}\r\n.fa-map:before {\r\n  content: \"\\F279\";\r\n}\r\n.fa-commenting:before {\r\n  content: \"\\F27A\";\r\n}\r\n.fa-commenting-o:before {\r\n  content: \"\\F27B\";\r\n}\r\n.fa-houzz:before {\r\n  content: \"\\F27C\";\r\n}\r\n.fa-vimeo:before {\r\n  content: \"\\F27D\";\r\n}\r\n.fa-black-tie:before {\r\n  content: \"\\F27E\";\r\n}\r\n.fa-fonticons:before {\r\n  content: \"\\F280\";\r\n}\r\n.fa-reddit-alien:before {\r\n  content: \"\\F281\";\r\n}\r\n.fa-edge:before {\r\n  content: \"\\F282\";\r\n}\r\n.fa-credit-card-alt:before {\r\n  content: \"\\F283\";\r\n}\r\n.fa-codiepie:before {\r\n  content: \"\\F284\";\r\n}\r\n.fa-modx:before {\r\n  content: \"\\F285\";\r\n}\r\n.fa-fort-awesome:before {\r\n  content: \"\\F286\";\r\n}\r\n.fa-usb:before {\r\n  content: \"\\F287\";\r\n}\r\n.fa-product-hunt:before {\r\n  content: \"\\F288\";\r\n}\r\n.fa-mixcloud:before {\r\n  content: \"\\F289\";\r\n}\r\n.fa-scribd:before {\r\n  content: \"\\F28A\";\r\n}\r\n.fa-pause-circle:before {\r\n  content: \"\\F28B\";\r\n}\r\n.fa-pause-circle-o:before {\r\n  content: \"\\F28C\";\r\n}\r\n.fa-stop-circle:before {\r\n  content: \"\\F28D\";\r\n}\r\n.fa-stop-circle-o:before {\r\n  content: \"\\F28E\";\r\n}\r\n.fa-shopping-bag:before {\r\n  content: \"\\F290\";\r\n}\r\n.fa-shopping-basket:before {\r\n  content: \"\\F291\";\r\n}\r\n.fa-hashtag:before {\r\n  content: \"\\F292\";\r\n}\r\n.fa-bluetooth:before {\r\n  content: \"\\F293\";\r\n}\r\n.fa-bluetooth-b:before {\r\n  content: \"\\F294\";\r\n}\r\n.fa-percent:before {\r\n  content: \"\\F295\";\r\n}\r\n.fa-gitlab:before {\r\n  content: \"\\F296\";\r\n}\r\n.fa-wpbeginner:before {\r\n  content: \"\\F297\";\r\n}\r\n.fa-wpforms:before {\r\n  content: \"\\F298\";\r\n}\r\n.fa-envira:before {\r\n  content: \"\\F299\";\r\n}\r\n.fa-universal-access:before {\r\n  content: \"\\F29A\";\r\n}\r\n.fa-wheelchair-alt:before {\r\n  content: \"\\F29B\";\r\n}\r\n.fa-question-circle-o:before {\r\n  content: \"\\F29C\";\r\n}\r\n.fa-blind:before {\r\n  content: \"\\F29D\";\r\n}\r\n.fa-audio-description:before {\r\n  content: \"\\F29E\";\r\n}\r\n.fa-volume-control-phone:before {\r\n  content: \"\\F2A0\";\r\n}\r\n.fa-braille:before {\r\n  content: \"\\F2A1\";\r\n}\r\n.fa-assistive-listening-systems:before {\r\n  content: \"\\F2A2\";\r\n}\r\n.fa-asl-interpreting:before,\r\n.fa-american-sign-language-interpreting:before {\r\n  content: \"\\F2A3\";\r\n}\r\n.fa-deafness:before,\r\n.fa-hard-of-hearing:before,\r\n.fa-deaf:before {\r\n  content: \"\\F2A4\";\r\n}\r\n.fa-glide:before {\r\n  content: \"\\F2A5\";\r\n}\r\n.fa-glide-g:before {\r\n  content: \"\\F2A6\";\r\n}\r\n.fa-signing:before,\r\n.fa-sign-language:before {\r\n  content: \"\\F2A7\";\r\n}\r\n.fa-low-vision:before {\r\n  content: \"\\F2A8\";\r\n}\r\n.fa-viadeo:before {\r\n  content: \"\\F2A9\";\r\n}\r\n.fa-viadeo-square:before {\r\n  content: \"\\F2AA\";\r\n}\r\n.fa-snapchat:before {\r\n  content: \"\\F2AB\";\r\n}\r\n.fa-snapchat-ghost:before {\r\n  content: \"\\F2AC\";\r\n}\r\n.fa-snapchat-square:before {\r\n  content: \"\\F2AD\";\r\n}\r\n.fa-pied-piper:before {\r\n  content: \"\\F2AE\";\r\n}\r\n.fa-first-order:before {\r\n  content: \"\\F2B0\";\r\n}\r\n.fa-yoast:before {\r\n  content: \"\\F2B1\";\r\n}\r\n.fa-themeisle:before {\r\n  content: \"\\F2B2\";\r\n}\r\n.fa-google-plus-circle:before,\r\n.fa-google-plus-official:before {\r\n  content: \"\\F2B3\";\r\n}\r\n.fa-fa:before,\r\n.fa-font-awesome:before {\r\n  content: \"\\F2B4\";\r\n}\r\n.sr-only {\r\n  position: absolute;\r\n  width: 1px;\r\n  height: 1px;\r\n  padding: 0;\r\n  margin: -1px;\r\n  overflow: hidden;\r\n  clip: rect(0, 0, 0, 0);\r\n  border: 0;\r\n}\r\n.sr-only-focusable:active,\r\n.sr-only-focusable:focus {\r\n  position: static;\r\n  width: auto;\r\n  height: auto;\r\n  margin: 0;\r\n  overflow: visible;\r\n  clip: auto;\r\n}\r\n", ""]);
+	exports.push([module.id, "@charset \"UTF-8\";\n\n/*!\n * animate.css -http://daneden.me/animate\n * Version - 3.5.1\n * Licensed under the MIT license - http://opensource.org/licenses/MIT\n *\n * Copyright (c) 2016 Daniel Eden\n */\n\n.animated{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.animated.infinite{-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite}.animated.hinge{-webkit-animation-duration:2s;animation-duration:2s}.animated.bounceIn,.animated.bounceOut,.animated.flipOutX,.animated.flipOutY{-webkit-animation-duration:.75s;animation-duration:.75s}@-webkit-keyframes bounce{0%,20%,53%,80%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1);-webkit-transform:translateZ(0);transform:translateZ(0)}40%,43%{-webkit-transform:translate3d(0,-30px,0);transform:translate3d(0,-30px,0)}40%,43%,70%{-webkit-animation-timing-function:cubic-bezier(.755,.05,.855,.06);animation-timing-function:cubic-bezier(.755,.05,.855,.06)}70%{-webkit-transform:translate3d(0,-15px,0);transform:translate3d(0,-15px,0)}90%{-webkit-transform:translate3d(0,-4px,0);transform:translate3d(0,-4px,0)}}@keyframes bounce{0%,20%,53%,80%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1);-webkit-transform:translateZ(0);transform:translateZ(0)}40%,43%{-webkit-transform:translate3d(0,-30px,0);transform:translate3d(0,-30px,0)}40%,43%,70%{-webkit-animation-timing-function:cubic-bezier(.755,.05,.855,.06);animation-timing-function:cubic-bezier(.755,.05,.855,.06)}70%{-webkit-transform:translate3d(0,-15px,0);transform:translate3d(0,-15px,0)}90%{-webkit-transform:translate3d(0,-4px,0);transform:translate3d(0,-4px,0)}}.bounce{-webkit-animation-name:bounce;animation-name:bounce;-webkit-transform-origin:center bottom;transform-origin:center bottom}@-webkit-keyframes flash{0%,50%,to{opacity:1}25%,75%{opacity:0}}@keyframes flash{0%,50%,to{opacity:1}25%,75%{opacity:0}}.flash{-webkit-animation-name:flash;animation-name:flash}@-webkit-keyframes pulse{0%{-webkit-transform:scaleX(1);transform:scaleX(1)}50%{-webkit-transform:scale3d(1.05,1.05,1.05);transform:scale3d(1.05,1.05,1.05)}to{-webkit-transform:scaleX(1);transform:scaleX(1)}}@keyframes pulse{0%{-webkit-transform:scaleX(1);transform:scaleX(1)}50%{-webkit-transform:scale3d(1.05,1.05,1.05);transform:scale3d(1.05,1.05,1.05)}to{-webkit-transform:scaleX(1);transform:scaleX(1)}}.pulse{-webkit-animation-name:pulse;animation-name:pulse}@-webkit-keyframes rubberBand{0%{-webkit-transform:scaleX(1);transform:scaleX(1)}30%{-webkit-transform:scale3d(1.25,.75,1);transform:scale3d(1.25,.75,1)}40%{-webkit-transform:scale3d(.75,1.25,1);transform:scale3d(.75,1.25,1)}50%{-webkit-transform:scale3d(1.15,.85,1);transform:scale3d(1.15,.85,1)}65%{-webkit-transform:scale3d(.95,1.05,1);transform:scale3d(.95,1.05,1)}75%{-webkit-transform:scale3d(1.05,.95,1);transform:scale3d(1.05,.95,1)}to{-webkit-transform:scaleX(1);transform:scaleX(1)}}@keyframes rubberBand{0%{-webkit-transform:scaleX(1);transform:scaleX(1)}30%{-webkit-transform:scale3d(1.25,.75,1);transform:scale3d(1.25,.75,1)}40%{-webkit-transform:scale3d(.75,1.25,1);transform:scale3d(.75,1.25,1)}50%{-webkit-transform:scale3d(1.15,.85,1);transform:scale3d(1.15,.85,1)}65%{-webkit-transform:scale3d(.95,1.05,1);transform:scale3d(.95,1.05,1)}75%{-webkit-transform:scale3d(1.05,.95,1);transform:scale3d(1.05,.95,1)}to{-webkit-transform:scaleX(1);transform:scaleX(1)}}.rubberBand{-webkit-animation-name:rubberBand;animation-name:rubberBand}@-webkit-keyframes shake{0%,to{-webkit-transform:translateZ(0);transform:translateZ(0)}10%,30%,50%,70%,90%{-webkit-transform:translate3d(-10px,0,0);transform:translate3d(-10px,0,0)}20%,40%,60%,80%{-webkit-transform:translate3d(10px,0,0);transform:translate3d(10px,0,0)}}@keyframes shake{0%,to{-webkit-transform:translateZ(0);transform:translateZ(0)}10%,30%,50%,70%,90%{-webkit-transform:translate3d(-10px,0,0);transform:translate3d(-10px,0,0)}20%,40%,60%,80%{-webkit-transform:translate3d(10px,0,0);transform:translate3d(10px,0,0)}}.shake{-webkit-animation-name:shake;animation-name:shake}@-webkit-keyframes headShake{0%{-webkit-transform:translateX(0);transform:translateX(0)}6.5%{-webkit-transform:translateX(-6px) rotateY(-9deg);transform:translateX(-6px) rotateY(-9deg)}18.5%{-webkit-transform:translateX(5px) rotateY(7deg);transform:translateX(5px) rotateY(7deg)}31.5%{-webkit-transform:translateX(-3px) rotateY(-5deg);transform:translateX(-3px) rotateY(-5deg)}43.5%{-webkit-transform:translateX(2px) rotateY(3deg);transform:translateX(2px) rotateY(3deg)}50%{-webkit-transform:translateX(0);transform:translateX(0)}}@keyframes headShake{0%{-webkit-transform:translateX(0);transform:translateX(0)}6.5%{-webkit-transform:translateX(-6px) rotateY(-9deg);transform:translateX(-6px) rotateY(-9deg)}18.5%{-webkit-transform:translateX(5px) rotateY(7deg);transform:translateX(5px) rotateY(7deg)}31.5%{-webkit-transform:translateX(-3px) rotateY(-5deg);transform:translateX(-3px) rotateY(-5deg)}43.5%{-webkit-transform:translateX(2px) rotateY(3deg);transform:translateX(2px) rotateY(3deg)}50%{-webkit-transform:translateX(0);transform:translateX(0)}}.headShake{-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;-webkit-animation-name:headShake;animation-name:headShake}@-webkit-keyframes swing{20%{-webkit-transform:rotate(15deg);transform:rotate(15deg)}40%{-webkit-transform:rotate(-10deg);transform:rotate(-10deg)}60%{-webkit-transform:rotate(5deg);transform:rotate(5deg)}80%{-webkit-transform:rotate(-5deg);transform:rotate(-5deg)}to{-webkit-transform:rotate(0deg);transform:rotate(0deg)}}@keyframes swing{20%{-webkit-transform:rotate(15deg);transform:rotate(15deg)}40%{-webkit-transform:rotate(-10deg);transform:rotate(-10deg)}60%{-webkit-transform:rotate(5deg);transform:rotate(5deg)}80%{-webkit-transform:rotate(-5deg);transform:rotate(-5deg)}to{-webkit-transform:rotate(0deg);transform:rotate(0deg)}}.swing{-webkit-transform-origin:top center;transform-origin:top center;-webkit-animation-name:swing;animation-name:swing}@-webkit-keyframes tada{0%{-webkit-transform:scaleX(1);transform:scaleX(1)}10%,20%{-webkit-transform:scale3d(.9,.9,.9) rotate(-3deg);transform:scale3d(.9,.9,.9) rotate(-3deg)}30%,50%,70%,90%{-webkit-transform:scale3d(1.1,1.1,1.1) rotate(3deg);transform:scale3d(1.1,1.1,1.1) rotate(3deg)}40%,60%,80%{-webkit-transform:scale3d(1.1,1.1,1.1) rotate(-3deg);transform:scale3d(1.1,1.1,1.1) rotate(-3deg)}to{-webkit-transform:scaleX(1);transform:scaleX(1)}}@keyframes tada{0%{-webkit-transform:scaleX(1);transform:scaleX(1)}10%,20%{-webkit-transform:scale3d(.9,.9,.9) rotate(-3deg);transform:scale3d(.9,.9,.9) rotate(-3deg)}30%,50%,70%,90%{-webkit-transform:scale3d(1.1,1.1,1.1) rotate(3deg);transform:scale3d(1.1,1.1,1.1) rotate(3deg)}40%,60%,80%{-webkit-transform:scale3d(1.1,1.1,1.1) rotate(-3deg);transform:scale3d(1.1,1.1,1.1) rotate(-3deg)}to{-webkit-transform:scaleX(1);transform:scaleX(1)}}.tada{-webkit-animation-name:tada;animation-name:tada}@-webkit-keyframes wobble{0%{-webkit-transform:none;transform:none}15%{-webkit-transform:translate3d(-25%,0,0) rotate(-5deg);transform:translate3d(-25%,0,0) rotate(-5deg)}30%{-webkit-transform:translate3d(20%,0,0) rotate(3deg);transform:translate3d(20%,0,0) rotate(3deg)}45%{-webkit-transform:translate3d(-15%,0,0) rotate(-3deg);transform:translate3d(-15%,0,0) rotate(-3deg)}60%{-webkit-transform:translate3d(10%,0,0) rotate(2deg);transform:translate3d(10%,0,0) rotate(2deg)}75%{-webkit-transform:translate3d(-5%,0,0) rotate(-1deg);transform:translate3d(-5%,0,0) rotate(-1deg)}to{-webkit-transform:none;transform:none}}@keyframes wobble{0%{-webkit-transform:none;transform:none}15%{-webkit-transform:translate3d(-25%,0,0) rotate(-5deg);transform:translate3d(-25%,0,0) rotate(-5deg)}30%{-webkit-transform:translate3d(20%,0,0) rotate(3deg);transform:translate3d(20%,0,0) rotate(3deg)}45%{-webkit-transform:translate3d(-15%,0,0) rotate(-3deg);transform:translate3d(-15%,0,0) rotate(-3deg)}60%{-webkit-transform:translate3d(10%,0,0) rotate(2deg);transform:translate3d(10%,0,0) rotate(2deg)}75%{-webkit-transform:translate3d(-5%,0,0) rotate(-1deg);transform:translate3d(-5%,0,0) rotate(-1deg)}to{-webkit-transform:none;transform:none}}.wobble{-webkit-animation-name:wobble;animation-name:wobble}@-webkit-keyframes jello{0%,11.1%,to{-webkit-transform:none;transform:none}22.2%{-webkit-transform:skewX(-12.5deg) skewY(-12.5deg);transform:skewX(-12.5deg) skewY(-12.5deg)}33.3%{-webkit-transform:skewX(6.25deg) skewY(6.25deg);transform:skewX(6.25deg) skewY(6.25deg)}44.4%{-webkit-transform:skewX(-3.125deg) skewY(-3.125deg);transform:skewX(-3.125deg) skewY(-3.125deg)}55.5%{-webkit-transform:skewX(1.5625deg) skewY(1.5625deg);transform:skewX(1.5625deg) skewY(1.5625deg)}66.6%{-webkit-transform:skewX(-.78125deg) skewY(-.78125deg);transform:skewX(-.78125deg) skewY(-.78125deg)}77.7%{-webkit-transform:skewX(.390625deg) skewY(.390625deg);transform:skewX(.390625deg) skewY(.390625deg)}88.8%{-webkit-transform:skewX(-.1953125deg) skewY(-.1953125deg);transform:skewX(-.1953125deg) skewY(-.1953125deg)}}@keyframes jello{0%,11.1%,to{-webkit-transform:none;transform:none}22.2%{-webkit-transform:skewX(-12.5deg) skewY(-12.5deg);transform:skewX(-12.5deg) skewY(-12.5deg)}33.3%{-webkit-transform:skewX(6.25deg) skewY(6.25deg);transform:skewX(6.25deg) skewY(6.25deg)}44.4%{-webkit-transform:skewX(-3.125deg) skewY(-3.125deg);transform:skewX(-3.125deg) skewY(-3.125deg)}55.5%{-webkit-transform:skewX(1.5625deg) skewY(1.5625deg);transform:skewX(1.5625deg) skewY(1.5625deg)}66.6%{-webkit-transform:skewX(-.78125deg) skewY(-.78125deg);transform:skewX(-.78125deg) skewY(-.78125deg)}77.7%{-webkit-transform:skewX(.390625deg) skewY(.390625deg);transform:skewX(.390625deg) skewY(.390625deg)}88.8%{-webkit-transform:skewX(-.1953125deg) skewY(-.1953125deg);transform:skewX(-.1953125deg) skewY(-.1953125deg)}}.jello{-webkit-animation-name:jello;animation-name:jello;-webkit-transform-origin:center;transform-origin:center}@-webkit-keyframes bounceIn{0%,20%,40%,60%,80%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}20%{-webkit-transform:scale3d(1.1,1.1,1.1);transform:scale3d(1.1,1.1,1.1)}40%{-webkit-transform:scale3d(.9,.9,.9);transform:scale3d(.9,.9,.9)}60%{opacity:1;-webkit-transform:scale3d(1.03,1.03,1.03);transform:scale3d(1.03,1.03,1.03)}80%{-webkit-transform:scale3d(.97,.97,.97);transform:scale3d(.97,.97,.97)}to{opacity:1;-webkit-transform:scaleX(1);transform:scaleX(1)}}@keyframes bounceIn{0%,20%,40%,60%,80%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}20%{-webkit-transform:scale3d(1.1,1.1,1.1);transform:scale3d(1.1,1.1,1.1)}40%{-webkit-transform:scale3d(.9,.9,.9);transform:scale3d(.9,.9,.9)}60%{opacity:1;-webkit-transform:scale3d(1.03,1.03,1.03);transform:scale3d(1.03,1.03,1.03)}80%{-webkit-transform:scale3d(.97,.97,.97);transform:scale3d(.97,.97,.97)}to{opacity:1;-webkit-transform:scaleX(1);transform:scaleX(1)}}.bounceIn{-webkit-animation-name:bounceIn;animation-name:bounceIn}@-webkit-keyframes bounceInDown{0%,60%,75%,90%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:translate3d(0,-3000px,0);transform:translate3d(0,-3000px,0)}60%{opacity:1;-webkit-transform:translate3d(0,25px,0);transform:translate3d(0,25px,0)}75%{-webkit-transform:translate3d(0,-10px,0);transform:translate3d(0,-10px,0)}90%{-webkit-transform:translate3d(0,5px,0);transform:translate3d(0,5px,0)}to{-webkit-transform:none;transform:none}}@keyframes bounceInDown{0%,60%,75%,90%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:translate3d(0,-3000px,0);transform:translate3d(0,-3000px,0)}60%{opacity:1;-webkit-transform:translate3d(0,25px,0);transform:translate3d(0,25px,0)}75%{-webkit-transform:translate3d(0,-10px,0);transform:translate3d(0,-10px,0)}90%{-webkit-transform:translate3d(0,5px,0);transform:translate3d(0,5px,0)}to{-webkit-transform:none;transform:none}}.bounceInDown{-webkit-animation-name:bounceInDown;animation-name:bounceInDown}@-webkit-keyframes bounceInLeft{0%,60%,75%,90%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:translate3d(-3000px,0,0);transform:translate3d(-3000px,0,0)}60%{opacity:1;-webkit-transform:translate3d(25px,0,0);transform:translate3d(25px,0,0)}75%{-webkit-transform:translate3d(-10px,0,0);transform:translate3d(-10px,0,0)}90%{-webkit-transform:translate3d(5px,0,0);transform:translate3d(5px,0,0)}to{-webkit-transform:none;transform:none}}@keyframes bounceInLeft{0%,60%,75%,90%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:translate3d(-3000px,0,0);transform:translate3d(-3000px,0,0)}60%{opacity:1;-webkit-transform:translate3d(25px,0,0);transform:translate3d(25px,0,0)}75%{-webkit-transform:translate3d(-10px,0,0);transform:translate3d(-10px,0,0)}90%{-webkit-transform:translate3d(5px,0,0);transform:translate3d(5px,0,0)}to{-webkit-transform:none;transform:none}}.bounceInLeft{-webkit-animation-name:bounceInLeft;animation-name:bounceInLeft}@-webkit-keyframes bounceInRight{0%,60%,75%,90%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:translate3d(3000px,0,0);transform:translate3d(3000px,0,0)}60%{opacity:1;-webkit-transform:translate3d(-25px,0,0);transform:translate3d(-25px,0,0)}75%{-webkit-transform:translate3d(10px,0,0);transform:translate3d(10px,0,0)}90%{-webkit-transform:translate3d(-5px,0,0);transform:translate3d(-5px,0,0)}to{-webkit-transform:none;transform:none}}@keyframes bounceInRight{0%,60%,75%,90%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:translate3d(3000px,0,0);transform:translate3d(3000px,0,0)}60%{opacity:1;-webkit-transform:translate3d(-25px,0,0);transform:translate3d(-25px,0,0)}75%{-webkit-transform:translate3d(10px,0,0);transform:translate3d(10px,0,0)}90%{-webkit-transform:translate3d(-5px,0,0);transform:translate3d(-5px,0,0)}to{-webkit-transform:none;transform:none}}.bounceInRight{-webkit-animation-name:bounceInRight;animation-name:bounceInRight}@-webkit-keyframes bounceInUp{0%,60%,75%,90%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:translate3d(0,3000px,0);transform:translate3d(0,3000px,0)}60%{opacity:1;-webkit-transform:translate3d(0,-20px,0);transform:translate3d(0,-20px,0)}75%{-webkit-transform:translate3d(0,10px,0);transform:translate3d(0,10px,0)}90%{-webkit-transform:translate3d(0,-5px,0);transform:translate3d(0,-5px,0)}to{-webkit-transform:translateZ(0);transform:translateZ(0)}}@keyframes bounceInUp{0%,60%,75%,90%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:translate3d(0,3000px,0);transform:translate3d(0,3000px,0)}60%{opacity:1;-webkit-transform:translate3d(0,-20px,0);transform:translate3d(0,-20px,0)}75%{-webkit-transform:translate3d(0,10px,0);transform:translate3d(0,10px,0)}90%{-webkit-transform:translate3d(0,-5px,0);transform:translate3d(0,-5px,0)}to{-webkit-transform:translateZ(0);transform:translateZ(0)}}.bounceInUp{-webkit-animation-name:bounceInUp;animation-name:bounceInUp}@-webkit-keyframes bounceOut{20%{-webkit-transform:scale3d(.9,.9,.9);transform:scale3d(.9,.9,.9)}50%,55%{opacity:1;-webkit-transform:scale3d(1.1,1.1,1.1);transform:scale3d(1.1,1.1,1.1)}to{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}}@keyframes bounceOut{20%{-webkit-transform:scale3d(.9,.9,.9);transform:scale3d(.9,.9,.9)}50%,55%{opacity:1;-webkit-transform:scale3d(1.1,1.1,1.1);transform:scale3d(1.1,1.1,1.1)}to{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}}.bounceOut{-webkit-animation-name:bounceOut;animation-name:bounceOut}@-webkit-keyframes bounceOutDown{20%{-webkit-transform:translate3d(0,10px,0);transform:translate3d(0,10px,0)}40%,45%{opacity:1;-webkit-transform:translate3d(0,-20px,0);transform:translate3d(0,-20px,0)}to{opacity:0;-webkit-transform:translate3d(0,2000px,0);transform:translate3d(0,2000px,0)}}@keyframes bounceOutDown{20%{-webkit-transform:translate3d(0,10px,0);transform:translate3d(0,10px,0)}40%,45%{opacity:1;-webkit-transform:translate3d(0,-20px,0);transform:translate3d(0,-20px,0)}to{opacity:0;-webkit-transform:translate3d(0,2000px,0);transform:translate3d(0,2000px,0)}}.bounceOutDown{-webkit-animation-name:bounceOutDown;animation-name:bounceOutDown}@-webkit-keyframes bounceOutLeft{20%{opacity:1;-webkit-transform:translate3d(20px,0,0);transform:translate3d(20px,0,0)}to{opacity:0;-webkit-transform:translate3d(-2000px,0,0);transform:translate3d(-2000px,0,0)}}@keyframes bounceOutLeft{20%{opacity:1;-webkit-transform:translate3d(20px,0,0);transform:translate3d(20px,0,0)}to{opacity:0;-webkit-transform:translate3d(-2000px,0,0);transform:translate3d(-2000px,0,0)}}.bounceOutLeft{-webkit-animation-name:bounceOutLeft;animation-name:bounceOutLeft}@-webkit-keyframes bounceOutRight{20%{opacity:1;-webkit-transform:translate3d(-20px,0,0);transform:translate3d(-20px,0,0)}to{opacity:0;-webkit-transform:translate3d(2000px,0,0);transform:translate3d(2000px,0,0)}}@keyframes bounceOutRight{20%{opacity:1;-webkit-transform:translate3d(-20px,0,0);transform:translate3d(-20px,0,0)}to{opacity:0;-webkit-transform:translate3d(2000px,0,0);transform:translate3d(2000px,0,0)}}.bounceOutRight{-webkit-animation-name:bounceOutRight;animation-name:bounceOutRight}@-webkit-keyframes bounceOutUp{20%{-webkit-transform:translate3d(0,-10px,0);transform:translate3d(0,-10px,0)}40%,45%{opacity:1;-webkit-transform:translate3d(0,20px,0);transform:translate3d(0,20px,0)}to{opacity:0;-webkit-transform:translate3d(0,-2000px,0);transform:translate3d(0,-2000px,0)}}@keyframes bounceOutUp{20%{-webkit-transform:translate3d(0,-10px,0);transform:translate3d(0,-10px,0)}40%,45%{opacity:1;-webkit-transform:translate3d(0,20px,0);transform:translate3d(0,20px,0)}to{opacity:0;-webkit-transform:translate3d(0,-2000px,0);transform:translate3d(0,-2000px,0)}}.bounceOutUp{-webkit-animation-name:bounceOutUp;animation-name:bounceOutUp}@-webkit-keyframes fadeIn{0%{opacity:0}to{opacity:1}}@keyframes fadeIn{0%{opacity:0}to{opacity:1}}.fadeIn{-webkit-animation-name:fadeIn;animation-name:fadeIn}@-webkit-keyframes fadeInDown{0%{opacity:0;-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}to{opacity:1;-webkit-transform:none;transform:none}}@keyframes fadeInDown{0%{opacity:0;-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}to{opacity:1;-webkit-transform:none;transform:none}}.fadeInDown{-webkit-animation-name:fadeInDown;animation-name:fadeInDown}@-webkit-keyframes fadeInDownBig{0%{opacity:0;-webkit-transform:translate3d(0,-2000px,0);transform:translate3d(0,-2000px,0)}to{opacity:1;-webkit-transform:none;transform:none}}@keyframes fadeInDownBig{0%{opacity:0;-webkit-transform:translate3d(0,-2000px,0);transform:translate3d(0,-2000px,0)}to{opacity:1;-webkit-transform:none;transform:none}}.fadeInDownBig{-webkit-animation-name:fadeInDownBig;animation-name:fadeInDownBig}@-webkit-keyframes fadeInLeft{0%{opacity:0;-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}to{opacity:1;-webkit-transform:none;transform:none}}@keyframes fadeInLeft{0%{opacity:0;-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}to{opacity:1;-webkit-transform:none;transform:none}}.fadeInLeft{-webkit-animation-name:fadeInLeft;animation-name:fadeInLeft}@-webkit-keyframes fadeInLeftBig{0%{opacity:0;-webkit-transform:translate3d(-2000px,0,0);transform:translate3d(-2000px,0,0)}to{opacity:1;-webkit-transform:none;transform:none}}@keyframes fadeInLeftBig{0%{opacity:0;-webkit-transform:translate3d(-2000px,0,0);transform:translate3d(-2000px,0,0)}to{opacity:1;-webkit-transform:none;transform:none}}.fadeInLeftBig{-webkit-animation-name:fadeInLeftBig;animation-name:fadeInLeftBig}@-webkit-keyframes fadeInRight{0%{opacity:0;-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}to{opacity:1;-webkit-transform:none;transform:none}}@keyframes fadeInRight{0%{opacity:0;-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}to{opacity:1;-webkit-transform:none;transform:none}}.fadeInRight{-webkit-animation-name:fadeInRight;animation-name:fadeInRight}@-webkit-keyframes fadeInRightBig{0%{opacity:0;-webkit-transform:translate3d(2000px,0,0);transform:translate3d(2000px,0,0)}to{opacity:1;-webkit-transform:none;transform:none}}@keyframes fadeInRightBig{0%{opacity:0;-webkit-transform:translate3d(2000px,0,0);transform:translate3d(2000px,0,0)}to{opacity:1;-webkit-transform:none;transform:none}}.fadeInRightBig{-webkit-animation-name:fadeInRightBig;animation-name:fadeInRightBig}@-webkit-keyframes fadeInUp{0%{opacity:0;-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0)}to{opacity:1;-webkit-transform:none;transform:none}}@keyframes fadeInUp{0%{opacity:0;-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0)}to{opacity:1;-webkit-transform:none;transform:none}}.fadeInUp{-webkit-animation-name:fadeInUp;animation-name:fadeInUp}@-webkit-keyframes fadeInUpBig{0%{opacity:0;-webkit-transform:translate3d(0,2000px,0);transform:translate3d(0,2000px,0)}to{opacity:1;-webkit-transform:none;transform:none}}@keyframes fadeInUpBig{0%{opacity:0;-webkit-transform:translate3d(0,2000px,0);transform:translate3d(0,2000px,0)}to{opacity:1;-webkit-transform:none;transform:none}}.fadeInUpBig{-webkit-animation-name:fadeInUpBig;animation-name:fadeInUpBig}@-webkit-keyframes fadeOut{0%{opacity:1}to{opacity:0}}@keyframes fadeOut{0%{opacity:1}to{opacity:0}}.fadeOut{-webkit-animation-name:fadeOut;animation-name:fadeOut}@-webkit-keyframes fadeOutDown{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0)}}@keyframes fadeOutDown{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0)}}.fadeOutDown{-webkit-animation-name:fadeOutDown;animation-name:fadeOutDown}@-webkit-keyframes fadeOutDownBig{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(0,2000px,0);transform:translate3d(0,2000px,0)}}@keyframes fadeOutDownBig{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(0,2000px,0);transform:translate3d(0,2000px,0)}}.fadeOutDownBig{-webkit-animation-name:fadeOutDownBig;animation-name:fadeOutDownBig}@-webkit-keyframes fadeOutLeft{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}}@keyframes fadeOutLeft{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}}.fadeOutLeft{-webkit-animation-name:fadeOutLeft;animation-name:fadeOutLeft}@-webkit-keyframes fadeOutLeftBig{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(-2000px,0,0);transform:translate3d(-2000px,0,0)}}@keyframes fadeOutLeftBig{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(-2000px,0,0);transform:translate3d(-2000px,0,0)}}.fadeOutLeftBig{-webkit-animation-name:fadeOutLeftBig;animation-name:fadeOutLeftBig}@-webkit-keyframes fadeOutRight{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}}@keyframes fadeOutRight{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}}.fadeOutRight{-webkit-animation-name:fadeOutRight;animation-name:fadeOutRight}@-webkit-keyframes fadeOutRightBig{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(2000px,0,0);transform:translate3d(2000px,0,0)}}@keyframes fadeOutRightBig{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(2000px,0,0);transform:translate3d(2000px,0,0)}}.fadeOutRightBig{-webkit-animation-name:fadeOutRightBig;animation-name:fadeOutRightBig}@-webkit-keyframes fadeOutUp{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}}@keyframes fadeOutUp{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}}.fadeOutUp{-webkit-animation-name:fadeOutUp;animation-name:fadeOutUp}@-webkit-keyframes fadeOutUpBig{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(0,-2000px,0);transform:translate3d(0,-2000px,0)}}@keyframes fadeOutUpBig{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(0,-2000px,0);transform:translate3d(0,-2000px,0)}}.fadeOutUpBig{-webkit-animation-name:fadeOutUpBig;animation-name:fadeOutUpBig}@-webkit-keyframes flip{0%{-webkit-transform:perspective(400px) rotateY(-1turn);transform:perspective(400px) rotateY(-1turn)}0%,40%{-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}40%{-webkit-transform:perspective(400px) translateZ(150px) rotateY(-190deg);transform:perspective(400px) translateZ(150px) rotateY(-190deg)}50%{-webkit-transform:perspective(400px) translateZ(150px) rotateY(-170deg);transform:perspective(400px) translateZ(150px) rotateY(-170deg)}50%,80%{-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}80%{-webkit-transform:perspective(400px) scale3d(.95,.95,.95);transform:perspective(400px) scale3d(.95,.95,.95)}to{-webkit-transform:perspective(400px);transform:perspective(400px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}}@keyframes flip{0%{-webkit-transform:perspective(400px) rotateY(-1turn);transform:perspective(400px) rotateY(-1turn)}0%,40%{-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}40%{-webkit-transform:perspective(400px) translateZ(150px) rotateY(-190deg);transform:perspective(400px) translateZ(150px) rotateY(-190deg)}50%{-webkit-transform:perspective(400px) translateZ(150px) rotateY(-170deg);transform:perspective(400px) translateZ(150px) rotateY(-170deg)}50%,80%{-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}80%{-webkit-transform:perspective(400px) scale3d(.95,.95,.95);transform:perspective(400px) scale3d(.95,.95,.95)}to{-webkit-transform:perspective(400px);transform:perspective(400px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}}.animated.flip{-webkit-backface-visibility:visible;backface-visibility:visible;-webkit-animation-name:flip;animation-name:flip}@-webkit-keyframes flipInX{0%{-webkit-transform:perspective(400px) rotateX(90deg);transform:perspective(400px) rotateX(90deg);opacity:0}0%,40%{-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}40%{-webkit-transform:perspective(400px) rotateX(-20deg);transform:perspective(400px) rotateX(-20deg)}60%{-webkit-transform:perspective(400px) rotateX(10deg);transform:perspective(400px) rotateX(10deg);opacity:1}80%{-webkit-transform:perspective(400px) rotateX(-5deg);transform:perspective(400px) rotateX(-5deg)}to{-webkit-transform:perspective(400px);transform:perspective(400px)}}@keyframes flipInX{0%{-webkit-transform:perspective(400px) rotateX(90deg);transform:perspective(400px) rotateX(90deg);opacity:0}0%,40%{-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}40%{-webkit-transform:perspective(400px) rotateX(-20deg);transform:perspective(400px) rotateX(-20deg)}60%{-webkit-transform:perspective(400px) rotateX(10deg);transform:perspective(400px) rotateX(10deg);opacity:1}80%{-webkit-transform:perspective(400px) rotateX(-5deg);transform:perspective(400px) rotateX(-5deg)}to{-webkit-transform:perspective(400px);transform:perspective(400px)}}.flipInX{-webkit-backface-visibility:visible!important;backface-visibility:visible!important;-webkit-animation-name:flipInX;animation-name:flipInX}@-webkit-keyframes flipInY{0%{-webkit-transform:perspective(400px) rotateY(90deg);transform:perspective(400px) rotateY(90deg);opacity:0}0%,40%{-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}40%{-webkit-transform:perspective(400px) rotateY(-20deg);transform:perspective(400px) rotateY(-20deg)}60%{-webkit-transform:perspective(400px) rotateY(10deg);transform:perspective(400px) rotateY(10deg);opacity:1}80%{-webkit-transform:perspective(400px) rotateY(-5deg);transform:perspective(400px) rotateY(-5deg)}to{-webkit-transform:perspective(400px);transform:perspective(400px)}}@keyframes flipInY{0%{-webkit-transform:perspective(400px) rotateY(90deg);transform:perspective(400px) rotateY(90deg);opacity:0}0%,40%{-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}40%{-webkit-transform:perspective(400px) rotateY(-20deg);transform:perspective(400px) rotateY(-20deg)}60%{-webkit-transform:perspective(400px) rotateY(10deg);transform:perspective(400px) rotateY(10deg);opacity:1}80%{-webkit-transform:perspective(400px) rotateY(-5deg);transform:perspective(400px) rotateY(-5deg)}to{-webkit-transform:perspective(400px);transform:perspective(400px)}}.flipInY{-webkit-backface-visibility:visible!important;backface-visibility:visible!important;-webkit-animation-name:flipInY;animation-name:flipInY}@-webkit-keyframes flipOutX{0%{-webkit-transform:perspective(400px);transform:perspective(400px)}30%{-webkit-transform:perspective(400px) rotateX(-20deg);transform:perspective(400px) rotateX(-20deg);opacity:1}to{-webkit-transform:perspective(400px) rotateX(90deg);transform:perspective(400px) rotateX(90deg);opacity:0}}@keyframes flipOutX{0%{-webkit-transform:perspective(400px);transform:perspective(400px)}30%{-webkit-transform:perspective(400px) rotateX(-20deg);transform:perspective(400px) rotateX(-20deg);opacity:1}to{-webkit-transform:perspective(400px) rotateX(90deg);transform:perspective(400px) rotateX(90deg);opacity:0}}.flipOutX{-webkit-animation-name:flipOutX;animation-name:flipOutX;-webkit-backface-visibility:visible!important;backface-visibility:visible!important}@-webkit-keyframes flipOutY{0%{-webkit-transform:perspective(400px);transform:perspective(400px)}30%{-webkit-transform:perspective(400px) rotateY(-15deg);transform:perspective(400px) rotateY(-15deg);opacity:1}to{-webkit-transform:perspective(400px) rotateY(90deg);transform:perspective(400px) rotateY(90deg);opacity:0}}@keyframes flipOutY{0%{-webkit-transform:perspective(400px);transform:perspective(400px)}30%{-webkit-transform:perspective(400px) rotateY(-15deg);transform:perspective(400px) rotateY(-15deg);opacity:1}to{-webkit-transform:perspective(400px) rotateY(90deg);transform:perspective(400px) rotateY(90deg);opacity:0}}.flipOutY{-webkit-backface-visibility:visible!important;backface-visibility:visible!important;-webkit-animation-name:flipOutY;animation-name:flipOutY}@-webkit-keyframes lightSpeedIn{0%{-webkit-transform:translate3d(100%,0,0) skewX(-30deg);transform:translate3d(100%,0,0) skewX(-30deg);opacity:0}60%{-webkit-transform:skewX(20deg);transform:skewX(20deg)}60%,80%{opacity:1}80%{-webkit-transform:skewX(-5deg);transform:skewX(-5deg)}to{-webkit-transform:none;transform:none;opacity:1}}@keyframes lightSpeedIn{0%{-webkit-transform:translate3d(100%,0,0) skewX(-30deg);transform:translate3d(100%,0,0) skewX(-30deg);opacity:0}60%{-webkit-transform:skewX(20deg);transform:skewX(20deg)}60%,80%{opacity:1}80%{-webkit-transform:skewX(-5deg);transform:skewX(-5deg)}to{-webkit-transform:none;transform:none;opacity:1}}.lightSpeedIn{-webkit-animation-name:lightSpeedIn;animation-name:lightSpeedIn;-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}@-webkit-keyframes lightSpeedOut{0%{opacity:1}to{-webkit-transform:translate3d(100%,0,0) skewX(30deg);transform:translate3d(100%,0,0) skewX(30deg);opacity:0}}@keyframes lightSpeedOut{0%{opacity:1}to{-webkit-transform:translate3d(100%,0,0) skewX(30deg);transform:translate3d(100%,0,0) skewX(30deg);opacity:0}}.lightSpeedOut{-webkit-animation-name:lightSpeedOut;animation-name:lightSpeedOut;-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}@-webkit-keyframes rotateIn{0%{transform-origin:center;-webkit-transform:rotate(-200deg);transform:rotate(-200deg);opacity:0}0%,to{-webkit-transform-origin:center}to{transform-origin:center;-webkit-transform:none;transform:none;opacity:1}}@keyframes rotateIn{0%{transform-origin:center;-webkit-transform:rotate(-200deg);transform:rotate(-200deg);opacity:0}0%,to{-webkit-transform-origin:center}to{transform-origin:center;-webkit-transform:none;transform:none;opacity:1}}.rotateIn{-webkit-animation-name:rotateIn;animation-name:rotateIn}@-webkit-keyframes rotateInDownLeft{0%{transform-origin:left bottom;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);opacity:0}0%,to{-webkit-transform-origin:left bottom}to{transform-origin:left bottom;-webkit-transform:none;transform:none;opacity:1}}@keyframes rotateInDownLeft{0%{transform-origin:left bottom;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);opacity:0}0%,to{-webkit-transform-origin:left bottom}to{transform-origin:left bottom;-webkit-transform:none;transform:none;opacity:1}}.rotateInDownLeft{-webkit-animation-name:rotateInDownLeft;animation-name:rotateInDownLeft}@-webkit-keyframes rotateInDownRight{0%{transform-origin:right bottom;-webkit-transform:rotate(45deg);transform:rotate(45deg);opacity:0}0%,to{-webkit-transform-origin:right bottom}to{transform-origin:right bottom;-webkit-transform:none;transform:none;opacity:1}}@keyframes rotateInDownRight{0%{transform-origin:right bottom;-webkit-transform:rotate(45deg);transform:rotate(45deg);opacity:0}0%,to{-webkit-transform-origin:right bottom}to{transform-origin:right bottom;-webkit-transform:none;transform:none;opacity:1}}.rotateInDownRight{-webkit-animation-name:rotateInDownRight;animation-name:rotateInDownRight}@-webkit-keyframes rotateInUpLeft{0%{transform-origin:left bottom;-webkit-transform:rotate(45deg);transform:rotate(45deg);opacity:0}0%,to{-webkit-transform-origin:left bottom}to{transform-origin:left bottom;-webkit-transform:none;transform:none;opacity:1}}@keyframes rotateInUpLeft{0%{transform-origin:left bottom;-webkit-transform:rotate(45deg);transform:rotate(45deg);opacity:0}0%,to{-webkit-transform-origin:left bottom}to{transform-origin:left bottom;-webkit-transform:none;transform:none;opacity:1}}.rotateInUpLeft{-webkit-animation-name:rotateInUpLeft;animation-name:rotateInUpLeft}@-webkit-keyframes rotateInUpRight{0%{transform-origin:right bottom;-webkit-transform:rotate(-90deg);transform:rotate(-90deg);opacity:0}0%,to{-webkit-transform-origin:right bottom}to{transform-origin:right bottom;-webkit-transform:none;transform:none;opacity:1}}@keyframes rotateInUpRight{0%{transform-origin:right bottom;-webkit-transform:rotate(-90deg);transform:rotate(-90deg);opacity:0}0%,to{-webkit-transform-origin:right bottom}to{transform-origin:right bottom;-webkit-transform:none;transform:none;opacity:1}}.rotateInUpRight{-webkit-animation-name:rotateInUpRight;animation-name:rotateInUpRight}@-webkit-keyframes rotateOut{0%{transform-origin:center;opacity:1}0%,to{-webkit-transform-origin:center}to{transform-origin:center;-webkit-transform:rotate(200deg);transform:rotate(200deg);opacity:0}}@keyframes rotateOut{0%{transform-origin:center;opacity:1}0%,to{-webkit-transform-origin:center}to{transform-origin:center;-webkit-transform:rotate(200deg);transform:rotate(200deg);opacity:0}}.rotateOut{-webkit-animation-name:rotateOut;animation-name:rotateOut}@-webkit-keyframes rotateOutDownLeft{0%{transform-origin:left bottom;opacity:1}0%,to{-webkit-transform-origin:left bottom}to{transform-origin:left bottom;-webkit-transform:rotate(45deg);transform:rotate(45deg);opacity:0}}@keyframes rotateOutDownLeft{0%{transform-origin:left bottom;opacity:1}0%,to{-webkit-transform-origin:left bottom}to{transform-origin:left bottom;-webkit-transform:rotate(45deg);transform:rotate(45deg);opacity:0}}.rotateOutDownLeft{-webkit-animation-name:rotateOutDownLeft;animation-name:rotateOutDownLeft}@-webkit-keyframes rotateOutDownRight{0%{transform-origin:right bottom;opacity:1}0%,to{-webkit-transform-origin:right bottom}to{transform-origin:right bottom;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);opacity:0}}@keyframes rotateOutDownRight{0%{transform-origin:right bottom;opacity:1}0%,to{-webkit-transform-origin:right bottom}to{transform-origin:right bottom;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);opacity:0}}.rotateOutDownRight{-webkit-animation-name:rotateOutDownRight;animation-name:rotateOutDownRight}@-webkit-keyframes rotateOutUpLeft{0%{transform-origin:left bottom;opacity:1}0%,to{-webkit-transform-origin:left bottom}to{transform-origin:left bottom;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);opacity:0}}@keyframes rotateOutUpLeft{0%{transform-origin:left bottom;opacity:1}0%,to{-webkit-transform-origin:left bottom}to{transform-origin:left bottom;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);opacity:0}}.rotateOutUpLeft{-webkit-animation-name:rotateOutUpLeft;animation-name:rotateOutUpLeft}@-webkit-keyframes rotateOutUpRight{0%{transform-origin:right bottom;opacity:1}0%,to{-webkit-transform-origin:right bottom}to{transform-origin:right bottom;-webkit-transform:rotate(90deg);transform:rotate(90deg);opacity:0}}@keyframes rotateOutUpRight{0%{transform-origin:right bottom;opacity:1}0%,to{-webkit-transform-origin:right bottom}to{transform-origin:right bottom;-webkit-transform:rotate(90deg);transform:rotate(90deg);opacity:0}}.rotateOutUpRight{-webkit-animation-name:rotateOutUpRight;animation-name:rotateOutUpRight}@-webkit-keyframes hinge{0%{transform-origin:top left}0%,20%,60%{-webkit-transform-origin:top left;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out}20%,60%{-webkit-transform:rotate(80deg);transform:rotate(80deg);transform-origin:top left}40%,80%{-webkit-transform:rotate(60deg);transform:rotate(60deg);-webkit-transform-origin:top left;transform-origin:top left;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;opacity:1}to{-webkit-transform:translate3d(0,700px,0);transform:translate3d(0,700px,0);opacity:0}}@keyframes hinge{0%{transform-origin:top left}0%,20%,60%{-webkit-transform-origin:top left;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out}20%,60%{-webkit-transform:rotate(80deg);transform:rotate(80deg);transform-origin:top left}40%,80%{-webkit-transform:rotate(60deg);transform:rotate(60deg);-webkit-transform-origin:top left;transform-origin:top left;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;opacity:1}to{-webkit-transform:translate3d(0,700px,0);transform:translate3d(0,700px,0);opacity:0}}.hinge{-webkit-animation-name:hinge;animation-name:hinge}@-webkit-keyframes rollIn{0%{opacity:0;-webkit-transform:translate3d(-100%,0,0) rotate(-120deg);transform:translate3d(-100%,0,0) rotate(-120deg)}to{opacity:1;-webkit-transform:none;transform:none}}@keyframes rollIn{0%{opacity:0;-webkit-transform:translate3d(-100%,0,0) rotate(-120deg);transform:translate3d(-100%,0,0) rotate(-120deg)}to{opacity:1;-webkit-transform:none;transform:none}}.rollIn{-webkit-animation-name:rollIn;animation-name:rollIn}@-webkit-keyframes rollOut{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(100%,0,0) rotate(120deg);transform:translate3d(100%,0,0) rotate(120deg)}}@keyframes rollOut{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(100%,0,0) rotate(120deg);transform:translate3d(100%,0,0) rotate(120deg)}}.rollOut{-webkit-animation-name:rollOut;animation-name:rollOut}@-webkit-keyframes zoomIn{0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}50%{opacity:1}}@keyframes zoomIn{0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}50%{opacity:1}}.zoomIn{-webkit-animation-name:zoomIn;animation-name:zoomIn}@-webkit-keyframes zoomInDown{0%{opacity:0;-webkit-transform:scale3d(.1,.1,.1) translate3d(0,-1000px,0);transform:scale3d(.1,.1,.1) translate3d(0,-1000px,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}60%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(0,60px,0);transform:scale3d(.475,.475,.475) translate3d(0,60px,0);-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}@keyframes zoomInDown{0%{opacity:0;-webkit-transform:scale3d(.1,.1,.1) translate3d(0,-1000px,0);transform:scale3d(.1,.1,.1) translate3d(0,-1000px,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}60%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(0,60px,0);transform:scale3d(.475,.475,.475) translate3d(0,60px,0);-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}.zoomInDown{-webkit-animation-name:zoomInDown;animation-name:zoomInDown}@-webkit-keyframes zoomInLeft{0%{opacity:0;-webkit-transform:scale3d(.1,.1,.1) translate3d(-1000px,0,0);transform:scale3d(.1,.1,.1) translate3d(-1000px,0,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}60%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(10px,0,0);transform:scale3d(.475,.475,.475) translate3d(10px,0,0);-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}@keyframes zoomInLeft{0%{opacity:0;-webkit-transform:scale3d(.1,.1,.1) translate3d(-1000px,0,0);transform:scale3d(.1,.1,.1) translate3d(-1000px,0,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}60%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(10px,0,0);transform:scale3d(.475,.475,.475) translate3d(10px,0,0);-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}.zoomInLeft{-webkit-animation-name:zoomInLeft;animation-name:zoomInLeft}@-webkit-keyframes zoomInRight{0%{opacity:0;-webkit-transform:scale3d(.1,.1,.1) translate3d(1000px,0,0);transform:scale3d(.1,.1,.1) translate3d(1000px,0,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}60%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(-10px,0,0);transform:scale3d(.475,.475,.475) translate3d(-10px,0,0);-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}@keyframes zoomInRight{0%{opacity:0;-webkit-transform:scale3d(.1,.1,.1) translate3d(1000px,0,0);transform:scale3d(.1,.1,.1) translate3d(1000px,0,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}60%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(-10px,0,0);transform:scale3d(.475,.475,.475) translate3d(-10px,0,0);-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}.zoomInRight{-webkit-animation-name:zoomInRight;animation-name:zoomInRight}@-webkit-keyframes zoomInUp{0%{opacity:0;-webkit-transform:scale3d(.1,.1,.1) translate3d(0,1000px,0);transform:scale3d(.1,.1,.1) translate3d(0,1000px,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}60%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(0,-60px,0);transform:scale3d(.475,.475,.475) translate3d(0,-60px,0);-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}@keyframes zoomInUp{0%{opacity:0;-webkit-transform:scale3d(.1,.1,.1) translate3d(0,1000px,0);transform:scale3d(.1,.1,.1) translate3d(0,1000px,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}60%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(0,-60px,0);transform:scale3d(.475,.475,.475) translate3d(0,-60px,0);-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}.zoomInUp{-webkit-animation-name:zoomInUp;animation-name:zoomInUp}@-webkit-keyframes zoomOut{0%{opacity:1}50%{-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}50%,to{opacity:0}}@keyframes zoomOut{0%{opacity:1}50%{-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}50%,to{opacity:0}}.zoomOut{-webkit-animation-name:zoomOut;animation-name:zoomOut}@-webkit-keyframes zoomOutDown{40%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(0,-60px,0);transform:scale3d(.475,.475,.475) translate3d(0,-60px,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}to{opacity:0;-webkit-transform:scale3d(.1,.1,.1) translate3d(0,2000px,0);transform:scale3d(.1,.1,.1) translate3d(0,2000px,0);-webkit-transform-origin:center bottom;transform-origin:center bottom;-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}@keyframes zoomOutDown{40%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(0,-60px,0);transform:scale3d(.475,.475,.475) translate3d(0,-60px,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}to{opacity:0;-webkit-transform:scale3d(.1,.1,.1) translate3d(0,2000px,0);transform:scale3d(.1,.1,.1) translate3d(0,2000px,0);-webkit-transform-origin:center bottom;transform-origin:center bottom;-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}.zoomOutDown{-webkit-animation-name:zoomOutDown;animation-name:zoomOutDown}@-webkit-keyframes zoomOutLeft{40%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(42px,0,0);transform:scale3d(.475,.475,.475) translate3d(42px,0,0)}to{opacity:0;-webkit-transform:scale(.1) translate3d(-2000px,0,0);transform:scale(.1) translate3d(-2000px,0,0);-webkit-transform-origin:left center;transform-origin:left center}}@keyframes zoomOutLeft{40%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(42px,0,0);transform:scale3d(.475,.475,.475) translate3d(42px,0,0)}to{opacity:0;-webkit-transform:scale(.1) translate3d(-2000px,0,0);transform:scale(.1) translate3d(-2000px,0,0);-webkit-transform-origin:left center;transform-origin:left center}}.zoomOutLeft{-webkit-animation-name:zoomOutLeft;animation-name:zoomOutLeft}@-webkit-keyframes zoomOutRight{40%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(-42px,0,0);transform:scale3d(.475,.475,.475) translate3d(-42px,0,0)}to{opacity:0;-webkit-transform:scale(.1) translate3d(2000px,0,0);transform:scale(.1) translate3d(2000px,0,0);-webkit-transform-origin:right center;transform-origin:right center}}@keyframes zoomOutRight{40%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(-42px,0,0);transform:scale3d(.475,.475,.475) translate3d(-42px,0,0)}to{opacity:0;-webkit-transform:scale(.1) translate3d(2000px,0,0);transform:scale(.1) translate3d(2000px,0,0);-webkit-transform-origin:right center;transform-origin:right center}}.zoomOutRight{-webkit-animation-name:zoomOutRight;animation-name:zoomOutRight}@-webkit-keyframes zoomOutUp{40%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(0,60px,0);transform:scale3d(.475,.475,.475) translate3d(0,60px,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}to{opacity:0;-webkit-transform:scale3d(.1,.1,.1) translate3d(0,-2000px,0);transform:scale3d(.1,.1,.1) translate3d(0,-2000px,0);-webkit-transform-origin:center bottom;transform-origin:center bottom;-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}@keyframes zoomOutUp{40%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(0,60px,0);transform:scale3d(.475,.475,.475) translate3d(0,60px,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}to{opacity:0;-webkit-transform:scale3d(.1,.1,.1) translate3d(0,-2000px,0);transform:scale3d(.1,.1,.1) translate3d(0,-2000px,0);-webkit-transform-origin:center bottom;transform-origin:center bottom;-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}.zoomOutUp{-webkit-animation-name:zoomOutUp;animation-name:zoomOutUp}@-webkit-keyframes slideInDown{0%{-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0);visibility:visible}to{-webkit-transform:translateZ(0);transform:translateZ(0)}}@keyframes slideInDown{0%{-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0);visibility:visible}to{-webkit-transform:translateZ(0);transform:translateZ(0)}}.slideInDown{-webkit-animation-name:slideInDown;animation-name:slideInDown}@-webkit-keyframes slideInLeft{0%{-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0);visibility:visible}to{-webkit-transform:translateZ(0);transform:translateZ(0)}}@keyframes slideInLeft{0%{-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0);visibility:visible}to{-webkit-transform:translateZ(0);transform:translateZ(0)}}.slideInLeft{-webkit-animation-name:slideInLeft;animation-name:slideInLeft}@-webkit-keyframes slideInRight{0%{-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0);visibility:visible}to{-webkit-transform:translateZ(0);transform:translateZ(0)}}@keyframes slideInRight{0%{-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0);visibility:visible}to{-webkit-transform:translateZ(0);transform:translateZ(0)}}.slideInRight{-webkit-animation-name:slideInRight;animation-name:slideInRight}@-webkit-keyframes slideInUp{0%{-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0);visibility:visible}to{-webkit-transform:translateZ(0);transform:translateZ(0)}}@keyframes slideInUp{0%{-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0);visibility:visible}to{-webkit-transform:translateZ(0);transform:translateZ(0)}}.slideInUp{-webkit-animation-name:slideInUp;animation-name:slideInUp}@-webkit-keyframes slideOutDown{0%{-webkit-transform:translateZ(0);transform:translateZ(0)}to{visibility:hidden;-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0)}}@keyframes slideOutDown{0%{-webkit-transform:translateZ(0);transform:translateZ(0)}to{visibility:hidden;-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0)}}.slideOutDown{-webkit-animation-name:slideOutDown;animation-name:slideOutDown}@-webkit-keyframes slideOutLeft{0%{-webkit-transform:translateZ(0);transform:translateZ(0)}to{visibility:hidden;-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}}@keyframes slideOutLeft{0%{-webkit-transform:translateZ(0);transform:translateZ(0)}to{visibility:hidden;-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}}.slideOutLeft{-webkit-animation-name:slideOutLeft;animation-name:slideOutLeft}@-webkit-keyframes slideOutRight{0%{-webkit-transform:translateZ(0);transform:translateZ(0)}to{visibility:hidden;-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}}@keyframes slideOutRight{0%{-webkit-transform:translateZ(0);transform:translateZ(0)}to{visibility:hidden;-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}}.slideOutRight{-webkit-animation-name:slideOutRight;animation-name:slideOutRight}@-webkit-keyframes slideOutUp{0%{-webkit-transform:translateZ(0);transform:translateZ(0)}to{visibility:hidden;-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}}@keyframes slideOutUp{0%{-webkit-transform:translateZ(0);transform:translateZ(0)}to{visibility:hidden;-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}}.slideOutUp{-webkit-animation-name:slideOutUp;animation-name:slideOutUp}", ""]);
 
 	// exports
 
@@ -42468,40 +42468,80 @@
 /* 32 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__.p + "_/fonts/fontawesome-webfont.eot";
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+
+	// load the styles
+	var content = __webpack_require__(33);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(29)(content, {});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(false) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept("!!../../node_modules/css-loader/index.js!./font-awesome.css", function() {
+				var newContent = require("!!../../node_modules/css-loader/index.js!./font-awesome.css");
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
 
 /***/ },
 /* 33 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__.p + "_/fonts/fontawesome-webfont.woff2";
+	exports = module.exports = __webpack_require__(6)();
+	// imports
+
+
+	// module
+	exports.push([module.id, "@font-face {\r\n  font-family: 'FontAwesome';\r\n  src: url(" + __webpack_require__(34) + ");\r\n  src: url(" + __webpack_require__(34) + ") format('embedded-opentype'), url(" + __webpack_require__(35) + ") format('woff2'), url(" + __webpack_require__(36) + ") format('woff'), url(" + __webpack_require__(37) + ") format('truetype'), url(" + __webpack_require__(38) + "#fontawesomeregular) format('svg');\r\n  font-weight: normal;\r\n  font-style: normal;\r\n}\r\n.fa {\r\n  display: inline-block;\r\n  font: normal normal normal 14px/1 FontAwesome;\r\n  font-size: inherit;\r\n  text-rendering: auto;\r\n  -webkit-font-smoothing: antialiased;\r\n  -moz-osx-font-smoothing: grayscale;\r\n}\r\n/* makes the font 33% larger relative to the icon container */\r\n.fa-lg {\r\n  font-size: 1.33333333em;\r\n  line-height: 0.75em;\r\n  vertical-align: -15%;\r\n}\r\n.fa-2x {\r\n  font-size: 2em;\r\n}\r\n.fa-3x {\r\n  font-size: 3em;\r\n}\r\n.fa-4x {\r\n  font-size: 4em;\r\n}\r\n.fa-5x {\r\n  font-size: 5em;\r\n}\r\n.fa-fw {\r\n  width: 1.28571429em;\r\n  text-align: center;\r\n}\r\n.fa-ul {\r\n  padding-left: 0;\r\n  margin-left: 2.14285714em;\r\n  list-style-type: none;\r\n}\r\n.fa-ul > li {\r\n  position: relative;\r\n}\r\n.fa-li {\r\n  position: absolute;\r\n  left: -2.14285714em;\r\n  width: 2.14285714em;\r\n  top: 0.14285714em;\r\n  text-align: center;\r\n}\r\n.fa-li.fa-lg {\r\n  left: -1.85714286em;\r\n}\r\n.fa-border {\r\n  padding: .2em .25em .15em;\r\n  border: solid 0.08em #eeeeee;\r\n  border-radius: .1em;\r\n}\r\n.fa-pull-left {\r\n  float: left;\r\n}\r\n.fa-pull-right {\r\n  float: right;\r\n}\r\n.fa.fa-pull-left {\r\n  margin-right: .3em;\r\n}\r\n.fa.fa-pull-right {\r\n  margin-left: .3em;\r\n}\r\n/* Deprecated as of 4.4.0 */\r\n.pull-right {\r\n  float: right;\r\n}\r\n.pull-left {\r\n  float: left;\r\n}\r\n.fa.pull-left {\r\n  margin-right: .3em;\r\n}\r\n.fa.pull-right {\r\n  margin-left: .3em;\r\n}\r\n.fa-spin {\r\n  -webkit-animation: fa-spin 2s infinite linear;\r\n  animation: fa-spin 2s infinite linear;\r\n}\r\n.fa-pulse {\r\n  -webkit-animation: fa-spin 1s infinite steps(8);\r\n  animation: fa-spin 1s infinite steps(8);\r\n}\r\n@-webkit-keyframes fa-spin {\r\n  0% {\r\n    -webkit-transform: rotate(0deg);\r\n    transform: rotate(0deg);\r\n  }\r\n  100% {\r\n    -webkit-transform: rotate(359deg);\r\n    transform: rotate(359deg);\r\n  }\r\n}\r\n@keyframes fa-spin {\r\n  0% {\r\n    -webkit-transform: rotate(0deg);\r\n    transform: rotate(0deg);\r\n  }\r\n  100% {\r\n    -webkit-transform: rotate(359deg);\r\n    transform: rotate(359deg);\r\n  }\r\n}\r\n.fa-rotate-90 {\r\n  -ms-filter: \"progid:DXImageTransform.Microsoft.BasicImage(rotation=1)\";\r\n  -webkit-transform: rotate(90deg);\r\n  -ms-transform: rotate(90deg);\r\n  transform: rotate(90deg);\r\n}\r\n.fa-rotate-180 {\r\n  -ms-filter: \"progid:DXImageTransform.Microsoft.BasicImage(rotation=2)\";\r\n  -webkit-transform: rotate(180deg);\r\n  -ms-transform: rotate(180deg);\r\n  transform: rotate(180deg);\r\n}\r\n.fa-rotate-270 {\r\n  -ms-filter: \"progid:DXImageTransform.Microsoft.BasicImage(rotation=3)\";\r\n  -webkit-transform: rotate(270deg);\r\n  -ms-transform: rotate(270deg);\r\n  transform: rotate(270deg);\r\n}\r\n.fa-flip-horizontal {\r\n  -ms-filter: \"progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)\";\r\n  -webkit-transform: scale(-1, 1);\r\n  -ms-transform: scale(-1, 1);\r\n  transform: scale(-1, 1);\r\n}\r\n.fa-flip-vertical {\r\n  -ms-filter: \"progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)\";\r\n  -webkit-transform: scale(1, -1);\r\n  -ms-transform: scale(1, -1);\r\n  transform: scale(1, -1);\r\n}\r\n:root .fa-rotate-90,\r\n:root .fa-rotate-180,\r\n:root .fa-rotate-270,\r\n:root .fa-flip-horizontal,\r\n:root .fa-flip-vertical {\r\n  filter: none;\r\n}\r\n.fa-stack {\r\n  position: relative;\r\n  display: inline-block;\r\n  width: 2em;\r\n  height: 2em;\r\n  line-height: 2em;\r\n  vertical-align: middle;\r\n}\r\n.fa-stack-1x,\r\n.fa-stack-2x {\r\n  position: absolute;\r\n  left: 0;\r\n  width: 100%;\r\n  text-align: center;\r\n}\r\n.fa-stack-1x {\r\n  line-height: inherit;\r\n}\r\n.fa-stack-2x {\r\n  font-size: 2em;\r\n}\r\n.fa-inverse {\r\n  color: #ffffff;\r\n}\r\n/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen\r\n   readers do not read off random characters that represent icons */\r\n.fa-glass:before {\r\n  content: \"\\F000\";\r\n}\r\n.fa-music:before {\r\n  content: \"\\F001\";\r\n}\r\n.fa-search:before {\r\n  content: \"\\F002\";\r\n}\r\n.fa-envelope-o:before {\r\n  content: \"\\F003\";\r\n}\r\n.fa-heart:before {\r\n  content: \"\\F004\";\r\n}\r\n.fa-star:before {\r\n  content: \"\\F005\";\r\n}\r\n.fa-star-o:before {\r\n  content: \"\\F006\";\r\n}\r\n.fa-user:before {\r\n  content: \"\\F007\";\r\n}\r\n.fa-film:before {\r\n  content: \"\\F008\";\r\n}\r\n.fa-th-large:before {\r\n  content: \"\\F009\";\r\n}\r\n.fa-th:before {\r\n  content: \"\\F00A\";\r\n}\r\n.fa-th-list:before {\r\n  content: \"\\F00B\";\r\n}\r\n.fa-check:before {\r\n  content: \"\\F00C\";\r\n}\r\n.fa-remove:before,\r\n.fa-close:before,\r\n.fa-times:before {\r\n  content: \"\\F00D\";\r\n}\r\n.fa-search-plus:before {\r\n  content: \"\\F00E\";\r\n}\r\n.fa-search-minus:before {\r\n  content: \"\\F010\";\r\n}\r\n.fa-power-off:before {\r\n  content: \"\\F011\";\r\n}\r\n.fa-signal:before {\r\n  content: \"\\F012\";\r\n}\r\n.fa-gear:before,\r\n.fa-cog:before {\r\n  content: \"\\F013\";\r\n}\r\n.fa-trash-o:before {\r\n  content: \"\\F014\";\r\n}\r\n.fa-home:before {\r\n  content: \"\\F015\";\r\n}\r\n.fa-file-o:before {\r\n  content: \"\\F016\";\r\n}\r\n.fa-clock-o:before {\r\n  content: \"\\F017\";\r\n}\r\n.fa-road:before {\r\n  content: \"\\F018\";\r\n}\r\n.fa-download:before {\r\n  content: \"\\F019\";\r\n}\r\n.fa-arrow-circle-o-down:before {\r\n  content: \"\\F01A\";\r\n}\r\n.fa-arrow-circle-o-up:before {\r\n  content: \"\\F01B\";\r\n}\r\n.fa-inbox:before {\r\n  content: \"\\F01C\";\r\n}\r\n.fa-play-circle-o:before {\r\n  content: \"\\F01D\";\r\n}\r\n.fa-rotate-right:before,\r\n.fa-repeat:before {\r\n  content: \"\\F01E\";\r\n}\r\n.fa-refresh:before {\r\n  content: \"\\F021\";\r\n}\r\n.fa-list-alt:before {\r\n  content: \"\\F022\";\r\n}\r\n.fa-lock:before {\r\n  content: \"\\F023\";\r\n}\r\n.fa-flag:before {\r\n  content: \"\\F024\";\r\n}\r\n.fa-headphones:before {\r\n  content: \"\\F025\";\r\n}\r\n.fa-volume-off:before {\r\n  content: \"\\F026\";\r\n}\r\n.fa-volume-down:before {\r\n  content: \"\\F027\";\r\n}\r\n.fa-volume-up:before {\r\n  content: \"\\F028\";\r\n}\r\n.fa-qrcode:before {\r\n  content: \"\\F029\";\r\n}\r\n.fa-barcode:before {\r\n  content: \"\\F02A\";\r\n}\r\n.fa-tag:before {\r\n  content: \"\\F02B\";\r\n}\r\n.fa-tags:before {\r\n  content: \"\\F02C\";\r\n}\r\n.fa-book:before {\r\n  content: \"\\F02D\";\r\n}\r\n.fa-bookmark:before {\r\n  content: \"\\F02E\";\r\n}\r\n.fa-print:before {\r\n  content: \"\\F02F\";\r\n}\r\n.fa-camera:before {\r\n  content: \"\\F030\";\r\n}\r\n.fa-font:before {\r\n  content: \"\\F031\";\r\n}\r\n.fa-bold:before {\r\n  content: \"\\F032\";\r\n}\r\n.fa-italic:before {\r\n  content: \"\\F033\";\r\n}\r\n.fa-text-height:before {\r\n  content: \"\\F034\";\r\n}\r\n.fa-text-width:before {\r\n  content: \"\\F035\";\r\n}\r\n.fa-align-left:before {\r\n  content: \"\\F036\";\r\n}\r\n.fa-align-center:before {\r\n  content: \"\\F037\";\r\n}\r\n.fa-align-right:before {\r\n  content: \"\\F038\";\r\n}\r\n.fa-align-justify:before {\r\n  content: \"\\F039\";\r\n}\r\n.fa-list:before {\r\n  content: \"\\F03A\";\r\n}\r\n.fa-dedent:before,\r\n.fa-outdent:before {\r\n  content: \"\\F03B\";\r\n}\r\n.fa-indent:before {\r\n  content: \"\\F03C\";\r\n}\r\n.fa-video-camera:before {\r\n  content: \"\\F03D\";\r\n}\r\n.fa-photo:before,\r\n.fa-image:before,\r\n.fa-picture-o:before {\r\n  content: \"\\F03E\";\r\n}\r\n.fa-pencil:before {\r\n  content: \"\\F040\";\r\n}\r\n.fa-map-marker:before {\r\n  content: \"\\F041\";\r\n}\r\n.fa-adjust:before {\r\n  content: \"\\F042\";\r\n}\r\n.fa-tint:before {\r\n  content: \"\\F043\";\r\n}\r\n.fa-edit:before,\r\n.fa-pencil-square-o:before {\r\n  content: \"\\F044\";\r\n}\r\n.fa-share-square-o:before {\r\n  content: \"\\F045\";\r\n}\r\n.fa-check-square-o:before {\r\n  content: \"\\F046\";\r\n}\r\n.fa-arrows:before {\r\n  content: \"\\F047\";\r\n}\r\n.fa-step-backward:before {\r\n  content: \"\\F048\";\r\n}\r\n.fa-fast-backward:before {\r\n  content: \"\\F049\";\r\n}\r\n.fa-backward:before {\r\n  content: \"\\F04A\";\r\n}\r\n.fa-play:before {\r\n  content: \"\\F04B\";\r\n}\r\n.fa-pause:before {\r\n  content: \"\\F04C\";\r\n}\r\n.fa-stop:before {\r\n  content: \"\\F04D\";\r\n}\r\n.fa-forward:before {\r\n  content: \"\\F04E\";\r\n}\r\n.fa-fast-forward:before {\r\n  content: \"\\F050\";\r\n}\r\n.fa-step-forward:before {\r\n  content: \"\\F051\";\r\n}\r\n.fa-eject:before {\r\n  content: \"\\F052\";\r\n}\r\n.fa-chevron-left:before {\r\n  content: \"\\F053\";\r\n}\r\n.fa-chevron-right:before {\r\n  content: \"\\F054\";\r\n}\r\n.fa-plus-circle:before {\r\n  content: \"\\F055\";\r\n}\r\n.fa-minus-circle:before {\r\n  content: \"\\F056\";\r\n}\r\n.fa-times-circle:before {\r\n  content: \"\\F057\";\r\n}\r\n.fa-check-circle:before {\r\n  content: \"\\F058\";\r\n}\r\n.fa-question-circle:before {\r\n  content: \"\\F059\";\r\n}\r\n.fa-info-circle:before {\r\n  content: \"\\F05A\";\r\n}\r\n.fa-crosshairs:before {\r\n  content: \"\\F05B\";\r\n}\r\n.fa-times-circle-o:before {\r\n  content: \"\\F05C\";\r\n}\r\n.fa-check-circle-o:before {\r\n  content: \"\\F05D\";\r\n}\r\n.fa-ban:before {\r\n  content: \"\\F05E\";\r\n}\r\n.fa-arrow-left:before {\r\n  content: \"\\F060\";\r\n}\r\n.fa-arrow-right:before {\r\n  content: \"\\F061\";\r\n}\r\n.fa-arrow-up:before {\r\n  content: \"\\F062\";\r\n}\r\n.fa-arrow-down:before {\r\n  content: \"\\F063\";\r\n}\r\n.fa-mail-forward:before,\r\n.fa-share:before {\r\n  content: \"\\F064\";\r\n}\r\n.fa-expand:before {\r\n  content: \"\\F065\";\r\n}\r\n.fa-compress:before {\r\n  content: \"\\F066\";\r\n}\r\n.fa-plus:before {\r\n  content: \"\\F067\";\r\n}\r\n.fa-minus:before {\r\n  content: \"\\F068\";\r\n}\r\n.fa-asterisk:before {\r\n  content: \"\\F069\";\r\n}\r\n.fa-exclamation-circle:before {\r\n  content: \"\\F06A\";\r\n}\r\n.fa-gift:before {\r\n  content: \"\\F06B\";\r\n}\r\n.fa-leaf:before {\r\n  content: \"\\F06C\";\r\n}\r\n.fa-fire:before {\r\n  content: \"\\F06D\";\r\n}\r\n.fa-eye:before {\r\n  content: \"\\F06E\";\r\n}\r\n.fa-eye-slash:before {\r\n  content: \"\\F070\";\r\n}\r\n.fa-warning:before,\r\n.fa-exclamation-triangle:before {\r\n  content: \"\\F071\";\r\n}\r\n.fa-plane:before {\r\n  content: \"\\F072\";\r\n}\r\n.fa-calendar:before {\r\n  content: \"\\F073\";\r\n}\r\n.fa-random:before {\r\n  content: \"\\F074\";\r\n}\r\n.fa-comment:before {\r\n  content: \"\\F075\";\r\n}\r\n.fa-magnet:before {\r\n  content: \"\\F076\";\r\n}\r\n.fa-chevron-up:before {\r\n  content: \"\\F077\";\r\n}\r\n.fa-chevron-down:before {\r\n  content: \"\\F078\";\r\n}\r\n.fa-retweet:before {\r\n  content: \"\\F079\";\r\n}\r\n.fa-shopping-cart:before {\r\n  content: \"\\F07A\";\r\n}\r\n.fa-folder:before {\r\n  content: \"\\F07B\";\r\n}\r\n.fa-folder-open:before {\r\n  content: \"\\F07C\";\r\n}\r\n.fa-arrows-v:before {\r\n  content: \"\\F07D\";\r\n}\r\n.fa-arrows-h:before {\r\n  content: \"\\F07E\";\r\n}\r\n.fa-bar-chart-o:before,\r\n.fa-bar-chart:before {\r\n  content: \"\\F080\";\r\n}\r\n.fa-twitter-square:before {\r\n  content: \"\\F081\";\r\n}\r\n.fa-facebook-square:before {\r\n  content: \"\\F082\";\r\n}\r\n.fa-camera-retro:before {\r\n  content: \"\\F083\";\r\n}\r\n.fa-key:before {\r\n  content: \"\\F084\";\r\n}\r\n.fa-gears:before,\r\n.fa-cogs:before {\r\n  content: \"\\F085\";\r\n}\r\n.fa-comments:before {\r\n  content: \"\\F086\";\r\n}\r\n.fa-thumbs-o-up:before {\r\n  content: \"\\F087\";\r\n}\r\n.fa-thumbs-o-down:before {\r\n  content: \"\\F088\";\r\n}\r\n.fa-star-half:before {\r\n  content: \"\\F089\";\r\n}\r\n.fa-heart-o:before {\r\n  content: \"\\F08A\";\r\n}\r\n.fa-sign-out:before {\r\n  content: \"\\F08B\";\r\n}\r\n.fa-linkedin-square:before {\r\n  content: \"\\F08C\";\r\n}\r\n.fa-thumb-tack:before {\r\n  content: \"\\F08D\";\r\n}\r\n.fa-external-link:before {\r\n  content: \"\\F08E\";\r\n}\r\n.fa-sign-in:before {\r\n  content: \"\\F090\";\r\n}\r\n.fa-trophy:before {\r\n  content: \"\\F091\";\r\n}\r\n.fa-github-square:before {\r\n  content: \"\\F092\";\r\n}\r\n.fa-upload:before {\r\n  content: \"\\F093\";\r\n}\r\n.fa-lemon-o:before {\r\n  content: \"\\F094\";\r\n}\r\n.fa-phone:before {\r\n  content: \"\\F095\";\r\n}\r\n.fa-square-o:before {\r\n  content: \"\\F096\";\r\n}\r\n.fa-bookmark-o:before {\r\n  content: \"\\F097\";\r\n}\r\n.fa-phone-square:before {\r\n  content: \"\\F098\";\r\n}\r\n.fa-twitter:before {\r\n  content: \"\\F099\";\r\n}\r\n.fa-facebook-f:before,\r\n.fa-facebook:before {\r\n  content: \"\\F09A\";\r\n}\r\n.fa-github:before {\r\n  content: \"\\F09B\";\r\n}\r\n.fa-unlock:before {\r\n  content: \"\\F09C\";\r\n}\r\n.fa-credit-card:before {\r\n  content: \"\\F09D\";\r\n}\r\n.fa-feed:before,\r\n.fa-rss:before {\r\n  content: \"\\F09E\";\r\n}\r\n.fa-hdd-o:before {\r\n  content: \"\\F0A0\";\r\n}\r\n.fa-bullhorn:before {\r\n  content: \"\\F0A1\";\r\n}\r\n.fa-bell:before {\r\n  content: \"\\F0F3\";\r\n}\r\n.fa-certificate:before {\r\n  content: \"\\F0A3\";\r\n}\r\n.fa-hand-o-right:before {\r\n  content: \"\\F0A4\";\r\n}\r\n.fa-hand-o-left:before {\r\n  content: \"\\F0A5\";\r\n}\r\n.fa-hand-o-up:before {\r\n  content: \"\\F0A6\";\r\n}\r\n.fa-hand-o-down:before {\r\n  content: \"\\F0A7\";\r\n}\r\n.fa-arrow-circle-left:before {\r\n  content: \"\\F0A8\";\r\n}\r\n.fa-arrow-circle-right:before {\r\n  content: \"\\F0A9\";\r\n}\r\n.fa-arrow-circle-up:before {\r\n  content: \"\\F0AA\";\r\n}\r\n.fa-arrow-circle-down:before {\r\n  content: \"\\F0AB\";\r\n}\r\n.fa-globe:before {\r\n  content: \"\\F0AC\";\r\n}\r\n.fa-wrench:before {\r\n  content: \"\\F0AD\";\r\n}\r\n.fa-tasks:before {\r\n  content: \"\\F0AE\";\r\n}\r\n.fa-filter:before {\r\n  content: \"\\F0B0\";\r\n}\r\n.fa-briefcase:before {\r\n  content: \"\\F0B1\";\r\n}\r\n.fa-arrows-alt:before {\r\n  content: \"\\F0B2\";\r\n}\r\n.fa-group:before,\r\n.fa-users:before {\r\n  content: \"\\F0C0\";\r\n}\r\n.fa-chain:before,\r\n.fa-link:before {\r\n  content: \"\\F0C1\";\r\n}\r\n.fa-cloud:before {\r\n  content: \"\\F0C2\";\r\n}\r\n.fa-flask:before {\r\n  content: \"\\F0C3\";\r\n}\r\n.fa-cut:before,\r\n.fa-scissors:before {\r\n  content: \"\\F0C4\";\r\n}\r\n.fa-copy:before,\r\n.fa-files-o:before {\r\n  content: \"\\F0C5\";\r\n}\r\n.fa-paperclip:before {\r\n  content: \"\\F0C6\";\r\n}\r\n.fa-save:before,\r\n.fa-floppy-o:before {\r\n  content: \"\\F0C7\";\r\n}\r\n.fa-square:before {\r\n  content: \"\\F0C8\";\r\n}\r\n.fa-navicon:before,\r\n.fa-reorder:before,\r\n.fa-bars:before {\r\n  content: \"\\F0C9\";\r\n}\r\n.fa-list-ul:before {\r\n  content: \"\\F0CA\";\r\n}\r\n.fa-list-ol:before {\r\n  content: \"\\F0CB\";\r\n}\r\n.fa-strikethrough:before {\r\n  content: \"\\F0CC\";\r\n}\r\n.fa-underline:before {\r\n  content: \"\\F0CD\";\r\n}\r\n.fa-table:before {\r\n  content: \"\\F0CE\";\r\n}\r\n.fa-magic:before {\r\n  content: \"\\F0D0\";\r\n}\r\n.fa-truck:before {\r\n  content: \"\\F0D1\";\r\n}\r\n.fa-pinterest:before {\r\n  content: \"\\F0D2\";\r\n}\r\n.fa-pinterest-square:before {\r\n  content: \"\\F0D3\";\r\n}\r\n.fa-google-plus-square:before {\r\n  content: \"\\F0D4\";\r\n}\r\n.fa-google-plus:before {\r\n  content: \"\\F0D5\";\r\n}\r\n.fa-money:before {\r\n  content: \"\\F0D6\";\r\n}\r\n.fa-caret-down:before {\r\n  content: \"\\F0D7\";\r\n}\r\n.fa-caret-up:before {\r\n  content: \"\\F0D8\";\r\n}\r\n.fa-caret-left:before {\r\n  content: \"\\F0D9\";\r\n}\r\n.fa-caret-right:before {\r\n  content: \"\\F0DA\";\r\n}\r\n.fa-columns:before {\r\n  content: \"\\F0DB\";\r\n}\r\n.fa-unsorted:before,\r\n.fa-sort:before {\r\n  content: \"\\F0DC\";\r\n}\r\n.fa-sort-down:before,\r\n.fa-sort-desc:before {\r\n  content: \"\\F0DD\";\r\n}\r\n.fa-sort-up:before,\r\n.fa-sort-asc:before {\r\n  content: \"\\F0DE\";\r\n}\r\n.fa-envelope:before {\r\n  content: \"\\F0E0\";\r\n}\r\n.fa-linkedin:before {\r\n  content: \"\\F0E1\";\r\n}\r\n.fa-rotate-left:before,\r\n.fa-undo:before {\r\n  content: \"\\F0E2\";\r\n}\r\n.fa-legal:before,\r\n.fa-gavel:before {\r\n  content: \"\\F0E3\";\r\n}\r\n.fa-dashboard:before,\r\n.fa-tachometer:before {\r\n  content: \"\\F0E4\";\r\n}\r\n.fa-comment-o:before {\r\n  content: \"\\F0E5\";\r\n}\r\n.fa-comments-o:before {\r\n  content: \"\\F0E6\";\r\n}\r\n.fa-flash:before,\r\n.fa-bolt:before {\r\n  content: \"\\F0E7\";\r\n}\r\n.fa-sitemap:before {\r\n  content: \"\\F0E8\";\r\n}\r\n.fa-umbrella:before {\r\n  content: \"\\F0E9\";\r\n}\r\n.fa-paste:before,\r\n.fa-clipboard:before {\r\n  content: \"\\F0EA\";\r\n}\r\n.fa-lightbulb-o:before {\r\n  content: \"\\F0EB\";\r\n}\r\n.fa-exchange:before {\r\n  content: \"\\F0EC\";\r\n}\r\n.fa-cloud-download:before {\r\n  content: \"\\F0ED\";\r\n}\r\n.fa-cloud-upload:before {\r\n  content: \"\\F0EE\";\r\n}\r\n.fa-user-md:before {\r\n  content: \"\\F0F0\";\r\n}\r\n.fa-stethoscope:before {\r\n  content: \"\\F0F1\";\r\n}\r\n.fa-suitcase:before {\r\n  content: \"\\F0F2\";\r\n}\r\n.fa-bell-o:before {\r\n  content: \"\\F0A2\";\r\n}\r\n.fa-coffee:before {\r\n  content: \"\\F0F4\";\r\n}\r\n.fa-cutlery:before {\r\n  content: \"\\F0F5\";\r\n}\r\n.fa-file-text-o:before {\r\n  content: \"\\F0F6\";\r\n}\r\n.fa-building-o:before {\r\n  content: \"\\F0F7\";\r\n}\r\n.fa-hospital-o:before {\r\n  content: \"\\F0F8\";\r\n}\r\n.fa-ambulance:before {\r\n  content: \"\\F0F9\";\r\n}\r\n.fa-medkit:before {\r\n  content: \"\\F0FA\";\r\n}\r\n.fa-fighter-jet:before {\r\n  content: \"\\F0FB\";\r\n}\r\n.fa-beer:before {\r\n  content: \"\\F0FC\";\r\n}\r\n.fa-h-square:before {\r\n  content: \"\\F0FD\";\r\n}\r\n.fa-plus-square:before {\r\n  content: \"\\F0FE\";\r\n}\r\n.fa-angle-double-left:before {\r\n  content: \"\\F100\";\r\n}\r\n.fa-angle-double-right:before {\r\n  content: \"\\F101\";\r\n}\r\n.fa-angle-double-up:before {\r\n  content: \"\\F102\";\r\n}\r\n.fa-angle-double-down:before {\r\n  content: \"\\F103\";\r\n}\r\n.fa-angle-left:before {\r\n  content: \"\\F104\";\r\n}\r\n.fa-angle-right:before {\r\n  content: \"\\F105\";\r\n}\r\n.fa-angle-up:before {\r\n  content: \"\\F106\";\r\n}\r\n.fa-angle-down:before {\r\n  content: \"\\F107\";\r\n}\r\n.fa-desktop:before {\r\n  content: \"\\F108\";\r\n}\r\n.fa-laptop:before {\r\n  content: \"\\F109\";\r\n}\r\n.fa-tablet:before {\r\n  content: \"\\F10A\";\r\n}\r\n.fa-mobile-phone:before,\r\n.fa-mobile:before {\r\n  content: \"\\F10B\";\r\n}\r\n.fa-circle-o:before {\r\n  content: \"\\F10C\";\r\n}\r\n.fa-quote-left:before {\r\n  content: \"\\F10D\";\r\n}\r\n.fa-quote-right:before {\r\n  content: \"\\F10E\";\r\n}\r\n.fa-spinner:before {\r\n  content: \"\\F110\";\r\n}\r\n.fa-circle:before {\r\n  content: \"\\F111\";\r\n}\r\n.fa-mail-reply:before,\r\n.fa-reply:before {\r\n  content: \"\\F112\";\r\n}\r\n.fa-github-alt:before {\r\n  content: \"\\F113\";\r\n}\r\n.fa-folder-o:before {\r\n  content: \"\\F114\";\r\n}\r\n.fa-folder-open-o:before {\r\n  content: \"\\F115\";\r\n}\r\n.fa-smile-o:before {\r\n  content: \"\\F118\";\r\n}\r\n.fa-frown-o:before {\r\n  content: \"\\F119\";\r\n}\r\n.fa-meh-o:before {\r\n  content: \"\\F11A\";\r\n}\r\n.fa-gamepad:before {\r\n  content: \"\\F11B\";\r\n}\r\n.fa-keyboard-o:before {\r\n  content: \"\\F11C\";\r\n}\r\n.fa-flag-o:before {\r\n  content: \"\\F11D\";\r\n}\r\n.fa-flag-checkered:before {\r\n  content: \"\\F11E\";\r\n}\r\n.fa-terminal:before {\r\n  content: \"\\F120\";\r\n}\r\n.fa-code:before {\r\n  content: \"\\F121\";\r\n}\r\n.fa-mail-reply-all:before,\r\n.fa-reply-all:before {\r\n  content: \"\\F122\";\r\n}\r\n.fa-star-half-empty:before,\r\n.fa-star-half-full:before,\r\n.fa-star-half-o:before {\r\n  content: \"\\F123\";\r\n}\r\n.fa-location-arrow:before {\r\n  content: \"\\F124\";\r\n}\r\n.fa-crop:before {\r\n  content: \"\\F125\";\r\n}\r\n.fa-code-fork:before {\r\n  content: \"\\F126\";\r\n}\r\n.fa-unlink:before,\r\n.fa-chain-broken:before {\r\n  content: \"\\F127\";\r\n}\r\n.fa-question:before {\r\n  content: \"\\F128\";\r\n}\r\n.fa-info:before {\r\n  content: \"\\F129\";\r\n}\r\n.fa-exclamation:before {\r\n  content: \"\\F12A\";\r\n}\r\n.fa-superscript:before {\r\n  content: \"\\F12B\";\r\n}\r\n.fa-subscript:before {\r\n  content: \"\\F12C\";\r\n}\r\n.fa-eraser:before {\r\n  content: \"\\F12D\";\r\n}\r\n.fa-puzzle-piece:before {\r\n  content: \"\\F12E\";\r\n}\r\n.fa-microphone:before {\r\n  content: \"\\F130\";\r\n}\r\n.fa-microphone-slash:before {\r\n  content: \"\\F131\";\r\n}\r\n.fa-shield:before {\r\n  content: \"\\F132\";\r\n}\r\n.fa-calendar-o:before {\r\n  content: \"\\F133\";\r\n}\r\n.fa-fire-extinguisher:before {\r\n  content: \"\\F134\";\r\n}\r\n.fa-rocket:before {\r\n  content: \"\\F135\";\r\n}\r\n.fa-maxcdn:before {\r\n  content: \"\\F136\";\r\n}\r\n.fa-chevron-circle-left:before {\r\n  content: \"\\F137\";\r\n}\r\n.fa-chevron-circle-right:before {\r\n  content: \"\\F138\";\r\n}\r\n.fa-chevron-circle-up:before {\r\n  content: \"\\F139\";\r\n}\r\n.fa-chevron-circle-down:before {\r\n  content: \"\\F13A\";\r\n}\r\n.fa-html5:before {\r\n  content: \"\\F13B\";\r\n}\r\n.fa-css3:before {\r\n  content: \"\\F13C\";\r\n}\r\n.fa-anchor:before {\r\n  content: \"\\F13D\";\r\n}\r\n.fa-unlock-alt:before {\r\n  content: \"\\F13E\";\r\n}\r\n.fa-bullseye:before {\r\n  content: \"\\F140\";\r\n}\r\n.fa-ellipsis-h:before {\r\n  content: \"\\F141\";\r\n}\r\n.fa-ellipsis-v:before {\r\n  content: \"\\F142\";\r\n}\r\n.fa-rss-square:before {\r\n  content: \"\\F143\";\r\n}\r\n.fa-play-circle:before {\r\n  content: \"\\F144\";\r\n}\r\n.fa-ticket:before {\r\n  content: \"\\F145\";\r\n}\r\n.fa-minus-square:before {\r\n  content: \"\\F146\";\r\n}\r\n.fa-minus-square-o:before {\r\n  content: \"\\F147\";\r\n}\r\n.fa-level-up:before {\r\n  content: \"\\F148\";\r\n}\r\n.fa-level-down:before {\r\n  content: \"\\F149\";\r\n}\r\n.fa-check-square:before {\r\n  content: \"\\F14A\";\r\n}\r\n.fa-pencil-square:before {\r\n  content: \"\\F14B\";\r\n}\r\n.fa-external-link-square:before {\r\n  content: \"\\F14C\";\r\n}\r\n.fa-share-square:before {\r\n  content: \"\\F14D\";\r\n}\r\n.fa-compass:before {\r\n  content: \"\\F14E\";\r\n}\r\n.fa-toggle-down:before,\r\n.fa-caret-square-o-down:before {\r\n  content: \"\\F150\";\r\n}\r\n.fa-toggle-up:before,\r\n.fa-caret-square-o-up:before {\r\n  content: \"\\F151\";\r\n}\r\n.fa-toggle-right:before,\r\n.fa-caret-square-o-right:before {\r\n  content: \"\\F152\";\r\n}\r\n.fa-euro:before,\r\n.fa-eur:before {\r\n  content: \"\\F153\";\r\n}\r\n.fa-gbp:before {\r\n  content: \"\\F154\";\r\n}\r\n.fa-dollar:before,\r\n.fa-usd:before {\r\n  content: \"\\F155\";\r\n}\r\n.fa-rupee:before,\r\n.fa-inr:before {\r\n  content: \"\\F156\";\r\n}\r\n.fa-cny:before,\r\n.fa-rmb:before,\r\n.fa-yen:before,\r\n.fa-jpy:before {\r\n  content: \"\\F157\";\r\n}\r\n.fa-ruble:before,\r\n.fa-rouble:before,\r\n.fa-rub:before {\r\n  content: \"\\F158\";\r\n}\r\n.fa-won:before,\r\n.fa-krw:before {\r\n  content: \"\\F159\";\r\n}\r\n.fa-bitcoin:before,\r\n.fa-btc:before {\r\n  content: \"\\F15A\";\r\n}\r\n.fa-file:before {\r\n  content: \"\\F15B\";\r\n}\r\n.fa-file-text:before {\r\n  content: \"\\F15C\";\r\n}\r\n.fa-sort-alpha-asc:before {\r\n  content: \"\\F15D\";\r\n}\r\n.fa-sort-alpha-desc:before {\r\n  content: \"\\F15E\";\r\n}\r\n.fa-sort-amount-asc:before {\r\n  content: \"\\F160\";\r\n}\r\n.fa-sort-amount-desc:before {\r\n  content: \"\\F161\";\r\n}\r\n.fa-sort-numeric-asc:before {\r\n  content: \"\\F162\";\r\n}\r\n.fa-sort-numeric-desc:before {\r\n  content: \"\\F163\";\r\n}\r\n.fa-thumbs-up:before {\r\n  content: \"\\F164\";\r\n}\r\n.fa-thumbs-down:before {\r\n  content: \"\\F165\";\r\n}\r\n.fa-youtube-square:before {\r\n  content: \"\\F166\";\r\n}\r\n.fa-youtube:before {\r\n  content: \"\\F167\";\r\n}\r\n.fa-xing:before {\r\n  content: \"\\F168\";\r\n}\r\n.fa-xing-square:before {\r\n  content: \"\\F169\";\r\n}\r\n.fa-youtube-play:before {\r\n  content: \"\\F16A\";\r\n}\r\n.fa-dropbox:before {\r\n  content: \"\\F16B\";\r\n}\r\n.fa-stack-overflow:before {\r\n  content: \"\\F16C\";\r\n}\r\n.fa-instagram:before {\r\n  content: \"\\F16D\";\r\n}\r\n.fa-flickr:before {\r\n  content: \"\\F16E\";\r\n}\r\n.fa-adn:before {\r\n  content: \"\\F170\";\r\n}\r\n.fa-bitbucket:before {\r\n  content: \"\\F171\";\r\n}\r\n.fa-bitbucket-square:before {\r\n  content: \"\\F172\";\r\n}\r\n.fa-tumblr:before {\r\n  content: \"\\F173\";\r\n}\r\n.fa-tumblr-square:before {\r\n  content: \"\\F174\";\r\n}\r\n.fa-long-arrow-down:before {\r\n  content: \"\\F175\";\r\n}\r\n.fa-long-arrow-up:before {\r\n  content: \"\\F176\";\r\n}\r\n.fa-long-arrow-left:before {\r\n  content: \"\\F177\";\r\n}\r\n.fa-long-arrow-right:before {\r\n  content: \"\\F178\";\r\n}\r\n.fa-apple:before {\r\n  content: \"\\F179\";\r\n}\r\n.fa-windows:before {\r\n  content: \"\\F17A\";\r\n}\r\n.fa-android:before {\r\n  content: \"\\F17B\";\r\n}\r\n.fa-linux:before {\r\n  content: \"\\F17C\";\r\n}\r\n.fa-dribbble:before {\r\n  content: \"\\F17D\";\r\n}\r\n.fa-skype:before {\r\n  content: \"\\F17E\";\r\n}\r\n.fa-foursquare:before {\r\n  content: \"\\F180\";\r\n}\r\n.fa-trello:before {\r\n  content: \"\\F181\";\r\n}\r\n.fa-female:before {\r\n  content: \"\\F182\";\r\n}\r\n.fa-male:before {\r\n  content: \"\\F183\";\r\n}\r\n.fa-gittip:before,\r\n.fa-gratipay:before {\r\n  content: \"\\F184\";\r\n}\r\n.fa-sun-o:before {\r\n  content: \"\\F185\";\r\n}\r\n.fa-moon-o:before {\r\n  content: \"\\F186\";\r\n}\r\n.fa-archive:before {\r\n  content: \"\\F187\";\r\n}\r\n.fa-bug:before {\r\n  content: \"\\F188\";\r\n}\r\n.fa-vk:before {\r\n  content: \"\\F189\";\r\n}\r\n.fa-weibo:before {\r\n  content: \"\\F18A\";\r\n}\r\n.fa-renren:before {\r\n  content: \"\\F18B\";\r\n}\r\n.fa-pagelines:before {\r\n  content: \"\\F18C\";\r\n}\r\n.fa-stack-exchange:before {\r\n  content: \"\\F18D\";\r\n}\r\n.fa-arrow-circle-o-right:before {\r\n  content: \"\\F18E\";\r\n}\r\n.fa-arrow-circle-o-left:before {\r\n  content: \"\\F190\";\r\n}\r\n.fa-toggle-left:before,\r\n.fa-caret-square-o-left:before {\r\n  content: \"\\F191\";\r\n}\r\n.fa-dot-circle-o:before {\r\n  content: \"\\F192\";\r\n}\r\n.fa-wheelchair:before {\r\n  content: \"\\F193\";\r\n}\r\n.fa-vimeo-square:before {\r\n  content: \"\\F194\";\r\n}\r\n.fa-turkish-lira:before,\r\n.fa-try:before {\r\n  content: \"\\F195\";\r\n}\r\n.fa-plus-square-o:before {\r\n  content: \"\\F196\";\r\n}\r\n.fa-space-shuttle:before {\r\n  content: \"\\F197\";\r\n}\r\n.fa-slack:before {\r\n  content: \"\\F198\";\r\n}\r\n.fa-envelope-square:before {\r\n  content: \"\\F199\";\r\n}\r\n.fa-wordpress:before {\r\n  content: \"\\F19A\";\r\n}\r\n.fa-openid:before {\r\n  content: \"\\F19B\";\r\n}\r\n.fa-institution:before,\r\n.fa-bank:before,\r\n.fa-university:before {\r\n  content: \"\\F19C\";\r\n}\r\n.fa-mortar-board:before,\r\n.fa-graduation-cap:before {\r\n  content: \"\\F19D\";\r\n}\r\n.fa-yahoo:before {\r\n  content: \"\\F19E\";\r\n}\r\n.fa-google:before {\r\n  content: \"\\F1A0\";\r\n}\r\n.fa-reddit:before {\r\n  content: \"\\F1A1\";\r\n}\r\n.fa-reddit-square:before {\r\n  content: \"\\F1A2\";\r\n}\r\n.fa-stumbleupon-circle:before {\r\n  content: \"\\F1A3\";\r\n}\r\n.fa-stumbleupon:before {\r\n  content: \"\\F1A4\";\r\n}\r\n.fa-delicious:before {\r\n  content: \"\\F1A5\";\r\n}\r\n.fa-digg:before {\r\n  content: \"\\F1A6\";\r\n}\r\n.fa-pied-piper-pp:before {\r\n  content: \"\\F1A7\";\r\n}\r\n.fa-pied-piper-alt:before {\r\n  content: \"\\F1A8\";\r\n}\r\n.fa-drupal:before {\r\n  content: \"\\F1A9\";\r\n}\r\n.fa-joomla:before {\r\n  content: \"\\F1AA\";\r\n}\r\n.fa-language:before {\r\n  content: \"\\F1AB\";\r\n}\r\n.fa-fax:before {\r\n  content: \"\\F1AC\";\r\n}\r\n.fa-building:before {\r\n  content: \"\\F1AD\";\r\n}\r\n.fa-child:before {\r\n  content: \"\\F1AE\";\r\n}\r\n.fa-paw:before {\r\n  content: \"\\F1B0\";\r\n}\r\n.fa-spoon:before {\r\n  content: \"\\F1B1\";\r\n}\r\n.fa-cube:before {\r\n  content: \"\\F1B2\";\r\n}\r\n.fa-cubes:before {\r\n  content: \"\\F1B3\";\r\n}\r\n.fa-behance:before {\r\n  content: \"\\F1B4\";\r\n}\r\n.fa-behance-square:before {\r\n  content: \"\\F1B5\";\r\n}\r\n.fa-steam:before {\r\n  content: \"\\F1B6\";\r\n}\r\n.fa-steam-square:before {\r\n  content: \"\\F1B7\";\r\n}\r\n.fa-recycle:before {\r\n  content: \"\\F1B8\";\r\n}\r\n.fa-automobile:before,\r\n.fa-car:before {\r\n  content: \"\\F1B9\";\r\n}\r\n.fa-cab:before,\r\n.fa-taxi:before {\r\n  content: \"\\F1BA\";\r\n}\r\n.fa-tree:before {\r\n  content: \"\\F1BB\";\r\n}\r\n.fa-spotify:before {\r\n  content: \"\\F1BC\";\r\n}\r\n.fa-deviantart:before {\r\n  content: \"\\F1BD\";\r\n}\r\n.fa-soundcloud:before {\r\n  content: \"\\F1BE\";\r\n}\r\n.fa-database:before {\r\n  content: \"\\F1C0\";\r\n}\r\n.fa-file-pdf-o:before {\r\n  content: \"\\F1C1\";\r\n}\r\n.fa-file-word-o:before {\r\n  content: \"\\F1C2\";\r\n}\r\n.fa-file-excel-o:before {\r\n  content: \"\\F1C3\";\r\n}\r\n.fa-file-powerpoint-o:before {\r\n  content: \"\\F1C4\";\r\n}\r\n.fa-file-photo-o:before,\r\n.fa-file-picture-o:before,\r\n.fa-file-image-o:before {\r\n  content: \"\\F1C5\";\r\n}\r\n.fa-file-zip-o:before,\r\n.fa-file-archive-o:before {\r\n  content: \"\\F1C6\";\r\n}\r\n.fa-file-sound-o:before,\r\n.fa-file-audio-o:before {\r\n  content: \"\\F1C7\";\r\n}\r\n.fa-file-movie-o:before,\r\n.fa-file-video-o:before {\r\n  content: \"\\F1C8\";\r\n}\r\n.fa-file-code-o:before {\r\n  content: \"\\F1C9\";\r\n}\r\n.fa-vine:before {\r\n  content: \"\\F1CA\";\r\n}\r\n.fa-codepen:before {\r\n  content: \"\\F1CB\";\r\n}\r\n.fa-jsfiddle:before {\r\n  content: \"\\F1CC\";\r\n}\r\n.fa-life-bouy:before,\r\n.fa-life-buoy:before,\r\n.fa-life-saver:before,\r\n.fa-support:before,\r\n.fa-life-ring:before {\r\n  content: \"\\F1CD\";\r\n}\r\n.fa-circle-o-notch:before {\r\n  content: \"\\F1CE\";\r\n}\r\n.fa-ra:before,\r\n.fa-resistance:before,\r\n.fa-rebel:before {\r\n  content: \"\\F1D0\";\r\n}\r\n.fa-ge:before,\r\n.fa-empire:before {\r\n  content: \"\\F1D1\";\r\n}\r\n.fa-git-square:before {\r\n  content: \"\\F1D2\";\r\n}\r\n.fa-git:before {\r\n  content: \"\\F1D3\";\r\n}\r\n.fa-y-combinator-square:before,\r\n.fa-yc-square:before,\r\n.fa-hacker-news:before {\r\n  content: \"\\F1D4\";\r\n}\r\n.fa-tencent-weibo:before {\r\n  content: \"\\F1D5\";\r\n}\r\n.fa-qq:before {\r\n  content: \"\\F1D6\";\r\n}\r\n.fa-wechat:before,\r\n.fa-weixin:before {\r\n  content: \"\\F1D7\";\r\n}\r\n.fa-send:before,\r\n.fa-paper-plane:before {\r\n  content: \"\\F1D8\";\r\n}\r\n.fa-send-o:before,\r\n.fa-paper-plane-o:before {\r\n  content: \"\\F1D9\";\r\n}\r\n.fa-history:before {\r\n  content: \"\\F1DA\";\r\n}\r\n.fa-circle-thin:before {\r\n  content: \"\\F1DB\";\r\n}\r\n.fa-header:before {\r\n  content: \"\\F1DC\";\r\n}\r\n.fa-paragraph:before {\r\n  content: \"\\F1DD\";\r\n}\r\n.fa-sliders:before {\r\n  content: \"\\F1DE\";\r\n}\r\n.fa-share-alt:before {\r\n  content: \"\\F1E0\";\r\n}\r\n.fa-share-alt-square:before {\r\n  content: \"\\F1E1\";\r\n}\r\n.fa-bomb:before {\r\n  content: \"\\F1E2\";\r\n}\r\n.fa-soccer-ball-o:before,\r\n.fa-futbol-o:before {\r\n  content: \"\\F1E3\";\r\n}\r\n.fa-tty:before {\r\n  content: \"\\F1E4\";\r\n}\r\n.fa-binoculars:before {\r\n  content: \"\\F1E5\";\r\n}\r\n.fa-plug:before {\r\n  content: \"\\F1E6\";\r\n}\r\n.fa-slideshare:before {\r\n  content: \"\\F1E7\";\r\n}\r\n.fa-twitch:before {\r\n  content: \"\\F1E8\";\r\n}\r\n.fa-yelp:before {\r\n  content: \"\\F1E9\";\r\n}\r\n.fa-newspaper-o:before {\r\n  content: \"\\F1EA\";\r\n}\r\n.fa-wifi:before {\r\n  content: \"\\F1EB\";\r\n}\r\n.fa-calculator:before {\r\n  content: \"\\F1EC\";\r\n}\r\n.fa-paypal:before {\r\n  content: \"\\F1ED\";\r\n}\r\n.fa-google-wallet:before {\r\n  content: \"\\F1EE\";\r\n}\r\n.fa-cc-visa:before {\r\n  content: \"\\F1F0\";\r\n}\r\n.fa-cc-mastercard:before {\r\n  content: \"\\F1F1\";\r\n}\r\n.fa-cc-discover:before {\r\n  content: \"\\F1F2\";\r\n}\r\n.fa-cc-amex:before {\r\n  content: \"\\F1F3\";\r\n}\r\n.fa-cc-paypal:before {\r\n  content: \"\\F1F4\";\r\n}\r\n.fa-cc-stripe:before {\r\n  content: \"\\F1F5\";\r\n}\r\n.fa-bell-slash:before {\r\n  content: \"\\F1F6\";\r\n}\r\n.fa-bell-slash-o:before {\r\n  content: \"\\F1F7\";\r\n}\r\n.fa-trash:before {\r\n  content: \"\\F1F8\";\r\n}\r\n.fa-copyright:before {\r\n  content: \"\\F1F9\";\r\n}\r\n.fa-at:before {\r\n  content: \"\\F1FA\";\r\n}\r\n.fa-eyedropper:before {\r\n  content: \"\\F1FB\";\r\n}\r\n.fa-paint-brush:before {\r\n  content: \"\\F1FC\";\r\n}\r\n.fa-birthday-cake:before {\r\n  content: \"\\F1FD\";\r\n}\r\n.fa-area-chart:before {\r\n  content: \"\\F1FE\";\r\n}\r\n.fa-pie-chart:before {\r\n  content: \"\\F200\";\r\n}\r\n.fa-line-chart:before {\r\n  content: \"\\F201\";\r\n}\r\n.fa-lastfm:before {\r\n  content: \"\\F202\";\r\n}\r\n.fa-lastfm-square:before {\r\n  content: \"\\F203\";\r\n}\r\n.fa-toggle-off:before {\r\n  content: \"\\F204\";\r\n}\r\n.fa-toggle-on:before {\r\n  content: \"\\F205\";\r\n}\r\n.fa-bicycle:before {\r\n  content: \"\\F206\";\r\n}\r\n.fa-bus:before {\r\n  content: \"\\F207\";\r\n}\r\n.fa-ioxhost:before {\r\n  content: \"\\F208\";\r\n}\r\n.fa-angellist:before {\r\n  content: \"\\F209\";\r\n}\r\n.fa-cc:before {\r\n  content: \"\\F20A\";\r\n}\r\n.fa-shekel:before,\r\n.fa-sheqel:before,\r\n.fa-ils:before {\r\n  content: \"\\F20B\";\r\n}\r\n.fa-meanpath:before {\r\n  content: \"\\F20C\";\r\n}\r\n.fa-buysellads:before {\r\n  content: \"\\F20D\";\r\n}\r\n.fa-connectdevelop:before {\r\n  content: \"\\F20E\";\r\n}\r\n.fa-dashcube:before {\r\n  content: \"\\F210\";\r\n}\r\n.fa-forumbee:before {\r\n  content: \"\\F211\";\r\n}\r\n.fa-leanpub:before {\r\n  content: \"\\F212\";\r\n}\r\n.fa-sellsy:before {\r\n  content: \"\\F213\";\r\n}\r\n.fa-shirtsinbulk:before {\r\n  content: \"\\F214\";\r\n}\r\n.fa-simplybuilt:before {\r\n  content: \"\\F215\";\r\n}\r\n.fa-skyatlas:before {\r\n  content: \"\\F216\";\r\n}\r\n.fa-cart-plus:before {\r\n  content: \"\\F217\";\r\n}\r\n.fa-cart-arrow-down:before {\r\n  content: \"\\F218\";\r\n}\r\n.fa-diamond:before {\r\n  content: \"\\F219\";\r\n}\r\n.fa-ship:before {\r\n  content: \"\\F21A\";\r\n}\r\n.fa-user-secret:before {\r\n  content: \"\\F21B\";\r\n}\r\n.fa-motorcycle:before {\r\n  content: \"\\F21C\";\r\n}\r\n.fa-street-view:before {\r\n  content: \"\\F21D\";\r\n}\r\n.fa-heartbeat:before {\r\n  content: \"\\F21E\";\r\n}\r\n.fa-venus:before {\r\n  content: \"\\F221\";\r\n}\r\n.fa-mars:before {\r\n  content: \"\\F222\";\r\n}\r\n.fa-mercury:before {\r\n  content: \"\\F223\";\r\n}\r\n.fa-intersex:before,\r\n.fa-transgender:before {\r\n  content: \"\\F224\";\r\n}\r\n.fa-transgender-alt:before {\r\n  content: \"\\F225\";\r\n}\r\n.fa-venus-double:before {\r\n  content: \"\\F226\";\r\n}\r\n.fa-mars-double:before {\r\n  content: \"\\F227\";\r\n}\r\n.fa-venus-mars:before {\r\n  content: \"\\F228\";\r\n}\r\n.fa-mars-stroke:before {\r\n  content: \"\\F229\";\r\n}\r\n.fa-mars-stroke-v:before {\r\n  content: \"\\F22A\";\r\n}\r\n.fa-mars-stroke-h:before {\r\n  content: \"\\F22B\";\r\n}\r\n.fa-neuter:before {\r\n  content: \"\\F22C\";\r\n}\r\n.fa-genderless:before {\r\n  content: \"\\F22D\";\r\n}\r\n.fa-facebook-official:before {\r\n  content: \"\\F230\";\r\n}\r\n.fa-pinterest-p:before {\r\n  content: \"\\F231\";\r\n}\r\n.fa-whatsapp:before {\r\n  content: \"\\F232\";\r\n}\r\n.fa-server:before {\r\n  content: \"\\F233\";\r\n}\r\n.fa-user-plus:before {\r\n  content: \"\\F234\";\r\n}\r\n.fa-user-times:before {\r\n  content: \"\\F235\";\r\n}\r\n.fa-hotel:before,\r\n.fa-bed:before {\r\n  content: \"\\F236\";\r\n}\r\n.fa-viacoin:before {\r\n  content: \"\\F237\";\r\n}\r\n.fa-train:before {\r\n  content: \"\\F238\";\r\n}\r\n.fa-subway:before {\r\n  content: \"\\F239\";\r\n}\r\n.fa-medium:before {\r\n  content: \"\\F23A\";\r\n}\r\n.fa-yc:before,\r\n.fa-y-combinator:before {\r\n  content: \"\\F23B\";\r\n}\r\n.fa-optin-monster:before {\r\n  content: \"\\F23C\";\r\n}\r\n.fa-opencart:before {\r\n  content: \"\\F23D\";\r\n}\r\n.fa-expeditedssl:before {\r\n  content: \"\\F23E\";\r\n}\r\n.fa-battery-4:before,\r\n.fa-battery-full:before {\r\n  content: \"\\F240\";\r\n}\r\n.fa-battery-3:before,\r\n.fa-battery-three-quarters:before {\r\n  content: \"\\F241\";\r\n}\r\n.fa-battery-2:before,\r\n.fa-battery-half:before {\r\n  content: \"\\F242\";\r\n}\r\n.fa-battery-1:before,\r\n.fa-battery-quarter:before {\r\n  content: \"\\F243\";\r\n}\r\n.fa-battery-0:before,\r\n.fa-battery-empty:before {\r\n  content: \"\\F244\";\r\n}\r\n.fa-mouse-pointer:before {\r\n  content: \"\\F245\";\r\n}\r\n.fa-i-cursor:before {\r\n  content: \"\\F246\";\r\n}\r\n.fa-object-group:before {\r\n  content: \"\\F247\";\r\n}\r\n.fa-object-ungroup:before {\r\n  content: \"\\F248\";\r\n}\r\n.fa-sticky-note:before {\r\n  content: \"\\F249\";\r\n}\r\n.fa-sticky-note-o:before {\r\n  content: \"\\F24A\";\r\n}\r\n.fa-cc-jcb:before {\r\n  content: \"\\F24B\";\r\n}\r\n.fa-cc-diners-club:before {\r\n  content: \"\\F24C\";\r\n}\r\n.fa-clone:before {\r\n  content: \"\\F24D\";\r\n}\r\n.fa-balance-scale:before {\r\n  content: \"\\F24E\";\r\n}\r\n.fa-hourglass-o:before {\r\n  content: \"\\F250\";\r\n}\r\n.fa-hourglass-1:before,\r\n.fa-hourglass-start:before {\r\n  content: \"\\F251\";\r\n}\r\n.fa-hourglass-2:before,\r\n.fa-hourglass-half:before {\r\n  content: \"\\F252\";\r\n}\r\n.fa-hourglass-3:before,\r\n.fa-hourglass-end:before {\r\n  content: \"\\F253\";\r\n}\r\n.fa-hourglass:before {\r\n  content: \"\\F254\";\r\n}\r\n.fa-hand-grab-o:before,\r\n.fa-hand-rock-o:before {\r\n  content: \"\\F255\";\r\n}\r\n.fa-hand-stop-o:before,\r\n.fa-hand-paper-o:before {\r\n  content: \"\\F256\";\r\n}\r\n.fa-hand-scissors-o:before {\r\n  content: \"\\F257\";\r\n}\r\n.fa-hand-lizard-o:before {\r\n  content: \"\\F258\";\r\n}\r\n.fa-hand-spock-o:before {\r\n  content: \"\\F259\";\r\n}\r\n.fa-hand-pointer-o:before {\r\n  content: \"\\F25A\";\r\n}\r\n.fa-hand-peace-o:before {\r\n  content: \"\\F25B\";\r\n}\r\n.fa-trademark:before {\r\n  content: \"\\F25C\";\r\n}\r\n.fa-registered:before {\r\n  content: \"\\F25D\";\r\n}\r\n.fa-creative-commons:before {\r\n  content: \"\\F25E\";\r\n}\r\n.fa-gg:before {\r\n  content: \"\\F260\";\r\n}\r\n.fa-gg-circle:before {\r\n  content: \"\\F261\";\r\n}\r\n.fa-tripadvisor:before {\r\n  content: \"\\F262\";\r\n}\r\n.fa-odnoklassniki:before {\r\n  content: \"\\F263\";\r\n}\r\n.fa-odnoklassniki-square:before {\r\n  content: \"\\F264\";\r\n}\r\n.fa-get-pocket:before {\r\n  content: \"\\F265\";\r\n}\r\n.fa-wikipedia-w:before {\r\n  content: \"\\F266\";\r\n}\r\n.fa-safari:before {\r\n  content: \"\\F267\";\r\n}\r\n.fa-chrome:before {\r\n  content: \"\\F268\";\r\n}\r\n.fa-firefox:before {\r\n  content: \"\\F269\";\r\n}\r\n.fa-opera:before {\r\n  content: \"\\F26A\";\r\n}\r\n.fa-internet-explorer:before {\r\n  content: \"\\F26B\";\r\n}\r\n.fa-tv:before,\r\n.fa-television:before {\r\n  content: \"\\F26C\";\r\n}\r\n.fa-contao:before {\r\n  content: \"\\F26D\";\r\n}\r\n.fa-500px:before {\r\n  content: \"\\F26E\";\r\n}\r\n.fa-amazon:before {\r\n  content: \"\\F270\";\r\n}\r\n.fa-calendar-plus-o:before {\r\n  content: \"\\F271\";\r\n}\r\n.fa-calendar-minus-o:before {\r\n  content: \"\\F272\";\r\n}\r\n.fa-calendar-times-o:before {\r\n  content: \"\\F273\";\r\n}\r\n.fa-calendar-check-o:before {\r\n  content: \"\\F274\";\r\n}\r\n.fa-industry:before {\r\n  content: \"\\F275\";\r\n}\r\n.fa-map-pin:before {\r\n  content: \"\\F276\";\r\n}\r\n.fa-map-signs:before {\r\n  content: \"\\F277\";\r\n}\r\n.fa-map-o:before {\r\n  content: \"\\F278\";\r\n}\r\n.fa-map:before {\r\n  content: \"\\F279\";\r\n}\r\n.fa-commenting:before {\r\n  content: \"\\F27A\";\r\n}\r\n.fa-commenting-o:before {\r\n  content: \"\\F27B\";\r\n}\r\n.fa-houzz:before {\r\n  content: \"\\F27C\";\r\n}\r\n.fa-vimeo:before {\r\n  content: \"\\F27D\";\r\n}\r\n.fa-black-tie:before {\r\n  content: \"\\F27E\";\r\n}\r\n.fa-fonticons:before {\r\n  content: \"\\F280\";\r\n}\r\n.fa-reddit-alien:before {\r\n  content: \"\\F281\";\r\n}\r\n.fa-edge:before {\r\n  content: \"\\F282\";\r\n}\r\n.fa-credit-card-alt:before {\r\n  content: \"\\F283\";\r\n}\r\n.fa-codiepie:before {\r\n  content: \"\\F284\";\r\n}\r\n.fa-modx:before {\r\n  content: \"\\F285\";\r\n}\r\n.fa-fort-awesome:before {\r\n  content: \"\\F286\";\r\n}\r\n.fa-usb:before {\r\n  content: \"\\F287\";\r\n}\r\n.fa-product-hunt:before {\r\n  content: \"\\F288\";\r\n}\r\n.fa-mixcloud:before {\r\n  content: \"\\F289\";\r\n}\r\n.fa-scribd:before {\r\n  content: \"\\F28A\";\r\n}\r\n.fa-pause-circle:before {\r\n  content: \"\\F28B\";\r\n}\r\n.fa-pause-circle-o:before {\r\n  content: \"\\F28C\";\r\n}\r\n.fa-stop-circle:before {\r\n  content: \"\\F28D\";\r\n}\r\n.fa-stop-circle-o:before {\r\n  content: \"\\F28E\";\r\n}\r\n.fa-shopping-bag:before {\r\n  content: \"\\F290\";\r\n}\r\n.fa-shopping-basket:before {\r\n  content: \"\\F291\";\r\n}\r\n.fa-hashtag:before {\r\n  content: \"\\F292\";\r\n}\r\n.fa-bluetooth:before {\r\n  content: \"\\F293\";\r\n}\r\n.fa-bluetooth-b:before {\r\n  content: \"\\F294\";\r\n}\r\n.fa-percent:before {\r\n  content: \"\\F295\";\r\n}\r\n.fa-gitlab:before {\r\n  content: \"\\F296\";\r\n}\r\n.fa-wpbeginner:before {\r\n  content: \"\\F297\";\r\n}\r\n.fa-wpforms:before {\r\n  content: \"\\F298\";\r\n}\r\n.fa-envira:before {\r\n  content: \"\\F299\";\r\n}\r\n.fa-universal-access:before {\r\n  content: \"\\F29A\";\r\n}\r\n.fa-wheelchair-alt:before {\r\n  content: \"\\F29B\";\r\n}\r\n.fa-question-circle-o:before {\r\n  content: \"\\F29C\";\r\n}\r\n.fa-blind:before {\r\n  content: \"\\F29D\";\r\n}\r\n.fa-audio-description:before {\r\n  content: \"\\F29E\";\r\n}\r\n.fa-volume-control-phone:before {\r\n  content: \"\\F2A0\";\r\n}\r\n.fa-braille:before {\r\n  content: \"\\F2A1\";\r\n}\r\n.fa-assistive-listening-systems:before {\r\n  content: \"\\F2A2\";\r\n}\r\n.fa-asl-interpreting:before,\r\n.fa-american-sign-language-interpreting:before {\r\n  content: \"\\F2A3\";\r\n}\r\n.fa-deafness:before,\r\n.fa-hard-of-hearing:before,\r\n.fa-deaf:before {\r\n  content: \"\\F2A4\";\r\n}\r\n.fa-glide:before {\r\n  content: \"\\F2A5\";\r\n}\r\n.fa-glide-g:before {\r\n  content: \"\\F2A6\";\r\n}\r\n.fa-signing:before,\r\n.fa-sign-language:before {\r\n  content: \"\\F2A7\";\r\n}\r\n.fa-low-vision:before {\r\n  content: \"\\F2A8\";\r\n}\r\n.fa-viadeo:before {\r\n  content: \"\\F2A9\";\r\n}\r\n.fa-viadeo-square:before {\r\n  content: \"\\F2AA\";\r\n}\r\n.fa-snapchat:before {\r\n  content: \"\\F2AB\";\r\n}\r\n.fa-snapchat-ghost:before {\r\n  content: \"\\F2AC\";\r\n}\r\n.fa-snapchat-square:before {\r\n  content: \"\\F2AD\";\r\n}\r\n.fa-pied-piper:before {\r\n  content: \"\\F2AE\";\r\n}\r\n.fa-first-order:before {\r\n  content: \"\\F2B0\";\r\n}\r\n.fa-yoast:before {\r\n  content: \"\\F2B1\";\r\n}\r\n.fa-themeisle:before {\r\n  content: \"\\F2B2\";\r\n}\r\n.fa-google-plus-circle:before,\r\n.fa-google-plus-official:before {\r\n  content: \"\\F2B3\";\r\n}\r\n.fa-fa:before,\r\n.fa-font-awesome:before {\r\n  content: \"\\F2B4\";\r\n}\r\n.sr-only {\r\n  position: absolute;\r\n  width: 1px;\r\n  height: 1px;\r\n  padding: 0;\r\n  margin: -1px;\r\n  overflow: hidden;\r\n  clip: rect(0, 0, 0, 0);\r\n  border: 0;\r\n}\r\n.sr-only-focusable:active,\r\n.sr-only-focusable:focus {\r\n  position: static;\r\n  width: auto;\r\n  height: auto;\r\n  margin: 0;\r\n  overflow: visible;\r\n  clip: auto;\r\n}\r\n", ""]);
+
+	// exports
+
 
 /***/ },
 /* 34 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__.p + "_/fonts/fontawesome-webfont.woff";
+	module.exports = __webpack_require__.p + "_/fonts/fontawesome-webfont.eot";
 
 /***/ },
 /* 35 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__.p + "_/fonts/fontawesome-webfont.ttf";
+	module.exports = __webpack_require__.p + "_/fonts/fontawesome-webfont.woff2";
 
 /***/ },
 /* 36 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__.p + "_/fonts/fontawesome-webfont.svg";
+	module.exports = __webpack_require__.p + "_/fonts/fontawesome-webfont.woff";
 
 /***/ },
 /* 37 */
 /***/ function(module, exports, __webpack_require__) {
 
+	module.exports = __webpack_require__.p + "_/fonts/fontawesome-webfont.ttf";
+
+/***/ },
+/* 38 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "_/fonts/fontawesome-webfont.svg";
+
+/***/ },
+/* 39 */
+/***/ function(module, exports, __webpack_require__) {
+
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(38);
+	var content = __webpack_require__(40);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(29)(content, {});
@@ -42521,7 +42561,7 @@
 	}
 
 /***/ },
-/* 38 */
+/* 40 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(6)();
@@ -42529,37 +42569,37 @@
 
 
 	// module
-	exports.push([module.id, "@charset \"UTF-8\";\r\n/*!\r\n  Ionicons, v2.0.0\r\n  Created by Ben Sperry for the Ionic Framework, http://ionicons.com/\r\n  https://twitter.com/benjsperry  https://twitter.com/ionicframework\r\n  MIT License: https://github.com/driftyco/ionicons\r\n\r\n  Android-style icons originally built by Google’s\r\n  Material Design Icons: https://github.com/google/material-design-icons\r\n  used under CC BY http://creativecommons.org/licenses/by/4.0/\r\n  Modified icons to fit ionicon’s grid from original.\r\n*/\r\n@font-face { font-family: \"Ionicons\"; src: url(" + __webpack_require__(39) + "); src: url(" + __webpack_require__(39) + "#iefix) format(\"embedded-opentype\"), url(" + __webpack_require__(40) + ") format(\"truetype\"), url(" + __webpack_require__(41) + ") format(\"woff\"), url(" + __webpack_require__(42) + "#Ionicons) format(\"svg\"); font-weight: normal; font-style: normal; }\r\n.ion, .ionicons, .ion-alert:before, .ion-alert-circled:before, .ion-android-add:before, .ion-android-add-circle:before, .ion-android-alarm-clock:before, .ion-android-alert:before, .ion-android-apps:before, .ion-android-archive:before, .ion-android-arrow-back:before, .ion-android-arrow-down:before, .ion-android-arrow-dropdown:before, .ion-android-arrow-dropdown-circle:before, .ion-android-arrow-dropleft:before, .ion-android-arrow-dropleft-circle:before, .ion-android-arrow-dropright:before, .ion-android-arrow-dropright-circle:before, .ion-android-arrow-dropup:before, .ion-android-arrow-dropup-circle:before, .ion-android-arrow-forward:before, .ion-android-arrow-up:before, .ion-android-attach:before, .ion-android-bar:before, .ion-android-bicycle:before, .ion-android-boat:before, .ion-android-bookmark:before, .ion-android-bulb:before, .ion-android-bus:before, .ion-android-calendar:before, .ion-android-call:before, .ion-android-camera:before, .ion-android-cancel:before, .ion-android-car:before, .ion-android-cart:before, .ion-android-chat:before, .ion-android-checkbox:before, .ion-android-checkbox-blank:before, .ion-android-checkbox-outline:before, .ion-android-checkbox-outline-blank:before, .ion-android-checkmark-circle:before, .ion-android-clipboard:before, .ion-android-close:before, .ion-android-cloud:before, .ion-android-cloud-circle:before, .ion-android-cloud-done:before, .ion-android-cloud-outline:before, .ion-android-color-palette:before, .ion-android-compass:before, .ion-android-contact:before, .ion-android-contacts:before, .ion-android-contract:before, .ion-android-create:before, .ion-android-delete:before, .ion-android-desktop:before, .ion-android-document:before, .ion-android-done:before, .ion-android-done-all:before, .ion-android-download:before, .ion-android-drafts:before, .ion-android-exit:before, .ion-android-expand:before, .ion-android-favorite:before, .ion-android-favorite-outline:before, .ion-android-film:before, .ion-android-folder:before, .ion-android-folder-open:before, .ion-android-funnel:before, .ion-android-globe:before, .ion-android-hand:before, .ion-android-hangout:before, .ion-android-happy:before, .ion-android-home:before, .ion-android-image:before, .ion-android-laptop:before, .ion-android-list:before, .ion-android-locate:before, .ion-android-lock:before, .ion-android-mail:before, .ion-android-map:before, .ion-android-menu:before, .ion-android-microphone:before, .ion-android-microphone-off:before, .ion-android-more-horizontal:before, .ion-android-more-vertical:before, .ion-android-navigate:before, .ion-android-notifications:before, .ion-android-notifications-none:before, .ion-android-notifications-off:before, .ion-android-open:before, .ion-android-options:before, .ion-android-people:before, .ion-android-person:before, .ion-android-person-add:before, .ion-android-phone-landscape:before, .ion-android-phone-portrait:before, .ion-android-pin:before, .ion-android-plane:before, .ion-android-playstore:before, .ion-android-print:before, .ion-android-radio-button-off:before, .ion-android-radio-button-on:before, .ion-android-refresh:before, .ion-android-remove:before, .ion-android-remove-circle:before, .ion-android-restaurant:before, .ion-android-sad:before, .ion-android-search:before, .ion-android-send:before, .ion-android-settings:before, .ion-android-share:before, .ion-android-share-alt:before, .ion-android-star:before, .ion-android-star-half:before, .ion-android-star-outline:before, .ion-android-stopwatch:before, .ion-android-subway:before, .ion-android-sunny:before, .ion-android-sync:before, .ion-android-textsms:before, .ion-android-time:before, .ion-android-train:before, .ion-android-unlock:before, .ion-android-upload:before, .ion-android-volume-down:before, .ion-android-volume-mute:before, .ion-android-volume-off:before, .ion-android-volume-up:before, .ion-android-walk:before, .ion-android-warning:before, .ion-android-watch:before, .ion-android-wifi:before, .ion-aperture:before, .ion-archive:before, .ion-arrow-down-a:before, .ion-arrow-down-b:before, .ion-arrow-down-c:before, .ion-arrow-expand:before, .ion-arrow-graph-down-left:before, .ion-arrow-graph-down-right:before, .ion-arrow-graph-up-left:before, .ion-arrow-graph-up-right:before, .ion-arrow-left-a:before, .ion-arrow-left-b:before, .ion-arrow-left-c:before, .ion-arrow-move:before, .ion-arrow-resize:before, .ion-arrow-return-left:before, .ion-arrow-return-right:before, .ion-arrow-right-a:before, .ion-arrow-right-b:before, .ion-arrow-right-c:before, .ion-arrow-shrink:before, .ion-arrow-swap:before, .ion-arrow-up-a:before, .ion-arrow-up-b:before, .ion-arrow-up-c:before, .ion-asterisk:before, .ion-at:before, .ion-backspace:before, .ion-backspace-outline:before, .ion-bag:before, .ion-battery-charging:before, .ion-battery-empty:before, .ion-battery-full:before, .ion-battery-half:before, .ion-battery-low:before, .ion-beaker:before, .ion-beer:before, .ion-bluetooth:before, .ion-bonfire:before, .ion-bookmark:before, .ion-bowtie:before, .ion-briefcase:before, .ion-bug:before, .ion-calculator:before, .ion-calendar:before, .ion-camera:before, .ion-card:before, .ion-cash:before, .ion-chatbox:before, .ion-chatbox-working:before, .ion-chatboxes:before, .ion-chatbubble:before, .ion-chatbubble-working:before, .ion-chatbubbles:before, .ion-checkmark:before, .ion-checkmark-circled:before, .ion-checkmark-round:before, .ion-chevron-down:before, .ion-chevron-left:before, .ion-chevron-right:before, .ion-chevron-up:before, .ion-clipboard:before, .ion-clock:before, .ion-close:before, .ion-close-circled:before, .ion-close-round:before, .ion-closed-captioning:before, .ion-cloud:before, .ion-code:before, .ion-code-download:before, .ion-code-working:before, .ion-coffee:before, .ion-compass:before, .ion-compose:before, .ion-connection-bars:before, .ion-contrast:before, .ion-crop:before, .ion-cube:before, .ion-disc:before, .ion-document:before, .ion-document-text:before, .ion-drag:before, .ion-earth:before, .ion-easel:before, .ion-edit:before, .ion-egg:before, .ion-eject:before, .ion-email:before, .ion-email-unread:before, .ion-erlenmeyer-flask:before, .ion-erlenmeyer-flask-bubbles:before, .ion-eye:before, .ion-eye-disabled:before, .ion-female:before, .ion-filing:before, .ion-film-marker:before, .ion-fireball:before, .ion-flag:before, .ion-flame:before, .ion-flash:before, .ion-flash-off:before, .ion-folder:before, .ion-fork:before, .ion-fork-repo:before, .ion-forward:before, .ion-funnel:before, .ion-gear-a:before, .ion-gear-b:before, .ion-grid:before, .ion-hammer:before, .ion-happy:before, .ion-happy-outline:before, .ion-headphone:before, .ion-heart:before, .ion-heart-broken:before, .ion-help:before, .ion-help-buoy:before, .ion-help-circled:before, .ion-home:before, .ion-icecream:before, .ion-image:before, .ion-images:before, .ion-information:before, .ion-information-circled:before, .ion-ionic:before, .ion-ios-alarm:before, .ion-ios-alarm-outline:before, .ion-ios-albums:before, .ion-ios-albums-outline:before, .ion-ios-americanfootball:before, .ion-ios-americanfootball-outline:before, .ion-ios-analytics:before, .ion-ios-analytics-outline:before, .ion-ios-arrow-back:before, .ion-ios-arrow-down:before, .ion-ios-arrow-forward:before, .ion-ios-arrow-left:before, .ion-ios-arrow-right:before, .ion-ios-arrow-thin-down:before, .ion-ios-arrow-thin-left:before, .ion-ios-arrow-thin-right:before, .ion-ios-arrow-thin-up:before, .ion-ios-arrow-up:before, .ion-ios-at:before, .ion-ios-at-outline:before, .ion-ios-barcode:before, .ion-ios-barcode-outline:before, .ion-ios-baseball:before, .ion-ios-baseball-outline:before, .ion-ios-basketball:before, .ion-ios-basketball-outline:before, .ion-ios-bell:before, .ion-ios-bell-outline:before, .ion-ios-body:before, .ion-ios-body-outline:before, .ion-ios-bolt:before, .ion-ios-bolt-outline:before, .ion-ios-book:before, .ion-ios-book-outline:before, .ion-ios-bookmarks:before, .ion-ios-bookmarks-outline:before, .ion-ios-box:before, .ion-ios-box-outline:before, .ion-ios-briefcase:before, .ion-ios-briefcase-outline:before, .ion-ios-browsers:before, .ion-ios-browsers-outline:before, .ion-ios-calculator:before, .ion-ios-calculator-outline:before, .ion-ios-calendar:before, .ion-ios-calendar-outline:before, .ion-ios-camera:before, .ion-ios-camera-outline:before, .ion-ios-cart:before, .ion-ios-cart-outline:before, .ion-ios-chatboxes:before, .ion-ios-chatboxes-outline:before, .ion-ios-chatbubble:before, .ion-ios-chatbubble-outline:before, .ion-ios-checkmark:before, .ion-ios-checkmark-empty:before, .ion-ios-checkmark-outline:before, .ion-ios-circle-filled:before, .ion-ios-circle-outline:before, .ion-ios-clock:before, .ion-ios-clock-outline:before, .ion-ios-close:before, .ion-ios-close-empty:before, .ion-ios-close-outline:before, .ion-ios-cloud:before, .ion-ios-cloud-download:before, .ion-ios-cloud-download-outline:before, .ion-ios-cloud-outline:before, .ion-ios-cloud-upload:before, .ion-ios-cloud-upload-outline:before, .ion-ios-cloudy:before, .ion-ios-cloudy-night:before, .ion-ios-cloudy-night-outline:before, .ion-ios-cloudy-outline:before, .ion-ios-cog:before, .ion-ios-cog-outline:before, .ion-ios-color-filter:before, .ion-ios-color-filter-outline:before, .ion-ios-color-wand:before, .ion-ios-color-wand-outline:before, .ion-ios-compose:before, .ion-ios-compose-outline:before, .ion-ios-contact:before, .ion-ios-contact-outline:before, .ion-ios-copy:before, .ion-ios-copy-outline:before, .ion-ios-crop:before, .ion-ios-crop-strong:before, .ion-ios-download:before, .ion-ios-download-outline:before, .ion-ios-drag:before, .ion-ios-email:before, .ion-ios-email-outline:before, .ion-ios-eye:before, .ion-ios-eye-outline:before, .ion-ios-fastforward:before, .ion-ios-fastforward-outline:before, .ion-ios-filing:before, .ion-ios-filing-outline:before, .ion-ios-film:before, .ion-ios-film-outline:before, .ion-ios-flag:before, .ion-ios-flag-outline:before, .ion-ios-flame:before, .ion-ios-flame-outline:before, .ion-ios-flask:before, .ion-ios-flask-outline:before, .ion-ios-flower:before, .ion-ios-flower-outline:before, .ion-ios-folder:before, .ion-ios-folder-outline:before, .ion-ios-football:before, .ion-ios-football-outline:before, .ion-ios-game-controller-a:before, .ion-ios-game-controller-a-outline:before, .ion-ios-game-controller-b:before, .ion-ios-game-controller-b-outline:before, .ion-ios-gear:before, .ion-ios-gear-outline:before, .ion-ios-glasses:before, .ion-ios-glasses-outline:before, .ion-ios-grid-view:before, .ion-ios-grid-view-outline:before, .ion-ios-heart:before, .ion-ios-heart-outline:before, .ion-ios-help:before, .ion-ios-help-empty:before, .ion-ios-help-outline:before, .ion-ios-home:before, .ion-ios-home-outline:before, .ion-ios-infinite:before, .ion-ios-infinite-outline:before, .ion-ios-information:before, .ion-ios-information-empty:before, .ion-ios-information-outline:before, .ion-ios-ionic-outline:before, .ion-ios-keypad:before, .ion-ios-keypad-outline:before, .ion-ios-lightbulb:before, .ion-ios-lightbulb-outline:before, .ion-ios-list:before, .ion-ios-list-outline:before, .ion-ios-location:before, .ion-ios-location-outline:before, .ion-ios-locked:before, .ion-ios-locked-outline:before, .ion-ios-loop:before, .ion-ios-loop-strong:before, .ion-ios-medical:before, .ion-ios-medical-outline:before, .ion-ios-medkit:before, .ion-ios-medkit-outline:before, .ion-ios-mic:before, .ion-ios-mic-off:before, .ion-ios-mic-outline:before, .ion-ios-minus:before, .ion-ios-minus-empty:before, .ion-ios-minus-outline:before, .ion-ios-monitor:before, .ion-ios-monitor-outline:before, .ion-ios-moon:before, .ion-ios-moon-outline:before, .ion-ios-more:before, .ion-ios-more-outline:before, .ion-ios-musical-note:before, .ion-ios-musical-notes:before, .ion-ios-navigate:before, .ion-ios-navigate-outline:before, .ion-ios-nutrition:before, .ion-ios-nutrition-outline:before, .ion-ios-paper:before, .ion-ios-paper-outline:before, .ion-ios-paperplane:before, .ion-ios-paperplane-outline:before, .ion-ios-partlysunny:before, .ion-ios-partlysunny-outline:before, .ion-ios-pause:before, .ion-ios-pause-outline:before, .ion-ios-paw:before, .ion-ios-paw-outline:before, .ion-ios-people:before, .ion-ios-people-outline:before, .ion-ios-person:before, .ion-ios-person-outline:before, .ion-ios-personadd:before, .ion-ios-personadd-outline:before, .ion-ios-photos:before, .ion-ios-photos-outline:before, .ion-ios-pie:before, .ion-ios-pie-outline:before, .ion-ios-pint:before, .ion-ios-pint-outline:before, .ion-ios-play:before, .ion-ios-play-outline:before, .ion-ios-plus:before, .ion-ios-plus-empty:before, .ion-ios-plus-outline:before, .ion-ios-pricetag:before, .ion-ios-pricetag-outline:before, .ion-ios-pricetags:before, .ion-ios-pricetags-outline:before, .ion-ios-printer:before, .ion-ios-printer-outline:before, .ion-ios-pulse:before, .ion-ios-pulse-strong:before, .ion-ios-rainy:before, .ion-ios-rainy-outline:before, .ion-ios-recording:before, .ion-ios-recording-outline:before, .ion-ios-redo:before, .ion-ios-redo-outline:before, .ion-ios-refresh:before, .ion-ios-refresh-empty:before, .ion-ios-refresh-outline:before, .ion-ios-reload:before, .ion-ios-reverse-camera:before, .ion-ios-reverse-camera-outline:before, .ion-ios-rewind:before, .ion-ios-rewind-outline:before, .ion-ios-rose:before, .ion-ios-rose-outline:before, .ion-ios-search:before, .ion-ios-search-strong:before, .ion-ios-settings:before, .ion-ios-settings-strong:before, .ion-ios-shuffle:before, .ion-ios-shuffle-strong:before, .ion-ios-skipbackward:before, .ion-ios-skipbackward-outline:before, .ion-ios-skipforward:before, .ion-ios-skipforward-outline:before, .ion-ios-snowy:before, .ion-ios-speedometer:before, .ion-ios-speedometer-outline:before, .ion-ios-star:before, .ion-ios-star-half:before, .ion-ios-star-outline:before, .ion-ios-stopwatch:before, .ion-ios-stopwatch-outline:before, .ion-ios-sunny:before, .ion-ios-sunny-outline:before, .ion-ios-telephone:before, .ion-ios-telephone-outline:before, .ion-ios-tennisball:before, .ion-ios-tennisball-outline:before, .ion-ios-thunderstorm:before, .ion-ios-thunderstorm-outline:before, .ion-ios-time:before, .ion-ios-time-outline:before, .ion-ios-timer:before, .ion-ios-timer-outline:before, .ion-ios-toggle:before, .ion-ios-toggle-outline:before, .ion-ios-trash:before, .ion-ios-trash-outline:before, .ion-ios-undo:before, .ion-ios-undo-outline:before, .ion-ios-unlocked:before, .ion-ios-unlocked-outline:before, .ion-ios-upload:before, .ion-ios-upload-outline:before, .ion-ios-videocam:before, .ion-ios-videocam-outline:before, .ion-ios-volume-high:before, .ion-ios-volume-low:before, .ion-ios-wineglass:before, .ion-ios-wineglass-outline:before, .ion-ios-world:before, .ion-ios-world-outline:before, .ion-ipad:before, .ion-iphone:before, .ion-ipod:before, .ion-jet:before, .ion-key:before, .ion-knife:before, .ion-laptop:before, .ion-leaf:before, .ion-levels:before, .ion-lightbulb:before, .ion-link:before, .ion-load-a:before, .ion-load-b:before, .ion-load-c:before, .ion-load-d:before, .ion-location:before, .ion-lock-combination:before, .ion-locked:before, .ion-log-in:before, .ion-log-out:before, .ion-loop:before, .ion-magnet:before, .ion-male:before, .ion-man:before, .ion-map:before, .ion-medkit:before, .ion-merge:before, .ion-mic-a:before, .ion-mic-b:before, .ion-mic-c:before, .ion-minus:before, .ion-minus-circled:before, .ion-minus-round:before, .ion-model-s:before, .ion-monitor:before, .ion-more:before, .ion-mouse:before, .ion-music-note:before, .ion-navicon:before, .ion-navicon-round:before, .ion-navigate:before, .ion-network:before, .ion-no-smoking:before, .ion-nuclear:before, .ion-outlet:before, .ion-paintbrush:before, .ion-paintbucket:before, .ion-paper-airplane:before, .ion-paperclip:before, .ion-pause:before, .ion-person:before, .ion-person-add:before, .ion-person-stalker:before, .ion-pie-graph:before, .ion-pin:before, .ion-pinpoint:before, .ion-pizza:before, .ion-plane:before, .ion-planet:before, .ion-play:before, .ion-playstation:before, .ion-plus:before, .ion-plus-circled:before, .ion-plus-round:before, .ion-podium:before, .ion-pound:before, .ion-power:before, .ion-pricetag:before, .ion-pricetags:before, .ion-printer:before, .ion-pull-request:before, .ion-qr-scanner:before, .ion-quote:before, .ion-radio-waves:before, .ion-record:before, .ion-refresh:before, .ion-reply:before, .ion-reply-all:before, .ion-ribbon-a:before, .ion-ribbon-b:before, .ion-sad:before, .ion-sad-outline:before, .ion-scissors:before, .ion-search:before, .ion-settings:before, .ion-share:before, .ion-shuffle:before, .ion-skip-backward:before, .ion-skip-forward:before, .ion-social-android:before, .ion-social-android-outline:before, .ion-social-angular:before, .ion-social-angular-outline:before, .ion-social-apple:before, .ion-social-apple-outline:before, .ion-social-bitcoin:before, .ion-social-bitcoin-outline:before, .ion-social-buffer:before, .ion-social-buffer-outline:before, .ion-social-chrome:before, .ion-social-chrome-outline:before, .ion-social-codepen:before, .ion-social-codepen-outline:before, .ion-social-css3:before, .ion-social-css3-outline:before, .ion-social-designernews:before, .ion-social-designernews-outline:before, .ion-social-dribbble:before, .ion-social-dribbble-outline:before, .ion-social-dropbox:before, .ion-social-dropbox-outline:before, .ion-social-euro:before, .ion-social-euro-outline:before, .ion-social-facebook:before, .ion-social-facebook-outline:before, .ion-social-foursquare:before, .ion-social-foursquare-outline:before, .ion-social-freebsd-devil:before, .ion-social-github:before, .ion-social-github-outline:before, .ion-social-google:before, .ion-social-google-outline:before, .ion-social-googleplus:before, .ion-social-googleplus-outline:before, .ion-social-hackernews:before, .ion-social-hackernews-outline:before, .ion-social-html5:before, .ion-social-html5-outline:before, .ion-social-instagram:before, .ion-social-instagram-outline:before, .ion-social-javascript:before, .ion-social-javascript-outline:before, .ion-social-linkedin:before, .ion-social-linkedin-outline:before, .ion-social-markdown:before, .ion-social-nodejs:before, .ion-social-octocat:before, .ion-social-pinterest:before, .ion-social-pinterest-outline:before, .ion-social-python:before, .ion-social-reddit:before, .ion-social-reddit-outline:before, .ion-social-rss:before, .ion-social-rss-outline:before, .ion-social-sass:before, .ion-social-skype:before, .ion-social-skype-outline:before, .ion-social-snapchat:before, .ion-social-snapchat-outline:before, .ion-social-tumblr:before, .ion-social-tumblr-outline:before, .ion-social-tux:before, .ion-social-twitch:before, .ion-social-twitch-outline:before, .ion-social-twitter:before, .ion-social-twitter-outline:before, .ion-social-usd:before, .ion-social-usd-outline:before, .ion-social-vimeo:before, .ion-social-vimeo-outline:before, .ion-social-whatsapp:before, .ion-social-whatsapp-outline:before, .ion-social-windows:before, .ion-social-windows-outline:before, .ion-social-wordpress:before, .ion-social-wordpress-outline:before, .ion-social-yahoo:before, .ion-social-yahoo-outline:before, .ion-social-yen:before, .ion-social-yen-outline:before, .ion-social-youtube:before, .ion-social-youtube-outline:before, .ion-soup-can:before, .ion-soup-can-outline:before, .ion-speakerphone:before, .ion-speedometer:before, .ion-spoon:before, .ion-star:before, .ion-stats-bars:before, .ion-steam:before, .ion-stop:before, .ion-thermometer:before, .ion-thumbsdown:before, .ion-thumbsup:before, .ion-toggle:before, .ion-toggle-filled:before, .ion-transgender:before, .ion-trash-a:before, .ion-trash-b:before, .ion-trophy:before, .ion-tshirt:before, .ion-tshirt-outline:before, .ion-umbrella:before, .ion-university:before, .ion-unlocked:before, .ion-upload:before, .ion-usb:before, .ion-videocamera:before, .ion-volume-high:before, .ion-volume-low:before, .ion-volume-medium:before, .ion-volume-mute:before, .ion-wand:before, .ion-waterdrop:before, .ion-wifi:before, .ion-wineglass:before, .ion-woman:before, .ion-wrench:before, .ion-xbox:before { display: inline-block; font-family: \"Ionicons\"; speak: none; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; text-rendering: auto; line-height: 1; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }\r\n\r\n.ion-alert:before { content: \"\\F101\"; }\r\n\r\n.ion-alert-circled:before { content: \"\\F100\"; }\r\n\r\n.ion-android-add:before { content: \"\\F2C7\"; }\r\n\r\n.ion-android-add-circle:before { content: \"\\F359\"; }\r\n\r\n.ion-android-alarm-clock:before { content: \"\\F35A\"; }\r\n\r\n.ion-android-alert:before { content: \"\\F35B\"; }\r\n\r\n.ion-android-apps:before { content: \"\\F35C\"; }\r\n\r\n.ion-android-archive:before { content: \"\\F2C9\"; }\r\n\r\n.ion-android-arrow-back:before { content: \"\\F2CA\"; }\r\n\r\n.ion-android-arrow-down:before { content: \"\\F35D\"; }\r\n\r\n.ion-android-arrow-dropdown:before { content: \"\\F35F\"; }\r\n\r\n.ion-android-arrow-dropdown-circle:before { content: \"\\F35E\"; }\r\n\r\n.ion-android-arrow-dropleft:before { content: \"\\F361\"; }\r\n\r\n.ion-android-arrow-dropleft-circle:before { content: \"\\F360\"; }\r\n\r\n.ion-android-arrow-dropright:before { content: \"\\F363\"; }\r\n\r\n.ion-android-arrow-dropright-circle:before { content: \"\\F362\"; }\r\n\r\n.ion-android-arrow-dropup:before { content: \"\\F365\"; }\r\n\r\n.ion-android-arrow-dropup-circle:before { content: \"\\F364\"; }\r\n\r\n.ion-android-arrow-forward:before { content: \"\\F30F\"; }\r\n\r\n.ion-android-arrow-up:before { content: \"\\F366\"; }\r\n\r\n.ion-android-attach:before { content: \"\\F367\"; }\r\n\r\n.ion-android-bar:before { content: \"\\F368\"; }\r\n\r\n.ion-android-bicycle:before { content: \"\\F369\"; }\r\n\r\n.ion-android-boat:before { content: \"\\F36A\"; }\r\n\r\n.ion-android-bookmark:before { content: \"\\F36B\"; }\r\n\r\n.ion-android-bulb:before { content: \"\\F36C\"; }\r\n\r\n.ion-android-bus:before { content: \"\\F36D\"; }\r\n\r\n.ion-android-calendar:before { content: \"\\F2D1\"; }\r\n\r\n.ion-android-call:before { content: \"\\F2D2\"; }\r\n\r\n.ion-android-camera:before { content: \"\\F2D3\"; }\r\n\r\n.ion-android-cancel:before { content: \"\\F36E\"; }\r\n\r\n.ion-android-car:before { content: \"\\F36F\"; }\r\n\r\n.ion-android-cart:before { content: \"\\F370\"; }\r\n\r\n.ion-android-chat:before { content: \"\\F2D4\"; }\r\n\r\n.ion-android-checkbox:before { content: \"\\F374\"; }\r\n\r\n.ion-android-checkbox-blank:before { content: \"\\F371\"; }\r\n\r\n.ion-android-checkbox-outline:before { content: \"\\F373\"; }\r\n\r\n.ion-android-checkbox-outline-blank:before { content: \"\\F372\"; }\r\n\r\n.ion-android-checkmark-circle:before { content: \"\\F375\"; }\r\n\r\n.ion-android-clipboard:before { content: \"\\F376\"; }\r\n\r\n.ion-android-close:before { content: \"\\F2D7\"; }\r\n\r\n.ion-android-cloud:before { content: \"\\F37A\"; }\r\n\r\n.ion-android-cloud-circle:before { content: \"\\F377\"; }\r\n\r\n.ion-android-cloud-done:before { content: \"\\F378\"; }\r\n\r\n.ion-android-cloud-outline:before { content: \"\\F379\"; }\r\n\r\n.ion-android-color-palette:before { content: \"\\F37B\"; }\r\n\r\n.ion-android-compass:before { content: \"\\F37C\"; }\r\n\r\n.ion-android-contact:before { content: \"\\F2D8\"; }\r\n\r\n.ion-android-contacts:before { content: \"\\F2D9\"; }\r\n\r\n.ion-android-contract:before { content: \"\\F37D\"; }\r\n\r\n.ion-android-create:before { content: \"\\F37E\"; }\r\n\r\n.ion-android-delete:before { content: \"\\F37F\"; }\r\n\r\n.ion-android-desktop:before { content: \"\\F380\"; }\r\n\r\n.ion-android-document:before { content: \"\\F381\"; }\r\n\r\n.ion-android-done:before { content: \"\\F383\"; }\r\n\r\n.ion-android-done-all:before { content: \"\\F382\"; }\r\n\r\n.ion-android-download:before { content: \"\\F2DD\"; }\r\n\r\n.ion-android-drafts:before { content: \"\\F384\"; }\r\n\r\n.ion-android-exit:before { content: \"\\F385\"; }\r\n\r\n.ion-android-expand:before { content: \"\\F386\"; }\r\n\r\n.ion-android-favorite:before { content: \"\\F388\"; }\r\n\r\n.ion-android-favorite-outline:before { content: \"\\F387\"; }\r\n\r\n.ion-android-film:before { content: \"\\F389\"; }\r\n\r\n.ion-android-folder:before { content: \"\\F2E0\"; }\r\n\r\n.ion-android-folder-open:before { content: \"\\F38A\"; }\r\n\r\n.ion-android-funnel:before { content: \"\\F38B\"; }\r\n\r\n.ion-android-globe:before { content: \"\\F38C\"; }\r\n\r\n.ion-android-hand:before { content: \"\\F2E3\"; }\r\n\r\n.ion-android-hangout:before { content: \"\\F38D\"; }\r\n\r\n.ion-android-happy:before { content: \"\\F38E\"; }\r\n\r\n.ion-android-home:before { content: \"\\F38F\"; }\r\n\r\n.ion-android-image:before { content: \"\\F2E4\"; }\r\n\r\n.ion-android-laptop:before { content: \"\\F390\"; }\r\n\r\n.ion-android-list:before { content: \"\\F391\"; }\r\n\r\n.ion-android-locate:before { content: \"\\F2E9\"; }\r\n\r\n.ion-android-lock:before { content: \"\\F392\"; }\r\n\r\n.ion-android-mail:before { content: \"\\F2EB\"; }\r\n\r\n.ion-android-map:before { content: \"\\F393\"; }\r\n\r\n.ion-android-menu:before { content: \"\\F394\"; }\r\n\r\n.ion-android-microphone:before { content: \"\\F2EC\"; }\r\n\r\n.ion-android-microphone-off:before { content: \"\\F395\"; }\r\n\r\n.ion-android-more-horizontal:before { content: \"\\F396\"; }\r\n\r\n.ion-android-more-vertical:before { content: \"\\F397\"; }\r\n\r\n.ion-android-navigate:before { content: \"\\F398\"; }\r\n\r\n.ion-android-notifications:before { content: \"\\F39B\"; }\r\n\r\n.ion-android-notifications-none:before { content: \"\\F399\"; }\r\n\r\n.ion-android-notifications-off:before { content: \"\\F39A\"; }\r\n\r\n.ion-android-open:before { content: \"\\F39C\"; }\r\n\r\n.ion-android-options:before { content: \"\\F39D\"; }\r\n\r\n.ion-android-people:before { content: \"\\F39E\"; }\r\n\r\n.ion-android-person:before { content: \"\\F3A0\"; }\r\n\r\n.ion-android-person-add:before { content: \"\\F39F\"; }\r\n\r\n.ion-android-phone-landscape:before { content: \"\\F3A1\"; }\r\n\r\n.ion-android-phone-portrait:before { content: \"\\F3A2\"; }\r\n\r\n.ion-android-pin:before { content: \"\\F3A3\"; }\r\n\r\n.ion-android-plane:before { content: \"\\F3A4\"; }\r\n\r\n.ion-android-playstore:before { content: \"\\F2F0\"; }\r\n\r\n.ion-android-print:before { content: \"\\F3A5\"; }\r\n\r\n.ion-android-radio-button-off:before { content: \"\\F3A6\"; }\r\n\r\n.ion-android-radio-button-on:before { content: \"\\F3A7\"; }\r\n\r\n.ion-android-refresh:before { content: \"\\F3A8\"; }\r\n\r\n.ion-android-remove:before { content: \"\\F2F4\"; }\r\n\r\n.ion-android-remove-circle:before { content: \"\\F3A9\"; }\r\n\r\n.ion-android-restaurant:before { content: \"\\F3AA\"; }\r\n\r\n.ion-android-sad:before { content: \"\\F3AB\"; }\r\n\r\n.ion-android-search:before { content: \"\\F2F5\"; }\r\n\r\n.ion-android-send:before { content: \"\\F2F6\"; }\r\n\r\n.ion-android-settings:before { content: \"\\F2F7\"; }\r\n\r\n.ion-android-share:before { content: \"\\F2F8\"; }\r\n\r\n.ion-android-share-alt:before { content: \"\\F3AC\"; }\r\n\r\n.ion-android-star:before { content: \"\\F2FC\"; }\r\n\r\n.ion-android-star-half:before { content: \"\\F3AD\"; }\r\n\r\n.ion-android-star-outline:before { content: \"\\F3AE\"; }\r\n\r\n.ion-android-stopwatch:before { content: \"\\F2FD\"; }\r\n\r\n.ion-android-subway:before { content: \"\\F3AF\"; }\r\n\r\n.ion-android-sunny:before { content: \"\\F3B0\"; }\r\n\r\n.ion-android-sync:before { content: \"\\F3B1\"; }\r\n\r\n.ion-android-textsms:before { content: \"\\F3B2\"; }\r\n\r\n.ion-android-time:before { content: \"\\F3B3\"; }\r\n\r\n.ion-android-train:before { content: \"\\F3B4\"; }\r\n\r\n.ion-android-unlock:before { content: \"\\F3B5\"; }\r\n\r\n.ion-android-upload:before { content: \"\\F3B6\"; }\r\n\r\n.ion-android-volume-down:before { content: \"\\F3B7\"; }\r\n\r\n.ion-android-volume-mute:before { content: \"\\F3B8\"; }\r\n\r\n.ion-android-volume-off:before { content: \"\\F3B9\"; }\r\n\r\n.ion-android-volume-up:before { content: \"\\F3BA\"; }\r\n\r\n.ion-android-walk:before { content: \"\\F3BB\"; }\r\n\r\n.ion-android-warning:before { content: \"\\F3BC\"; }\r\n\r\n.ion-android-watch:before { content: \"\\F3BD\"; }\r\n\r\n.ion-android-wifi:before { content: \"\\F305\"; }\r\n\r\n.ion-aperture:before { content: \"\\F313\"; }\r\n\r\n.ion-archive:before { content: \"\\F102\"; }\r\n\r\n.ion-arrow-down-a:before { content: \"\\F103\"; }\r\n\r\n.ion-arrow-down-b:before { content: \"\\F104\"; }\r\n\r\n.ion-arrow-down-c:before { content: \"\\F105\"; }\r\n\r\n.ion-arrow-expand:before { content: \"\\F25E\"; }\r\n\r\n.ion-arrow-graph-down-left:before { content: \"\\F25F\"; }\r\n\r\n.ion-arrow-graph-down-right:before { content: \"\\F260\"; }\r\n\r\n.ion-arrow-graph-up-left:before { content: \"\\F261\"; }\r\n\r\n.ion-arrow-graph-up-right:before { content: \"\\F262\"; }\r\n\r\n.ion-arrow-left-a:before { content: \"\\F106\"; }\r\n\r\n.ion-arrow-left-b:before { content: \"\\F107\"; }\r\n\r\n.ion-arrow-left-c:before { content: \"\\F108\"; }\r\n\r\n.ion-arrow-move:before { content: \"\\F263\"; }\r\n\r\n.ion-arrow-resize:before { content: \"\\F264\"; }\r\n\r\n.ion-arrow-return-left:before { content: \"\\F265\"; }\r\n\r\n.ion-arrow-return-right:before { content: \"\\F266\"; }\r\n\r\n.ion-arrow-right-a:before { content: \"\\F109\"; }\r\n\r\n.ion-arrow-right-b:before { content: \"\\F10A\"; }\r\n\r\n.ion-arrow-right-c:before { content: \"\\F10B\"; }\r\n\r\n.ion-arrow-shrink:before { content: \"\\F267\"; }\r\n\r\n.ion-arrow-swap:before { content: \"\\F268\"; }\r\n\r\n.ion-arrow-up-a:before { content: \"\\F10C\"; }\r\n\r\n.ion-arrow-up-b:before { content: \"\\F10D\"; }\r\n\r\n.ion-arrow-up-c:before { content: \"\\F10E\"; }\r\n\r\n.ion-asterisk:before { content: \"\\F314\"; }\r\n\r\n.ion-at:before { content: \"\\F10F\"; }\r\n\r\n.ion-backspace:before { content: \"\\F3BF\"; }\r\n\r\n.ion-backspace-outline:before { content: \"\\F3BE\"; }\r\n\r\n.ion-bag:before { content: \"\\F110\"; }\r\n\r\n.ion-battery-charging:before { content: \"\\F111\"; }\r\n\r\n.ion-battery-empty:before { content: \"\\F112\"; }\r\n\r\n.ion-battery-full:before { content: \"\\F113\"; }\r\n\r\n.ion-battery-half:before { content: \"\\F114\"; }\r\n\r\n.ion-battery-low:before { content: \"\\F115\"; }\r\n\r\n.ion-beaker:before { content: \"\\F269\"; }\r\n\r\n.ion-beer:before { content: \"\\F26A\"; }\r\n\r\n.ion-bluetooth:before { content: \"\\F116\"; }\r\n\r\n.ion-bonfire:before { content: \"\\F315\"; }\r\n\r\n.ion-bookmark:before { content: \"\\F26B\"; }\r\n\r\n.ion-bowtie:before { content: \"\\F3C0\"; }\r\n\r\n.ion-briefcase:before { content: \"\\F26C\"; }\r\n\r\n.ion-bug:before { content: \"\\F2BE\"; }\r\n\r\n.ion-calculator:before { content: \"\\F26D\"; }\r\n\r\n.ion-calendar:before { content: \"\\F117\"; }\r\n\r\n.ion-camera:before { content: \"\\F118\"; }\r\n\r\n.ion-card:before { content: \"\\F119\"; }\r\n\r\n.ion-cash:before { content: \"\\F316\"; }\r\n\r\n.ion-chatbox:before { content: \"\\F11B\"; }\r\n\r\n.ion-chatbox-working:before { content: \"\\F11A\"; }\r\n\r\n.ion-chatboxes:before { content: \"\\F11C\"; }\r\n\r\n.ion-chatbubble:before { content: \"\\F11E\"; }\r\n\r\n.ion-chatbubble-working:before { content: \"\\F11D\"; }\r\n\r\n.ion-chatbubbles:before { content: \"\\F11F\"; }\r\n\r\n.ion-checkmark:before { content: \"\\F122\"; }\r\n\r\n.ion-checkmark-circled:before { content: \"\\F120\"; }\r\n\r\n.ion-checkmark-round:before { content: \"\\F121\"; }\r\n\r\n.ion-chevron-down:before { content: \"\\F123\"; }\r\n\r\n.ion-chevron-left:before { content: \"\\F124\"; }\r\n\r\n.ion-chevron-right:before { content: \"\\F125\"; }\r\n\r\n.ion-chevron-up:before { content: \"\\F126\"; }\r\n\r\n.ion-clipboard:before { content: \"\\F127\"; }\r\n\r\n.ion-clock:before { content: \"\\F26E\"; }\r\n\r\n.ion-close:before { content: \"\\F12A\"; }\r\n\r\n.ion-close-circled:before { content: \"\\F128\"; }\r\n\r\n.ion-close-round:before { content: \"\\F129\"; }\r\n\r\n.ion-closed-captioning:before { content: \"\\F317\"; }\r\n\r\n.ion-cloud:before { content: \"\\F12B\"; }\r\n\r\n.ion-code:before { content: \"\\F271\"; }\r\n\r\n.ion-code-download:before { content: \"\\F26F\"; }\r\n\r\n.ion-code-working:before { content: \"\\F270\"; }\r\n\r\n.ion-coffee:before { content: \"\\F272\"; }\r\n\r\n.ion-compass:before { content: \"\\F273\"; }\r\n\r\n.ion-compose:before { content: \"\\F12C\"; }\r\n\r\n.ion-connection-bars:before { content: \"\\F274\"; }\r\n\r\n.ion-contrast:before { content: \"\\F275\"; }\r\n\r\n.ion-crop:before { content: \"\\F3C1\"; }\r\n\r\n.ion-cube:before { content: \"\\F318\"; }\r\n\r\n.ion-disc:before { content: \"\\F12D\"; }\r\n\r\n.ion-document:before { content: \"\\F12F\"; }\r\n\r\n.ion-document-text:before { content: \"\\F12E\"; }\r\n\r\n.ion-drag:before { content: \"\\F130\"; }\r\n\r\n.ion-earth:before { content: \"\\F276\"; }\r\n\r\n.ion-easel:before { content: \"\\F3C2\"; }\r\n\r\n.ion-edit:before { content: \"\\F2BF\"; }\r\n\r\n.ion-egg:before { content: \"\\F277\"; }\r\n\r\n.ion-eject:before { content: \"\\F131\"; }\r\n\r\n.ion-email:before { content: \"\\F132\"; }\r\n\r\n.ion-email-unread:before { content: \"\\F3C3\"; }\r\n\r\n.ion-erlenmeyer-flask:before { content: \"\\F3C5\"; }\r\n\r\n.ion-erlenmeyer-flask-bubbles:before { content: \"\\F3C4\"; }\r\n\r\n.ion-eye:before { content: \"\\F133\"; }\r\n\r\n.ion-eye-disabled:before { content: \"\\F306\"; }\r\n\r\n.ion-female:before { content: \"\\F278\"; }\r\n\r\n.ion-filing:before { content: \"\\F134\"; }\r\n\r\n.ion-film-marker:before { content: \"\\F135\"; }\r\n\r\n.ion-fireball:before { content: \"\\F319\"; }\r\n\r\n.ion-flag:before { content: \"\\F279\"; }\r\n\r\n.ion-flame:before { content: \"\\F31A\"; }\r\n\r\n.ion-flash:before { content: \"\\F137\"; }\r\n\r\n.ion-flash-off:before { content: \"\\F136\"; }\r\n\r\n.ion-folder:before { content: \"\\F139\"; }\r\n\r\n.ion-fork:before { content: \"\\F27A\"; }\r\n\r\n.ion-fork-repo:before { content: \"\\F2C0\"; }\r\n\r\n.ion-forward:before { content: \"\\F13A\"; }\r\n\r\n.ion-funnel:before { content: \"\\F31B\"; }\r\n\r\n.ion-gear-a:before { content: \"\\F13D\"; }\r\n\r\n.ion-gear-b:before { content: \"\\F13E\"; }\r\n\r\n.ion-grid:before { content: \"\\F13F\"; }\r\n\r\n.ion-hammer:before { content: \"\\F27B\"; }\r\n\r\n.ion-happy:before { content: \"\\F31C\"; }\r\n\r\n.ion-happy-outline:before { content: \"\\F3C6\"; }\r\n\r\n.ion-headphone:before { content: \"\\F140\"; }\r\n\r\n.ion-heart:before { content: \"\\F141\"; }\r\n\r\n.ion-heart-broken:before { content: \"\\F31D\"; }\r\n\r\n.ion-help:before { content: \"\\F143\"; }\r\n\r\n.ion-help-buoy:before { content: \"\\F27C\"; }\r\n\r\n.ion-help-circled:before { content: \"\\F142\"; }\r\n\r\n.ion-home:before { content: \"\\F144\"; }\r\n\r\n.ion-icecream:before { content: \"\\F27D\"; }\r\n\r\n.ion-image:before { content: \"\\F147\"; }\r\n\r\n.ion-images:before { content: \"\\F148\"; }\r\n\r\n.ion-information:before { content: \"\\F14A\"; }\r\n\r\n.ion-information-circled:before { content: \"\\F149\"; }\r\n\r\n.ion-ionic:before { content: \"\\F14B\"; }\r\n\r\n.ion-ios-alarm:before { content: \"\\F3C8\"; }\r\n\r\n.ion-ios-alarm-outline:before { content: \"\\F3C7\"; }\r\n\r\n.ion-ios-albums:before { content: \"\\F3CA\"; }\r\n\r\n.ion-ios-albums-outline:before { content: \"\\F3C9\"; }\r\n\r\n.ion-ios-americanfootball:before { content: \"\\F3CC\"; }\r\n\r\n.ion-ios-americanfootball-outline:before { content: \"\\F3CB\"; }\r\n\r\n.ion-ios-analytics:before { content: \"\\F3CE\"; }\r\n\r\n.ion-ios-analytics-outline:before { content: \"\\F3CD\"; }\r\n\r\n.ion-ios-arrow-back:before { content: \"\\F3CF\"; }\r\n\r\n.ion-ios-arrow-down:before { content: \"\\F3D0\"; }\r\n\r\n.ion-ios-arrow-forward:before { content: \"\\F3D1\"; }\r\n\r\n.ion-ios-arrow-left:before { content: \"\\F3D2\"; }\r\n\r\n.ion-ios-arrow-right:before { content: \"\\F3D3\"; }\r\n\r\n.ion-ios-arrow-thin-down:before { content: \"\\F3D4\"; }\r\n\r\n.ion-ios-arrow-thin-left:before { content: \"\\F3D5\"; }\r\n\r\n.ion-ios-arrow-thin-right:before { content: \"\\F3D6\"; }\r\n\r\n.ion-ios-arrow-thin-up:before { content: \"\\F3D7\"; }\r\n\r\n.ion-ios-arrow-up:before { content: \"\\F3D8\"; }\r\n\r\n.ion-ios-at:before { content: \"\\F3DA\"; }\r\n\r\n.ion-ios-at-outline:before { content: \"\\F3D9\"; }\r\n\r\n.ion-ios-barcode:before { content: \"\\F3DC\"; }\r\n\r\n.ion-ios-barcode-outline:before { content: \"\\F3DB\"; }\r\n\r\n.ion-ios-baseball:before { content: \"\\F3DE\"; }\r\n\r\n.ion-ios-baseball-outline:before { content: \"\\F3DD\"; }\r\n\r\n.ion-ios-basketball:before { content: \"\\F3E0\"; }\r\n\r\n.ion-ios-basketball-outline:before { content: \"\\F3DF\"; }\r\n\r\n.ion-ios-bell:before { content: \"\\F3E2\"; }\r\n\r\n.ion-ios-bell-outline:before { content: \"\\F3E1\"; }\r\n\r\n.ion-ios-body:before { content: \"\\F3E4\"; }\r\n\r\n.ion-ios-body-outline:before { content: \"\\F3E3\"; }\r\n\r\n.ion-ios-bolt:before { content: \"\\F3E6\"; }\r\n\r\n.ion-ios-bolt-outline:before { content: \"\\F3E5\"; }\r\n\r\n.ion-ios-book:before { content: \"\\F3E8\"; }\r\n\r\n.ion-ios-book-outline:before { content: \"\\F3E7\"; }\r\n\r\n.ion-ios-bookmarks:before { content: \"\\F3EA\"; }\r\n\r\n.ion-ios-bookmarks-outline:before { content: \"\\F3E9\"; }\r\n\r\n.ion-ios-box:before { content: \"\\F3EC\"; }\r\n\r\n.ion-ios-box-outline:before { content: \"\\F3EB\"; }\r\n\r\n.ion-ios-briefcase:before { content: \"\\F3EE\"; }\r\n\r\n.ion-ios-briefcase-outline:before { content: \"\\F3ED\"; }\r\n\r\n.ion-ios-browsers:before { content: \"\\F3F0\"; }\r\n\r\n.ion-ios-browsers-outline:before { content: \"\\F3EF\"; }\r\n\r\n.ion-ios-calculator:before { content: \"\\F3F2\"; }\r\n\r\n.ion-ios-calculator-outline:before { content: \"\\F3F1\"; }\r\n\r\n.ion-ios-calendar:before { content: \"\\F3F4\"; }\r\n\r\n.ion-ios-calendar-outline:before { content: \"\\F3F3\"; }\r\n\r\n.ion-ios-camera:before { content: \"\\F3F6\"; }\r\n\r\n.ion-ios-camera-outline:before { content: \"\\F3F5\"; }\r\n\r\n.ion-ios-cart:before { content: \"\\F3F8\"; }\r\n\r\n.ion-ios-cart-outline:before { content: \"\\F3F7\"; }\r\n\r\n.ion-ios-chatboxes:before { content: \"\\F3FA\"; }\r\n\r\n.ion-ios-chatboxes-outline:before { content: \"\\F3F9\"; }\r\n\r\n.ion-ios-chatbubble:before { content: \"\\F3FC\"; }\r\n\r\n.ion-ios-chatbubble-outline:before { content: \"\\F3FB\"; }\r\n\r\n.ion-ios-checkmark:before { content: \"\\F3FF\"; }\r\n\r\n.ion-ios-checkmark-empty:before { content: \"\\F3FD\"; }\r\n\r\n.ion-ios-checkmark-outline:before { content: \"\\F3FE\"; }\r\n\r\n.ion-ios-circle-filled:before { content: \"\\F400\"; }\r\n\r\n.ion-ios-circle-outline:before { content: \"\\F401\"; }\r\n\r\n.ion-ios-clock:before { content: \"\\F403\"; }\r\n\r\n.ion-ios-clock-outline:before { content: \"\\F402\"; }\r\n\r\n.ion-ios-close:before { content: \"\\F406\"; }\r\n\r\n.ion-ios-close-empty:before { content: \"\\F404\"; }\r\n\r\n.ion-ios-close-outline:before { content: \"\\F405\"; }\r\n\r\n.ion-ios-cloud:before { content: \"\\F40C\"; }\r\n\r\n.ion-ios-cloud-download:before { content: \"\\F408\"; }\r\n\r\n.ion-ios-cloud-download-outline:before { content: \"\\F407\"; }\r\n\r\n.ion-ios-cloud-outline:before { content: \"\\F409\"; }\r\n\r\n.ion-ios-cloud-upload:before { content: \"\\F40B\"; }\r\n\r\n.ion-ios-cloud-upload-outline:before { content: \"\\F40A\"; }\r\n\r\n.ion-ios-cloudy:before { content: \"\\F410\"; }\r\n\r\n.ion-ios-cloudy-night:before { content: \"\\F40E\"; }\r\n\r\n.ion-ios-cloudy-night-outline:before { content: \"\\F40D\"; }\r\n\r\n.ion-ios-cloudy-outline:before { content: \"\\F40F\"; }\r\n\r\n.ion-ios-cog:before { content: \"\\F412\"; }\r\n\r\n.ion-ios-cog-outline:before { content: \"\\F411\"; }\r\n\r\n.ion-ios-color-filter:before { content: \"\\F414\"; }\r\n\r\n.ion-ios-color-filter-outline:before { content: \"\\F413\"; }\r\n\r\n.ion-ios-color-wand:before { content: \"\\F416\"; }\r\n\r\n.ion-ios-color-wand-outline:before { content: \"\\F415\"; }\r\n\r\n.ion-ios-compose:before { content: \"\\F418\"; }\r\n\r\n.ion-ios-compose-outline:before { content: \"\\F417\"; }\r\n\r\n.ion-ios-contact:before { content: \"\\F41A\"; }\r\n\r\n.ion-ios-contact-outline:before { content: \"\\F419\"; }\r\n\r\n.ion-ios-copy:before { content: \"\\F41C\"; }\r\n\r\n.ion-ios-copy-outline:before { content: \"\\F41B\"; }\r\n\r\n.ion-ios-crop:before { content: \"\\F41E\"; }\r\n\r\n.ion-ios-crop-strong:before { content: \"\\F41D\"; }\r\n\r\n.ion-ios-download:before { content: \"\\F420\"; }\r\n\r\n.ion-ios-download-outline:before { content: \"\\F41F\"; }\r\n\r\n.ion-ios-drag:before { content: \"\\F421\"; }\r\n\r\n.ion-ios-email:before { content: \"\\F423\"; }\r\n\r\n.ion-ios-email-outline:before { content: \"\\F422\"; }\r\n\r\n.ion-ios-eye:before { content: \"\\F425\"; }\r\n\r\n.ion-ios-eye-outline:before { content: \"\\F424\"; }\r\n\r\n.ion-ios-fastforward:before { content: \"\\F427\"; }\r\n\r\n.ion-ios-fastforward-outline:before { content: \"\\F426\"; }\r\n\r\n.ion-ios-filing:before { content: \"\\F429\"; }\r\n\r\n.ion-ios-filing-outline:before { content: \"\\F428\"; }\r\n\r\n.ion-ios-film:before { content: \"\\F42B\"; }\r\n\r\n.ion-ios-film-outline:before { content: \"\\F42A\"; }\r\n\r\n.ion-ios-flag:before { content: \"\\F42D\"; }\r\n\r\n.ion-ios-flag-outline:before { content: \"\\F42C\"; }\r\n\r\n.ion-ios-flame:before { content: \"\\F42F\"; }\r\n\r\n.ion-ios-flame-outline:before { content: \"\\F42E\"; }\r\n\r\n.ion-ios-flask:before { content: \"\\F431\"; }\r\n\r\n.ion-ios-flask-outline:before { content: \"\\F430\"; }\r\n\r\n.ion-ios-flower:before { content: \"\\F433\"; }\r\n\r\n.ion-ios-flower-outline:before { content: \"\\F432\"; }\r\n\r\n.ion-ios-folder:before { content: \"\\F435\"; }\r\n\r\n.ion-ios-folder-outline:before { content: \"\\F434\"; }\r\n\r\n.ion-ios-football:before { content: \"\\F437\"; }\r\n\r\n.ion-ios-football-outline:before { content: \"\\F436\"; }\r\n\r\n.ion-ios-game-controller-a:before { content: \"\\F439\"; }\r\n\r\n.ion-ios-game-controller-a-outline:before { content: \"\\F438\"; }\r\n\r\n.ion-ios-game-controller-b:before { content: \"\\F43B\"; }\r\n\r\n.ion-ios-game-controller-b-outline:before { content: \"\\F43A\"; }\r\n\r\n.ion-ios-gear:before { content: \"\\F43D\"; }\r\n\r\n.ion-ios-gear-outline:before { content: \"\\F43C\"; }\r\n\r\n.ion-ios-glasses:before { content: \"\\F43F\"; }\r\n\r\n.ion-ios-glasses-outline:before { content: \"\\F43E\"; }\r\n\r\n.ion-ios-grid-view:before { content: \"\\F441\"; }\r\n\r\n.ion-ios-grid-view-outline:before { content: \"\\F440\"; }\r\n\r\n.ion-ios-heart:before { content: \"\\F443\"; }\r\n\r\n.ion-ios-heart-outline:before { content: \"\\F442\"; }\r\n\r\n.ion-ios-help:before { content: \"\\F446\"; }\r\n\r\n.ion-ios-help-empty:before { content: \"\\F444\"; }\r\n\r\n.ion-ios-help-outline:before { content: \"\\F445\"; }\r\n\r\n.ion-ios-home:before { content: \"\\F448\"; }\r\n\r\n.ion-ios-home-outline:before { content: \"\\F447\"; }\r\n\r\n.ion-ios-infinite:before { content: \"\\F44A\"; }\r\n\r\n.ion-ios-infinite-outline:before { content: \"\\F449\"; }\r\n\r\n.ion-ios-information:before { content: \"\\F44D\"; }\r\n\r\n.ion-ios-information-empty:before { content: \"\\F44B\"; }\r\n\r\n.ion-ios-information-outline:before { content: \"\\F44C\"; }\r\n\r\n.ion-ios-ionic-outline:before { content: \"\\F44E\"; }\r\n\r\n.ion-ios-keypad:before { content: \"\\F450\"; }\r\n\r\n.ion-ios-keypad-outline:before { content: \"\\F44F\"; }\r\n\r\n.ion-ios-lightbulb:before { content: \"\\F452\"; }\r\n\r\n.ion-ios-lightbulb-outline:before { content: \"\\F451\"; }\r\n\r\n.ion-ios-list:before { content: \"\\F454\"; }\r\n\r\n.ion-ios-list-outline:before { content: \"\\F453\"; }\r\n\r\n.ion-ios-location:before { content: \"\\F456\"; }\r\n\r\n.ion-ios-location-outline:before { content: \"\\F455\"; }\r\n\r\n.ion-ios-locked:before { content: \"\\F458\"; }\r\n\r\n.ion-ios-locked-outline:before { content: \"\\F457\"; }\r\n\r\n.ion-ios-loop:before { content: \"\\F45A\"; }\r\n\r\n.ion-ios-loop-strong:before { content: \"\\F459\"; }\r\n\r\n.ion-ios-medical:before { content: \"\\F45C\"; }\r\n\r\n.ion-ios-medical-outline:before { content: \"\\F45B\"; }\r\n\r\n.ion-ios-medkit:before { content: \"\\F45E\"; }\r\n\r\n.ion-ios-medkit-outline:before { content: \"\\F45D\"; }\r\n\r\n.ion-ios-mic:before { content: \"\\F461\"; }\r\n\r\n.ion-ios-mic-off:before { content: \"\\F45F\"; }\r\n\r\n.ion-ios-mic-outline:before { content: \"\\F460\"; }\r\n\r\n.ion-ios-minus:before { content: \"\\F464\"; }\r\n\r\n.ion-ios-minus-empty:before { content: \"\\F462\"; }\r\n\r\n.ion-ios-minus-outline:before { content: \"\\F463\"; }\r\n\r\n.ion-ios-monitor:before { content: \"\\F466\"; }\r\n\r\n.ion-ios-monitor-outline:before { content: \"\\F465\"; }\r\n\r\n.ion-ios-moon:before { content: \"\\F468\"; }\r\n\r\n.ion-ios-moon-outline:before { content: \"\\F467\"; }\r\n\r\n.ion-ios-more:before { content: \"\\F46A\"; }\r\n\r\n.ion-ios-more-outline:before { content: \"\\F469\"; }\r\n\r\n.ion-ios-musical-note:before { content: \"\\F46B\"; }\r\n\r\n.ion-ios-musical-notes:before { content: \"\\F46C\"; }\r\n\r\n.ion-ios-navigate:before { content: \"\\F46E\"; }\r\n\r\n.ion-ios-navigate-outline:before { content: \"\\F46D\"; }\r\n\r\n.ion-ios-nutrition:before { content: \"\\F470\"; }\r\n\r\n.ion-ios-nutrition-outline:before { content: \"\\F46F\"; }\r\n\r\n.ion-ios-paper:before { content: \"\\F472\"; }\r\n\r\n.ion-ios-paper-outline:before { content: \"\\F471\"; }\r\n\r\n.ion-ios-paperplane:before { content: \"\\F474\"; }\r\n\r\n.ion-ios-paperplane-outline:before { content: \"\\F473\"; }\r\n\r\n.ion-ios-partlysunny:before { content: \"\\F476\"; }\r\n\r\n.ion-ios-partlysunny-outline:before { content: \"\\F475\"; }\r\n\r\n.ion-ios-pause:before { content: \"\\F478\"; }\r\n\r\n.ion-ios-pause-outline:before { content: \"\\F477\"; }\r\n\r\n.ion-ios-paw:before { content: \"\\F47A\"; }\r\n\r\n.ion-ios-paw-outline:before { content: \"\\F479\"; }\r\n\r\n.ion-ios-people:before { content: \"\\F47C\"; }\r\n\r\n.ion-ios-people-outline:before { content: \"\\F47B\"; }\r\n\r\n.ion-ios-person:before { content: \"\\F47E\"; }\r\n\r\n.ion-ios-person-outline:before { content: \"\\F47D\"; }\r\n\r\n.ion-ios-personadd:before { content: \"\\F480\"; }\r\n\r\n.ion-ios-personadd-outline:before { content: \"\\F47F\"; }\r\n\r\n.ion-ios-photos:before { content: \"\\F482\"; }\r\n\r\n.ion-ios-photos-outline:before { content: \"\\F481\"; }\r\n\r\n.ion-ios-pie:before { content: \"\\F484\"; }\r\n\r\n.ion-ios-pie-outline:before { content: \"\\F483\"; }\r\n\r\n.ion-ios-pint:before { content: \"\\F486\"; }\r\n\r\n.ion-ios-pint-outline:before { content: \"\\F485\"; }\r\n\r\n.ion-ios-play:before { content: \"\\F488\"; }\r\n\r\n.ion-ios-play-outline:before { content: \"\\F487\"; }\r\n\r\n.ion-ios-plus:before { content: \"\\F48B\"; }\r\n\r\n.ion-ios-plus-empty:before { content: \"\\F489\"; }\r\n\r\n.ion-ios-plus-outline:before { content: \"\\F48A\"; }\r\n\r\n.ion-ios-pricetag:before { content: \"\\F48D\"; }\r\n\r\n.ion-ios-pricetag-outline:before { content: \"\\F48C\"; }\r\n\r\n.ion-ios-pricetags:before { content: \"\\F48F\"; }\r\n\r\n.ion-ios-pricetags-outline:before { content: \"\\F48E\"; }\r\n\r\n.ion-ios-printer:before { content: \"\\F491\"; }\r\n\r\n.ion-ios-printer-outline:before { content: \"\\F490\"; }\r\n\r\n.ion-ios-pulse:before { content: \"\\F493\"; }\r\n\r\n.ion-ios-pulse-strong:before { content: \"\\F492\"; }\r\n\r\n.ion-ios-rainy:before { content: \"\\F495\"; }\r\n\r\n.ion-ios-rainy-outline:before { content: \"\\F494\"; }\r\n\r\n.ion-ios-recording:before { content: \"\\F497\"; }\r\n\r\n.ion-ios-recording-outline:before { content: \"\\F496\"; }\r\n\r\n.ion-ios-redo:before { content: \"\\F499\"; }\r\n\r\n.ion-ios-redo-outline:before { content: \"\\F498\"; }\r\n\r\n.ion-ios-refresh:before { content: \"\\F49C\"; }\r\n\r\n.ion-ios-refresh-empty:before { content: \"\\F49A\"; }\r\n\r\n.ion-ios-refresh-outline:before { content: \"\\F49B\"; }\r\n\r\n.ion-ios-reload:before { content: \"\\F49D\"; }\r\n\r\n.ion-ios-reverse-camera:before { content: \"\\F49F\"; }\r\n\r\n.ion-ios-reverse-camera-outline:before { content: \"\\F49E\"; }\r\n\r\n.ion-ios-rewind:before { content: \"\\F4A1\"; }\r\n\r\n.ion-ios-rewind-outline:before { content: \"\\F4A0\"; }\r\n\r\n.ion-ios-rose:before { content: \"\\F4A3\"; }\r\n\r\n.ion-ios-rose-outline:before { content: \"\\F4A2\"; }\r\n\r\n.ion-ios-search:before { content: \"\\F4A5\"; }\r\n\r\n.ion-ios-search-strong:before { content: \"\\F4A4\"; }\r\n\r\n.ion-ios-settings:before { content: \"\\F4A7\"; }\r\n\r\n.ion-ios-settings-strong:before { content: \"\\F4A6\"; }\r\n\r\n.ion-ios-shuffle:before { content: \"\\F4A9\"; }\r\n\r\n.ion-ios-shuffle-strong:before { content: \"\\F4A8\"; }\r\n\r\n.ion-ios-skipbackward:before { content: \"\\F4AB\"; }\r\n\r\n.ion-ios-skipbackward-outline:before { content: \"\\F4AA\"; }\r\n\r\n.ion-ios-skipforward:before { content: \"\\F4AD\"; }\r\n\r\n.ion-ios-skipforward-outline:before { content: \"\\F4AC\"; }\r\n\r\n.ion-ios-snowy:before { content: \"\\F4AE\"; }\r\n\r\n.ion-ios-speedometer:before { content: \"\\F4B0\"; }\r\n\r\n.ion-ios-speedometer-outline:before { content: \"\\F4AF\"; }\r\n\r\n.ion-ios-star:before { content: \"\\F4B3\"; }\r\n\r\n.ion-ios-star-half:before { content: \"\\F4B1\"; }\r\n\r\n.ion-ios-star-outline:before { content: \"\\F4B2\"; }\r\n\r\n.ion-ios-stopwatch:before { content: \"\\F4B5\"; }\r\n\r\n.ion-ios-stopwatch-outline:before { content: \"\\F4B4\"; }\r\n\r\n.ion-ios-sunny:before { content: \"\\F4B7\"; }\r\n\r\n.ion-ios-sunny-outline:before { content: \"\\F4B6\"; }\r\n\r\n.ion-ios-telephone:before { content: \"\\F4B9\"; }\r\n\r\n.ion-ios-telephone-outline:before { content: \"\\F4B8\"; }\r\n\r\n.ion-ios-tennisball:before { content: \"\\F4BB\"; }\r\n\r\n.ion-ios-tennisball-outline:before { content: \"\\F4BA\"; }\r\n\r\n.ion-ios-thunderstorm:before { content: \"\\F4BD\"; }\r\n\r\n.ion-ios-thunderstorm-outline:before { content: \"\\F4BC\"; }\r\n\r\n.ion-ios-time:before { content: \"\\F4BF\"; }\r\n\r\n.ion-ios-time-outline:before { content: \"\\F4BE\"; }\r\n\r\n.ion-ios-timer:before { content: \"\\F4C1\"; }\r\n\r\n.ion-ios-timer-outline:before { content: \"\\F4C0\"; }\r\n\r\n.ion-ios-toggle:before { content: \"\\F4C3\"; }\r\n\r\n.ion-ios-toggle-outline:before { content: \"\\F4C2\"; }\r\n\r\n.ion-ios-trash:before { content: \"\\F4C5\"; }\r\n\r\n.ion-ios-trash-outline:before { content: \"\\F4C4\"; }\r\n\r\n.ion-ios-undo:before { content: \"\\F4C7\"; }\r\n\r\n.ion-ios-undo-outline:before { content: \"\\F4C6\"; }\r\n\r\n.ion-ios-unlocked:before { content: \"\\F4C9\"; }\r\n\r\n.ion-ios-unlocked-outline:before { content: \"\\F4C8\"; }\r\n\r\n.ion-ios-upload:before { content: \"\\F4CB\"; }\r\n\r\n.ion-ios-upload-outline:before { content: \"\\F4CA\"; }\r\n\r\n.ion-ios-videocam:before { content: \"\\F4CD\"; }\r\n\r\n.ion-ios-videocam-outline:before { content: \"\\F4CC\"; }\r\n\r\n.ion-ios-volume-high:before { content: \"\\F4CE\"; }\r\n\r\n.ion-ios-volume-low:before { content: \"\\F4CF\"; }\r\n\r\n.ion-ios-wineglass:before { content: \"\\F4D1\"; }\r\n\r\n.ion-ios-wineglass-outline:before { content: \"\\F4D0\"; }\r\n\r\n.ion-ios-world:before { content: \"\\F4D3\"; }\r\n\r\n.ion-ios-world-outline:before { content: \"\\F4D2\"; }\r\n\r\n.ion-ipad:before { content: \"\\F1F9\"; }\r\n\r\n.ion-iphone:before { content: \"\\F1FA\"; }\r\n\r\n.ion-ipod:before { content: \"\\F1FB\"; }\r\n\r\n.ion-jet:before { content: \"\\F295\"; }\r\n\r\n.ion-key:before { content: \"\\F296\"; }\r\n\r\n.ion-knife:before { content: \"\\F297\"; }\r\n\r\n.ion-laptop:before { content: \"\\F1FC\"; }\r\n\r\n.ion-leaf:before { content: \"\\F1FD\"; }\r\n\r\n.ion-levels:before { content: \"\\F298\"; }\r\n\r\n.ion-lightbulb:before { content: \"\\F299\"; }\r\n\r\n.ion-link:before { content: \"\\F1FE\"; }\r\n\r\n.ion-load-a:before { content: \"\\F29A\"; }\r\n\r\n.ion-load-b:before { content: \"\\F29B\"; }\r\n\r\n.ion-load-c:before { content: \"\\F29C\"; }\r\n\r\n.ion-load-d:before { content: \"\\F29D\"; }\r\n\r\n.ion-location:before { content: \"\\F1FF\"; }\r\n\r\n.ion-lock-combination:before { content: \"\\F4D4\"; }\r\n\r\n.ion-locked:before { content: \"\\F200\"; }\r\n\r\n.ion-log-in:before { content: \"\\F29E\"; }\r\n\r\n.ion-log-out:before { content: \"\\F29F\"; }\r\n\r\n.ion-loop:before { content: \"\\F201\"; }\r\n\r\n.ion-magnet:before { content: \"\\F2A0\"; }\r\n\r\n.ion-male:before { content: \"\\F2A1\"; }\r\n\r\n.ion-man:before { content: \"\\F202\"; }\r\n\r\n.ion-map:before { content: \"\\F203\"; }\r\n\r\n.ion-medkit:before { content: \"\\F2A2\"; }\r\n\r\n.ion-merge:before { content: \"\\F33F\"; }\r\n\r\n.ion-mic-a:before { content: \"\\F204\"; }\r\n\r\n.ion-mic-b:before { content: \"\\F205\"; }\r\n\r\n.ion-mic-c:before { content: \"\\F206\"; }\r\n\r\n.ion-minus:before { content: \"\\F209\"; }\r\n\r\n.ion-minus-circled:before { content: \"\\F207\"; }\r\n\r\n.ion-minus-round:before { content: \"\\F208\"; }\r\n\r\n.ion-model-s:before { content: \"\\F2C1\"; }\r\n\r\n.ion-monitor:before { content: \"\\F20A\"; }\r\n\r\n.ion-more:before { content: \"\\F20B\"; }\r\n\r\n.ion-mouse:before { content: \"\\F340\"; }\r\n\r\n.ion-music-note:before { content: \"\\F20C\"; }\r\n\r\n.ion-navicon:before { content: \"\\F20E\"; }\r\n\r\n.ion-navicon-round:before { content: \"\\F20D\"; }\r\n\r\n.ion-navigate:before { content: \"\\F2A3\"; }\r\n\r\n.ion-network:before { content: \"\\F341\"; }\r\n\r\n.ion-no-smoking:before { content: \"\\F2C2\"; }\r\n\r\n.ion-nuclear:before { content: \"\\F2A4\"; }\r\n\r\n.ion-outlet:before { content: \"\\F342\"; }\r\n\r\n.ion-paintbrush:before { content: \"\\F4D5\"; }\r\n\r\n.ion-paintbucket:before { content: \"\\F4D6\"; }\r\n\r\n.ion-paper-airplane:before { content: \"\\F2C3\"; }\r\n\r\n.ion-paperclip:before { content: \"\\F20F\"; }\r\n\r\n.ion-pause:before { content: \"\\F210\"; }\r\n\r\n.ion-person:before { content: \"\\F213\"; }\r\n\r\n.ion-person-add:before { content: \"\\F211\"; }\r\n\r\n.ion-person-stalker:before { content: \"\\F212\"; }\r\n\r\n.ion-pie-graph:before { content: \"\\F2A5\"; }\r\n\r\n.ion-pin:before { content: \"\\F2A6\"; }\r\n\r\n.ion-pinpoint:before { content: \"\\F2A7\"; }\r\n\r\n.ion-pizza:before { content: \"\\F2A8\"; }\r\n\r\n.ion-plane:before { content: \"\\F214\"; }\r\n\r\n.ion-planet:before { content: \"\\F343\"; }\r\n\r\n.ion-play:before { content: \"\\F215\"; }\r\n\r\n.ion-playstation:before { content: \"\\F30A\"; }\r\n\r\n.ion-plus:before { content: \"\\F218\"; }\r\n\r\n.ion-plus-circled:before { content: \"\\F216\"; }\r\n\r\n.ion-plus-round:before { content: \"\\F217\"; }\r\n\r\n.ion-podium:before { content: \"\\F344\"; }\r\n\r\n.ion-pound:before { content: \"\\F219\"; }\r\n\r\n.ion-power:before { content: \"\\F2A9\"; }\r\n\r\n.ion-pricetag:before { content: \"\\F2AA\"; }\r\n\r\n.ion-pricetags:before { content: \"\\F2AB\"; }\r\n\r\n.ion-printer:before { content: \"\\F21A\"; }\r\n\r\n.ion-pull-request:before { content: \"\\F345\"; }\r\n\r\n.ion-qr-scanner:before { content: \"\\F346\"; }\r\n\r\n.ion-quote:before { content: \"\\F347\"; }\r\n\r\n.ion-radio-waves:before { content: \"\\F2AC\"; }\r\n\r\n.ion-record:before { content: \"\\F21B\"; }\r\n\r\n.ion-refresh:before { content: \"\\F21C\"; }\r\n\r\n.ion-reply:before { content: \"\\F21E\"; }\r\n\r\n.ion-reply-all:before { content: \"\\F21D\"; }\r\n\r\n.ion-ribbon-a:before { content: \"\\F348\"; }\r\n\r\n.ion-ribbon-b:before { content: \"\\F349\"; }\r\n\r\n.ion-sad:before { content: \"\\F34A\"; }\r\n\r\n.ion-sad-outline:before { content: \"\\F4D7\"; }\r\n\r\n.ion-scissors:before { content: \"\\F34B\"; }\r\n\r\n.ion-search:before { content: \"\\F21F\"; }\r\n\r\n.ion-settings:before { content: \"\\F2AD\"; }\r\n\r\n.ion-share:before { content: \"\\F220\"; }\r\n\r\n.ion-shuffle:before { content: \"\\F221\"; }\r\n\r\n.ion-skip-backward:before { content: \"\\F222\"; }\r\n\r\n.ion-skip-forward:before { content: \"\\F223\"; }\r\n\r\n.ion-social-android:before { content: \"\\F225\"; }\r\n\r\n.ion-social-android-outline:before { content: \"\\F224\"; }\r\n\r\n.ion-social-angular:before { content: \"\\F4D9\"; }\r\n\r\n.ion-social-angular-outline:before { content: \"\\F4D8\"; }\r\n\r\n.ion-social-apple:before { content: \"\\F227\"; }\r\n\r\n.ion-social-apple-outline:before { content: \"\\F226\"; }\r\n\r\n.ion-social-bitcoin:before { content: \"\\F2AF\"; }\r\n\r\n.ion-social-bitcoin-outline:before { content: \"\\F2AE\"; }\r\n\r\n.ion-social-buffer:before { content: \"\\F229\"; }\r\n\r\n.ion-social-buffer-outline:before { content: \"\\F228\"; }\r\n\r\n.ion-social-chrome:before { content: \"\\F4DB\"; }\r\n\r\n.ion-social-chrome-outline:before { content: \"\\F4DA\"; }\r\n\r\n.ion-social-codepen:before { content: \"\\F4DD\"; }\r\n\r\n.ion-social-codepen-outline:before { content: \"\\F4DC\"; }\r\n\r\n.ion-social-css3:before { content: \"\\F4DF\"; }\r\n\r\n.ion-social-css3-outline:before { content: \"\\F4DE\"; }\r\n\r\n.ion-social-designernews:before { content: \"\\F22B\"; }\r\n\r\n.ion-social-designernews-outline:before { content: \"\\F22A\"; }\r\n\r\n.ion-social-dribbble:before { content: \"\\F22D\"; }\r\n\r\n.ion-social-dribbble-outline:before { content: \"\\F22C\"; }\r\n\r\n.ion-social-dropbox:before { content: \"\\F22F\"; }\r\n\r\n.ion-social-dropbox-outline:before { content: \"\\F22E\"; }\r\n\r\n.ion-social-euro:before { content: \"\\F4E1\"; }\r\n\r\n.ion-social-euro-outline:before { content: \"\\F4E0\"; }\r\n\r\n.ion-social-facebook:before { content: \"\\F231\"; }\r\n\r\n.ion-social-facebook-outline:before { content: \"\\F230\"; }\r\n\r\n.ion-social-foursquare:before { content: \"\\F34D\"; }\r\n\r\n.ion-social-foursquare-outline:before { content: \"\\F34C\"; }\r\n\r\n.ion-social-freebsd-devil:before { content: \"\\F2C4\"; }\r\n\r\n.ion-social-github:before { content: \"\\F233\"; }\r\n\r\n.ion-social-github-outline:before { content: \"\\F232\"; }\r\n\r\n.ion-social-google:before { content: \"\\F34F\"; }\r\n\r\n.ion-social-google-outline:before { content: \"\\F34E\"; }\r\n\r\n.ion-social-googleplus:before { content: \"\\F235\"; }\r\n\r\n.ion-social-googleplus-outline:before { content: \"\\F234\"; }\r\n\r\n.ion-social-hackernews:before { content: \"\\F237\"; }\r\n\r\n.ion-social-hackernews-outline:before { content: \"\\F236\"; }\r\n\r\n.ion-social-html5:before { content: \"\\F4E3\"; }\r\n\r\n.ion-social-html5-outline:before { content: \"\\F4E2\"; }\r\n\r\n.ion-social-instagram:before { content: \"\\F351\"; }\r\n\r\n.ion-social-instagram-outline:before { content: \"\\F350\"; }\r\n\r\n.ion-social-javascript:before { content: \"\\F4E5\"; }\r\n\r\n.ion-social-javascript-outline:before { content: \"\\F4E4\"; }\r\n\r\n.ion-social-linkedin:before { content: \"\\F239\"; }\r\n\r\n.ion-social-linkedin-outline:before { content: \"\\F238\"; }\r\n\r\n.ion-social-markdown:before { content: \"\\F4E6\"; }\r\n\r\n.ion-social-nodejs:before { content: \"\\F4E7\"; }\r\n\r\n.ion-social-octocat:before { content: \"\\F4E8\"; }\r\n\r\n.ion-social-pinterest:before { content: \"\\F2B1\"; }\r\n\r\n.ion-social-pinterest-outline:before { content: \"\\F2B0\"; }\r\n\r\n.ion-social-python:before { content: \"\\F4E9\"; }\r\n\r\n.ion-social-reddit:before { content: \"\\F23B\"; }\r\n\r\n.ion-social-reddit-outline:before { content: \"\\F23A\"; }\r\n\r\n.ion-social-rss:before { content: \"\\F23D\"; }\r\n\r\n.ion-social-rss-outline:before { content: \"\\F23C\"; }\r\n\r\n.ion-social-sass:before { content: \"\\F4EA\"; }\r\n\r\n.ion-social-skype:before { content: \"\\F23F\"; }\r\n\r\n.ion-social-skype-outline:before { content: \"\\F23E\"; }\r\n\r\n.ion-social-snapchat:before { content: \"\\F4EC\"; }\r\n\r\n.ion-social-snapchat-outline:before { content: \"\\F4EB\"; }\r\n\r\n.ion-social-tumblr:before { content: \"\\F241\"; }\r\n\r\n.ion-social-tumblr-outline:before { content: \"\\F240\"; }\r\n\r\n.ion-social-tux:before { content: \"\\F2C5\"; }\r\n\r\n.ion-social-twitch:before { content: \"\\F4EE\"; }\r\n\r\n.ion-social-twitch-outline:before { content: \"\\F4ED\"; }\r\n\r\n.ion-social-twitter:before { content: \"\\F243\"; }\r\n\r\n.ion-social-twitter-outline:before { content: \"\\F242\"; }\r\n\r\n.ion-social-usd:before { content: \"\\F353\"; }\r\n\r\n.ion-social-usd-outline:before { content: \"\\F352\"; }\r\n\r\n.ion-social-vimeo:before { content: \"\\F245\"; }\r\n\r\n.ion-social-vimeo-outline:before { content: \"\\F244\"; }\r\n\r\n.ion-social-whatsapp:before { content: \"\\F4F0\"; }\r\n\r\n.ion-social-whatsapp-outline:before { content: \"\\F4EF\"; }\r\n\r\n.ion-social-windows:before { content: \"\\F247\"; }\r\n\r\n.ion-social-windows-outline:before { content: \"\\F246\"; }\r\n\r\n.ion-social-wordpress:before { content: \"\\F249\"; }\r\n\r\n.ion-social-wordpress-outline:before { content: \"\\F248\"; }\r\n\r\n.ion-social-yahoo:before { content: \"\\F24B\"; }\r\n\r\n.ion-social-yahoo-outline:before { content: \"\\F24A\"; }\r\n\r\n.ion-social-yen:before { content: \"\\F4F2\"; }\r\n\r\n.ion-social-yen-outline:before { content: \"\\F4F1\"; }\r\n\r\n.ion-social-youtube:before { content: \"\\F24D\"; }\r\n\r\n.ion-social-youtube-outline:before { content: \"\\F24C\"; }\r\n\r\n.ion-soup-can:before { content: \"\\F4F4\"; }\r\n\r\n.ion-soup-can-outline:before { content: \"\\F4F3\"; }\r\n\r\n.ion-speakerphone:before { content: \"\\F2B2\"; }\r\n\r\n.ion-speedometer:before { content: \"\\F2B3\"; }\r\n\r\n.ion-spoon:before { content: \"\\F2B4\"; }\r\n\r\n.ion-star:before { content: \"\\F24E\"; }\r\n\r\n.ion-stats-bars:before { content: \"\\F2B5\"; }\r\n\r\n.ion-steam:before { content: \"\\F30B\"; }\r\n\r\n.ion-stop:before { content: \"\\F24F\"; }\r\n\r\n.ion-thermometer:before { content: \"\\F2B6\"; }\r\n\r\n.ion-thumbsdown:before { content: \"\\F250\"; }\r\n\r\n.ion-thumbsup:before { content: \"\\F251\"; }\r\n\r\n.ion-toggle:before { content: \"\\F355\"; }\r\n\r\n.ion-toggle-filled:before { content: \"\\F354\"; }\r\n\r\n.ion-transgender:before { content: \"\\F4F5\"; }\r\n\r\n.ion-trash-a:before { content: \"\\F252\"; }\r\n\r\n.ion-trash-b:before { content: \"\\F253\"; }\r\n\r\n.ion-trophy:before { content: \"\\F356\"; }\r\n\r\n.ion-tshirt:before { content: \"\\F4F7\"; }\r\n\r\n.ion-tshirt-outline:before { content: \"\\F4F6\"; }\r\n\r\n.ion-umbrella:before { content: \"\\F2B7\"; }\r\n\r\n.ion-university:before { content: \"\\F357\"; }\r\n\r\n.ion-unlocked:before { content: \"\\F254\"; }\r\n\r\n.ion-upload:before { content: \"\\F255\"; }\r\n\r\n.ion-usb:before { content: \"\\F2B8\"; }\r\n\r\n.ion-videocamera:before { content: \"\\F256\"; }\r\n\r\n.ion-volume-high:before { content: \"\\F257\"; }\r\n\r\n.ion-volume-low:before { content: \"\\F258\"; }\r\n\r\n.ion-volume-medium:before { content: \"\\F259\"; }\r\n\r\n.ion-volume-mute:before { content: \"\\F25A\"; }\r\n\r\n.ion-wand:before { content: \"\\F358\"; }\r\n\r\n.ion-waterdrop:before { content: \"\\F25B\"; }\r\n\r\n.ion-wifi:before { content: \"\\F25C\"; }\r\n\r\n.ion-wineglass:before { content: \"\\F2B9\"; }\r\n\r\n.ion-woman:before { content: \"\\F25D\"; }\r\n\r\n.ion-wrench:before { content: \"\\F2BA\"; }\r\n\r\n.ion-xbox:before { content: \"\\F30C\"; }\r\n", ""]);
+	exports.push([module.id, "@charset \"UTF-8\";\r\n/*!\r\n  Ionicons, v2.0.0\r\n  Created by Ben Sperry for the Ionic Framework, http://ionicons.com/\r\n  https://twitter.com/benjsperry  https://twitter.com/ionicframework\r\n  MIT License: https://github.com/driftyco/ionicons\r\n\r\n  Android-style icons originally built by Google’s\r\n  Material Design Icons: https://github.com/google/material-design-icons\r\n  used under CC BY http://creativecommons.org/licenses/by/4.0/\r\n  Modified icons to fit ionicon’s grid from original.\r\n*/\r\n@font-face { font-family: \"Ionicons\"; src: url(" + __webpack_require__(41) + "); src: url(" + __webpack_require__(41) + "#iefix) format(\"embedded-opentype\"), url(" + __webpack_require__(42) + ") format(\"truetype\"), url(" + __webpack_require__(43) + ") format(\"woff\"), url(" + __webpack_require__(44) + "#Ionicons) format(\"svg\"); font-weight: normal; font-style: normal; }\r\n.ion, .ionicons, .ion-alert:before, .ion-alert-circled:before, .ion-android-add:before, .ion-android-add-circle:before, .ion-android-alarm-clock:before, .ion-android-alert:before, .ion-android-apps:before, .ion-android-archive:before, .ion-android-arrow-back:before, .ion-android-arrow-down:before, .ion-android-arrow-dropdown:before, .ion-android-arrow-dropdown-circle:before, .ion-android-arrow-dropleft:before, .ion-android-arrow-dropleft-circle:before, .ion-android-arrow-dropright:before, .ion-android-arrow-dropright-circle:before, .ion-android-arrow-dropup:before, .ion-android-arrow-dropup-circle:before, .ion-android-arrow-forward:before, .ion-android-arrow-up:before, .ion-android-attach:before, .ion-android-bar:before, .ion-android-bicycle:before, .ion-android-boat:before, .ion-android-bookmark:before, .ion-android-bulb:before, .ion-android-bus:before, .ion-android-calendar:before, .ion-android-call:before, .ion-android-camera:before, .ion-android-cancel:before, .ion-android-car:before, .ion-android-cart:before, .ion-android-chat:before, .ion-android-checkbox:before, .ion-android-checkbox-blank:before, .ion-android-checkbox-outline:before, .ion-android-checkbox-outline-blank:before, .ion-android-checkmark-circle:before, .ion-android-clipboard:before, .ion-android-close:before, .ion-android-cloud:before, .ion-android-cloud-circle:before, .ion-android-cloud-done:before, .ion-android-cloud-outline:before, .ion-android-color-palette:before, .ion-android-compass:before, .ion-android-contact:before, .ion-android-contacts:before, .ion-android-contract:before, .ion-android-create:before, .ion-android-delete:before, .ion-android-desktop:before, .ion-android-document:before, .ion-android-done:before, .ion-android-done-all:before, .ion-android-download:before, .ion-android-drafts:before, .ion-android-exit:before, .ion-android-expand:before, .ion-android-favorite:before, .ion-android-favorite-outline:before, .ion-android-film:before, .ion-android-folder:before, .ion-android-folder-open:before, .ion-android-funnel:before, .ion-android-globe:before, .ion-android-hand:before, .ion-android-hangout:before, .ion-android-happy:before, .ion-android-home:before, .ion-android-image:before, .ion-android-laptop:before, .ion-android-list:before, .ion-android-locate:before, .ion-android-lock:before, .ion-android-mail:before, .ion-android-map:before, .ion-android-menu:before, .ion-android-microphone:before, .ion-android-microphone-off:before, .ion-android-more-horizontal:before, .ion-android-more-vertical:before, .ion-android-navigate:before, .ion-android-notifications:before, .ion-android-notifications-none:before, .ion-android-notifications-off:before, .ion-android-open:before, .ion-android-options:before, .ion-android-people:before, .ion-android-person:before, .ion-android-person-add:before, .ion-android-phone-landscape:before, .ion-android-phone-portrait:before, .ion-android-pin:before, .ion-android-plane:before, .ion-android-playstore:before, .ion-android-print:before, .ion-android-radio-button-off:before, .ion-android-radio-button-on:before, .ion-android-refresh:before, .ion-android-remove:before, .ion-android-remove-circle:before, .ion-android-restaurant:before, .ion-android-sad:before, .ion-android-search:before, .ion-android-send:before, .ion-android-settings:before, .ion-android-share:before, .ion-android-share-alt:before, .ion-android-star:before, .ion-android-star-half:before, .ion-android-star-outline:before, .ion-android-stopwatch:before, .ion-android-subway:before, .ion-android-sunny:before, .ion-android-sync:before, .ion-android-textsms:before, .ion-android-time:before, .ion-android-train:before, .ion-android-unlock:before, .ion-android-upload:before, .ion-android-volume-down:before, .ion-android-volume-mute:before, .ion-android-volume-off:before, .ion-android-volume-up:before, .ion-android-walk:before, .ion-android-warning:before, .ion-android-watch:before, .ion-android-wifi:before, .ion-aperture:before, .ion-archive:before, .ion-arrow-down-a:before, .ion-arrow-down-b:before, .ion-arrow-down-c:before, .ion-arrow-expand:before, .ion-arrow-graph-down-left:before, .ion-arrow-graph-down-right:before, .ion-arrow-graph-up-left:before, .ion-arrow-graph-up-right:before, .ion-arrow-left-a:before, .ion-arrow-left-b:before, .ion-arrow-left-c:before, .ion-arrow-move:before, .ion-arrow-resize:before, .ion-arrow-return-left:before, .ion-arrow-return-right:before, .ion-arrow-right-a:before, .ion-arrow-right-b:before, .ion-arrow-right-c:before, .ion-arrow-shrink:before, .ion-arrow-swap:before, .ion-arrow-up-a:before, .ion-arrow-up-b:before, .ion-arrow-up-c:before, .ion-asterisk:before, .ion-at:before, .ion-backspace:before, .ion-backspace-outline:before, .ion-bag:before, .ion-battery-charging:before, .ion-battery-empty:before, .ion-battery-full:before, .ion-battery-half:before, .ion-battery-low:before, .ion-beaker:before, .ion-beer:before, .ion-bluetooth:before, .ion-bonfire:before, .ion-bookmark:before, .ion-bowtie:before, .ion-briefcase:before, .ion-bug:before, .ion-calculator:before, .ion-calendar:before, .ion-camera:before, .ion-card:before, .ion-cash:before, .ion-chatbox:before, .ion-chatbox-working:before, .ion-chatboxes:before, .ion-chatbubble:before, .ion-chatbubble-working:before, .ion-chatbubbles:before, .ion-checkmark:before, .ion-checkmark-circled:before, .ion-checkmark-round:before, .ion-chevron-down:before, .ion-chevron-left:before, .ion-chevron-right:before, .ion-chevron-up:before, .ion-clipboard:before, .ion-clock:before, .ion-close:before, .ion-close-circled:before, .ion-close-round:before, .ion-closed-captioning:before, .ion-cloud:before, .ion-code:before, .ion-code-download:before, .ion-code-working:before, .ion-coffee:before, .ion-compass:before, .ion-compose:before, .ion-connection-bars:before, .ion-contrast:before, .ion-crop:before, .ion-cube:before, .ion-disc:before, .ion-document:before, .ion-document-text:before, .ion-drag:before, .ion-earth:before, .ion-easel:before, .ion-edit:before, .ion-egg:before, .ion-eject:before, .ion-email:before, .ion-email-unread:before, .ion-erlenmeyer-flask:before, .ion-erlenmeyer-flask-bubbles:before, .ion-eye:before, .ion-eye-disabled:before, .ion-female:before, .ion-filing:before, .ion-film-marker:before, .ion-fireball:before, .ion-flag:before, .ion-flame:before, .ion-flash:before, .ion-flash-off:before, .ion-folder:before, .ion-fork:before, .ion-fork-repo:before, .ion-forward:before, .ion-funnel:before, .ion-gear-a:before, .ion-gear-b:before, .ion-grid:before, .ion-hammer:before, .ion-happy:before, .ion-happy-outline:before, .ion-headphone:before, .ion-heart:before, .ion-heart-broken:before, .ion-help:before, .ion-help-buoy:before, .ion-help-circled:before, .ion-home:before, .ion-icecream:before, .ion-image:before, .ion-images:before, .ion-information:before, .ion-information-circled:before, .ion-ionic:before, .ion-ios-alarm:before, .ion-ios-alarm-outline:before, .ion-ios-albums:before, .ion-ios-albums-outline:before, .ion-ios-americanfootball:before, .ion-ios-americanfootball-outline:before, .ion-ios-analytics:before, .ion-ios-analytics-outline:before, .ion-ios-arrow-back:before, .ion-ios-arrow-down:before, .ion-ios-arrow-forward:before, .ion-ios-arrow-left:before, .ion-ios-arrow-right:before, .ion-ios-arrow-thin-down:before, .ion-ios-arrow-thin-left:before, .ion-ios-arrow-thin-right:before, .ion-ios-arrow-thin-up:before, .ion-ios-arrow-up:before, .ion-ios-at:before, .ion-ios-at-outline:before, .ion-ios-barcode:before, .ion-ios-barcode-outline:before, .ion-ios-baseball:before, .ion-ios-baseball-outline:before, .ion-ios-basketball:before, .ion-ios-basketball-outline:before, .ion-ios-bell:before, .ion-ios-bell-outline:before, .ion-ios-body:before, .ion-ios-body-outline:before, .ion-ios-bolt:before, .ion-ios-bolt-outline:before, .ion-ios-book:before, .ion-ios-book-outline:before, .ion-ios-bookmarks:before, .ion-ios-bookmarks-outline:before, .ion-ios-box:before, .ion-ios-box-outline:before, .ion-ios-briefcase:before, .ion-ios-briefcase-outline:before, .ion-ios-browsers:before, .ion-ios-browsers-outline:before, .ion-ios-calculator:before, .ion-ios-calculator-outline:before, .ion-ios-calendar:before, .ion-ios-calendar-outline:before, .ion-ios-camera:before, .ion-ios-camera-outline:before, .ion-ios-cart:before, .ion-ios-cart-outline:before, .ion-ios-chatboxes:before, .ion-ios-chatboxes-outline:before, .ion-ios-chatbubble:before, .ion-ios-chatbubble-outline:before, .ion-ios-checkmark:before, .ion-ios-checkmark-empty:before, .ion-ios-checkmark-outline:before, .ion-ios-circle-filled:before, .ion-ios-circle-outline:before, .ion-ios-clock:before, .ion-ios-clock-outline:before, .ion-ios-close:before, .ion-ios-close-empty:before, .ion-ios-close-outline:before, .ion-ios-cloud:before, .ion-ios-cloud-download:before, .ion-ios-cloud-download-outline:before, .ion-ios-cloud-outline:before, .ion-ios-cloud-upload:before, .ion-ios-cloud-upload-outline:before, .ion-ios-cloudy:before, .ion-ios-cloudy-night:before, .ion-ios-cloudy-night-outline:before, .ion-ios-cloudy-outline:before, .ion-ios-cog:before, .ion-ios-cog-outline:before, .ion-ios-color-filter:before, .ion-ios-color-filter-outline:before, .ion-ios-color-wand:before, .ion-ios-color-wand-outline:before, .ion-ios-compose:before, .ion-ios-compose-outline:before, .ion-ios-contact:before, .ion-ios-contact-outline:before, .ion-ios-copy:before, .ion-ios-copy-outline:before, .ion-ios-crop:before, .ion-ios-crop-strong:before, .ion-ios-download:before, .ion-ios-download-outline:before, .ion-ios-drag:before, .ion-ios-email:before, .ion-ios-email-outline:before, .ion-ios-eye:before, .ion-ios-eye-outline:before, .ion-ios-fastforward:before, .ion-ios-fastforward-outline:before, .ion-ios-filing:before, .ion-ios-filing-outline:before, .ion-ios-film:before, .ion-ios-film-outline:before, .ion-ios-flag:before, .ion-ios-flag-outline:before, .ion-ios-flame:before, .ion-ios-flame-outline:before, .ion-ios-flask:before, .ion-ios-flask-outline:before, .ion-ios-flower:before, .ion-ios-flower-outline:before, .ion-ios-folder:before, .ion-ios-folder-outline:before, .ion-ios-football:before, .ion-ios-football-outline:before, .ion-ios-game-controller-a:before, .ion-ios-game-controller-a-outline:before, .ion-ios-game-controller-b:before, .ion-ios-game-controller-b-outline:before, .ion-ios-gear:before, .ion-ios-gear-outline:before, .ion-ios-glasses:before, .ion-ios-glasses-outline:before, .ion-ios-grid-view:before, .ion-ios-grid-view-outline:before, .ion-ios-heart:before, .ion-ios-heart-outline:before, .ion-ios-help:before, .ion-ios-help-empty:before, .ion-ios-help-outline:before, .ion-ios-home:before, .ion-ios-home-outline:before, .ion-ios-infinite:before, .ion-ios-infinite-outline:before, .ion-ios-information:before, .ion-ios-information-empty:before, .ion-ios-information-outline:before, .ion-ios-ionic-outline:before, .ion-ios-keypad:before, .ion-ios-keypad-outline:before, .ion-ios-lightbulb:before, .ion-ios-lightbulb-outline:before, .ion-ios-list:before, .ion-ios-list-outline:before, .ion-ios-location:before, .ion-ios-location-outline:before, .ion-ios-locked:before, .ion-ios-locked-outline:before, .ion-ios-loop:before, .ion-ios-loop-strong:before, .ion-ios-medical:before, .ion-ios-medical-outline:before, .ion-ios-medkit:before, .ion-ios-medkit-outline:before, .ion-ios-mic:before, .ion-ios-mic-off:before, .ion-ios-mic-outline:before, .ion-ios-minus:before, .ion-ios-minus-empty:before, .ion-ios-minus-outline:before, .ion-ios-monitor:before, .ion-ios-monitor-outline:before, .ion-ios-moon:before, .ion-ios-moon-outline:before, .ion-ios-more:before, .ion-ios-more-outline:before, .ion-ios-musical-note:before, .ion-ios-musical-notes:before, .ion-ios-navigate:before, .ion-ios-navigate-outline:before, .ion-ios-nutrition:before, .ion-ios-nutrition-outline:before, .ion-ios-paper:before, .ion-ios-paper-outline:before, .ion-ios-paperplane:before, .ion-ios-paperplane-outline:before, .ion-ios-partlysunny:before, .ion-ios-partlysunny-outline:before, .ion-ios-pause:before, .ion-ios-pause-outline:before, .ion-ios-paw:before, .ion-ios-paw-outline:before, .ion-ios-people:before, .ion-ios-people-outline:before, .ion-ios-person:before, .ion-ios-person-outline:before, .ion-ios-personadd:before, .ion-ios-personadd-outline:before, .ion-ios-photos:before, .ion-ios-photos-outline:before, .ion-ios-pie:before, .ion-ios-pie-outline:before, .ion-ios-pint:before, .ion-ios-pint-outline:before, .ion-ios-play:before, .ion-ios-play-outline:before, .ion-ios-plus:before, .ion-ios-plus-empty:before, .ion-ios-plus-outline:before, .ion-ios-pricetag:before, .ion-ios-pricetag-outline:before, .ion-ios-pricetags:before, .ion-ios-pricetags-outline:before, .ion-ios-printer:before, .ion-ios-printer-outline:before, .ion-ios-pulse:before, .ion-ios-pulse-strong:before, .ion-ios-rainy:before, .ion-ios-rainy-outline:before, .ion-ios-recording:before, .ion-ios-recording-outline:before, .ion-ios-redo:before, .ion-ios-redo-outline:before, .ion-ios-refresh:before, .ion-ios-refresh-empty:before, .ion-ios-refresh-outline:before, .ion-ios-reload:before, .ion-ios-reverse-camera:before, .ion-ios-reverse-camera-outline:before, .ion-ios-rewind:before, .ion-ios-rewind-outline:before, .ion-ios-rose:before, .ion-ios-rose-outline:before, .ion-ios-search:before, .ion-ios-search-strong:before, .ion-ios-settings:before, .ion-ios-settings-strong:before, .ion-ios-shuffle:before, .ion-ios-shuffle-strong:before, .ion-ios-skipbackward:before, .ion-ios-skipbackward-outline:before, .ion-ios-skipforward:before, .ion-ios-skipforward-outline:before, .ion-ios-snowy:before, .ion-ios-speedometer:before, .ion-ios-speedometer-outline:before, .ion-ios-star:before, .ion-ios-star-half:before, .ion-ios-star-outline:before, .ion-ios-stopwatch:before, .ion-ios-stopwatch-outline:before, .ion-ios-sunny:before, .ion-ios-sunny-outline:before, .ion-ios-telephone:before, .ion-ios-telephone-outline:before, .ion-ios-tennisball:before, .ion-ios-tennisball-outline:before, .ion-ios-thunderstorm:before, .ion-ios-thunderstorm-outline:before, .ion-ios-time:before, .ion-ios-time-outline:before, .ion-ios-timer:before, .ion-ios-timer-outline:before, .ion-ios-toggle:before, .ion-ios-toggle-outline:before, .ion-ios-trash:before, .ion-ios-trash-outline:before, .ion-ios-undo:before, .ion-ios-undo-outline:before, .ion-ios-unlocked:before, .ion-ios-unlocked-outline:before, .ion-ios-upload:before, .ion-ios-upload-outline:before, .ion-ios-videocam:before, .ion-ios-videocam-outline:before, .ion-ios-volume-high:before, .ion-ios-volume-low:before, .ion-ios-wineglass:before, .ion-ios-wineglass-outline:before, .ion-ios-world:before, .ion-ios-world-outline:before, .ion-ipad:before, .ion-iphone:before, .ion-ipod:before, .ion-jet:before, .ion-key:before, .ion-knife:before, .ion-laptop:before, .ion-leaf:before, .ion-levels:before, .ion-lightbulb:before, .ion-link:before, .ion-load-a:before, .ion-load-b:before, .ion-load-c:before, .ion-load-d:before, .ion-location:before, .ion-lock-combination:before, .ion-locked:before, .ion-log-in:before, .ion-log-out:before, .ion-loop:before, .ion-magnet:before, .ion-male:before, .ion-man:before, .ion-map:before, .ion-medkit:before, .ion-merge:before, .ion-mic-a:before, .ion-mic-b:before, .ion-mic-c:before, .ion-minus:before, .ion-minus-circled:before, .ion-minus-round:before, .ion-model-s:before, .ion-monitor:before, .ion-more:before, .ion-mouse:before, .ion-music-note:before, .ion-navicon:before, .ion-navicon-round:before, .ion-navigate:before, .ion-network:before, .ion-no-smoking:before, .ion-nuclear:before, .ion-outlet:before, .ion-paintbrush:before, .ion-paintbucket:before, .ion-paper-airplane:before, .ion-paperclip:before, .ion-pause:before, .ion-person:before, .ion-person-add:before, .ion-person-stalker:before, .ion-pie-graph:before, .ion-pin:before, .ion-pinpoint:before, .ion-pizza:before, .ion-plane:before, .ion-planet:before, .ion-play:before, .ion-playstation:before, .ion-plus:before, .ion-plus-circled:before, .ion-plus-round:before, .ion-podium:before, .ion-pound:before, .ion-power:before, .ion-pricetag:before, .ion-pricetags:before, .ion-printer:before, .ion-pull-request:before, .ion-qr-scanner:before, .ion-quote:before, .ion-radio-waves:before, .ion-record:before, .ion-refresh:before, .ion-reply:before, .ion-reply-all:before, .ion-ribbon-a:before, .ion-ribbon-b:before, .ion-sad:before, .ion-sad-outline:before, .ion-scissors:before, .ion-search:before, .ion-settings:before, .ion-share:before, .ion-shuffle:before, .ion-skip-backward:before, .ion-skip-forward:before, .ion-social-android:before, .ion-social-android-outline:before, .ion-social-angular:before, .ion-social-angular-outline:before, .ion-social-apple:before, .ion-social-apple-outline:before, .ion-social-bitcoin:before, .ion-social-bitcoin-outline:before, .ion-social-buffer:before, .ion-social-buffer-outline:before, .ion-social-chrome:before, .ion-social-chrome-outline:before, .ion-social-codepen:before, .ion-social-codepen-outline:before, .ion-social-css3:before, .ion-social-css3-outline:before, .ion-social-designernews:before, .ion-social-designernews-outline:before, .ion-social-dribbble:before, .ion-social-dribbble-outline:before, .ion-social-dropbox:before, .ion-social-dropbox-outline:before, .ion-social-euro:before, .ion-social-euro-outline:before, .ion-social-facebook:before, .ion-social-facebook-outline:before, .ion-social-foursquare:before, .ion-social-foursquare-outline:before, .ion-social-freebsd-devil:before, .ion-social-github:before, .ion-social-github-outline:before, .ion-social-google:before, .ion-social-google-outline:before, .ion-social-googleplus:before, .ion-social-googleplus-outline:before, .ion-social-hackernews:before, .ion-social-hackernews-outline:before, .ion-social-html5:before, .ion-social-html5-outline:before, .ion-social-instagram:before, .ion-social-instagram-outline:before, .ion-social-javascript:before, .ion-social-javascript-outline:before, .ion-social-linkedin:before, .ion-social-linkedin-outline:before, .ion-social-markdown:before, .ion-social-nodejs:before, .ion-social-octocat:before, .ion-social-pinterest:before, .ion-social-pinterest-outline:before, .ion-social-python:before, .ion-social-reddit:before, .ion-social-reddit-outline:before, .ion-social-rss:before, .ion-social-rss-outline:before, .ion-social-sass:before, .ion-social-skype:before, .ion-social-skype-outline:before, .ion-social-snapchat:before, .ion-social-snapchat-outline:before, .ion-social-tumblr:before, .ion-social-tumblr-outline:before, .ion-social-tux:before, .ion-social-twitch:before, .ion-social-twitch-outline:before, .ion-social-twitter:before, .ion-social-twitter-outline:before, .ion-social-usd:before, .ion-social-usd-outline:before, .ion-social-vimeo:before, .ion-social-vimeo-outline:before, .ion-social-whatsapp:before, .ion-social-whatsapp-outline:before, .ion-social-windows:before, .ion-social-windows-outline:before, .ion-social-wordpress:before, .ion-social-wordpress-outline:before, .ion-social-yahoo:before, .ion-social-yahoo-outline:before, .ion-social-yen:before, .ion-social-yen-outline:before, .ion-social-youtube:before, .ion-social-youtube-outline:before, .ion-soup-can:before, .ion-soup-can-outline:before, .ion-speakerphone:before, .ion-speedometer:before, .ion-spoon:before, .ion-star:before, .ion-stats-bars:before, .ion-steam:before, .ion-stop:before, .ion-thermometer:before, .ion-thumbsdown:before, .ion-thumbsup:before, .ion-toggle:before, .ion-toggle-filled:before, .ion-transgender:before, .ion-trash-a:before, .ion-trash-b:before, .ion-trophy:before, .ion-tshirt:before, .ion-tshirt-outline:before, .ion-umbrella:before, .ion-university:before, .ion-unlocked:before, .ion-upload:before, .ion-usb:before, .ion-videocamera:before, .ion-volume-high:before, .ion-volume-low:before, .ion-volume-medium:before, .ion-volume-mute:before, .ion-wand:before, .ion-waterdrop:before, .ion-wifi:before, .ion-wineglass:before, .ion-woman:before, .ion-wrench:before, .ion-xbox:before { display: inline-block; font-family: \"Ionicons\"; speak: none; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; text-rendering: auto; line-height: 1; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }\r\n\r\n.ion-alert:before { content: \"\\F101\"; }\r\n\r\n.ion-alert-circled:before { content: \"\\F100\"; }\r\n\r\n.ion-android-add:before { content: \"\\F2C7\"; }\r\n\r\n.ion-android-add-circle:before { content: \"\\F359\"; }\r\n\r\n.ion-android-alarm-clock:before { content: \"\\F35A\"; }\r\n\r\n.ion-android-alert:before { content: \"\\F35B\"; }\r\n\r\n.ion-android-apps:before { content: \"\\F35C\"; }\r\n\r\n.ion-android-archive:before { content: \"\\F2C9\"; }\r\n\r\n.ion-android-arrow-back:before { content: \"\\F2CA\"; }\r\n\r\n.ion-android-arrow-down:before { content: \"\\F35D\"; }\r\n\r\n.ion-android-arrow-dropdown:before { content: \"\\F35F\"; }\r\n\r\n.ion-android-arrow-dropdown-circle:before { content: \"\\F35E\"; }\r\n\r\n.ion-android-arrow-dropleft:before { content: \"\\F361\"; }\r\n\r\n.ion-android-arrow-dropleft-circle:before { content: \"\\F360\"; }\r\n\r\n.ion-android-arrow-dropright:before { content: \"\\F363\"; }\r\n\r\n.ion-android-arrow-dropright-circle:before { content: \"\\F362\"; }\r\n\r\n.ion-android-arrow-dropup:before { content: \"\\F365\"; }\r\n\r\n.ion-android-arrow-dropup-circle:before { content: \"\\F364\"; }\r\n\r\n.ion-android-arrow-forward:before { content: \"\\F30F\"; }\r\n\r\n.ion-android-arrow-up:before { content: \"\\F366\"; }\r\n\r\n.ion-android-attach:before { content: \"\\F367\"; }\r\n\r\n.ion-android-bar:before { content: \"\\F368\"; }\r\n\r\n.ion-android-bicycle:before { content: \"\\F369\"; }\r\n\r\n.ion-android-boat:before { content: \"\\F36A\"; }\r\n\r\n.ion-android-bookmark:before { content: \"\\F36B\"; }\r\n\r\n.ion-android-bulb:before { content: \"\\F36C\"; }\r\n\r\n.ion-android-bus:before { content: \"\\F36D\"; }\r\n\r\n.ion-android-calendar:before { content: \"\\F2D1\"; }\r\n\r\n.ion-android-call:before { content: \"\\F2D2\"; }\r\n\r\n.ion-android-camera:before { content: \"\\F2D3\"; }\r\n\r\n.ion-android-cancel:before { content: \"\\F36E\"; }\r\n\r\n.ion-android-car:before { content: \"\\F36F\"; }\r\n\r\n.ion-android-cart:before { content: \"\\F370\"; }\r\n\r\n.ion-android-chat:before { content: \"\\F2D4\"; }\r\n\r\n.ion-android-checkbox:before { content: \"\\F374\"; }\r\n\r\n.ion-android-checkbox-blank:before { content: \"\\F371\"; }\r\n\r\n.ion-android-checkbox-outline:before { content: \"\\F373\"; }\r\n\r\n.ion-android-checkbox-outline-blank:before { content: \"\\F372\"; }\r\n\r\n.ion-android-checkmark-circle:before { content: \"\\F375\"; }\r\n\r\n.ion-android-clipboard:before { content: \"\\F376\"; }\r\n\r\n.ion-android-close:before { content: \"\\F2D7\"; }\r\n\r\n.ion-android-cloud:before { content: \"\\F37A\"; }\r\n\r\n.ion-android-cloud-circle:before { content: \"\\F377\"; }\r\n\r\n.ion-android-cloud-done:before { content: \"\\F378\"; }\r\n\r\n.ion-android-cloud-outline:before { content: \"\\F379\"; }\r\n\r\n.ion-android-color-palette:before { content: \"\\F37B\"; }\r\n\r\n.ion-android-compass:before { content: \"\\F37C\"; }\r\n\r\n.ion-android-contact:before { content: \"\\F2D8\"; }\r\n\r\n.ion-android-contacts:before { content: \"\\F2D9\"; }\r\n\r\n.ion-android-contract:before { content: \"\\F37D\"; }\r\n\r\n.ion-android-create:before { content: \"\\F37E\"; }\r\n\r\n.ion-android-delete:before { content: \"\\F37F\"; }\r\n\r\n.ion-android-desktop:before { content: \"\\F380\"; }\r\n\r\n.ion-android-document:before { content: \"\\F381\"; }\r\n\r\n.ion-android-done:before { content: \"\\F383\"; }\r\n\r\n.ion-android-done-all:before { content: \"\\F382\"; }\r\n\r\n.ion-android-download:before { content: \"\\F2DD\"; }\r\n\r\n.ion-android-drafts:before { content: \"\\F384\"; }\r\n\r\n.ion-android-exit:before { content: \"\\F385\"; }\r\n\r\n.ion-android-expand:before { content: \"\\F386\"; }\r\n\r\n.ion-android-favorite:before { content: \"\\F388\"; }\r\n\r\n.ion-android-favorite-outline:before { content: \"\\F387\"; }\r\n\r\n.ion-android-film:before { content: \"\\F389\"; }\r\n\r\n.ion-android-folder:before { content: \"\\F2E0\"; }\r\n\r\n.ion-android-folder-open:before { content: \"\\F38A\"; }\r\n\r\n.ion-android-funnel:before { content: \"\\F38B\"; }\r\n\r\n.ion-android-globe:before { content: \"\\F38C\"; }\r\n\r\n.ion-android-hand:before { content: \"\\F2E3\"; }\r\n\r\n.ion-android-hangout:before { content: \"\\F38D\"; }\r\n\r\n.ion-android-happy:before { content: \"\\F38E\"; }\r\n\r\n.ion-android-home:before { content: \"\\F38F\"; }\r\n\r\n.ion-android-image:before { content: \"\\F2E4\"; }\r\n\r\n.ion-android-laptop:before { content: \"\\F390\"; }\r\n\r\n.ion-android-list:before { content: \"\\F391\"; }\r\n\r\n.ion-android-locate:before { content: \"\\F2E9\"; }\r\n\r\n.ion-android-lock:before { content: \"\\F392\"; }\r\n\r\n.ion-android-mail:before { content: \"\\F2EB\"; }\r\n\r\n.ion-android-map:before { content: \"\\F393\"; }\r\n\r\n.ion-android-menu:before { content: \"\\F394\"; }\r\n\r\n.ion-android-microphone:before { content: \"\\F2EC\"; }\r\n\r\n.ion-android-microphone-off:before { content: \"\\F395\"; }\r\n\r\n.ion-android-more-horizontal:before { content: \"\\F396\"; }\r\n\r\n.ion-android-more-vertical:before { content: \"\\F397\"; }\r\n\r\n.ion-android-navigate:before { content: \"\\F398\"; }\r\n\r\n.ion-android-notifications:before { content: \"\\F39B\"; }\r\n\r\n.ion-android-notifications-none:before { content: \"\\F399\"; }\r\n\r\n.ion-android-notifications-off:before { content: \"\\F39A\"; }\r\n\r\n.ion-android-open:before { content: \"\\F39C\"; }\r\n\r\n.ion-android-options:before { content: \"\\F39D\"; }\r\n\r\n.ion-android-people:before { content: \"\\F39E\"; }\r\n\r\n.ion-android-person:before { content: \"\\F3A0\"; }\r\n\r\n.ion-android-person-add:before { content: \"\\F39F\"; }\r\n\r\n.ion-android-phone-landscape:before { content: \"\\F3A1\"; }\r\n\r\n.ion-android-phone-portrait:before { content: \"\\F3A2\"; }\r\n\r\n.ion-android-pin:before { content: \"\\F3A3\"; }\r\n\r\n.ion-android-plane:before { content: \"\\F3A4\"; }\r\n\r\n.ion-android-playstore:before { content: \"\\F2F0\"; }\r\n\r\n.ion-android-print:before { content: \"\\F3A5\"; }\r\n\r\n.ion-android-radio-button-off:before { content: \"\\F3A6\"; }\r\n\r\n.ion-android-radio-button-on:before { content: \"\\F3A7\"; }\r\n\r\n.ion-android-refresh:before { content: \"\\F3A8\"; }\r\n\r\n.ion-android-remove:before { content: \"\\F2F4\"; }\r\n\r\n.ion-android-remove-circle:before { content: \"\\F3A9\"; }\r\n\r\n.ion-android-restaurant:before { content: \"\\F3AA\"; }\r\n\r\n.ion-android-sad:before { content: \"\\F3AB\"; }\r\n\r\n.ion-android-search:before { content: \"\\F2F5\"; }\r\n\r\n.ion-android-send:before { content: \"\\F2F6\"; }\r\n\r\n.ion-android-settings:before { content: \"\\F2F7\"; }\r\n\r\n.ion-android-share:before { content: \"\\F2F8\"; }\r\n\r\n.ion-android-share-alt:before { content: \"\\F3AC\"; }\r\n\r\n.ion-android-star:before { content: \"\\F2FC\"; }\r\n\r\n.ion-android-star-half:before { content: \"\\F3AD\"; }\r\n\r\n.ion-android-star-outline:before { content: \"\\F3AE\"; }\r\n\r\n.ion-android-stopwatch:before { content: \"\\F2FD\"; }\r\n\r\n.ion-android-subway:before { content: \"\\F3AF\"; }\r\n\r\n.ion-android-sunny:before { content: \"\\F3B0\"; }\r\n\r\n.ion-android-sync:before { content: \"\\F3B1\"; }\r\n\r\n.ion-android-textsms:before { content: \"\\F3B2\"; }\r\n\r\n.ion-android-time:before { content: \"\\F3B3\"; }\r\n\r\n.ion-android-train:before { content: \"\\F3B4\"; }\r\n\r\n.ion-android-unlock:before { content: \"\\F3B5\"; }\r\n\r\n.ion-android-upload:before { content: \"\\F3B6\"; }\r\n\r\n.ion-android-volume-down:before { content: \"\\F3B7\"; }\r\n\r\n.ion-android-volume-mute:before { content: \"\\F3B8\"; }\r\n\r\n.ion-android-volume-off:before { content: \"\\F3B9\"; }\r\n\r\n.ion-android-volume-up:before { content: \"\\F3BA\"; }\r\n\r\n.ion-android-walk:before { content: \"\\F3BB\"; }\r\n\r\n.ion-android-warning:before { content: \"\\F3BC\"; }\r\n\r\n.ion-android-watch:before { content: \"\\F3BD\"; }\r\n\r\n.ion-android-wifi:before { content: \"\\F305\"; }\r\n\r\n.ion-aperture:before { content: \"\\F313\"; }\r\n\r\n.ion-archive:before { content: \"\\F102\"; }\r\n\r\n.ion-arrow-down-a:before { content: \"\\F103\"; }\r\n\r\n.ion-arrow-down-b:before { content: \"\\F104\"; }\r\n\r\n.ion-arrow-down-c:before { content: \"\\F105\"; }\r\n\r\n.ion-arrow-expand:before { content: \"\\F25E\"; }\r\n\r\n.ion-arrow-graph-down-left:before { content: \"\\F25F\"; }\r\n\r\n.ion-arrow-graph-down-right:before { content: \"\\F260\"; }\r\n\r\n.ion-arrow-graph-up-left:before { content: \"\\F261\"; }\r\n\r\n.ion-arrow-graph-up-right:before { content: \"\\F262\"; }\r\n\r\n.ion-arrow-left-a:before { content: \"\\F106\"; }\r\n\r\n.ion-arrow-left-b:before { content: \"\\F107\"; }\r\n\r\n.ion-arrow-left-c:before { content: \"\\F108\"; }\r\n\r\n.ion-arrow-move:before { content: \"\\F263\"; }\r\n\r\n.ion-arrow-resize:before { content: \"\\F264\"; }\r\n\r\n.ion-arrow-return-left:before { content: \"\\F265\"; }\r\n\r\n.ion-arrow-return-right:before { content: \"\\F266\"; }\r\n\r\n.ion-arrow-right-a:before { content: \"\\F109\"; }\r\n\r\n.ion-arrow-right-b:before { content: \"\\F10A\"; }\r\n\r\n.ion-arrow-right-c:before { content: \"\\F10B\"; }\r\n\r\n.ion-arrow-shrink:before { content: \"\\F267\"; }\r\n\r\n.ion-arrow-swap:before { content: \"\\F268\"; }\r\n\r\n.ion-arrow-up-a:before { content: \"\\F10C\"; }\r\n\r\n.ion-arrow-up-b:before { content: \"\\F10D\"; }\r\n\r\n.ion-arrow-up-c:before { content: \"\\F10E\"; }\r\n\r\n.ion-asterisk:before { content: \"\\F314\"; }\r\n\r\n.ion-at:before { content: \"\\F10F\"; }\r\n\r\n.ion-backspace:before { content: \"\\F3BF\"; }\r\n\r\n.ion-backspace-outline:before { content: \"\\F3BE\"; }\r\n\r\n.ion-bag:before { content: \"\\F110\"; }\r\n\r\n.ion-battery-charging:before { content: \"\\F111\"; }\r\n\r\n.ion-battery-empty:before { content: \"\\F112\"; }\r\n\r\n.ion-battery-full:before { content: \"\\F113\"; }\r\n\r\n.ion-battery-half:before { content: \"\\F114\"; }\r\n\r\n.ion-battery-low:before { content: \"\\F115\"; }\r\n\r\n.ion-beaker:before { content: \"\\F269\"; }\r\n\r\n.ion-beer:before { content: \"\\F26A\"; }\r\n\r\n.ion-bluetooth:before { content: \"\\F116\"; }\r\n\r\n.ion-bonfire:before { content: \"\\F315\"; }\r\n\r\n.ion-bookmark:before { content: \"\\F26B\"; }\r\n\r\n.ion-bowtie:before { content: \"\\F3C0\"; }\r\n\r\n.ion-briefcase:before { content: \"\\F26C\"; }\r\n\r\n.ion-bug:before { content: \"\\F2BE\"; }\r\n\r\n.ion-calculator:before { content: \"\\F26D\"; }\r\n\r\n.ion-calendar:before { content: \"\\F117\"; }\r\n\r\n.ion-camera:before { content: \"\\F118\"; }\r\n\r\n.ion-card:before { content: \"\\F119\"; }\r\n\r\n.ion-cash:before { content: \"\\F316\"; }\r\n\r\n.ion-chatbox:before { content: \"\\F11B\"; }\r\n\r\n.ion-chatbox-working:before { content: \"\\F11A\"; }\r\n\r\n.ion-chatboxes:before { content: \"\\F11C\"; }\r\n\r\n.ion-chatbubble:before { content: \"\\F11E\"; }\r\n\r\n.ion-chatbubble-working:before { content: \"\\F11D\"; }\r\n\r\n.ion-chatbubbles:before { content: \"\\F11F\"; }\r\n\r\n.ion-checkmark:before { content: \"\\F122\"; }\r\n\r\n.ion-checkmark-circled:before { content: \"\\F120\"; }\r\n\r\n.ion-checkmark-round:before { content: \"\\F121\"; }\r\n\r\n.ion-chevron-down:before { content: \"\\F123\"; }\r\n\r\n.ion-chevron-left:before { content: \"\\F124\"; }\r\n\r\n.ion-chevron-right:before { content: \"\\F125\"; }\r\n\r\n.ion-chevron-up:before { content: \"\\F126\"; }\r\n\r\n.ion-clipboard:before { content: \"\\F127\"; }\r\n\r\n.ion-clock:before { content: \"\\F26E\"; }\r\n\r\n.ion-close:before { content: \"\\F12A\"; }\r\n\r\n.ion-close-circled:before { content: \"\\F128\"; }\r\n\r\n.ion-close-round:before { content: \"\\F129\"; }\r\n\r\n.ion-closed-captioning:before { content: \"\\F317\"; }\r\n\r\n.ion-cloud:before { content: \"\\F12B\"; }\r\n\r\n.ion-code:before { content: \"\\F271\"; }\r\n\r\n.ion-code-download:before { content: \"\\F26F\"; }\r\n\r\n.ion-code-working:before { content: \"\\F270\"; }\r\n\r\n.ion-coffee:before { content: \"\\F272\"; }\r\n\r\n.ion-compass:before { content: \"\\F273\"; }\r\n\r\n.ion-compose:before { content: \"\\F12C\"; }\r\n\r\n.ion-connection-bars:before { content: \"\\F274\"; }\r\n\r\n.ion-contrast:before { content: \"\\F275\"; }\r\n\r\n.ion-crop:before { content: \"\\F3C1\"; }\r\n\r\n.ion-cube:before { content: \"\\F318\"; }\r\n\r\n.ion-disc:before { content: \"\\F12D\"; }\r\n\r\n.ion-document:before { content: \"\\F12F\"; }\r\n\r\n.ion-document-text:before { content: \"\\F12E\"; }\r\n\r\n.ion-drag:before { content: \"\\F130\"; }\r\n\r\n.ion-earth:before { content: \"\\F276\"; }\r\n\r\n.ion-easel:before { content: \"\\F3C2\"; }\r\n\r\n.ion-edit:before { content: \"\\F2BF\"; }\r\n\r\n.ion-egg:before { content: \"\\F277\"; }\r\n\r\n.ion-eject:before { content: \"\\F131\"; }\r\n\r\n.ion-email:before { content: \"\\F132\"; }\r\n\r\n.ion-email-unread:before { content: \"\\F3C3\"; }\r\n\r\n.ion-erlenmeyer-flask:before { content: \"\\F3C5\"; }\r\n\r\n.ion-erlenmeyer-flask-bubbles:before { content: \"\\F3C4\"; }\r\n\r\n.ion-eye:before { content: \"\\F133\"; }\r\n\r\n.ion-eye-disabled:before { content: \"\\F306\"; }\r\n\r\n.ion-female:before { content: \"\\F278\"; }\r\n\r\n.ion-filing:before { content: \"\\F134\"; }\r\n\r\n.ion-film-marker:before { content: \"\\F135\"; }\r\n\r\n.ion-fireball:before { content: \"\\F319\"; }\r\n\r\n.ion-flag:before { content: \"\\F279\"; }\r\n\r\n.ion-flame:before { content: \"\\F31A\"; }\r\n\r\n.ion-flash:before { content: \"\\F137\"; }\r\n\r\n.ion-flash-off:before { content: \"\\F136\"; }\r\n\r\n.ion-folder:before { content: \"\\F139\"; }\r\n\r\n.ion-fork:before { content: \"\\F27A\"; }\r\n\r\n.ion-fork-repo:before { content: \"\\F2C0\"; }\r\n\r\n.ion-forward:before { content: \"\\F13A\"; }\r\n\r\n.ion-funnel:before { content: \"\\F31B\"; }\r\n\r\n.ion-gear-a:before { content: \"\\F13D\"; }\r\n\r\n.ion-gear-b:before { content: \"\\F13E\"; }\r\n\r\n.ion-grid:before { content: \"\\F13F\"; }\r\n\r\n.ion-hammer:before { content: \"\\F27B\"; }\r\n\r\n.ion-happy:before { content: \"\\F31C\"; }\r\n\r\n.ion-happy-outline:before { content: \"\\F3C6\"; }\r\n\r\n.ion-headphone:before { content: \"\\F140\"; }\r\n\r\n.ion-heart:before { content: \"\\F141\"; }\r\n\r\n.ion-heart-broken:before { content: \"\\F31D\"; }\r\n\r\n.ion-help:before { content: \"\\F143\"; }\r\n\r\n.ion-help-buoy:before { content: \"\\F27C\"; }\r\n\r\n.ion-help-circled:before { content: \"\\F142\"; }\r\n\r\n.ion-home:before { content: \"\\F144\"; }\r\n\r\n.ion-icecream:before { content: \"\\F27D\"; }\r\n\r\n.ion-image:before { content: \"\\F147\"; }\r\n\r\n.ion-images:before { content: \"\\F148\"; }\r\n\r\n.ion-information:before { content: \"\\F14A\"; }\r\n\r\n.ion-information-circled:before { content: \"\\F149\"; }\r\n\r\n.ion-ionic:before { content: \"\\F14B\"; }\r\n\r\n.ion-ios-alarm:before { content: \"\\F3C8\"; }\r\n\r\n.ion-ios-alarm-outline:before { content: \"\\F3C7\"; }\r\n\r\n.ion-ios-albums:before { content: \"\\F3CA\"; }\r\n\r\n.ion-ios-albums-outline:before { content: \"\\F3C9\"; }\r\n\r\n.ion-ios-americanfootball:before { content: \"\\F3CC\"; }\r\n\r\n.ion-ios-americanfootball-outline:before { content: \"\\F3CB\"; }\r\n\r\n.ion-ios-analytics:before { content: \"\\F3CE\"; }\r\n\r\n.ion-ios-analytics-outline:before { content: \"\\F3CD\"; }\r\n\r\n.ion-ios-arrow-back:before { content: \"\\F3CF\"; }\r\n\r\n.ion-ios-arrow-down:before { content: \"\\F3D0\"; }\r\n\r\n.ion-ios-arrow-forward:before { content: \"\\F3D1\"; }\r\n\r\n.ion-ios-arrow-left:before { content: \"\\F3D2\"; }\r\n\r\n.ion-ios-arrow-right:before { content: \"\\F3D3\"; }\r\n\r\n.ion-ios-arrow-thin-down:before { content: \"\\F3D4\"; }\r\n\r\n.ion-ios-arrow-thin-left:before { content: \"\\F3D5\"; }\r\n\r\n.ion-ios-arrow-thin-right:before { content: \"\\F3D6\"; }\r\n\r\n.ion-ios-arrow-thin-up:before { content: \"\\F3D7\"; }\r\n\r\n.ion-ios-arrow-up:before { content: \"\\F3D8\"; }\r\n\r\n.ion-ios-at:before { content: \"\\F3DA\"; }\r\n\r\n.ion-ios-at-outline:before { content: \"\\F3D9\"; }\r\n\r\n.ion-ios-barcode:before { content: \"\\F3DC\"; }\r\n\r\n.ion-ios-barcode-outline:before { content: \"\\F3DB\"; }\r\n\r\n.ion-ios-baseball:before { content: \"\\F3DE\"; }\r\n\r\n.ion-ios-baseball-outline:before { content: \"\\F3DD\"; }\r\n\r\n.ion-ios-basketball:before { content: \"\\F3E0\"; }\r\n\r\n.ion-ios-basketball-outline:before { content: \"\\F3DF\"; }\r\n\r\n.ion-ios-bell:before { content: \"\\F3E2\"; }\r\n\r\n.ion-ios-bell-outline:before { content: \"\\F3E1\"; }\r\n\r\n.ion-ios-body:before { content: \"\\F3E4\"; }\r\n\r\n.ion-ios-body-outline:before { content: \"\\F3E3\"; }\r\n\r\n.ion-ios-bolt:before { content: \"\\F3E6\"; }\r\n\r\n.ion-ios-bolt-outline:before { content: \"\\F3E5\"; }\r\n\r\n.ion-ios-book:before { content: \"\\F3E8\"; }\r\n\r\n.ion-ios-book-outline:before { content: \"\\F3E7\"; }\r\n\r\n.ion-ios-bookmarks:before { content: \"\\F3EA\"; }\r\n\r\n.ion-ios-bookmarks-outline:before { content: \"\\F3E9\"; }\r\n\r\n.ion-ios-box:before { content: \"\\F3EC\"; }\r\n\r\n.ion-ios-box-outline:before { content: \"\\F3EB\"; }\r\n\r\n.ion-ios-briefcase:before { content: \"\\F3EE\"; }\r\n\r\n.ion-ios-briefcase-outline:before { content: \"\\F3ED\"; }\r\n\r\n.ion-ios-browsers:before { content: \"\\F3F0\"; }\r\n\r\n.ion-ios-browsers-outline:before { content: \"\\F3EF\"; }\r\n\r\n.ion-ios-calculator:before { content: \"\\F3F2\"; }\r\n\r\n.ion-ios-calculator-outline:before { content: \"\\F3F1\"; }\r\n\r\n.ion-ios-calendar:before { content: \"\\F3F4\"; }\r\n\r\n.ion-ios-calendar-outline:before { content: \"\\F3F3\"; }\r\n\r\n.ion-ios-camera:before { content: \"\\F3F6\"; }\r\n\r\n.ion-ios-camera-outline:before { content: \"\\F3F5\"; }\r\n\r\n.ion-ios-cart:before { content: \"\\F3F8\"; }\r\n\r\n.ion-ios-cart-outline:before { content: \"\\F3F7\"; }\r\n\r\n.ion-ios-chatboxes:before { content: \"\\F3FA\"; }\r\n\r\n.ion-ios-chatboxes-outline:before { content: \"\\F3F9\"; }\r\n\r\n.ion-ios-chatbubble:before { content: \"\\F3FC\"; }\r\n\r\n.ion-ios-chatbubble-outline:before { content: \"\\F3FB\"; }\r\n\r\n.ion-ios-checkmark:before { content: \"\\F3FF\"; }\r\n\r\n.ion-ios-checkmark-empty:before { content: \"\\F3FD\"; }\r\n\r\n.ion-ios-checkmark-outline:before { content: \"\\F3FE\"; }\r\n\r\n.ion-ios-circle-filled:before { content: \"\\F400\"; }\r\n\r\n.ion-ios-circle-outline:before { content: \"\\F401\"; }\r\n\r\n.ion-ios-clock:before { content: \"\\F403\"; }\r\n\r\n.ion-ios-clock-outline:before { content: \"\\F402\"; }\r\n\r\n.ion-ios-close:before { content: \"\\F406\"; }\r\n\r\n.ion-ios-close-empty:before { content: \"\\F404\"; }\r\n\r\n.ion-ios-close-outline:before { content: \"\\F405\"; }\r\n\r\n.ion-ios-cloud:before { content: \"\\F40C\"; }\r\n\r\n.ion-ios-cloud-download:before { content: \"\\F408\"; }\r\n\r\n.ion-ios-cloud-download-outline:before { content: \"\\F407\"; }\r\n\r\n.ion-ios-cloud-outline:before { content: \"\\F409\"; }\r\n\r\n.ion-ios-cloud-upload:before { content: \"\\F40B\"; }\r\n\r\n.ion-ios-cloud-upload-outline:before { content: \"\\F40A\"; }\r\n\r\n.ion-ios-cloudy:before { content: \"\\F410\"; }\r\n\r\n.ion-ios-cloudy-night:before { content: \"\\F40E\"; }\r\n\r\n.ion-ios-cloudy-night-outline:before { content: \"\\F40D\"; }\r\n\r\n.ion-ios-cloudy-outline:before { content: \"\\F40F\"; }\r\n\r\n.ion-ios-cog:before { content: \"\\F412\"; }\r\n\r\n.ion-ios-cog-outline:before { content: \"\\F411\"; }\r\n\r\n.ion-ios-color-filter:before { content: \"\\F414\"; }\r\n\r\n.ion-ios-color-filter-outline:before { content: \"\\F413\"; }\r\n\r\n.ion-ios-color-wand:before { content: \"\\F416\"; }\r\n\r\n.ion-ios-color-wand-outline:before { content: \"\\F415\"; }\r\n\r\n.ion-ios-compose:before { content: \"\\F418\"; }\r\n\r\n.ion-ios-compose-outline:before { content: \"\\F417\"; }\r\n\r\n.ion-ios-contact:before { content: \"\\F41A\"; }\r\n\r\n.ion-ios-contact-outline:before { content: \"\\F419\"; }\r\n\r\n.ion-ios-copy:before { content: \"\\F41C\"; }\r\n\r\n.ion-ios-copy-outline:before { content: \"\\F41B\"; }\r\n\r\n.ion-ios-crop:before { content: \"\\F41E\"; }\r\n\r\n.ion-ios-crop-strong:before { content: \"\\F41D\"; }\r\n\r\n.ion-ios-download:before { content: \"\\F420\"; }\r\n\r\n.ion-ios-download-outline:before { content: \"\\F41F\"; }\r\n\r\n.ion-ios-drag:before { content: \"\\F421\"; }\r\n\r\n.ion-ios-email:before { content: \"\\F423\"; }\r\n\r\n.ion-ios-email-outline:before { content: \"\\F422\"; }\r\n\r\n.ion-ios-eye:before { content: \"\\F425\"; }\r\n\r\n.ion-ios-eye-outline:before { content: \"\\F424\"; }\r\n\r\n.ion-ios-fastforward:before { content: \"\\F427\"; }\r\n\r\n.ion-ios-fastforward-outline:before { content: \"\\F426\"; }\r\n\r\n.ion-ios-filing:before { content: \"\\F429\"; }\r\n\r\n.ion-ios-filing-outline:before { content: \"\\F428\"; }\r\n\r\n.ion-ios-film:before { content: \"\\F42B\"; }\r\n\r\n.ion-ios-film-outline:before { content: \"\\F42A\"; }\r\n\r\n.ion-ios-flag:before { content: \"\\F42D\"; }\r\n\r\n.ion-ios-flag-outline:before { content: \"\\F42C\"; }\r\n\r\n.ion-ios-flame:before { content: \"\\F42F\"; }\r\n\r\n.ion-ios-flame-outline:before { content: \"\\F42E\"; }\r\n\r\n.ion-ios-flask:before { content: \"\\F431\"; }\r\n\r\n.ion-ios-flask-outline:before { content: \"\\F430\"; }\r\n\r\n.ion-ios-flower:before { content: \"\\F433\"; }\r\n\r\n.ion-ios-flower-outline:before { content: \"\\F432\"; }\r\n\r\n.ion-ios-folder:before { content: \"\\F435\"; }\r\n\r\n.ion-ios-folder-outline:before { content: \"\\F434\"; }\r\n\r\n.ion-ios-football:before { content: \"\\F437\"; }\r\n\r\n.ion-ios-football-outline:before { content: \"\\F436\"; }\r\n\r\n.ion-ios-game-controller-a:before { content: \"\\F439\"; }\r\n\r\n.ion-ios-game-controller-a-outline:before { content: \"\\F438\"; }\r\n\r\n.ion-ios-game-controller-b:before { content: \"\\F43B\"; }\r\n\r\n.ion-ios-game-controller-b-outline:before { content: \"\\F43A\"; }\r\n\r\n.ion-ios-gear:before { content: \"\\F43D\"; }\r\n\r\n.ion-ios-gear-outline:before { content: \"\\F43C\"; }\r\n\r\n.ion-ios-glasses:before { content: \"\\F43F\"; }\r\n\r\n.ion-ios-glasses-outline:before { content: \"\\F43E\"; }\r\n\r\n.ion-ios-grid-view:before { content: \"\\F441\"; }\r\n\r\n.ion-ios-grid-view-outline:before { content: \"\\F440\"; }\r\n\r\n.ion-ios-heart:before { content: \"\\F443\"; }\r\n\r\n.ion-ios-heart-outline:before { content: \"\\F442\"; }\r\n\r\n.ion-ios-help:before { content: \"\\F446\"; }\r\n\r\n.ion-ios-help-empty:before { content: \"\\F444\"; }\r\n\r\n.ion-ios-help-outline:before { content: \"\\F445\"; }\r\n\r\n.ion-ios-home:before { content: \"\\F448\"; }\r\n\r\n.ion-ios-home-outline:before { content: \"\\F447\"; }\r\n\r\n.ion-ios-infinite:before { content: \"\\F44A\"; }\r\n\r\n.ion-ios-infinite-outline:before { content: \"\\F449\"; }\r\n\r\n.ion-ios-information:before { content: \"\\F44D\"; }\r\n\r\n.ion-ios-information-empty:before { content: \"\\F44B\"; }\r\n\r\n.ion-ios-information-outline:before { content: \"\\F44C\"; }\r\n\r\n.ion-ios-ionic-outline:before { content: \"\\F44E\"; }\r\n\r\n.ion-ios-keypad:before { content: \"\\F450\"; }\r\n\r\n.ion-ios-keypad-outline:before { content: \"\\F44F\"; }\r\n\r\n.ion-ios-lightbulb:before { content: \"\\F452\"; }\r\n\r\n.ion-ios-lightbulb-outline:before { content: \"\\F451\"; }\r\n\r\n.ion-ios-list:before { content: \"\\F454\"; }\r\n\r\n.ion-ios-list-outline:before { content: \"\\F453\"; }\r\n\r\n.ion-ios-location:before { content: \"\\F456\"; }\r\n\r\n.ion-ios-location-outline:before { content: \"\\F455\"; }\r\n\r\n.ion-ios-locked:before { content: \"\\F458\"; }\r\n\r\n.ion-ios-locked-outline:before { content: \"\\F457\"; }\r\n\r\n.ion-ios-loop:before { content: \"\\F45A\"; }\r\n\r\n.ion-ios-loop-strong:before { content: \"\\F459\"; }\r\n\r\n.ion-ios-medical:before { content: \"\\F45C\"; }\r\n\r\n.ion-ios-medical-outline:before { content: \"\\F45B\"; }\r\n\r\n.ion-ios-medkit:before { content: \"\\F45E\"; }\r\n\r\n.ion-ios-medkit-outline:before { content: \"\\F45D\"; }\r\n\r\n.ion-ios-mic:before { content: \"\\F461\"; }\r\n\r\n.ion-ios-mic-off:before { content: \"\\F45F\"; }\r\n\r\n.ion-ios-mic-outline:before { content: \"\\F460\"; }\r\n\r\n.ion-ios-minus:before { content: \"\\F464\"; }\r\n\r\n.ion-ios-minus-empty:before { content: \"\\F462\"; }\r\n\r\n.ion-ios-minus-outline:before { content: \"\\F463\"; }\r\n\r\n.ion-ios-monitor:before { content: \"\\F466\"; }\r\n\r\n.ion-ios-monitor-outline:before { content: \"\\F465\"; }\r\n\r\n.ion-ios-moon:before { content: \"\\F468\"; }\r\n\r\n.ion-ios-moon-outline:before { content: \"\\F467\"; }\r\n\r\n.ion-ios-more:before { content: \"\\F46A\"; }\r\n\r\n.ion-ios-more-outline:before { content: \"\\F469\"; }\r\n\r\n.ion-ios-musical-note:before { content: \"\\F46B\"; }\r\n\r\n.ion-ios-musical-notes:before { content: \"\\F46C\"; }\r\n\r\n.ion-ios-navigate:before { content: \"\\F46E\"; }\r\n\r\n.ion-ios-navigate-outline:before { content: \"\\F46D\"; }\r\n\r\n.ion-ios-nutrition:before { content: \"\\F470\"; }\r\n\r\n.ion-ios-nutrition-outline:before { content: \"\\F46F\"; }\r\n\r\n.ion-ios-paper:before { content: \"\\F472\"; }\r\n\r\n.ion-ios-paper-outline:before { content: \"\\F471\"; }\r\n\r\n.ion-ios-paperplane:before { content: \"\\F474\"; }\r\n\r\n.ion-ios-paperplane-outline:before { content: \"\\F473\"; }\r\n\r\n.ion-ios-partlysunny:before { content: \"\\F476\"; }\r\n\r\n.ion-ios-partlysunny-outline:before { content: \"\\F475\"; }\r\n\r\n.ion-ios-pause:before { content: \"\\F478\"; }\r\n\r\n.ion-ios-pause-outline:before { content: \"\\F477\"; }\r\n\r\n.ion-ios-paw:before { content: \"\\F47A\"; }\r\n\r\n.ion-ios-paw-outline:before { content: \"\\F479\"; }\r\n\r\n.ion-ios-people:before { content: \"\\F47C\"; }\r\n\r\n.ion-ios-people-outline:before { content: \"\\F47B\"; }\r\n\r\n.ion-ios-person:before { content: \"\\F47E\"; }\r\n\r\n.ion-ios-person-outline:before { content: \"\\F47D\"; }\r\n\r\n.ion-ios-personadd:before { content: \"\\F480\"; }\r\n\r\n.ion-ios-personadd-outline:before { content: \"\\F47F\"; }\r\n\r\n.ion-ios-photos:before { content: \"\\F482\"; }\r\n\r\n.ion-ios-photos-outline:before { content: \"\\F481\"; }\r\n\r\n.ion-ios-pie:before { content: \"\\F484\"; }\r\n\r\n.ion-ios-pie-outline:before { content: \"\\F483\"; }\r\n\r\n.ion-ios-pint:before { content: \"\\F486\"; }\r\n\r\n.ion-ios-pint-outline:before { content: \"\\F485\"; }\r\n\r\n.ion-ios-play:before { content: \"\\F488\"; }\r\n\r\n.ion-ios-play-outline:before { content: \"\\F487\"; }\r\n\r\n.ion-ios-plus:before { content: \"\\F48B\"; }\r\n\r\n.ion-ios-plus-empty:before { content: \"\\F489\"; }\r\n\r\n.ion-ios-plus-outline:before { content: \"\\F48A\"; }\r\n\r\n.ion-ios-pricetag:before { content: \"\\F48D\"; }\r\n\r\n.ion-ios-pricetag-outline:before { content: \"\\F48C\"; }\r\n\r\n.ion-ios-pricetags:before { content: \"\\F48F\"; }\r\n\r\n.ion-ios-pricetags-outline:before { content: \"\\F48E\"; }\r\n\r\n.ion-ios-printer:before { content: \"\\F491\"; }\r\n\r\n.ion-ios-printer-outline:before { content: \"\\F490\"; }\r\n\r\n.ion-ios-pulse:before { content: \"\\F493\"; }\r\n\r\n.ion-ios-pulse-strong:before { content: \"\\F492\"; }\r\n\r\n.ion-ios-rainy:before { content: \"\\F495\"; }\r\n\r\n.ion-ios-rainy-outline:before { content: \"\\F494\"; }\r\n\r\n.ion-ios-recording:before { content: \"\\F497\"; }\r\n\r\n.ion-ios-recording-outline:before { content: \"\\F496\"; }\r\n\r\n.ion-ios-redo:before { content: \"\\F499\"; }\r\n\r\n.ion-ios-redo-outline:before { content: \"\\F498\"; }\r\n\r\n.ion-ios-refresh:before { content: \"\\F49C\"; }\r\n\r\n.ion-ios-refresh-empty:before { content: \"\\F49A\"; }\r\n\r\n.ion-ios-refresh-outline:before { content: \"\\F49B\"; }\r\n\r\n.ion-ios-reload:before { content: \"\\F49D\"; }\r\n\r\n.ion-ios-reverse-camera:before { content: \"\\F49F\"; }\r\n\r\n.ion-ios-reverse-camera-outline:before { content: \"\\F49E\"; }\r\n\r\n.ion-ios-rewind:before { content: \"\\F4A1\"; }\r\n\r\n.ion-ios-rewind-outline:before { content: \"\\F4A0\"; }\r\n\r\n.ion-ios-rose:before { content: \"\\F4A3\"; }\r\n\r\n.ion-ios-rose-outline:before { content: \"\\F4A2\"; }\r\n\r\n.ion-ios-search:before { content: \"\\F4A5\"; }\r\n\r\n.ion-ios-search-strong:before { content: \"\\F4A4\"; }\r\n\r\n.ion-ios-settings:before { content: \"\\F4A7\"; }\r\n\r\n.ion-ios-settings-strong:before { content: \"\\F4A6\"; }\r\n\r\n.ion-ios-shuffle:before { content: \"\\F4A9\"; }\r\n\r\n.ion-ios-shuffle-strong:before { content: \"\\F4A8\"; }\r\n\r\n.ion-ios-skipbackward:before { content: \"\\F4AB\"; }\r\n\r\n.ion-ios-skipbackward-outline:before { content: \"\\F4AA\"; }\r\n\r\n.ion-ios-skipforward:before { content: \"\\F4AD\"; }\r\n\r\n.ion-ios-skipforward-outline:before { content: \"\\F4AC\"; }\r\n\r\n.ion-ios-snowy:before { content: \"\\F4AE\"; }\r\n\r\n.ion-ios-speedometer:before { content: \"\\F4B0\"; }\r\n\r\n.ion-ios-speedometer-outline:before { content: \"\\F4AF\"; }\r\n\r\n.ion-ios-star:before { content: \"\\F4B3\"; }\r\n\r\n.ion-ios-star-half:before { content: \"\\F4B1\"; }\r\n\r\n.ion-ios-star-outline:before { content: \"\\F4B2\"; }\r\n\r\n.ion-ios-stopwatch:before { content: \"\\F4B5\"; }\r\n\r\n.ion-ios-stopwatch-outline:before { content: \"\\F4B4\"; }\r\n\r\n.ion-ios-sunny:before { content: \"\\F4B7\"; }\r\n\r\n.ion-ios-sunny-outline:before { content: \"\\F4B6\"; }\r\n\r\n.ion-ios-telephone:before { content: \"\\F4B9\"; }\r\n\r\n.ion-ios-telephone-outline:before { content: \"\\F4B8\"; }\r\n\r\n.ion-ios-tennisball:before { content: \"\\F4BB\"; }\r\n\r\n.ion-ios-tennisball-outline:before { content: \"\\F4BA\"; }\r\n\r\n.ion-ios-thunderstorm:before { content: \"\\F4BD\"; }\r\n\r\n.ion-ios-thunderstorm-outline:before { content: \"\\F4BC\"; }\r\n\r\n.ion-ios-time:before { content: \"\\F4BF\"; }\r\n\r\n.ion-ios-time-outline:before { content: \"\\F4BE\"; }\r\n\r\n.ion-ios-timer:before { content: \"\\F4C1\"; }\r\n\r\n.ion-ios-timer-outline:before { content: \"\\F4C0\"; }\r\n\r\n.ion-ios-toggle:before { content: \"\\F4C3\"; }\r\n\r\n.ion-ios-toggle-outline:before { content: \"\\F4C2\"; }\r\n\r\n.ion-ios-trash:before { content: \"\\F4C5\"; }\r\n\r\n.ion-ios-trash-outline:before { content: \"\\F4C4\"; }\r\n\r\n.ion-ios-undo:before { content: \"\\F4C7\"; }\r\n\r\n.ion-ios-undo-outline:before { content: \"\\F4C6\"; }\r\n\r\n.ion-ios-unlocked:before { content: \"\\F4C9\"; }\r\n\r\n.ion-ios-unlocked-outline:before { content: \"\\F4C8\"; }\r\n\r\n.ion-ios-upload:before { content: \"\\F4CB\"; }\r\n\r\n.ion-ios-upload-outline:before { content: \"\\F4CA\"; }\r\n\r\n.ion-ios-videocam:before { content: \"\\F4CD\"; }\r\n\r\n.ion-ios-videocam-outline:before { content: \"\\F4CC\"; }\r\n\r\n.ion-ios-volume-high:before { content: \"\\F4CE\"; }\r\n\r\n.ion-ios-volume-low:before { content: \"\\F4CF\"; }\r\n\r\n.ion-ios-wineglass:before { content: \"\\F4D1\"; }\r\n\r\n.ion-ios-wineglass-outline:before { content: \"\\F4D0\"; }\r\n\r\n.ion-ios-world:before { content: \"\\F4D3\"; }\r\n\r\n.ion-ios-world-outline:before { content: \"\\F4D2\"; }\r\n\r\n.ion-ipad:before { content: \"\\F1F9\"; }\r\n\r\n.ion-iphone:before { content: \"\\F1FA\"; }\r\n\r\n.ion-ipod:before { content: \"\\F1FB\"; }\r\n\r\n.ion-jet:before { content: \"\\F295\"; }\r\n\r\n.ion-key:before { content: \"\\F296\"; }\r\n\r\n.ion-knife:before { content: \"\\F297\"; }\r\n\r\n.ion-laptop:before { content: \"\\F1FC\"; }\r\n\r\n.ion-leaf:before { content: \"\\F1FD\"; }\r\n\r\n.ion-levels:before { content: \"\\F298\"; }\r\n\r\n.ion-lightbulb:before { content: \"\\F299\"; }\r\n\r\n.ion-link:before { content: \"\\F1FE\"; }\r\n\r\n.ion-load-a:before { content: \"\\F29A\"; }\r\n\r\n.ion-load-b:before { content: \"\\F29B\"; }\r\n\r\n.ion-load-c:before { content: \"\\F29C\"; }\r\n\r\n.ion-load-d:before { content: \"\\F29D\"; }\r\n\r\n.ion-location:before { content: \"\\F1FF\"; }\r\n\r\n.ion-lock-combination:before { content: \"\\F4D4\"; }\r\n\r\n.ion-locked:before { content: \"\\F200\"; }\r\n\r\n.ion-log-in:before { content: \"\\F29E\"; }\r\n\r\n.ion-log-out:before { content: \"\\F29F\"; }\r\n\r\n.ion-loop:before { content: \"\\F201\"; }\r\n\r\n.ion-magnet:before { content: \"\\F2A0\"; }\r\n\r\n.ion-male:before { content: \"\\F2A1\"; }\r\n\r\n.ion-man:before { content: \"\\F202\"; }\r\n\r\n.ion-map:before { content: \"\\F203\"; }\r\n\r\n.ion-medkit:before { content: \"\\F2A2\"; }\r\n\r\n.ion-merge:before { content: \"\\F33F\"; }\r\n\r\n.ion-mic-a:before { content: \"\\F204\"; }\r\n\r\n.ion-mic-b:before { content: \"\\F205\"; }\r\n\r\n.ion-mic-c:before { content: \"\\F206\"; }\r\n\r\n.ion-minus:before { content: \"\\F209\"; }\r\n\r\n.ion-minus-circled:before { content: \"\\F207\"; }\r\n\r\n.ion-minus-round:before { content: \"\\F208\"; }\r\n\r\n.ion-model-s:before { content: \"\\F2C1\"; }\r\n\r\n.ion-monitor:before { content: \"\\F20A\"; }\r\n\r\n.ion-more:before { content: \"\\F20B\"; }\r\n\r\n.ion-mouse:before { content: \"\\F340\"; }\r\n\r\n.ion-music-note:before { content: \"\\F20C\"; }\r\n\r\n.ion-navicon:before { content: \"\\F20E\"; }\r\n\r\n.ion-navicon-round:before { content: \"\\F20D\"; }\r\n\r\n.ion-navigate:before { content: \"\\F2A3\"; }\r\n\r\n.ion-network:before { content: \"\\F341\"; }\r\n\r\n.ion-no-smoking:before { content: \"\\F2C2\"; }\r\n\r\n.ion-nuclear:before { content: \"\\F2A4\"; }\r\n\r\n.ion-outlet:before { content: \"\\F342\"; }\r\n\r\n.ion-paintbrush:before { content: \"\\F4D5\"; }\r\n\r\n.ion-paintbucket:before { content: \"\\F4D6\"; }\r\n\r\n.ion-paper-airplane:before { content: \"\\F2C3\"; }\r\n\r\n.ion-paperclip:before { content: \"\\F20F\"; }\r\n\r\n.ion-pause:before { content: \"\\F210\"; }\r\n\r\n.ion-person:before { content: \"\\F213\"; }\r\n\r\n.ion-person-add:before { content: \"\\F211\"; }\r\n\r\n.ion-person-stalker:before { content: \"\\F212\"; }\r\n\r\n.ion-pie-graph:before { content: \"\\F2A5\"; }\r\n\r\n.ion-pin:before { content: \"\\F2A6\"; }\r\n\r\n.ion-pinpoint:before { content: \"\\F2A7\"; }\r\n\r\n.ion-pizza:before { content: \"\\F2A8\"; }\r\n\r\n.ion-plane:before { content: \"\\F214\"; }\r\n\r\n.ion-planet:before { content: \"\\F343\"; }\r\n\r\n.ion-play:before { content: \"\\F215\"; }\r\n\r\n.ion-playstation:before { content: \"\\F30A\"; }\r\n\r\n.ion-plus:before { content: \"\\F218\"; }\r\n\r\n.ion-plus-circled:before { content: \"\\F216\"; }\r\n\r\n.ion-plus-round:before { content: \"\\F217\"; }\r\n\r\n.ion-podium:before { content: \"\\F344\"; }\r\n\r\n.ion-pound:before { content: \"\\F219\"; }\r\n\r\n.ion-power:before { content: \"\\F2A9\"; }\r\n\r\n.ion-pricetag:before { content: \"\\F2AA\"; }\r\n\r\n.ion-pricetags:before { content: \"\\F2AB\"; }\r\n\r\n.ion-printer:before { content: \"\\F21A\"; }\r\n\r\n.ion-pull-request:before { content: \"\\F345\"; }\r\n\r\n.ion-qr-scanner:before { content: \"\\F346\"; }\r\n\r\n.ion-quote:before { content: \"\\F347\"; }\r\n\r\n.ion-radio-waves:before { content: \"\\F2AC\"; }\r\n\r\n.ion-record:before { content: \"\\F21B\"; }\r\n\r\n.ion-refresh:before { content: \"\\F21C\"; }\r\n\r\n.ion-reply:before { content: \"\\F21E\"; }\r\n\r\n.ion-reply-all:before { content: \"\\F21D\"; }\r\n\r\n.ion-ribbon-a:before { content: \"\\F348\"; }\r\n\r\n.ion-ribbon-b:before { content: \"\\F349\"; }\r\n\r\n.ion-sad:before { content: \"\\F34A\"; }\r\n\r\n.ion-sad-outline:before { content: \"\\F4D7\"; }\r\n\r\n.ion-scissors:before { content: \"\\F34B\"; }\r\n\r\n.ion-search:before { content: \"\\F21F\"; }\r\n\r\n.ion-settings:before { content: \"\\F2AD\"; }\r\n\r\n.ion-share:before { content: \"\\F220\"; }\r\n\r\n.ion-shuffle:before { content: \"\\F221\"; }\r\n\r\n.ion-skip-backward:before { content: \"\\F222\"; }\r\n\r\n.ion-skip-forward:before { content: \"\\F223\"; }\r\n\r\n.ion-social-android:before { content: \"\\F225\"; }\r\n\r\n.ion-social-android-outline:before { content: \"\\F224\"; }\r\n\r\n.ion-social-angular:before { content: \"\\F4D9\"; }\r\n\r\n.ion-social-angular-outline:before { content: \"\\F4D8\"; }\r\n\r\n.ion-social-apple:before { content: \"\\F227\"; }\r\n\r\n.ion-social-apple-outline:before { content: \"\\F226\"; }\r\n\r\n.ion-social-bitcoin:before { content: \"\\F2AF\"; }\r\n\r\n.ion-social-bitcoin-outline:before { content: \"\\F2AE\"; }\r\n\r\n.ion-social-buffer:before { content: \"\\F229\"; }\r\n\r\n.ion-social-buffer-outline:before { content: \"\\F228\"; }\r\n\r\n.ion-social-chrome:before { content: \"\\F4DB\"; }\r\n\r\n.ion-social-chrome-outline:before { content: \"\\F4DA\"; }\r\n\r\n.ion-social-codepen:before { content: \"\\F4DD\"; }\r\n\r\n.ion-social-codepen-outline:before { content: \"\\F4DC\"; }\r\n\r\n.ion-social-css3:before { content: \"\\F4DF\"; }\r\n\r\n.ion-social-css3-outline:before { content: \"\\F4DE\"; }\r\n\r\n.ion-social-designernews:before { content: \"\\F22B\"; }\r\n\r\n.ion-social-designernews-outline:before { content: \"\\F22A\"; }\r\n\r\n.ion-social-dribbble:before { content: \"\\F22D\"; }\r\n\r\n.ion-social-dribbble-outline:before { content: \"\\F22C\"; }\r\n\r\n.ion-social-dropbox:before { content: \"\\F22F\"; }\r\n\r\n.ion-social-dropbox-outline:before { content: \"\\F22E\"; }\r\n\r\n.ion-social-euro:before { content: \"\\F4E1\"; }\r\n\r\n.ion-social-euro-outline:before { content: \"\\F4E0\"; }\r\n\r\n.ion-social-facebook:before { content: \"\\F231\"; }\r\n\r\n.ion-social-facebook-outline:before { content: \"\\F230\"; }\r\n\r\n.ion-social-foursquare:before { content: \"\\F34D\"; }\r\n\r\n.ion-social-foursquare-outline:before { content: \"\\F34C\"; }\r\n\r\n.ion-social-freebsd-devil:before { content: \"\\F2C4\"; }\r\n\r\n.ion-social-github:before { content: \"\\F233\"; }\r\n\r\n.ion-social-github-outline:before { content: \"\\F232\"; }\r\n\r\n.ion-social-google:before { content: \"\\F34F\"; }\r\n\r\n.ion-social-google-outline:before { content: \"\\F34E\"; }\r\n\r\n.ion-social-googleplus:before { content: \"\\F235\"; }\r\n\r\n.ion-social-googleplus-outline:before { content: \"\\F234\"; }\r\n\r\n.ion-social-hackernews:before { content: \"\\F237\"; }\r\n\r\n.ion-social-hackernews-outline:before { content: \"\\F236\"; }\r\n\r\n.ion-social-html5:before { content: \"\\F4E3\"; }\r\n\r\n.ion-social-html5-outline:before { content: \"\\F4E2\"; }\r\n\r\n.ion-social-instagram:before { content: \"\\F351\"; }\r\n\r\n.ion-social-instagram-outline:before { content: \"\\F350\"; }\r\n\r\n.ion-social-javascript:before { content: \"\\F4E5\"; }\r\n\r\n.ion-social-javascript-outline:before { content: \"\\F4E4\"; }\r\n\r\n.ion-social-linkedin:before { content: \"\\F239\"; }\r\n\r\n.ion-social-linkedin-outline:before { content: \"\\F238\"; }\r\n\r\n.ion-social-markdown:before { content: \"\\F4E6\"; }\r\n\r\n.ion-social-nodejs:before { content: \"\\F4E7\"; }\r\n\r\n.ion-social-octocat:before { content: \"\\F4E8\"; }\r\n\r\n.ion-social-pinterest:before { content: \"\\F2B1\"; }\r\n\r\n.ion-social-pinterest-outline:before { content: \"\\F2B0\"; }\r\n\r\n.ion-social-python:before { content: \"\\F4E9\"; }\r\n\r\n.ion-social-reddit:before { content: \"\\F23B\"; }\r\n\r\n.ion-social-reddit-outline:before { content: \"\\F23A\"; }\r\n\r\n.ion-social-rss:before { content: \"\\F23D\"; }\r\n\r\n.ion-social-rss-outline:before { content: \"\\F23C\"; }\r\n\r\n.ion-social-sass:before { content: \"\\F4EA\"; }\r\n\r\n.ion-social-skype:before { content: \"\\F23F\"; }\r\n\r\n.ion-social-skype-outline:before { content: \"\\F23E\"; }\r\n\r\n.ion-social-snapchat:before { content: \"\\F4EC\"; }\r\n\r\n.ion-social-snapchat-outline:before { content: \"\\F4EB\"; }\r\n\r\n.ion-social-tumblr:before { content: \"\\F241\"; }\r\n\r\n.ion-social-tumblr-outline:before { content: \"\\F240\"; }\r\n\r\n.ion-social-tux:before { content: \"\\F2C5\"; }\r\n\r\n.ion-social-twitch:before { content: \"\\F4EE\"; }\r\n\r\n.ion-social-twitch-outline:before { content: \"\\F4ED\"; }\r\n\r\n.ion-social-twitter:before { content: \"\\F243\"; }\r\n\r\n.ion-social-twitter-outline:before { content: \"\\F242\"; }\r\n\r\n.ion-social-usd:before { content: \"\\F353\"; }\r\n\r\n.ion-social-usd-outline:before { content: \"\\F352\"; }\r\n\r\n.ion-social-vimeo:before { content: \"\\F245\"; }\r\n\r\n.ion-social-vimeo-outline:before { content: \"\\F244\"; }\r\n\r\n.ion-social-whatsapp:before { content: \"\\F4F0\"; }\r\n\r\n.ion-social-whatsapp-outline:before { content: \"\\F4EF\"; }\r\n\r\n.ion-social-windows:before { content: \"\\F247\"; }\r\n\r\n.ion-social-windows-outline:before { content: \"\\F246\"; }\r\n\r\n.ion-social-wordpress:before { content: \"\\F249\"; }\r\n\r\n.ion-social-wordpress-outline:before { content: \"\\F248\"; }\r\n\r\n.ion-social-yahoo:before { content: \"\\F24B\"; }\r\n\r\n.ion-social-yahoo-outline:before { content: \"\\F24A\"; }\r\n\r\n.ion-social-yen:before { content: \"\\F4F2\"; }\r\n\r\n.ion-social-yen-outline:before { content: \"\\F4F1\"; }\r\n\r\n.ion-social-youtube:before { content: \"\\F24D\"; }\r\n\r\n.ion-social-youtube-outline:before { content: \"\\F24C\"; }\r\n\r\n.ion-soup-can:before { content: \"\\F4F4\"; }\r\n\r\n.ion-soup-can-outline:before { content: \"\\F4F3\"; }\r\n\r\n.ion-speakerphone:before { content: \"\\F2B2\"; }\r\n\r\n.ion-speedometer:before { content: \"\\F2B3\"; }\r\n\r\n.ion-spoon:before { content: \"\\F2B4\"; }\r\n\r\n.ion-star:before { content: \"\\F24E\"; }\r\n\r\n.ion-stats-bars:before { content: \"\\F2B5\"; }\r\n\r\n.ion-steam:before { content: \"\\F30B\"; }\r\n\r\n.ion-stop:before { content: \"\\F24F\"; }\r\n\r\n.ion-thermometer:before { content: \"\\F2B6\"; }\r\n\r\n.ion-thumbsdown:before { content: \"\\F250\"; }\r\n\r\n.ion-thumbsup:before { content: \"\\F251\"; }\r\n\r\n.ion-toggle:before { content: \"\\F355\"; }\r\n\r\n.ion-toggle-filled:before { content: \"\\F354\"; }\r\n\r\n.ion-transgender:before { content: \"\\F4F5\"; }\r\n\r\n.ion-trash-a:before { content: \"\\F252\"; }\r\n\r\n.ion-trash-b:before { content: \"\\F253\"; }\r\n\r\n.ion-trophy:before { content: \"\\F356\"; }\r\n\r\n.ion-tshirt:before { content: \"\\F4F7\"; }\r\n\r\n.ion-tshirt-outline:before { content: \"\\F4F6\"; }\r\n\r\n.ion-umbrella:before { content: \"\\F2B7\"; }\r\n\r\n.ion-university:before { content: \"\\F357\"; }\r\n\r\n.ion-unlocked:before { content: \"\\F254\"; }\r\n\r\n.ion-upload:before { content: \"\\F255\"; }\r\n\r\n.ion-usb:before { content: \"\\F2B8\"; }\r\n\r\n.ion-videocamera:before { content: \"\\F256\"; }\r\n\r\n.ion-volume-high:before { content: \"\\F257\"; }\r\n\r\n.ion-volume-low:before { content: \"\\F258\"; }\r\n\r\n.ion-volume-medium:before { content: \"\\F259\"; }\r\n\r\n.ion-volume-mute:before { content: \"\\F25A\"; }\r\n\r\n.ion-wand:before { content: \"\\F358\"; }\r\n\r\n.ion-waterdrop:before { content: \"\\F25B\"; }\r\n\r\n.ion-wifi:before { content: \"\\F25C\"; }\r\n\r\n.ion-wineglass:before { content: \"\\F2B9\"; }\r\n\r\n.ion-woman:before { content: \"\\F25D\"; }\r\n\r\n.ion-wrench:before { content: \"\\F2BA\"; }\r\n\r\n.ion-xbox:before { content: \"\\F30C\"; }\r\n", ""]);
 
 	// exports
 
 
 /***/ },
-/* 39 */
+/* 41 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "_/fonts/ionicons.eot";
 
 /***/ },
-/* 40 */
+/* 42 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "_/fonts/ionicons.ttf";
 
 /***/ },
-/* 41 */
+/* 43 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "_/fonts/ionicons.woff";
 
 /***/ },
-/* 42 */
+/* 44 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "_/fonts/ionicons.svg";
 
 /***/ },
-/* 43 */
+/* 45 */
 /***/ function(module, exports) {
 
 	/*!
@@ -42571,15 +42611,15 @@
 	this.activeTarget=b,this.clear();var c=this.selector+'[data-target="'+b+'"],'+this.selector+'[href="'+b+'"]',d=a(c).parents("li").addClass("active");d.parent(".dropdown-menu").length&&(d=d.closest("li.dropdown").addClass("active")),d.trigger("activate.bs.scrollspy")},b.prototype.clear=function(){a(this.selector).parentsUntil(this.options.target,".active").removeClass("active")};var d=a.fn.scrollspy;a.fn.scrollspy=c,a.fn.scrollspy.Constructor=b,a.fn.scrollspy.noConflict=function(){return a.fn.scrollspy=d,this},a(window).on("load.bs.scrollspy.data-api",function(){a('[data-spy="scroll"]').each(function(){var b=a(this);c.call(b,b.data())})})}(jQuery),+function(a){"use strict";function b(b){return this.each(function(){var d=a(this),e=d.data("bs.tab");e||d.data("bs.tab",e=new c(this)),"string"==typeof b&&e[b]()})}var c=function(b){this.element=a(b)};c.VERSION="3.3.7",c.TRANSITION_DURATION=150,c.prototype.show=function(){var b=this.element,c=b.closest("ul:not(.dropdown-menu)"),d=b.data("target");if(d||(d=b.attr("href"),d=d&&d.replace(/.*(?=#[^\s]*$)/,"")),!b.parent("li").hasClass("active")){var e=c.find(".active:last a"),f=a.Event("hide.bs.tab",{relatedTarget:b[0]}),g=a.Event("show.bs.tab",{relatedTarget:e[0]});if(e.trigger(f),b.trigger(g),!g.isDefaultPrevented()&&!f.isDefaultPrevented()){var h=a(d);this.activate(b.closest("li"),c),this.activate(h,h.parent(),function(){e.trigger({type:"hidden.bs.tab",relatedTarget:b[0]}),b.trigger({type:"shown.bs.tab",relatedTarget:e[0]})})}}},c.prototype.activate=function(b,d,e){function f(){g.removeClass("active").find("> .dropdown-menu > .active").removeClass("active").end().find('[data-toggle="tab"]').attr("aria-expanded",!1),b.addClass("active").find('[data-toggle="tab"]').attr("aria-expanded",!0),h?(b[0].offsetWidth,b.addClass("in")):b.removeClass("fade"),b.parent(".dropdown-menu").length&&b.closest("li.dropdown").addClass("active").end().find('[data-toggle="tab"]').attr("aria-expanded",!0),e&&e()}var g=d.find("> .active"),h=e&&a.support.transition&&(g.length&&g.hasClass("fade")||!!d.find("> .fade").length);g.length&&h?g.one("bsTransitionEnd",f).emulateTransitionEnd(c.TRANSITION_DURATION):f(),g.removeClass("in")};var d=a.fn.tab;a.fn.tab=b,a.fn.tab.Constructor=c,a.fn.tab.noConflict=function(){return a.fn.tab=d,this};var e=function(c){c.preventDefault(),b.call(a(this),"show")};a(document).on("click.bs.tab.data-api",'[data-toggle="tab"]',e).on("click.bs.tab.data-api",'[data-toggle="pill"]',e)}(jQuery),+function(a){"use strict";function b(b){return this.each(function(){var d=a(this),e=d.data("bs.affix"),f="object"==typeof b&&b;e||d.data("bs.affix",e=new c(this,f)),"string"==typeof b&&e[b]()})}var c=function(b,d){this.options=a.extend({},c.DEFAULTS,d),this.$target=a(this.options.target).on("scroll.bs.affix.data-api",a.proxy(this.checkPosition,this)).on("click.bs.affix.data-api",a.proxy(this.checkPositionWithEventLoop,this)),this.$element=a(b),this.affixed=null,this.unpin=null,this.pinnedOffset=null,this.checkPosition()};c.VERSION="3.3.7",c.RESET="affix affix-top affix-bottom",c.DEFAULTS={offset:0,target:window},c.prototype.getState=function(a,b,c,d){var e=this.$target.scrollTop(),f=this.$element.offset(),g=this.$target.height();if(null!=c&&"top"==this.affixed)return e<c&&"top";if("bottom"==this.affixed)return null!=c?!(e+this.unpin<=f.top)&&"bottom":!(e+g<=a-d)&&"bottom";var h=null==this.affixed,i=h?e:f.top,j=h?g:b;return null!=c&&e<=c?"top":null!=d&&i+j>=a-d&&"bottom"},c.prototype.getPinnedOffset=function(){if(this.pinnedOffset)return this.pinnedOffset;this.$element.removeClass(c.RESET).addClass("affix");var a=this.$target.scrollTop(),b=this.$element.offset();return this.pinnedOffset=b.top-a},c.prototype.checkPositionWithEventLoop=function(){setTimeout(a.proxy(this.checkPosition,this),1)},c.prototype.checkPosition=function(){if(this.$element.is(":visible")){var b=this.$element.height(),d=this.options.offset,e=d.top,f=d.bottom,g=Math.max(a(document).height(),a(document.body).height());"object"!=typeof d&&(f=e=d),"function"==typeof e&&(e=d.top(this.$element)),"function"==typeof f&&(f=d.bottom(this.$element));var h=this.getState(g,b,e,f);if(this.affixed!=h){null!=this.unpin&&this.$element.css("top","");var i="affix"+(h?"-"+h:""),j=a.Event(i+".bs.affix");if(this.$element.trigger(j),j.isDefaultPrevented())return;this.affixed=h,this.unpin="bottom"==h?this.getPinnedOffset():null,this.$element.removeClass(c.RESET).addClass(i).trigger(i.replace("affix","affixed")+".bs.affix")}"bottom"==h&&this.$element.offset({top:g-b-f})}};var d=a.fn.affix;a.fn.affix=b,a.fn.affix.Constructor=c,a.fn.affix.noConflict=function(){return a.fn.affix=d,this},a(window).on("load",function(){a('[data-spy="affix"]').each(function(){var c=a(this),d=c.data();d.offset=d.offset||{},null!=d.offsetBottom&&(d.offset.bottom=d.offsetBottom),null!=d.offsetTop&&(d.offset.top=d.offsetTop),b.call(c,d)})})}(jQuery);
 
 /***/ },
-/* 44 */
+/* 46 */
 /***/ function(module, exports, __webpack_require__) {
 
-	__webpack_require__(45);
+	__webpack_require__(47);
 	module.exports = 'ngSanitize';
 
 
 /***/ },
-/* 45 */
+/* 47 */
 /***/ function(module, exports) {
 
 	/**
@@ -43323,7 +43363,7 @@
 
 
 /***/ },
-/* 46 */
+/* 48 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*!
@@ -51618,1647 +51658,15 @@
 	//# sourceMappingURL=angular-ui-router.js.map
 
 /***/ },
-/* 47 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;(function(root, factory) {
-	  if (true) {
-	    // AMD. Register as an anonymous module.
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(2)], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-	  } else if (typeof exports === 'object') {
-	    // Node. Does not work with strict CommonJS, but
-	    // only CommonJS-like environments that support module.exports,
-	    // like Node.
-	    module.exports = factory(require('angular'));
-	  } else {
-	    // Browser globals (root is window)
-	    root.returnExports = factory(root.angular);
-	  }
-	}(this, function(angular) {
-	  /**
-	   * @ngdoc service
-	   * @name ngMeta.ngMeta
-	   * @description
-	   * # A metatags service for single-page applications
-	   * that supports setting arbitrary meta tags
-	   */
-	  angular.module('ngMeta', [])
-	    .provider('ngMeta', function() {
-
-	      'use strict';
-
-	      //Object for storing default tag/values
-	      var defaults = {};
-
-	      //One-time configuration
-	      var config = {
-	        useTitleSuffix: false
-	      };
-
-	      function Meta($rootScope) {
-
-	        /**
-	         * @ngdoc method
-	         * @name ngMeta#setTitle
-	         * @description
-	         * Sets the title of the page, optionally
-	         * appending a title suffix.
-	         *
-	         * If suffix usage is enabled and the title suffix
-	         * parameter is missing, the default title suffix
-	         * (if available) is used as a fallback.
-	         *
-	         * @example
-	         * //title and titleSuffix
-	         * ngMeta.setTitle('Page name', ' - Site name | Tagline of the site');
-	         *
-	         * //title only (default titleSuffix may be suffixed,
-	         * //depending on useTitleSuffix configuration)
-	         * ngMeta.setTitle('Page name');
-	         *
-	         * @returns {Object} self
-	         */
-	        var setTitle = function(title, titleSuffix) {
-	          if (!$rootScope.ngMeta) {
-	            throw new Error('Cannot call setTitle when ngMeta is undefined. Did you forget to call ngMeta.init() in the run block? \nRefer: https://github.com/vinaygopinath/ngMeta#getting-started');
-	          }
-
-	          $rootScope.ngMeta.title = angular.isDefined(title) ? title : (defaults.title || '');
-	          if (config.useTitleSuffix) {
-	            $rootScope.ngMeta.title += angular.isDefined(titleSuffix) ? titleSuffix : (defaults.titleSuffix || '');
-	          }
-	          return this;
-	        };
-
-	        /**
-	         * @ngdoc method
-	         * @name ngMeta#setTag
-	         * @description
-	         * Sets the value of a meta tag, using
-	         * the default value (if available) as
-	         * a fallback.
-	         *
-	         * @example
-	         * ngMeta.setTag('og:image', 'http://example.com/a.png');
-	         *
-	         * @returns {Object} self
-	         */
-	        var setTag = function(tag, value) {
-	          if (!$rootScope.ngMeta) {
-	            throw new Error('Cannot call setTag when ngMeta is undefined. Did you forget to call ngMeta.init() in the run block? \nRefer: https://github.com/vinaygopinath/ngMeta#getting-started');
-	          }
-	          if (tag === 'title' || tag === 'titleSuffix') {
-	            throw new Error('Attempt to set \'' + tag + '\' through \'setTag\': \'title\' and \'titleSuffix\' are reserved tag names. Please use \'ngMeta.setTitle\' instead');
-	          }
-
-	          $rootScope.ngMeta[tag] = angular.isDefined(value) ? value : defaults[tag];
-	          return this;
-	        };
-
-	        /**
-	         * @ngdoc method
-	         * @name ngMeta#setDefaultTag
-	         * @description
-	         * Sets the default tag for all routes that are missing a custom
-	         * `tag` property in their meta objects.
-	         *
-	         * @example
-	         * ngMeta.setDefaultTag('titleSuffix', ' | Tagline of the site');
-	         *
-	         * @returns {Object} self
-	         */
-	        var setDefaultTag = function(tag, value) {
-	          if (!$rootScope.ngMeta) {
-	            throw new Error('Cannot call setDefaultTag when ngMeta is undefined. Did you forget to call ngMeta.init() in the run block? \nRefer: https://github.com/vinaygopinath/ngMeta#getting-started');
-	          }
-
-	          defaults[tag] = value;
-
-	          if (tag === 'title' || tag === 'titleSuffix') {
-	            this.setTitle($rootScope.ngMeta.title, $rootScope.ngMeta.titleSuffix);
-	          } else {
-	            this.setTag(tag, $rootScope.ngMeta[tag]);
-	          }
-
-	          return this;
-	        };
-
-	        /**
-	         * @ngdoc method
-	         * @name readRouteMeta
-	         * @description
-	         * Helper function to process meta tags on route/state
-	         * change.
-	         *
-	         * It:
-	         * 1. Sets the title (with titleSuffix, as appropriate)
-	         * 2. Iterates through all the state/route tags (other than title)
-	         *    and sets their values
-	         * 3. Iterates through all default tags and sets the ones
-	         *    that were not utilized while setting the state/route tags.
-	         *
-	         * @returns {Object} self
-	         */
-	        var readRouteMeta = function(meta) {
-	          meta = meta || {};
-
-	          if (meta.disableUpdate) {
-	            return false;
-	          }
-
-	          setTitle(meta.title, meta.titleSuffix);
-
-	          var def = angular.copy(defaults);
-
-	          delete meta.title;
-	          delete meta.titleSuffix;
-	          delete def.title;
-	          delete def.titleSuffix;
-
-	          var metaKeys = Object.keys(meta);
-	          for (var i = 0; i < metaKeys.length; i++) {
-	            if (def.hasOwnProperty(metaKeys[i])) {
-	              delete def[metaKeys[i]];
-	            }
-	            setTag(metaKeys[i], meta[metaKeys[i]]);
-	          }
-
-	          var defaultKeys = Object.keys(def);
-	          for (var j = 0; j < defaultKeys.length; j++) {
-	            setTag(defaultKeys[j], def[defaultKeys[j]]);
-	          }
-	        };
-
-	        var update = function(event, current) {
-	          readRouteMeta(angular.copy(current.meta || (current.data && current.data.meta)));
-	        };
-
-
-	        /**
-	         * @ngdoc method
-	         * @name ngMeta#init
-	         * @description
-	         * Initializes the ngMeta object and sets up
-	         * listeners for route/state change broadcasts
-	         *
-	         * @example
-	         * angular.module('yourApp', ['ngRoute', 'ngMeta'])
-	         * .config(function($routeProvider, ngMetaProvider) {
-	         *   ....
-	         * })
-	         * .run(function(ngMeta) {
-	         *   ngMeta.init();
-	         * });
-	         */
-	        var init = function() {
-	          $rootScope.ngMeta = {};
-	          $rootScope.$on('$routeChangeSuccess', update);
-	          $rootScope.$on('$stateChangeSuccess', update);
-	        };
-
-	        return {
-	          'init': init,
-	          'setTitle': setTitle,
-	          'setTag': setTag,
-	          'setDefaultTag': setDefaultTag
-	        };
-	      }
-
-	      /* Set defaults */
-
-	      /**
-	       * @ngdoc method
-	       * @name ngMetaProvider#setDefaultTitle
-	       * @param {string} titleStr The default title of the page. If a
-	       * route/state does not define a `title` param in its meta object, this
-	       * value is used instead.
-	       *
-	       * @description
-	       * Sets the default title for all routes that are missing a custom `title`
-	       * property in their meta objects.
-	       *
-	       * @returns {Object} self
-	       */
-	      this.setDefaultTitle = function(titleStr) {
-	        defaults.title = titleStr;
-	        return this;
-	      };
-
-	      /**
-	       * @ngdoc method
-	       * @name ngMetaProvider#setDefaultTitleSuffix
-	       * @param {string} titleSuffix The default title suffix of the page. If a
-	       * route/state does not define a `titleSuffix` param in its meta object,
-	       * this value is used instead.
-	       *
-	       * @description
-	       * Sets the default title suffix for all routes that are missing a custom
-	       * `titleSuffix` property in their meta objects.
-	       *
-	       * @returns {Object} self
-	       */
-	      this.setDefaultTitleSuffix = function(titleSuffix) {
-	        defaults.titleSuffix = titleSuffix;
-	        return this;
-	      };
-
-	      /**
-	       * @ngdoc method
-	       * @name ngMetaProvider#setDefaultTag
-	       * @param {string} tag The default tag name. The default tag can be
-	       * overridden by defining a custom property of the same name in the meta
-	       * object of any route.
-	       *
-	       * @param {string} value The value of the tag.
-	       *
-	       * @description
-	       * Sets the default tag for all routes that are missing a custom
-	       * `tag` property in their meta objects.
-	       *
-	       * @returns {Object} self
-	       */
-	      this.setDefaultTag = function(tag, value) {
-	        defaults[tag] = value;
-	        return this;
-	      };
-
-	      /* One-time config */
-
-	      /**
-	       * @ngdoc method
-	       * @name ngMetaProvider#useTitleSuffix
-	       * @param {boolean} bool A boolean indicating the use of title suffix.
-	       * Defaults to false.
-	       *
-	       * @description
-	       * Toggles the use of the title suffix throughout the site.
-	       *
-	       * @returns {Object} self
-	       */
-	      this.useTitleSuffix = function(bool) {
-	        config.useTitleSuffix = !!bool;
-	        return this;
-	      };
-
-	      /**
-	       * @ngdoc method
-	       * @name ngMetaProvider#mergeNestedStateData
-	       * @param {string} mergeNestedStateData [Optional] method to deep merge
-	       * meta data for nested views.
-	       *
-	       * @description
-	       * Helper function to Extend $stateProvider.decorator('state') to merge nested
-	       * view meta data if using ui-router.
-	       *
-	       * @returns {Object} data
-	       */
-	      this.mergeNestedStateData = function(state, parentDecoratorFn) {
-	      // original data
-	        var originalData = parentDecoratorFn(state) || {};
-
-	        // create new merged meta
-	        var parentMetaData = state.parent && state.parent.data && state.parent.data.meta;
-
-	        //Assign the merged meta if necessary to current state and return
-	        if (originalData.meta || parentMetaData) {
-	          var mergedMeta = angular.merge({}, parentMetaData, originalData.meta);
-	          originalData.meta = mergedMeta;
-	        }
-	        state.self.data = originalData;
-	        return originalData;
-	      };
-
-
-	      this.$get = ["$rootScope", function($rootScope) {
-	        return new Meta($rootScope);
-	      }];
-	    });
-	}));
-
-
-/***/ },
-/* 48 */
-/***/ function(module, exports, __webpack_require__) {
-
-	// style-loader: Adds some css to the DOM by adding a <style> tag
-
-	// load the styles
-	var content = __webpack_require__(49);
-	if(typeof content === 'string') content = [[module.id, content, '']];
-	// add the styles to the DOM
-	var update = __webpack_require__(29)(content, {});
-	if(content.locals) module.exports = content.locals;
-	// Hot Module Replacement
-	if(false) {
-		// When the styles change, update the <style> tags
-		if(!content.locals) {
-			module.hot.accept("!!../../node_modules/css-loader/index.js!./globals.css", function() {
-				var newContent = require("!!../../node_modules/css-loader/index.js!./globals.css");
-				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-				update(newContent);
-			});
-		}
-		// When the module is disposed, remove the <style> tags
-		module.hot.dispose(function() { update(); });
-	}
-
-/***/ },
 /* 49 */
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(6)();
-	// imports
-
-
-	// module
-	exports.push([module.id, "body {\r\n    background-image: url(" + __webpack_require__(50) + ");\r\n}\r\n\r\n.main-container {\r\n    padding: 0px;\r\n}\r\n\r\n.shadow-container {\r\n    box-shadow: 0px -25px 40px 0px rgba(0, 0, 0, 0.12);\r\n    padding-top: 5%;\r\n}\r\n\r\n.scroller {\r\n    white-space: pre-line;\r\n    overflow-y: hidden;\r\n    position: relative;\r\n}\r\n\r\n.enquiry-container {\r\n    position: fixed;\r\n    top: 24vh;\r\n    z-index: 9000;\r\n    right: -320px;\r\n    transition: all .51s ease-in-out;\r\n}\r\n\r\n.enquiry-label {\r\n    width: 40px;\r\n    height: 140px;\r\n    float: left;\r\n    overflow: hidden;\r\n    background-color: #2c3e50;\r\n    color: white;\r\n    border-radius: 15px 0px 0px 15px;\r\n    box-shadow: 0px -5px 6px rgba(16, 30, 43, 0.15);\r\n    border: 1px solid #799abb;\r\n    cursor: pointer;\r\n    transition: all .51s ease;\r\n}\r\n\r\n.enquiry-open {\r\n    right: 0px;\r\n}\r\n\r\n.enquiry-close {\r\n    right: -320px;\r\n}\r\n\r\n.enquiry-label:hover {\r\n    background-color: #2c3e50;\r\n}\r\n\r\n.enquiry-label p {\r\n    width: 140px;\r\n    position: absolute;\r\n    left: -49px;\r\n    top: 45px;\r\n    transform: rotate(-90deg);\r\n    font-family: Raleway;\r\n    letter-spacing: 2px;\r\n    text-transform: uppercase;\r\n    font-size: large;\r\n}\r\n\r\n.enquiry-form-container {\r\n    width: 320px;\r\n    min-height: 420px;\r\n    padding-top: 15px;\r\n    float: left;\r\n    background-color: white;\r\n    border-radius: 0px 0px 0px 5px;\r\n    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);\r\n}\r\n\r\n.form-hide {\r\n    position: absolute;\r\n    width: 89%;\r\n    height: 100%;\r\n    z-index: 1;\r\n    background-color: rgba(245, 245, 245, 0.82);\r\n    top: 0;\r\n    right: 0;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n    animation: zoomIn .25s ease;\r\n}\r\n.popular-courses{\r\n    list-style: none;\r\n    padding: 0px;\r\n}\r\n.popular-courses a{\r\n    color: #2c3e50;\r\n    font-size: large;\r\n}\r\n\r\n.remove-padding{\r\n    padding: 0px;\r\n}\r\n.courses img{\r\n    width: 100%;\r\n}", ""]);
-
-	// exports
-
-
-/***/ },
-/* 50 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = __webpack_require__.p + "_/images/body-bg.png";
-
-/***/ },
-/* 51 */
-/***/ function(module, exports, __webpack_require__) {
-
-	// style-loader: Adds some css to the DOM by adding a <style> tag
-
-	// load the styles
-	var content = __webpack_require__(52);
-	if(typeof content === 'string') content = [[module.id, content, '']];
-	// add the styles to the DOM
-	var update = __webpack_require__(29)(content, {});
-	if(content.locals) module.exports = content.locals;
-	// Hot Module Replacement
-	if(false) {
-		// When the styles change, update the <style> tags
-		if(!content.locals) {
-			module.hot.accept("!!../../node_modules/css-loader/index.js!./nav.css", function() {
-				var newContent = require("!!../../node_modules/css-loader/index.js!./nav.css");
-				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-				update(newContent);
-			});
-		}
-		// When the module is disposed, remove the <style> tags
-		module.hot.dispose(function() { update(); });
-	}
-
-/***/ },
-/* 52 */
-/***/ function(module, exports, __webpack_require__) {
-
-	exports = module.exports = __webpack_require__(6)();
-	// imports
-
-
-	// module
-	exports.push([module.id, "a{\r\n    cursor: pointer;\r\n}\r\n.inital-nav {\r\n    padding: .5% 0% .5% 0%;\r\n    background-color: rgba(0, 0, 0, 0.01);\r\n    border-bottom: 1px solid #4ec8d4;\r\n}\r\n\r\n.navbar {\r\n    -webkit-transition: all .25s ease-in-out;\r\n    transition: all .25s ease-in-out;\r\n    z-index: 9003;\r\n}\r\n\r\n.dropdown:hover>.dropdown-menu {\r\n    visibility: visible;\r\n    margin-top: 0;\r\n    opacity: 1;\r\n    -webkit-transform: translate3d(0px, 0px, 0px);\r\n    transform: translate3d(0px, 0px, 0px);\r\n}\r\n\r\n.dropdown >.dropdown-intial {\r\n    display: block;\r\n    visibility: hidden;\r\n    opacity: 0;\r\n    background-color: #36cde8;\r\n    border-radius: 0px;\r\n    box-shadow: 0px 7px 74.52px 6.48px rgba(48, 48, 48, 0.28);\r\n    padding: 0px;\r\n    -webkit-transform: translate3d(0px, 10px, 0px);\r\n    transform: translate3d(0px, 10px, 0px);\r\n    -webkit-transition: all .3s ease-in-out;\r\n    transition: all .3s ease-in-out;\r\n}\r\n\r\n.dropdown-intial li {\r\n    border-top: 1px solid #63def4;\r\n}\r\n\r\n.dropdown-intial li a {\r\n    color: white;\r\n}\r\n\r\n.dropdown-submenu {\r\n    position: relative;\r\n}\r\n\r\n.dropdown-submenu>.dropdown-intial {\r\n    visibility: hidden;\r\n    display: block;\r\n    visibility: hidden;\r\n    opacity: 0;\r\n    background-color: #36cde8;\r\n    border-radius: 0px;\r\n    box-shadow: 0px 7px 74.52px 6.48px rgba(48, 48, 48, 0.28);\r\n    padding: 0px;\r\n    -webkit-transform: translate3d(0px, 15px, 0px);\r\n    transform: translate3d(0px, 15px, 0px);\r\n    -webkit-transition: all .3s ease-in-out;\r\n    transition: all .3s ease-in-out;\r\n    top: 0;\r\n    left: 100%;\r\n    margin-top: -6px;\r\n    margin-left: -1px;\r\n}\r\n\r\n.dropdown-submenu:hover>.dropdown-intial {\r\n    visibility: visible;\r\n    opacity: 1;\r\n    -webkit-transform: translate3d(0px, 3px, 0px);\r\n    transform: translate3d(0px, 3px, 0px);\r\n}\r\n\r\n.dropdown-submenu>a:after {\r\n    display: block;\r\n    content: \" \";\r\n    float: right;\r\n    width: 0;\r\n    height: 0;\r\n    border-color: transparent;\r\n    border-style: solid;\r\n    border-width: 5px 0 5px 5px;\r\n    border-left-color: #ccc;\r\n    margin-top: 5px;\r\n    margin-right: -10px;\r\n}\r\n\r\n.dropdown-submenu:hover>a:after {\r\n    border-left-color: #fff;\r\n}\r\n\r\n.dropdown-submenu.pull-left {\r\n    float: none;\r\n}\r\n\r\n.dropdown-submenu.pull-left>.dropdown-menu {\r\n    left: -100%;\r\n    margin-left: 10px;\r\n}\r\n\r\n.btn-square {\r\n    border-radius: 2px;\r\n    border: 2px solid white;\r\n    color: white;\r\n    font-size: large;\r\n    font-family: 'Raleway', sans-serif;\r\n    background-color: transparent;\r\n    -webkit-transition: all .25s ease-in-out;\r\n    transition: all .25s ease-in-out;\r\n}\r\n\r\n.btn-square:hover {\r\n    background-color: rgba(255, 255, 255, 0.7);\r\n    color: #333;\r\n}\r\n\r\n.btn-square-inverse {\r\n    border-radius: 2px;\r\n    border: 2px solid white;\r\n    font-family: 'Raleway', sans-serif;\r\n    font-size: large;\r\n    background-color: rgba(255, 255, 255, 0.9);\r\n    color: #333;\r\n    -webkit-transition: all .25s ease-in-out;\r\n    transition: all .25s ease-in-out;\r\n}\r\n\r\n.btn-square-inverse:hover {\r\n    background-color: transparent;\r\n    color: white;\r\n}\r\n.cards{\r\n    width: 100%;\r\n    margin: auto;\r\n    padding: 0px;\r\n}\r\n.card{\r\n    padding: 0px;\r\n    width: 100%;\r\n    height: 100%;\r\n    background-color: #fff;\r\n    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);\r\n}\r\n.card:hover {\r\n    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);\r\n}\r\n.card-image{\r\n    padding: 0px;\r\n}\r\n.card-divider{\r\n    margin: 0px;\r\n}\r\n.card-btn{\r\n    padding: 5% 1%;\r\n}\r\n.about-bg{\r\n    width:100%;\r\n    margin: auto;\r\n    min-height: 500px;\r\n    padding: 0px;\r\n    background-color: #263944;\r\n}\r\n.about h2, .about p{\r\n    color: white;\r\n    font-family: 'Raleway', sans-serif;\r\n}\r\n.c-confes{\r\n    width:100%;\r\n    margin: auto;\r\n    height: 300px;\r\n    padding: 0px;\r\n}\r\n.c-confes{\r\n    background-image: url(" + __webpack_require__(53) + ");\r\n    background-size: 100% 100%;\r\n}\r\n.c-confes-img img{\r\n    border-radius: 50%;\r\n    margin-bottom: 20px;\r\n    width: 77px;\r\n    max-width: 100%;\r\n    height: auto;\r\n    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);\r\n}\r\n.c-confes-txt {\r\n    font-family: 'Raleway', sans-serif;\r\n    font-style: italic;\r\n}\r\n.c-confes-name {\r\n    display: block;\r\n    text-align: center;\r\n    padding-bottom: 4px;\r\n    font-size: 18px;\r\n}\r\nfooter{\r\n    background-color: #36cde8;\r\n}\r\nul.social-network {\r\n    list-style: none;\r\n    display: inline;\r\n    margin-left:0 !important;\r\n    padding: 0;\r\n}\r\nul.social-network li {\r\n    display: inline;\r\n    margin: 0 5px;\r\n}\r\n", ""]);
-
-	// exports
-
-
-/***/ },
-/* 53 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = __webpack_require__.p + "_/images/c-confes-bg.jpg";
-
-/***/ },
-/* 54 */
-/***/ function(module, exports, __webpack_require__) {
-
-	// style-loader: Adds some css to the DOM by adding a <style> tag
-
-	// load the styles
-	var content = __webpack_require__(55);
-	if(typeof content === 'string') content = [[module.id, content, '']];
-	// add the styles to the DOM
-	var update = __webpack_require__(29)(content, {});
-	if(content.locals) module.exports = content.locals;
-	// Hot Module Replacement
-	if(false) {
-		// When the styles change, update the <style> tags
-		if(!content.locals) {
-			module.hot.accept("!!../../node_modules/css-loader/index.js!./footer.css", function() {
-				var newContent = require("!!../../node_modules/css-loader/index.js!./footer.css");
-				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-				update(newContent);
-			});
-		}
-		// When the module is disposed, remove the <style> tags
-		module.hot.dispose(function() { update(); });
-	}
-
-/***/ },
-/* 55 */
-/***/ function(module, exports, __webpack_require__) {
-
-	exports = module.exports = __webpack_require__(6)();
-	// imports
-
-
-	// module
-	exports.push([module.id, "footer{\r\n    background-color: #36cde8;\r\n}\r\nul.social-network {\r\n    list-style: none;\r\n    display: inline;\r\n    margin-left:0 !important;\r\n    padding: 0;\r\n}\r\nul.social-network li {\r\n    display: inline;\r\n    margin: 0 5px;\r\n}\r\n.footer-band{\r\n    padding: 0px;\r\n    color: #fff;\r\n    background-color: #2c3e50;\r\n}\r\n\r\n/* footer social icons */\r\n.social-network a.icoRss:hover {\r\n    background-color: #F56505;\r\n}\r\n.social-network a.icoFacebook:hover {\r\n    background-color:#3B5998;\r\n}\r\n.social-network a.icoTwitter:hover {\r\n    background-color:#33ccff;\r\n}\r\n.social-network a.icoGoogle:hover {\r\n    background-color:#BD3518;\r\n}\r\n.social-network a.icoVimeo:hover {\r\n    background-color:#0590B8;\r\n}\r\n.social-network a.icoLinkedin:hover {\r\n    background-color:#007bb7;\r\n}\r\n.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,\r\n.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {\r\n    color:#fff;\r\n}\r\na.socialIcon:hover, .socialHoverClass {\r\n    color:#44BCDD;\r\n}\r\n\r\n.social-circle li a {\r\n    display:inline-block;\r\n    position:relative;\r\n    margin:0 auto 0 auto;\r\n    border-radius:50%;\r\n    text-align:center;\r\n    width: 50px;\r\n    height: 50px;\r\n    font-size:20px;\r\n}\r\n.social-circle li i {\r\n    margin:0;\r\n    line-height:50px;\r\n    text-align: center;\r\n}\r\n\r\n.social-circle li a:hover i, .triggeredHover {\r\n    -moz-transform: rotate(360deg);\r\n    -webkit-transform: rotate(360deg);\r\n    -ms--transform: rotate(360deg);\r\n    -webkit-transform: rotate(360deg);\r\n    transform: rotate(360deg);\r\n    -webkit-transition: all 0.2s;\r\n    transition: all 0.2s;\r\n}\r\n.social-circle i {\r\n    color: #263944;\r\n    -webkit-transition: all 0.8s;\r\n    transition: all 0.8s;\r\n}\r\n.footer-company{\r\n    list-style: none;\r\n    text-align: left;\r\n    margin: 0px;\r\n    padding: 0px;\r\n}\r\n.footer-company a {\r\n    font-family: 'Raleway', sans-serif;\r\n    font-weight: 500;\r\n    color: #2c3e50;;\r\n    text-decoration: none;\r\n    -webkit-transition: all .25s ease-in-out;\r\n    transition: all .25s ease-in-out;\r\n}\r\n.footer-company a:hover {\r\n    color: #263944;\r\n}\r\n", ""]);
-
-	// exports
-
-
-/***/ },
-/* 56 */
-/***/ function(module, exports, __webpack_require__) {
-
-	// style-loader: Adds some css to the DOM by adding a <style> tag
-
-	// load the styles
-	var content = __webpack_require__(57);
-	if(typeof content === 'string') content = [[module.id, content, '']];
-	// add the styles to the DOM
-	var update = __webpack_require__(29)(content, {});
-	if(content.locals) module.exports = content.locals;
-	// Hot Module Replacement
-	if(false) {
-		// When the styles change, update the <style> tags
-		if(!content.locals) {
-			module.hot.accept("!!../../node_modules/css-loader/index.js!./banner.css", function() {
-				var newContent = require("!!../../node_modules/css-loader/index.js!./banner.css");
-				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-				update(newContent);
-			});
-		}
-		// When the module is disposed, remove the <style> tags
-		module.hot.dispose(function() { update(); });
-	}
-
-/***/ },
-/* 57 */
-/***/ function(module, exports, __webpack_require__) {
-
-	exports = module.exports = __webpack_require__(6)();
-	// imports
-
-
-	// module
-	exports.push([module.id, ".jumbotron_banner {\r\n    width: 100% !important;\r\n    height: 700px !important;\r\n    background-image: url(" + __webpack_require__(58) + ") !important;\r\n    background-size: cover !important;\r\n    background-position: center top;\r\n    color: white !important;\r\n    font-family: 'Raleway', sans-serif !important;\r\n    margin-bottom: 0px !important;\r\n    border-radius: 0px !important;\r\n}\r\n\r\n.jumbotron_banner_h1 {\r\n    font-family: 'Raleway', sans-serif;\r\n}", ""]);
-
-	// exports
-
-
-/***/ },
-/* 58 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = __webpack_require__.p + "_/images/header_image.png";
-
-/***/ },
-/* 59 */
-/***/ function(module, exports, __webpack_require__) {
-
-	// style-loader: Adds some css to the DOM by adding a <style> tag
-
-	// load the styles
-	var content = __webpack_require__(60);
-	if(typeof content === 'string') content = [[module.id, content, '']];
-	// add the styles to the DOM
-	var update = __webpack_require__(29)(content, {});
-	if(content.locals) module.exports = content.locals;
-	// Hot Module Replacement
-	if(false) {
-		// When the styles change, update the <style> tags
-		if(!content.locals) {
-			module.hot.accept("!!../../node_modules/css-loader/index.js!./events.css", function() {
-				var newContent = require("!!../../node_modules/css-loader/index.js!./events.css");
-				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-				update(newContent);
-			});
-		}
-		// When the module is disposed, remove the <style> tags
-		module.hot.dispose(function() { update(); });
-	}
-
-/***/ },
-/* 60 */
-/***/ function(module, exports, __webpack_require__) {
-
-	exports = module.exports = __webpack_require__(6)();
-	// imports
-
-
-	// module
-	exports.push([module.id, ".events {\r\n    box-shadow: 3px 2px 7px rgba(0, 0, 0, 0.2);\r\n    padding: 0px;\r\n}\r\n\r\n.event-date {\r\n    border-radius: 4px;\r\n    width: 100%;\r\n    background-color: #bddad4;\r\n    box-shadow: 0px 0px 8px rgba(44, 62, 80, 0.50);\r\n}\r\n\r\n.panel-events {\r\n    width: 100%;\r\n    height: 335px;\r\n}\r\n\r\n.scrollbar-element {\r\n    position: relative;\r\n    flex: auto 1 1;\r\n}\r\n\r\n.list-container {\r\n    position: relative;\r\n    padding: 8px;\r\n    border: 1px solid #ccc;\r\n    background-color: #fff;\r\n}\r\n\r\n.event-card {\r\n    background-color: #ecf0f1;\r\n    padding: 5px;\r\n    cursor: pointer;\r\n    border: 2px solid #dce4ec;\r\n    border-radius: 4px;\r\n    box-shadow: 0px 0px 15px rgb(218, 233, 236) inset;\r\n}\r\n\r\n#myCarousel {\r\n    width: 93%;\r\n    margin: auto;\r\n    margin-top: 3%;\r\n    border: 5px solid #2e3f52;\r\n    overflow: hidden;\r\n    height: 600px;\r\n    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);\r\n}\r\n\r\n#myCarousel .item {\r\n    height: 600px;\r\n    overflow: hidden;\r\n}\r\n#myCarousel img{\r\n    min-width: 100%;\r\n    max-width: none;\r\n    height: 100%;\r\n}\r\n.event-details {\r\n    width: 100%;\r\n    left: 0;\r\n    bottom: 0;\r\n    position: absolute;\r\n    height: 150px;\r\n    color: #202d36;\r\n    overflow: hidden;\r\n    box-shadow: 0px -10px 25px rgba(0, 0, 0, 0.45);\r\n    background-color: rgba(255, 255, 255, 0.7);\r\n    font-family: Raleway Light;\r\n    font-size: x-large;\r\n    padding-top: 15px;\r\n}\r\n.blur-img{\r\n    margin-top:10px;\r\n    clip: rect(440px,1366px,600px,0px);\r\n    position: absolute;\r\n    top: 0;\r\n    min-width: 100%;\r\n    filter: blur(15px);\r\n}\r\n\r\n.img-caption{\r\n    position: absolute;\r\n    top: 200px;\r\n    max-width: 100% !important;\r\n    min-width: auto !important;\r\n    height: auto !important;\r\n}", ""]);
-
-	// exports
-
-
-/***/ },
-/* 61 */
-/***/ function(module, exports, __webpack_require__) {
-
-	// style-loader: Adds some css to the DOM by adding a <style> tag
-
-	// load the styles
-	var content = __webpack_require__(62);
-	if(typeof content === 'string') content = [[module.id, content, '']];
-	// add the styles to the DOM
-	var update = __webpack_require__(29)(content, {});
-	if(content.locals) module.exports = content.locals;
-	// Hot Module Replacement
-	if(false) {
-		// When the styles change, update the <style> tags
-		if(!content.locals) {
-			module.hot.accept("!!../../node_modules/css-loader/index.js!./courses.css", function() {
-				var newContent = require("!!../../node_modules/css-loader/index.js!./courses.css");
-				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-				update(newContent);
-			});
-		}
-		// When the module is disposed, remove the <style> tags
-		module.hot.dispose(function() { update(); });
-	}
-
-/***/ },
-/* 62 */
-/***/ function(module, exports, __webpack_require__) {
-
-	exports = module.exports = __webpack_require__(6)();
-	// imports
-
-
-	// module
-	exports.push([module.id, ".cards{\r\n    width: 100%;\r\n    margin: auto;\r\n    padding: 0px;\r\n    background-repeat: repeat;\r\n}\r\n.card{\r\n    padding: 0px;\r\n    width: 100%;\r\n    height: 100%;\r\n    min-height: 360px;\r\n    max-height: 360px;\r\n    margin-top:15px;\r\n    background-color: #fff;\r\n    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);\r\n}\r\n.card:hover {\r\n    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);\r\n}\r\n.card-image{\r\n    padding: 0px;\r\n}\r\n.card-divider{\r\n    margin: 0px;\r\n}\r\n.card-btn{\r\n    padding: 5% 1%;\r\n}\r\n.card p {\r\n    height: 84px;\r\n}\r\n", ""]);
-
-	// exports
-
-
-/***/ },
-/* 63 */
-/***/ function(module, exports, __webpack_require__) {
-
-	// style-loader: Adds some css to the DOM by adding a <style> tag
-
-	// load the styles
-	var content = __webpack_require__(64);
-	if(typeof content === 'string') content = [[module.id, content, '']];
-	// add the styles to the DOM
-	var update = __webpack_require__(29)(content, {});
-	if(content.locals) module.exports = content.locals;
-	// Hot Module Replacement
-	if(false) {
-		// When the styles change, update the <style> tags
-		if(!content.locals) {
-			module.hot.accept("!!../../node_modules/css-loader/index.js!./testimonies.css", function() {
-				var newContent = require("!!../../node_modules/css-loader/index.js!./testimonies.css");
-				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-				update(newContent);
-			});
-		}
-		// When the module is disposed, remove the <style> tags
-		module.hot.dispose(function() { update(); });
-	}
-
-/***/ },
-/* 64 */
-/***/ function(module, exports, __webpack_require__) {
-
-	exports = module.exports = __webpack_require__(6)();
-	// imports
-
-
-	// module
-	exports.push([module.id, ".c-confes {\r\n    width: 100%;\r\n    margin: auto;\r\n    height: 220px;\r\n    padding: 0px;\r\n    box-shadow: 1px 1px 15px rgba(44, 62, 80, 0.39) inset;\r\n}\r\n\r\n.c-confes {\r\n    background-image: url(" + __webpack_require__(53) + ");\r\n    background-size: 100% 100%;\r\n}\r\n\r\n.c-confes-img img {\r\n    border-radius: 50%;\r\n    margin-bottom: 20px;\r\n    width: 77px;\r\n    max-width: 100%;\r\n    height: auto;\r\n    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);\r\n}\r\n\r\n.c-confes-txt {\r\n    font-family: 'Raleway', sans-serif;\r\n    font-style: italic;\r\n}\r\n\r\n.c-confes-name {\r\n    display: block;\r\n    text-align: center;\r\n    padding-bottom: 4px;\r\n    font-size: 18px;\r\n}", ""]);
-
-	// exports
-
-
-/***/ },
-/* 65 */
-/***/ function(module, exports, __webpack_require__) {
-
-	// style-loader: Adds some css to the DOM by adding a <style> tag
-
-	// load the styles
-	var content = __webpack_require__(66);
-	if(typeof content === 'string') content = [[module.id, content, '']];
-	// add the styles to the DOM
-	var update = __webpack_require__(29)(content, {});
-	if(content.locals) module.exports = content.locals;
-	// Hot Module Replacement
-	if(false) {
-		// When the styles change, update the <style> tags
-		if(!content.locals) {
-			module.hot.accept("!!../../node_modules/css-loader/index.js!./about.css", function() {
-				var newContent = require("!!../../node_modules/css-loader/index.js!./about.css");
-				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-				update(newContent);
-			});
-		}
-		// When the module is disposed, remove the <style> tags
-		module.hot.dispose(function() { update(); });
-	}
-
-/***/ },
-/* 66 */
-/***/ function(module, exports, __webpack_require__) {
-
-	exports = module.exports = __webpack_require__(6)();
-	// imports
-
-
-	// module
-	exports.push([module.id, ".jumbotron {\r\n    width: 100%;\r\n    height: 370px;\r\n    background-image: url(" + __webpack_require__(58) + ");\r\n    background-size: 100% auto;\r\n    color: white;\r\n    font-family: 'Raleway', sans-serif;\r\n    border-radius: 0px;\r\n    margin-bottom: 0px;\r\n}\r\n.about_h2{\r\n    font-size: 25px;\r\n    line-height: 48px;\r\n    font-weight: 600;\r\n}\r\n.about_p{\r\n    font-size: 18px;\r\n    line-height: 28px;\r\n    color: #4d4d4d;\r\n    letter-spacing: 0px;\r\n    font-family: Raleway, \"Helvetica Neue\", Helvetica, Arial, sans-serif;\r\n}\r\n.caption{\r\n    color: white;\r\n}\r\n.jumbotron .about_h1 {\r\n    font-family: 'Raleway', sans-serif;\r\n}\r\n.about_page{\r\n    background-color: white;\r\n    padding: 0px;\r\n    box-shadow: 0px -25px 40px 0px rgba(0, 0, 0, 0.12);\r\n}\r\n.about-us{\r\n    background-image: url(" + __webpack_require__(67) + ");\r\n    background-position: right;\r\n    background-size: auto auto;\r\n    background-repeat: no-repeat;\r\n}\r\n.vision {\r\n    padding: 15px 0px 15px 0px;\r\n    background-image: url(" + __webpack_require__(53) + ");\r\n    background-size:100% 100%;\r\n}\r\n\r\n.mission {\r\n    background-color: white;\r\n    background-image: url(" + __webpack_require__(68) + ");\r\n    background-position: 100% 50%;\r\n    background-size: auto auto;\r\n    background-repeat: no-repeat;\r\n    font-family: 'Raleway', sans-serif;\r\n    font-size: 16px;\r\n}\r\n", ""]);
-
-	// exports
-
-
-/***/ },
-/* 67 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = __webpack_require__.p + "_/images/about.jpg";
-
-/***/ },
-/* 68 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = __webpack_require__.p + "_/images/mission.png";
-
-/***/ },
-/* 69 */
-/***/ function(module, exports, __webpack_require__) {
-
-	// style-loader: Adds some css to the DOM by adding a <style> tag
-
-	// load the styles
-	var content = __webpack_require__(70);
-	if(typeof content === 'string') content = [[module.id, content, '']];
-	// add the styles to the DOM
-	var update = __webpack_require__(29)(content, {});
-	if(content.locals) module.exports = content.locals;
-	// Hot Module Replacement
-	if(false) {
-		// When the styles change, update the <style> tags
-		if(!content.locals) {
-			module.hot.accept("!!../../node_modules/css-loader/index.js!./classroom_courses.css", function() {
-				var newContent = require("!!../../node_modules/css-loader/index.js!./classroom_courses.css");
-				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-				update(newContent);
-			});
-		}
-		// When the module is disposed, remove the <style> tags
-		module.hot.dispose(function() { update(); });
-	}
-
-/***/ },
-/* 70 */
-/***/ function(module, exports, __webpack_require__) {
-
-	exports = module.exports = __webpack_require__(6)();
-	// imports
-
-
-	// module
-	exports.push([module.id, ".jumbotron {\r\n    width: 100%;\r\n    height: 370px;\r\n    background-image: url(" + __webpack_require__(58) + ");\r\n    background-size: 100% auto;\r\n    color: white;\r\n    font-family: 'Raleway', sans-serif;\r\n    border-radius: 0px;\r\n    margin-bottom: 0px;\r\n}\r\n\r\n.jumbotron h1 {\r\n    font-family: 'Raleway', sans-serif;\r\n}\r\n.content-container{\r\n    background-color: white;\r\n    padding: 0px;\r\n    box-shadow: 0px -25px 40px 0px rgba(0, 0, 0, 0.12);\r\n    font-size: 16px;\r\n    padding-top: 25px;\r\n    color: #4d4d4d;\r\n}\r\n.content-container  h2{\r\n    font-size: 25px;\r\n    line-height: 48px;\r\n    font-weight: 600;\r\n}\r\n.content-container  p{\r\n    font-size: 18px;\r\n    line-height: 28px;\r\n    color: #4d4d4d;\r\n    letter-spacing: 0px;\r\n    font-family: Raleway, \"Helvetica Neue\", Helvetica, Arial, sans-serif;\r\n}\r\n.content-container  table th {\r\n    background-color: #263944;\r\n    color: #fff;\r\n}\r\n.content-container  table tr td{\r\n    border: 1px solid #c5d5e4;\r\n}\r\n.content-container  table tr:nth-child(even){\r\n    background-color: #ecf0f1;\r\n}", ""]);
-
-	// exports
-
-
-/***/ },
-/* 71 */
-/***/ function(module, exports, __webpack_require__) {
-
-	// style-loader: Adds some css to the DOM by adding a <style> tag
-
-	// load the styles
-	var content = __webpack_require__(72);
-	if(typeof content === 'string') content = [[module.id, content, '']];
-	// add the styles to the DOM
-	var update = __webpack_require__(29)(content, {});
-	if(content.locals) module.exports = content.locals;
-	// Hot Module Replacement
-	if(false) {
-		// When the styles change, update the <style> tags
-		if(!content.locals) {
-			module.hot.accept("!!../../node_modules/css-loader/index.js!./contact.css", function() {
-				var newContent = require("!!../../node_modules/css-loader/index.js!./contact.css");
-				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-				update(newContent);
-			});
-		}
-		// When the module is disposed, remove the <style> tags
-		module.hot.dispose(function() { update(); });
-	}
-
-/***/ },
-/* 72 */
-/***/ function(module, exports, __webpack_require__) {
-
-	exports = module.exports = __webpack_require__(6)();
-	// imports
-
-
-	// module
-	exports.push([module.id, ".container-contact{\r\n    min-height: 100%;\r\n    min-height: 100vh;\r\n    display: flex;\r\n    align-items: center;\r\n   background-image: url(" + __webpack_require__(73) + ");\r\n   background-size: cover;\r\n}\r\n.contact-form{\r\n    width: 600px;\r\n    min-height: 500px;\r\n    height: auto;\r\n    margin: auto;\r\n    margin-bottom: 25px;\r\n    background-color: rgba(255,255,255,0.8);\r\n    border: 1px solid white;\r\n    border-radius: 4px;\r\n    padding: 2%;\r\n}\r\naddress{\r\n    margin-bottom: 21px;\r\n    font-style: oblique;\r\n    line-height: 1.7;\r\n    letter-spacing: 1.5px;\r\n}", ""]);
-
-	// exports
-
-
-/***/ },
-/* 73 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = __webpack_require__.p + "_/images/contact_bg.png";
-
-/***/ },
-/* 74 */
-/***/ function(module, exports, __webpack_require__) {
-
-	// style-loader: Adds some css to the DOM by adding a <style> tag
-
-	// load the styles
-	var content = __webpack_require__(75);
-	if(typeof content === 'string') content = [[module.id, content, '']];
-	// add the styles to the DOM
-	var update = __webpack_require__(29)(content, {});
-	if(content.locals) module.exports = content.locals;
-	// Hot Module Replacement
-	if(false) {
-		// When the styles change, update the <style> tags
-		if(!content.locals) {
-			module.hot.accept("!!../../node_modules/css-loader/index.js!./mobile-menu.css", function() {
-				var newContent = require("!!../../node_modules/css-loader/index.js!./mobile-menu.css");
-				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-				update(newContent);
-			});
-		}
-		// When the module is disposed, remove the <style> tags
-		module.hot.dispose(function() { update(); });
-	}
-
-/***/ },
-/* 75 */
-/***/ function(module, exports, __webpack_require__) {
-
-	exports = module.exports = __webpack_require__(6)();
-	// imports
-
-
-	// module
-	exports.push([module.id, ".mobile-menu-container {\r\n    width: 100%;\r\n    height: 100%;\r\n    position: fixed;\r\n    top: 0;\r\n    left: 0;\r\n    z-index: 9001;\r\n    background-color: rgba(135, 207, 235, 0.514);\r\n}\r\n\r\n.mobile-menu-panel {\r\n    width: 75%;\r\n    height: 100%;\r\n    padding-top: 60px;\r\n    background-color: #28394a;\r\n    box-shadow: 0px 0px 5px black;\r\n}\r\n\r\n.mobile-menu-panel h3 {\r\n    color: white;\r\n    margin: 10px 0px;\r\n    padding: 0px;\r\n    padding-left: 10px;\r\n}\r\n\r\n.mobile-menu-panel hr {\r\n    width: 90%;\r\n    margin: 0px;\r\n    padding: 0px;\r\n    margin-left: 10px;\r\n}\r\n\r\n.mobile-menu-list {\r\n    overflow: scroll;\r\n    height: 100%;\r\n    padding: 0px;\r\n}\r\n\r\n.mobile-menu-list>li {\r\n    list-style: none;\r\n    border-bottom: 1px solid #2e3f52;\r\n    cursor: pointer;\r\n}\r\n\r\n.mobile-menu-list li a {\r\n    color: white;\r\n    display: block;\r\n    width: inherit;\r\n    position: relative;\r\n    line-height: 20px;\r\n    height: 40px;\r\n    padding: 10px;\r\n    transition: all .51s ease;\r\n}\r\n\r\n.godwin {\r\n    background-color: #28394A;\r\n}\r\n\r\n.mobile-menu-list>li>a:hover {\r\n    background-color: #36cde8;\r\n    color: #2e3f52;\r\n}\r\n\r\n.dropdown-mobile-submenu>a:hover {\r\n    background-color: #0bb8d3;\r\n    color: #637991;\r\n}\r\n\r\n.mobile-menu-list a {\r\n    text-decoration: none !important;\r\n}\r\n\r\n.dropdown-mobile-menu {\r\n    margin: 0px;\r\n    padding: 0px;\r\n}\r\n\r\n.dropdown-mobile-menu li {\r\n    background-color: transparent;\r\n}\r\n\r\n.level-1,\r\n.level-2,\r\n.level-3,\r\n.level-4 {\r\n    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.52) inset;\r\n}\r\n\r\n.level-1 a:before {\r\n    content: \"  \";\r\n    white-space: pre;\r\n}\r\n\r\n.level-2 a:before {\r\n    content: \"    \";\r\n    white-space: pre;\r\n}\r\n\r\n.level-3 a:before {\r\n    content: \"      \";\r\n    white-space: pre;\r\n}\r\n\r\n.level-4 a:before {\r\n    content: \"        \";\r\n    white-space: pre;\r\n}\r\n\r\n.level-1 {\r\n    background-color: #202f40;\r\n}\r\n\r\n.level-2 {\r\n    background-color: #182838;\r\n}\r\n\r\n.level-3 {\r\n    background-color: #122436;\r\n}\r\n\r\n.level-4 {\r\n    background-color: #0e2031;\r\n}\r\n\r\n.mobile-menu-container.ng-hide-remove {\r\n    animation: fadeIn .51s;\r\n}\r\n\r\n.mobile-menu-container.ng-hide {\r\n    animation: fadeOut .51s;\r\n}\r\n\r\n.mobile-menu-panel.ng-hide-remove {\r\n    animation: slideInLeft .25s;\r\n}\r\n\r\n.mobile-menu-panel.ng-hide {\r\n    animation: slideOutLeft .25s;\r\n}", ""]);
-
-	// exports
-
-
-/***/ },
-/* 76 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var usersTemplate = __webpack_require__(77),
-	    homeTemplate = __webpack_require__(79),
-	    aboutTemplate = __webpack_require__(80),
-	    upcoming_eventsTemplate = __webpack_require__(81),
-	    serviesTemplate = __webpack_require__(84),
-	    contactTemplate = __webpack_require__(89),
-	    termsTemplate = __webpack_require__(90),
-	    accreditationsTemplate = __webpack_require__(92);
-	angular.module("qls", ["ngSanitize", "ui.router", "ngMeta", "ngAnimate"])
-	    .config(["$stateProvider", "$urlRouterProvider", "ngMetaProvider", "$locationProvider", function ($stateProvider, $urlRouterProvider, ngMetaProvider, $locationProvider) {
-	        $stateProvider.decorator('data', ngMetaProvider.mergeNestedStateData);
-	        $locationProvider.html5Mode(true);
-	        $urlRouterProvider.otherwise("/"),
-	            $stateProvider.state("app", {
-	                url: "",
-	                template: usersTemplate,
-	                controller: "appController",
-	            }).state("app.home", {
-	                url: "/",
-	                template: homeTemplate,
-	                controller: "homeController",
-	                resolve: {
-	                    data: (['ngMeta'], function (ngMeta) {
-	                        ngMetaProvider.useTitleSuffix(true);
-	                        ngMeta.setTitle('QuickLearn Systems', ' | Itil course hyderabad | best IT courses in hyderabad | itil training');
-	                        ngMeta.setTag('description', 'Quick learn sys provides best ITIL course training in hyderabad. We offer several modules in ITIL at effective cost. Your one stop solution for all IT related courses quicklearnsys.com');
-	                        ngMeta.setTag('keywords', 'itil course hyderabad, best it courses in hyderabad,  itil training, pmp courses Hyderabad, itil training Hyderabad');
-	                    })
-	                },
-	                meta: {
-	                    disableUpdate: true
-	                }
-	            }).state("app.about", {
-	                url: "/itil-certification-hyderabad",
-	                template: aboutTemplate,
-	                resolve: {
-	                    data: (['ngMeta'], function (ngMeta) {
-	                        ngMeta.setTitle('itil cetification hyderabad | prince2 clases hyderabad | pmp certification');
-	                        ngMeta.setTag('description', 'Looking for ITIL certification hyderabad look no further quicklearnsys.com offers best training for ITIL certification in the twin cities. Consult quicklearnsys for more information.');
-	                        ngMeta.setTag('keywords', 'itil cetification hyderabad, prince2 clases hyderabad, pmp certification hyderabad, best pmp training institutes hyderabad, best prince 2 training hyderabad');
-	                    })
-	                },
-	                meta: {
-	                    disableUpdate: true
-	                }
-	            }).state("app.upcoming_events", {
-	                url: "/upcoming_events",
-	                template: upcoming_eventsTemplate,
-	                controller: "homeController"
-	            }).state("app.services", {
-	                url: "/services",
-	                template: serviesTemplate,
-	                resolve: {
-	                    data: (['ngMeta'], function (ngMeta) {
-	                        ngMeta.setTitle('lean six sigma green belt | lean six sigma black belt | six sigma yellow belt');
-
-	                        ngMeta.setTag('description', 'Lean six sigma green belt certification with quicklearnsys.com at just 11,999 rs only. Get six sigma certified today with best in class learning infrastructure training institute.');
-
-	                        ngMeta.setTag('keywords', 'lean six sigma green belt, lean six sigma black belt, six sigma yellow belt');
-	                    })
-	                },
-	                meta: {
-	                    disableUpdate: true
-	                }
-	            }).state("app.contact", {
-	                url: "/contact",
-	                template: contactTemplate,
-	                controller: "homeController",
-	                resolve: {
-	                    data: (['ngMeta'], function (ngMeta) {
-	                        ngMeta.setTitle('itil institutes in Hyderabad | quick learn sys | quick learn systems Hyderabad-quicklearnsys.com');
-
-	                        ngMeta.setTag('description', 'One stop solution for all ITIL certifications. Get certified from one of the best ITIL institutes in Hyderabad. World class learning infrastructure at affordable prices.');
-
-	                        ngMeta.setTag('keywords', 'itil institutes in hyderabad, quick learn sys, quick learn systems hyderabad, contact quicklearn sys hyderabad, quicklearn systems hyderabad, quicklearnsys.com');
-	                    })
-	                },
-	                meta: {
-	                    disableUpdate: true
-	                }
-	            }).state("app.itil_foundation", {
-	                url: "/itil-foundation",
-	                templateUrl: "views/classroom_courses/itil_foundation.html",
-	                resolve: {
-	                    data: (['ngMeta'], function (ngMeta) {
-	                        ngMeta.setTitle('ITIL foundation course in hyderabad from quicklearnsys.com');
-	                        ngMeta.setTag('description', 'Quicklearnsys offers ITIl foundation course in hyderabad. Apart from ITIL courses we also offer several other career development courses for the IT professionals.');
-	                        ngMeta.setTag('keywords', 'itil foundation, ITIL foundation course hyderabad, itil foundation exam, itil foundation training, itil foundation cost');
-	                    })
-	                },
-	                meta: {
-	                    disableUpdate: true
-	                }
-	            }).state("app.itil_intermediate", {
-	                url: "/itil-intermediate",
-	                templateUrl: "views/classroom_courses/intermediate.component.html",
-	                resolve: {
-	                    data: (['ngMeta'], function (ngMeta) {
-	                        ngMeta.setTitle('ITIL Intermediaate training in hyderabad class room trainings – quicklearnsys.com');
-
-	                        ngMeta.setTag('description', 'Quicklearnsys.com offers best ITIL Intermediate level training in hyderabad. Learn from the experienced lecturers in the proven methodology for sure success.');
-
-	                        ngMeta.setTag('keywords', 'itil foundation, ITIL foundation course hyderabad, itil foundation exam, itil foundation training, itil foundation cost');
-	                    })
-	                },
-	                meta: {
-	                    disableUpdate: true
-	                }
-	            }).state("app.service_strategy", {
-	                url: "/itil-service-strategy",
-	                templateUrl: "views/classroom_courses/service_strategy.component.html",
-	                resolve: {
-	                    data: (['ngMeta'], function (ngMeta) {
-	                        ngMeta.setTitle('ITIL service strategy course training in hyderabad by experts from quicklearnsys.com');
-
-	                        ngMeta.setTag('description', 'Learn ITIL service strategy from the best in industry trainers. 100% Pass Assurance or we pay your exam fees.');
-
-	                        ngMeta.setTag('keywords', 'itil service strategy, itil life cycle, itil strategy course, itil training hyderabad, itil service strategy hyderabad');
-	                    })
-	                },
-	                meta: {
-	                    disableUpdate: true
-	                }
-	            }).state("app.service_design", {
-	                url: "/itil-design-hyderabad",
-	                templateUrl: "views/classroom_courses/service_design.component.html",
-	                resolve: {
-	                    data: (['ngMeta'], function (ngMeta) {
-	                        ngMeta.setTitle('ITIL design Hyderabad | ITIL design fees | ITIL Service Design quicklearnsys.com');
-
-	                        ngMeta.setTag('description', 'Learn ITIL service design in Hyderabad. Best cost per price. Get trained by the experts in industry. We offer 100% pass assurance in the exams.');
-
-	                        ngMeta.setTag('keywords', 'itil design hyderabad, itil design fees, ITIL Service Design, itil service design course hyderabad');
-	                    })
-	                },
-	                meta: {
-	                    disableUpdate: true
-	                }
-	            }).state("app.service_transition", {
-	                url: "/itil-service-transition",
-	                templateUrl: "views/classroom_courses/service_transition.component.html",
-	                resolve: {
-	                    data: (['ngMeta'], function (ngMeta) {
-	                        ngMeta.setTitle('ITIL Service Transition | itil service transition training |  itil service hyderabad');
-
-	                        ngMeta.setTag('description', 'Best ITIL service transition institutes in Hyderabad. Try quicklearnsys.com for the cost effective yet reliable ITIL service transition coaching in the twin cities Hyderabad and Secunderabad.');
-
-	                        ngMeta.setTag('keywords', 'ITIL Service Transition, service transition itil, itil service hyderabad, itil service transition training');
-	                    })
-	                },
-	                meta: {
-	                    disableUpdate: true
-	                }
-	            }).state("app.service_operation", {
-	                url: "/itil-service-operation",
-	                templateUrl: "views/classroom_courses/service_operation.component.html",
-	                resolve: {
-	                    data: (['ngMeta'], function (ngMeta) {
-	                        ngMeta.setTitle('ITIL Service Operation | itil service operation Hyderabad | itil life cycle hyderabad');
-
-	                        ngMeta.setTag('description', 'ITIL service operation in Hyderabad. We offer quality training with best Infrastructure. ITIL foundation course starting at 13,999 Rs only.');
-
-	                        ngMeta.setTag('keywords', 'ITIL Service Operation, itil service operation hyderabad, itil life cycle hyderabad, itil service operation process, itil service operation training');
-	                    })
-	                },
-	                meta: {
-	                    disableUpdate: true
-	                }
-	            }).state("app.continual_service", {
-	                url: "/itil-continual-service",
-	                templateUrl: "views/classroom_courses/continual_service.component.html",
-	                resolve: {
-	                    data: (['ngMeta'], function (ngMeta) {
-	                        ngMeta.setTitle('ITIL Continual Service Improvement |  itil continual service Hyderabad');
-
-	                        ngMeta.setTag('description', 'itil continual service improvement training in Hyderabad. We are the one stop solution for the ITIL certification in Hyderabad.');
-
-	                        ngMeta.setTag('keywords', 'ITIL Continual Service Improvement, continual service itil, itil continual service hyderabad, itil continual service improvement training');
-	                    })
-	                },
-	                meta: {
-	                    disableUpdate: true
-	                }
-	            }).state("app.soa", {
-	                url: "/itil-soa-hyderabad",
-	                templateUrl: "views/classroom_courses/soa.component.html",
-	                resolve: {
-	                    data: (['ngMeta'], function (ngMeta) {
-	                        ngMeta.setTitle('itil soa Hyderabad | itil soa | itil soa certification quicklearnsys.com ');
-
-	                        ngMeta.setTag('description', 'ITIL service offerings training in Hyderabad from quicklearnsys.com. 100% pass assurance well qualified lectures. Feasible learning modules.');
-
-	                        ngMeta.setTag('keywords', 'itil soa hyderabad, itil soa, itil soa certification, itil soa course fees');
-	                    })
-	                },
-	                meta: {
-	                    disableUpdate: true
-	                }
-	            }).state("app.ppo", {
-	                url: "/itil-ppo",
-	                templateUrl: "views/classroom_courses/ppo.component.html",
-	                resolve: {
-	                    data: (['ngMeta'], function (ngMeta) {
-	                        ngMeta.setTitle('ITIL PPO - ITIL planning protection and optimization in hyderabad');
-
-	                        ngMeta.setTag('description', 'ITIL PPO training in Hyderabad. Learn from highly qualified and experience lecturers. We assure 100% pass accuracy.');
-
-	                        ngMeta.setTag('keywords', 'itil ppo, itil planning, itil planning hyderabad, itil ppo course fees');
-	                    })
-	                },
-	                meta: {
-	                    disableUpdate: true
-	                }
-	            }).state("app.rcv", {
-	                url: "/itil-rcv",
-	                templateUrl: "views/classroom_courses/rcv.component.html",
-	                resolve: {
-	                    data: (['ngMeta'], function (ngMeta) {
-	                        ngMeta.setTitle('ITIl release control and validation courses in Hyderabad quicklearnsys.com');
-
-	                        ngMeta.setTag('description', 'ITIL release control and validation course in hyderabad. High Experienced and real time trainers. 100% Pass Assurance or we pay your exam fees. ');
-
-	                        ngMeta.setTag('keywords', 'itil rcv, ITIL Release, itil Control and Validation, itil rcv hyderabad, itil change management');
-	                    })
-	                },
-	                meta: {
-	                    disableUpdate: true
-	                }
-	            }).state("app.osa", {
-	                url: "/itil-osa",
-	                templateUrl: "views/classroom_courses/osa.component.html",
-	                resolve: {
-	                    data: (['ngMeta'], function (ngMeta) {
-	                        ngMeta.setTitle('ITIL operational support and analysis training in Hyderabad-quicklearnsys.com');
-
-	                        ngMeta.setTag('description', 'ITIL operational support and analysis training in Hyderabad. We give 100% pass assurance and Quality Training Delivery with best Infrastructure.');
-
-	                        ngMeta.setTag('keywords', 'itil osa hyderabad, itil Operational Support and Analysis, itil osa, itil intermediate osa');
-	                    })
-	                },
-	                meta: {
-	                    disableUpdate: true
-	                }
-	            }).state("app.malc", {
-	                url: "/itil-malc",
-	                templateUrl: "views/classroom_courses/malc.component.html",
-	                resolve: {
-	                    data: (['ngMeta'], function (ngMeta) {
-	                        ngMeta.setTitle('ITIL managing across the lifecycle courses in Hyderabad-quicklearnsys.com');
-
-	                        ngMeta.setTag('description', 'ITIL certification courses in Hyderabad. Best price per quality assured. Highly professional and qualified real time trainers. 100 % pass assurance.');
-
-	                        ngMeta.setTag('keywords', 'itil malc, ITIL Managing across the Lifecycle, itil management hyderabad, itil malc hyderabad, itil managing across the lifecycle training');
-	                    })
-	                },
-	                meta: {
-	                    disableUpdate: true
-	                }
-	            }).state("app.capm", {
-	                url: "/capm-course",
-	                templateUrl: "views/classroom_courses/capm.component.html",
-	                resolve: {
-	                    data: (['ngMeta'], function (ngMeta) {
-	                        ngMeta.setTitle('Capm course in Hyderabad  |  pmp capm  |  project management basics');
-
-	                        ngMeta.setTag('description', 'Capm course in Hyderabad. Learn capm course and pass the exam. Highly qualified lecturers 100% pass assurance. Quality training delivered with best infrastructure.');
-
-	                        ngMeta.setTag('keywords', 'capm course, pmp capm, capm hyderabad, project management basics, capm certification');
-	                    })
-	                },
-	                meta: {
-	                    disableUpdate: true
-	                }
-	            }).state("app.pmp", {
-	                url: "/pmp-course-hyderabad",
-	                templateUrl: "views/classroom_courses/pmp.component.html",
-	                resolve: {
-	                    data: (['ngMeta'], function (ngMeta) {
-	                        ngMeta.setTitle('Quick learn sys offers best pmp course Hyderabad |  pmp certification');
-
-	                        ngMeta.setTag('description', 'Master PMP certification courses at affordable prices starting at just 8999 Rs only. We offer best PMP certification in Hyderabad. Try quicklearnsys.com for PMP certifications.');
-
-	                        ngMeta.setTag('keywords', 'pmp course hyderabad, pmp certification hyderabad,  pmp training, pmp training hyderabad, pmp jobs');
-	                    })
-	                },
-	                meta: {
-	                    disableUpdate: true
-	                }
-	            }).state("app.acp", {
-	                url: "/agile-certified-practitioner",
-	                templateUrl: "views/classroom_courses/acp.component.html",
-	                resolve: {
-	                    data: (['ngMeta'], function (ngMeta) {
-	                        ngMeta.setTitle('Agile certified practitioner courses in Hyderabad quicklearnsys.com');
-
-	                        ngMeta.setTag('description', 'Agile certified practitioner courses in Hyderabad. Quick learn sys offers best agile certified course in Hyderabad, we also offer pmi acp, pmi agile certifications.');
-
-	                        ngMeta.setTag('keywords', 'agile certified practitioner, pmi acp hyderabad, project management institute courses, pmi agile certification, pmi acp course');
-	                    })
-	                },
-	                meta: {
-	                    disableUpdate: true
-	                }
-	            }).state("app.prince2foundation", {
-	                url: "/prince2-hyderabad",
-	                templateUrl: "views/classroom_courses/p2f.component.html",
-	                resolve: {
-	                    data: (['ngMeta'], function (ngMeta) {
-	                        ngMeta.setTitle('prince2 foundation Hyderabad | prince2 foundation | prince2 foundation training');
-
-	                        ngMeta.setTag('description', 'Prince2 foundation course in Hyderabad at best price 31,999 Rs only. Try quicklearnsys.com for quality learning experience. 100% exam pass assurance. ');
-
-	                        ngMeta.setTag('keywords', 'prince2 foundation hyderabad, prince2 foundation, prince2 foundation training, project management prince2, prince2 practitioner exam, prince2 foundation and practitioner course');
-	                    })
-	                },
-	                meta: {
-	                    disableUpdate: true
-	                }
-	            }).state("app.prince2practitioner", {
-	                url: "/prince2agile-hyderabad",
-	                templateUrl: "views/classroom_courses/p2p.component.html",
-	                resolve: {
-	                    data: (['ngMeta'], function (ngMeta) {
-	                        ngMeta.setTitle('Quick learn sys offers Prince2 course Hyderabad at best price-quicklearnsys.com');
-
-	                        ngMeta.setTag('description', 'Get certified in prince2 course Hyderabad at 31,999 Rs only. Best price per cost, high experienced and real time trainers available. We offer all modules of prince2practitioner courses.');
-
-	                        ngMeta.setTag('keywords', 'prince2practitioner, prince practitioner prince, prince2 practitioner hyderabad, prince2practitioner training, prince2 certification cost');
-	                    })
-	                },
-	                meta: {
-	                    disableUpdate: true
-	                }
-	            }).state("app.prince2agile", {
-	                url: "/prince2-foundation- hyderabad",
-	                templateUrl: "views/classroom_courses/p2a.component.html",
-	                resolve: {
-	                    data: (['ngMeta'], function (ngMeta) {
-	                        ngMeta.setTitle('Learn prince2 agile in Hyderabad | prince2 agile course Hyderabad | quicklearnsys.com');
-
-	                        ngMeta.setTag('description', 'Prince2 agile course in Hyderabad from basics to the expert level. We team prince2 agile course in Hyderabad with best in class infrastructure and highly qualified and real time tutors.');
-
-	                        ngMeta.setTag('keywords', 'prince2agile, prince agile prince, prince2 agile course hyderabad, prince2agile training');
-	                    })
-	                },
-	                meta: {
-	                    disableUpdate: true
-	                }
-	            }).state("app.scrum", {
-	                url: "/scrum-master",
-	                templateUrl: "views/classroom_courses/scrum.component.html",
-	                resolve: {
-	                    data: (['ngMeta'], function (ngMeta) {
-	                        ngMeta.setTitle('scrum master | professional scrum master | scrum and agile | psm certification');
-
-	                        ngMeta.setTag('description', 'Get scrum master certification in Hyderabad with quicklearnsys.com. we offer quality training with best Infrastructure. We offer professional scrum master and psm certifications.');
-
-	                        ngMeta.setTag('keywords', 'scrum master, professional scrum master, scrum and agile, agile scrum master, psm certification');
-	                    })
-	                },
-	                meta: {
-	                    disableUpdate: true
-	                }
-	            }).state("app.msp", {
-	                url: "/managing-sucessful-programmes-hyderabad",
-	                templateUrl: "views/classroom_courses/msp.component.html",
-	                resolve: {
-	                    data: (['ngMeta'], function (ngMeta) {
-	                        ngMeta.setTitle('managing successful programmes Hyderabad | Managing Successful Programmes | msp Hyderabad');
-
-	                        ngMeta.setTag('description', 'Learn Managing successful programmes Hyderabad course with quicklearnsys.com and master the art of benefits management risk and issue management with best in class training infrastructure.');
-
-	                        ngMeta.setTag('keywords', 'managing successful programmes hyderabad, Managing Successful Programmes, msp hyderabad, managing successful programmes training, project management best practices');
-	                    })
-	                },
-	                meta: {
-	                    disableUpdate: true
-	                }
-	            }).state("app.green_belt", {
-	                url: "/six-sigma-green-belt-hyderabad",
-	                templateUrl: "views/classroom_courses/green_belt.component.html",
-	                resolve: {
-	                    data: (['ngMeta'], function (ngMeta) {
-	                        ngMeta.setTitle('Learn six sigma green belt Hyderabad best cost per quality with quicklearnsys.com');
-
-	                        ngMeta.setTag('description', 'Six sigma certification courses in Hyderabad. Lean six sigma green belt course starting at just Rs 11999/-. Best price per quality training and 100% pass assurance.');
-
-	                        ngMeta.setTag('keywords', 'six sigma green belt hyderabad,  lean six sigma green belt hyderabad six sigma hyderabad, lean six sigma certification, lean 6 sigma hydearbad');
-	                    })
-	                },
-	                meta: {
-	                    disableUpdate: true
-	                }
-	            }).state("app.black_belt", {
-	                url: "/six-sigma-black-belt-hyderabad",
-	                templateUrl: "views/classroom_courses/black_belt.component.html",
-	                resolve: {
-	                    data: (['ngMeta'], function (ngMeta) {
-	                        ngMeta.setTitle('Six sigma black belt training in Hyderabad  | six sigma black belt hyderabad quicklearnsys.com');
-
-	                        ngMeta.setTag('description', 'Lean six sigma courses in Hyderabad. One stop solution for all six sigma courses we offer lean six sigma courses at affordable prices.');
-
-	                        ngMeta.setTag('keywords', 'six sigma black belt hyderabad, lean six sigma black belt hyderabad, lean black belt, lean six sigma training, six sigma black belt training hyderabad');
-	                    })
-	                },
-	                meta: {
-	                    disableUpdate: true
-	                }
-	            }).state("app.cobit", {
-	                url: "/cobit-5",
-	                templateUrl: "views/classroom_courses/cobit.component.html",
-	                resolve: {
-	                    data: (['ngMeta'], function (ngMeta) {
-	                        ngMeta.setTitle('Learn cobit 5 course in Hyderabad | it governance framework | cobit 5 certification');
-
-	                        ngMeta.setTag('description', 'Learn cobit 5 and it framework with quicklearnsys.com. Enroll for COBIT5 Certification Training in Hyderabad.  Best learning infrastructure and well trained tutors at best price per value.');
-
-	                        ngMeta.setTag('keywords', 'cobit 5, cobit 5 framework, cobit, it governance framework, cobit 5 certification');
-	                    })
-	                },
-	                meta: {
-	                    disableUpdate: true
-	                }
-	            }).state("app.togaf", {
-	                url: "/togaf-9.1",
-	                templateUrl: "views/classroom_courses/togaf.component.html",
-	                resolve: {
-	                    data: (['ngMeta'], function (ngMeta) {
-	                        ngMeta.setTitle('togaf 9.1 | togaf tutorials | togaf certification Hyderabad | togaf tutorials');
-
-	                        ngMeta.setTag('description', 'Learn togaf 9.1 in Hyderabad with quicklearnsys.com. Enroll today for the certification. Well experienced and real time tutors and best learning infrastructure.');
-
-	                        ngMeta.setTag('keywords', 'togaf 9.1, togaf tutorials, togaf certification hyderabad, togaf tutorials, togaf 9.1 framework');
-	                    })
-	                },
-	                meta: {
-	                    disableUpdate: true
-	                }
-	            }).state("app.safe", {
-	                url: "/safe-agile",
-	                templateUrl: "views/classroom_courses/safe.component.html",
-	                resolve: {
-	                    data: (['ngMeta'], function (ngMeta) {
-	                        ngMeta.setTitle('safe agile | safe agile Hyderabad | safe agile framework | agile scrum methodology');
-
-	                        ngMeta.setTag('description', 'Safe agile course in Hyderabad by quicklearnsys.com. we offer safe agile certification at best price in Hyderabad. 100% pass assurance. High experienced and real time tutors.');
-
-	                        ngMeta.setTag('keywords', 'safe agile, safe agile hyderabad, safe agile framework, agile scrum methodology');
-	                    })
-	                },
-	                meta: {
-	                    disableUpdate: true
-	                }
-	            }).state("app.dev_ops", {
-	                url: "/devops-master",
-	                templateUrl: "views/classroom_courses/dev_ops.component.html",
-	                resolve: {
-	                    data: (['ngMeta'], function (ngMeta) {
-	                        ngMeta.setTitle('Devops master training in Hyderabad | dev ops tools | dev ops training-quicklearnsys.com');
-
-	                        ngMeta.setTag('description', 'Learn devops master course in Hyderabad. Get certified with devops master certification at affordable price 19,990 Rs only. Become a certified devops master with quicklearnsys.com');
-
-	                        ngMeta.setTag('keywords', 'devops master, dev ops tools, dev ops training, master devops hyderabad, dev ops master training');
-	                    })
-	                },
-	                meta: {
-	                    disableUpdate: true
-	                }
-	            })
-	            .state("app.siam", {
-	                url: "/service-integration-and-management",
-	                templateUrl: "views/classroom_courses/siam.component.html",
-	                resolve: {
-	                    data: (['ngMeta'], function (ngMeta) {
-	                        ngMeta.setTitle('Service Integration and Management Foundation');
-
-	                        ngMeta.setTag('description', '');
-
-	                        ngMeta.setTag('keywords', '');
-	                    })
-	                },
-	                meta: {
-	                    disableUpdate: true
-	                }
-	            })
-	            .state("app.terms", {
-	                url: "/terms",
-	                template: termsTemplate,
-	                resolve: {
-	                    data: (['ngMeta'], function (ngMeta) {
-	                        ngMeta.setTitle('best devops training in Hyderabad |  togaf certification |  dev ops |  itil training');
-
-	                        ngMeta.setTag('description', 'Learn devops in Hyderabad Ameerpet. Low price and 100% exams pass assurance. Best infrastructure. Real time tutors and practical learning.');
-
-	                        ngMeta.setTag('keywords', 'best devops training in hyderabad, togaf certification, dev ops, itil training, itil modules');
-	                    })
-	                },
-	                meta: {
-	                    disableUpdate: true
-	                }
-	            }).state("app.accreditations", {
-	                url: "/IT-certifications-hyderabad",
-	                template: accreditationsTemplate,
-	                resolve: {
-	                    data: (['ngMeta'], function (ngMeta) {
-	                        ngMeta.setTitle('IT certifications Hyderabad | itil Hyderabad | itil certification Hyderabad | prince2 certification');
-
-	                        ngMeta.setTag('description', 'Get certified today !! One stop solution for your all IT certifications in hyderabad. ITIL certifications, PMP and DEVops certifications at the best price per value in Hyderabad.');
-
-	                        ngMeta.setTag('keywords', 'IT certifications hyderabad, itil hyderabad, itil certification hyderabad, prince2 certification, project management institute certification, pmi certification hyderabad');
-	                    })
-	                },
-	                meta: {
-	                    disableUpdate: true
-	                }
-	            })
-	    }]).run(["$transitions", "$rootScope", "$state", "$location", "$window", "ngMeta", function ($transitions, $rootScope, t, n, r, ngMeta) {
-	        ngMeta.init();
-	        $transitions.onBefore({}, function (trans) {
-	            $rootScope.mobileMenuState = false;
-	            if (trans.$to().name != 'app') {
-	                $rootScope.enquiryState = true;
-	            } else {
-	                $rootScope.enquiryState = false;
-	            }
-	        })
-	        $rootScope.$watch(function () {
-	            return n.path();
-	        }, function (e) {
-	            r.scrollTo(0, 0)
-	        })
-	    }])
-
-/***/ },
-/* 77 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = "<nav class=\"navbar navbar-default navbar-fixed-top\" role=\"navigation\">\r\n    <div class=\"container-fluid\">\r\n        <div class=\"navbar-header\">\r\n            <button type=\"button\" class=\"navbar-toggle\" ng-click=\"mobileMenuToggle()\">\r\n                <span class=\"icon-bar\"></span>\r\n                <span class=\"icon-bar\"></span>\r\n                <span class=\"icon-bar\"></span>\r\n            </button>\r\n            <a class=\"navbar-brand\" style=\"padding-top:10px;\" ui-sref=\"app.home\">\r\n                <img src=\"" + __webpack_require__(78) + "\" alt=\"Quick LearnSystems\">\r\n            </a>\r\n        </div>\r\n        <div class=\"collapse navbar-collapse\">\r\n            <ul class=\"nav navbar-nav\">\r\n                <li>\r\n                    <a ui-sref=\"app.home\">Home</a>\r\n                </li>\r\n                <li class=\"dropdown\">\r\n                    <a aria-expanded=\"false\">\r\n                        About\r\n                        <span class=\"caret\"></span>\r\n                    </a>\r\n                    <ul class=\"dropdown-menu dropdown-intial\">\r\n                        <li>\r\n                            <a ui-sref=\"app.about\">Mission /Vision</a>\r\n                        </li>\r\n                    </ul>\r\n                </li>\r\n                <li class=\"dropdown\">\r\n                    <a aria-expanded=\"false\">Classroom Courses\r\n                        <span class=\"caret\"></span>\r\n                    </a>\r\n                    <ul class=\"dropdown-menu dropdown-intial\">\r\n                        <li class=\"dropdown-submenu\">\r\n                            <a>Service Management</a>\r\n                            <ul class=\"dropdown-menu dropdown-intial\">\r\n                                <li>\r\n                                    <a ui-sref=\"app.itil_foundation\">ITIL Foundation</a>\r\n                                </li>\r\n                                <li class=\"dropdown-submenu\">\r\n                                    <a ui-sref=\"app.itil_intermediate\">ITIL Intermediate</a>\r\n                                    <ul class=\"dropdown-menu dropdown-intial\">\r\n                                        <li class=\"dropdown-submenu\">\r\n                                            <a>ITIL Lifecycle Modules</a>\r\n                                            <ul class=\"dropdown-menu dropdown-intial\">\r\n                                                <li>\r\n                                                    <a ui-sref=\"app.service_strategy\">ITIL Service Strategy</a>\r\n                                                </li>\r\n                                                <li>\r\n                                                    <a ui-sref=\"app.service_design\">ITIL Service Design</a>\r\n                                                </li>\r\n                                                <li>\r\n                                                    <a ui-sref=\"app.service_transition\">ITIL Service Transition</a>\r\n                                                </li>\r\n                                                <li>\r\n                                                    <a ui-sref=\"app.service_operation\">ITIL Service Operation</a>\r\n                                                </li>\r\n                                                <li>\r\n                                                    <a ui-sref=\"app.continual_service\">ITIL Continual Service Improvement</a>\r\n                                                </li>\r\n                                            </ul>\r\n                                        </li>\r\n                                        <li class=\"dropdown-submenu\">\r\n                                            <a>ITIL Capability Module</a>\r\n                                            <ul class=\"dropdown-menu dropdown-intial\">\r\n                                                <li>\r\n                                                    <a ui-sref=\"app.soa\">ITIL Service, Offering and Agreement (SOA)</a>\r\n                                                </li>\r\n                                                <li>\r\n                                                    <a ui-sref=\"app.ppo\">ITIL Planning, Protection and Optimization (PPO)</a>\r\n                                                </li>\r\n                                                <li>\r\n                                                    <a ui-sref=\"app.rcv\">ITIL Release, Control and Validation (RCV)</a>\r\n                                                </li>\r\n                                                <li>\r\n                                                    <a ui-sref=\"app.osa\">ITIL Operational, Support and Analysis (OSA)</a>\r\n                                                </li>\r\n                                            </ul>\r\n                                        </li>\r\n                                    </ul>\r\n                                </li>\r\n                                <li class=\"dropdown-submenu\">\r\n                                    <a>ITIL Expert</a>\r\n                                    <ul class=\"dropdown-menu dropdown-intial\">\r\n                                        <li>\r\n                                            <a ui-sref=\"app.malc\">ITIL\r\n                                                <sup>&reg;</sup> Managing Across The Lifecycle</a>\r\n                                        </li>\r\n                                    </ul>\r\n                                </li>\r\n                                <li>\r\n                                    <a ui-sref=\"app.siam\">SIAM Foundation</a>\r\n                                </li>\r\n                            </ul>\r\n                        </li>\r\n                        <li class=\"dropdown-submenu\">\r\n                            <a>Project &amp; Program Management</a>\r\n                            <ul class=\"dropdown-menu dropdown-intial\">\r\n                                <li>\r\n                                    <a ui-sref=\"app.capm\">CAPM</a>\r\n                                </li>\r\n                                <li>\r\n                                    <a ui-sref=\"app.pmp\">PMP</a>\r\n                                </li>\r\n                                <li>\r\n                                    <a ui-sref=\"app.acp\">ACP</a>\r\n                                </li>\r\n                                <li>\r\n                                    <a ui-sref=\"app.prince2foundation\">Prince2 Foundation</a>\r\n                                </li>\r\n                                <li>\r\n                                    <a ui-sref=\"app.prince2practitioner\">Prince2 Practitioner</a>\r\n                                </li>\r\n                                <li>\r\n                                    <a ui-sref=\"app.prince2agile\">Prince2 Agile</a>\r\n                                </li>\r\n                                <li>\r\n                                    <a ui-sref=\"app.scrum\">Scrum Master</a>\r\n                                </li>\r\n                                <li>\r\n                                    <a ui-sref=\"app.msp\">Managing Successful Programs</a>\r\n                                </li>\r\n                                <li>\r\n                                    <a ui-sref=\"app.safe\">SAFe 4.5 (SAFe Agilist)</a>\r\n                                </li>\r\n                                <li>\r\n                                    <a ui-sref=\"app.dev_ops\">DevOps Master</a>\r\n                                </li>\r\n                            </ul>\r\n                        </li>\r\n                        <li class=\"dropdown-submenu\">\r\n                            <a>Quality Management</a>\r\n                            <ul class=\"dropdown-menu dropdown-intial\">\r\n                                <li>\r\n                                    <a ui-sref=\"app.green_belt\">Lean Six Sigma Green Belt</a>\r\n                                </li>\r\n                                <li>\r\n                                    <a ui-sref=\"app.black_belt\">Lean Six Sigma Black Belt</a>\r\n                                </li>\r\n                            </ul>\r\n                        </li>\r\n                        <li class=\"dropdown-submenu\">\r\n                            <a>IT Governance &amp; Architecture</a>\r\n                            <ul class=\"dropdown-menu dropdown-intial\">\r\n                                <li>\r\n                                    <a ui-sref=\"app.cobit\">COBIT 5 Foundation</a>\r\n                                </li>\r\n                                <li>\r\n                                    <a ui-sref=\"app.togaf\">TOGAF 9.1 Level 1 &amp; Level 2</a>\r\n                                </li>\r\n                            </ul>\r\n                        </li>\r\n                    </ul>\r\n                </li>\r\n                <li>\r\n                    <a ui-sref=\"app.upcoming_events\">Upcoming Events</a>\r\n                </li>\r\n                <li>\r\n                    <a ui-sref=\"app.services\">Services</a>\r\n                </li>\r\n                <li>\r\n                    <a ui-sref=\"app.contact\">Contact Us</a>\r\n                </li>\r\n            </ul>\r\n        </div>\r\n    </div>\r\n</nav>\r\n<div class=\"mobile-menu-container\" ng-show=\"mobileMenuState\">\r\n    <div class=\"mobile-menu-panel\" ng-show=\"mobileMenuState\">\r\n        <h3>Menu</h3>\r\n        <hr>\r\n        <ul class=\"mobile-menu-list\">\r\n            <li>\r\n                <a ui-sref=\"app.home\">Home</a>\r\n            </li>\r\n            <li class=\"dropdown-mobile\">\r\n                <a aria-expanded=\"false\" data-toggle=\"collapse\" data-target=\"#li-About\">About\r\n                    <span class=\"caret\"></span>\r\n                </a>\r\n                <ul class=\"dropdown-mobile-menu dropdown-mobile-intial level-1 list-1 panel-collapse collapse\" id=\"li-About\">\r\n                    <li>\r\n                        <a ui-sref=\"app.about\">Mission /Vision</a>\r\n                    </li>\r\n                </ul>\r\n            </li>\r\n            <li class=\"dropdown-mobile\">\r\n                <a aria-expanded=\"false\" data-toggle=\"collapse\" data-target=\"#li-Classroom\">Classroom Courses\r\n                    <span class=\"caret\"></span>\r\n                </a>\r\n                <ul class=\"dropdown-mobile-menu dropdown-mobile-intial level-1 list-4 panel-collapse collapse\" id=\"li-Classroom\">\r\n                    <li class=\"dropdown-mobile-submenu\">\r\n                        <a data-toggle=\"collapse\" data-target=\"#li-ServiceManagement\">Service Management\r\n                            <span class=\"caret\"></span>\r\n                        </a>\r\n                        <ul class=\"dropdown-mobile-menu dropdown-mobile-intial level-2 list-4 panel-collapse collapse\" id=\"li-ServiceManagement\">\r\n                            <li>\r\n                                <a ui-sref=\"app.itil_foundation\">ITIL Foundation</a>\r\n                            </li>\r\n                            <li class=\"dropdown-mobile-submenu\">\r\n                                <a ui-sref=\"app.itil_intermediate\" data-toggle=\"collapse\" data-target=\"#li-Intermediate\">ITIL Intermediate\r\n                                    <span class=\"caret\"></span>\r\n                                </a>\r\n                                <ul class=\"dropdown-mobile-menu dropdown-mobile-intial level-3 list-2 panel-collapse collapse\" id=\"li-Intermediate\">\r\n                                    <li class=\"dropdown-mobile-submenu\">\r\n                                        <a data-toggle=\"collapse\" data-target=\"#li-LifecycleModules\">ITIL Lifecycle Modules\r\n                                            <span class=\"caret\"></span>\r\n                                        </a>\r\n                                        <ul class=\"dropdown-mobile-menu dropdown-mobile-intial level-4 list-5 panel-collapse collapse\" id=\"li-LifecycleModules\">\r\n                                            <li>\r\n                                                <a ui-sref=\"app.service_strategy\">ITIL Service Strategy</a>\r\n                                            </li>\r\n                                            <li>\r\n                                                <a ui-sref=\"app.service_design\">ITIL Service Design</a>\r\n                                            </li>\r\n                                            <li>\r\n                                                <a ui-sref=\"app.service_transition\">ITIL Service Transition</a>\r\n                                            </li>\r\n                                            <li>\r\n                                                <a ui-sref=\"app.service_operation\">ITIL Service Operation</a>\r\n                                            </li>\r\n                                            <li>\r\n                                                <a ui-sref=\"app.continual_service\">ITIL Continual Service Improvement</a>\r\n                                            </li>\r\n                                        </ul>\r\n                                    </li>\r\n                                    <li class=\"dropdown-mobile-submenu\">\r\n                                        <a data-toggle=\"collapse\" data-target=\"#li-CapabilityModule\">ITIL Capability Module\r\n                                            <span class=\"caret\"></span>\r\n                                        </a>\r\n                                        <ul class=\"dropdown-mobile-menu dropdown-mobile-intial level-4 list-4 panel-collapse collapse\" id=\"li-CapabilityModule\">\r\n                                            <li>\r\n                                                <a ui-sref=\"app.soa\">ITIL Service, Offering and Agreement (SOA)</a>\r\n                                            </li>\r\n                                            <li>\r\n                                                <a ui-sref=\"app.ppo\">ITIL Planning, Protection and Optimization (PPO)</a>\r\n                                            </li>\r\n                                            <li>\r\n                                                <a ui-sref=\"app.rcv\">ITIL Release, Control and Validation (RCV)</a>\r\n                                            </li>\r\n                                            <li>\r\n                                                <a ui-sref=\"app.osa\">ITIL Operational, Support and Analysis (OSA)</a>\r\n                                            </li>\r\n                                        </ul>\r\n                                    </li>\r\n                                </ul>\r\n                            </li>\r\n                            <li class=\"dropdown-mobile-submenu\">\r\n                                <a data-toggle=\"collapse\" data-target=\"#li-ITILExpert\">ITIL Expert\r\n                                    <span class=\"caret\"></span>\r\n                                </a>\r\n                                <ul class=\"dropdown-mobile-menu dropdown-mobile-intial level-3 list-1 panel-collapse collapse\" id=\"li-ITILExpert\">\r\n                                    <li>\r\n                                        <a ui-sref=\"app.malc\">ITIL\r\n                                            <sup>&reg;</sup> Managing Across The Lifecycle</a>\r\n                                    </li>\r\n                                </ul>\r\n                            </li>\r\n                            <li>\r\n                                <a ui-sref=\"app.siam\">SIAM Foundation</a>\r\n                            </li>\r\n                        </ul>\r\n                    </li>\r\n                    <li class=\"dropdown-mobile-submenu\">\r\n                        <a data-toggle=\"collapse\" data-target=\"#li-ProjectProgramManagement\">Project & Program Management\r\n                            <span class=\"caret\"></span>\r\n                        </a>\r\n                        <ul class=\"dropdown-mobile-menu dropdown-mobile-intial level-2 list-10 panel-collapse collapse\" id=\"li-ProjectProgramManagement\">\r\n                            <li>\r\n                                <a ui-sref=\"app.capm\">CAPM</a>\r\n                            </li>\r\n                            <li>\r\n                                <a ui-sref=\"app.pmp\">PMP</a>\r\n                            </li>\r\n                            <li>\r\n                                <a ui-sref=\"app.acp\">ACP</a>\r\n                            </li>\r\n                            <li>\r\n                                <a ui-sref=\"app.prince2foundation\">Prince2 Foundation</a>\r\n                            </li>\r\n                            <li>\r\n                                <a ui-sref=\"app.prince2practitioner\">Prince2 Practitioner</a>\r\n                            </li>\r\n                            <li>\r\n                                <a ui-sref=\"app.prince2agile\">Prince2 Agile</a>\r\n                            </li>\r\n                            <li>\r\n                                <a ui-sref=\"app.scrum\">Scrum Master</a>\r\n                            </li>\r\n                            <li>\r\n                                <a ui-sref=\"app.msp\">Managing Successful Programs</a>\r\n                            </li>\r\n                            <li>\r\n                                <a ui-sref=\"app.safe\">SAFe 4.5 (SAFe Agilist)</a>\r\n                            </li>\r\n                            <li>\r\n                                <a ui-sref=\"app.dev_ops\">DevOps Master</a>\r\n                            </li>\r\n                        </ul>\r\n                    </li>\r\n                    <li class=\"dropdown-mobile-submenu\">\r\n                        <a data-toggle=\"collapse\" data-target=\"#li-QualityManagement\">Quality Management\r\n                            <span class=\"caret\"></span>\r\n                        </a>\r\n                        <ul class=\"dropdown-mobile-menu dropdown-mobile-intial level-2 list-2 panel-collapse collapse\" id=\"li-QualityManagement\">\r\n                            <li>\r\n                                <a ui-sref=\"app.green_belt\">Lean Six Sigma Green Belt</a>\r\n                            </li>\r\n                            <li>\r\n                                <a ui-sref=\"app.black_belt\">Lean Six Sigma Black Belt</a>\r\n                            </li>\r\n                        </ul>\r\n                    </li>\r\n                    <li class=\"dropdown-mobile-submenu\">\r\n                        <a data-toggle=\"collapse\" data-target=\"#li-ITGovernanceArchitecture\">IT Governance & Architecture\r\n                            <span class=\"caret\"></span>\r\n                        </a>\r\n                        <ul class=\"dropdown-mobile-menu dropdown-mobile-intial level-2 list-2 panel-collapse collapse\" id=\"li-ITGovernanceArchitecture\">\r\n                            <li>\r\n                                <a ui-sref=\"app.cobit\">COBIT 5 Foundation</a>\r\n                            </li>\r\n                            <li>\r\n                                <a ui-sref=\"app.togaf\">TOGAF 9.1 Level 1 &amp; Level 2</a>\r\n                            </li>\r\n                        </ul>\r\n                    </li>\r\n                </ul>\r\n            </li>\r\n            <li>\r\n                <a ui-sref=\"app.upcoming_events\">Upcoming Events</a>\r\n            </li>\r\n            <li>\r\n                <a ui-sref=\"app.services\">Services</a>\r\n            </li>\r\n            <li>\r\n                <a ui-sref=\"app.contact\">Contact Us</a>\r\n            </li>\r\n        </ul>\r\n    </div>\r\n</div>\r\n<div class=\"enquiry-container\" ng-class=\"enquiryState ? 'enquiry-open' : 'enquiry-close'\">\r\n    <div class=\"enquiry-label\" ng-click=\"enquiryToggle()\">\r\n        <p>\r\n            <i class=\"fa fa-question-circle\" aria-hidden=\"true\"></i> Enquiry</p>\r\n    </div>\r\n    <div class=\"enquiry-form-container\">\r\n        <div class=\"container-fluid\">\r\n            <form class=\"form-horizontal\">\r\n                <div class=\"form-group\">\r\n                    <div class=\"col-sm-12\">\r\n                        <input type=\"text\" ng-model=\"siteContact.fullname\" class=\"form-control\" id=\"fullName\" placeholder=\"Full Name\" required>\r\n                    </div>\r\n                </div>\r\n                <div class=\"form-group\">\r\n                    <div class=\"col-sm-12\">\r\n                        <input type=\"text\" ng-model=\"siteContact.email\" class=\"form-control\" id=\"email\" placeholder=\"Email\" required>\r\n                    </div>\r\n                </div>\r\n                <div class=\"form-group\">\r\n                    <div class=\"col-sm-12\">\r\n                        <input type=\"text\" ng-model=\"siteContact.mobile\" class=\"form-control\" id=\"mobile\" placeholder=\"Mobile Number\">\r\n                    </div>\r\n                </div>\r\n                <div class=\"form-group\">\r\n                    <div class=\"col-sm-12\">\r\n                        <select class=\"form-control\" id=\"select\" ng-model=\"siteContact.courseInterested\" ng-init=\"siteContact.courseInterested = coursesList[0]\">\r\n                            <option ng-repeat=\"course in coursesList\" ng-disabled=\"$index == 0\" value=\"{{course}}\">{{course}}</option>\r\n                        </select>\r\n                    </div>\r\n                </div>\r\n                <div class=\"form-group\">\r\n                    <div class=\"col-sm-12\">\r\n                        <textarea class=\"form-control\" rows=\"3\" id=\"textArea\" placeholder=\"Your Remarks\" ng-model=\"siteContact.message\"></textarea>\r\n                    </div>\r\n                </div>\r\n                <div class=\"form-group\">\r\n                    <div class=\"col-sm-12 text-center\">\r\n                        <button class=\"btn pull-right\" ng-class=\"siteContactSubmit == 'Submit' ? 'btn-primary' :'btn-success'\" ng-disabled=\"siteContactSubmit !== 'Submit'\"\r\n                            type=\"submit\" ng-click=\"contactSubmit()\">{{siteContactSubmit}}</button>\r\n                    </div>\r\n                </div>\r\n            </form>\r\n            <div class=\"form-hide\" ng-hide=\"siteContactSubmit == 'Submit'\">\r\n                <div class=\"panel panel-default\" style=\"width:80%;\">\r\n                    <div class=\"panel-heading text-center\" style=\"line-height:0px;\">\r\n                        <h3 class=\"text-success\">\r\n                            <i class=\"ion-ios-checkmark-outline text-success\"></i> Message Sent</h3>\r\n                    </div>\r\n                    <div class=\"panel-body text-center\">\r\n                        <p>Thank you for contacting\r\n                            <br>QuickLearn Systems.\r\n                            <br>\r\n                            <br> A team member will be in touch with you shortly.</p>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n<ui-view></ui-view>\r\n<footer class=\"container-fluid text-center\" style=\"padding:0px\">\r\n    <div class=\"container-fluid\">\r\n        <div class=\"row\">\r\n            <div class=\"col-sm-3\">\r\n                <div class=\"container-fluid text-left\" style=\"font-size:small\">\r\n                    <h3>Popular Courses</h3>\r\n                    <ul class=\"popular-courses\">\r\n                        <li>\r\n                            <a ui-sref=\"app.itil_foundation\">ITIL Foundation</a>\r\n                        </li>\r\n                        <li>\r\n                            <a ui-sref=\"app.pmp\">PMP</a>\r\n                        </li>\r\n                        <li>\r\n                            <a ui-sref=\"app.prince2foundation\">Prince2</a>\r\n                        </li>\r\n                        <li>\r\n                            <a ui-sref=\"app.dev_ops\">DevOps Master</a>\r\n                        </li>\r\n                        <li>\r\n                            <a ui-sref=\"app.scrum\">Scrum Master</a>\r\n                        </li>\r\n                        <li>\r\n                            <a ui-sref=\"app.safe\">Safe Agile</a>\r\n                        </li>\r\n                        <li>\r\n                            <a ui-sref=\"app.green_belt\">Lean Six Sigm Green Belt</a>\r\n                        </li>\r\n                    </ul>\r\n                </div>\r\n            </div>\r\n            <div class=\"col-sm-4\">\r\n                <h3 class=\"text-center\">Finds us on</h3>\r\n                <ul class=\"social-network social-circle\">\r\n                    <!--<li><a href=\"#\" class=\"icoRss\" title=\"Rss\"><i class=\"fa fa-rss\"></i></a></li>-->\r\n                    <li>\r\n                        <a href=\"https://www.facebook.com/QuickLearn-Systems-860154054085242\" class=\"icoFacebook\" title=\"Facebook\">\r\n                            <i class=\"fa fa-facebook\"></i>\r\n                        </a>\r\n                    </li>\r\n                    <li>\r\n                        <a href=\"https://twitter.com/quicklearnsys\" class=\"icoTwitter\" title=\"Twitter\">\r\n                            <i class=\"fa fa-twitter\"></i>\r\n                        </a>\r\n                    </li>\r\n                    <li>\r\n                        <a href=\"https://plus.google.com/109738846000587914274\" class=\"icoGoogle\" title=\"Google +\">\r\n                            <i class=\"fa fa-google-plus\"></i>\r\n                        </a>\r\n                    </li>\r\n                    <li>\r\n                        <a href=\"https://in.linkedin.com/in/quicklearn-systems-1494ba12a\" class=\"icoLinkedin\" title=\"Linkedin\">\r\n                            <i class=\"fa fa-linkedin\"></i>\r\n                        </a>\r\n                    </li>\r\n                </ul>\r\n                <h3 class=\"text-center\">Payment Options</h3>\r\n                <small>We accept Payment by Cash, Cheque,\r\n                    <br/>Online Fund Transfer and Credit Cards</small>\r\n                <br/>\r\n                <ul class=\"social-network social-circle\">\r\n                    <li>\r\n                        <a href=\"#\" class=\"icoTwitter\" title=\"Visa\">\r\n                            <i class=\"fa fa-cc-visa\"></i>\r\n                        </a>\r\n                    </li>\r\n                    <li>\r\n                        <a href=\"#\" class=\"icoTwitter\" title=\"Master Card\">\r\n                            <i class=\"\tfa fa-cc-mastercard\"></i>\r\n                        </a>\r\n                    </li>\r\n                    <li>\r\n                        <a href=\"#\" class=\"icoTwitter\" title=\"Google Wallet\">\r\n                            <i class=\"fa fa-google-wallet\"></i>\r\n                        </a>\r\n                    </li>\r\n                    <li>\r\n                        <a href=\"#\" class=\"icoTwitter\" title=\"PayPal\">\r\n                            <i class=\"fa fa-paypal\"></i>\r\n                        </a>\r\n                    </li>\r\n                </ul>\r\n            </div>\r\n            <div class=\"col-sm-2\">\r\n                <h3 class=\"text-left\">Company</h3>\r\n                <ul class=\"footer-company\">\r\n                    <li>\r\n                        <a ui-sref=\"app.about\">About Us</a>\r\n                    </li>\r\n                    <li>\r\n                        <a ui-sref=\"app.home\">Courses</a>\r\n                    </li>\r\n                    <li>\r\n                        <a ui-sref=\"app.upcoming_events\">Upcoming Events</a>\r\n                    </li>\r\n                    <li>\r\n                        <a ui-sref=\"app.contact\">Contact Us</a>\r\n                    </li>\r\n                    <li>\r\n                        <a ui-sref=\"app.terms\">Term and conditions</a>\r\n                    </li>\r\n                    <li>\r\n                        <a ui-sref=\"app.accreditations\">Accreditation</a>\r\n                    </li>\r\n                </ul>\r\n            </div>\r\n            <div class=\"col-sm-3\">\r\n                <h3 class=\"text-left\">Quick Enquiry</h3>\r\n                <div class=\"row\">\r\n                    <div class=\"col-sm-6 form-group\">\r\n                        <input class=\"form-control\" id=\"name\" name=\"name\" placeholder=\"Name\" type=\"text\" ng-model=\"siteContact.fullname\" required>\r\n                    </div>\r\n                    <div class=\"col-sm-6 form-group\">\r\n                        <input class=\"form-control\" id=\"email\" name=\"email\" placeholder=\"Email\" type=\"email\" ng-model=\"siteContact.email\" required>\r\n                    </div>\r\n                </div>\r\n                <textarea class=\"form-control\" id=\"comments\" name=\"comments\" placeholder=\"Comment\" rows=\"5\" ng-model=\"siteContact.message\"></textarea>\r\n                <br>\r\n                <div class=\"row\">\r\n                    <div class=\"col-sm-12 form-group\">\r\n                        <button class=\"btn pull-right\" ng-class=\"siteContactSubmit == 'Submit' ? 'btn-primary' :'btn-success'\" ng-disabled=\"siteContactSubmit !== 'Submit'\"\r\n                            type=\"submit\" ng-click=\"contactSubmit()\">{{siteContactSubmit}}</button>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n    <div class=\"container-fluid footer-band\">\r\n        <div class=\"col-lg-12\">\r\n            <h6>&copy; 2016-2017 - QucikLearn Systems. All Rights Reserved. The certification names are the trademarks of their\r\n                respective owners.\r\n            </h6>\r\n        </div>\r\n    </div>\r\n</footer>";
-
-/***/ },
-/* 78 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = __webpack_require__.p + "_/images/logo_nav.png";
-
-/***/ },
-/* 79 */
-/***/ function(module, exports) {
-
-	module.exports = "<div class=\"jumbotron jumbotron_banner text-center\">\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-md-12 text-center\" style=\"padding-top:4%\">\r\n            <!--<img src=\"../images/logo.png\" alt=\"Qick Learn Systems\" width=\"30%\" />-->\r\n            <div class=\"container-fluid\">\r\n                <svg id=\"Layer_1\" style=\"width: 40%;\" data-name=\"Layer 1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 462.09 293.1\">\r\n                    <defs>\r\n                        <style>\r\n                            .cls-1 {\r\n                                fill: #c1c1c1;\r\n                            }\r\n\r\n                            .cls-2 {\r\n                                fill: #fff;\r\n                            }\r\n\r\n                            .cls-3 {\r\n                                fill: #eee;\r\n                            }\r\n                        </style>\r\n                    </defs>\r\n                    <title>logo</title>\r\n                    <g id=\"_Group_\" data-name=\"&lt;Group&gt;\">\r\n                        <path id=\"_Path_\" data-name=\"&lt;Path&gt;\" class=\"cls-1\" d=\"M179.46,361.85a111.1,111.1,0,1,1,99.94-62.45L300,331.19c14.5-22.12,24-57.68,24-80.5a144.47,144.47,0,1,0-86.78,132.53l-13.15-30.7A110.77,110.77,0,0,1,179.46,361.85Z\"\r\n                            transform=\"translate(-30.91 -102.14)\" />\r\n                        <path id=\"_Path_2\" data-name=\"&lt;Path&gt;\" class=\"cls-1\" d=\"M490,341a41.53,41.53,0,0,0-8.3-12.5,38.29,38.29,0,0,0-13-8.69q-7.72-3.22-18.84-3.22h-58a17.84,17.84,0,0,1-4.78-.49,7.72,7.72,0,0,1-2.83-1.46,8.69,8.69,0,0,1-3.32-7,9.27,9.27,0,0,1,2.73-6.83,8.24,8.24,0,0,1,3-1.85,15.54,15.54,0,0,1,5.17-.68h94.9v-35H389.9q-13.28,0-21.28,3.22a37.68,37.68,0,0,0-13.28,8.69,41.48,41.48,0,0,0-8.3,12.5,37.58,37.58,0,0,0-3,15,38.49,38.49,0,0,0,2.93,15.13,40.33,40.33,0,0,0,8.2,12.4,37.51,37.51,0,0,0,13.38,8.69q8.1,3.22,21.38,3.22h53.7a19.89,19.89,0,0,1,6,.68,7.7,7.7,0,0,1,3.42,2.25,9.53,9.53,0,0,1,2.73,7,8.64,8.64,0,0,1-5.76,8.49,18.06,18.06,0,0,1-6.35.88H309.38c-8,.24-14.71-1.39-16.88-3.48a43.57,43.57,0,0,1-6.67-8.17L221.59,246.33l-27.93,18.6,54.95,89.89c4,6.24,6.07,9.81,8.91,14.62a67.62,67.62,0,0,0,8.82,11.78c6.54,7.42,12.82,10.48,18.35,12.23s12.33,1.79,20.41,1.79H449.85q11.72,0,19.82-3.71a39.7,39.7,0,0,0,13.57-10,42.29,42.29,0,0,0,7.13-11.91A37.84,37.84,0,0,0,490,341Z\"\r\n                            transform=\"translate(-30.91 -102.14)\" />\r\n                    </g>\r\n                    <g id=\"_Group_2\" data-name=\"&lt;Group&gt;\">\r\n                        <path id=\"_Path_3\" data-name=\"&lt;Path&gt;\" class=\"cls-2\" d=\"M175.46,391.24V357.85a111.16,111.16,0,1,1,0-222.32V102.14a144.55,144.55,0,1,0,0,289.1Z\"\r\n                            transform=\"translate(-30.91 -102.14)\" />\r\n                        <path id=\"_Path_4\" data-name=\"&lt;Path&gt;\" class=\"cls-3\" d=\"M286.62,246.69a110.7,110.7,0,0,1-11.22,48.71L296,327.19c14.5-22.12,24-57.68,24-80.5A144.55,144.55,0,0,0,175.46,102.14v33.39A111.16,111.16,0,0,1,286.62,246.69Z\"\r\n                            transform=\"translate(-30.91 -102.14)\" />\r\n                        <path id=\"_Path_5\" data-name=\"&lt;Path&gt;\" class=\"cls-3\" d=\"M220.08,348.52a110.77,110.77,0,0,1-44.62,9.33v33.39a144,144,0,0,0,57.77-12Z\"\r\n                            transform=\"translate(-30.91 -102.14)\" />\r\n                        <path id=\"_Compound_Path_\" data-name=\"&lt;Compound Path&gt;\" class=\"cls-3\" d=\"M301.09,391.24c-8.07,0-14.87,0-20.41-1.79s-11.81-4.81-18.35-12.23a67.62,67.62,0,0,1-8.82-11.78c-2.85-4.81-4.93-8.38-8.91-14.62l-54.95-89.89,27.93-18.6L281.83,345.8A43.56,43.56,0,0,0,288.5,354c2.17,2.1,8.84,3.72,16.88,3.48H371.6l20,33.78Z\"\r\n                            transform=\"translate(-30.91 -102.14)\" />\r\n                        <path id=\"_Compound_Path_2\" data-name=\"&lt;Compound Path&gt;\" class=\"cls-2\" d=\"M482.75,294.19h-94.9a15.54,15.54,0,0,0-5.17.68,8.24,8.24,0,0,0-3,1.85,9.27,9.27,0,0,0-2.73,6.83,8.69,8.69,0,0,0,3.32,7,7.73,7.73,0,0,0,2.83,1.46,17.84,17.84,0,0,0,4.78.49h58q11.13,0,18.84,3.22a38.29,38.29,0,0,1,13,8.69A41.54,41.54,0,0,1,486,337a37.84,37.84,0,0,1,.39,28.7,42.29,42.29,0,0,1-7.13,11.91,39.7,39.7,0,0,1-13.57,10q-8.1,3.71-19.82,3.71H388.17l-70.28-33.78H439.6a18.06,18.06,0,0,0,6.35-.88,8.64,8.64,0,0,0,5.76-8.49,9.53,9.53,0,0,0-2.73-7,7.7,7.7,0,0,0-3.42-2.25,19.89,19.89,0,0,0-6-.68H385.9q-13.28,0-21.38-3.22a37.51,37.51,0,0,1-13.38-8.69,40.32,40.32,0,0,1-8.2-12.4A38.49,38.49,0,0,1,340,298.68a37.58,37.58,0,0,1,3-15,41.48,41.48,0,0,1,8.3-12.5,37.68,37.68,0,0,1,13.28-8.69q8-3.22,21.28-3.22h96.85Z\"\r\n                            transform=\"translate(-30.91 -102.14)\" />\r\n                    </g>\r\n                </svg>\r\n            </div>\r\n\r\n            <h1 class=\"lead jumbotron_banner_h1\">Welcome to QuickLearn Systems</h1>\r\n            <p>Set your sights on the finish line. Achieve your project goals.</p>\r\n        </div>\r\n    </div>\r\n    <div class=\"container-fuild\" style=\"margin-top:15px;\">\r\n        <div class=\"col-md-12 text-center\" onclick=\" $('html, body').animate({scrollTop:$('.jumbotron').height()+38}, 500, 'swing')\">\r\n            <i class=\"fa fa-angle-down\" style=\"font-size:80px;cursor:pointer\"></i>\r\n        </div>\r\n    </div>\r\n</div>\r\n<div class=\"container-fluid remove-padding\">\r\n    <div class=\"col-sm-12 remove-padding\">\r\n        <div id=\"myCarousel\" class=\"carousel slide\" data-ride=\"carousel\">\r\n            <div class=\"carousel-inner\" role=\"listbox\">\r\n                <div class=\"item\" ng-repeat=\"event in events\" ng-class=\"{active:!$index}\">\r\n                    <img ng-src=\"./images/{{event.slider}}.jpg\">\r\n                    <img ng-src=\"./images/{{event.slider}}.jpg\" class=\"blur-img\">\r\n                    <img ng-src=\"./images/{{event.slider}}_cap.png\" class=\"img-caption\">\r\n                    <div class=\"event-details container-fluid\">\r\n                        <div class=\"hidden-xs hidden-sm col-md-1 col-lg-1\"></div>\r\n                        <div class=\"hidden-xs hidden-sm col-md-5 col-lg-7\">\r\n                            <p><i class=\"fa fa-clipboard\" aria-hidden=\"true\"></i> <b>Course:</b> {{event.training}}</p>\r\n                            <p><i class=\"fa fa-calendar\" aria-hidden=\"true\"></i> <b>Date:</b> {{event.date}}</p>\r\n                            <p><i class=\"fa fa-location-arrow\" aria-hidden=\"true\"></i> <b>Location:</b> {{event.location}}</p>\r\n                        </div>\r\n                        <div class=\"hidden-xs hidden-sm col-md-6 col-lg-4\" style=\"padding-top:15px;\">\r\n                            <a ng-href=\"{{event.link}}\" style=\"text-decoration: none;\"><button class=\"btn btn-primary btn-block btn-lg\" style=\"font-family:Raleway\">Register Now</button></a>\r\n                        </div>\r\n                        <div class=\"col-xs-12 col-sm-12 hidden-md hidden-lg text-center\" style=\"font-size:medium; padding-top:0px; font-family:Raleway;\">\r\n                            <p><i class=\"fa fa-clipboard\" aria-hidden=\"true\"></i> <b>Course:</b> {{event.training}}</p>\r\n                            <p><i class=\"fa fa-calendar\" aria-hidden=\"true\"></i> <b>Date:</b> {{event.date}}</p>\r\n                            <p><i class=\"fa fa-location-arrow\" aria-hidden=\"true\"></i> <b>Location:</b> {{event.location}}</p>\r\n                        </div>\r\n                        <div class=\"col-xs-12 col-sm-12 hidden-md hidden-lg\">\r\n                            <a ng-href=\"{{event.link}}\" style=\"text-decoration: none;\"><button class=\"btn btn-primary btn-sm btn-block\" style=\"font-family:Raleway\">Register Now</button></a>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n\r\n                <!-- Left and right controls -->\r\n                <a class=\"left carousel-control\" data-target=\"#myCarousel\" role=\"button\" data-slide=\"prev\">\r\n                    <span class=\"glyphicon glyphicon-chevron-left\" aria-hidden=\"true\"></span>\r\n                    <span class=\"sr-only\">Previous</span>\r\n                </a>\r\n                <a class=\"right carousel-control\" data-target=\"#myCarousel\" role=\"button\" data-slide=\"next\">\r\n                    <span class=\"glyphicon glyphicon-chevron-right\" aria-hidden=\"true\"></span>\r\n                    <span class=\"sr-only\">Next</span>\r\n                </a>\r\n            </div>\r\n        </div>\r\n        <!-- <div class=\"col-sm-4 events\">\r\n            <div class=\"panel panel-primary\" style=\"margin-bottom:0px;\">\r\n                <div class=\"panel-heading\">\r\n                    <h3 class=\"panel-title\">Upcoming Events</h3>\r\n                </div>\r\n                <div class=\"panel-body panel-events\" ng-scrollbars>\r\n                    <div class=\"container-fluid\" style=\"padding:0px;\">\r\n                        <div ng-repeat=\"event in events\">\r\n                            <div class=\"col-sm-12 event-card\" style=\"margin-bottom: 10px;\">\r\n                                <p>\r\n                                    <strong>{{event.training}}</strong>\r\n                                </p>\r\n                                <p>Date: {{event.date}}\r\n                                    <br>Location: {{event.location}}</p>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div> -->\r\n    </div>\r\n    <br/>\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-md-12 text-center\">\r\n            <h2>Courses We Offer</h2>\r\n        </div>\r\n        <div class=\"container-fluid\">\r\n            <div class=\"row\">\r\n                <div class=\"col-sm-2\"></div>\r\n                <div class=\"col-sm-8\">\r\n                    <div class=\"input-group\">\r\n                        <input type=\"search\" class=\"form-control\" placeholder=\"Search for courses\" ng-model=\"query\">\r\n                        <span class=\"input-group-addon btn btn-primary\">\r\n                            <i class=\"fa fa-search\"></i> Search</span>\r\n                    </div>\r\n                    <hr class=\"divider\" style=\"border-top: 1px solid #3e4f5f;\">\r\n                </div>\r\n                <div class=\"col-sm-2\"></div>\r\n            </div>\r\n\r\n        </div>\r\n        <div class=\"container-fluid\">\r\n            <div class=\"col-sm-3\" ng-repeat=\"course in courses | filter:query\">\r\n                <div class=\"container card\">\r\n                    <div class=\"col-sm-12 card-image\">\r\n                        <img ng-src=\"{{course.image}}\" alt=\"{{course.title}}\" width=\"100%\" />\r\n                    </div>\r\n                    <div class=\"col-sm-12 card-content\">\r\n                        <h4 class=\"text-primary\">{{course.title}}</h4>\r\n                        <p>{{course.text}}</p>\r\n                        <hr class=\"card-divider\" style=\"border-top: 1px solid #ddd;\">\r\n                        <div class=\"col-sm-12 text-right card-btn\">\r\n                            <a class=\"btn btn-primary btn-sm\" ui-sref=\"{{course.url}}\">Learn More</a>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n    <br/>\r\n    <div class=\"container c-confes\">\r\n        <div id=\"cConfesCarousel\" class=\"carousel slide\" data-ride=\"carousel\">\r\n            <!-- Wrapper for slides -->\r\n            <div class=\"carousel-inner\" role=\"listbox\">\r\n                <div class=\"item\" ng-class=\"{'active': $index == 0}\" ng-repeat=\"testimonial in testimonials\" style=\"height: 200px;\">\r\n                    <div class=\"container-fluid\" style=\"margin-top:2%;\">\r\n                        <div class=\"row text-center\">\r\n                            <div class=\"col-md-12 c-confes-img\">\r\n                                <img ng-src=\"{{testimonial.image}}\">\r\n                            </div>\r\n                            <div class=\"col-md-12 c-confes-txt\">“{{testimonial.message}}”</div>\r\n                            <div class=\"col-md-12 c-confes-name\">\r\n                                <h4>{{testimonial.name}}</h4>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n            <!-- Left and right controls -->\r\n            <a class=\"left carousel-control\" data-target=\"#cConfesCarousel\" role=\"button\" data-slide=\"prev\" style=\"background-image:none;color:#263944;\">\r\n                <span class=\"glyphicon glyphicon-chevron-left\" aria-hidden=\"true\"></span>\r\n                <span class=\"sr-only\">Previous</span>\r\n            </a>\r\n            <a class=\"right carousel-control\" data-target=\"#cConfesCarousel\" role=\"button\" data-slide=\"next\" style=\"background-image:none;color:#263944;\">\r\n                <span class=\"glyphicon glyphicon-chevron-right\" aria-hidden=\"true\"></span>\r\n                <span class=\"sr-only\">Next</span>\r\n            </a>\r\n        </div>\r\n    </div>\r\n    <br/>\r\n    <div class=\"container text-center\">\r\n        <h3>Our Clients</h3>\r\n        <br>\r\n        <div class=\"row\">\r\n            <div class=\"col-sm-2\" ng-repeat=\"client in clients\">\r\n                <img ng-src=\"{{client.logo}}\" class=\"img-responsive\" style=\"width:100%;padding:5px;\" alt=\"{{client.name}}\">\r\n            </div>\r\n        </div>\r\n    </div>\r\n    <br/>";
-
-/***/ },
-/* 80 */
-/***/ function(module, exports) {
-
-	module.exports = "<div class=\"jumbotron text-center\">\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-md-12 text-center\" style=\"padding-top:4%\">\r\n            <h1 class=\"lead about_h1\">About QuickLearn Systems</h1>\r\n            <p class=\"caption\">Value for time and money invested is the prime aspiration of Quicklearn Systems.</p>\r\n        </div>\r\n    </div>\r\n</div>\r\n<div class=\"container-fluid about_page\">\r\n    <div class=\"col-lg-12 about-us\">\r\n        <div class=\"col-lg-6\">\r\n            <h2 class=\"lead about_h2\">About QuickLearn Systems</h2>\r\n            <p class=\"about_p\">QuickLearn Systems is professional training and certification provider catering its services from last 4 years.\r\n                Quicklearn provides world class training that includes online trainings, E-learning and Classroom trainings.\r\n                Customer satisfaction, Value for time and money invested is the prime aspiration of Quicklearn Systems. We\r\n                customize the trainings based on your requirements to ensure you get the best out from the trainings.</p>\r\n            <p class=\"about_p\">We strongly believe that it can be achieved by understanding the challenges in detail from customer perspective\r\n                and guide them accordingly to suit their career requirements and achieve their goals. Our Service and Support\r\n                team is equipped with the best Systems to provide transparent &amp; seamless Service to our customers. We\r\n                strongly believe in professionalism and ethics which we demonstrate in our business. Our Main goal is to\r\n                guide you through your success and ensure you grow up the ladder with a framework that suits every individual.</p>\r\n            <p class=\"about_p\">\r\n                We are a leading training provider for working professionals in the areas of Project &amp; Program Management, Service Management,\r\n                IT Governance &amp; Architecture and Quality Management. We offer live-online (instructor-led online), classroom\r\n                (instructor-led classroom), E-learning (online self-learning) courses, Customized and Corporate Trainings.\r\n            </p>\r\n            <p class=\"about_p\">\r\n                Whether it is an Individual or a Corporate, QuickLearn Systems strives to make the learning experience effective and fruitful\r\n                for the customer. QuickLearn Systems has several physical &amp; satellite training centers across India &amp;\r\n                the world. QuickLearn Systems is known in Major Metros in and across the globe.\r\n            </p>\r\n\r\n        </div>\r\n    </div>\r\n</div>\r\n<div class=\"container-fluid vision \">\r\n    <div class=\"container text-center\">\r\n        <h2 class=\"text-default\">Vision</h2>\r\n        <span class=\"text-default lead\">We are Limited not by Our Abilities but by Our Vision...</span>\r\n        <div class=\"container-fluid\">\r\n            <div class=\"col-sm-12\">\r\n                <div class=\"col-sm-1\"></div>\r\n                <div class=\"col-sm-10\">\r\n                    <p class=\"about_p\">Be the standard and benchmark to beat. Be the standard that other enterprise training institutes strive\r\n                        to reach. To be respected and appreciated by our customers for the outstanding quality of our trainings,creativity,\r\n                        helpfulness and the effectiveness of our training programs.\r\n                    </p>\r\n                </div>\r\n                <div class=\"col-sm-1\"></div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n<div class=\"mission\">\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-sm-6\">\r\n            <h1 class=\"text-default about_h1\">Mission</h1>\r\n            <span class=\"text-default lead\">Where there is a will there is only the A - Z way…</span>\r\n            <p class=\"about_p\">Enable Customers with the knowledge capable to develop and enhance their skills to create different, endeavours\r\n                to be a professional. We offer flexible trainings, customized training and solutions designed to educate,\r\n                inspire and motivate individuals and businesses helping you reach and achieve your goals and aspirations.</p>\r\n        </div>\r\n    </div>\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-sm-6\">\r\n            <h1 class=\"text-default about_h1\">Values</h1>\r\n            <span class=\"text-default lead\">We at QuickLearn Systems,\r\n                <br/> Fully Committed to help you succeed.</span>\r\n            <ul>\r\n                <li>\r\n                    <p class=\"about_p\">\r\n                        <b>Quality</b> teaching and learning.</p>\r\n                </li>\r\n                <li>\r\n                    <p class=\"about_p\">\r\n                        <b>Respect</b> and\r\n                        <b>Care</b> for all.</p>\r\n                </li>\r\n                <li>\r\n                    <p class=\"about_p\">\r\n                        <b>Customer Satisfaction</b> is our priority.</p>\r\n                </li>\r\n                <li>\r\n                    <p class=\"about_p\">\r\n                        <b>Focus</b> on\r\n                        <b>continuous improvement</b>.</p>\r\n                </li>\r\n                <li>\r\n                    <p class=\"about_p\">\r\n                        <b>Long Term Relationship</b> with\r\n                        <b>Our customers</b>.</p>\r\n                </li>\r\n            </ul>\r\n        </div>\r\n    </div>\r\n</div>";
-
-/***/ },
-/* 81 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = "<div class=\"jumbotron text-center\">\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-md-12 text-center\" style=\"padding-top:4%;\">\r\n            <h1 class=\"lead\" style=\"font-size: 3em; margin-top: 2em;\">Upcoming Events</h1>\r\n        </div>\r\n    </div>\r\n</div>\r\n<div class=\"container-fluid content-container courses\">\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-md-8\">\r\n            <h2>Class Room Training Schedule:</h2>\r\n            <p>If following schedule does not match with your availibilty , please call us..</p>\r\n            <table class=\"table table-striped table-hover\">\r\n                <thead>\r\n                    <tr>\r\n                        <th width=\"40%\">Training Name</th>\r\n                        <th>Schedule Date</th>\r\n                        <th>Location</th>\r\n                        <th>Select Training</th>\r\n                    </tr>\r\n                </thead>\r\n                <tbody>\r\n                    <tr ng-repeat=\"event in events\">\r\n                        <td>{{event.training}}</td>\r\n                        <td align>{{event.date}}</td>\r\n                        <td>{{event.location}}</td>\r\n                        <td><a href=\"{{event.link}}\">Click Here</a></td>\r\n                    </tr>\r\n                </tbody>\r\n            </table>\r\n        </div>\r\n        <div class=\"col-md-4\">\r\n            <img src=\"" + __webpack_require__(82) + "\" alt=\"Upcoming Events\">\r\n        </div>\r\n    </div>\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-md-4\">\r\n            <img src=\"" + __webpack_require__(83) + "\" alt=\"Online Events\" style=\"margin-top: 50%;\">\r\n        </div>\r\n        <div class=\"col-md-8\">\r\n            <h2>Online Training Schedule:</h2>\r\n            <table class=\"table table-striped table-hover\">\r\n                <thead>\r\n                    <tr>\r\n                        <th width=\"40%\">Training Name</th>\r\n                        <th>Schedule Date</th>\r\n                        <th>Location</th>\r\n                        <th>Select Training</th>\r\n                    </tr>\r\n                </thead>\r\n                <tbody>\r\n                    <tr ng-repeat=\"event in onlineEvents\">\r\n                        <td>{{event.training}}</td>\r\n                        <td align>{{event.date}}</td>\r\n                        <td>{{event.location}}</td>\r\n                        <td><a href=\"{{event.link}}\">Click Here</a></td>\r\n                    </tr>\r\n                </tbody>\r\n            </table>\r\n        </div>\r\n    </div>\r\n</div>";
-
-/***/ },
-/* 82 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = __webpack_require__.p + "_/images/Upcoming-Events.png";
-
-/***/ },
-/* 83 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = __webpack_require__.p + "_/images/online-training.png";
-
-/***/ },
-/* 84 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = "<div class=\"jumbotron text-center\">\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-md-12 text-center\" style=\"padding-top:4%;\">\r\n            <h1 class=\"lead\" style=\"font-size: 3em; margin-top: 2em;\">Our Services</h1>\r\n        </div>\r\n    </div>\r\n</div>\r\n<div class=\"container-fluid content-container courses\">\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-lg-8\">\r\n            <h2>Classroom Training</h2>\r\n            <p>At Quicklearn System we believe learning is just not about gaining knowledge; it is also about attaining wisdom.\r\n                Classroom Training is the best way to network with people along with finishing your course. The Trainees\r\n                will get an opportunity to meet with the professionals and cross train the knowledge from them. Though, there\r\n                is advancement in the modes of learning, yet, classroom training has its own charm.</p>\r\n            <p>The Training groups are customized as per the requirement of the trainees. There is always a human-touch involved\r\n                in classroom training unlike the online training courses. There is flexibility to interact with the group\r\n                members. The trainees can clear their doubts instantly with the trainers. Quicklearn System ensures that\r\n                trainees are more refined and productive after the course.</p>\r\n            <p>Regardless of your location, accelerate your knowledge by attending a course in one of our classrooms training\r\n                program. These highly reciprocated classes provide hands-on practical training using examples, so you can\r\n                apply real-world scenarios to practice and refine your own skills.</p>\r\n            <ul>\r\n                <li>\r\n                    <p>Training groups can be large or small</p>\r\n                </li>\r\n                <li>\r\n                    <p>The classroom environment provides the important “human touch,” which is often missing in technology-based\r\n                        training\r\n                    </p>\r\n                </li>\r\n                <li>\r\n                    <p>Group interaction enhances learning. Employees learn from one another as well as from the trainer</p>\r\n                </li>\r\n                <li>\r\n                    <p>The group setting also teaches employees how to interact with one another in a professional, productive,\r\n                        cooperative way</p>\r\n                </li>\r\n                <p>We have the team of vast and varied industry experience trainers having in-depth knowledge in their respective\r\n                    knowledge areas.</p>\r\n            </ul>\r\n        </div>\r\n        <div class=\"col-lg-4 text-center\"><img src=\"" + __webpack_require__(85) + "\" alt=\"Classroom Training\"></div>\r\n    </div>\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-lg-4\">\r\n            <img src=\"" + __webpack_require__(86) + "\" alt=\"eLearning\" style=\"width:100%; margin-top:50%;\">\r\n        </div>\r\n        <div class=\"col-lg-8\">\r\n            <h2>E-Learning Training</h2>\r\n            <p>Quicklearn System provides you flexible eLearning that can be done in short chunks of time that can fit around\r\n                your daily schedule. Trainees will have a set time of learning, normally divided into modules, with a deadline\r\n                in which to do them in. This way, if you want to do all of the learning in one day as you work better this\r\n                way, you can.</p>\r\n            <p>Quicklearn System eLearning courses aren’t confined to be fixed to try and suit the needs of the majority. If\r\n                you feel you already know a particular area well and don’t need to spend an hour on it again, then you can\r\n                skim over it and concentrate that time on something you feel you need to work more at. Everyone is able to\r\n                learn at their own pace.</p>\r\n            <p>Quicklearn System eLearning’s focuses more on an Individual to suit their requirements. You can get directly\r\n                in touch with the instructor via email to clarify your doubts. With clever design, user experience, and multimedia,\r\n                eLearning’s can prove to be a richer and more effective learning experience than traditional methods and\r\n                channels.\r\n            </p>\r\n        </div>\r\n    </div>\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-lg-6\">\r\n            <h2>Customized and Corporate Trainings</h2>\r\n            <p>Quicklearn systems offer complete customized and corporate training solutions in order to address the business\r\n                needs and learning objectives of our clients. We understand that your business and training goals are unique,\r\n                and many organizations today want a more highly customized training program for improving the delivery of\r\n                services. We emphasise on Employee Motivation, engagement and performance.</p>\r\n            <p>With rich and diverse exposure across industry we have trained almost 2500 people across different, verticals\r\n                like Information Technology, BPO, Telecom, Oil and Gas, Healthcare, Banking and Financial Services Industries.</p>\r\n            <p>We build your training from the ground up. We’ll work together to identify and understand your training objectives\r\n                and goals. From there, we’ll select the specific skills, strategies and the appropriate delivery style to\r\n                accomplish the objectives, develop the content, incorporate your culture, design exercises and activities\r\n                for active participation and provide follow-up post training activities.</p>\r\n            <p>You’ll have an opportunity to discuss your training and development objectives with our hand-selected trainer\r\n                who will incorporate your input into the training day. Unlike other training companies, the trainer facilitating\r\n                your event will be an integral part of this process. Our trainers don’t just “show up and talk.” </p>\r\n            <p>We would work with your Learning and Development team to understand what it takes for your training to be a successful.</p>\r\n        </div>\r\n        <div class=\"col-lg-6\">\r\n            <img src=\"" + __webpack_require__(87) + "\" alt=\"Corporate trainings\" style=\"width:100%;margin-top:10%;\">\r\n        </div>\r\n        <div class=\"col-lg-12\">\r\n            <p><b>STEP 1</b>: Requirement gathering</p>\r\n            <p>Getting started with discussing your specific training objectives and business goals with your organisation.\r\n                Time frames and deadline, your organization’s culture, details about the participants, delivery style, and\r\n                most importantly the training outcome you desire are all an integral part of this discussion.</p>\r\n            <p><b>STEP 2</b>: Counselling the topics and content</p>\r\n            <p>Based on your business needs and objectives, our team will guide you with appropriate training solution inclusive\r\n                of training, certifying body, trainer of your choice and content.</p>\r\n            <p><b>STEP 3</b>: Develop Custom Content </p>\r\n            <p>Based on your organization requirements we will customize a program by developing customized content, examples,\r\n                exercises and activities specifically for your organization.</p>\r\n            <p><b>STEP 4</b>: Delivery and Assessment</p>\r\n            <p>Our trainer will deliver an interactive day that is on target with your business goals and objectives. Depending\r\n                on the delivery style identified as the best choice for your group, your training program is maximized for\r\n                retention by including both traditional and experiential learning models. Incorporating small and large group\r\n                activities, case studies, role-plays and interactive exercises presented by one of our skilled and dynamic\r\n                trainers, you can count on a program that educates and inspires your participants while meeting your important\r\n                business goals.</p>\r\n            <p>At the end of the session the participant progress and knowledge gain is assessed and. This will ensure the training\r\n                objectives are met.</p>\r\n            <p><b>STEP 5</b>: Follow-Up</p>\r\n            <p>Your Satisfaction is utmost priority for us. We conduct satisfaction and quality assessments at the close of\r\n                each training day to ensure we meet your objectives. Should you feel something’s been missed, we’ll work\r\n                until we’ve matched your expectations and needs.</p>\r\n            <p><b>STEP 6</b>: Post Training Support and Activities</p>\r\n            <p>After initial training, post training support is a critical element in maximizing your organization’s training\r\n                investment. We offer a wide range of techniques which reinforce the new concepts and skills presented. We\r\n                also offer you post activities and Validation techniques so that your trainees do are in touch with the subject.</p>\r\n        </div>\r\n    </div>\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-lg-8\">\r\n            <h2>Live Virtual training</h2>\r\n            <p>At Quicklearn systems the most important aspects of a successful virtual training strategy is to consider audience\r\n                and their primary objectives. The primary learning objectives will help you to select key pieces of information\r\n                that should be included in your Virtual course plan, and will also help you to develop a virtual learning\r\n                strategy that caters to their varied learning needs. </p>\r\n            <p>At Quicklearn systems the focus is on user-friendly content delivery. We actively engage and thought-provoking\r\n                questions to drive the discussion and make it an interactive session. This means that we should be delivering\r\n                the key pieces of information, and then asking engaging questions that make the employee think and interact.\r\n                This makes them feel as though they are active participants, rather than just attendees at a lecture.</p>\r\n            <p>Drawing attention to important content and offer periodic recaps. It’s a proven fact that too much information\r\n                at once can lead to cognitive overload. As such, we try to keep sessions as short as possible.</p>\r\n            <p>This enables participants all across the world to attend Best in Class, Project Management, Program Management,\r\n                Quality Management &amp; IT Service Management trainings irrespective of their geographical location &amp;\r\n                also let them save on Travel related Costs.</p>\r\n        </div>\r\n        <div class=\"col-lg-4\"><img src=\"" + __webpack_require__(88) + "\" alt=\"Live virtual training\" style=\"width:100%;margin-top:25%;\"></div>\r\n    </div>\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-lg-12\">\r\n            <h2>Contact Us:</h2>\r\n            <p>For More information regarding your Training requirement. Write to us at: <a href=\"mailto:info@quicklearnsys.com\">info@quicklearnsys.com</a> or call us at +91 9100195152</p>\r\n        </div>\r\n    </div>\r\n</div>";
-
-/***/ },
-/* 85 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = __webpack_require__.p + "_/images/classroom_training.png";
-
-/***/ },
-/* 86 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = __webpack_require__.p + "_/images/elearning.png";
-
-/***/ },
-/* 87 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = __webpack_require__.p + "_/images/corporate_trainings.png";
-
-/***/ },
-/* 88 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = __webpack_require__.p + "_/images/live_virtual_training.png";
-
-/***/ },
-/* 89 */
-/***/ function(module, exports) {
-
-	module.exports = "<div class=\"jumbotron text-center\">\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-md-12 text-center\" style=\"padding-top:4%;\">\r\n            <h1 class=\"lead\" style=\"font-size: 3em; margin-top: 2em;\">Contact Us</h1>\r\n        </div>\r\n    </div>\r\n</div>\r\n<div class=\"container-fluid container-contact shadow-container\">\r\n    <div class=\"contact-form\">\r\n        <div class=\"col-md-12 text-center\">\r\n            <ul class=\"nav nav-tabs\">\r\n                <li class=\"active\"><a data-toggle=\"tab\" data-target=\"#form\"><i class=\"fa fa-file-text\"></i> Contact Form</a></li>\r\n                <li><a data-toggle=\"tab\" data-target=\"#godwin\"><i class=\"fa fa-envelope\"></i> Email</a></li>\r\n                <li><a data-toggle=\"tab\" data-target=\"#phone\"><i class=\"fa fa-phone-square\"></i> Phone</a></li>\r\n                <li><a data-toggle=\"tab\" data-target=\"#chat\"><i class=\"fa fa-comments\"></i> Chat</a></li>\r\n                <li><a data-toggle=\"tab\" data-target=\"#address\"><i class=\"fa fa-map-marker\"></i> Address</a></li>\r\n            </ul>\r\n\r\n            <div class=\"tab-content\">\r\n                <div id=\"form\" class=\"tab-pane fade in active\">\r\n                    <h2 class=\"text-primary text-center\"><strong>Contact Form</strong></h2>\r\n                    <form class=\"form-horizontal\" ng-submit=\"contactSubmit()\">\r\n                        <div class=\"form-group\">\r\n                            <label for=\"fullName\" class=\"col-lg-3 control-label\">Name *</label>\r\n                            <div class=\"col-lg-9\">\r\n                                <input type=\"text\" ng-model=\"siteContact.fullname\" class=\"form-control\" id=\"fullName\" placeholder=\"Full Name\" required>\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"form-group\">\r\n                            <label for=\"email\" class=\"col-lg-3 control-label\">Email *</label>\r\n                            <div class=\"col-lg-9\">\r\n                                <input type=\"text\" ng-model=\"siteContact.email\" class=\"form-control\" id=\"email\" placeholder=\"Email\" required>\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"form-group\">\r\n                            <label for=\"select\" class=\"col-lg-3 control-label\">Course Interested *</label>\r\n                            <div class=\"col-lg-9\">\r\n                                <select class=\"form-control\" id=\"select\" ng-model=\"siteContact.courseInterested\" ng-init=\"siteContact.courseInterested = coursesList[0]\">\r\n                            <option ng-repeat=\"course in coursesList\" ng-disabled=\"$index == 0\" value=\"{{course}}\">{{course}}</option>\r\n                        </select>\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"form-group\">\r\n                            <label for=\"textArea\" class=\"col-lg-3 control-label\">Remarks *</label>\r\n                            <div class=\"col-lg-9\">\r\n                                <textarea class=\"form-control\" rows=\"3\" id=\"textArea\" placeholder=\"Your Remarks\" ng-model=\"siteContact.message\"></textarea>\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"form-group\">\r\n                            <div class=\"col-lg-3\"></div>\r\n                            <div class=\"col-lg-6 text-center\">\r\n                                <input type=\"submit\" class=\"btn btn-block\" ng-class=\"siteContactSubmit == 'Submit' ? 'btn-primary' :'btn-success'\" ng-disabled=\"siteContactSubmit !== 'Submit'\"\r\n                                    value=\"{{siteContactSubmit}}\">\r\n                            </div>\r\n                            <div class=\"col-lg-3\"></div>\r\n                        </div>\r\n                    </form>\r\n                </div>\r\n                <div id=\"godwin\" class=\"tab-pane fade text-left\">\r\n                    <h2 class=\"text-primary text-center\"><strong>Email</strong></h2>\r\n                    <p class=\"text-left\">Simply send us an email at <a href=\"mailto:info@quicklearnsys.com\"><strong>info@quicklearnsys.com</strong></a>.\r\n                        Most emails are replied to in under 15 minutes.</p>\r\n                </div>\r\n                <div id=\"phone\" class=\"tab-pane fade text-left\">\r\n                    <h2 class=\"text-primary text-center\"><strong>Phone</strong></h2>\r\n                    <p class=\"text-left\">For any information regarding your Training and Certification requirement call us at: <strong><u><span style=\"font-family:courier;\"><br>+91 9100195152<br>+91 9100195153</span></u></strong></p>\r\n                </div>\r\n                <div id=\"chat\" class=\"tab-pane fade text-left\">\r\n                    <h2 class=\"text-primary text-center\"><strong>Chat</strong></h2>\r\n                    <p class=\"text-left\">Let's chat! Simply activate the chat <strong>pop-up</strong> at the bottom right hand corner of your\r\n                        screen and one of our representatives will chat with you live.</p>\r\n                </div>\r\n                <div id=\"address\" class=\"tab-pane fade text-left\">\r\n                    <h2 class=\"text-primary text-center\"><strong>Office Address</strong></h2>\r\n                    <p class=\"text-left\">\r\n                        <address>\r\n                            QuickLearn Systems, Lorven. Office No. 2, Block A &amp; B, 2nd Floor, Vaishnavi Cynsoure, Near Gachibowali Flyover, Hyderabad\r\n                            500034.\r\n                        </address>\r\n                    </p>\r\n                    <div class=\"container-fluid\" style=\"padding:0px\">\r\n                        <div class=\"col-sm-12\" style=\"padding:0px\">\r\n                            <iframe src=\"https://www.google.com/maps/d/u/0/embed?mid=1EUlel-g8P2eywmy3tsKxaVeN5X4\" width=\"514\" height=\"480\"></iframe>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>";
-
-/***/ },
-/* 90 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = "<div class=\"jumbotron text-center\">\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-md-12 text-center\" style=\"padding-top:4%;\">\r\n            <h1 class=\"lead\" style=\"font-size: 3em; margin-top: 2em;\">Terms and Conditions</h1>\r\n        </div>\r\n    </div>\r\n</div>\r\n<div class=\"container-fluid content-container courses\">\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-lg-8\">\r\n            <h2>Terms of Use</h2>\r\n            <h3>Please read the following carefully</h3>\r\n            <p>These terms and conditions (\"Terms and Conditions\") control your use of this website gvstechnosoft.com (\"Website\").\r\n                In these Terms and Conditions, \"QuickLearn Systems\" is referred to as the \"Company\", \"us,\" or \"we.\"</p>\r\n            <p>'You' refers as user or a paying customer. If you are a company or another person who gives access to company\r\n                products, you agree to take responsibility in full in case of damages or indemnification that could properly\r\n                lie against the customer.</p>\r\n            <p>The QuickLearn Systems web site (the 'Site'), the educational services made available through the site and the\r\n                content (the 'Products') are owned, operated and maintained, as applicable, by QuickLearn Systems ('we',\r\n                'our', 'us', or the 'Company'). The Site, Products and Content are, collectively, the 'Company Products'.</p>\r\n            <p>By (a) using or accessing the Company Products, including, but not limited to downloading or accessing, (b) offering\r\n                a Course through the Site or through Software; you agree to the terms and conditions set forth in these Terms\r\n                of Use (the \"Terms\")</p>\r\n            <p>By using this website or its Products and Services, You Agree and Warrant that you have read, Understood, and\r\n                agree to be bound by these terms. Company's privacy policy can be found at privacy policy. If you do not\r\n                accept these terms, you must not use - and are not authorized to use - all or any portion of the company's\r\n                website and its products or services (as defined below).</p>\r\n        </div>\r\n        <div class=\"col-lg-4 text-center\"><img src=\"" + __webpack_require__(91) + "\" alt=\"Terms And Conditions\"></div>\r\n    </div>\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-lg-12\">\r\n            <h2>Please read them carefully before you use the services of this site.</h2>\r\n            <ul>\r\n                <li>\r\n                    <p>You should not use this site in an unlawful manner; you must respect website terms and conditions and\r\n                        follow the privacy policy.</p>\r\n                </li>\r\n                <li>\r\n                    <p>Under no situations or circumstances, the company will be liable for any change in the content which\r\n                        it provides on the website through its products and services, including but not limited to any errors,\r\n                        omissions, loss or damage experienced in connection with the use of exposure, any content made available\r\n                        via our products, services or various resources such as email, blog etc.</p>\r\n                </li>\r\n                <li>\r\n                    <p>Our services are free to any user with access to the internet. However, we are not responsible for the\r\n                        charges incurred for the usage of hardware, software or internet services provider fee. Also, the\r\n                        user is fully responsible for the proper functioning of computer hardware and internet access</p>\r\n                </li>\r\n                <li>\r\n                    <p>You will be required to use login credentials for some of the sections on the site and the company reserves\r\n                        the right to block access to our services for any user who does not follow these conditions</p>\r\n                </li>\r\n                <li>\r\n                    <p>We make sure that users get uninterrupted access to our service, but there is no obligation to do so.</p>\r\n                </li>\r\n                <li>\r\n                    <p>QuickLearn Systems is not responsible and is not obligated for issues in your network or server beyond\r\n                        certain limits.</p>\r\n                </li>\r\n            </ul>\r\n        </div>\r\n        <div class=\"container-fluid\">\r\n            <div class=\"col-lg-12\">\r\n                <h2>Website usage guidelines</h2>\r\n                <ul>\r\n                    <li>\r\n                        <p>Do not Insult, abuse, harass, stalk, threaten or otherwise infringe the rights of others;</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>Do not publish post, distribute or disseminate any defamatory, infringing, indecent, offensive or\r\n                            unlawful material or information.</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>Do not upload, install, transfer files which are protected by Intellectual Property laws or software\r\n                            which affect other computers.</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>It's prohibited to edit HTML source code, reverse engineer or attempt to hack.</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>Do not run Spam services/scripts or anything which could affect infrastructure, and in turn, users.</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>Do not communicate spam, advertise or sell services such as digital downloads, eBooks or phishing\r\n                            links.\r\n                        </p>\r\n                    </li>\r\n                    <li>\r\n                        <p>You may not copy, distribute and indulge in plagiarism with website content or user submitted content.</p>\r\n                    </li>\r\n                </ul>\r\n            </div>\r\n        </div>\r\n        <div class=\"container-fluid\">\r\n            <div class=\"col-lg-12\">\r\n                <h2>The content</h2>\r\n                <p>All website content or information that can be seen, heard or otherwise experienced on the Site is copyrighted\r\n                    and belongs to QuickLearn Systems or its partners, affiliates or third parties. You may use the Site,\r\n                    the Service and the Content for your own personal, non-commercial use only.</p>\r\n                <p>You may download and print the available material for your own personal, non-commercial use only.</p>\r\n                <p>You will not transfer any information from the website or produce derivative work which you can display,\r\n                    distribute or transmit.</p>\r\n            </div>\r\n        </div>\r\n        <div class=\"container-fluid\">\r\n            <div class=\"col-lg-12\">\r\n                <h2>Links and Hyperlinks Terms</h2>\r\n                <p>This website may have links to other websites. We do not undertake any control on the content of these websites;\r\n                    nor are we responsible for their website content. The sole purpose of the links included is to provide\r\n                    users information. Hence, QuickLearn Systems will not be held responsible.</p>\r\n            </div>\r\n        </div>\r\n        <div class=\"container-fluid\">\r\n            <div class=\"col-lg-12\">\r\n                <h2>Hyperlinks</h2>\r\n                <ul>\r\n                    <li>\r\n                        <p>You may not mirror or frame the home page or any other pages of this Site on any other web site or\r\n                            web page.\r\n                        </p>\r\n                    </li>\r\n                    <li>\r\n                        <p>Do not link to QuickLearn Systems pages and subpages with spam links/anchor text which could provide\r\n                            false impression. This may create misunderstanding for the users.</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>Do not use or include copyrighted or registered trademarks, or Intellectual property images, design\r\n                            or content as a link to QuickLearn Systems website.</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>Do not link to pages which support racism, terrorism.</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>Do not link to pages which provide pornographic content and violate human rights.</p>\r\n                    </li>\r\n                </ul>\r\n            </div>\r\n        </div>\r\n        <div class=\"continer\">\r\n            <div class=\"col-lg-12\">\r\n                <h2>Copyright and Intellectual Property</h2>\r\n                <p>We value and respect others intellectual property and expect our users to do the same.</p>\r\n                <p>The entire contents of the Site are protected by copyright and trademark laws. The owner of the copyrights\r\n                    and trademarks are gvstechnosoft.com, its affiliates or other third party licensors. The material on\r\n                    the site, including text, graphics, code and/or software is copyrighted and belongs to QuickLearn Systems;\r\n                    therefore you may not duplicate, modify, publish or reproduce the content in any manner.</p>\r\n                <p>QuickLearn Systems does not take any responsibility for the content on other sites (except our partners and\r\n                    affiliates), that you may find when searching or accessing QuickLearn Systems products or services. The\r\n                    privacy policy and terms of use of the sites that you visit will administer that material.</p>\r\n                <p>QuickLearn Systems has all the rights to disable or prohibit access to the users who do not respect and involve\r\n                    in the infringement of QuickLearn Systems intellectual property. You are not allowed to use any of the\r\n                    digital images or logos from the website. In case of copyright issues, there has to be a written consent\r\n                    from the trademark owner\r\n                </p>\r\n            </div>\r\n        </div>\r\n        <div class=\"container-fluid\">\r\n            <div class=\"col-lg-12\">\r\n                <h2>Claims of Intellectual Property Violations</h2>\r\n                <p>If you believe that your work has been used without your permission in a way which prompts for copyright\r\n                    infringement. Please provide us the below information and we will act on it.</p>\r\n                <ul>\r\n                    <li>\r\n                        <p>The authorized person who will act on behalf of the owner of the copyright, should send a digital\r\n                            or physical signature</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>A description of the copyrighted work that you claim to be infringing your IP</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>A description of where and how the material that you claim is infringing is located on the QuickLearn\r\n                            Systems website, with enough detail that we may find it on the website</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>Contact Details - Address, telephone number, and email address.</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>A statement by you, that the information which you provided is accurate and your claim of the copyright\r\n                            or intellectual property is on your owner's behalf</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>You can reach QuickLearn Systems to notify your claims of copyright By email- <a class=\"link\">support@quicklearnsys.com</a></p>\r\n                    </li>\r\n                </ul>\r\n            </div>\r\n        </div>\r\n        <div class=\"container-fluid\">\r\n            <div class=\"col-lg-12\">\r\n                <h2>Transaction Terms</h2>\r\n                <p>If you believe that your work has been used without your permission in a way which prompts for copyright infringement. Please provide us the below information and we will act on it.</p>\r\n                <ul>\r\n                    <li>\r\n                        <p>To make a transaction on QuickLearn Systems website, you are bound to pay for that transaction</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>Please pay close attention to your payment details such as total bill, taxes, shipping costs, discounts</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>There are certain products which require additional terms and conditions which you have to agree before you make the purchase</p>\r\n                    </li>\r\n                </ul>\r\n                <p>WE MAKE NO WARRANTIES OF ANY KIND, EXPRESSED OR IMPLIED, WITH RESPECT TO ANY PRODUCTS OR SERVICES SOLD ON OR THROUGH QUICKLEARN SYSTEMS.</p>\r\n                <p>No additional or different terms contained in any purchase order, document, transmission or other communication shall be binding upon QuickLearn Systems unless agreed to by QuickLearn Systems in writing.</p>\r\n                <p>QuickLearn Systems reserves the right to modify, change without prior notice and in its sole discretion, to limit the order quantity on any item and to refuse service to anyone.</p>\r\n            </div>\r\n        </div>\r\n        <div class=\"container-fluid\">\r\n            <div class=\"col-lg-12\">\r\n                <h2>Pricing Disclaimer</h2>\r\n                <p>All prices, products and offers of QuickLearn Systems website are subject to change without notice.</p>\r\n                <p>While we make sure to provide most accurate and up-to-date information, in some cases one or more items on our web site may be priced incorrectly. This might happen due to human errors, digital images, technical error or a mismatch in pricing information received from our suppliers.</p>\r\n                <p>QuickLearn Systems reserves the right to change prices for all our products, offers or deals. These changes are done due to market conditions, course termination, providers, price changes, errors in advertisements and other mitigating circumstances. However the price you paid at the time of purchase still holds for you.</p>\r\n                <h2>Proprietary Use of QuickLearn Systems Study Material</h2>\r\n                <p>QuickLearn Systems reserves the right to change prices for all our products, offers or deals. These changes are done due to market conditions, course termination, providers, price changes, errors in advertisements and other mitigating circumstances. However the price you paid at the time of purchase still holds for you.</p>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>";
-
-/***/ },
-/* 91 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = __webpack_require__.p + "_/images/terms_main.png";
-
-/***/ },
-/* 92 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = "<div class=\"jumbotron text-center\">\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-md-12 text-center\" style=\"padding-top:4%;\">\r\n            <h1 class=\"lead\" style=\"font-size: 3em; margin-top: 2em;\">Accreditations</h1>\r\n        </div>\r\n    </div>\r\n</div>\r\n<div class=\"container-fluid content-container\" style=\"min-height: 300px;padding-top: 119px;\">\r\n    <div class=\"container text-center\">\r\n        <div class=\"col-sm-3\" style=\"margin-bottom:12px;\">\r\n            <img src=\"" + __webpack_require__(93) + "\" alt=\"\">\r\n        </div>\r\n        <div class=\"col-sm-3\" style=\"margin-bottom:12px;\">\r\n            <img src=\"" + __webpack_require__(94) + "\" alt=\"\">\r\n        </div>\r\n        <div class=\"col-sm-3\" style=\"margin-bottom:12px;\">\r\n            <img src=\"" + __webpack_require__(95) + "\" alt=\"\">\r\n        </div>\r\n        <div class=\"col-sm-3\" style=\"margin-bottom:12px;\">\r\n            <img src=\"" + __webpack_require__(96) + "\" alt=\"\">\r\n        </div>\r\n    </div>\r\n    <hr>\r\n    <div class=\"container-fluid\" style=\"padding:15px 50px;\">\r\n        <h1>Disclaimer</h1>\r\n        <p>\r\n            ITIL® is a registered trade mark of AXELOS Limited. The Swirl logo™ is a trade mark of AXELOS Limited PRINCE2® is a registered\r\n            trade mark of AXELOS Limited. The Swirl logo ™ is a trade mark of AXELOS Limited. PMP® is a registered mark of\r\n            the Project Management Institute, Inc. All rights reserved.</p>\r\n    </div>\r\n</div>";
-
-/***/ },
-/* 93 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = __webpack_require__.p + "_/images/acceredation/1.png";
-
-/***/ },
-/* 94 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = __webpack_require__.p + "_/images/acceredation/2.png";
-
-/***/ },
-/* 95 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = __webpack_require__.p + "_/images/acceredation/3.png";
-
-/***/ },
-/* 96 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = __webpack_require__.p + "_/images/acceredation/4.png";
-
-/***/ },
-/* 97 */
-/***/ function(module, exports) {
-
-	angular.module('qls')
-	    .controller('appController', ['$rootScope', '$scope', 'ngMeta', '$http', function ($rootScope, $scope, ngMeta, $http) {
-	        $rootScope.enquiryState = false;
-	        $rootScope.mobileMenuState = false;
-	        $scope.coursesList = [
-	            "Select a course",
-	            "ITIL Foundation",
-	            "ITIL Service Strategy",
-	            "ITIL Service Design",
-	            "ITIL Service Transition",
-	            "ITIL Service Operation",
-	            "ITIL Continual Service Improvement",
-	            "ITIL Service, Offering and Agreement (SOA)",
-	            "ITIL Planning, Protection and Optimization (PPO)",
-	            "ITIL Release, Control and Validation (RCV)",
-	            "ITIL Operational, Support and Analysis (OSA)",
-	            "ITIL®  Managing Across The Lifecycle",
-	            "SIAM Foundation",
-	            "CAPM",
-	            "PMP",
-	            "ACP",
-	            "Prince2 Foundation",
-	            "Prince2 Practitioner",
-	            "Prince2 Agile",
-	            "Scrum Master",
-	            "Managing Successful Programs",
-	            "SAFe 4.5 (SAFe Agilist)",
-	            "DevOps Master",
-	            "Six Sigma Green Belt",
-	            "Six Sigma Black Belt",
-	            "COBIT 5 Foundation",
-	            "TOGAF 9.1 Level  1 & Level 2"
-	        ]
-	        $scope.siteContact = {
-	            fullname: '',
-	            email: '',
-	            mobile: '',
-	            courseInterested: '',
-	            message: ''
-	        }
-	        $scope.siteContactSubmit = "Submit";
-	        $scope.contactSubmit = function () {
-	            $http.post('endpoints/send-mail.php', $scope.siteContact).success(function (res) {
-	                if (res == 'ok') {
-	                    $scope.siteContactSubmit = 'Message sent sucessfully';
-	                }
-	            }).error(function (err) {
-	                console.error(err)
-	            })
-	        }
-
-	        $scope.enquiryToggle = function () {
-	            $rootScope.enquiryState = $rootScope.enquiryState ? false : true;
-	        }
-
-	        $scope.mobileMenuToggle = function(){
-	            if($rootScope.mobileMenuState){
-	                $rootScope.mobileMenuState = false;
-	            }else{
-	                $rootScope.mobileMenuState = true;
-	            }
-	        }
-	    }])
-
-/***/ },
-/* 98 */
-/***/ function(module, exports) {
-
-	angular.module('qls')
-	    .controller('homeController', ['$scope', '$http', function ($scope, $http) {
-	        $http.get('data/events.json' + '?id=' + new Date().getTime()).success(function (res) {
-	            $scope.events = res;
-	            $scope.events.forEach(function (obj, inx) {
-	                var tr = obj.training.toLowerCase();
-	                if (tr.indexOf("itil") > -1 && tr.indexOf("foundation") > -1) {
-	                    $scope.events[inx]["slider"] = "slider_itil_foundation";
-	                } else if (tr.indexOf("itil") > -1 && tr.indexOf("intermediate") > -1) {
-	                    $scope.events[inx]["slider"] = "slider_itil_intermediate";
-	                } else if (tr.indexOf("itil") > -1 && tr.indexOf("expert") > -1) {
-	                    $scope.events[inx]["slider"] = "slider_itil_expert";
-	                }else if (tr.indexOf("itil") > -1 && tr.indexOf("service") > -1) {
-	                    $scope.events[inx]["slider"] = "slider_itil_service";
-	                } else if (tr.toUpperCase().indexOf("PMP") > -1) {
-	                    $scope.events[inx]["slider"] = "slider_pmp";
-	                } else if (tr.toUpperCase().indexOf("PMI") > -1) {
-	                    $scope.events[inx]["slider"] = "slider_pmi";
-	                } else if (tr.indexOf("prince2") > -1) {
-	                    $scope.events[inx]["slider"] = "slider_prince2f_p";
-	                } else if (tr.indexOf("scrum") > -1) {
-	                    $scope.events[inx]["slider"] = "slider_scrum";
-	                } else if (tr.indexOf("green") > -1 && tr.indexOf("belt") > -1) {
-	                    $scope.events[inx]["slider"] = "slider_green_belt";
-	                } else if (tr.indexOf("black") > -1 && tr.indexOf("belt") > -1) {
-	                    $scope.events[inx]["slider"] = "slider_black_belt";
-	                } else if (tr.indexOf("cobit") > -1) {
-	                    $scope.events[inx]["slider"] = "slider_cobit";
-	                } else if (tr.indexOf("safe") > -1) {
-	                    $scope.events[inx]["slider"] = "slider_safe";
-	                } else if (tr.indexOf("devops") > -1) {
-	                    $scope.events[inx]["slider"] = "slider_devops";
-	                } else {
-	                    $scope.events[inx]["slider"] = "slider_" + inx;
-	                }
-	            })
-	        }).error(function () {
-	            console.log('Failed to load events.json');
-	        });
-	        $http.get('data/online_events.json' + '?id=' + new Date().getTime()).success(function (res) {
-	            $scope.onlineEvents = res;
-	        }).error(function () {
-	            console.log('Failed to load online_events.json' + '?id=' + new Date().getTime());
-	        });
-	        $http.get('data/courses.json' + '?id=' + new Date().getTime()).success(function (res) {
-	            $scope.courses = res;
-	        }).error(function () {
-	            console.log('Failed to load courses.json');
-	        });
-	        $http.get('data/testimonials/testimonials.json' + '?id=' + new Date().getTime()).success(function (res) {
-	            $scope.testimonials = res;
-	        }).error(function () {
-	            console.log('Failed to load courses.json');
-	        });
-	        $http.get('data/clients/clients.json' + '?id=' + new Date().getTime())
-	            .success(function (res) {
-	                $scope.clients = res;
-	            })
-	            .error(function () {
-	                console.log('Failed to load clients.json');
-	            });
-	        $scope.coursesList = [
-	            "Select a course",
-	            "ITIL Foundation",
-	            "ITIL Service Strategy",
-	            "ITIL Service Design",
-	            "ITIL Service Transition",
-	            "ITIL Service Operation",
-	            "ITIL Continual Service Improvement",
-	            "ITIL Service, Offering and Agreement (SOA)",
-	            "ITIL Planning, Protection and Optimization (PPO)",
-	            "ITIL Release, Control and Validation (RCV)",
-	            "ITIL Operational, Support and Analysis (OSA)",
-	            "ITIL®  Managing Across The Lifecycle",
-	            "SIAM Foundation",
-	            "CAPM",
-	            "PMP",
-	            "ACP",
-	            "Prince2 Foundation",
-	            "Prince2 Practitioner",
-	            "Prince2 Agile",
-	            "Scrum Master",
-	            "Managing Successful Programs",
-	            "SAFe 4.5 (SAFe Agilist)",
-	            "DevOps Master",
-	            "Six Sigma Green Belt",
-	            "Six Sigma Black Belt",
-	            "COBIT 5 Foundation",
-	            "TOGAF 9.1 Level  1 & Level 2"
-	        ]
-	        $scope.siteContact = {
-	            fullname: '',
-	            email: '',
-	            courseInterested: '',
-	            message: ''
-	        }
-	        $scope.siteContactSubmit = "Submit";
-	        $scope.contactSubmit = function () {
-	            $http.post('endpoints/send-mail.php', $scope.siteContact).success(function (res) {
-	                if (res == 'ok') {
-	                    $scope.siteContactSubmit = 'Message sent sucessfully';
-	                }
-	            }).error(function (err) {
-	                console.error(err)
-	            })
-	        }
-	    }]);
-
-/***/ },
-/* 99 */
-/***/ function(module, exports, __webpack_require__) {
-
-	__webpack_require__(100);
+	__webpack_require__(50);
 	module.exports = 'ngAnimate';
 
 
 /***/ },
-/* 100 */
+/* 50 */
 /***/ function(module, exports) {
 
 	/**
@@ -57403,13 +55811,332 @@
 
 
 /***/ },
-/* 101 */
+/* 51 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;(function(root, factory) {
+	  if (true) {
+	    // AMD. Register as an anonymous module.
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(2)], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+	  } else if (typeof exports === 'object') {
+	    // Node. Does not work with strict CommonJS, but
+	    // only CommonJS-like environments that support module.exports,
+	    // like Node.
+	    module.exports = factory(require('angular'));
+	  } else {
+	    // Browser globals (root is window)
+	    root.returnExports = factory(root.angular);
+	  }
+	}(this, function(angular) {
+	  /**
+	   * @ngdoc service
+	   * @name ngMeta.ngMeta
+	   * @description
+	   * # A metatags service for single-page applications
+	   * that supports setting arbitrary meta tags
+	   */
+	  angular.module('ngMeta', [])
+	    .provider('ngMeta', function() {
+
+	      'use strict';
+
+	      //Object for storing default tag/values
+	      var defaults = {};
+
+	      //One-time configuration
+	      var config = {
+	        useTitleSuffix: false
+	      };
+
+	      function Meta($rootScope) {
+
+	        /**
+	         * @ngdoc method
+	         * @name ngMeta#setTitle
+	         * @description
+	         * Sets the title of the page, optionally
+	         * appending a title suffix.
+	         *
+	         * If suffix usage is enabled and the title suffix
+	         * parameter is missing, the default title suffix
+	         * (if available) is used as a fallback.
+	         *
+	         * @example
+	         * //title and titleSuffix
+	         * ngMeta.setTitle('Page name', ' - Site name | Tagline of the site');
+	         *
+	         * //title only (default titleSuffix may be suffixed,
+	         * //depending on useTitleSuffix configuration)
+	         * ngMeta.setTitle('Page name');
+	         *
+	         * @returns {Object} self
+	         */
+	        var setTitle = function(title, titleSuffix) {
+	          if (!$rootScope.ngMeta) {
+	            throw new Error('Cannot call setTitle when ngMeta is undefined. Did you forget to call ngMeta.init() in the run block? \nRefer: https://github.com/vinaygopinath/ngMeta#getting-started');
+	          }
+
+	          $rootScope.ngMeta.title = angular.isDefined(title) ? title : (defaults.title || '');
+	          if (config.useTitleSuffix) {
+	            $rootScope.ngMeta.title += angular.isDefined(titleSuffix) ? titleSuffix : (defaults.titleSuffix || '');
+	          }
+	          return this;
+	        };
+
+	        /**
+	         * @ngdoc method
+	         * @name ngMeta#setTag
+	         * @description
+	         * Sets the value of a meta tag, using
+	         * the default value (if available) as
+	         * a fallback.
+	         *
+	         * @example
+	         * ngMeta.setTag('og:image', 'http://example.com/a.png');
+	         *
+	         * @returns {Object} self
+	         */
+	        var setTag = function(tag, value) {
+	          if (!$rootScope.ngMeta) {
+	            throw new Error('Cannot call setTag when ngMeta is undefined. Did you forget to call ngMeta.init() in the run block? \nRefer: https://github.com/vinaygopinath/ngMeta#getting-started');
+	          }
+	          if (tag === 'title' || tag === 'titleSuffix') {
+	            throw new Error('Attempt to set \'' + tag + '\' through \'setTag\': \'title\' and \'titleSuffix\' are reserved tag names. Please use \'ngMeta.setTitle\' instead');
+	          }
+
+	          $rootScope.ngMeta[tag] = angular.isDefined(value) ? value : defaults[tag];
+	          return this;
+	        };
+
+	        /**
+	         * @ngdoc method
+	         * @name ngMeta#setDefaultTag
+	         * @description
+	         * Sets the default tag for all routes that are missing a custom
+	         * `tag` property in their meta objects.
+	         *
+	         * @example
+	         * ngMeta.setDefaultTag('titleSuffix', ' | Tagline of the site');
+	         *
+	         * @returns {Object} self
+	         */
+	        var setDefaultTag = function(tag, value) {
+	          if (!$rootScope.ngMeta) {
+	            throw new Error('Cannot call setDefaultTag when ngMeta is undefined. Did you forget to call ngMeta.init() in the run block? \nRefer: https://github.com/vinaygopinath/ngMeta#getting-started');
+	          }
+
+	          defaults[tag] = value;
+
+	          if (tag === 'title' || tag === 'titleSuffix') {
+	            this.setTitle($rootScope.ngMeta.title, $rootScope.ngMeta.titleSuffix);
+	          } else {
+	            this.setTag(tag, $rootScope.ngMeta[tag]);
+	          }
+
+	          return this;
+	        };
+
+	        /**
+	         * @ngdoc method
+	         * @name readRouteMeta
+	         * @description
+	         * Helper function to process meta tags on route/state
+	         * change.
+	         *
+	         * It:
+	         * 1. Sets the title (with titleSuffix, as appropriate)
+	         * 2. Iterates through all the state/route tags (other than title)
+	         *    and sets their values
+	         * 3. Iterates through all default tags and sets the ones
+	         *    that were not utilized while setting the state/route tags.
+	         *
+	         * @returns {Object} self
+	         */
+	        var readRouteMeta = function(meta) {
+	          meta = meta || {};
+
+	          if (meta.disableUpdate) {
+	            return false;
+	          }
+
+	          setTitle(meta.title, meta.titleSuffix);
+
+	          var def = angular.copy(defaults);
+
+	          delete meta.title;
+	          delete meta.titleSuffix;
+	          delete def.title;
+	          delete def.titleSuffix;
+
+	          var metaKeys = Object.keys(meta);
+	          for (var i = 0; i < metaKeys.length; i++) {
+	            if (def.hasOwnProperty(metaKeys[i])) {
+	              delete def[metaKeys[i]];
+	            }
+	            setTag(metaKeys[i], meta[metaKeys[i]]);
+	          }
+
+	          var defaultKeys = Object.keys(def);
+	          for (var j = 0; j < defaultKeys.length; j++) {
+	            setTag(defaultKeys[j], def[defaultKeys[j]]);
+	          }
+	        };
+
+	        var update = function(event, current) {
+	          readRouteMeta(angular.copy(current.meta || (current.data && current.data.meta)));
+	        };
+
+
+	        /**
+	         * @ngdoc method
+	         * @name ngMeta#init
+	         * @description
+	         * Initializes the ngMeta object and sets up
+	         * listeners for route/state change broadcasts
+	         *
+	         * @example
+	         * angular.module('yourApp', ['ngRoute', 'ngMeta'])
+	         * .config(function($routeProvider, ngMetaProvider) {
+	         *   ....
+	         * })
+	         * .run(function(ngMeta) {
+	         *   ngMeta.init();
+	         * });
+	         */
+	        var init = function() {
+	          $rootScope.ngMeta = {};
+	          $rootScope.$on('$routeChangeSuccess', update);
+	          $rootScope.$on('$stateChangeSuccess', update);
+	        };
+
+	        return {
+	          'init': init,
+	          'setTitle': setTitle,
+	          'setTag': setTag,
+	          'setDefaultTag': setDefaultTag
+	        };
+	      }
+
+	      /* Set defaults */
+
+	      /**
+	       * @ngdoc method
+	       * @name ngMetaProvider#setDefaultTitle
+	       * @param {string} titleStr The default title of the page. If a
+	       * route/state does not define a `title` param in its meta object, this
+	       * value is used instead.
+	       *
+	       * @description
+	       * Sets the default title for all routes that are missing a custom `title`
+	       * property in their meta objects.
+	       *
+	       * @returns {Object} self
+	       */
+	      this.setDefaultTitle = function(titleStr) {
+	        defaults.title = titleStr;
+	        return this;
+	      };
+
+	      /**
+	       * @ngdoc method
+	       * @name ngMetaProvider#setDefaultTitleSuffix
+	       * @param {string} titleSuffix The default title suffix of the page. If a
+	       * route/state does not define a `titleSuffix` param in its meta object,
+	       * this value is used instead.
+	       *
+	       * @description
+	       * Sets the default title suffix for all routes that are missing a custom
+	       * `titleSuffix` property in their meta objects.
+	       *
+	       * @returns {Object} self
+	       */
+	      this.setDefaultTitleSuffix = function(titleSuffix) {
+	        defaults.titleSuffix = titleSuffix;
+	        return this;
+	      };
+
+	      /**
+	       * @ngdoc method
+	       * @name ngMetaProvider#setDefaultTag
+	       * @param {string} tag The default tag name. The default tag can be
+	       * overridden by defining a custom property of the same name in the meta
+	       * object of any route.
+	       *
+	       * @param {string} value The value of the tag.
+	       *
+	       * @description
+	       * Sets the default tag for all routes that are missing a custom
+	       * `tag` property in their meta objects.
+	       *
+	       * @returns {Object} self
+	       */
+	      this.setDefaultTag = function(tag, value) {
+	        defaults[tag] = value;
+	        return this;
+	      };
+
+	      /* One-time config */
+
+	      /**
+	       * @ngdoc method
+	       * @name ngMetaProvider#useTitleSuffix
+	       * @param {boolean} bool A boolean indicating the use of title suffix.
+	       * Defaults to false.
+	       *
+	       * @description
+	       * Toggles the use of the title suffix throughout the site.
+	       *
+	       * @returns {Object} self
+	       */
+	      this.useTitleSuffix = function(bool) {
+	        config.useTitleSuffix = !!bool;
+	        return this;
+	      };
+
+	      /**
+	       * @ngdoc method
+	       * @name ngMetaProvider#mergeNestedStateData
+	       * @param {string} mergeNestedStateData [Optional] method to deep merge
+	       * meta data for nested views.
+	       *
+	       * @description
+	       * Helper function to Extend $stateProvider.decorator('state') to merge nested
+	       * view meta data if using ui-router.
+	       *
+	       * @returns {Object} data
+	       */
+	      this.mergeNestedStateData = function(state, parentDecoratorFn) {
+	      // original data
+	        var originalData = parentDecoratorFn(state) || {};
+
+	        // create new merged meta
+	        var parentMetaData = state.parent && state.parent.data && state.parent.data.meta;
+
+	        //Assign the merged meta if necessary to current state and return
+	        if (originalData.meta || parentMetaData) {
+	          var mergedMeta = angular.merge({}, parentMetaData, originalData.meta);
+	          originalData.meta = mergedMeta;
+	        }
+	        state.self.data = originalData;
+	        return originalData;
+	      };
+
+
+	      this.$get = ["$rootScope", function($rootScope) {
+	        return new Meta($rootScope);
+	      }];
+	    });
+	}));
+
+
+/***/ },
+/* 52 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(102);
+	var content = __webpack_require__(53);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(29)(content, {});
@@ -57418,8 +56145,8 @@
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!../../node_modules/css-loader/index.js!./animate.min.css", function() {
-				var newContent = require("!!../../node_modules/css-loader/index.js!./animate.min.css");
+			module.hot.accept("!!../../node_modules/css-loader/index.js!./globals.css", function() {
+				var newContent = require("!!../../node_modules/css-loader/index.js!./globals.css");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -57429,7 +56156,7 @@
 	}
 
 /***/ },
-/* 102 */
+/* 53 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(6)();
@@ -57437,10 +56164,1283 @@
 
 
 	// module
-	exports.push([module.id, "@charset \"UTF-8\";\n\n/*!\n * animate.css -http://daneden.me/animate\n * Version - 3.5.1\n * Licensed under the MIT license - http://opensource.org/licenses/MIT\n *\n * Copyright (c) 2016 Daniel Eden\n */\n\n.animated{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.animated.infinite{-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite}.animated.hinge{-webkit-animation-duration:2s;animation-duration:2s}.animated.bounceIn,.animated.bounceOut,.animated.flipOutX,.animated.flipOutY{-webkit-animation-duration:.75s;animation-duration:.75s}@-webkit-keyframes bounce{0%,20%,53%,80%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1);-webkit-transform:translateZ(0);transform:translateZ(0)}40%,43%{-webkit-transform:translate3d(0,-30px,0);transform:translate3d(0,-30px,0)}40%,43%,70%{-webkit-animation-timing-function:cubic-bezier(.755,.05,.855,.06);animation-timing-function:cubic-bezier(.755,.05,.855,.06)}70%{-webkit-transform:translate3d(0,-15px,0);transform:translate3d(0,-15px,0)}90%{-webkit-transform:translate3d(0,-4px,0);transform:translate3d(0,-4px,0)}}@keyframes bounce{0%,20%,53%,80%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1);-webkit-transform:translateZ(0);transform:translateZ(0)}40%,43%{-webkit-transform:translate3d(0,-30px,0);transform:translate3d(0,-30px,0)}40%,43%,70%{-webkit-animation-timing-function:cubic-bezier(.755,.05,.855,.06);animation-timing-function:cubic-bezier(.755,.05,.855,.06)}70%{-webkit-transform:translate3d(0,-15px,0);transform:translate3d(0,-15px,0)}90%{-webkit-transform:translate3d(0,-4px,0);transform:translate3d(0,-4px,0)}}.bounce{-webkit-animation-name:bounce;animation-name:bounce;-webkit-transform-origin:center bottom;transform-origin:center bottom}@-webkit-keyframes flash{0%,50%,to{opacity:1}25%,75%{opacity:0}}@keyframes flash{0%,50%,to{opacity:1}25%,75%{opacity:0}}.flash{-webkit-animation-name:flash;animation-name:flash}@-webkit-keyframes pulse{0%{-webkit-transform:scaleX(1);transform:scaleX(1)}50%{-webkit-transform:scale3d(1.05,1.05,1.05);transform:scale3d(1.05,1.05,1.05)}to{-webkit-transform:scaleX(1);transform:scaleX(1)}}@keyframes pulse{0%{-webkit-transform:scaleX(1);transform:scaleX(1)}50%{-webkit-transform:scale3d(1.05,1.05,1.05);transform:scale3d(1.05,1.05,1.05)}to{-webkit-transform:scaleX(1);transform:scaleX(1)}}.pulse{-webkit-animation-name:pulse;animation-name:pulse}@-webkit-keyframes rubberBand{0%{-webkit-transform:scaleX(1);transform:scaleX(1)}30%{-webkit-transform:scale3d(1.25,.75,1);transform:scale3d(1.25,.75,1)}40%{-webkit-transform:scale3d(.75,1.25,1);transform:scale3d(.75,1.25,1)}50%{-webkit-transform:scale3d(1.15,.85,1);transform:scale3d(1.15,.85,1)}65%{-webkit-transform:scale3d(.95,1.05,1);transform:scale3d(.95,1.05,1)}75%{-webkit-transform:scale3d(1.05,.95,1);transform:scale3d(1.05,.95,1)}to{-webkit-transform:scaleX(1);transform:scaleX(1)}}@keyframes rubberBand{0%{-webkit-transform:scaleX(1);transform:scaleX(1)}30%{-webkit-transform:scale3d(1.25,.75,1);transform:scale3d(1.25,.75,1)}40%{-webkit-transform:scale3d(.75,1.25,1);transform:scale3d(.75,1.25,1)}50%{-webkit-transform:scale3d(1.15,.85,1);transform:scale3d(1.15,.85,1)}65%{-webkit-transform:scale3d(.95,1.05,1);transform:scale3d(.95,1.05,1)}75%{-webkit-transform:scale3d(1.05,.95,1);transform:scale3d(1.05,.95,1)}to{-webkit-transform:scaleX(1);transform:scaleX(1)}}.rubberBand{-webkit-animation-name:rubberBand;animation-name:rubberBand}@-webkit-keyframes shake{0%,to{-webkit-transform:translateZ(0);transform:translateZ(0)}10%,30%,50%,70%,90%{-webkit-transform:translate3d(-10px,0,0);transform:translate3d(-10px,0,0)}20%,40%,60%,80%{-webkit-transform:translate3d(10px,0,0);transform:translate3d(10px,0,0)}}@keyframes shake{0%,to{-webkit-transform:translateZ(0);transform:translateZ(0)}10%,30%,50%,70%,90%{-webkit-transform:translate3d(-10px,0,0);transform:translate3d(-10px,0,0)}20%,40%,60%,80%{-webkit-transform:translate3d(10px,0,0);transform:translate3d(10px,0,0)}}.shake{-webkit-animation-name:shake;animation-name:shake}@-webkit-keyframes headShake{0%{-webkit-transform:translateX(0);transform:translateX(0)}6.5%{-webkit-transform:translateX(-6px) rotateY(-9deg);transform:translateX(-6px) rotateY(-9deg)}18.5%{-webkit-transform:translateX(5px) rotateY(7deg);transform:translateX(5px) rotateY(7deg)}31.5%{-webkit-transform:translateX(-3px) rotateY(-5deg);transform:translateX(-3px) rotateY(-5deg)}43.5%{-webkit-transform:translateX(2px) rotateY(3deg);transform:translateX(2px) rotateY(3deg)}50%{-webkit-transform:translateX(0);transform:translateX(0)}}@keyframes headShake{0%{-webkit-transform:translateX(0);transform:translateX(0)}6.5%{-webkit-transform:translateX(-6px) rotateY(-9deg);transform:translateX(-6px) rotateY(-9deg)}18.5%{-webkit-transform:translateX(5px) rotateY(7deg);transform:translateX(5px) rotateY(7deg)}31.5%{-webkit-transform:translateX(-3px) rotateY(-5deg);transform:translateX(-3px) rotateY(-5deg)}43.5%{-webkit-transform:translateX(2px) rotateY(3deg);transform:translateX(2px) rotateY(3deg)}50%{-webkit-transform:translateX(0);transform:translateX(0)}}.headShake{-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;-webkit-animation-name:headShake;animation-name:headShake}@-webkit-keyframes swing{20%{-webkit-transform:rotate(15deg);transform:rotate(15deg)}40%{-webkit-transform:rotate(-10deg);transform:rotate(-10deg)}60%{-webkit-transform:rotate(5deg);transform:rotate(5deg)}80%{-webkit-transform:rotate(-5deg);transform:rotate(-5deg)}to{-webkit-transform:rotate(0deg);transform:rotate(0deg)}}@keyframes swing{20%{-webkit-transform:rotate(15deg);transform:rotate(15deg)}40%{-webkit-transform:rotate(-10deg);transform:rotate(-10deg)}60%{-webkit-transform:rotate(5deg);transform:rotate(5deg)}80%{-webkit-transform:rotate(-5deg);transform:rotate(-5deg)}to{-webkit-transform:rotate(0deg);transform:rotate(0deg)}}.swing{-webkit-transform-origin:top center;transform-origin:top center;-webkit-animation-name:swing;animation-name:swing}@-webkit-keyframes tada{0%{-webkit-transform:scaleX(1);transform:scaleX(1)}10%,20%{-webkit-transform:scale3d(.9,.9,.9) rotate(-3deg);transform:scale3d(.9,.9,.9) rotate(-3deg)}30%,50%,70%,90%{-webkit-transform:scale3d(1.1,1.1,1.1) rotate(3deg);transform:scale3d(1.1,1.1,1.1) rotate(3deg)}40%,60%,80%{-webkit-transform:scale3d(1.1,1.1,1.1) rotate(-3deg);transform:scale3d(1.1,1.1,1.1) rotate(-3deg)}to{-webkit-transform:scaleX(1);transform:scaleX(1)}}@keyframes tada{0%{-webkit-transform:scaleX(1);transform:scaleX(1)}10%,20%{-webkit-transform:scale3d(.9,.9,.9) rotate(-3deg);transform:scale3d(.9,.9,.9) rotate(-3deg)}30%,50%,70%,90%{-webkit-transform:scale3d(1.1,1.1,1.1) rotate(3deg);transform:scale3d(1.1,1.1,1.1) rotate(3deg)}40%,60%,80%{-webkit-transform:scale3d(1.1,1.1,1.1) rotate(-3deg);transform:scale3d(1.1,1.1,1.1) rotate(-3deg)}to{-webkit-transform:scaleX(1);transform:scaleX(1)}}.tada{-webkit-animation-name:tada;animation-name:tada}@-webkit-keyframes wobble{0%{-webkit-transform:none;transform:none}15%{-webkit-transform:translate3d(-25%,0,0) rotate(-5deg);transform:translate3d(-25%,0,0) rotate(-5deg)}30%{-webkit-transform:translate3d(20%,0,0) rotate(3deg);transform:translate3d(20%,0,0) rotate(3deg)}45%{-webkit-transform:translate3d(-15%,0,0) rotate(-3deg);transform:translate3d(-15%,0,0) rotate(-3deg)}60%{-webkit-transform:translate3d(10%,0,0) rotate(2deg);transform:translate3d(10%,0,0) rotate(2deg)}75%{-webkit-transform:translate3d(-5%,0,0) rotate(-1deg);transform:translate3d(-5%,0,0) rotate(-1deg)}to{-webkit-transform:none;transform:none}}@keyframes wobble{0%{-webkit-transform:none;transform:none}15%{-webkit-transform:translate3d(-25%,0,0) rotate(-5deg);transform:translate3d(-25%,0,0) rotate(-5deg)}30%{-webkit-transform:translate3d(20%,0,0) rotate(3deg);transform:translate3d(20%,0,0) rotate(3deg)}45%{-webkit-transform:translate3d(-15%,0,0) rotate(-3deg);transform:translate3d(-15%,0,0) rotate(-3deg)}60%{-webkit-transform:translate3d(10%,0,0) rotate(2deg);transform:translate3d(10%,0,0) rotate(2deg)}75%{-webkit-transform:translate3d(-5%,0,0) rotate(-1deg);transform:translate3d(-5%,0,0) rotate(-1deg)}to{-webkit-transform:none;transform:none}}.wobble{-webkit-animation-name:wobble;animation-name:wobble}@-webkit-keyframes jello{0%,11.1%,to{-webkit-transform:none;transform:none}22.2%{-webkit-transform:skewX(-12.5deg) skewY(-12.5deg);transform:skewX(-12.5deg) skewY(-12.5deg)}33.3%{-webkit-transform:skewX(6.25deg) skewY(6.25deg);transform:skewX(6.25deg) skewY(6.25deg)}44.4%{-webkit-transform:skewX(-3.125deg) skewY(-3.125deg);transform:skewX(-3.125deg) skewY(-3.125deg)}55.5%{-webkit-transform:skewX(1.5625deg) skewY(1.5625deg);transform:skewX(1.5625deg) skewY(1.5625deg)}66.6%{-webkit-transform:skewX(-.78125deg) skewY(-.78125deg);transform:skewX(-.78125deg) skewY(-.78125deg)}77.7%{-webkit-transform:skewX(.390625deg) skewY(.390625deg);transform:skewX(.390625deg) skewY(.390625deg)}88.8%{-webkit-transform:skewX(-.1953125deg) skewY(-.1953125deg);transform:skewX(-.1953125deg) skewY(-.1953125deg)}}@keyframes jello{0%,11.1%,to{-webkit-transform:none;transform:none}22.2%{-webkit-transform:skewX(-12.5deg) skewY(-12.5deg);transform:skewX(-12.5deg) skewY(-12.5deg)}33.3%{-webkit-transform:skewX(6.25deg) skewY(6.25deg);transform:skewX(6.25deg) skewY(6.25deg)}44.4%{-webkit-transform:skewX(-3.125deg) skewY(-3.125deg);transform:skewX(-3.125deg) skewY(-3.125deg)}55.5%{-webkit-transform:skewX(1.5625deg) skewY(1.5625deg);transform:skewX(1.5625deg) skewY(1.5625deg)}66.6%{-webkit-transform:skewX(-.78125deg) skewY(-.78125deg);transform:skewX(-.78125deg) skewY(-.78125deg)}77.7%{-webkit-transform:skewX(.390625deg) skewY(.390625deg);transform:skewX(.390625deg) skewY(.390625deg)}88.8%{-webkit-transform:skewX(-.1953125deg) skewY(-.1953125deg);transform:skewX(-.1953125deg) skewY(-.1953125deg)}}.jello{-webkit-animation-name:jello;animation-name:jello;-webkit-transform-origin:center;transform-origin:center}@-webkit-keyframes bounceIn{0%,20%,40%,60%,80%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}20%{-webkit-transform:scale3d(1.1,1.1,1.1);transform:scale3d(1.1,1.1,1.1)}40%{-webkit-transform:scale3d(.9,.9,.9);transform:scale3d(.9,.9,.9)}60%{opacity:1;-webkit-transform:scale3d(1.03,1.03,1.03);transform:scale3d(1.03,1.03,1.03)}80%{-webkit-transform:scale3d(.97,.97,.97);transform:scale3d(.97,.97,.97)}to{opacity:1;-webkit-transform:scaleX(1);transform:scaleX(1)}}@keyframes bounceIn{0%,20%,40%,60%,80%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}20%{-webkit-transform:scale3d(1.1,1.1,1.1);transform:scale3d(1.1,1.1,1.1)}40%{-webkit-transform:scale3d(.9,.9,.9);transform:scale3d(.9,.9,.9)}60%{opacity:1;-webkit-transform:scale3d(1.03,1.03,1.03);transform:scale3d(1.03,1.03,1.03)}80%{-webkit-transform:scale3d(.97,.97,.97);transform:scale3d(.97,.97,.97)}to{opacity:1;-webkit-transform:scaleX(1);transform:scaleX(1)}}.bounceIn{-webkit-animation-name:bounceIn;animation-name:bounceIn}@-webkit-keyframes bounceInDown{0%,60%,75%,90%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:translate3d(0,-3000px,0);transform:translate3d(0,-3000px,0)}60%{opacity:1;-webkit-transform:translate3d(0,25px,0);transform:translate3d(0,25px,0)}75%{-webkit-transform:translate3d(0,-10px,0);transform:translate3d(0,-10px,0)}90%{-webkit-transform:translate3d(0,5px,0);transform:translate3d(0,5px,0)}to{-webkit-transform:none;transform:none}}@keyframes bounceInDown{0%,60%,75%,90%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:translate3d(0,-3000px,0);transform:translate3d(0,-3000px,0)}60%{opacity:1;-webkit-transform:translate3d(0,25px,0);transform:translate3d(0,25px,0)}75%{-webkit-transform:translate3d(0,-10px,0);transform:translate3d(0,-10px,0)}90%{-webkit-transform:translate3d(0,5px,0);transform:translate3d(0,5px,0)}to{-webkit-transform:none;transform:none}}.bounceInDown{-webkit-animation-name:bounceInDown;animation-name:bounceInDown}@-webkit-keyframes bounceInLeft{0%,60%,75%,90%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:translate3d(-3000px,0,0);transform:translate3d(-3000px,0,0)}60%{opacity:1;-webkit-transform:translate3d(25px,0,0);transform:translate3d(25px,0,0)}75%{-webkit-transform:translate3d(-10px,0,0);transform:translate3d(-10px,0,0)}90%{-webkit-transform:translate3d(5px,0,0);transform:translate3d(5px,0,0)}to{-webkit-transform:none;transform:none}}@keyframes bounceInLeft{0%,60%,75%,90%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:translate3d(-3000px,0,0);transform:translate3d(-3000px,0,0)}60%{opacity:1;-webkit-transform:translate3d(25px,0,0);transform:translate3d(25px,0,0)}75%{-webkit-transform:translate3d(-10px,0,0);transform:translate3d(-10px,0,0)}90%{-webkit-transform:translate3d(5px,0,0);transform:translate3d(5px,0,0)}to{-webkit-transform:none;transform:none}}.bounceInLeft{-webkit-animation-name:bounceInLeft;animation-name:bounceInLeft}@-webkit-keyframes bounceInRight{0%,60%,75%,90%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:translate3d(3000px,0,0);transform:translate3d(3000px,0,0)}60%{opacity:1;-webkit-transform:translate3d(-25px,0,0);transform:translate3d(-25px,0,0)}75%{-webkit-transform:translate3d(10px,0,0);transform:translate3d(10px,0,0)}90%{-webkit-transform:translate3d(-5px,0,0);transform:translate3d(-5px,0,0)}to{-webkit-transform:none;transform:none}}@keyframes bounceInRight{0%,60%,75%,90%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:translate3d(3000px,0,0);transform:translate3d(3000px,0,0)}60%{opacity:1;-webkit-transform:translate3d(-25px,0,0);transform:translate3d(-25px,0,0)}75%{-webkit-transform:translate3d(10px,0,0);transform:translate3d(10px,0,0)}90%{-webkit-transform:translate3d(-5px,0,0);transform:translate3d(-5px,0,0)}to{-webkit-transform:none;transform:none}}.bounceInRight{-webkit-animation-name:bounceInRight;animation-name:bounceInRight}@-webkit-keyframes bounceInUp{0%,60%,75%,90%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:translate3d(0,3000px,0);transform:translate3d(0,3000px,0)}60%{opacity:1;-webkit-transform:translate3d(0,-20px,0);transform:translate3d(0,-20px,0)}75%{-webkit-transform:translate3d(0,10px,0);transform:translate3d(0,10px,0)}90%{-webkit-transform:translate3d(0,-5px,0);transform:translate3d(0,-5px,0)}to{-webkit-transform:translateZ(0);transform:translateZ(0)}}@keyframes bounceInUp{0%,60%,75%,90%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:translate3d(0,3000px,0);transform:translate3d(0,3000px,0)}60%{opacity:1;-webkit-transform:translate3d(0,-20px,0);transform:translate3d(0,-20px,0)}75%{-webkit-transform:translate3d(0,10px,0);transform:translate3d(0,10px,0)}90%{-webkit-transform:translate3d(0,-5px,0);transform:translate3d(0,-5px,0)}to{-webkit-transform:translateZ(0);transform:translateZ(0)}}.bounceInUp{-webkit-animation-name:bounceInUp;animation-name:bounceInUp}@-webkit-keyframes bounceOut{20%{-webkit-transform:scale3d(.9,.9,.9);transform:scale3d(.9,.9,.9)}50%,55%{opacity:1;-webkit-transform:scale3d(1.1,1.1,1.1);transform:scale3d(1.1,1.1,1.1)}to{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}}@keyframes bounceOut{20%{-webkit-transform:scale3d(.9,.9,.9);transform:scale3d(.9,.9,.9)}50%,55%{opacity:1;-webkit-transform:scale3d(1.1,1.1,1.1);transform:scale3d(1.1,1.1,1.1)}to{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}}.bounceOut{-webkit-animation-name:bounceOut;animation-name:bounceOut}@-webkit-keyframes bounceOutDown{20%{-webkit-transform:translate3d(0,10px,0);transform:translate3d(0,10px,0)}40%,45%{opacity:1;-webkit-transform:translate3d(0,-20px,0);transform:translate3d(0,-20px,0)}to{opacity:0;-webkit-transform:translate3d(0,2000px,0);transform:translate3d(0,2000px,0)}}@keyframes bounceOutDown{20%{-webkit-transform:translate3d(0,10px,0);transform:translate3d(0,10px,0)}40%,45%{opacity:1;-webkit-transform:translate3d(0,-20px,0);transform:translate3d(0,-20px,0)}to{opacity:0;-webkit-transform:translate3d(0,2000px,0);transform:translate3d(0,2000px,0)}}.bounceOutDown{-webkit-animation-name:bounceOutDown;animation-name:bounceOutDown}@-webkit-keyframes bounceOutLeft{20%{opacity:1;-webkit-transform:translate3d(20px,0,0);transform:translate3d(20px,0,0)}to{opacity:0;-webkit-transform:translate3d(-2000px,0,0);transform:translate3d(-2000px,0,0)}}@keyframes bounceOutLeft{20%{opacity:1;-webkit-transform:translate3d(20px,0,0);transform:translate3d(20px,0,0)}to{opacity:0;-webkit-transform:translate3d(-2000px,0,0);transform:translate3d(-2000px,0,0)}}.bounceOutLeft{-webkit-animation-name:bounceOutLeft;animation-name:bounceOutLeft}@-webkit-keyframes bounceOutRight{20%{opacity:1;-webkit-transform:translate3d(-20px,0,0);transform:translate3d(-20px,0,0)}to{opacity:0;-webkit-transform:translate3d(2000px,0,0);transform:translate3d(2000px,0,0)}}@keyframes bounceOutRight{20%{opacity:1;-webkit-transform:translate3d(-20px,0,0);transform:translate3d(-20px,0,0)}to{opacity:0;-webkit-transform:translate3d(2000px,0,0);transform:translate3d(2000px,0,0)}}.bounceOutRight{-webkit-animation-name:bounceOutRight;animation-name:bounceOutRight}@-webkit-keyframes bounceOutUp{20%{-webkit-transform:translate3d(0,-10px,0);transform:translate3d(0,-10px,0)}40%,45%{opacity:1;-webkit-transform:translate3d(0,20px,0);transform:translate3d(0,20px,0)}to{opacity:0;-webkit-transform:translate3d(0,-2000px,0);transform:translate3d(0,-2000px,0)}}@keyframes bounceOutUp{20%{-webkit-transform:translate3d(0,-10px,0);transform:translate3d(0,-10px,0)}40%,45%{opacity:1;-webkit-transform:translate3d(0,20px,0);transform:translate3d(0,20px,0)}to{opacity:0;-webkit-transform:translate3d(0,-2000px,0);transform:translate3d(0,-2000px,0)}}.bounceOutUp{-webkit-animation-name:bounceOutUp;animation-name:bounceOutUp}@-webkit-keyframes fadeIn{0%{opacity:0}to{opacity:1}}@keyframes fadeIn{0%{opacity:0}to{opacity:1}}.fadeIn{-webkit-animation-name:fadeIn;animation-name:fadeIn}@-webkit-keyframes fadeInDown{0%{opacity:0;-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}to{opacity:1;-webkit-transform:none;transform:none}}@keyframes fadeInDown{0%{opacity:0;-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}to{opacity:1;-webkit-transform:none;transform:none}}.fadeInDown{-webkit-animation-name:fadeInDown;animation-name:fadeInDown}@-webkit-keyframes fadeInDownBig{0%{opacity:0;-webkit-transform:translate3d(0,-2000px,0);transform:translate3d(0,-2000px,0)}to{opacity:1;-webkit-transform:none;transform:none}}@keyframes fadeInDownBig{0%{opacity:0;-webkit-transform:translate3d(0,-2000px,0);transform:translate3d(0,-2000px,0)}to{opacity:1;-webkit-transform:none;transform:none}}.fadeInDownBig{-webkit-animation-name:fadeInDownBig;animation-name:fadeInDownBig}@-webkit-keyframes fadeInLeft{0%{opacity:0;-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}to{opacity:1;-webkit-transform:none;transform:none}}@keyframes fadeInLeft{0%{opacity:0;-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}to{opacity:1;-webkit-transform:none;transform:none}}.fadeInLeft{-webkit-animation-name:fadeInLeft;animation-name:fadeInLeft}@-webkit-keyframes fadeInLeftBig{0%{opacity:0;-webkit-transform:translate3d(-2000px,0,0);transform:translate3d(-2000px,0,0)}to{opacity:1;-webkit-transform:none;transform:none}}@keyframes fadeInLeftBig{0%{opacity:0;-webkit-transform:translate3d(-2000px,0,0);transform:translate3d(-2000px,0,0)}to{opacity:1;-webkit-transform:none;transform:none}}.fadeInLeftBig{-webkit-animation-name:fadeInLeftBig;animation-name:fadeInLeftBig}@-webkit-keyframes fadeInRight{0%{opacity:0;-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}to{opacity:1;-webkit-transform:none;transform:none}}@keyframes fadeInRight{0%{opacity:0;-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}to{opacity:1;-webkit-transform:none;transform:none}}.fadeInRight{-webkit-animation-name:fadeInRight;animation-name:fadeInRight}@-webkit-keyframes fadeInRightBig{0%{opacity:0;-webkit-transform:translate3d(2000px,0,0);transform:translate3d(2000px,0,0)}to{opacity:1;-webkit-transform:none;transform:none}}@keyframes fadeInRightBig{0%{opacity:0;-webkit-transform:translate3d(2000px,0,0);transform:translate3d(2000px,0,0)}to{opacity:1;-webkit-transform:none;transform:none}}.fadeInRightBig{-webkit-animation-name:fadeInRightBig;animation-name:fadeInRightBig}@-webkit-keyframes fadeInUp{0%{opacity:0;-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0)}to{opacity:1;-webkit-transform:none;transform:none}}@keyframes fadeInUp{0%{opacity:0;-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0)}to{opacity:1;-webkit-transform:none;transform:none}}.fadeInUp{-webkit-animation-name:fadeInUp;animation-name:fadeInUp}@-webkit-keyframes fadeInUpBig{0%{opacity:0;-webkit-transform:translate3d(0,2000px,0);transform:translate3d(0,2000px,0)}to{opacity:1;-webkit-transform:none;transform:none}}@keyframes fadeInUpBig{0%{opacity:0;-webkit-transform:translate3d(0,2000px,0);transform:translate3d(0,2000px,0)}to{opacity:1;-webkit-transform:none;transform:none}}.fadeInUpBig{-webkit-animation-name:fadeInUpBig;animation-name:fadeInUpBig}@-webkit-keyframes fadeOut{0%{opacity:1}to{opacity:0}}@keyframes fadeOut{0%{opacity:1}to{opacity:0}}.fadeOut{-webkit-animation-name:fadeOut;animation-name:fadeOut}@-webkit-keyframes fadeOutDown{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0)}}@keyframes fadeOutDown{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0)}}.fadeOutDown{-webkit-animation-name:fadeOutDown;animation-name:fadeOutDown}@-webkit-keyframes fadeOutDownBig{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(0,2000px,0);transform:translate3d(0,2000px,0)}}@keyframes fadeOutDownBig{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(0,2000px,0);transform:translate3d(0,2000px,0)}}.fadeOutDownBig{-webkit-animation-name:fadeOutDownBig;animation-name:fadeOutDownBig}@-webkit-keyframes fadeOutLeft{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}}@keyframes fadeOutLeft{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}}.fadeOutLeft{-webkit-animation-name:fadeOutLeft;animation-name:fadeOutLeft}@-webkit-keyframes fadeOutLeftBig{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(-2000px,0,0);transform:translate3d(-2000px,0,0)}}@keyframes fadeOutLeftBig{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(-2000px,0,0);transform:translate3d(-2000px,0,0)}}.fadeOutLeftBig{-webkit-animation-name:fadeOutLeftBig;animation-name:fadeOutLeftBig}@-webkit-keyframes fadeOutRight{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}}@keyframes fadeOutRight{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}}.fadeOutRight{-webkit-animation-name:fadeOutRight;animation-name:fadeOutRight}@-webkit-keyframes fadeOutRightBig{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(2000px,0,0);transform:translate3d(2000px,0,0)}}@keyframes fadeOutRightBig{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(2000px,0,0);transform:translate3d(2000px,0,0)}}.fadeOutRightBig{-webkit-animation-name:fadeOutRightBig;animation-name:fadeOutRightBig}@-webkit-keyframes fadeOutUp{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}}@keyframes fadeOutUp{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}}.fadeOutUp{-webkit-animation-name:fadeOutUp;animation-name:fadeOutUp}@-webkit-keyframes fadeOutUpBig{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(0,-2000px,0);transform:translate3d(0,-2000px,0)}}@keyframes fadeOutUpBig{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(0,-2000px,0);transform:translate3d(0,-2000px,0)}}.fadeOutUpBig{-webkit-animation-name:fadeOutUpBig;animation-name:fadeOutUpBig}@-webkit-keyframes flip{0%{-webkit-transform:perspective(400px) rotateY(-1turn);transform:perspective(400px) rotateY(-1turn)}0%,40%{-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}40%{-webkit-transform:perspective(400px) translateZ(150px) rotateY(-190deg);transform:perspective(400px) translateZ(150px) rotateY(-190deg)}50%{-webkit-transform:perspective(400px) translateZ(150px) rotateY(-170deg);transform:perspective(400px) translateZ(150px) rotateY(-170deg)}50%,80%{-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}80%{-webkit-transform:perspective(400px) scale3d(.95,.95,.95);transform:perspective(400px) scale3d(.95,.95,.95)}to{-webkit-transform:perspective(400px);transform:perspective(400px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}}@keyframes flip{0%{-webkit-transform:perspective(400px) rotateY(-1turn);transform:perspective(400px) rotateY(-1turn)}0%,40%{-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}40%{-webkit-transform:perspective(400px) translateZ(150px) rotateY(-190deg);transform:perspective(400px) translateZ(150px) rotateY(-190deg)}50%{-webkit-transform:perspective(400px) translateZ(150px) rotateY(-170deg);transform:perspective(400px) translateZ(150px) rotateY(-170deg)}50%,80%{-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}80%{-webkit-transform:perspective(400px) scale3d(.95,.95,.95);transform:perspective(400px) scale3d(.95,.95,.95)}to{-webkit-transform:perspective(400px);transform:perspective(400px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}}.animated.flip{-webkit-backface-visibility:visible;backface-visibility:visible;-webkit-animation-name:flip;animation-name:flip}@-webkit-keyframes flipInX{0%{-webkit-transform:perspective(400px) rotateX(90deg);transform:perspective(400px) rotateX(90deg);opacity:0}0%,40%{-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}40%{-webkit-transform:perspective(400px) rotateX(-20deg);transform:perspective(400px) rotateX(-20deg)}60%{-webkit-transform:perspective(400px) rotateX(10deg);transform:perspective(400px) rotateX(10deg);opacity:1}80%{-webkit-transform:perspective(400px) rotateX(-5deg);transform:perspective(400px) rotateX(-5deg)}to{-webkit-transform:perspective(400px);transform:perspective(400px)}}@keyframes flipInX{0%{-webkit-transform:perspective(400px) rotateX(90deg);transform:perspective(400px) rotateX(90deg);opacity:0}0%,40%{-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}40%{-webkit-transform:perspective(400px) rotateX(-20deg);transform:perspective(400px) rotateX(-20deg)}60%{-webkit-transform:perspective(400px) rotateX(10deg);transform:perspective(400px) rotateX(10deg);opacity:1}80%{-webkit-transform:perspective(400px) rotateX(-5deg);transform:perspective(400px) rotateX(-5deg)}to{-webkit-transform:perspective(400px);transform:perspective(400px)}}.flipInX{-webkit-backface-visibility:visible!important;backface-visibility:visible!important;-webkit-animation-name:flipInX;animation-name:flipInX}@-webkit-keyframes flipInY{0%{-webkit-transform:perspective(400px) rotateY(90deg);transform:perspective(400px) rotateY(90deg);opacity:0}0%,40%{-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}40%{-webkit-transform:perspective(400px) rotateY(-20deg);transform:perspective(400px) rotateY(-20deg)}60%{-webkit-transform:perspective(400px) rotateY(10deg);transform:perspective(400px) rotateY(10deg);opacity:1}80%{-webkit-transform:perspective(400px) rotateY(-5deg);transform:perspective(400px) rotateY(-5deg)}to{-webkit-transform:perspective(400px);transform:perspective(400px)}}@keyframes flipInY{0%{-webkit-transform:perspective(400px) rotateY(90deg);transform:perspective(400px) rotateY(90deg);opacity:0}0%,40%{-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}40%{-webkit-transform:perspective(400px) rotateY(-20deg);transform:perspective(400px) rotateY(-20deg)}60%{-webkit-transform:perspective(400px) rotateY(10deg);transform:perspective(400px) rotateY(10deg);opacity:1}80%{-webkit-transform:perspective(400px) rotateY(-5deg);transform:perspective(400px) rotateY(-5deg)}to{-webkit-transform:perspective(400px);transform:perspective(400px)}}.flipInY{-webkit-backface-visibility:visible!important;backface-visibility:visible!important;-webkit-animation-name:flipInY;animation-name:flipInY}@-webkit-keyframes flipOutX{0%{-webkit-transform:perspective(400px);transform:perspective(400px)}30%{-webkit-transform:perspective(400px) rotateX(-20deg);transform:perspective(400px) rotateX(-20deg);opacity:1}to{-webkit-transform:perspective(400px) rotateX(90deg);transform:perspective(400px) rotateX(90deg);opacity:0}}@keyframes flipOutX{0%{-webkit-transform:perspective(400px);transform:perspective(400px)}30%{-webkit-transform:perspective(400px) rotateX(-20deg);transform:perspective(400px) rotateX(-20deg);opacity:1}to{-webkit-transform:perspective(400px) rotateX(90deg);transform:perspective(400px) rotateX(90deg);opacity:0}}.flipOutX{-webkit-animation-name:flipOutX;animation-name:flipOutX;-webkit-backface-visibility:visible!important;backface-visibility:visible!important}@-webkit-keyframes flipOutY{0%{-webkit-transform:perspective(400px);transform:perspective(400px)}30%{-webkit-transform:perspective(400px) rotateY(-15deg);transform:perspective(400px) rotateY(-15deg);opacity:1}to{-webkit-transform:perspective(400px) rotateY(90deg);transform:perspective(400px) rotateY(90deg);opacity:0}}@keyframes flipOutY{0%{-webkit-transform:perspective(400px);transform:perspective(400px)}30%{-webkit-transform:perspective(400px) rotateY(-15deg);transform:perspective(400px) rotateY(-15deg);opacity:1}to{-webkit-transform:perspective(400px) rotateY(90deg);transform:perspective(400px) rotateY(90deg);opacity:0}}.flipOutY{-webkit-backface-visibility:visible!important;backface-visibility:visible!important;-webkit-animation-name:flipOutY;animation-name:flipOutY}@-webkit-keyframes lightSpeedIn{0%{-webkit-transform:translate3d(100%,0,0) skewX(-30deg);transform:translate3d(100%,0,0) skewX(-30deg);opacity:0}60%{-webkit-transform:skewX(20deg);transform:skewX(20deg)}60%,80%{opacity:1}80%{-webkit-transform:skewX(-5deg);transform:skewX(-5deg)}to{-webkit-transform:none;transform:none;opacity:1}}@keyframes lightSpeedIn{0%{-webkit-transform:translate3d(100%,0,0) skewX(-30deg);transform:translate3d(100%,0,0) skewX(-30deg);opacity:0}60%{-webkit-transform:skewX(20deg);transform:skewX(20deg)}60%,80%{opacity:1}80%{-webkit-transform:skewX(-5deg);transform:skewX(-5deg)}to{-webkit-transform:none;transform:none;opacity:1}}.lightSpeedIn{-webkit-animation-name:lightSpeedIn;animation-name:lightSpeedIn;-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}@-webkit-keyframes lightSpeedOut{0%{opacity:1}to{-webkit-transform:translate3d(100%,0,0) skewX(30deg);transform:translate3d(100%,0,0) skewX(30deg);opacity:0}}@keyframes lightSpeedOut{0%{opacity:1}to{-webkit-transform:translate3d(100%,0,0) skewX(30deg);transform:translate3d(100%,0,0) skewX(30deg);opacity:0}}.lightSpeedOut{-webkit-animation-name:lightSpeedOut;animation-name:lightSpeedOut;-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}@-webkit-keyframes rotateIn{0%{transform-origin:center;-webkit-transform:rotate(-200deg);transform:rotate(-200deg);opacity:0}0%,to{-webkit-transform-origin:center}to{transform-origin:center;-webkit-transform:none;transform:none;opacity:1}}@keyframes rotateIn{0%{transform-origin:center;-webkit-transform:rotate(-200deg);transform:rotate(-200deg);opacity:0}0%,to{-webkit-transform-origin:center}to{transform-origin:center;-webkit-transform:none;transform:none;opacity:1}}.rotateIn{-webkit-animation-name:rotateIn;animation-name:rotateIn}@-webkit-keyframes rotateInDownLeft{0%{transform-origin:left bottom;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);opacity:0}0%,to{-webkit-transform-origin:left bottom}to{transform-origin:left bottom;-webkit-transform:none;transform:none;opacity:1}}@keyframes rotateInDownLeft{0%{transform-origin:left bottom;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);opacity:0}0%,to{-webkit-transform-origin:left bottom}to{transform-origin:left bottom;-webkit-transform:none;transform:none;opacity:1}}.rotateInDownLeft{-webkit-animation-name:rotateInDownLeft;animation-name:rotateInDownLeft}@-webkit-keyframes rotateInDownRight{0%{transform-origin:right bottom;-webkit-transform:rotate(45deg);transform:rotate(45deg);opacity:0}0%,to{-webkit-transform-origin:right bottom}to{transform-origin:right bottom;-webkit-transform:none;transform:none;opacity:1}}@keyframes rotateInDownRight{0%{transform-origin:right bottom;-webkit-transform:rotate(45deg);transform:rotate(45deg);opacity:0}0%,to{-webkit-transform-origin:right bottom}to{transform-origin:right bottom;-webkit-transform:none;transform:none;opacity:1}}.rotateInDownRight{-webkit-animation-name:rotateInDownRight;animation-name:rotateInDownRight}@-webkit-keyframes rotateInUpLeft{0%{transform-origin:left bottom;-webkit-transform:rotate(45deg);transform:rotate(45deg);opacity:0}0%,to{-webkit-transform-origin:left bottom}to{transform-origin:left bottom;-webkit-transform:none;transform:none;opacity:1}}@keyframes rotateInUpLeft{0%{transform-origin:left bottom;-webkit-transform:rotate(45deg);transform:rotate(45deg);opacity:0}0%,to{-webkit-transform-origin:left bottom}to{transform-origin:left bottom;-webkit-transform:none;transform:none;opacity:1}}.rotateInUpLeft{-webkit-animation-name:rotateInUpLeft;animation-name:rotateInUpLeft}@-webkit-keyframes rotateInUpRight{0%{transform-origin:right bottom;-webkit-transform:rotate(-90deg);transform:rotate(-90deg);opacity:0}0%,to{-webkit-transform-origin:right bottom}to{transform-origin:right bottom;-webkit-transform:none;transform:none;opacity:1}}@keyframes rotateInUpRight{0%{transform-origin:right bottom;-webkit-transform:rotate(-90deg);transform:rotate(-90deg);opacity:0}0%,to{-webkit-transform-origin:right bottom}to{transform-origin:right bottom;-webkit-transform:none;transform:none;opacity:1}}.rotateInUpRight{-webkit-animation-name:rotateInUpRight;animation-name:rotateInUpRight}@-webkit-keyframes rotateOut{0%{transform-origin:center;opacity:1}0%,to{-webkit-transform-origin:center}to{transform-origin:center;-webkit-transform:rotate(200deg);transform:rotate(200deg);opacity:0}}@keyframes rotateOut{0%{transform-origin:center;opacity:1}0%,to{-webkit-transform-origin:center}to{transform-origin:center;-webkit-transform:rotate(200deg);transform:rotate(200deg);opacity:0}}.rotateOut{-webkit-animation-name:rotateOut;animation-name:rotateOut}@-webkit-keyframes rotateOutDownLeft{0%{transform-origin:left bottom;opacity:1}0%,to{-webkit-transform-origin:left bottom}to{transform-origin:left bottom;-webkit-transform:rotate(45deg);transform:rotate(45deg);opacity:0}}@keyframes rotateOutDownLeft{0%{transform-origin:left bottom;opacity:1}0%,to{-webkit-transform-origin:left bottom}to{transform-origin:left bottom;-webkit-transform:rotate(45deg);transform:rotate(45deg);opacity:0}}.rotateOutDownLeft{-webkit-animation-name:rotateOutDownLeft;animation-name:rotateOutDownLeft}@-webkit-keyframes rotateOutDownRight{0%{transform-origin:right bottom;opacity:1}0%,to{-webkit-transform-origin:right bottom}to{transform-origin:right bottom;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);opacity:0}}@keyframes rotateOutDownRight{0%{transform-origin:right bottom;opacity:1}0%,to{-webkit-transform-origin:right bottom}to{transform-origin:right bottom;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);opacity:0}}.rotateOutDownRight{-webkit-animation-name:rotateOutDownRight;animation-name:rotateOutDownRight}@-webkit-keyframes rotateOutUpLeft{0%{transform-origin:left bottom;opacity:1}0%,to{-webkit-transform-origin:left bottom}to{transform-origin:left bottom;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);opacity:0}}@keyframes rotateOutUpLeft{0%{transform-origin:left bottom;opacity:1}0%,to{-webkit-transform-origin:left bottom}to{transform-origin:left bottom;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);opacity:0}}.rotateOutUpLeft{-webkit-animation-name:rotateOutUpLeft;animation-name:rotateOutUpLeft}@-webkit-keyframes rotateOutUpRight{0%{transform-origin:right bottom;opacity:1}0%,to{-webkit-transform-origin:right bottom}to{transform-origin:right bottom;-webkit-transform:rotate(90deg);transform:rotate(90deg);opacity:0}}@keyframes rotateOutUpRight{0%{transform-origin:right bottom;opacity:1}0%,to{-webkit-transform-origin:right bottom}to{transform-origin:right bottom;-webkit-transform:rotate(90deg);transform:rotate(90deg);opacity:0}}.rotateOutUpRight{-webkit-animation-name:rotateOutUpRight;animation-name:rotateOutUpRight}@-webkit-keyframes hinge{0%{transform-origin:top left}0%,20%,60%{-webkit-transform-origin:top left;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out}20%,60%{-webkit-transform:rotate(80deg);transform:rotate(80deg);transform-origin:top left}40%,80%{-webkit-transform:rotate(60deg);transform:rotate(60deg);-webkit-transform-origin:top left;transform-origin:top left;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;opacity:1}to{-webkit-transform:translate3d(0,700px,0);transform:translate3d(0,700px,0);opacity:0}}@keyframes hinge{0%{transform-origin:top left}0%,20%,60%{-webkit-transform-origin:top left;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out}20%,60%{-webkit-transform:rotate(80deg);transform:rotate(80deg);transform-origin:top left}40%,80%{-webkit-transform:rotate(60deg);transform:rotate(60deg);-webkit-transform-origin:top left;transform-origin:top left;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;opacity:1}to{-webkit-transform:translate3d(0,700px,0);transform:translate3d(0,700px,0);opacity:0}}.hinge{-webkit-animation-name:hinge;animation-name:hinge}@-webkit-keyframes rollIn{0%{opacity:0;-webkit-transform:translate3d(-100%,0,0) rotate(-120deg);transform:translate3d(-100%,0,0) rotate(-120deg)}to{opacity:1;-webkit-transform:none;transform:none}}@keyframes rollIn{0%{opacity:0;-webkit-transform:translate3d(-100%,0,0) rotate(-120deg);transform:translate3d(-100%,0,0) rotate(-120deg)}to{opacity:1;-webkit-transform:none;transform:none}}.rollIn{-webkit-animation-name:rollIn;animation-name:rollIn}@-webkit-keyframes rollOut{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(100%,0,0) rotate(120deg);transform:translate3d(100%,0,0) rotate(120deg)}}@keyframes rollOut{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(100%,0,0) rotate(120deg);transform:translate3d(100%,0,0) rotate(120deg)}}.rollOut{-webkit-animation-name:rollOut;animation-name:rollOut}@-webkit-keyframes zoomIn{0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}50%{opacity:1}}@keyframes zoomIn{0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}50%{opacity:1}}.zoomIn{-webkit-animation-name:zoomIn;animation-name:zoomIn}@-webkit-keyframes zoomInDown{0%{opacity:0;-webkit-transform:scale3d(.1,.1,.1) translate3d(0,-1000px,0);transform:scale3d(.1,.1,.1) translate3d(0,-1000px,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}60%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(0,60px,0);transform:scale3d(.475,.475,.475) translate3d(0,60px,0);-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}@keyframes zoomInDown{0%{opacity:0;-webkit-transform:scale3d(.1,.1,.1) translate3d(0,-1000px,0);transform:scale3d(.1,.1,.1) translate3d(0,-1000px,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}60%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(0,60px,0);transform:scale3d(.475,.475,.475) translate3d(0,60px,0);-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}.zoomInDown{-webkit-animation-name:zoomInDown;animation-name:zoomInDown}@-webkit-keyframes zoomInLeft{0%{opacity:0;-webkit-transform:scale3d(.1,.1,.1) translate3d(-1000px,0,0);transform:scale3d(.1,.1,.1) translate3d(-1000px,0,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}60%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(10px,0,0);transform:scale3d(.475,.475,.475) translate3d(10px,0,0);-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}@keyframes zoomInLeft{0%{opacity:0;-webkit-transform:scale3d(.1,.1,.1) translate3d(-1000px,0,0);transform:scale3d(.1,.1,.1) translate3d(-1000px,0,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}60%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(10px,0,0);transform:scale3d(.475,.475,.475) translate3d(10px,0,0);-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}.zoomInLeft{-webkit-animation-name:zoomInLeft;animation-name:zoomInLeft}@-webkit-keyframes zoomInRight{0%{opacity:0;-webkit-transform:scale3d(.1,.1,.1) translate3d(1000px,0,0);transform:scale3d(.1,.1,.1) translate3d(1000px,0,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}60%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(-10px,0,0);transform:scale3d(.475,.475,.475) translate3d(-10px,0,0);-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}@keyframes zoomInRight{0%{opacity:0;-webkit-transform:scale3d(.1,.1,.1) translate3d(1000px,0,0);transform:scale3d(.1,.1,.1) translate3d(1000px,0,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}60%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(-10px,0,0);transform:scale3d(.475,.475,.475) translate3d(-10px,0,0);-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}.zoomInRight{-webkit-animation-name:zoomInRight;animation-name:zoomInRight}@-webkit-keyframes zoomInUp{0%{opacity:0;-webkit-transform:scale3d(.1,.1,.1) translate3d(0,1000px,0);transform:scale3d(.1,.1,.1) translate3d(0,1000px,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}60%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(0,-60px,0);transform:scale3d(.475,.475,.475) translate3d(0,-60px,0);-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}@keyframes zoomInUp{0%{opacity:0;-webkit-transform:scale3d(.1,.1,.1) translate3d(0,1000px,0);transform:scale3d(.1,.1,.1) translate3d(0,1000px,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}60%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(0,-60px,0);transform:scale3d(.475,.475,.475) translate3d(0,-60px,0);-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}.zoomInUp{-webkit-animation-name:zoomInUp;animation-name:zoomInUp}@-webkit-keyframes zoomOut{0%{opacity:1}50%{-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}50%,to{opacity:0}}@keyframes zoomOut{0%{opacity:1}50%{-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}50%,to{opacity:0}}.zoomOut{-webkit-animation-name:zoomOut;animation-name:zoomOut}@-webkit-keyframes zoomOutDown{40%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(0,-60px,0);transform:scale3d(.475,.475,.475) translate3d(0,-60px,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}to{opacity:0;-webkit-transform:scale3d(.1,.1,.1) translate3d(0,2000px,0);transform:scale3d(.1,.1,.1) translate3d(0,2000px,0);-webkit-transform-origin:center bottom;transform-origin:center bottom;-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}@keyframes zoomOutDown{40%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(0,-60px,0);transform:scale3d(.475,.475,.475) translate3d(0,-60px,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}to{opacity:0;-webkit-transform:scale3d(.1,.1,.1) translate3d(0,2000px,0);transform:scale3d(.1,.1,.1) translate3d(0,2000px,0);-webkit-transform-origin:center bottom;transform-origin:center bottom;-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}.zoomOutDown{-webkit-animation-name:zoomOutDown;animation-name:zoomOutDown}@-webkit-keyframes zoomOutLeft{40%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(42px,0,0);transform:scale3d(.475,.475,.475) translate3d(42px,0,0)}to{opacity:0;-webkit-transform:scale(.1) translate3d(-2000px,0,0);transform:scale(.1) translate3d(-2000px,0,0);-webkit-transform-origin:left center;transform-origin:left center}}@keyframes zoomOutLeft{40%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(42px,0,0);transform:scale3d(.475,.475,.475) translate3d(42px,0,0)}to{opacity:0;-webkit-transform:scale(.1) translate3d(-2000px,0,0);transform:scale(.1) translate3d(-2000px,0,0);-webkit-transform-origin:left center;transform-origin:left center}}.zoomOutLeft{-webkit-animation-name:zoomOutLeft;animation-name:zoomOutLeft}@-webkit-keyframes zoomOutRight{40%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(-42px,0,0);transform:scale3d(.475,.475,.475) translate3d(-42px,0,0)}to{opacity:0;-webkit-transform:scale(.1) translate3d(2000px,0,0);transform:scale(.1) translate3d(2000px,0,0);-webkit-transform-origin:right center;transform-origin:right center}}@keyframes zoomOutRight{40%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(-42px,0,0);transform:scale3d(.475,.475,.475) translate3d(-42px,0,0)}to{opacity:0;-webkit-transform:scale(.1) translate3d(2000px,0,0);transform:scale(.1) translate3d(2000px,0,0);-webkit-transform-origin:right center;transform-origin:right center}}.zoomOutRight{-webkit-animation-name:zoomOutRight;animation-name:zoomOutRight}@-webkit-keyframes zoomOutUp{40%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(0,60px,0);transform:scale3d(.475,.475,.475) translate3d(0,60px,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}to{opacity:0;-webkit-transform:scale3d(.1,.1,.1) translate3d(0,-2000px,0);transform:scale3d(.1,.1,.1) translate3d(0,-2000px,0);-webkit-transform-origin:center bottom;transform-origin:center bottom;-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}@keyframes zoomOutUp{40%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(0,60px,0);transform:scale3d(.475,.475,.475) translate3d(0,60px,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}to{opacity:0;-webkit-transform:scale3d(.1,.1,.1) translate3d(0,-2000px,0);transform:scale3d(.1,.1,.1) translate3d(0,-2000px,0);-webkit-transform-origin:center bottom;transform-origin:center bottom;-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}.zoomOutUp{-webkit-animation-name:zoomOutUp;animation-name:zoomOutUp}@-webkit-keyframes slideInDown{0%{-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0);visibility:visible}to{-webkit-transform:translateZ(0);transform:translateZ(0)}}@keyframes slideInDown{0%{-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0);visibility:visible}to{-webkit-transform:translateZ(0);transform:translateZ(0)}}.slideInDown{-webkit-animation-name:slideInDown;animation-name:slideInDown}@-webkit-keyframes slideInLeft{0%{-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0);visibility:visible}to{-webkit-transform:translateZ(0);transform:translateZ(0)}}@keyframes slideInLeft{0%{-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0);visibility:visible}to{-webkit-transform:translateZ(0);transform:translateZ(0)}}.slideInLeft{-webkit-animation-name:slideInLeft;animation-name:slideInLeft}@-webkit-keyframes slideInRight{0%{-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0);visibility:visible}to{-webkit-transform:translateZ(0);transform:translateZ(0)}}@keyframes slideInRight{0%{-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0);visibility:visible}to{-webkit-transform:translateZ(0);transform:translateZ(0)}}.slideInRight{-webkit-animation-name:slideInRight;animation-name:slideInRight}@-webkit-keyframes slideInUp{0%{-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0);visibility:visible}to{-webkit-transform:translateZ(0);transform:translateZ(0)}}@keyframes slideInUp{0%{-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0);visibility:visible}to{-webkit-transform:translateZ(0);transform:translateZ(0)}}.slideInUp{-webkit-animation-name:slideInUp;animation-name:slideInUp}@-webkit-keyframes slideOutDown{0%{-webkit-transform:translateZ(0);transform:translateZ(0)}to{visibility:hidden;-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0)}}@keyframes slideOutDown{0%{-webkit-transform:translateZ(0);transform:translateZ(0)}to{visibility:hidden;-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0)}}.slideOutDown{-webkit-animation-name:slideOutDown;animation-name:slideOutDown}@-webkit-keyframes slideOutLeft{0%{-webkit-transform:translateZ(0);transform:translateZ(0)}to{visibility:hidden;-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}}@keyframes slideOutLeft{0%{-webkit-transform:translateZ(0);transform:translateZ(0)}to{visibility:hidden;-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}}.slideOutLeft{-webkit-animation-name:slideOutLeft;animation-name:slideOutLeft}@-webkit-keyframes slideOutRight{0%{-webkit-transform:translateZ(0);transform:translateZ(0)}to{visibility:hidden;-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}}@keyframes slideOutRight{0%{-webkit-transform:translateZ(0);transform:translateZ(0)}to{visibility:hidden;-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}}.slideOutRight{-webkit-animation-name:slideOutRight;animation-name:slideOutRight}@-webkit-keyframes slideOutUp{0%{-webkit-transform:translateZ(0);transform:translateZ(0)}to{visibility:hidden;-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}}@keyframes slideOutUp{0%{-webkit-transform:translateZ(0);transform:translateZ(0)}to{visibility:hidden;-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}}.slideOutUp{-webkit-animation-name:slideOutUp;animation-name:slideOutUp}", ""]);
+	exports.push([module.id, "body {\r\n    background-image: url(" + __webpack_require__(54) + ");\r\n}\r\n\r\n.main-container {\r\n    padding: 0px;\r\n}\r\n\r\n.shadow-container {\r\n    box-shadow: 0px -25px 40px 0px rgba(0, 0, 0, 0.12);\r\n    padding-top: 5%;\r\n}\r\n\r\n.scroller {\r\n    white-space: pre-line;\r\n    overflow-y: hidden;\r\n    position: relative;\r\n}\r\n\r\n.enquiry-container {\r\n    position: fixed;\r\n    top: 24vh;\r\n    z-index: 9000;\r\n    right: -320px;\r\n    transition: all .51s ease-in-out;\r\n}\r\n\r\n.enquiry-label {\r\n    width: 40px;\r\n    height: 140px;\r\n    float: left;\r\n    overflow: hidden;\r\n    background-color: #2c3e50;\r\n    color: white;\r\n    border-radius: 15px 0px 0px 15px;\r\n    box-shadow: 0px -5px 6px rgba(16, 30, 43, 0.15);\r\n    border: 1px solid #799abb;\r\n    cursor: pointer;\r\n    transition: all .51s ease;\r\n}\r\n\r\n.enquiry-open {\r\n    right: 0px;\r\n}\r\n\r\n.enquiry-close {\r\n    right: -320px;\r\n}\r\n\r\n.enquiry-label:hover {\r\n    background-color: #2c3e50;\r\n}\r\n\r\n.enquiry-label p {\r\n    width: 140px;\r\n    position: absolute;\r\n    left: -49px;\r\n    top: 45px;\r\n    transform: rotate(-90deg);\r\n    font-family: Raleway;\r\n    letter-spacing: 2px;\r\n    text-transform: uppercase;\r\n    font-size: large;\r\n}\r\n\r\n.enquiry-form-container {\r\n    width: 320px;\r\n    min-height: 420px;\r\n    padding-top: 15px;\r\n    float: left;\r\n    background-color: white;\r\n    border-radius: 0px 0px 0px 5px;\r\n    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);\r\n}\r\n\r\n.form-hide {\r\n    position: absolute;\r\n    width: 89%;\r\n    height: 100%;\r\n    z-index: 1;\r\n    background-color: rgba(245, 245, 245, 0.82);\r\n    top: 0;\r\n    right: 0;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n    animation: zoomIn .25s ease;\r\n}\r\n.popular-courses{\r\n    list-style: none;\r\n    padding: 0px;\r\n}\r\n.popular-courses a{\r\n    color: #2c3e50;\r\n    font-size: large;\r\n}\r\n\r\n.remove-padding{\r\n    padding: 0px;\r\n}\r\n.courses img{\r\n    width: 100%;\r\n}\r\n.blur{\r\n    filter: blur(5px);\r\n}\r\n", ""]);
 
 	// exports
 
+
+/***/ },
+/* 54 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "_/images/body-bg.png";
+
+/***/ },
+/* 55 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+
+	// load the styles
+	var content = __webpack_require__(56);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(29)(content, {});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(false) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept("!!../../node_modules/css-loader/index.js!./nav.css", function() {
+				var newContent = require("!!../../node_modules/css-loader/index.js!./nav.css");
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 56 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(6)();
+	// imports
+
+
+	// module
+	exports.push([module.id, "a{\r\n    cursor: pointer;\r\n}\r\n.inital-nav {\r\n    padding: .5% 0% .5% 0%;\r\n    background-color: rgba(0, 0, 0, 0.01);\r\n    border-bottom: 1px solid #4ec8d4;\r\n}\r\n\r\n.navbar {\r\n    -webkit-transition: all .25s ease-in-out;\r\n    transition: all .25s ease-in-out;\r\n    z-index: 9003;\r\n}\r\n\r\n.dropdown:hover>.dropdown-menu {\r\n    visibility: visible;\r\n    margin-top: 0;\r\n    opacity: 1;\r\n    -webkit-transform: translate3d(0px, 0px, 0px);\r\n    transform: translate3d(0px, 0px, 0px);\r\n}\r\n\r\n.dropdown >.dropdown-intial {\r\n    display: block;\r\n    visibility: hidden;\r\n    opacity: 0;\r\n    background-color: #36cde8;\r\n    border-radius: 0px;\r\n    box-shadow: 0px 7px 74.52px 6.48px rgba(48, 48, 48, 0.28);\r\n    padding: 0px;\r\n    -webkit-transform: translate3d(0px, 10px, 0px);\r\n    transform: translate3d(0px, 10px, 0px);\r\n    -webkit-transition: all .3s ease-in-out;\r\n    transition: all .3s ease-in-out;\r\n}\r\n\r\n.dropdown-intial li {\r\n    border-top: 1px solid #63def4;\r\n}\r\n\r\n.dropdown-intial li a {\r\n    color: white;\r\n}\r\n\r\n.dropdown-submenu {\r\n    position: relative;\r\n}\r\n\r\n.dropdown-submenu>.dropdown-intial {\r\n    visibility: hidden;\r\n    display: block;\r\n    visibility: hidden;\r\n    opacity: 0;\r\n    background-color: #36cde8;\r\n    border-radius: 0px;\r\n    box-shadow: 0px 7px 74.52px 6.48px rgba(48, 48, 48, 0.28);\r\n    padding: 0px;\r\n    -webkit-transform: translate3d(0px, 15px, 0px);\r\n    transform: translate3d(0px, 15px, 0px);\r\n    -webkit-transition: all .3s ease-in-out;\r\n    transition: all .3s ease-in-out;\r\n    top: 0;\r\n    left: 100%;\r\n    margin-top: -6px;\r\n    margin-left: -1px;\r\n}\r\n\r\n.dropdown-submenu:hover>.dropdown-intial {\r\n    visibility: visible;\r\n    opacity: 1;\r\n    -webkit-transform: translate3d(0px, 3px, 0px);\r\n    transform: translate3d(0px, 3px, 0px);\r\n}\r\n\r\n.dropdown-submenu>a:after {\r\n    display: block;\r\n    content: \" \";\r\n    float: right;\r\n    width: 0;\r\n    height: 0;\r\n    border-color: transparent;\r\n    border-style: solid;\r\n    border-width: 5px 0 5px 5px;\r\n    border-left-color: #ccc;\r\n    margin-top: 5px;\r\n    margin-right: -10px;\r\n}\r\n\r\n.dropdown-submenu:hover>a:after {\r\n    border-left-color: #fff;\r\n}\r\n\r\n.dropdown-submenu.pull-left {\r\n    float: none;\r\n}\r\n\r\n.dropdown-submenu.pull-left>.dropdown-menu {\r\n    left: -100%;\r\n    margin-left: 10px;\r\n}\r\n\r\n.btn-square {\r\n    border-radius: 2px;\r\n    border: 2px solid white;\r\n    color: white;\r\n    font-size: large;\r\n    font-family: 'Raleway', sans-serif;\r\n    background-color: transparent;\r\n    -webkit-transition: all .25s ease-in-out;\r\n    transition: all .25s ease-in-out;\r\n}\r\n\r\n.btn-square:hover {\r\n    background-color: rgba(255, 255, 255, 0.7);\r\n    color: #333;\r\n}\r\n\r\n.btn-square-inverse {\r\n    border-radius: 2px;\r\n    border: 2px solid white;\r\n    font-family: 'Raleway', sans-serif;\r\n    font-size: large;\r\n    background-color: rgba(255, 255, 255, 0.9);\r\n    color: #333;\r\n    -webkit-transition: all .25s ease-in-out;\r\n    transition: all .25s ease-in-out;\r\n}\r\n\r\n.btn-square-inverse:hover {\r\n    background-color: transparent;\r\n    color: white;\r\n}\r\n.cards{\r\n    width: 100%;\r\n    margin: auto;\r\n    padding: 0px;\r\n}\r\n.card{\r\n    padding: 0px;\r\n    width: 100%;\r\n    height: 100%;\r\n    background-color: #fff;\r\n    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);\r\n}\r\n.card:hover {\r\n    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);\r\n}\r\n.card-image{\r\n    padding: 0px;\r\n}\r\n.card-divider{\r\n    margin: 0px;\r\n}\r\n.card-btn{\r\n    padding: 5% 1%;\r\n}\r\n.about-bg{\r\n    width:100%;\r\n    margin: auto;\r\n    min-height: 500px;\r\n    padding: 0px;\r\n    background-color: #263944;\r\n}\r\n.about h2, .about p{\r\n    color: white;\r\n    font-family: 'Raleway', sans-serif;\r\n}\r\n.c-confes{\r\n    width:100%;\r\n    margin: auto;\r\n    height: 300px;\r\n    padding: 0px;\r\n}\r\n.c-confes{\r\n    background-image: url(" + __webpack_require__(57) + ");\r\n    background-size: 100% 100%;\r\n}\r\n.c-confes-img img{\r\n    border-radius: 50%;\r\n    margin-bottom: 20px;\r\n    width: 77px;\r\n    max-width: 100%;\r\n    height: auto;\r\n    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);\r\n}\r\n.c-confes-txt {\r\n    font-family: 'Raleway', sans-serif;\r\n    font-style: italic;\r\n}\r\n.c-confes-name {\r\n    display: block;\r\n    text-align: center;\r\n    padding-bottom: 4px;\r\n    font-size: 18px;\r\n}\r\nfooter{\r\n    background-color: #36cde8;\r\n}\r\nul.social-network {\r\n    list-style: none;\r\n    display: inline;\r\n    margin-left:0 !important;\r\n    padding: 0;\r\n}\r\nul.social-network li {\r\n    display: inline;\r\n    margin: 0 5px;\r\n}\r\n", ""]);
+
+	// exports
+
+
+/***/ },
+/* 57 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "_/images/c-confes-bg.jpg";
+
+/***/ },
+/* 58 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+
+	// load the styles
+	var content = __webpack_require__(59);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(29)(content, {});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(false) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept("!!../../node_modules/css-loader/index.js!./footer.css", function() {
+				var newContent = require("!!../../node_modules/css-loader/index.js!./footer.css");
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 59 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(6)();
+	// imports
+
+
+	// module
+	exports.push([module.id, "footer{\r\n    background-color: #36cde8;\r\n}\r\nul.social-network {\r\n    list-style: none;\r\n    display: inline;\r\n    margin-left:0 !important;\r\n    padding: 0;\r\n}\r\nul.social-network li {\r\n    display: inline;\r\n    margin: 0 5px;\r\n}\r\n.footer-band{\r\n    padding: 0px;\r\n    color: #fff;\r\n    background-color: #2c3e50;\r\n}\r\n\r\n/* footer social icons */\r\n.social-network a.icoRss:hover {\r\n    background-color: #F56505;\r\n}\r\n.social-network a.icoFacebook:hover {\r\n    background-color:#3B5998;\r\n}\r\n.social-network a.icoTwitter:hover {\r\n    background-color:#33ccff;\r\n}\r\n.social-network a.icoGoogle:hover {\r\n    background-color:#BD3518;\r\n}\r\n.social-network a.icoVimeo:hover {\r\n    background-color:#0590B8;\r\n}\r\n.social-network a.icoLinkedin:hover {\r\n    background-color:#007bb7;\r\n}\r\n.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,\r\n.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {\r\n    color:#fff;\r\n}\r\na.socialIcon:hover, .socialHoverClass {\r\n    color:#44BCDD;\r\n}\r\n\r\n.social-circle li a {\r\n    display:inline-block;\r\n    position:relative;\r\n    margin:0 auto 0 auto;\r\n    border-radius:50%;\r\n    text-align:center;\r\n    width: 50px;\r\n    height: 50px;\r\n    font-size:20px;\r\n}\r\n.social-circle li i {\r\n    margin:0;\r\n    line-height:50px;\r\n    text-align: center;\r\n}\r\n\r\n.social-circle li a:hover i, .triggeredHover {\r\n    -moz-transform: rotate(360deg);\r\n    -webkit-transform: rotate(360deg);\r\n    -ms--transform: rotate(360deg);\r\n    -webkit-transform: rotate(360deg);\r\n    transform: rotate(360deg);\r\n    -webkit-transition: all 0.2s;\r\n    transition: all 0.2s;\r\n}\r\n.social-circle i {\r\n    color: #263944;\r\n    -webkit-transition: all 0.8s;\r\n    transition: all 0.8s;\r\n}\r\n.footer-company{\r\n    list-style: none;\r\n    text-align: left;\r\n    margin: 0px;\r\n    padding: 0px;\r\n}\r\n.footer-company a {\r\n    font-family: 'Raleway', sans-serif;\r\n    font-weight: 500;\r\n    color: #2c3e50;;\r\n    text-decoration: none;\r\n    -webkit-transition: all .25s ease-in-out;\r\n    transition: all .25s ease-in-out;\r\n}\r\n.footer-company a:hover {\r\n    color: #263944;\r\n}\r\n", ""]);
+
+	// exports
+
+
+/***/ },
+/* 60 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+
+	// load the styles
+	var content = __webpack_require__(61);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(29)(content, {});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(false) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept("!!../../node_modules/css-loader/index.js!./banner.css", function() {
+				var newContent = require("!!../../node_modules/css-loader/index.js!./banner.css");
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 61 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(6)();
+	// imports
+
+
+	// module
+	exports.push([module.id, ".jumbotron_banner {\r\n    width: 100% !important;\r\n    height: 700px !important;\r\n    background-image: url(" + __webpack_require__(62) + ") !important;\r\n    background-size: cover !important;\r\n    background-position: center top;\r\n    color: white !important;\r\n    font-family: 'Raleway', sans-serif !important;\r\n    margin-bottom: 0px !important;\r\n    border-radius: 0px !important;\r\n}\r\n\r\n.jumbotron_banner_h1 {\r\n    font-family: 'Raleway', sans-serif;\r\n}", ""]);
+
+	// exports
+
+
+/***/ },
+/* 62 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "_/images/header_image.png";
+
+/***/ },
+/* 63 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+
+	// load the styles
+	var content = __webpack_require__(64);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(29)(content, {});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(false) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept("!!../../node_modules/css-loader/index.js!./events.css", function() {
+				var newContent = require("!!../../node_modules/css-loader/index.js!./events.css");
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 64 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(6)();
+	// imports
+
+
+	// module
+	exports.push([module.id, ".events {\r\n    box-shadow: 3px 2px 7px rgba(0, 0, 0, 0.2);\r\n    padding: 0px;\r\n}\r\n\r\n.event-date {\r\n    border-radius: 4px;\r\n    width: 100%;\r\n    background-color: #bddad4;\r\n    box-shadow: 0px 0px 8px rgba(44, 62, 80, 0.50);\r\n}\r\n\r\n.panel-events {\r\n    width: 100%;\r\n    height: 335px;\r\n}\r\n\r\n.scrollbar-element {\r\n    position: relative;\r\n    flex: auto 1 1;\r\n}\r\n\r\n.list-container {\r\n    position: relative;\r\n    padding: 8px;\r\n    border: 1px solid #ccc;\r\n    background-color: #fff;\r\n}\r\n\r\n.event-card {\r\n    background-color: #ecf0f1;\r\n    padding: 5px;\r\n    cursor: pointer;\r\n    border: 2px solid #dce4ec;\r\n    border-radius: 4px;\r\n    box-shadow: 0px 0px 15px rgb(218, 233, 236) inset;\r\n}\r\n\r\n#myCarousel {\r\n    width: 93%;\r\n    margin: auto;\r\n    margin-top: 3%;\r\n    border: 5px solid #2e3f52;\r\n    overflow: hidden;\r\n    height: 600px;\r\n    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);\r\n}\r\n\r\n#myCarousel .item {\r\n    height: 600px;\r\n    overflow: hidden;\r\n}\r\n#myCarousel img{\r\n    min-width: 100%;\r\n    max-width: none;\r\n    height: 100%;\r\n}\r\n.event-details {\r\n    width: 100%;\r\n    left: 0;\r\n    bottom: 0;\r\n    position: absolute;\r\n    height: 150px;\r\n    color: #202d36;\r\n    overflow: hidden;\r\n    box-shadow: 0px -10px 25px rgba(0, 0, 0, 0.45);\r\n    background-color: rgba(255, 255, 255, 0.7);\r\n    font-family: Raleway Light;\r\n    font-size: x-large;\r\n    padding-top: 15px;\r\n}\r\n.blur-img{\r\n    margin-top:10px;\r\n    clip: rect(440px,1366px,600px,0px);\r\n    position: absolute;\r\n    top: 0;\r\n    min-width: 100%;\r\n    filter: blur(15px);\r\n}\r\n\r\n.img-caption{\r\n    position: absolute;\r\n    top: 200px;\r\n    max-width: 100% !important;\r\n    min-width: auto !important;\r\n    height: auto !important;\r\n}", ""]);
+
+	// exports
+
+
+/***/ },
+/* 65 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+
+	// load the styles
+	var content = __webpack_require__(66);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(29)(content, {});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(false) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept("!!../../node_modules/css-loader/index.js!./courses.css", function() {
+				var newContent = require("!!../../node_modules/css-loader/index.js!./courses.css");
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 66 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(6)();
+	// imports
+
+
+	// module
+	exports.push([module.id, ".cards{\r\n    width: 100%;\r\n    margin: auto;\r\n    padding: 0px;\r\n    background-repeat: repeat;\r\n}\r\n.card{\r\n    padding: 0px;\r\n    width: 100%;\r\n    height: 100%;\r\n    min-height: 360px;\r\n    max-height: 360px;\r\n    margin-top:15px;\r\n    background-color: #fff;\r\n    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);\r\n}\r\n.card:hover {\r\n    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);\r\n}\r\n.card-image{\r\n    padding: 0px;\r\n}\r\n.card-divider{\r\n    margin: 0px;\r\n}\r\n.card-btn{\r\n    padding: 5% 1%;\r\n}\r\n.card p {\r\n    height: 84px;\r\n}\r\n", ""]);
+
+	// exports
+
+
+/***/ },
+/* 67 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+
+	// load the styles
+	var content = __webpack_require__(68);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(29)(content, {});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(false) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept("!!../../node_modules/css-loader/index.js!./testimonies.css", function() {
+				var newContent = require("!!../../node_modules/css-loader/index.js!./testimonies.css");
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 68 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(6)();
+	// imports
+
+
+	// module
+	exports.push([module.id, ".c-confes {\r\n    width: 100%;\r\n    margin: auto;\r\n    height: 220px;\r\n    padding: 0px;\r\n    box-shadow: 1px 1px 15px rgba(44, 62, 80, 0.39) inset;\r\n}\r\n\r\n.c-confes {\r\n    background-image: url(" + __webpack_require__(57) + ");\r\n    background-size: 100% 100%;\r\n}\r\n\r\n.c-confes-img img {\r\n    border-radius: 50%;\r\n    margin-bottom: 20px;\r\n    width: 77px;\r\n    max-width: 100%;\r\n    height: auto;\r\n    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);\r\n}\r\n\r\n.c-confes-txt {\r\n    font-family: 'Raleway', sans-serif;\r\n    font-style: italic;\r\n}\r\n\r\n.c-confes-name {\r\n    display: block;\r\n    text-align: center;\r\n    padding-bottom: 4px;\r\n    font-size: 18px;\r\n}", ""]);
+
+	// exports
+
+
+/***/ },
+/* 69 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+
+	// load the styles
+	var content = __webpack_require__(70);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(29)(content, {});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(false) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept("!!../../node_modules/css-loader/index.js!./about.css", function() {
+				var newContent = require("!!../../node_modules/css-loader/index.js!./about.css");
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 70 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(6)();
+	// imports
+
+
+	// module
+	exports.push([module.id, ".jumbotron {\r\n    width: 100%;\r\n    height: 370px;\r\n    background-image: url(" + __webpack_require__(62) + ");\r\n    background-size: 100% auto;\r\n    color: white;\r\n    font-family: 'Raleway', sans-serif;\r\n    border-radius: 0px;\r\n    margin-bottom: 0px;\r\n}\r\n.about_h2{\r\n    font-size: 25px;\r\n    line-height: 48px;\r\n    font-weight: 600;\r\n}\r\n.about_p{\r\n    font-size: 18px;\r\n    line-height: 28px;\r\n    color: #4d4d4d;\r\n    letter-spacing: 0px;\r\n    font-family: Raleway, \"Helvetica Neue\", Helvetica, Arial, sans-serif;\r\n}\r\n.caption{\r\n    color: white;\r\n}\r\n.jumbotron .about_h1 {\r\n    font-family: 'Raleway', sans-serif;\r\n}\r\n.about_page{\r\n    background-color: white;\r\n    padding: 0px;\r\n    box-shadow: 0px -25px 40px 0px rgba(0, 0, 0, 0.12);\r\n}\r\n.about-us{\r\n    background-image: url(" + __webpack_require__(71) + ");\r\n    background-position: right;\r\n    background-size: auto auto;\r\n    background-repeat: no-repeat;\r\n}\r\n.vision {\r\n    padding: 15px 0px 15px 0px;\r\n    background-image: url(" + __webpack_require__(57) + ");\r\n    background-size:100% 100%;\r\n}\r\n\r\n.mission {\r\n    background-color: white;\r\n    background-image: url(" + __webpack_require__(72) + ");\r\n    background-position: 100% 50%;\r\n    background-size: auto auto;\r\n    background-repeat: no-repeat;\r\n    font-family: 'Raleway', sans-serif;\r\n    font-size: 16px;\r\n}\r\n", ""]);
+
+	// exports
+
+
+/***/ },
+/* 71 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "_/images/about.jpg";
+
+/***/ },
+/* 72 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "_/images/mission.png";
+
+/***/ },
+/* 73 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+
+	// load the styles
+	var content = __webpack_require__(74);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(29)(content, {});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(false) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept("!!../../node_modules/css-loader/index.js!./classroom_courses.css", function() {
+				var newContent = require("!!../../node_modules/css-loader/index.js!./classroom_courses.css");
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 74 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(6)();
+	// imports
+
+
+	// module
+	exports.push([module.id, ".jumbotron {\r\n    width: 100%;\r\n    height: 370px;\r\n    background-image: url(" + __webpack_require__(62) + ");\r\n    background-size: 100% auto;\r\n    color: white;\r\n    font-family: 'Raleway', sans-serif;\r\n    border-radius: 0px;\r\n    margin-bottom: 0px;\r\n}\r\n\r\n.jumbotron h1 {\r\n    font-family: 'Raleway', sans-serif;\r\n}\r\n.content-container{\r\n    background-color: white;\r\n    padding: 0px;\r\n    box-shadow: 0px -25px 40px 0px rgba(0, 0, 0, 0.12);\r\n    font-size: 16px;\r\n    padding-top: 25px;\r\n    color: #4d4d4d;\r\n}\r\n.content-container  h2{\r\n    font-size: 25px;\r\n    line-height: 48px;\r\n    font-weight: 600;\r\n}\r\n.content-container  p{\r\n    font-size: 18px;\r\n    line-height: 28px;\r\n    color: #4d4d4d;\r\n    letter-spacing: 0px;\r\n    font-family: Raleway, \"Helvetica Neue\", Helvetica, Arial, sans-serif;\r\n}\r\n.content-container  table th {\r\n    background-color: #263944;\r\n    color: #fff;\r\n}\r\n.content-container  table tr td{\r\n    border: 1px solid #c5d5e4;\r\n}\r\n.content-container  table tr:nth-child(even){\r\n    background-color: #ecf0f1;\r\n}", ""]);
+
+	// exports
+
+
+/***/ },
+/* 75 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+
+	// load the styles
+	var content = __webpack_require__(76);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(29)(content, {});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(false) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept("!!../../node_modules/css-loader/index.js!./contact.css", function() {
+				var newContent = require("!!../../node_modules/css-loader/index.js!./contact.css");
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 76 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(6)();
+	// imports
+
+
+	// module
+	exports.push([module.id, ".container-contact{\r\n    min-height: 100%;\r\n    min-height: 100vh;\r\n    display: flex;\r\n    align-items: center;\r\n   background-image: url(" + __webpack_require__(77) + ");\r\n   background-size: cover;\r\n}\r\n.contact-form{\r\n    width: 600px;\r\n    min-height: 500px;\r\n    height: auto;\r\n    margin: auto;\r\n    margin-bottom: 25px;\r\n    background-color: rgba(255,255,255,0.8);\r\n    border: 1px solid white;\r\n    border-radius: 4px;\r\n    padding: 2%;\r\n}\r\naddress{\r\n    margin-bottom: 21px;\r\n    font-style: oblique;\r\n    line-height: 1.7;\r\n    letter-spacing: 1.5px;\r\n}", ""]);
+
+	// exports
+
+
+/***/ },
+/* 77 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "_/images/contact_bg.png";
+
+/***/ },
+/* 78 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+
+	// load the styles
+	var content = __webpack_require__(79);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(29)(content, {});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(false) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept("!!../../node_modules/css-loader/index.js!./mobile-menu.css", function() {
+				var newContent = require("!!../../node_modules/css-loader/index.js!./mobile-menu.css");
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 79 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(6)();
+	// imports
+
+
+	// module
+	exports.push([module.id, ".g-navbar-toggle {\r\n    position: relative;\r\n    float: right;\r\n    margin-right: 15px;\r\n    padding: 10px;\r\n    padding-top:8px;\r\n    margin-top: 13px;\r\n    margin-bottom: 13px;\r\n    background-color: transparent;\r\n    background-image: none;\r\n    border: 1px solid transparent;\r\n    border-radius: 4px;\r\n    border: 1px solid #1b2938;\r\n    color: white;\r\n    outline: none;\r\n}\r\n\r\n.mobile-menu-container {\r\n    width: 100%;\r\n    height: 100%;\r\n    position: fixed;\r\n    top: 0;\r\n    left: 0;\r\n    z-index: 9001;\r\n    background-color: rgba(255, 255, 255, 0.12);\r\n}\r\n\r\n.mobile-menu-panel {\r\n    position: fixed;\r\n    z-index: 9002;\r\n    width: 75%;\r\n    height: 100%;\r\n    padding-top: 60px;\r\n    background-color: #28394a;\r\n    box-shadow: 0px 0px 5px black;\r\n}\r\n\r\n.mobile-menu-panel h3 {\r\n    color: white;\r\n    margin: 10px 0px;\r\n    padding: 0px;\r\n    padding-left: 10px;\r\n}\r\n\r\n.mobile-menu-panel hr {\r\n    width: 90%;\r\n    margin: 0px;\r\n    padding: 0px;\r\n    margin-left: 10px;\r\n}\r\n\r\n.mobile-menu-list {\r\n    overflow: scroll;\r\n    height: 100%;\r\n    padding: 0px;\r\n}\r\n\r\n.mobile-menu-list>li {\r\n    list-style: none;\r\n    border-bottom: 1px solid #2e3f52;\r\n    cursor: pointer;\r\n}\r\n\r\n.mobile-menu-list li a {\r\n    color: white;\r\n    display: block;\r\n    width: inherit;\r\n    position: relative;\r\n    line-height: 20px;\r\n    height: 40px;\r\n    padding: 10px;\r\n    transition: all .51s ease;\r\n}\r\n\r\n.godwin {\r\n    background-color: #28394A;\r\n}\r\n\r\n.mobile-menu-list>li>a:hover {\r\n    background-color: #36cde8;\r\n    color: #2e3f52;\r\n}\r\n\r\n.dropdown-mobile-submenu>a:hover {\r\n    background-color: #0bb8d3;\r\n    color: #637991;\r\n}\r\n\r\n.mobile-menu-list a {\r\n    text-decoration: none !important;\r\n}\r\n\r\n.dropdown-mobile-menu {\r\n    margin: 0px;\r\n    padding: 0px;\r\n}\r\n\r\n.dropdown-mobile-menu li {\r\n    background-color: transparent;\r\n}\r\n\r\n.level-1,\r\n.level-2,\r\n.level-3,\r\n.level-4 {\r\n    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.52) inset;\r\n}\r\n\r\n.level-1 a:before {\r\n    content: \"  \";\r\n    white-space: pre;\r\n}\r\n\r\n.level-2 a:before {\r\n    content: \"    \";\r\n    white-space: pre;\r\n}\r\n\r\n.level-3 a:before {\r\n    content: \"      \";\r\n    white-space: pre;\r\n}\r\n\r\n.level-4 a:before {\r\n    content: \"        \";\r\n    white-space: pre;\r\n}\r\n\r\n.level-1 {\r\n    background-color: #202f40;\r\n}\r\n\r\n.level-2 {\r\n    background-color: #182838;\r\n}\r\n\r\n.level-3 {\r\n    background-color: #122436;\r\n}\r\n\r\n.level-4 {\r\n    background-color: #0e2031;\r\n}\r\n\r\n.mobile-menu-container.ng-hide-remove {\r\n    animation: fadeIn .25s;\r\n}\r\n\r\n.mobile-menu-container.ng-hide {\r\n    animation: fadeOut .25s;\r\n}\r\n\r\n.mobile-menu-panel.ng-hide-remove {\r\n    animation: slideInLeft .25s;\r\n}\r\n\r\n.mobile-menu-panel.ng-hide {\r\n    animation: slideOutLeft .25s;\r\n}", ""]);
+
+	// exports
+
+
+/***/ },
+/* 80 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var usersTemplate = __webpack_require__(81),
+	    homeTemplate = __webpack_require__(83),
+	    aboutTemplate = __webpack_require__(84),
+	    upcoming_eventsTemplate = __webpack_require__(85),
+	    serviesTemplate = __webpack_require__(88),
+	    contactTemplate = __webpack_require__(93),
+	    termsTemplate = __webpack_require__(94),
+	    accreditationsTemplate = __webpack_require__(96);
+	angular.module("qls", ["ngSanitize", "ui.router", "ngMeta", "ngAnimate"])
+	    .config(["$stateProvider", "$urlRouterProvider", "ngMetaProvider", "$locationProvider", function ($stateProvider, $urlRouterProvider, ngMetaProvider, $locationProvider) {
+	        $stateProvider.decorator('data', ngMetaProvider.mergeNestedStateData);
+	        $locationProvider.html5Mode(true);
+	        $urlRouterProvider.otherwise("/"),
+	            $stateProvider.state("app", {
+	                url: "",
+	                template: usersTemplate,
+	                controller: "appController",
+	            }).state("app.home", {
+	                url: "/",
+	                template: homeTemplate,
+	                controller: "homeController",
+	                resolve: {
+	                    data: (['ngMeta'], function (ngMeta) {
+	                        ngMetaProvider.useTitleSuffix(true);
+	                        ngMeta.setTitle('QuickLearn Systems', ' | Itil course hyderabad | best IT courses in hyderabad | itil training');
+	                        ngMeta.setTag('description', 'Quick learn sys provides best ITIL course training in hyderabad. We offer several modules in ITIL at effective cost. Your one stop solution for all IT related courses quicklearnsys.com');
+	                        ngMeta.setTag('keywords', 'itil course hyderabad, best it courses in hyderabad,  itil training, pmp courses Hyderabad, itil training Hyderabad');
+	                    })
+	                },
+	                meta: {
+	                    disableUpdate: true
+	                }
+	            }).state("app.about", {
+	                url: "/itil-certification-hyderabad",
+	                template: aboutTemplate,
+	                resolve: {
+	                    data: (['ngMeta'], function (ngMeta) {
+	                        ngMeta.setTitle('itil cetification hyderabad | prince2 clases hyderabad | pmp certification');
+	                        ngMeta.setTag('description', 'Looking for ITIL certification hyderabad look no further quicklearnsys.com offers best training for ITIL certification in the twin cities. Consult quicklearnsys for more information.');
+	                        ngMeta.setTag('keywords', 'itil cetification hyderabad, prince2 clases hyderabad, pmp certification hyderabad, best pmp training institutes hyderabad, best prince 2 training hyderabad');
+	                    })
+	                },
+	                meta: {
+	                    disableUpdate: true
+	                }
+	            }).state("app.upcoming_events", {
+	                url: "/upcoming_events",
+	                template: upcoming_eventsTemplate,
+	                controller: "homeController"
+	            }).state("app.services", {
+	                url: "/services",
+	                template: serviesTemplate,
+	                resolve: {
+	                    data: (['ngMeta'], function (ngMeta) {
+	                        ngMeta.setTitle('lean six sigma green belt | lean six sigma black belt | six sigma yellow belt');
+
+	                        ngMeta.setTag('description', 'Lean six sigma green belt certification with quicklearnsys.com at just 11,999 rs only. Get six sigma certified today with best in class learning infrastructure training institute.');
+
+	                        ngMeta.setTag('keywords', 'lean six sigma green belt, lean six sigma black belt, six sigma yellow belt');
+	                    })
+	                },
+	                meta: {
+	                    disableUpdate: true
+	                }
+	            }).state("app.contact", {
+	                url: "/contact",
+	                template: contactTemplate,
+	                controller: "homeController",
+	                resolve: {
+	                    data: (['ngMeta'], function (ngMeta) {
+	                        ngMeta.setTitle('itil institutes in Hyderabad | quick learn sys | quick learn systems Hyderabad-quicklearnsys.com');
+
+	                        ngMeta.setTag('description', 'One stop solution for all ITIL certifications. Get certified from one of the best ITIL institutes in Hyderabad. World class learning infrastructure at affordable prices.');
+
+	                        ngMeta.setTag('keywords', 'itil institutes in hyderabad, quick learn sys, quick learn systems hyderabad, contact quicklearn sys hyderabad, quicklearn systems hyderabad, quicklearnsys.com');
+	                    })
+	                },
+	                meta: {
+	                    disableUpdate: true
+	                }
+	            }).state("app.itil_foundation", {
+	                url: "/itil-foundation",
+	                templateUrl: "views/classroom_courses/itil_foundation.html",
+	                resolve: {
+	                    data: (['ngMeta'], function (ngMeta) {
+	                        ngMeta.setTitle('ITIL foundation course in hyderabad from quicklearnsys.com');
+	                        ngMeta.setTag('description', 'Quicklearnsys offers ITIl foundation course in hyderabad. Apart from ITIL courses we also offer several other career development courses for the IT professionals.');
+	                        ngMeta.setTag('keywords', 'itil foundation, ITIL foundation course hyderabad, itil foundation exam, itil foundation training, itil foundation cost');
+	                    })
+	                },
+	                meta: {
+	                    disableUpdate: true
+	                }
+	            }).state("app.itil_intermediate", {
+	                url: "/itil-intermediate",
+	                templateUrl: "views/classroom_courses/intermediate.component.html",
+	                resolve: {
+	                    data: (['ngMeta'], function (ngMeta) {
+	                        ngMeta.setTitle('ITIL Intermediaate training in hyderabad class room trainings – quicklearnsys.com');
+
+	                        ngMeta.setTag('description', 'Quicklearnsys.com offers best ITIL Intermediate level training in hyderabad. Learn from the experienced lecturers in the proven methodology for sure success.');
+
+	                        ngMeta.setTag('keywords', 'itil foundation, ITIL foundation course hyderabad, itil foundation exam, itil foundation training, itil foundation cost');
+	                    })
+	                },
+	                meta: {
+	                    disableUpdate: true
+	                }
+	            }).state("app.service_strategy", {
+	                url: "/itil-service-strategy",
+	                templateUrl: "views/classroom_courses/service_strategy.component.html",
+	                resolve: {
+	                    data: (['ngMeta'], function (ngMeta) {
+	                        ngMeta.setTitle('ITIL service strategy course training in hyderabad by experts from quicklearnsys.com');
+
+	                        ngMeta.setTag('description', 'Learn ITIL service strategy from the best in industry trainers. 100% Pass Assurance or we pay your exam fees.');
+
+	                        ngMeta.setTag('keywords', 'itil service strategy, itil life cycle, itil strategy course, itil training hyderabad, itil service strategy hyderabad');
+	                    })
+	                },
+	                meta: {
+	                    disableUpdate: true
+	                }
+	            }).state("app.service_design", {
+	                url: "/itil-design-hyderabad",
+	                templateUrl: "views/classroom_courses/service_design.component.html",
+	                resolve: {
+	                    data: (['ngMeta'], function (ngMeta) {
+	                        ngMeta.setTitle('ITIL design Hyderabad | ITIL design fees | ITIL Service Design quicklearnsys.com');
+
+	                        ngMeta.setTag('description', 'Learn ITIL service design in Hyderabad. Best cost per price. Get trained by the experts in industry. We offer 100% pass assurance in the exams.');
+
+	                        ngMeta.setTag('keywords', 'itil design hyderabad, itil design fees, ITIL Service Design, itil service design course hyderabad');
+	                    })
+	                },
+	                meta: {
+	                    disableUpdate: true
+	                }
+	            }).state("app.service_transition", {
+	                url: "/itil-service-transition",
+	                templateUrl: "views/classroom_courses/service_transition.component.html",
+	                resolve: {
+	                    data: (['ngMeta'], function (ngMeta) {
+	                        ngMeta.setTitle('ITIL Service Transition | itil service transition training |  itil service hyderabad');
+
+	                        ngMeta.setTag('description', 'Best ITIL service transition institutes in Hyderabad. Try quicklearnsys.com for the cost effective yet reliable ITIL service transition coaching in the twin cities Hyderabad and Secunderabad.');
+
+	                        ngMeta.setTag('keywords', 'ITIL Service Transition, service transition itil, itil service hyderabad, itil service transition training');
+	                    })
+	                },
+	                meta: {
+	                    disableUpdate: true
+	                }
+	            }).state("app.service_operation", {
+	                url: "/itil-service-operation",
+	                templateUrl: "views/classroom_courses/service_operation.component.html",
+	                resolve: {
+	                    data: (['ngMeta'], function (ngMeta) {
+	                        ngMeta.setTitle('ITIL Service Operation | itil service operation Hyderabad | itil life cycle hyderabad');
+
+	                        ngMeta.setTag('description', 'ITIL service operation in Hyderabad. We offer quality training with best Infrastructure. ITIL foundation course starting at 13,999 Rs only.');
+
+	                        ngMeta.setTag('keywords', 'ITIL Service Operation, itil service operation hyderabad, itil life cycle hyderabad, itil service operation process, itil service operation training');
+	                    })
+	                },
+	                meta: {
+	                    disableUpdate: true
+	                }
+	            }).state("app.continual_service", {
+	                url: "/itil-continual-service",
+	                templateUrl: "views/classroom_courses/continual_service.component.html",
+	                resolve: {
+	                    data: (['ngMeta'], function (ngMeta) {
+	                        ngMeta.setTitle('ITIL Continual Service Improvement |  itil continual service Hyderabad');
+
+	                        ngMeta.setTag('description', 'itil continual service improvement training in Hyderabad. We are the one stop solution for the ITIL certification in Hyderabad.');
+
+	                        ngMeta.setTag('keywords', 'ITIL Continual Service Improvement, continual service itil, itil continual service hyderabad, itil continual service improvement training');
+	                    })
+	                },
+	                meta: {
+	                    disableUpdate: true
+	                }
+	            }).state("app.soa", {
+	                url: "/itil-soa-hyderabad",
+	                templateUrl: "views/classroom_courses/soa.component.html",
+	                resolve: {
+	                    data: (['ngMeta'], function (ngMeta) {
+	                        ngMeta.setTitle('itil soa Hyderabad | itil soa | itil soa certification quicklearnsys.com ');
+
+	                        ngMeta.setTag('description', 'ITIL service offerings training in Hyderabad from quicklearnsys.com. 100% pass assurance well qualified lectures. Feasible learning modules.');
+
+	                        ngMeta.setTag('keywords', 'itil soa hyderabad, itil soa, itil soa certification, itil soa course fees');
+	                    })
+	                },
+	                meta: {
+	                    disableUpdate: true
+	                }
+	            }).state("app.ppo", {
+	                url: "/itil-ppo",
+	                templateUrl: "views/classroom_courses/ppo.component.html",
+	                resolve: {
+	                    data: (['ngMeta'], function (ngMeta) {
+	                        ngMeta.setTitle('ITIL PPO - ITIL planning protection and optimization in hyderabad');
+
+	                        ngMeta.setTag('description', 'ITIL PPO training in Hyderabad. Learn from highly qualified and experience lecturers. We assure 100% pass accuracy.');
+
+	                        ngMeta.setTag('keywords', 'itil ppo, itil planning, itil planning hyderabad, itil ppo course fees');
+	                    })
+	                },
+	                meta: {
+	                    disableUpdate: true
+	                }
+	            }).state("app.rcv", {
+	                url: "/itil-rcv",
+	                templateUrl: "views/classroom_courses/rcv.component.html",
+	                resolve: {
+	                    data: (['ngMeta'], function (ngMeta) {
+	                        ngMeta.setTitle('ITIl release control and validation courses in Hyderabad quicklearnsys.com');
+
+	                        ngMeta.setTag('description', 'ITIL release control and validation course in hyderabad. High Experienced and real time trainers. 100% Pass Assurance or we pay your exam fees. ');
+
+	                        ngMeta.setTag('keywords', 'itil rcv, ITIL Release, itil Control and Validation, itil rcv hyderabad, itil change management');
+	                    })
+	                },
+	                meta: {
+	                    disableUpdate: true
+	                }
+	            }).state("app.osa", {
+	                url: "/itil-osa",
+	                templateUrl: "views/classroom_courses/osa.component.html",
+	                resolve: {
+	                    data: (['ngMeta'], function (ngMeta) {
+	                        ngMeta.setTitle('ITIL operational support and analysis training in Hyderabad-quicklearnsys.com');
+
+	                        ngMeta.setTag('description', 'ITIL operational support and analysis training in Hyderabad. We give 100% pass assurance and Quality Training Delivery with best Infrastructure.');
+
+	                        ngMeta.setTag('keywords', 'itil osa hyderabad, itil Operational Support and Analysis, itil osa, itil intermediate osa');
+	                    })
+	                },
+	                meta: {
+	                    disableUpdate: true
+	                }
+	            }).state("app.malc", {
+	                url: "/itil-malc",
+	                templateUrl: "views/classroom_courses/malc.component.html",
+	                resolve: {
+	                    data: (['ngMeta'], function (ngMeta) {
+	                        ngMeta.setTitle('ITIL managing across the lifecycle courses in Hyderabad-quicklearnsys.com');
+
+	                        ngMeta.setTag('description', 'ITIL certification courses in Hyderabad. Best price per quality assured. Highly professional and qualified real time trainers. 100 % pass assurance.');
+
+	                        ngMeta.setTag('keywords', 'itil malc, ITIL Managing across the Lifecycle, itil management hyderabad, itil malc hyderabad, itil managing across the lifecycle training');
+	                    })
+	                },
+	                meta: {
+	                    disableUpdate: true
+	                }
+	            }).state("app.capm", {
+	                url: "/capm-course",
+	                templateUrl: "views/classroom_courses/capm.component.html",
+	                resolve: {
+	                    data: (['ngMeta'], function (ngMeta) {
+	                        ngMeta.setTitle('Capm course in Hyderabad  |  pmp capm  |  project management basics');
+
+	                        ngMeta.setTag('description', 'Capm course in Hyderabad. Learn capm course and pass the exam. Highly qualified lecturers 100% pass assurance. Quality training delivered with best infrastructure.');
+
+	                        ngMeta.setTag('keywords', 'capm course, pmp capm, capm hyderabad, project management basics, capm certification');
+	                    })
+	                },
+	                meta: {
+	                    disableUpdate: true
+	                }
+	            }).state("app.pmp", {
+	                url: "/pmp-course-hyderabad",
+	                templateUrl: "views/classroom_courses/pmp.component.html",
+	                resolve: {
+	                    data: (['ngMeta'], function (ngMeta) {
+	                        ngMeta.setTitle('Quick learn sys offers best pmp course Hyderabad |  pmp certification');
+
+	                        ngMeta.setTag('description', 'Master PMP certification courses at affordable prices starting at just 8999 Rs only. We offer best PMP certification in Hyderabad. Try quicklearnsys.com for PMP certifications.');
+
+	                        ngMeta.setTag('keywords', 'pmp course hyderabad, pmp certification hyderabad,  pmp training, pmp training hyderabad, pmp jobs');
+	                    })
+	                },
+	                meta: {
+	                    disableUpdate: true
+	                }
+	            }).state("app.acp", {
+	                url: "/agile-certified-practitioner",
+	                templateUrl: "views/classroom_courses/acp.component.html",
+	                resolve: {
+	                    data: (['ngMeta'], function (ngMeta) {
+	                        ngMeta.setTitle('Agile certified practitioner courses in Hyderabad quicklearnsys.com');
+
+	                        ngMeta.setTag('description', 'Agile certified practitioner courses in Hyderabad. Quick learn sys offers best agile certified course in Hyderabad, we also offer pmi acp, pmi agile certifications.');
+
+	                        ngMeta.setTag('keywords', 'agile certified practitioner, pmi acp hyderabad, project management institute courses, pmi agile certification, pmi acp course');
+	                    })
+	                },
+	                meta: {
+	                    disableUpdate: true
+	                }
+	            }).state("app.prince2foundation", {
+	                url: "/prince2-hyderabad",
+	                templateUrl: "views/classroom_courses/p2f.component.html",
+	                resolve: {
+	                    data: (['ngMeta'], function (ngMeta) {
+	                        ngMeta.setTitle('prince2 foundation Hyderabad | prince2 foundation | prince2 foundation training');
+
+	                        ngMeta.setTag('description', 'Prince2 foundation course in Hyderabad at best price 31,999 Rs only. Try quicklearnsys.com for quality learning experience. 100% exam pass assurance. ');
+
+	                        ngMeta.setTag('keywords', 'prince2 foundation hyderabad, prince2 foundation, prince2 foundation training, project management prince2, prince2 practitioner exam, prince2 foundation and practitioner course');
+	                    })
+	                },
+	                meta: {
+	                    disableUpdate: true
+	                }
+	            }).state("app.prince2practitioner", {
+	                url: "/prince2agile-hyderabad",
+	                templateUrl: "views/classroom_courses/p2p.component.html",
+	                resolve: {
+	                    data: (['ngMeta'], function (ngMeta) {
+	                        ngMeta.setTitle('Quick learn sys offers Prince2 course Hyderabad at best price-quicklearnsys.com');
+
+	                        ngMeta.setTag('description', 'Get certified in prince2 course Hyderabad at 31,999 Rs only. Best price per cost, high experienced and real time trainers available. We offer all modules of prince2practitioner courses.');
+
+	                        ngMeta.setTag('keywords', 'prince2practitioner, prince practitioner prince, prince2 practitioner hyderabad, prince2practitioner training, prince2 certification cost');
+	                    })
+	                },
+	                meta: {
+	                    disableUpdate: true
+	                }
+	            }).state("app.prince2agile", {
+	                url: "/prince2-foundation- hyderabad",
+	                templateUrl: "views/classroom_courses/p2a.component.html",
+	                resolve: {
+	                    data: (['ngMeta'], function (ngMeta) {
+	                        ngMeta.setTitle('Learn prince2 agile in Hyderabad | prince2 agile course Hyderabad | quicklearnsys.com');
+
+	                        ngMeta.setTag('description', 'Prince2 agile course in Hyderabad from basics to the expert level. We team prince2 agile course in Hyderabad with best in class infrastructure and highly qualified and real time tutors.');
+
+	                        ngMeta.setTag('keywords', 'prince2agile, prince agile prince, prince2 agile course hyderabad, prince2agile training');
+	                    })
+	                },
+	                meta: {
+	                    disableUpdate: true
+	                }
+	            }).state("app.scrum", {
+	                url: "/scrum-master",
+	                templateUrl: "views/classroom_courses/scrum.component.html",
+	                resolve: {
+	                    data: (['ngMeta'], function (ngMeta) {
+	                        ngMeta.setTitle('scrum master | professional scrum master | scrum and agile | psm certification');
+
+	                        ngMeta.setTag('description', 'Get scrum master certification in Hyderabad with quicklearnsys.com. we offer quality training with best Infrastructure. We offer professional scrum master and psm certifications.');
+
+	                        ngMeta.setTag('keywords', 'scrum master, professional scrum master, scrum and agile, agile scrum master, psm certification');
+	                    })
+	                },
+	                meta: {
+	                    disableUpdate: true
+	                }
+	            }).state("app.msp", {
+	                url: "/managing-sucessful-programmes-hyderabad",
+	                templateUrl: "views/classroom_courses/msp.component.html",
+	                resolve: {
+	                    data: (['ngMeta'], function (ngMeta) {
+	                        ngMeta.setTitle('managing successful programmes Hyderabad | Managing Successful Programmes | msp Hyderabad');
+
+	                        ngMeta.setTag('description', 'Learn Managing successful programmes Hyderabad course with quicklearnsys.com and master the art of benefits management risk and issue management with best in class training infrastructure.');
+
+	                        ngMeta.setTag('keywords', 'managing successful programmes hyderabad, Managing Successful Programmes, msp hyderabad, managing successful programmes training, project management best practices');
+	                    })
+	                },
+	                meta: {
+	                    disableUpdate: true
+	                }
+	            }).state("app.green_belt", {
+	                url: "/six-sigma-green-belt-hyderabad",
+	                templateUrl: "views/classroom_courses/green_belt.component.html",
+	                resolve: {
+	                    data: (['ngMeta'], function (ngMeta) {
+	                        ngMeta.setTitle('Learn six sigma green belt Hyderabad best cost per quality with quicklearnsys.com');
+
+	                        ngMeta.setTag('description', 'Six sigma certification courses in Hyderabad. Lean six sigma green belt course starting at just Rs 11999/-. Best price per quality training and 100% pass assurance.');
+
+	                        ngMeta.setTag('keywords', 'six sigma green belt hyderabad,  lean six sigma green belt hyderabad six sigma hyderabad, lean six sigma certification, lean 6 sigma hydearbad');
+	                    })
+	                },
+	                meta: {
+	                    disableUpdate: true
+	                }
+	            }).state("app.black_belt", {
+	                url: "/six-sigma-black-belt-hyderabad",
+	                templateUrl: "views/classroom_courses/black_belt.component.html",
+	                resolve: {
+	                    data: (['ngMeta'], function (ngMeta) {
+	                        ngMeta.setTitle('Six sigma black belt training in Hyderabad  | six sigma black belt hyderabad quicklearnsys.com');
+
+	                        ngMeta.setTag('description', 'Lean six sigma courses in Hyderabad. One stop solution for all six sigma courses we offer lean six sigma courses at affordable prices.');
+
+	                        ngMeta.setTag('keywords', 'six sigma black belt hyderabad, lean six sigma black belt hyderabad, lean black belt, lean six sigma training, six sigma black belt training hyderabad');
+	                    })
+	                },
+	                meta: {
+	                    disableUpdate: true
+	                }
+	            }).state("app.cobit", {
+	                url: "/cobit-5",
+	                templateUrl: "views/classroom_courses/cobit.component.html",
+	                resolve: {
+	                    data: (['ngMeta'], function (ngMeta) {
+	                        ngMeta.setTitle('Learn cobit 5 course in Hyderabad | it governance framework | cobit 5 certification');
+
+	                        ngMeta.setTag('description', 'Learn cobit 5 and it framework with quicklearnsys.com. Enroll for COBIT5 Certification Training in Hyderabad.  Best learning infrastructure and well trained tutors at best price per value.');
+
+	                        ngMeta.setTag('keywords', 'cobit 5, cobit 5 framework, cobit, it governance framework, cobit 5 certification');
+	                    })
+	                },
+	                meta: {
+	                    disableUpdate: true
+	                }
+	            }).state("app.togaf", {
+	                url: "/togaf-9.1",
+	                templateUrl: "views/classroom_courses/togaf.component.html",
+	                resolve: {
+	                    data: (['ngMeta'], function (ngMeta) {
+	                        ngMeta.setTitle('togaf 9.1 | togaf tutorials | togaf certification Hyderabad | togaf tutorials');
+
+	                        ngMeta.setTag('description', 'Learn togaf 9.1 in Hyderabad with quicklearnsys.com. Enroll today for the certification. Well experienced and real time tutors and best learning infrastructure.');
+
+	                        ngMeta.setTag('keywords', 'togaf 9.1, togaf tutorials, togaf certification hyderabad, togaf tutorials, togaf 9.1 framework');
+	                    })
+	                },
+	                meta: {
+	                    disableUpdate: true
+	                }
+	            }).state("app.safe", {
+	                url: "/safe-agile",
+	                templateUrl: "views/classroom_courses/safe.component.html",
+	                resolve: {
+	                    data: (['ngMeta'], function (ngMeta) {
+	                        ngMeta.setTitle('safe agile | safe agile Hyderabad | safe agile framework | agile scrum methodology');
+
+	                        ngMeta.setTag('description', 'Safe agile course in Hyderabad by quicklearnsys.com. we offer safe agile certification at best price in Hyderabad. 100% pass assurance. High experienced and real time tutors.');
+
+	                        ngMeta.setTag('keywords', 'safe agile, safe agile hyderabad, safe agile framework, agile scrum methodology');
+	                    })
+	                },
+	                meta: {
+	                    disableUpdate: true
+	                }
+	            }).state("app.dev_ops", {
+	                url: "/devops-master",
+	                templateUrl: "views/classroom_courses/dev_ops.component.html",
+	                resolve: {
+	                    data: (['ngMeta'], function (ngMeta) {
+	                        ngMeta.setTitle('Devops master training in Hyderabad | dev ops tools | dev ops training-quicklearnsys.com');
+
+	                        ngMeta.setTag('description', 'Learn devops master course in Hyderabad. Get certified with devops master certification at affordable price 19,990 Rs only. Become a certified devops master with quicklearnsys.com');
+
+	                        ngMeta.setTag('keywords', 'devops master, dev ops tools, dev ops training, master devops hyderabad, dev ops master training');
+	                    })
+	                },
+	                meta: {
+	                    disableUpdate: true
+	                }
+	            })
+	            .state("app.siam", {
+	                url: "/service-integration-and-management",
+	                templateUrl: "views/classroom_courses/siam.component.html",
+	                resolve: {
+	                    data: (['ngMeta'], function (ngMeta) {
+	                        ngMeta.setTitle('Service Integration and Management Foundation');
+
+	                        ngMeta.setTag('description', '');
+
+	                        ngMeta.setTag('keywords', '');
+	                    })
+	                },
+	                meta: {
+	                    disableUpdate: true
+	                }
+	            })
+	            .state("app.terms", {
+	                url: "/terms",
+	                template: termsTemplate,
+	                resolve: {
+	                    data: (['ngMeta'], function (ngMeta) {
+	                        ngMeta.setTitle('best devops training in Hyderabad |  togaf certification |  dev ops |  itil training');
+
+	                        ngMeta.setTag('description', 'Learn devops in Hyderabad Ameerpet. Low price and 100% exams pass assurance. Best infrastructure. Real time tutors and practical learning.');
+
+	                        ngMeta.setTag('keywords', 'best devops training in hyderabad, togaf certification, dev ops, itil training, itil modules');
+	                    })
+	                },
+	                meta: {
+	                    disableUpdate: true
+	                }
+	            }).state("app.accreditations", {
+	                url: "/IT-certifications-hyderabad",
+	                template: accreditationsTemplate,
+	                resolve: {
+	                    data: (['ngMeta'], function (ngMeta) {
+	                        ngMeta.setTitle('IT certifications Hyderabad | itil Hyderabad | itil certification Hyderabad | prince2 certification');
+
+	                        ngMeta.setTag('description', 'Get certified today !! One stop solution for your all IT certifications in hyderabad. ITIL certifications, PMP and DEVops certifications at the best price per value in Hyderabad.');
+
+	                        ngMeta.setTag('keywords', 'IT certifications hyderabad, itil hyderabad, itil certification hyderabad, prince2 certification, project management institute certification, pmi certification hyderabad');
+	                    })
+	                },
+	                meta: {
+	                    disableUpdate: true
+	                }
+	            })
+	    }]).run(["$transitions", "$rootScope", "$state", "$location", "$window", "ngMeta", function ($transitions, $rootScope, t, n, r, ngMeta) {
+	        ngMeta.init();
+	        $transitions.onBefore({}, function (trans) {
+	            $rootScope.mobileMenuState = false;
+	            if (trans.$to().name != 'app') {
+	                $rootScope.enquiryState = true;
+	            } else {
+	                $rootScope.enquiryState = false;
+	            }
+	        })
+	        $rootScope.$watch(function () {
+	            return n.path();
+	        }, function (e) {
+	            r.scrollTo(0, 0)
+	        })
+	    }])
+
+/***/ },
+/* 81 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = "<nav class=\"navbar navbar-default navbar-fixed-top\" role=\"navigation\">\r\n    <div class=\"container-fluid\">\r\n        <div class=\"navbar-header\">\r\n            <button class=\"g-navbar-toggle\" ng-click=\"mobileMenuToggle()\">\r\n                <i class=\"fa fa-lg\" aria-hidden=\"true\" ng-class=\"{'fa-times':mobileMenuState == true,'fa-bars':mobileMenuState == false}\"></i>\r\n            </button>\r\n            <a class=\"navbar-brand\" style=\"padding-top:10px;\" ui-sref=\"app.home\">\r\n                <img src=\"" + __webpack_require__(82) + "\" alt=\"Quick LearnSystems\">\r\n            </a>\r\n        </div>\r\n        <div class=\"collapse navbar-collapse\">\r\n            <ul class=\"nav navbar-nav\">\r\n                <li>\r\n                    <a ui-sref=\"app.home\">Home</a>\r\n                </li>\r\n                <li class=\"dropdown\">\r\n                    <a aria-expanded=\"false\">\r\n                        About\r\n                        <span class=\"caret\"></span>\r\n                    </a>\r\n                    <ul class=\"dropdown-menu dropdown-intial\">\r\n                        <li>\r\n                            <a ui-sref=\"app.about\">Mission /Vision</a>\r\n                        </li>\r\n                    </ul>\r\n                </li>\r\n                <li class=\"dropdown\">\r\n                    <a aria-expanded=\"false\">Classroom Courses\r\n                        <span class=\"caret\"></span>\r\n                    </a>\r\n                    <ul class=\"dropdown-menu dropdown-intial\">\r\n                        <li class=\"dropdown-submenu\">\r\n                            <a>Service Management</a>\r\n                            <ul class=\"dropdown-menu dropdown-intial\">\r\n                                <li>\r\n                                    <a ui-sref=\"app.itil_foundation\">ITIL Foundation</a>\r\n                                </li>\r\n                                <li class=\"dropdown-submenu\">\r\n                                    <a ui-sref=\"app.itil_intermediate\">ITIL Intermediate</a>\r\n                                    <ul class=\"dropdown-menu dropdown-intial\">\r\n                                        <li class=\"dropdown-submenu\">\r\n                                            <a>ITIL Lifecycle Modules</a>\r\n                                            <ul class=\"dropdown-menu dropdown-intial\">\r\n                                                <li>\r\n                                                    <a ui-sref=\"app.service_strategy\">ITIL Service Strategy</a>\r\n                                                </li>\r\n                                                <li>\r\n                                                    <a ui-sref=\"app.service_design\">ITIL Service Design</a>\r\n                                                </li>\r\n                                                <li>\r\n                                                    <a ui-sref=\"app.service_transition\">ITIL Service Transition</a>\r\n                                                </li>\r\n                                                <li>\r\n                                                    <a ui-sref=\"app.service_operation\">ITIL Service Operation</a>\r\n                                                </li>\r\n                                                <li>\r\n                                                    <a ui-sref=\"app.continual_service\">ITIL Continual Service Improvement</a>\r\n                                                </li>\r\n                                            </ul>\r\n                                        </li>\r\n                                        <li class=\"dropdown-submenu\">\r\n                                            <a>ITIL Capability Module</a>\r\n                                            <ul class=\"dropdown-menu dropdown-intial\">\r\n                                                <li>\r\n                                                    <a ui-sref=\"app.soa\">ITIL Service, Offering and Agreement (SOA)</a>\r\n                                                </li>\r\n                                                <li>\r\n                                                    <a ui-sref=\"app.ppo\">ITIL Planning, Protection and Optimization (PPO)</a>\r\n                                                </li>\r\n                                                <li>\r\n                                                    <a ui-sref=\"app.rcv\">ITIL Release, Control and Validation (RCV)</a>\r\n                                                </li>\r\n                                                <li>\r\n                                                    <a ui-sref=\"app.osa\">ITIL Operational, Support and Analysis (OSA)</a>\r\n                                                </li>\r\n                                            </ul>\r\n                                        </li>\r\n                                    </ul>\r\n                                </li>\r\n                                <li class=\"dropdown-submenu\">\r\n                                    <a>ITIL Expert</a>\r\n                                    <ul class=\"dropdown-menu dropdown-intial\">\r\n                                        <li>\r\n                                            <a ui-sref=\"app.malc\">ITIL\r\n                                                <sup>&reg;</sup> Managing Across The Lifecycle</a>\r\n                                        </li>\r\n                                    </ul>\r\n                                </li>\r\n                                <li>\r\n                                    <a ui-sref=\"app.siam\">SIAM Foundation</a>\r\n                                </li>\r\n                            </ul>\r\n                        </li>\r\n                        <li class=\"dropdown-submenu\">\r\n                            <a>Project &amp; Program Management</a>\r\n                            <ul class=\"dropdown-menu dropdown-intial\">\r\n                                <li>\r\n                                    <a ui-sref=\"app.capm\">CAPM</a>\r\n                                </li>\r\n                                <li>\r\n                                    <a ui-sref=\"app.pmp\">PMP</a>\r\n                                </li>\r\n                                <li>\r\n                                    <a ui-sref=\"app.acp\">ACP</a>\r\n                                </li>\r\n                                <li>\r\n                                    <a ui-sref=\"app.prince2foundation\">Prince2 Foundation</a>\r\n                                </li>\r\n                                <li>\r\n                                    <a ui-sref=\"app.prince2practitioner\">Prince2 Practitioner</a>\r\n                                </li>\r\n                                <li>\r\n                                    <a ui-sref=\"app.prince2agile\">Prince2 Agile</a>\r\n                                </li>\r\n                                <li>\r\n                                    <a ui-sref=\"app.scrum\">Scrum Master</a>\r\n                                </li>\r\n                                <li>\r\n                                    <a ui-sref=\"app.msp\">Managing Successful Programs</a>\r\n                                </li>\r\n                                <li>\r\n                                    <a ui-sref=\"app.safe\">SAFe 4.5 (SAFe Agilist)</a>\r\n                                </li>\r\n                                <li>\r\n                                    <a ui-sref=\"app.dev_ops\">DevOps Master</a>\r\n                                </li>\r\n                            </ul>\r\n                        </li>\r\n                        <li class=\"dropdown-submenu\">\r\n                            <a>Quality Management</a>\r\n                            <ul class=\"dropdown-menu dropdown-intial\">\r\n                                <li>\r\n                                    <a ui-sref=\"app.green_belt\">Lean Six Sigma Green Belt</a>\r\n                                </li>\r\n                                <li>\r\n                                    <a ui-sref=\"app.black_belt\">Lean Six Sigma Black Belt</a>\r\n                                </li>\r\n                            </ul>\r\n                        </li>\r\n                        <li class=\"dropdown-submenu\">\r\n                            <a>IT Governance &amp; Architecture</a>\r\n                            <ul class=\"dropdown-menu dropdown-intial\">\r\n                                <li>\r\n                                    <a ui-sref=\"app.cobit\">COBIT 5 Foundation</a>\r\n                                </li>\r\n                                <li>\r\n                                    <a ui-sref=\"app.togaf\">TOGAF 9.1 Level 1 &amp; Level 2</a>\r\n                                </li>\r\n                            </ul>\r\n                        </li>\r\n                    </ul>\r\n                </li>\r\n                <li>\r\n                    <a ui-sref=\"app.upcoming_events\">Upcoming Events</a>\r\n                </li>\r\n                <li>\r\n                    <a ui-sref=\"app.services\">Services</a>\r\n                </li>\r\n                <li>\r\n                    <a ui-sref=\"app.contact\">Contact Us</a>\r\n                </li>\r\n            </ul>\r\n        </div>\r\n    </div>\r\n</nav>\r\n<div class=\"mobile-menu-container\" ng-show=\"mobileMenuState\"></div>\r\n<div class=\"mobile-menu-panel\" ng-show=\"mobileMenuState\">\r\n    <h3>Menu</h3>\r\n    <hr>\r\n    <ul class=\"mobile-menu-list\">\r\n        <li>\r\n            <a ui-sref=\"app.home\">Home</a>\r\n        </li>\r\n        <li class=\"dropdown-mobile\">\r\n            <a aria-expanded=\"false\" data-toggle=\"collapse\" data-target=\"#li-About\">About\r\n                <span class=\"caret\"></span>\r\n            </a>\r\n            <ul class=\"dropdown-mobile-menu dropdown-mobile-intial level-1 list-1 panel-collapse collapse\" id=\"li-About\">\r\n                <li>\r\n                    <a ui-sref=\"app.about\">Mission /Vision</a>\r\n                </li>\r\n            </ul>\r\n        </li>\r\n        <li class=\"dropdown-mobile\">\r\n            <a aria-expanded=\"false\" data-toggle=\"collapse\" data-target=\"#li-Classroom\">Classroom Courses\r\n                <span class=\"caret\"></span>\r\n            </a>\r\n            <ul class=\"dropdown-mobile-menu dropdown-mobile-intial level-1 list-4 panel-collapse collapse\" id=\"li-Classroom\">\r\n                <li class=\"dropdown-mobile-submenu\">\r\n                    <a data-toggle=\"collapse\" data-target=\"#li-ServiceManagement\">Service Management\r\n                        <span class=\"caret\"></span>\r\n                    </a>\r\n                    <ul class=\"dropdown-mobile-menu dropdown-mobile-intial level-2 list-4 panel-collapse collapse\" id=\"li-ServiceManagement\">\r\n                        <li>\r\n                            <a ui-sref=\"app.itil_foundation\">ITIL Foundation</a>\r\n                        </li>\r\n                        <li class=\"dropdown-mobile-submenu\">\r\n                            <a ui-sref=\"app.itil_intermediate\" data-toggle=\"collapse\" data-target=\"#li-Intermediate\">ITIL Intermediate\r\n                                <span class=\"caret\"></span>\r\n                            </a>\r\n                            <ul class=\"dropdown-mobile-menu dropdown-mobile-intial level-3 list-2 panel-collapse collapse\" id=\"li-Intermediate\">\r\n                                <li class=\"dropdown-mobile-submenu\">\r\n                                    <a data-toggle=\"collapse\" data-target=\"#li-LifecycleModules\">ITIL Lifecycle Modules\r\n                                        <span class=\"caret\"></span>\r\n                                    </a>\r\n                                    <ul class=\"dropdown-mobile-menu dropdown-mobile-intial level-4 list-5 panel-collapse collapse\" id=\"li-LifecycleModules\">\r\n                                        <li>\r\n                                            <a ui-sref=\"app.service_strategy\">ITIL Service Strategy</a>\r\n                                        </li>\r\n                                        <li>\r\n                                            <a ui-sref=\"app.service_design\">ITIL Service Design</a>\r\n                                        </li>\r\n                                        <li>\r\n                                            <a ui-sref=\"app.service_transition\">ITIL Service Transition</a>\r\n                                        </li>\r\n                                        <li>\r\n                                            <a ui-sref=\"app.service_operation\">ITIL Service Operation</a>\r\n                                        </li>\r\n                                        <li>\r\n                                            <a ui-sref=\"app.continual_service\">ITIL Continual Service Improvement</a>\r\n                                        </li>\r\n                                    </ul>\r\n                                </li>\r\n                                <li class=\"dropdown-mobile-submenu\">\r\n                                    <a data-toggle=\"collapse\" data-target=\"#li-CapabilityModule\">ITIL Capability Module\r\n                                        <span class=\"caret\"></span>\r\n                                    </a>\r\n                                    <ul class=\"dropdown-mobile-menu dropdown-mobile-intial level-4 list-4 panel-collapse collapse\" id=\"li-CapabilityModule\">\r\n                                        <li>\r\n                                            <a ui-sref=\"app.soa\">ITIL Service, Offering and Agreement (SOA)</a>\r\n                                        </li>\r\n                                        <li>\r\n                                            <a ui-sref=\"app.ppo\">ITIL Planning, Protection and Optimization (PPO)</a>\r\n                                        </li>\r\n                                        <li>\r\n                                            <a ui-sref=\"app.rcv\">ITIL Release, Control and Validation (RCV)</a>\r\n                                        </li>\r\n                                        <li>\r\n                                            <a ui-sref=\"app.osa\">ITIL Operational, Support and Analysis (OSA)</a>\r\n                                        </li>\r\n                                    </ul>\r\n                                </li>\r\n                            </ul>\r\n                        </li>\r\n                        <li class=\"dropdown-mobile-submenu\">\r\n                            <a data-toggle=\"collapse\" data-target=\"#li-ITILExpert\">ITIL Expert\r\n                                <span class=\"caret\"></span>\r\n                            </a>\r\n                            <ul class=\"dropdown-mobile-menu dropdown-mobile-intial level-3 list-1 panel-collapse collapse\" id=\"li-ITILExpert\">\r\n                                <li>\r\n                                    <a ui-sref=\"app.malc\">ITIL\r\n                                        <sup>&reg;</sup> Managing Across The Lifecycle</a>\r\n                                </li>\r\n                            </ul>\r\n                        </li>\r\n                        <li>\r\n                            <a ui-sref=\"app.siam\">SIAM Foundation</a>\r\n                        </li>\r\n                    </ul>\r\n                </li>\r\n                <li class=\"dropdown-mobile-submenu\">\r\n                    <a data-toggle=\"collapse\" data-target=\"#li-ProjectProgramManagement\">Project & Program Management\r\n                        <span class=\"caret\"></span>\r\n                    </a>\r\n                    <ul class=\"dropdown-mobile-menu dropdown-mobile-intial level-2 list-10 panel-collapse collapse\" id=\"li-ProjectProgramManagement\">\r\n                        <li>\r\n                            <a ui-sref=\"app.capm\">CAPM</a>\r\n                        </li>\r\n                        <li>\r\n                            <a ui-sref=\"app.pmp\">PMP</a>\r\n                        </li>\r\n                        <li>\r\n                            <a ui-sref=\"app.acp\">ACP</a>\r\n                        </li>\r\n                        <li>\r\n                            <a ui-sref=\"app.prince2foundation\">Prince2 Foundation</a>\r\n                        </li>\r\n                        <li>\r\n                            <a ui-sref=\"app.prince2practitioner\">Prince2 Practitioner</a>\r\n                        </li>\r\n                        <li>\r\n                            <a ui-sref=\"app.prince2agile\">Prince2 Agile</a>\r\n                        </li>\r\n                        <li>\r\n                            <a ui-sref=\"app.scrum\">Scrum Master</a>\r\n                        </li>\r\n                        <li>\r\n                            <a ui-sref=\"app.msp\">Managing Successful Programs</a>\r\n                        </li>\r\n                        <li>\r\n                            <a ui-sref=\"app.safe\">SAFe 4.5 (SAFe Agilist)</a>\r\n                        </li>\r\n                        <li>\r\n                            <a ui-sref=\"app.dev_ops\">DevOps Master</a>\r\n                        </li>\r\n                    </ul>\r\n                </li>\r\n                <li class=\"dropdown-mobile-submenu\">\r\n                    <a data-toggle=\"collapse\" data-target=\"#li-QualityManagement\">Quality Management\r\n                        <span class=\"caret\"></span>\r\n                    </a>\r\n                    <ul class=\"dropdown-mobile-menu dropdown-mobile-intial level-2 list-2 panel-collapse collapse\" id=\"li-QualityManagement\">\r\n                        <li>\r\n                            <a ui-sref=\"app.green_belt\">Lean Six Sigma Green Belt</a>\r\n                        </li>\r\n                        <li>\r\n                            <a ui-sref=\"app.black_belt\">Lean Six Sigma Black Belt</a>\r\n                        </li>\r\n                    </ul>\r\n                </li>\r\n                <li class=\"dropdown-mobile-submenu\">\r\n                    <a data-toggle=\"collapse\" data-target=\"#li-ITGovernanceArchitecture\">IT Governance & Architecture\r\n                        <span class=\"caret\"></span>\r\n                    </a>\r\n                    <ul class=\"dropdown-mobile-menu dropdown-mobile-intial level-2 list-2 panel-collapse collapse\" id=\"li-ITGovernanceArchitecture\">\r\n                        <li>\r\n                            <a ui-sref=\"app.cobit\">COBIT 5 Foundation</a>\r\n                        </li>\r\n                        <li>\r\n                            <a ui-sref=\"app.togaf\">TOGAF 9.1 Level 1 &amp; Level 2</a>\r\n                        </li>\r\n                    </ul>\r\n                </li>\r\n            </ul>\r\n        </li>\r\n        <li>\r\n            <a ui-sref=\"app.upcoming_events\">Upcoming Events</a>\r\n        </li>\r\n        <li>\r\n            <a ui-sref=\"app.services\">Services</a>\r\n        </li>\r\n        <li>\r\n            <a ui-sref=\"app.contact\">Contact Us</a>\r\n        </li>\r\n    </ul>\r\n</div>\r\n<div class=\"enquiry-container\" ng-class=\"enquiryState ? 'enquiry-open' : 'enquiry-close'\">\r\n    <div class=\"enquiry-label\" ng-click=\"enquiryToggle()\">\r\n        <p>\r\n            <i class=\"fa fa-question-circle\" aria-hidden=\"true\"></i> Enquiry</p>\r\n    </div>\r\n    <div class=\"enquiry-form-container\">\r\n        <div class=\"container-fluid\">\r\n            <form class=\"form-horizontal\">\r\n                <div class=\"form-group\">\r\n                    <div class=\"col-sm-12\">\r\n                        <input type=\"text\" ng-model=\"siteContact.fullname\" class=\"form-control\" id=\"fullName\" placeholder=\"Full Name\" required>\r\n                    </div>\r\n                </div>\r\n                <div class=\"form-group\">\r\n                    <div class=\"col-sm-12\">\r\n                        <input type=\"text\" ng-model=\"siteContact.email\" class=\"form-control\" id=\"email\" placeholder=\"Email\" required>\r\n                    </div>\r\n                </div>\r\n                <div class=\"form-group\">\r\n                    <div class=\"col-sm-12\">\r\n                        <input type=\"text\" ng-model=\"siteContact.mobile\" class=\"form-control\" id=\"mobile\" placeholder=\"Mobile Number\">\r\n                    </div>\r\n                </div>\r\n                <div class=\"form-group\">\r\n                    <div class=\"col-sm-12\">\r\n                        <select class=\"form-control\" id=\"select\" ng-model=\"siteContact.courseInterested\" ng-init=\"siteContact.courseInterested = coursesList[0]\">\r\n                            <option ng-repeat=\"course in coursesList\" ng-disabled=\"$index == 0\" value=\"{{course}}\">{{course}}</option>\r\n                        </select>\r\n                    </div>\r\n                </div>\r\n                <div class=\"form-group\">\r\n                    <div class=\"col-sm-12\">\r\n                        <textarea class=\"form-control\" rows=\"3\" id=\"textArea\" placeholder=\"Your Remarks\" ng-model=\"siteContact.message\"></textarea>\r\n                    </div>\r\n                </div>\r\n                <div class=\"form-group\">\r\n                    <div class=\"col-sm-12 text-center\">\r\n                        <button class=\"btn pull-right\" ng-class=\"siteContactSubmit == 'Submit' ? 'btn-primary' :'btn-success'\" ng-disabled=\"siteContactSubmit !== 'Submit'\"\r\n                            type=\"submit\" ng-click=\"contactSubmit()\">{{siteContactSubmit}}</button>\r\n                    </div>\r\n                </div>\r\n            </form>\r\n            <div class=\"form-hide\" ng-hide=\"siteContactSubmit == 'Submit'\">\r\n                <div class=\"panel panel-default\" style=\"width:80%;\">\r\n                    <div class=\"panel-heading text-center\" style=\"line-height:0px;\">\r\n                        <h3 class=\"text-success\">\r\n                            <i class=\"ion-ios-checkmark-outline text-success\"></i> Message Sent</h3>\r\n                    </div>\r\n                    <div class=\"panel-body text-center\">\r\n                        <p>Thank you for contacting\r\n                            <br>QuickLearn Systems.\r\n                            <br>\r\n                            <br> A team member will be in touch with you shortly.</p>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n<div ng-class=\"{'blur':mobileMenuState}\">\r\n    <ui-view></ui-view>\r\n    <footer class=\"container-fluid text-center\" style=\"padding:0px\">\r\n        <div class=\"container-fluid\">\r\n            <div class=\"row\">\r\n                <div class=\"col-sm-3\">\r\n                    <div class=\"container-fluid text-left\" style=\"font-size:small\">\r\n                        <h3>Popular Courses</h3>\r\n                        <ul class=\"popular-courses\">\r\n                            <li>\r\n                                <a ui-sref=\"app.itil_foundation\">ITIL Foundation</a>\r\n                            </li>\r\n                            <li>\r\n                                <a ui-sref=\"app.pmp\">PMP</a>\r\n                            </li>\r\n                            <li>\r\n                                <a ui-sref=\"app.prince2foundation\">Prince2</a>\r\n                            </li>\r\n                            <li>\r\n                                <a ui-sref=\"app.dev_ops\">DevOps Master</a>\r\n                            </li>\r\n                            <li>\r\n                                <a ui-sref=\"app.scrum\">Scrum Master</a>\r\n                            </li>\r\n                            <li>\r\n                                <a ui-sref=\"app.safe\">Safe Agile</a>\r\n                            </li>\r\n                            <li>\r\n                                <a ui-sref=\"app.green_belt\">Lean Six Sigm Green Belt</a>\r\n                            </li>\r\n                        </ul>\r\n                    </div>\r\n                </div>\r\n                <div class=\"col-sm-4\">\r\n                    <h3 class=\"text-center\">Finds us on</h3>\r\n                    <ul class=\"social-network social-circle\">\r\n                        <!--<li><a href=\"#\" class=\"icoRss\" title=\"Rss\"><i class=\"fa fa-rss\"></i></a></li>-->\r\n                        <li>\r\n                            <a href=\"https://www.facebook.com/QuickLearn-Systems-860154054085242\" class=\"icoFacebook\" title=\"Facebook\">\r\n                                <i class=\"fa fa-facebook\"></i>\r\n                            </a>\r\n                        </li>\r\n                        <li>\r\n                            <a href=\"https://twitter.com/quicklearnsys\" class=\"icoTwitter\" title=\"Twitter\">\r\n                                <i class=\"fa fa-twitter\"></i>\r\n                            </a>\r\n                        </li>\r\n                        <li>\r\n                            <a href=\"https://plus.google.com/109738846000587914274\" class=\"icoGoogle\" title=\"Google +\">\r\n                                <i class=\"fa fa-google-plus\"></i>\r\n                            </a>\r\n                        </li>\r\n                        <li>\r\n                            <a href=\"https://in.linkedin.com/in/quicklearn-systems-1494ba12a\" class=\"icoLinkedin\" title=\"Linkedin\">\r\n                                <i class=\"fa fa-linkedin\"></i>\r\n                            </a>\r\n                        </li>\r\n                    </ul>\r\n                    <h3 class=\"text-center\">Payment Options</h3>\r\n                    <small>We accept Payment by Cash, Cheque,\r\n                        <br/>Online Fund Transfer and Credit Cards</small>\r\n                    <br/>\r\n                    <ul class=\"social-network social-circle\">\r\n                        <li>\r\n                            <a href=\"#\" class=\"icoTwitter\" title=\"Visa\">\r\n                                <i class=\"fa fa-cc-visa\"></i>\r\n                            </a>\r\n                        </li>\r\n                        <li>\r\n                            <a href=\"#\" class=\"icoTwitter\" title=\"Master Card\">\r\n                                <i class=\"\tfa fa-cc-mastercard\"></i>\r\n                            </a>\r\n                        </li>\r\n                        <li>\r\n                            <a href=\"#\" class=\"icoTwitter\" title=\"Google Wallet\">\r\n                                <i class=\"fa fa-google-wallet\"></i>\r\n                            </a>\r\n                        </li>\r\n                        <li>\r\n                            <a href=\"#\" class=\"icoTwitter\" title=\"PayPal\">\r\n                                <i class=\"fa fa-paypal\"></i>\r\n                            </a>\r\n                        </li>\r\n                    </ul>\r\n                </div>\r\n                <div class=\"col-sm-2\">\r\n                    <h3 class=\"text-left\">Company</h3>\r\n                    <ul class=\"footer-company\">\r\n                        <li>\r\n                            <a ui-sref=\"app.about\">About Us</a>\r\n                        </li>\r\n                        <li>\r\n                            <a ui-sref=\"app.home\">Courses</a>\r\n                        </li>\r\n                        <li>\r\n                            <a ui-sref=\"app.upcoming_events\">Upcoming Events</a>\r\n                        </li>\r\n                        <li>\r\n                            <a ui-sref=\"app.contact\">Contact Us</a>\r\n                        </li>\r\n                        <li>\r\n                            <a ui-sref=\"app.terms\">Term and conditions</a>\r\n                        </li>\r\n                        <li>\r\n                            <a ui-sref=\"app.accreditations\">Accreditation</a>\r\n                        </li>\r\n                    </ul>\r\n                </div>\r\n                <div class=\"col-sm-3\">\r\n                    <h3 class=\"text-left\">Quick Enquiry</h3>\r\n                    <div class=\"row\">\r\n                        <div class=\"col-sm-6 form-group\">\r\n                            <input class=\"form-control\" id=\"name\" name=\"name\" placeholder=\"Name\" type=\"text\" ng-model=\"siteContact.fullname\" required>\r\n                        </div>\r\n                        <div class=\"col-sm-6 form-group\">\r\n                            <input class=\"form-control\" id=\"email\" name=\"email\" placeholder=\"Email\" type=\"email\" ng-model=\"siteContact.email\" required>\r\n                        </div>\r\n                    </div>\r\n                    <textarea class=\"form-control\" id=\"comments\" name=\"comments\" placeholder=\"Comment\" rows=\"5\" ng-model=\"siteContact.message\"></textarea>\r\n                    <br>\r\n                    <div class=\"row\">\r\n                        <div class=\"col-sm-12 form-group\">\r\n                            <button class=\"btn pull-right\" ng-class=\"siteContactSubmit == 'Submit' ? 'btn-primary' :'btn-success'\" ng-disabled=\"siteContactSubmit !== 'Submit'\"\r\n                                type=\"submit\" ng-click=\"contactSubmit()\">{{siteContactSubmit}}</button>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n        <div class=\"container-fluid footer-band\">\r\n            <div class=\"col-lg-12\">\r\n                <h6>&copy; 2016-2017 - QucikLearn Systems. All Rights Reserved. The certification names are the trademarks of\r\n                    their respective owners.\r\n                </h6>\r\n            </div>\r\n        </div>\r\n    </footer>\r\n</div>";
+
+/***/ },
+/* 82 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "_/images/logo_nav.png";
+
+/***/ },
+/* 83 */
+/***/ function(module, exports) {
+
+	module.exports = "<div class=\"jumbotron jumbotron_banner text-center\">\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-md-12 text-center\" style=\"padding-top:4%\">\r\n            <!--<img src=\"../images/logo.png\" alt=\"Qick Learn Systems\" width=\"30%\" />-->\r\n            <div class=\"container-fluid\">\r\n                <svg id=\"Layer_1\" style=\"width: 40%;\" data-name=\"Layer 1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 462.09 293.1\">\r\n                    <defs>\r\n                        <style>\r\n                            .cls-1 {\r\n                                fill: #c1c1c1;\r\n                            }\r\n\r\n                            .cls-2 {\r\n                                fill: #fff;\r\n                            }\r\n\r\n                            .cls-3 {\r\n                                fill: #eee;\r\n                            }\r\n                        </style>\r\n                    </defs>\r\n                    <title>logo</title>\r\n                    <g id=\"_Group_\" data-name=\"&lt;Group&gt;\">\r\n                        <path id=\"_Path_\" data-name=\"&lt;Path&gt;\" class=\"cls-1\" d=\"M179.46,361.85a111.1,111.1,0,1,1,99.94-62.45L300,331.19c14.5-22.12,24-57.68,24-80.5a144.47,144.47,0,1,0-86.78,132.53l-13.15-30.7A110.77,110.77,0,0,1,179.46,361.85Z\"\r\n                            transform=\"translate(-30.91 -102.14)\" />\r\n                        <path id=\"_Path_2\" data-name=\"&lt;Path&gt;\" class=\"cls-1\" d=\"M490,341a41.53,41.53,0,0,0-8.3-12.5,38.29,38.29,0,0,0-13-8.69q-7.72-3.22-18.84-3.22h-58a17.84,17.84,0,0,1-4.78-.49,7.72,7.72,0,0,1-2.83-1.46,8.69,8.69,0,0,1-3.32-7,9.27,9.27,0,0,1,2.73-6.83,8.24,8.24,0,0,1,3-1.85,15.54,15.54,0,0,1,5.17-.68h94.9v-35H389.9q-13.28,0-21.28,3.22a37.68,37.68,0,0,0-13.28,8.69,41.48,41.48,0,0,0-8.3,12.5,37.58,37.58,0,0,0-3,15,38.49,38.49,0,0,0,2.93,15.13,40.33,40.33,0,0,0,8.2,12.4,37.51,37.51,0,0,0,13.38,8.69q8.1,3.22,21.38,3.22h53.7a19.89,19.89,0,0,1,6,.68,7.7,7.7,0,0,1,3.42,2.25,9.53,9.53,0,0,1,2.73,7,8.64,8.64,0,0,1-5.76,8.49,18.06,18.06,0,0,1-6.35.88H309.38c-8,.24-14.71-1.39-16.88-3.48a43.57,43.57,0,0,1-6.67-8.17L221.59,246.33l-27.93,18.6,54.95,89.89c4,6.24,6.07,9.81,8.91,14.62a67.62,67.62,0,0,0,8.82,11.78c6.54,7.42,12.82,10.48,18.35,12.23s12.33,1.79,20.41,1.79H449.85q11.72,0,19.82-3.71a39.7,39.7,0,0,0,13.57-10,42.29,42.29,0,0,0,7.13-11.91A37.84,37.84,0,0,0,490,341Z\"\r\n                            transform=\"translate(-30.91 -102.14)\" />\r\n                    </g>\r\n                    <g id=\"_Group_2\" data-name=\"&lt;Group&gt;\">\r\n                        <path id=\"_Path_3\" data-name=\"&lt;Path&gt;\" class=\"cls-2\" d=\"M175.46,391.24V357.85a111.16,111.16,0,1,1,0-222.32V102.14a144.55,144.55,0,1,0,0,289.1Z\"\r\n                            transform=\"translate(-30.91 -102.14)\" />\r\n                        <path id=\"_Path_4\" data-name=\"&lt;Path&gt;\" class=\"cls-3\" d=\"M286.62,246.69a110.7,110.7,0,0,1-11.22,48.71L296,327.19c14.5-22.12,24-57.68,24-80.5A144.55,144.55,0,0,0,175.46,102.14v33.39A111.16,111.16,0,0,1,286.62,246.69Z\"\r\n                            transform=\"translate(-30.91 -102.14)\" />\r\n                        <path id=\"_Path_5\" data-name=\"&lt;Path&gt;\" class=\"cls-3\" d=\"M220.08,348.52a110.77,110.77,0,0,1-44.62,9.33v33.39a144,144,0,0,0,57.77-12Z\"\r\n                            transform=\"translate(-30.91 -102.14)\" />\r\n                        <path id=\"_Compound_Path_\" data-name=\"&lt;Compound Path&gt;\" class=\"cls-3\" d=\"M301.09,391.24c-8.07,0-14.87,0-20.41-1.79s-11.81-4.81-18.35-12.23a67.62,67.62,0,0,1-8.82-11.78c-2.85-4.81-4.93-8.38-8.91-14.62l-54.95-89.89,27.93-18.6L281.83,345.8A43.56,43.56,0,0,0,288.5,354c2.17,2.1,8.84,3.72,16.88,3.48H371.6l20,33.78Z\"\r\n                            transform=\"translate(-30.91 -102.14)\" />\r\n                        <path id=\"_Compound_Path_2\" data-name=\"&lt;Compound Path&gt;\" class=\"cls-2\" d=\"M482.75,294.19h-94.9a15.54,15.54,0,0,0-5.17.68,8.24,8.24,0,0,0-3,1.85,9.27,9.27,0,0,0-2.73,6.83,8.69,8.69,0,0,0,3.32,7,7.73,7.73,0,0,0,2.83,1.46,17.84,17.84,0,0,0,4.78.49h58q11.13,0,18.84,3.22a38.29,38.29,0,0,1,13,8.69A41.54,41.54,0,0,1,486,337a37.84,37.84,0,0,1,.39,28.7,42.29,42.29,0,0,1-7.13,11.91,39.7,39.7,0,0,1-13.57,10q-8.1,3.71-19.82,3.71H388.17l-70.28-33.78H439.6a18.06,18.06,0,0,0,6.35-.88,8.64,8.64,0,0,0,5.76-8.49,9.53,9.53,0,0,0-2.73-7,7.7,7.7,0,0,0-3.42-2.25,19.89,19.89,0,0,0-6-.68H385.9q-13.28,0-21.38-3.22a37.51,37.51,0,0,1-13.38-8.69,40.32,40.32,0,0,1-8.2-12.4A38.49,38.49,0,0,1,340,298.68a37.58,37.58,0,0,1,3-15,41.48,41.48,0,0,1,8.3-12.5,37.68,37.68,0,0,1,13.28-8.69q8-3.22,21.28-3.22h96.85Z\"\r\n                            transform=\"translate(-30.91 -102.14)\" />\r\n                    </g>\r\n                </svg>\r\n            </div>\r\n\r\n            <h1 class=\"lead jumbotron_banner_h1\">Welcome to QuickLearn Systems</h1>\r\n            <p>Set your sights on the finish line. Achieve your project goals.</p>\r\n        </div>\r\n    </div>\r\n    <div class=\"container-fuild\" style=\"margin-top:15px;\">\r\n        <div class=\"col-md-12 text-center\" onclick=\" $('html, body').animate({scrollTop:$('.jumbotron').height()+38}, 500, 'swing')\">\r\n            <i class=\"fa fa-angle-down\" style=\"font-size:80px;cursor:pointer\"></i>\r\n        </div>\r\n    </div>\r\n</div>\r\n<div class=\"container-fluid remove-padding\">\r\n    <div class=\"col-sm-12 remove-padding\">\r\n        <div id=\"myCarousel\" class=\"carousel slide\" data-ride=\"carousel\">\r\n            <div class=\"carousel-inner\" role=\"listbox\">\r\n                <div class=\"item\" ng-repeat=\"event in events\" ng-class=\"{active:!$index}\">\r\n                    <img ng-src=\"./images/{{event.slider}}.jpg\">\r\n                    <img ng-src=\"./images/{{event.slider}}.jpg\" class=\"blur-img\">\r\n                    <img ng-src=\"./images/{{event.slider}}_cap.png\" class=\"img-caption\">\r\n                    <div class=\"event-details container-fluid\">\r\n                        <div class=\"hidden-xs hidden-sm col-md-1 col-lg-1\"></div>\r\n                        <div class=\"hidden-xs hidden-sm col-md-5 col-lg-7\">\r\n                            <p><i class=\"fa fa-clipboard\" aria-hidden=\"true\"></i> <b>Course:</b> {{event.training}}</p>\r\n                            <p><i class=\"fa fa-calendar\" aria-hidden=\"true\"></i> <b>Date:</b> {{event.date}}</p>\r\n                            <p><i class=\"fa fa-location-arrow\" aria-hidden=\"true\"></i> <b>Location:</b> {{event.location}}</p>\r\n                        </div>\r\n                        <div class=\"hidden-xs hidden-sm col-md-6 col-lg-4\" style=\"padding-top:15px;\">\r\n                            <a ng-href=\"{{event.link}}\" style=\"text-decoration: none;\"><button class=\"btn btn-primary btn-block btn-lg\" style=\"font-family:Raleway\">Register Now</button></a>\r\n                        </div>\r\n                        <div class=\"col-xs-12 col-sm-12 hidden-md hidden-lg text-center\" style=\"font-size:medium; padding-top:0px; font-family:Raleway;\">\r\n                            <p><i class=\"fa fa-clipboard\" aria-hidden=\"true\"></i> <b>Course:</b> {{event.training}}</p>\r\n                            <p><i class=\"fa fa-calendar\" aria-hidden=\"true\"></i> <b>Date:</b> {{event.date}}</p>\r\n                            <p><i class=\"fa fa-location-arrow\" aria-hidden=\"true\"></i> <b>Location:</b> {{event.location}}</p>\r\n                        </div>\r\n                        <div class=\"col-xs-12 col-sm-12 hidden-md hidden-lg\">\r\n                            <a ng-href=\"{{event.link}}\" style=\"text-decoration: none;\"><button class=\"btn btn-primary btn-sm btn-block\" style=\"font-family:Raleway\">Register Now</button></a>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n\r\n                <!-- Left and right controls -->\r\n                <a class=\"left carousel-control\" data-target=\"#myCarousel\" role=\"button\" data-slide=\"prev\">\r\n                    <span class=\"glyphicon glyphicon-chevron-left\" aria-hidden=\"true\"></span>\r\n                    <span class=\"sr-only\">Previous</span>\r\n                </a>\r\n                <a class=\"right carousel-control\" data-target=\"#myCarousel\" role=\"button\" data-slide=\"next\">\r\n                    <span class=\"glyphicon glyphicon-chevron-right\" aria-hidden=\"true\"></span>\r\n                    <span class=\"sr-only\">Next</span>\r\n                </a>\r\n            </div>\r\n        </div>\r\n        <!-- <div class=\"col-sm-4 events\">\r\n            <div class=\"panel panel-primary\" style=\"margin-bottom:0px;\">\r\n                <div class=\"panel-heading\">\r\n                    <h3 class=\"panel-title\">Upcoming Events</h3>\r\n                </div>\r\n                <div class=\"panel-body panel-events\" ng-scrollbars>\r\n                    <div class=\"container-fluid\" style=\"padding:0px;\">\r\n                        <div ng-repeat=\"event in events\">\r\n                            <div class=\"col-sm-12 event-card\" style=\"margin-bottom: 10px;\">\r\n                                <p>\r\n                                    <strong>{{event.training}}</strong>\r\n                                </p>\r\n                                <p>Date: {{event.date}}\r\n                                    <br>Location: {{event.location}}</p>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div> -->\r\n    </div>\r\n    <br/>\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-md-12 text-center\">\r\n            <h2>Courses We Offer</h2>\r\n        </div>\r\n        <div class=\"container-fluid\">\r\n            <div class=\"row\">\r\n                <div class=\"col-sm-2\"></div>\r\n                <div class=\"col-sm-8\">\r\n                    <div class=\"input-group\">\r\n                        <input type=\"search\" class=\"form-control\" placeholder=\"Search for courses\" ng-model=\"query\">\r\n                        <span class=\"input-group-addon btn btn-primary\">\r\n                            <i class=\"fa fa-search\"></i> Search</span>\r\n                    </div>\r\n                    <hr class=\"divider\" style=\"border-top: 1px solid #3e4f5f;\">\r\n                </div>\r\n                <div class=\"col-sm-2\"></div>\r\n            </div>\r\n\r\n        </div>\r\n        <div class=\"container-fluid\">\r\n            <div class=\"col-sm-3\" ng-repeat=\"course in courses | filter:query\">\r\n                <div class=\"container card\">\r\n                    <div class=\"col-sm-12 card-image\">\r\n                        <img ng-src=\"{{course.image}}\" alt=\"{{course.title}}\" width=\"100%\" />\r\n                    </div>\r\n                    <div class=\"col-sm-12 card-content\">\r\n                        <h4 class=\"text-primary\">{{course.title}}</h4>\r\n                        <p>{{course.text}}</p>\r\n                        <hr class=\"card-divider\" style=\"border-top: 1px solid #ddd;\">\r\n                        <div class=\"col-sm-12 text-right card-btn\">\r\n                            <a class=\"btn btn-primary btn-sm\" ui-sref=\"{{course.url}}\">Learn More</a>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n    <br/>\r\n    <div class=\"container c-confes\">\r\n        <div id=\"cConfesCarousel\" class=\"carousel slide\" data-ride=\"carousel\">\r\n            <!-- Wrapper for slides -->\r\n            <div class=\"carousel-inner\" role=\"listbox\">\r\n                <div class=\"item\" ng-class=\"{'active': $index == 0}\" ng-repeat=\"testimonial in testimonials\" style=\"height: 200px;\">\r\n                    <div class=\"container-fluid\" style=\"margin-top:2%;\">\r\n                        <div class=\"row text-center\">\r\n                            <div class=\"col-md-12 c-confes-img\">\r\n                                <img ng-src=\"{{testimonial.image}}\">\r\n                            </div>\r\n                            <div class=\"col-md-12 c-confes-txt\">“{{testimonial.message}}”</div>\r\n                            <div class=\"col-md-12 c-confes-name\">\r\n                                <h4>{{testimonial.name}}</h4>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n            <!-- Left and right controls -->\r\n            <a class=\"left carousel-control\" data-target=\"#cConfesCarousel\" role=\"button\" data-slide=\"prev\" style=\"background-image:none;color:#263944;\">\r\n                <span class=\"glyphicon glyphicon-chevron-left\" aria-hidden=\"true\"></span>\r\n                <span class=\"sr-only\">Previous</span>\r\n            </a>\r\n            <a class=\"right carousel-control\" data-target=\"#cConfesCarousel\" role=\"button\" data-slide=\"next\" style=\"background-image:none;color:#263944;\">\r\n                <span class=\"glyphicon glyphicon-chevron-right\" aria-hidden=\"true\"></span>\r\n                <span class=\"sr-only\">Next</span>\r\n            </a>\r\n        </div>\r\n    </div>\r\n    <br/>\r\n    <div class=\"container text-center\">\r\n        <h3>Our Clients</h3>\r\n        <br>\r\n        <div class=\"row\">\r\n            <div class=\"col-sm-2\" ng-repeat=\"client in clients\">\r\n                <img ng-src=\"{{client.logo}}\" class=\"img-responsive\" style=\"width:100%;padding:5px;\" alt=\"{{client.name}}\">\r\n            </div>\r\n        </div>\r\n    </div>\r\n    <br/>";
+
+/***/ },
+/* 84 */
+/***/ function(module, exports) {
+
+	module.exports = "<div class=\"jumbotron text-center\">\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-md-12 text-center\" style=\"padding-top:4%\">\r\n            <h1 class=\"lead about_h1\">About QuickLearn Systems</h1>\r\n            <p class=\"caption\">Value for time and money invested is the prime aspiration of Quicklearn Systems.</p>\r\n        </div>\r\n    </div>\r\n</div>\r\n<div class=\"container-fluid about_page\">\r\n    <div class=\"col-lg-12 about-us\">\r\n        <div class=\"col-lg-6\">\r\n            <h2 class=\"lead about_h2\">About QuickLearn Systems</h2>\r\n            <p class=\"about_p\">QuickLearn Systems is professional training and certification provider catering its services from last 4 years.\r\n                Quicklearn provides world class training that includes online trainings, E-learning and Classroom trainings.\r\n                Customer satisfaction, Value for time and money invested is the prime aspiration of Quicklearn Systems. We\r\n                customize the trainings based on your requirements to ensure you get the best out from the trainings.</p>\r\n            <p class=\"about_p\">We strongly believe that it can be achieved by understanding the challenges in detail from customer perspective\r\n                and guide them accordingly to suit their career requirements and achieve their goals. Our Service and Support\r\n                team is equipped with the best Systems to provide transparent &amp; seamless Service to our customers. We\r\n                strongly believe in professionalism and ethics which we demonstrate in our business. Our Main goal is to\r\n                guide you through your success and ensure you grow up the ladder with a framework that suits every individual.</p>\r\n            <p class=\"about_p\">\r\n                We are a leading training provider for working professionals in the areas of Project &amp; Program Management, Service Management,\r\n                IT Governance &amp; Architecture and Quality Management. We offer live-online (instructor-led online), classroom\r\n                (instructor-led classroom), E-learning (online self-learning) courses, Customized and Corporate Trainings.\r\n            </p>\r\n            <p class=\"about_p\">\r\n                Whether it is an Individual or a Corporate, QuickLearn Systems strives to make the learning experience effective and fruitful\r\n                for the customer. QuickLearn Systems has several physical &amp; satellite training centers across India &amp;\r\n                the world. QuickLearn Systems is known in Major Metros in and across the globe.\r\n            </p>\r\n\r\n        </div>\r\n    </div>\r\n</div>\r\n<div class=\"container-fluid vision \">\r\n    <div class=\"container text-center\">\r\n        <h2 class=\"text-default\">Vision</h2>\r\n        <span class=\"text-default lead\">We are Limited not by Our Abilities but by Our Vision...</span>\r\n        <div class=\"container-fluid\">\r\n            <div class=\"col-sm-12\">\r\n                <div class=\"col-sm-1\"></div>\r\n                <div class=\"col-sm-10\">\r\n                    <p class=\"about_p\">Be the standard and benchmark to beat. Be the standard that other enterprise training institutes strive\r\n                        to reach. To be respected and appreciated by our customers for the outstanding quality of our trainings,creativity,\r\n                        helpfulness and the effectiveness of our training programs.\r\n                    </p>\r\n                </div>\r\n                <div class=\"col-sm-1\"></div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n<div class=\"mission\">\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-sm-6\">\r\n            <h1 class=\"text-default about_h1\">Mission</h1>\r\n            <span class=\"text-default lead\">Where there is a will there is only the A - Z way…</span>\r\n            <p class=\"about_p\">Enable Customers with the knowledge capable to develop and enhance their skills to create different, endeavours\r\n                to be a professional. We offer flexible trainings, customized training and solutions designed to educate,\r\n                inspire and motivate individuals and businesses helping you reach and achieve your goals and aspirations.</p>\r\n        </div>\r\n    </div>\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-sm-6\">\r\n            <h1 class=\"text-default about_h1\">Values</h1>\r\n            <span class=\"text-default lead\">We at QuickLearn Systems,\r\n                <br/> Fully Committed to help you succeed.</span>\r\n            <ul>\r\n                <li>\r\n                    <p class=\"about_p\">\r\n                        <b>Quality</b> teaching and learning.</p>\r\n                </li>\r\n                <li>\r\n                    <p class=\"about_p\">\r\n                        <b>Respect</b> and\r\n                        <b>Care</b> for all.</p>\r\n                </li>\r\n                <li>\r\n                    <p class=\"about_p\">\r\n                        <b>Customer Satisfaction</b> is our priority.</p>\r\n                </li>\r\n                <li>\r\n                    <p class=\"about_p\">\r\n                        <b>Focus</b> on\r\n                        <b>continuous improvement</b>.</p>\r\n                </li>\r\n                <li>\r\n                    <p class=\"about_p\">\r\n                        <b>Long Term Relationship</b> with\r\n                        <b>Our customers</b>.</p>\r\n                </li>\r\n            </ul>\r\n        </div>\r\n    </div>\r\n</div>";
+
+/***/ },
+/* 85 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = "<div class=\"jumbotron text-center\">\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-md-12 text-center\" style=\"padding-top:4%;\">\r\n            <h1 class=\"lead\" style=\"font-size: 3em; margin-top: 2em;\">Upcoming Events</h1>\r\n        </div>\r\n    </div>\r\n</div>\r\n<div class=\"container-fluid content-container courses\">\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-md-8\">\r\n            <h2>Class Room Training Schedule:</h2>\r\n            <p>If following schedule does not match with your availibilty , please call us..</p>\r\n            <table class=\"table table-striped table-hover\">\r\n                <thead>\r\n                    <tr>\r\n                        <th width=\"40%\">Training Name</th>\r\n                        <th>Schedule Date</th>\r\n                        <th>Location</th>\r\n                        <th>Select Training</th>\r\n                    </tr>\r\n                </thead>\r\n                <tbody>\r\n                    <tr ng-repeat=\"event in events\">\r\n                        <td>{{event.training}}</td>\r\n                        <td align>{{event.date}}</td>\r\n                        <td>{{event.location}}</td>\r\n                        <td><a href=\"{{event.link}}\">Click Here</a></td>\r\n                    </tr>\r\n                </tbody>\r\n            </table>\r\n        </div>\r\n        <div class=\"col-md-4\">\r\n            <img src=\"" + __webpack_require__(86) + "\" alt=\"Upcoming Events\">\r\n        </div>\r\n    </div>\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-md-4\">\r\n            <img src=\"" + __webpack_require__(87) + "\" alt=\"Online Events\" style=\"margin-top: 50%;\">\r\n        </div>\r\n        <div class=\"col-md-8\">\r\n            <h2>Online Training Schedule:</h2>\r\n            <table class=\"table table-striped table-hover\">\r\n                <thead>\r\n                    <tr>\r\n                        <th width=\"40%\">Training Name</th>\r\n                        <th>Schedule Date</th>\r\n                        <th>Location</th>\r\n                        <th>Select Training</th>\r\n                    </tr>\r\n                </thead>\r\n                <tbody>\r\n                    <tr ng-repeat=\"event in onlineEvents\">\r\n                        <td>{{event.training}}</td>\r\n                        <td align>{{event.date}}</td>\r\n                        <td>{{event.location}}</td>\r\n                        <td><a href=\"{{event.link}}\">Click Here</a></td>\r\n                    </tr>\r\n                </tbody>\r\n            </table>\r\n        </div>\r\n    </div>\r\n</div>";
+
+/***/ },
+/* 86 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "_/images/Upcoming-Events.png";
+
+/***/ },
+/* 87 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "_/images/online-training.png";
+
+/***/ },
+/* 88 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = "<div class=\"jumbotron text-center\">\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-md-12 text-center\" style=\"padding-top:4%;\">\r\n            <h1 class=\"lead\" style=\"font-size: 3em; margin-top: 2em;\">Our Services</h1>\r\n        </div>\r\n    </div>\r\n</div>\r\n<div class=\"container-fluid content-container courses\">\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-lg-8\">\r\n            <h2>Classroom Training</h2>\r\n            <p>At Quicklearn System we believe learning is just not about gaining knowledge; it is also about attaining wisdom.\r\n                Classroom Training is the best way to network with people along with finishing your course. The Trainees\r\n                will get an opportunity to meet with the professionals and cross train the knowledge from them. Though, there\r\n                is advancement in the modes of learning, yet, classroom training has its own charm.</p>\r\n            <p>The Training groups are customized as per the requirement of the trainees. There is always a human-touch involved\r\n                in classroom training unlike the online training courses. There is flexibility to interact with the group\r\n                members. The trainees can clear their doubts instantly with the trainers. Quicklearn System ensures that\r\n                trainees are more refined and productive after the course.</p>\r\n            <p>Regardless of your location, accelerate your knowledge by attending a course in one of our classrooms training\r\n                program. These highly reciprocated classes provide hands-on practical training using examples, so you can\r\n                apply real-world scenarios to practice and refine your own skills.</p>\r\n            <ul>\r\n                <li>\r\n                    <p>Training groups can be large or small</p>\r\n                </li>\r\n                <li>\r\n                    <p>The classroom environment provides the important “human touch,” which is often missing in technology-based\r\n                        training\r\n                    </p>\r\n                </li>\r\n                <li>\r\n                    <p>Group interaction enhances learning. Employees learn from one another as well as from the trainer</p>\r\n                </li>\r\n                <li>\r\n                    <p>The group setting also teaches employees how to interact with one another in a professional, productive,\r\n                        cooperative way</p>\r\n                </li>\r\n                <p>We have the team of vast and varied industry experience trainers having in-depth knowledge in their respective\r\n                    knowledge areas.</p>\r\n            </ul>\r\n        </div>\r\n        <div class=\"col-lg-4 text-center\"><img src=\"" + __webpack_require__(89) + "\" alt=\"Classroom Training\"></div>\r\n    </div>\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-lg-4\">\r\n            <img src=\"" + __webpack_require__(90) + "\" alt=\"eLearning\" style=\"width:100%; margin-top:50%;\">\r\n        </div>\r\n        <div class=\"col-lg-8\">\r\n            <h2>E-Learning Training</h2>\r\n            <p>Quicklearn System provides you flexible eLearning that can be done in short chunks of time that can fit around\r\n                your daily schedule. Trainees will have a set time of learning, normally divided into modules, with a deadline\r\n                in which to do them in. This way, if you want to do all of the learning in one day as you work better this\r\n                way, you can.</p>\r\n            <p>Quicklearn System eLearning courses aren’t confined to be fixed to try and suit the needs of the majority. If\r\n                you feel you already know a particular area well and don’t need to spend an hour on it again, then you can\r\n                skim over it and concentrate that time on something you feel you need to work more at. Everyone is able to\r\n                learn at their own pace.</p>\r\n            <p>Quicklearn System eLearning’s focuses more on an Individual to suit their requirements. You can get directly\r\n                in touch with the instructor via email to clarify your doubts. With clever design, user experience, and multimedia,\r\n                eLearning’s can prove to be a richer and more effective learning experience than traditional methods and\r\n                channels.\r\n            </p>\r\n        </div>\r\n    </div>\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-lg-6\">\r\n            <h2>Customized and Corporate Trainings</h2>\r\n            <p>Quicklearn systems offer complete customized and corporate training solutions in order to address the business\r\n                needs and learning objectives of our clients. We understand that your business and training goals are unique,\r\n                and many organizations today want a more highly customized training program for improving the delivery of\r\n                services. We emphasise on Employee Motivation, engagement and performance.</p>\r\n            <p>With rich and diverse exposure across industry we have trained almost 2500 people across different, verticals\r\n                like Information Technology, BPO, Telecom, Oil and Gas, Healthcare, Banking and Financial Services Industries.</p>\r\n            <p>We build your training from the ground up. We’ll work together to identify and understand your training objectives\r\n                and goals. From there, we’ll select the specific skills, strategies and the appropriate delivery style to\r\n                accomplish the objectives, develop the content, incorporate your culture, design exercises and activities\r\n                for active participation and provide follow-up post training activities.</p>\r\n            <p>You’ll have an opportunity to discuss your training and development objectives with our hand-selected trainer\r\n                who will incorporate your input into the training day. Unlike other training companies, the trainer facilitating\r\n                your event will be an integral part of this process. Our trainers don’t just “show up and talk.” </p>\r\n            <p>We would work with your Learning and Development team to understand what it takes for your training to be a successful.</p>\r\n        </div>\r\n        <div class=\"col-lg-6\">\r\n            <img src=\"" + __webpack_require__(91) + "\" alt=\"Corporate trainings\" style=\"width:100%;margin-top:10%;\">\r\n        </div>\r\n        <div class=\"col-lg-12\">\r\n            <p><b>STEP 1</b>: Requirement gathering</p>\r\n            <p>Getting started with discussing your specific training objectives and business goals with your organisation.\r\n                Time frames and deadline, your organization’s culture, details about the participants, delivery style, and\r\n                most importantly the training outcome you desire are all an integral part of this discussion.</p>\r\n            <p><b>STEP 2</b>: Counselling the topics and content</p>\r\n            <p>Based on your business needs and objectives, our team will guide you with appropriate training solution inclusive\r\n                of training, certifying body, trainer of your choice and content.</p>\r\n            <p><b>STEP 3</b>: Develop Custom Content </p>\r\n            <p>Based on your organization requirements we will customize a program by developing customized content, examples,\r\n                exercises and activities specifically for your organization.</p>\r\n            <p><b>STEP 4</b>: Delivery and Assessment</p>\r\n            <p>Our trainer will deliver an interactive day that is on target with your business goals and objectives. Depending\r\n                on the delivery style identified as the best choice for your group, your training program is maximized for\r\n                retention by including both traditional and experiential learning models. Incorporating small and large group\r\n                activities, case studies, role-plays and interactive exercises presented by one of our skilled and dynamic\r\n                trainers, you can count on a program that educates and inspires your participants while meeting your important\r\n                business goals.</p>\r\n            <p>At the end of the session the participant progress and knowledge gain is assessed and. This will ensure the training\r\n                objectives are met.</p>\r\n            <p><b>STEP 5</b>: Follow-Up</p>\r\n            <p>Your Satisfaction is utmost priority for us. We conduct satisfaction and quality assessments at the close of\r\n                each training day to ensure we meet your objectives. Should you feel something’s been missed, we’ll work\r\n                until we’ve matched your expectations and needs.</p>\r\n            <p><b>STEP 6</b>: Post Training Support and Activities</p>\r\n            <p>After initial training, post training support is a critical element in maximizing your organization’s training\r\n                investment. We offer a wide range of techniques which reinforce the new concepts and skills presented. We\r\n                also offer you post activities and Validation techniques so that your trainees do are in touch with the subject.</p>\r\n        </div>\r\n    </div>\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-lg-8\">\r\n            <h2>Live Virtual training</h2>\r\n            <p>At Quicklearn systems the most important aspects of a successful virtual training strategy is to consider audience\r\n                and their primary objectives. The primary learning objectives will help you to select key pieces of information\r\n                that should be included in your Virtual course plan, and will also help you to develop a virtual learning\r\n                strategy that caters to their varied learning needs. </p>\r\n            <p>At Quicklearn systems the focus is on user-friendly content delivery. We actively engage and thought-provoking\r\n                questions to drive the discussion and make it an interactive session. This means that we should be delivering\r\n                the key pieces of information, and then asking engaging questions that make the employee think and interact.\r\n                This makes them feel as though they are active participants, rather than just attendees at a lecture.</p>\r\n            <p>Drawing attention to important content and offer periodic recaps. It’s a proven fact that too much information\r\n                at once can lead to cognitive overload. As such, we try to keep sessions as short as possible.</p>\r\n            <p>This enables participants all across the world to attend Best in Class, Project Management, Program Management,\r\n                Quality Management &amp; IT Service Management trainings irrespective of their geographical location &amp;\r\n                also let them save on Travel related Costs.</p>\r\n        </div>\r\n        <div class=\"col-lg-4\"><img src=\"" + __webpack_require__(92) + "\" alt=\"Live virtual training\" style=\"width:100%;margin-top:25%;\"></div>\r\n    </div>\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-lg-12\">\r\n            <h2>Contact Us:</h2>\r\n            <p>For More information regarding your Training requirement. Write to us at: <a href=\"mailto:info@quicklearnsys.com\">info@quicklearnsys.com</a> or call us at +91 9100195152</p>\r\n        </div>\r\n    </div>\r\n</div>";
+
+/***/ },
+/* 89 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "_/images/classroom_training.png";
+
+/***/ },
+/* 90 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "_/images/elearning.png";
+
+/***/ },
+/* 91 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "_/images/corporate_trainings.png";
+
+/***/ },
+/* 92 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "_/images/live_virtual_training.png";
+
+/***/ },
+/* 93 */
+/***/ function(module, exports) {
+
+	module.exports = "<div class=\"jumbotron text-center\">\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-md-12 text-center\" style=\"padding-top:4%;\">\r\n            <h1 class=\"lead\" style=\"font-size: 3em; margin-top: 2em;\">Contact Us</h1>\r\n        </div>\r\n    </div>\r\n</div>\r\n<div class=\"container-fluid container-contact shadow-container\">\r\n    <div class=\"contact-form\">\r\n        <div class=\"col-md-12 text-center\">\r\n            <ul class=\"nav nav-tabs\">\r\n                <li class=\"active\"><a data-toggle=\"tab\" data-target=\"#form\"><i class=\"fa fa-file-text\"></i> Contact Form</a></li>\r\n                <li><a data-toggle=\"tab\" data-target=\"#godwin\"><i class=\"fa fa-envelope\"></i> Email</a></li>\r\n                <li><a data-toggle=\"tab\" data-target=\"#phone\"><i class=\"fa fa-phone-square\"></i> Phone</a></li>\r\n                <li><a data-toggle=\"tab\" data-target=\"#chat\"><i class=\"fa fa-comments\"></i> Chat</a></li>\r\n                <li><a data-toggle=\"tab\" data-target=\"#address\"><i class=\"fa fa-map-marker\"></i> Address</a></li>\r\n            </ul>\r\n\r\n            <div class=\"tab-content\">\r\n                <div id=\"form\" class=\"tab-pane fade in active\">\r\n                    <h2 class=\"text-primary text-center\"><strong>Contact Form</strong></h2>\r\n                    <form class=\"form-horizontal\" ng-submit=\"contactSubmit()\">\r\n                        <div class=\"form-group\">\r\n                            <label for=\"fullName\" class=\"col-lg-3 control-label\">Name *</label>\r\n                            <div class=\"col-lg-9\">\r\n                                <input type=\"text\" ng-model=\"siteContact.fullname\" class=\"form-control\" id=\"fullName\" placeholder=\"Full Name\" required>\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"form-group\">\r\n                            <label for=\"email\" class=\"col-lg-3 control-label\">Email *</label>\r\n                            <div class=\"col-lg-9\">\r\n                                <input type=\"text\" ng-model=\"siteContact.email\" class=\"form-control\" id=\"email\" placeholder=\"Email\" required>\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"form-group\">\r\n                            <label for=\"select\" class=\"col-lg-3 control-label\">Course Interested *</label>\r\n                            <div class=\"col-lg-9\">\r\n                                <select class=\"form-control\" id=\"select\" ng-model=\"siteContact.courseInterested\" ng-init=\"siteContact.courseInterested = coursesList[0]\">\r\n                            <option ng-repeat=\"course in coursesList\" ng-disabled=\"$index == 0\" value=\"{{course}}\">{{course}}</option>\r\n                        </select>\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"form-group\">\r\n                            <label for=\"textArea\" class=\"col-lg-3 control-label\">Remarks *</label>\r\n                            <div class=\"col-lg-9\">\r\n                                <textarea class=\"form-control\" rows=\"3\" id=\"textArea\" placeholder=\"Your Remarks\" ng-model=\"siteContact.message\"></textarea>\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"form-group\">\r\n                            <div class=\"col-lg-3\"></div>\r\n                            <div class=\"col-lg-6 text-center\">\r\n                                <input type=\"submit\" class=\"btn btn-block\" ng-class=\"siteContactSubmit == 'Submit' ? 'btn-primary' :'btn-success'\" ng-disabled=\"siteContactSubmit !== 'Submit'\"\r\n                                    value=\"{{siteContactSubmit}}\">\r\n                            </div>\r\n                            <div class=\"col-lg-3\"></div>\r\n                        </div>\r\n                    </form>\r\n                </div>\r\n                <div id=\"godwin\" class=\"tab-pane fade text-left\">\r\n                    <h2 class=\"text-primary text-center\"><strong>Email</strong></h2>\r\n                    <p class=\"text-left\">Simply send us an email at <a href=\"mailto:info@quicklearnsys.com\"><strong>info@quicklearnsys.com</strong></a>.\r\n                        Most emails are replied to in under 15 minutes.</p>\r\n                </div>\r\n                <div id=\"phone\" class=\"tab-pane fade text-left\">\r\n                    <h2 class=\"text-primary text-center\"><strong>Phone</strong></h2>\r\n                    <p class=\"text-left\">For any information regarding your Training and Certification requirement call us at: <strong><u><span style=\"font-family:courier;\"><br>+91 9100195152<br>+91 9100195153</span></u></strong></p>\r\n                </div>\r\n                <div id=\"chat\" class=\"tab-pane fade text-left\">\r\n                    <h2 class=\"text-primary text-center\"><strong>Chat</strong></h2>\r\n                    <p class=\"text-left\">Let's chat! Simply activate the chat <strong>pop-up</strong> at the bottom right hand corner of your\r\n                        screen and one of our representatives will chat with you live.</p>\r\n                </div>\r\n                <div id=\"address\" class=\"tab-pane fade text-left\">\r\n                    <h2 class=\"text-primary text-center\"><strong>Office Address</strong></h2>\r\n                    <p class=\"text-left\">\r\n                        <address>\r\n                            QuickLearn Systems, Lorven. Office No. 2, Block A &amp; B, 2nd Floor, Vaishnavi Cynsoure, Near Gachibowali Flyover, Hyderabad\r\n                            500034.\r\n                        </address>\r\n                    </p>\r\n                    <div class=\"container-fluid\" style=\"padding:0px\">\r\n                        <div class=\"col-sm-12\" style=\"padding:0px\">\r\n                            <iframe src=\"https://www.google.com/maps/d/u/0/embed?mid=1EUlel-g8P2eywmy3tsKxaVeN5X4\" width=\"514\" height=\"480\"></iframe>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>";
+
+/***/ },
+/* 94 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = "<div class=\"jumbotron text-center\">\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-md-12 text-center\" style=\"padding-top:4%;\">\r\n            <h1 class=\"lead\" style=\"font-size: 3em; margin-top: 2em;\">Terms and Conditions</h1>\r\n        </div>\r\n    </div>\r\n</div>\r\n<div class=\"container-fluid content-container courses\">\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-lg-8\">\r\n            <h2>Terms of Use</h2>\r\n            <h3>Please read the following carefully</h3>\r\n            <p>These terms and conditions (\"Terms and Conditions\") control your use of this website gvstechnosoft.com (\"Website\").\r\n                In these Terms and Conditions, \"QuickLearn Systems\" is referred to as the \"Company\", \"us,\" or \"we.\"</p>\r\n            <p>'You' refers as user or a paying customer. If you are a company or another person who gives access to company\r\n                products, you agree to take responsibility in full in case of damages or indemnification that could properly\r\n                lie against the customer.</p>\r\n            <p>The QuickLearn Systems web site (the 'Site'), the educational services made available through the site and the\r\n                content (the 'Products') are owned, operated and maintained, as applicable, by QuickLearn Systems ('we',\r\n                'our', 'us', or the 'Company'). The Site, Products and Content are, collectively, the 'Company Products'.</p>\r\n            <p>By (a) using or accessing the Company Products, including, but not limited to downloading or accessing, (b) offering\r\n                a Course through the Site or through Software; you agree to the terms and conditions set forth in these Terms\r\n                of Use (the \"Terms\")</p>\r\n            <p>By using this website or its Products and Services, You Agree and Warrant that you have read, Understood, and\r\n                agree to be bound by these terms. Company's privacy policy can be found at privacy policy. If you do not\r\n                accept these terms, you must not use - and are not authorized to use - all or any portion of the company's\r\n                website and its products or services (as defined below).</p>\r\n        </div>\r\n        <div class=\"col-lg-4 text-center\"><img src=\"" + __webpack_require__(95) + "\" alt=\"Terms And Conditions\"></div>\r\n    </div>\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-lg-12\">\r\n            <h2>Please read them carefully before you use the services of this site.</h2>\r\n            <ul>\r\n                <li>\r\n                    <p>You should not use this site in an unlawful manner; you must respect website terms and conditions and\r\n                        follow the privacy policy.</p>\r\n                </li>\r\n                <li>\r\n                    <p>Under no situations or circumstances, the company will be liable for any change in the content which\r\n                        it provides on the website through its products and services, including but not limited to any errors,\r\n                        omissions, loss or damage experienced in connection with the use of exposure, any content made available\r\n                        via our products, services or various resources such as email, blog etc.</p>\r\n                </li>\r\n                <li>\r\n                    <p>Our services are free to any user with access to the internet. However, we are not responsible for the\r\n                        charges incurred for the usage of hardware, software or internet services provider fee. Also, the\r\n                        user is fully responsible for the proper functioning of computer hardware and internet access</p>\r\n                </li>\r\n                <li>\r\n                    <p>You will be required to use login credentials for some of the sections on the site and the company reserves\r\n                        the right to block access to our services for any user who does not follow these conditions</p>\r\n                </li>\r\n                <li>\r\n                    <p>We make sure that users get uninterrupted access to our service, but there is no obligation to do so.</p>\r\n                </li>\r\n                <li>\r\n                    <p>QuickLearn Systems is not responsible and is not obligated for issues in your network or server beyond\r\n                        certain limits.</p>\r\n                </li>\r\n            </ul>\r\n        </div>\r\n        <div class=\"container-fluid\">\r\n            <div class=\"col-lg-12\">\r\n                <h2>Website usage guidelines</h2>\r\n                <ul>\r\n                    <li>\r\n                        <p>Do not Insult, abuse, harass, stalk, threaten or otherwise infringe the rights of others;</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>Do not publish post, distribute or disseminate any defamatory, infringing, indecent, offensive or\r\n                            unlawful material or information.</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>Do not upload, install, transfer files which are protected by Intellectual Property laws or software\r\n                            which affect other computers.</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>It's prohibited to edit HTML source code, reverse engineer or attempt to hack.</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>Do not run Spam services/scripts or anything which could affect infrastructure, and in turn, users.</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>Do not communicate spam, advertise or sell services such as digital downloads, eBooks or phishing\r\n                            links.\r\n                        </p>\r\n                    </li>\r\n                    <li>\r\n                        <p>You may not copy, distribute and indulge in plagiarism with website content or user submitted content.</p>\r\n                    </li>\r\n                </ul>\r\n            </div>\r\n        </div>\r\n        <div class=\"container-fluid\">\r\n            <div class=\"col-lg-12\">\r\n                <h2>The content</h2>\r\n                <p>All website content or information that can be seen, heard or otherwise experienced on the Site is copyrighted\r\n                    and belongs to QuickLearn Systems or its partners, affiliates or third parties. You may use the Site,\r\n                    the Service and the Content for your own personal, non-commercial use only.</p>\r\n                <p>You may download and print the available material for your own personal, non-commercial use only.</p>\r\n                <p>You will not transfer any information from the website or produce derivative work which you can display,\r\n                    distribute or transmit.</p>\r\n            </div>\r\n        </div>\r\n        <div class=\"container-fluid\">\r\n            <div class=\"col-lg-12\">\r\n                <h2>Links and Hyperlinks Terms</h2>\r\n                <p>This website may have links to other websites. We do not undertake any control on the content of these websites;\r\n                    nor are we responsible for their website content. The sole purpose of the links included is to provide\r\n                    users information. Hence, QuickLearn Systems will not be held responsible.</p>\r\n            </div>\r\n        </div>\r\n        <div class=\"container-fluid\">\r\n            <div class=\"col-lg-12\">\r\n                <h2>Hyperlinks</h2>\r\n                <ul>\r\n                    <li>\r\n                        <p>You may not mirror or frame the home page or any other pages of this Site on any other web site or\r\n                            web page.\r\n                        </p>\r\n                    </li>\r\n                    <li>\r\n                        <p>Do not link to QuickLearn Systems pages and subpages with spam links/anchor text which could provide\r\n                            false impression. This may create misunderstanding for the users.</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>Do not use or include copyrighted or registered trademarks, or Intellectual property images, design\r\n                            or content as a link to QuickLearn Systems website.</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>Do not link to pages which support racism, terrorism.</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>Do not link to pages which provide pornographic content and violate human rights.</p>\r\n                    </li>\r\n                </ul>\r\n            </div>\r\n        </div>\r\n        <div class=\"continer\">\r\n            <div class=\"col-lg-12\">\r\n                <h2>Copyright and Intellectual Property</h2>\r\n                <p>We value and respect others intellectual property and expect our users to do the same.</p>\r\n                <p>The entire contents of the Site are protected by copyright and trademark laws. The owner of the copyrights\r\n                    and trademarks are gvstechnosoft.com, its affiliates or other third party licensors. The material on\r\n                    the site, including text, graphics, code and/or software is copyrighted and belongs to QuickLearn Systems;\r\n                    therefore you may not duplicate, modify, publish or reproduce the content in any manner.</p>\r\n                <p>QuickLearn Systems does not take any responsibility for the content on other sites (except our partners and\r\n                    affiliates), that you may find when searching or accessing QuickLearn Systems products or services. The\r\n                    privacy policy and terms of use of the sites that you visit will administer that material.</p>\r\n                <p>QuickLearn Systems has all the rights to disable or prohibit access to the users who do not respect and involve\r\n                    in the infringement of QuickLearn Systems intellectual property. You are not allowed to use any of the\r\n                    digital images or logos from the website. In case of copyright issues, there has to be a written consent\r\n                    from the trademark owner\r\n                </p>\r\n            </div>\r\n        </div>\r\n        <div class=\"container-fluid\">\r\n            <div class=\"col-lg-12\">\r\n                <h2>Claims of Intellectual Property Violations</h2>\r\n                <p>If you believe that your work has been used without your permission in a way which prompts for copyright\r\n                    infringement. Please provide us the below information and we will act on it.</p>\r\n                <ul>\r\n                    <li>\r\n                        <p>The authorized person who will act on behalf of the owner of the copyright, should send a digital\r\n                            or physical signature</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>A description of the copyrighted work that you claim to be infringing your IP</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>A description of where and how the material that you claim is infringing is located on the QuickLearn\r\n                            Systems website, with enough detail that we may find it on the website</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>Contact Details - Address, telephone number, and email address.</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>A statement by you, that the information which you provided is accurate and your claim of the copyright\r\n                            or intellectual property is on your owner's behalf</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>You can reach QuickLearn Systems to notify your claims of copyright By email- <a class=\"link\">support@quicklearnsys.com</a></p>\r\n                    </li>\r\n                </ul>\r\n            </div>\r\n        </div>\r\n        <div class=\"container-fluid\">\r\n            <div class=\"col-lg-12\">\r\n                <h2>Transaction Terms</h2>\r\n                <p>If you believe that your work has been used without your permission in a way which prompts for copyright infringement. Please provide us the below information and we will act on it.</p>\r\n                <ul>\r\n                    <li>\r\n                        <p>To make a transaction on QuickLearn Systems website, you are bound to pay for that transaction</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>Please pay close attention to your payment details such as total bill, taxes, shipping costs, discounts</p>\r\n                    </li>\r\n                    <li>\r\n                        <p>There are certain products which require additional terms and conditions which you have to agree before you make the purchase</p>\r\n                    </li>\r\n                </ul>\r\n                <p>WE MAKE NO WARRANTIES OF ANY KIND, EXPRESSED OR IMPLIED, WITH RESPECT TO ANY PRODUCTS OR SERVICES SOLD ON OR THROUGH QUICKLEARN SYSTEMS.</p>\r\n                <p>No additional or different terms contained in any purchase order, document, transmission or other communication shall be binding upon QuickLearn Systems unless agreed to by QuickLearn Systems in writing.</p>\r\n                <p>QuickLearn Systems reserves the right to modify, change without prior notice and in its sole discretion, to limit the order quantity on any item and to refuse service to anyone.</p>\r\n            </div>\r\n        </div>\r\n        <div class=\"container-fluid\">\r\n            <div class=\"col-lg-12\">\r\n                <h2>Pricing Disclaimer</h2>\r\n                <p>All prices, products and offers of QuickLearn Systems website are subject to change without notice.</p>\r\n                <p>While we make sure to provide most accurate and up-to-date information, in some cases one or more items on our web site may be priced incorrectly. This might happen due to human errors, digital images, technical error or a mismatch in pricing information received from our suppliers.</p>\r\n                <p>QuickLearn Systems reserves the right to change prices for all our products, offers or deals. These changes are done due to market conditions, course termination, providers, price changes, errors in advertisements and other mitigating circumstances. However the price you paid at the time of purchase still holds for you.</p>\r\n                <h2>Proprietary Use of QuickLearn Systems Study Material</h2>\r\n                <p>QuickLearn Systems reserves the right to change prices for all our products, offers or deals. These changes are done due to market conditions, course termination, providers, price changes, errors in advertisements and other mitigating circumstances. However the price you paid at the time of purchase still holds for you.</p>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>";
+
+/***/ },
+/* 95 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "_/images/terms_main.png";
+
+/***/ },
+/* 96 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = "<div class=\"jumbotron text-center\">\r\n    <div class=\"container-fluid\">\r\n        <div class=\"col-md-12 text-center\" style=\"padding-top:4%;\">\r\n            <h1 class=\"lead\" style=\"font-size: 3em; margin-top: 2em;\">Accreditations</h1>\r\n        </div>\r\n    </div>\r\n</div>\r\n<div class=\"container-fluid content-container\" style=\"min-height: 300px;padding-top: 119px;\">\r\n    <div class=\"container text-center\">\r\n        <div class=\"col-sm-3\" style=\"margin-bottom:12px;\">\r\n            <img src=\"" + __webpack_require__(97) + "\" alt=\"\">\r\n        </div>\r\n        <div class=\"col-sm-3\" style=\"margin-bottom:12px;\">\r\n            <img src=\"" + __webpack_require__(98) + "\" alt=\"\">\r\n        </div>\r\n        <div class=\"col-sm-3\" style=\"margin-bottom:12px;\">\r\n            <img src=\"" + __webpack_require__(99) + "\" alt=\"\">\r\n        </div>\r\n        <div class=\"col-sm-3\" style=\"margin-bottom:12px;\">\r\n            <img src=\"" + __webpack_require__(100) + "\" alt=\"\">\r\n        </div>\r\n    </div>\r\n    <hr>\r\n    <div class=\"container-fluid\" style=\"padding:15px 50px;\">\r\n        <h1>Disclaimer</h1>\r\n        <p>\r\n            ITIL® is a registered trade mark of AXELOS Limited. The Swirl logo™ is a trade mark of AXELOS Limited PRINCE2® is a registered\r\n            trade mark of AXELOS Limited. The Swirl logo ™ is a trade mark of AXELOS Limited. PMP® is a registered mark of\r\n            the Project Management Institute, Inc. All rights reserved.</p>\r\n    </div>\r\n</div>";
+
+/***/ },
+/* 97 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "_/images/acceredation/1.png";
+
+/***/ },
+/* 98 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "_/images/acceredation/2.png";
+
+/***/ },
+/* 99 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "_/images/acceredation/3.png";
+
+/***/ },
+/* 100 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "_/images/acceredation/4.png";
+
+/***/ },
+/* 101 */
+/***/ function(module, exports) {
+
+	angular.module('qls')
+	    .controller('appController', ['$rootScope', '$scope', 'ngMeta', '$http', function ($rootScope, $scope, ngMeta, $http) {
+	        $rootScope.enquiryState = false;
+	        $rootScope.mobileMenuState = false;
+	        $scope.coursesList = [
+	            "Select a course",
+	            "ITIL Foundation",
+	            "ITIL Service Strategy",
+	            "ITIL Service Design",
+	            "ITIL Service Transition",
+	            "ITIL Service Operation",
+	            "ITIL Continual Service Improvement",
+	            "ITIL Service, Offering and Agreement (SOA)",
+	            "ITIL Planning, Protection and Optimization (PPO)",
+	            "ITIL Release, Control and Validation (RCV)",
+	            "ITIL Operational, Support and Analysis (OSA)",
+	            "ITIL®  Managing Across The Lifecycle",
+	            "SIAM Foundation",
+	            "CAPM",
+	            "PMP",
+	            "ACP",
+	            "Prince2 Foundation",
+	            "Prince2 Practitioner",
+	            "Prince2 Agile",
+	            "Scrum Master",
+	            "Managing Successful Programs",
+	            "SAFe 4.5 (SAFe Agilist)",
+	            "DevOps Master",
+	            "Six Sigma Green Belt",
+	            "Six Sigma Black Belt",
+	            "COBIT 5 Foundation",
+	            "TOGAF 9.1 Level  1 & Level 2"
+	        ];
+	        $scope.siteContact = {
+	            fullname: '',
+	            email: '',
+	            mobile: '',
+	            courseInterested: '',
+	            message: ''
+	        };
+	        $scope.siteContactSubmit = "Submit";
+	        $scope.contactSubmit = function () {
+	            $http.post('endpoints/send-mail.php', $scope.siteContact).success(function (res) {
+	                if (res == 'ok') {
+	                    $scope.siteContactSubmit = 'Message sent sucessfully';
+	                }
+	            }).error(function (err) {
+	                console.error(err)
+	            })
+	        };
+
+	        $scope.enquiryToggle = function () {
+	            $rootScope.enquiryState = $rootScope.enquiryState ? false : true;
+	        };
+
+	        $scope.mobileMenuToggle = function(){
+	            if($rootScope.mobileMenuState){
+	                $rootScope.mobileMenuState = false;
+	            }else{
+	                $rootScope.mobileMenuState = true;
+	            }
+	        };
+	    }]);
+
+/***/ },
+/* 102 */
+/***/ function(module, exports) {
+
+	angular.module('qls')
+	    .controller('homeController', ['$scope', '$http', function ($scope, $http) {
+	        $http.get('data/events.json' + '?id=' + new Date().getTime()).success(function (res) {
+	            $scope.events = res;
+	            $scope.events.forEach(function (obj, inx) {
+	                var tr = obj.training.toLowerCase();
+	                if (tr.indexOf("itil") > -1 && tr.indexOf("foundation") > -1) {
+	                    $scope.events[inx]["slider"] = "slider_itil_foundation";
+	                } else if (tr.indexOf("itil") > -1 && tr.indexOf("intermediate") > -1) {
+	                    $scope.events[inx]["slider"] = "slider_itil_intermediate";
+	                } else if (tr.indexOf("itil") > -1 && tr.indexOf("expert") > -1) {
+	                    $scope.events[inx]["slider"] = "slider_itil_expert";
+	                }else if (tr.indexOf("itil") > -1 && tr.indexOf("service") > -1) {
+	                    $scope.events[inx]["slider"] = "slider_itil_service";
+	                } else if (tr.toUpperCase().indexOf("PMP") > -1) {
+	                    $scope.events[inx]["slider"] = "slider_pmp";
+	                } else if (tr.toUpperCase().indexOf("PMI") > -1) {
+	                    $scope.events[inx]["slider"] = "slider_pmi";
+	                } else if (tr.indexOf("prince2") > -1) {
+	                    $scope.events[inx]["slider"] = "slider_prince2f_p";
+	                } else if (tr.indexOf("scrum") > -1) {
+	                    $scope.events[inx]["slider"] = "slider_scrum";
+	                } else if (tr.indexOf("green") > -1 && tr.indexOf("belt") > -1) {
+	                    $scope.events[inx]["slider"] = "slider_green_belt";
+	                } else if (tr.indexOf("black") > -1 && tr.indexOf("belt") > -1) {
+	                    $scope.events[inx]["slider"] = "slider_black_belt";
+	                } else if (tr.indexOf("cobit") > -1) {
+	                    $scope.events[inx]["slider"] = "slider_cobit";
+	                } else if (tr.indexOf("safe") > -1) {
+	                    $scope.events[inx]["slider"] = "slider_safe";
+	                } else if (tr.indexOf("devops") > -1) {
+	                    $scope.events[inx]["slider"] = "slider_devops";
+	                } else {
+	                    $scope.events[inx]["slider"] = "slider_" + inx;
+	                }
+	            })
+	        }).error(function () {
+	            console.log('Failed to load events.json');
+	        });
+	        $http.get('data/online_events.json' + '?id=' + new Date().getTime()).success(function (res) {
+	            $scope.onlineEvents = res;
+	        }).error(function () {
+	            console.log('Failed to load online_events.json' + '?id=' + new Date().getTime());
+	        });
+	        $http.get('data/courses.json' + '?id=' + new Date().getTime()).success(function (res) {
+	            $scope.courses = res;
+	        }).error(function () {
+	            console.log('Failed to load courses.json');
+	        });
+	        $http.get('data/testimonials/testimonials.json' + '?id=' + new Date().getTime()).success(function (res) {
+	            $scope.testimonials = res;
+	        }).error(function () {
+	            console.log('Failed to load courses.json');
+	        });
+	        $http.get('data/clients/clients.json' + '?id=' + new Date().getTime())
+	            .success(function (res) {
+	                $scope.clients = res;
+	            })
+	            .error(function () {
+	                console.log('Failed to load clients.json');
+	            });
+	        $scope.coursesList = [
+	            "Select a course",
+	            "ITIL Foundation",
+	            "ITIL Service Strategy",
+	            "ITIL Service Design",
+	            "ITIL Service Transition",
+	            "ITIL Service Operation",
+	            "ITIL Continual Service Improvement",
+	            "ITIL Service, Offering and Agreement (SOA)",
+	            "ITIL Planning, Protection and Optimization (PPO)",
+	            "ITIL Release, Control and Validation (RCV)",
+	            "ITIL Operational, Support and Analysis (OSA)",
+	            "ITIL®  Managing Across The Lifecycle",
+	            "SIAM Foundation",
+	            "CAPM",
+	            "PMP",
+	            "ACP",
+	            "Prince2 Foundation",
+	            "Prince2 Practitioner",
+	            "Prince2 Agile",
+	            "Scrum Master",
+	            "Managing Successful Programs",
+	            "SAFe 4.5 (SAFe Agilist)",
+	            "DevOps Master",
+	            "Six Sigma Green Belt",
+	            "Six Sigma Black Belt",
+	            "COBIT 5 Foundation",
+	            "TOGAF 9.1 Level  1 & Level 2"
+	        ]
+	        $scope.siteContact = {
+	            fullname: '',
+	            email: '',
+	            courseInterested: '',
+	            message: ''
+	        }
+	        $scope.siteContactSubmit = "Submit";
+	        $scope.contactSubmit = function () {
+	            $http.post('endpoints/send-mail.php', $scope.siteContact).success(function (res) {
+	                if (res == 'ok') {
+	                    $scope.siteContactSubmit = 'Message sent sucessfully';
+	                }
+	            }).error(function (err) {
+	                console.error(err)
+	            })
+	        }
+	    }]);
 
 /***/ }
 /******/ ]);

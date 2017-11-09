@@ -101,3 +101,6 @@ body {
 .courses img{
     width: 100%;
 }
+.blur{
+    filter: blur(5px);
+}
