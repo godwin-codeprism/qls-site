@@ -42,12 +42,12 @@
     margin-top: 3%;
     border: 5px solid #2e3f52;
     overflow: hidden;
-    height: 600px;
+    height: 500px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
 }
 
 #myCarousel .item {
-    height: 600px;
+    height: 500px;
     overflow: hidden;
 }
 #myCarousel img{
@@ -71,7 +71,7 @@
 }
 .blur-img{
     margin-top:10px;
-    clip: rect(440px,1366px,600px,0px);
+    clip: rect(340px,1366px,500px,0px);
     position: absolute;
     top: 0;
     min-width: 100%;
@@ -80,7 +80,7 @@
 
 .img-caption{
     position: absolute;
-    top: 200px;
+    top: 150px;
     max-width: 100% !important;
     min-width: auto !important;
     height: auto !important;
