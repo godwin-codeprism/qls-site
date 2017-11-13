@@ -6,6 +6,7 @@ var usersTemplate = require('../views/users.html'),
     contactTemplate = require('../views/contact.html'),
     termsTemplate = require('../views/terms.html'),
     accreditationsTemplate = require('../views/accreditations.html');
+    privacyTemplate = require('../views/privacy_policy.html');
 angular.module("qls", ["ngSanitize", "ui.router", "ngMeta", "ngAnimate"])
     .config(["$stateProvider", "$urlRouterProvider", "ngMetaProvider", "$locationProvider", function ($stateProvider, $urlRouterProvider, ngMetaProvider, $locationProvider) {
         $stateProvider.decorator('data', ngMetaProvider.mergeNestedStateData);
@@ -501,6 +502,21 @@ angular.module("qls", ["ngSanitize", "ui.router", "ngMeta", "ngAnimate"])
             }).state("app.accreditations", {
                 url: "/IT-certifications-hyderabad",
                 template: accreditationsTemplate,
+                resolve: {
+                    data: (['ngMeta'], function (ngMeta) {
+                        ngMeta.setTitle('IT certifications Hyderabad | itil Hyderabad | itil certification Hyderabad | prince2 certification');
+
+                        ngMeta.setTag('description', 'Get certified today !! One stop solution for your all IT certifications in hyderabad. ITIL certifications, PMP and DEVops certifications at the best price per value in Hyderabad.');
+
+                        ngMeta.setTag('keywords', 'IT certifications hyderabad, itil hyderabad, itil certification hyderabad, prince2 certification, project management institute certification, pmi certification hyderabad');
+                    })
+                },
+                meta: {
+                    disableUpdate: true
+                }
+            }).state("app.privacy", {
+                url: "/privacy-policy",
+                template: privacyTemplate,
                 resolve: {
                     data: (['ngMeta'], function (ngMeta) {
                         ngMeta.setTitle('IT certifications Hyderabad | itil Hyderabad | itil certification Hyderabad | prince2 certification');
