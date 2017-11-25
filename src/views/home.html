@@ -62,20 +62,36 @@
                     <div class="event-details container-fluid">
                         <div class="hidden-xs hidden-sm col-md-1 col-lg-1"></div>
                         <div class="hidden-xs hidden-sm col-md-5 col-lg-7">
-                            <p><i class="fa fa-clipboard" aria-hidden="true"></i> <b>Course:</b> {{event.training}}</p>
-                            <p><i class="fa fa-calendar" aria-hidden="true"></i> <b>Date:</b> {{event.date}}</p>
-                            <p><i class="fa fa-location-arrow" aria-hidden="true"></i> <b>Location:</b> {{event.location}}</p>
+                            <p>
+                                <i class="fa fa-clipboard" aria-hidden="true"></i>
+                                <b>Course:</b> {{event.training}}</p>
+                            <p>
+                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                                <b>Date:</b> {{event.date}}</p>
+                            <p>
+                                <i class="fa fa-location-arrow" aria-hidden="true"></i>
+                                <b>Location:</b> {{event.location}}</p>
                         </div>
                         <div class="hidden-xs hidden-sm col-md-6 col-lg-4" style="padding-top:15px;">
-                            <a ng-href="{{event.link}}" style="text-decoration: none;"><button class="btn btn-primary btn-block btn-lg" style="font-family:Raleway">Register Now</button></a>
+                            <a ng-href="{{event.link}}" style="text-decoration: none;">
+                                <button class="btn btn-primary btn-block btn-lg" style="font-family:Raleway">Register Now</button>
+                            </a>
                         </div>
                         <div class="col-xs-12 col-sm-12 hidden-md hidden-lg text-center" style="font-size:medium; padding-top:0px; font-family:Raleway;">
-                            <p><i class="fa fa-clipboard" aria-hidden="true"></i> <b>Course:</b> {{event.training}}</p>
-                            <p><i class="fa fa-calendar" aria-hidden="true"></i> <b>Date:</b> {{event.date}}</p>
-                            <p><i class="fa fa-location-arrow" aria-hidden="true"></i> <b>Location:</b> {{event.location}}</p>
+                            <p>
+                                <i class="fa fa-clipboard" aria-hidden="true"></i>
+                                <b>Course:</b> {{event.training}}</p>
+                            <p>
+                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                                <b>Date:</b> {{event.date}}</p>
+                            <p>
+                                <i class="fa fa-location-arrow" aria-hidden="true"></i>
+                                <b>Location:</b> {{event.location}}</p>
                         </div>
                         <div class="col-xs-12 col-sm-12 hidden-md hidden-lg">
-                            <a ng-href="{{event.link}}" style="text-decoration: none;"><button class="btn btn-primary btn-sm btn-block" style="font-family:Raleway">Register Now</button></a>
+                            <a ng-href="{{event.link}}" style="text-decoration: none;">
+                                <button class="btn btn-primary btn-sm btn-block" style="font-family:Raleway">Register Now</button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -161,7 +177,9 @@
                             <div class="col-md-12 c-confes-img">
                                 <img ng-src="{{testimonial.image}}">
                             </div>
-                            <div class="col-md-12 c-confes-txt">“{{testimonial.message}}”</div>
+                            <div class="col-md-12 c-confes-txt">
+                                <p>“{{testimonial.message}}”</p>
+                            </div>
                             <div class="col-md-12 c-confes-name">
                                 <h4>{{testimonial.name}}</h4>
                             </div>

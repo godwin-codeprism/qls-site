@@ -1,16 +1,19 @@
 .c-confes {
     width: 100%;
     margin: auto;
-    height: 220px;
+    height: 320px;
     padding: 0px;
     box-shadow: 1px 1px 15px rgba(44, 62, 80, 0.39) inset;
 }
 
 .c-confes {
+    height: 300px;
     background-image: url('../images/c-confes-bg.jpg');
     background-size: 100% 100%;
 }
-
+#cConfesCarousel{
+    height: 300px; 
+}
 .c-confes-img img {
     border-radius: 50%;
     margin-bottom: 20px;
@@ -24,7 +27,10 @@
     font-family: 'Raleway', sans-serif;
     font-style: italic;
 }
-
+.c-confes-txt p{
+    max-width: 80%;
+    margin: 15px auto;
+}
 .c-confes-name {
     display: block;
     text-align: center;
