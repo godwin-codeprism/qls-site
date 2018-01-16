@@ -484,6 +484,22 @@ angular.module("qls", ["ngSanitize", "ui.router", "ngMeta", "ngAnimate"])
                     disableUpdate: true
                 }
             })
+            .state("app.cspo", {
+                url: "/certified-scrum-product-owner",
+                templateUrl: "views/classroom_courses/cspo.component.html",
+                resolve: {
+                    data: (['ngMeta'], function (ngMeta) {
+                        ngMeta.setTitle('CERTIFIED SCRUM PRODUCT OWNER (CSPO)');
+
+                        ngMeta.setTag('description', '');
+
+                        ngMeta.setTag('keywords', '');
+                    })
+                },
+                meta: {
+                    disableUpdate: true
+                }
+            })
             .state("app.terms", {
                 url: "/terms",
                 template: termsTemplate,
