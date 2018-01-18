@@ -91,12 +91,14 @@ angular.module('qls')
         $scope.siteContact = {
             fullname: '',
             email: '',
+            mobile:'',
             courseInterested: '',
             message: ''
         }
         $scope.siteContactSubmit = "Submit";
         $scope.contactSubmit = function () {
             $http.post('endpoints/send-mail.php', $scope.siteContact).success(function (res) {
+                console.log( res);
                 if (res == 'ok') {
                     $scope.siteContactSubmit = 'Message sent sucessfully';
                 }
