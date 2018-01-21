@@ -10,7 +10,7 @@ angular.module('qls')
                     $scope.events[inx]["slider"] = "slider_itil_intermediate";
                 } else if (tr.indexOf("itil") > -1 && tr.indexOf("expert") > -1) {
                     $scope.events[inx]["slider"] = "slider_itil_expert";
-                }else if (tr.indexOf("itil") > -1 && tr.indexOf("service") > -1) {
+                } else if (tr.indexOf("itil") > -1 && tr.indexOf("service") > -1) {
                     $scope.events[inx]["slider"] = "slider_itil_service";
                 } else if (tr.toUpperCase().indexOf("PMP") > -1) {
                     $scope.events[inx]["slider"] = "slider_pmp";
@@ -30,6 +30,8 @@ angular.module('qls')
                     $scope.events[inx]["slider"] = "slider_safe";
                 } else if (tr.indexOf("devops") > -1) {
                     $scope.events[inx]["slider"] = "slider_devops";
+                } else if (tr.toUpperCase().indexOf("CSPO") > -1 || (tr.toUpperCase().indexOf("scrum product") > -1)) {
+                    $scope.events[inx]["slider"] = "slider_cspo";
                 } else {
                     $scope.events[inx]["slider"] = "slider_" + inx;
                 }
@@ -80,6 +82,7 @@ angular.module('qls')
             "Prince2 Practitioner",
             "Prince2 Agile",
             "Scrum Master",
+            "Certified Scrum Product Owner (CSPO)",
             "Managing Successful Programs",
             "SAFe 4.5 (SAFe Agilist)",
             "DevOps Master",
@@ -91,14 +94,14 @@ angular.module('qls')
         $scope.siteContact = {
             fullname: '',
             email: '',
-            mobile:'',
+            mobile: '',
             courseInterested: '',
             message: ''
         }
         $scope.siteContactSubmit = "Submit";
         $scope.contactSubmit = function () {
             $http.post('endpoints/send-mail.php', $scope.siteContact).success(function (res) {
-                console.log( res);
+                console.log(res);
                 if (res == 'ok') {
                     $scope.siteContactSubmit = 'Message sent sucessfully';
                 }
