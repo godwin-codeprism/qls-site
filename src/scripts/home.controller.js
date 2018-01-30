@@ -91,7 +91,7 @@ angular.module('qls')
             "COBIT 5 Foundation",
             "TOGAF 9.1 Level  1 & Level 2"
         ]
-        $scope.siteContact = {
+        /*$scope.siteContact = {
             fullname: '',
             email: '',
             mobile: '',
@@ -108,5 +108,5 @@ angular.module('qls')
             }).error(function (err) {
                 console.error(err)
             })
-        }
+        }*/
     }]);

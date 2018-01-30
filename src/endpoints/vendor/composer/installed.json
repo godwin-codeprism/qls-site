@@ -24,7 +24,7 @@
         "suggest": {
             "league/oauth2-google": "Needed for Google XOAUTH2 authentication"
         },
-        "time": "2016-09-16 13:15:58",
+        "time": "2016-09-16T13:15:58+00:00",
         "type": "library",
         "installation-source": "source",
         "autoload": {

@@ -377,12 +377,14 @@
                 </div>
                 <div class="form-group">
                     <div class="col-sm-12 text-center">
-                        <button class="btn pull-right" ng-class="siteContactSubmit == 'Submit' ? 'btn-primary' :'btn-success'" ng-disabled="siteContactSubmit !== 'Submit'"
-                            type="submit" ng-click="contactSubmit()">{{siteContactSubmit}}</button>
+                        <button class="btn btn-primary btn-block btn-sm" ng-class="siteContactSubmit == 'Submit' ? 'btn-primary' :'btn-success'"
+                            ng-disabled="siteContactSubmit !== 'Submit'" type="submit" ng-click="contactSubmit()">
+                            <i class="fa fa-cog fa-spin fa-lg fa-fw" ng-show="contactSubmitted"></i>
+                            {{siteContactSubmit}}</button>
                     </div>
                 </div>
             </form>
-            <div class="form-hide" ng-hide="siteContactSubmit == 'Submit'">
+            <div class="form-hide" ng-show="siteContactSubmit == 'Message sent sucessfully'">
                 <div class="panel panel-default" style="width:80%;">
                     <div class="panel-heading text-center" style="line-height:0px;">
                         <h3 class="text-success">
@@ -393,9 +395,19 @@
                             <br>QuickLearn Systems.
                             <br>
                             <br> A team member will be in touch with you shortly.</p>
-                            <p>or</p>
-                            <p> <u><b>Call us at</b></u><br> +91 9100195152</p>
-                            <p><b><u>Write us at:</u></b><br> <a href="mailto:training@quicklearnsys.com">training@quicklearnsys.com</a></p>
+                        <p>or</p>
+                        <p>
+                            <u>
+                                <b>Call us at</b>
+                            </u>
+                            <br> +91 9100195152</p>
+                        <p>
+                            <b>
+                                <u>Write us at:</u>
+                            </b>
+                            <br>
+                            <a href="mailto:training@quicklearnsys.com">training@quicklearnsys.com</a>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -527,8 +539,10 @@
                     <br>
                     <div class="row">
                         <div class="col-sm-12 form-group">
-                            <button class="btn pull-right" ng-class="siteContactSubmit == 'Submit' ? 'btn-primary' :'btn-success'" ng-disabled="siteContactSubmit !== 'Submit'"
-                                type="submit" ng-click="contactSubmit()">{{siteContactSubmit}}</button>
+                            <button type="submit" class="btn btn-primary btn-block btn-sm" ng-class="siteContactSubmit == 'Submit' ? 'btn-primary' :'btn-success'"
+                                ng-disabled="siteContactSubmit !== 'Submit'" type="submit" ng-click="contactSubmit()">
+                                <i class="fa fa-cog fa-spin fa-lg fa-fw" ng-show="contactSubmitted"></i>
+                                {{siteContactSubmit}}</button>
                         </div>
                     </div>
                 </div>
