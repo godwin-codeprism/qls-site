@@ -24,7 +24,7 @@ angular.module("qls", ["ngSanitize", "ui.router", "ngMeta", "ngAnimate"])
                     data: (['ngMeta'], function (ngMeta) {
                         ngMetaProvider.useTitleSuffix(true);
                         ngMeta.setTitle('QuickLearn Systems', ' | Itil course hyderabad | best IT courses in hyderabad | itil training');
-                        ngMeta.setTag('description', 'Quick learn sys provides best ITIL course training in hyderabad. We offer several modules in ITIL at effective cost. Your one stop solution for all IT related courses quicklearnsys.com');
+                        ngMeta.setTag('description', 'QuickLearn sys provides best ITIL course training in hyderabad. We offer several modules in ITIL at effective cost. Your one stop solution for all IT related courses quicklearnsys.com');
                         ngMeta.setTag('keywords', 'itil course hyderabad, best it courses in hyderabad,  itil training, pmp courses Hyderabad, itil training Hyderabad');
                     })
                 },
@@ -69,11 +69,11 @@ angular.module("qls", ["ngSanitize", "ui.router", "ngMeta", "ngAnimate"])
                 controller: "homeController",
                 resolve: {
                     data: (['ngMeta'], function (ngMeta) {
-                        ngMeta.setTitle('itil institutes in Hyderabad | quick learn sys | quick learn systems Hyderabad-quicklearnsys.com');
+                        ngMeta.setTitle('itil institutes in Hyderabad | QuickLearn sys | QuickLearn systems Hyderabad-quicklearnsys.com');
 
                         ngMeta.setTag('description', 'One stop solution for all ITIL certifications. Get certified from one of the best ITIL institutes in Hyderabad. World class learning infrastructure at affordable prices.');
 
-                        ngMeta.setTag('keywords', 'itil institutes in hyderabad, quick learn sys, quick learn systems hyderabad, contact quicklearn sys hyderabad, quicklearn systems hyderabad, quicklearnsys.com');
+                        ngMeta.setTag('keywords', 'itil institutes in hyderabad, QuickLearn sys, QuickLearn systems hyderabad, contact quicklearn sys hyderabad, quicklearn systems hyderabad, quicklearnsys.com');
                     })
                 },
                 meta: {
@@ -277,7 +277,7 @@ angular.module("qls", ["ngSanitize", "ui.router", "ngMeta", "ngAnimate"])
                 templateUrl: "views/classroom_courses/pmp.component.html",
                 resolve: {
                     data: (['ngMeta'], function (ngMeta) {
-                        ngMeta.setTitle('Quick learn sys offers best pmp course Hyderabad |  pmp certification');
+                        ngMeta.setTitle('QuickLearn sys offers best pmp course Hyderabad |  pmp certification');
 
                         ngMeta.setTag('description', 'Master PMP certification courses at affordable prices starting at just 8999 Rs only. We offer best PMP certification in Hyderabad. Try quicklearnsys.com for PMP certifications.');
 
@@ -294,7 +294,7 @@ angular.module("qls", ["ngSanitize", "ui.router", "ngMeta", "ngAnimate"])
                     data: (['ngMeta'], function (ngMeta) {
                         ngMeta.setTitle('Agile certified practitioner courses in Hyderabad quicklearnsys.com');
 
-                        ngMeta.setTag('description', 'Agile certified practitioner courses in Hyderabad. Quick learn sys offers best agile certified course in Hyderabad, we also offer pmi acp, pmi agile certifications.');
+                        ngMeta.setTag('description', 'Agile certified practitioner courses in Hyderabad. QuickLearn sys offers best agile certified course in Hyderabad, we also offer pmi acp, pmi agile certifications.');
 
                         ngMeta.setTag('keywords', 'agile certified practitioner, pmi acp hyderabad, project management institute courses, pmi agile certification, pmi acp course');
                     })
@@ -322,7 +322,7 @@ angular.module("qls", ["ngSanitize", "ui.router", "ngMeta", "ngAnimate"])
                 templateUrl: "views/classroom_courses/p2p.component.html",
                 resolve: {
                     data: (['ngMeta'], function (ngMeta) {
-                        ngMeta.setTitle('Quick learn sys offers Prince2 course Hyderabad at best price-quicklearnsys.com');
+                        ngMeta.setTitle('QuickLearn sys offers Prince2 course Hyderabad at best price-quicklearnsys.com');
 
                         ngMeta.setTag('description', 'Get certified in prince2 course Hyderabad at 31,999 Rs only. Best price per cost, high experienced and real time trainers available. We offer all modules of prince2practitioner courses.');
 
