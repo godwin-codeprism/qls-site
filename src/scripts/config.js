@@ -473,11 +473,11 @@ angular.module("qls", ["ngSanitize", "ui.router", "ngMeta", "ngAnimate"])
                 templateUrl: "views/classroom_courses/siam.component.html",
                 resolve: {
                     data: (['ngMeta'], function (ngMeta) {
-                        ngMeta.setTitle('Service Integration and Management Foundation');
+                        ngMeta.setTitle('SIAM Foundation Training and Certification in Hyderabad - QuickLearn systems');
 
-                        ngMeta.setTag('description', '');
+                        ngMeta.setTag('description', 'As SIAM becomes ever more embedded as an industry discipline, businesses increasingly need their IT staff to possess more and deeper practical understanding and competence about SIAM organized by QuickLearn Systems.');
 
-                        ngMeta.setTag('keywords', '');
+                        ngMeta.setTag('keywords', 'siam training in Hyderabad, siam certification centre in hyderabad , siam exam, exin siam foundation in hyderabad, siam foundation in hyderabad, siam training in gachibowli, siam certification in gachibowli, siam exam in gachibowli');
                     })
                 },
                 meta: {
@@ -489,11 +489,11 @@ angular.module("qls", ["ngSanitize", "ui.router", "ngMeta", "ngAnimate"])
                 templateUrl: "views/classroom_courses/cspo.component.html",
                 resolve: {
                     data: (['ngMeta'], function (ngMeta) {
-                        ngMeta.setTitle('CERTIFIED SCRUM PRODUCT OWNER (CSPO)');
+                        ngMeta.setTitle('Certified Scrum Product Owner CSPO Training Hyderabad | CSPO Certification Course in Hyderabad');
 
-                        ngMeta.setTag('description', '');
+                        ngMeta.setTag('description', 'Enrol for Certified Scrum Product Owner (CSPO) Certification Training in Hyderabad Attend Certified Scrum Product Owner (CSPO) Training and Certification workshop organized by QuickLearn systems.');
 
-                        ngMeta.setTag('keywords', '');
+                        ngMeta.setTag('keywords', 'cspo certification Hyderabad, Certified Scrum Product Owner (CSPO) Training in Hyderabad, cspo certification, product owner training in Hyderabad, scrum product owner certification in gachibowli, scrum product owner training in  gachibowli, cspo training in gachibowli');
                     })
                 },
                 meta: {
