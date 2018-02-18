@@ -56634,7 +56634,7 @@
 	                resolve: {
 	                    data: (['ngMeta'], function (ngMeta) {
 	                        ngMetaProvider.useTitleSuffix(true);
-	                        ngMeta.setTitle('QuickLearn Systems', 'ITIL Certification Training in Hyderabad | CSM | SAFe Agile | PMP | Prince2 | Six Sigma - QuickLearn Systems');
+	                        ngMeta.setTitle('QuickLearn Systems', ' ITIL Certification Training in Hyderabad | CSM | SAFe Agile | PMP | Prince2 | Six Sigma - QuickLearn Systems');
 	                        ngMeta.setTag('description', 'QuickLearn Systems provides ITIL Certification Training in Hyderabad & Bangalore with pass guarantee. We at QuickLearn Systems offer ITIL, PMP, ACP, Prince2, CSM, SAFe Agile, DevOps Master, SIAM, Cobit & Six Sigma Certifications with pass Assurance');
 	                        ngMeta.setTag('keywords', 'ITIL Certification Training in Hyderabad, ITIL Foundation Training in Hyderabad, ITIL Training in Bangalore, ITIL Certification training in Bangalore, Prince2 Foundation certification in Hyderabad, Prince2 Practitioner training in Hyderabad, Certified Scrum Master Certification in Hyderabad, CSM Training in Hyderabad, CSM Training in Bangalore, SAFe Agile Certification in Hyderabad, SAFe Agile training in Hyderabad, SAFe Agile Training in Bangalore, DevOps Master training and certification in Hyderabad, SIAM Certification training in Hyderabad,  ITIL Training, PMP Citification Training in Hyderabad, ITIL training Hyderabad, Six Sigma Green belt training Hyderabad, Six Sigma training in Hyderabad');
 	                    })
