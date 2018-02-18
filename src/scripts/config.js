@@ -6,7 +6,7 @@ var usersTemplate = require('../views/users.html'),
     contactTemplate = require('../views/contact.html'),
     termsTemplate = require('../views/terms.html'),
     accreditationsTemplate = require('../views/accreditations.html');
-    privacyTemplate = require('../views/privacy_policy.html');
+privacyTemplate = require('../views/privacy_policy.html');
 angular.module("qls", ["ngSanitize", "ui.router", "ngMeta", "ngAnimate"])
     .config(["$stateProvider", "$urlRouterProvider", "ngMetaProvider", "$locationProvider", function ($stateProvider, $urlRouterProvider, ngMetaProvider, $locationProvider) {
         $stateProvider.decorator('data', ngMetaProvider.mergeNestedStateData);
@@ -23,9 +23,9 @@ angular.module("qls", ["ngSanitize", "ui.router", "ngMeta", "ngAnimate"])
                 resolve: {
                     data: (['ngMeta'], function (ngMeta) {
                         ngMetaProvider.useTitleSuffix(true);
-                        ngMeta.setTitle('QuickLearn Systems', ' | Itil course hyderabad | best IT courses in hyderabad | itil training');
-                        ngMeta.setTag('description', 'QuickLearn sys provides best ITIL course training in hyderabad. We offer several modules in ITIL at effective cost. Your one stop solution for all IT related courses quicklearnsys.com');
-                        ngMeta.setTag('keywords', 'itil course hyderabad, best it courses in hyderabad,  itil training, pmp courses Hyderabad, itil training Hyderabad');
+                        ngMeta.setTitle('QuickLearn Systems', 'ITIL Certification Training in Hyderabad | CSM | SAFe Agile | PMP | Prince2 | Six Sigma - QuickLearn Systems');
+                        ngMeta.setTag('description', 'QuickLearn Systems provides ITIL Certification Training in Hyderabad & Bangalore with pass guarantee. We at QuickLearn Systems offer ITIL, PMP, ACP, Prince2, CSM, SAFe Agile, DevOps Master, SIAM, Cobit & Six Sigma Certifications with pass Assurance');
+                        ngMeta.setTag('keywords', 'ITIL Certification Training in Hyderabad, ITIL Foundation Training in Hyderabad, ITIL Training in Bangalore, ITIL Certification training in Bangalore, Prince2 Foundation certification in Hyderabad, Prince2 Practitioner training in Hyderabad, Certified Scrum Master Certification in Hyderabad, CSM Training in Hyderabad, CSM Training in Bangalore, SAFe Agile Certification in Hyderabad, SAFe Agile training in Hyderabad, SAFe Agile Training in Bangalore, DevOps Master training and certification in Hyderabad, SIAM Certification training in Hyderabad,  ITIL Training, PMP Citification Training in Hyderabad, ITIL training Hyderabad, Six Sigma Green belt training Hyderabad, Six Sigma training in Hyderabad');
                     })
                 },
                 meta: {
@@ -84,9 +84,9 @@ angular.module("qls", ["ngSanitize", "ui.router", "ngMeta", "ngAnimate"])
                 templateUrl: "views/classroom_courses/itil_foundation.html",
                 resolve: {
                     data: (['ngMeta'], function (ngMeta) {
-                        ngMeta.setTitle('ITIL foundation course in hyderabad from quicklearnsys.com');
-                        ngMeta.setTag('description', 'Quicklearnsys offers ITIl foundation course in hyderabad. Apart from ITIL courses we also offer several other career development courses for the IT professionals.');
-                        ngMeta.setTag('keywords', 'itil foundation, ITIL foundation course hyderabad, itil foundation exam, itil foundation training, itil foundation cost');
+                        ngMeta.setTitle('ITIL Foundation Certification Training in Hyderabad with Pass Guarantee - QuickLearn Systems');
+                        ngMeta.setTag('description', 'QuickLearn Systems offers ITIL Foundation Certification Training in Hyderabad with Pass Guarantee.  We at QuickLearn Systems offers ITIL Foundation, ITIL Practitioner, ITIL Intermediate, ITIL Expert and SIAM Foundation at best price with high quality');
+                        ngMeta.setTag('keywords', 'ITIL Foundation Certification Training, ITIL foundation training in Hyderabad, ITIL foundation course Hyderabad, ITIL foundation exam, ITIL foundation training in Gachibowli, ITIL Certification Training in Gachibowli, ITIL foundation training in Kondapur, ITIL Certification training in Madhapur, ITIL foundation Certification training in Kondapur, ITIL foundation training in Kukatpally, ITIL Foundation training in Ameerpet, ITL training in Ameerpet, ITIL Foundation training in Bangalore, ITIL training in Bangalore, ITIL training centres in Hyderabad, ITIL centres in Bangalore ');
                     })
                 },
                 meta: {
@@ -277,11 +277,11 @@ angular.module("qls", ["ngSanitize", "ui.router", "ngMeta", "ngAnimate"])
                 templateUrl: "views/classroom_courses/pmp.component.html",
                 resolve: {
                     data: (['ngMeta'], function (ngMeta) {
-                        ngMeta.setTitle('QuickLearn sys offers best pmp course Hyderabad |  pmp certification');
+                        ngMeta.setTitle('PMP Certification Training in Hyderabad | QuickLearn Systems offers best Project Management Program in Hyderabad');
 
-                        ngMeta.setTag('description', 'Master PMP certification courses at affordable prices starting at just 8999 Rs only. We offer best PMP certification in Hyderabad. Try quicklearnsys.com for PMP certifications.');
+                        ngMeta.setTag('description', 'PMP certification Training courses at affordable prices with 99% Success rate.  We are one of the best PMP training institutes in Hyderabad through highly experienced trainer, 35 PDU Certificate, 1 Year E-Learning access, Mock Exams and Question bank');
 
-                        ngMeta.setTag('keywords', 'pmp course hyderabad, pmp certification hyderabad,  pmp training, pmp training hyderabad, pmp jobs');
+                        ngMeta.setTag('keywords', 'PMP certification in Hyderabad, PMP course in Hyderabad, PMP certification Hyderabad, best PMP training institute in Hyderabad, PMP certification Hyderabad pass guaranteed, PMP certification Hyderabad Gachibowli, PMP training in Hyderabad Madhapur, PMP training, PMP training Hyderabad, PMI PMP Certification in Hyderabad Madhapur, PMP Training in Gachibowli, PMP training institute in Kukatpally');
                     })
                 },
                 meta: {
@@ -307,11 +307,11 @@ angular.module("qls", ["ngSanitize", "ui.router", "ngMeta", "ngAnimate"])
                 templateUrl: "views/classroom_courses/p2f.component.html",
                 resolve: {
                     data: (['ngMeta'], function (ngMeta) {
-                        ngMeta.setTitle('prince2 foundation Hyderabad | prince2 foundation | prince2 foundation training');
+                        ngMeta.setTitle('Prince2 Foundation certification in Hyderabad | Prince2 Foundation and Practitioner training with pass guarantee');
 
-                        ngMeta.setTag('description', 'Prince2 foundation course in Hyderabad at best price 31,999 Rs only. Try quicklearnsys.com for quality learning experience. 100% exam pass assurance. ');
+                        ngMeta.setTag('description', 'QuickLearn Systems is one of the best Prince2 certification training providers in Hyderabad with Pass Guarantee. Certified and Authorized Trainer, High-Quality Training, Early Bird Offer, 100% Money Back Guarantee, Free Refreshment sessions');
 
-                        ngMeta.setTag('keywords', 'prince2 foundation hyderabad, prince2 foundation, prince2 foundation training, project management prince2, prince2 practitioner exam, prince2 foundation and practitioner course');
+                        ngMeta.setTag('keywords', 'Prince2 certification training institute in Hyderabad, Prince2 certification cost in Hyderabad, best training institute for prince2 in Hyderabad, Prince2 training in Hyderabad, Prince2 certification exam fee, Prince2 foundation exam in Hyderabad, Prince2 foundation, Prince2 foundation and Practitioner training, Project management Prince2, Prince2 Practitioner exam, Prince2 foundation and practitioner course in Hyderabad, Prince2 Foundation training in Hyderabad with 100% Pass Guarantee, Prince2 Project management course in Hyderabad, Prince2 training in Bangalore , Prince2 training centres in Hyderabad, Prince2 Project management course.');
                     })
                 },
                 meta: {
@@ -348,15 +348,15 @@ angular.module("qls", ["ngSanitize", "ui.router", "ngMeta", "ngAnimate"])
                     disableUpdate: true
                 }
             }).state("app.scrum", {
-                url: "/scrum-master",
+                url: "/certified-scrum-master",
                 templateUrl: "views/classroom_courses/scrum.component.html",
                 resolve: {
                     data: (['ngMeta'], function (ngMeta) {
-                        ngMeta.setTitle('scrum master | professional scrum master | scrum and agile | psm certification');
+                        ngMeta.setTitle('Certified Scrum Master Certification | CSM Certification Training in Hyderabad | CSM Certification Training in Bangalore | Professional Scrum Master| CSM Training from Scrum Alliance');
 
-                        ngMeta.setTag('description', 'Get scrum master certification in Hyderabad with quicklearnsys.com. we offer quality training with best Infrastructure. We offer professional scrum master and psm certifications.');
+                        ngMeta.setTag('description', 'Certified Scrum Master Certification training in Hyderabad by QuickLearn Systems with Pass Assurance. We conduct CSM and SAFe Agile training in Hyderabad, Bangalore, Chennai, Pune, and Delhi. Enrol today for early bird offer, group discount available');
 
-                        ngMeta.setTag('keywords', 'scrum master, professional scrum master, scrum and agile, agile scrum master, psm certification');
+                        ngMeta.setTag('keywords', 'Certified Scrum Master Certification in Hyderabad, CSM Certification Training in Hyderabad, Agile training institutes in Hyderabad, Agile certification cost in Hyderabad, best CSM training in Hyderabad, certified scrum master in Kondapur,  scrum alliance certification in Hyderabad, Professional scrum master in Hyderabad, Scrum Master Certification in Madhapur, scrum master certification cost in Hyderabad, agile scrum master training in Hyderabad, agile training in Hyderabad, Agile certified professional training in Hyderabad');
                     })
                 },
                 meta: {
@@ -382,11 +382,11 @@ angular.module("qls", ["ngSanitize", "ui.router", "ngMeta", "ngAnimate"])
                 templateUrl: "views/classroom_courses/green_belt.component.html",
                 resolve: {
                     data: (['ngMeta'], function (ngMeta) {
-                        ngMeta.setTitle('Learn six sigma green belt Hyderabad best cost per quality with quicklearnsys.com');
+                        ngMeta.setTitle('Lean Six Sigma Green Belt Certification in Hyderabad |Six Sigma Green belt training in Hyderabad best in quality at low cost QuickLearn Systems');
 
-                        ngMeta.setTag('description', 'Six sigma certification courses in Hyderabad. Lean six sigma green belt course starting at just Rs 11999/-. Best price per quality training and 100% pass assurance.');
+                        ngMeta.setTag('description', 'Lean Six Sigma Green Belt Certification Training in Hyderabad with 100% Pass Guarantee. We at QuickLearn Systems offer ITIL, PMP, ACP, Prince2, CSM, SAFe Agile, DevOps Master, SIAM, Cobit & Six Sigma Certifications with pass Assurance');
 
-                        ngMeta.setTag('keywords', 'six sigma green belt hyderabad,  lean six sigma green belt hyderabad six sigma hyderabad, lean six sigma certification, lean 6 sigma hydearbad');
+                        ngMeta.setTag('keywords', 'lean six sigma green belt certification in Hyderabad , six sigma green belt certification cost, six sigma green belt certification in Hyderabad, six sigma training in Hyderabad, six sigma green belt certification in Gachibowli, six sigma green belt certification cost in Hyderabad, six sigma green belt certification in Madhapur, six sigma green belt certification in training, six sigma green belt Kondapur, six sigma green belt certification online free, six sigma Hyderabad, lean six sigma certification, lean 6 sigma Hyderabad, Six sigma certification');
                     })
                 },
                 meta: {
@@ -442,11 +442,11 @@ angular.module("qls", ["ngSanitize", "ui.router", "ngMeta", "ngAnimate"])
                 templateUrl: "views/classroom_courses/safe.component.html",
                 resolve: {
                     data: (['ngMeta'], function (ngMeta) {
-                        ngMeta.setTitle('safe agile | safe agile Hyderabad | safe agile framework | agile scrum methodology');
+                        ngMeta.setTitle('SAFe Agilist Certification in Hyderabad |SAFe agile Hyderabad | SAFe Agile framework | Leading SAFe Certification| Scaled Agile Framework | SAFe Agilist');
 
-                        ngMeta.setTag('description', 'Safe agile course in Hyderabad by quicklearnsys.com. we offer safe agile certification at best price in Hyderabad. 100% pass assurance. High experienced and real time tutors.');
+                        ngMeta.setTag('description', 'SAFe Agile Certification training in Hyderabad by QuickLearn Systems with Pass Assurance. Certified and Authorized Trainer, High-Quality Training, Hardcopy material, Early Bird Offer, 100% Money Back Guarantee, Group discount available, Buffet lunch');
 
-                        ngMeta.setTag('keywords', 'safe agile, safe agile hyderabad, safe agile framework, agile scrum methodology');
+                        ngMeta.setTag('keywords', 'Safe Agile training in Hyderabad, Safe agile certification exam cost, Safe Agilist certification In Hyderabad, safe Agilist certification cost, safe Agile training in Madhapur, safe certification training centre in Hyderabad, safe agile framework, agile scrum methodology, safe certification training,  SAFe Certification and Exam Information, Scaled agile framework training in Hyderabad, safe agile training Bangalore, safe agile training centre in Bangalore, Safe Agilist certification with pass guarantee');
                     })
                 },
                 meta: {
@@ -457,11 +457,11 @@ angular.module("qls", ["ngSanitize", "ui.router", "ngMeta", "ngAnimate"])
                 templateUrl: "views/classroom_courses/dev_ops.component.html",
                 resolve: {
                     data: (['ngMeta'], function (ngMeta) {
-                        ngMeta.setTitle('Devops master training in Hyderabad | dev ops tools | dev ops training-quicklearnsys.com');
+                        ngMeta.setTitle('DevOps Master Certification training in Hyderabad | DevOps Master Certification |DevOps Master – QuickLearn Systems');
 
-                        ngMeta.setTag('description', 'Learn devops master course in Hyderabad. Get certified with devops master certification at affordable price 19,990 Rs only. Become a certified devops master with quicklearnsys.com');
+                        ngMeta.setTag('description', 'DevOps Master Certification training in Hyderabad at offer price with pass guarantee. Get 10% off on early bird registration, we offer ITIL, PMP, ACP, Prince2, CSM, SAFe Agile, DevOps Master, SIAM, Cobit & Six Sigma Certifications with pass Assurance');
 
-                        ngMeta.setTag('keywords', 'devops master, dev ops tools, dev ops training, master devops hyderabad, dev ops master training');
+                        ngMeta.setTag('keywords', 'DevOps Master training and certification in Hyderabad, DevOps master certification price in Hyderabad, Exin DevOps master certification cost in Gachibowli, DevOps Master certification value, DevOps master training in Gachibowli, Best DevOps trainer in Hyderabad, DevOps master training in Madhapur, DevOps master training in Kondapur, DevOps master, DevOps tools, DevOps training, DevOps Course in Hyderabad,DevOps training in Gachibowli, DevOps training in Kukatpally, DevOps training in Madhapur');
                     })
                 },
                 meta: {
