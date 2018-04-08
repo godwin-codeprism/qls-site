@@ -50,7 +50,7 @@ angular.module('qls-admin')
             var data = {
                 token: localStorage.getItem('token')
             }
-            $http.post('endpoints/logout.php', data).success(function (res) {
+            $http.post('endpoints/logout.php', data).then(function (res) {
                 if (res == 'LOGGED_OUT') {
                     localStorage.removeItem('token');
                     $state.go('login');

@@ -17,7 +17,7 @@ angular.module('qls-admin', ['ui.router', 'ngAnimate'])
                             token: 'notLoggedin'
                         };
                     }
-                    $http.post('endpoints/check-token.php', data).success(function (res) {
+                    $http.post('endpoints/check-token.php', data).then(function (res) {
                         if (res == 'authorized') {
                             $state.go('dashboard.home');
                         } else {
@@ -74,7 +74,7 @@ function AuthChecker($http, $state) {
             token: 'notLoggedin'
         };
     }
-    $http.post('endpoints/check-token.php', data).success(function (res) {
+    $http.post('endpoints/check-token.php', data).then(function (res) {
         if (res == 'authorized') {
             return res;
         } else {

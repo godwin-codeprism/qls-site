@@ -3,9 +3,9 @@ angular.module('qls-admin')
         var dataUrl = "../data/events.json";
         var postTo = "./endpoints/write-data.php";
         var events = this;
-        $http.get(dataUrl).success(function (res) {
+        $http.get(dataUrl).then(function (res) {
             $scope.events = res;
-        }).error(function (err) {
+        }).catch(function (err) {
             console.log(err);
         });
         $scope.addRow = function (i) {
@@ -42,9 +42,9 @@ angular.module('qls-admin')
         var dataUrl = "../data/online_events.json";
         var postTo = "./endpoints/write-data.php";
         var onlineEvents = this;
-        $http.get(dataUrl).success(function (res) {
+        $http.get(dataUrl).then(function (res) {
             $scope.onlineEvents = res;
-        }).error(function (err) {
+        }).catch(function (err) {
             console.log(err);
         });
         $scope.addRow = function (i) {

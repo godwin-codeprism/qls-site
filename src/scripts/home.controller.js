@@ -1,7 +1,7 @@
 angular.module('qls')
     .controller('homeController', ['$scope', '$http', function ($scope, $http) {
-        $http.get('data/events.json' + '?id=' + new Date().getTime()).success(function (res) {
-            $scope.events = res;
+        $http.get('./data/events.json' + '?id=' + new Date().getTime()).then(function (res) {
+            $scope.events = res.data;
             $scope.events.forEach(function (obj, inx) {
                 var tr = obj.training.toLowerCase();
                 if (tr.indexOf("itil") > -1 && tr.indexOf("foundation") > -1) {
@@ -36,29 +36,29 @@ angular.module('qls')
                     $scope.events[inx]["slider"] = "slider_" + inx;
                 }
             })
-        }).error(function () {
+        }).catch(function (err) {
             console.log('Failed to load events.json');
         });
-        $http.get('data/online_events.json' + '?id=' + new Date().getTime()).success(function (res) {
-            $scope.onlineEvents = res;
-        }).error(function () {
+        $http.get('./data/online_events.json' + '?id=' + new Date().getTime()).then(function (res) {
+            $scope.onlineEvents = res.data;
+        }).catch(function () {
             console.log('Failed to load online_events.json' + '?id=' + new Date().getTime());
         });
-        $http.get('data/courses.json' + '?id=' + new Date().getTime()).success(function (res) {
-            $scope.courses = res;
-        }).error(function () {
+        $http.get('./data/courses.json' + '?id=' + new Date().getTime()).then(function (res) {
+            $scope.courses = res.data;
+        }).catch(function () {
             console.log('Failed to load courses.json');
         });
-        $http.get('data/testimonials/testimonials.json' + '?id=' + new Date().getTime()).success(function (res) {
-            $scope.testimonials = res;
-        }).error(function () {
+        $http.get('./data/testimonials/testimonials.json' + '?id=' + new Date().getTime()).then(function (res) {
+            $scope.testimonials = res.data;
+        }).catch(function () {
             console.log('Failed to load courses.json');
         });
-        $http.get('data/clients/clients.json' + '?id=' + new Date().getTime())
-            .success(function (res) {
-                $scope.clients = res;
+        $http.get('./data/clients/clients.json' + '?id=' + new Date().getTime())
+            .then(function (res) {
+                $scope.clients = res.data;
             })
-            .error(function () {
+            .catch(function () {
                 console.log('Failed to load clients.json');
             });
         $scope.coursesList = [
@@ -100,12 +100,12 @@ angular.module('qls')
         }
         $scope.siteContactSubmit = "Submit";
         $scope.contactSubmit = function () {
-            $http.post('endpoints/send-mail.php', $scope.siteContact).success(function (res) {
+            $http.post('endpoints/send-mail.php', $scope.siteContact).then(function (res) {
                 console.log(res);
                 if (res == 'ok') {
                     $scope.siteContactSubmit = 'Message sent sucessfully';
                 }
-            }).error(function (err) {
+            }).catch(function (err) {
                 console.error(err)
             })
         }*/

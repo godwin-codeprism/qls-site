@@ -10,8 +10,8 @@ privacyTemplate = require('../views/privacy_policy.html');
 angular.module("qls", ["ngSanitize", "ui.router", "ngMeta", "ngAnimate"])
     .config(["$stateProvider", "$urlRouterProvider", "ngMetaProvider", "$locationProvider", function ($stateProvider, $urlRouterProvider, ngMetaProvider, $locationProvider) {
         $stateProvider.decorator('data', ngMetaProvider.mergeNestedStateData);
+        $locationProvider.hashPrefix("");
         $locationProvider.html5Mode(true);
-        $urlRouterProvider.otherwise("/"),
             $stateProvider.state("app", {
                 url: "",
                 template: usersTemplate,
@@ -545,7 +545,8 @@ angular.module("qls", ["ngSanitize", "ui.router", "ngMeta", "ngAnimate"])
                 meta: {
                     disableUpdate: true
                 }
-            })
+            });
+            $urlRouterProvider.otherwise("/");
     }]).run(["$transitions", "$rootScope", "$state", "$location", "$window", "ngMeta", function ($transitions, $rootScope, t, n, r, ngMeta) {
         ngMeta.init();
         $transitions.onBefore({}, function (trans) {

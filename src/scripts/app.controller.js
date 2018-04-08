@@ -53,14 +53,14 @@ angular.module("qls").controller("appController", [
         $scope.siteContact.message != ""
       ) {
         $http
-          .post("endpoints/send-mail.php", $scope.siteContact)
-          .success(function(res) {
-            if (res == "ok") {
+          .post("/endpoints/send-mail.php", $scope.siteContact)
+          .then(function(res) {
+            if (res.data == "ok") {
               $scope.siteContactSubmit = "Message sent sucessfully";
               $scope.contactSubmitted = false;
             }
           })
-          .error(function(err) {
+          .catch(function(err) {
             console.error(err);
             $scope.siteContactSubmit = "Submit";
             $scope.contactSubmitted = false;

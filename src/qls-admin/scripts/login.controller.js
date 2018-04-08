@@ -6,7 +6,7 @@ angular.module('qls-admin')
                 username: $scope.username,
                 password: $scope.password
             };
-            $http.post('endpoints/login.php', data).success(function (res) {
+            $http.post('endpoints/login.php', data).then(function (res) {
                 if (res != 'ERROR') {
                     console.log(res);
                     $scope.error = false;

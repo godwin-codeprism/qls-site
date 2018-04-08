@@ -6,9 +6,9 @@ angular.module('qls-admin')
         this.backEndLocation = './endpoints/upload-img.php';
         this.saveImagesTo = '../../data/testimonials/images';
         this.defaultImg = '../data/testimonials/images/profile_null.jpg';
-        $http.get(dataUrl).success(function (res) {
+        $http.get(dataUrl).then(function (res) {
             testimonials.data = res;
-        }).error(function (err) {
+        }).catch(function (err) {
             console.log(err);
         });
         $scope.addRow = function (i) {
