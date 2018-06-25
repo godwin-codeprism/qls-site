@@ -23,7 +23,7 @@
     "font-awesome": "4.6.3",
     "ionicons": "3.0.0",
     "jquery": "3.1.0",
-    "ng-meta": "1.0.0"
+    "ng-meta": "1.0.3"
   },
   "devDependencies": {
     "css-loader": "0.25.0",
