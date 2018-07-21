@@ -428,6 +428,19 @@ function configFun ($stateProvider, $urlRouterProvider, ngMetaProvider, $locatio
             meta: {
                 disableUpdate: true
             }
+        }).state("app.doi", {
+            url: "/devops-foundation",
+            templateUrl: "views/classroom_courses/doi.component.html",
+            resolve: {
+                data: (['ngMeta'], function (ngMeta) {
+                    ngMeta.setTitle('DevOps Foundation Certification training in Hyderabad | DevOps Foundation Certification |DevOps Foundation – QuickLearn Systems');
+                    ngMeta.setTag('description', 'DevOps Foundation Certification training in Hyderabad at offer price with pass guarantee. Get 10% off on early bird registration, we offer ITIL, PMP, ACP, Prince2, CSM, SAFe Agile, DevOps Foundation, SIAM, Cobit & Six Sigma Certifications with pass Assurance');
+                    ngMeta.setTag('keywords', 'DevOps Foundation training and certification in Hyderabad, DevOps Foundation certification price in Hyderabad, Exin DevOps Foundation certification cost in Gachibowli, DevOps Foundation certification value, DevOps Foundation training in Gachibowli, Best DevOps trainer in Hyderabad, DevOps Foundation training in Madhapur, DevOps Foundation training in Kondapur, DevOps Foundation, DevOps tools, DevOps training, DevOps Course in Hyderabad,DevOps training in Gachibowli, DevOps training in Kukatpally, DevOps training in Madhapur');
+                })
+            },
+            meta: {
+                disableUpdate: true
+            }
         })
         .state("app.siam", {
             url: "/service-integration-and-management",
