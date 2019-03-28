@@ -8,8 +8,8 @@
 <head>
     <meta charset="UTF-8">
     <title ng-bind="ngMeta.title"></title>
-    <base href="http://localhost/QLS/src/">
-    <!-- <base id="base" href="http://quicklearnsys.com/"> -->
+    <!-- <base href="http://localhost:3000/"> -->
+    <base id="base" href="https://quicklearnsys.com/">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{ngMeta.description}}" />
@@ -95,7 +95,7 @@
         function loadJS(file) {
             var jsElm = document.createElement("script");
             jsElm.type = "text/javascript";
-            jsElm.src = file + '?id=' + new Date().getTime();
+            jsElm.src = file + '?id=v10';
             document.body.appendChild(jsElm);
         }
         loadJS("godwin.js");
