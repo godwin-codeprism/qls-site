@@ -1,1 +1,14 @@
+#Turn on the rewrite engine 
+RewriteEngine on
+#RewriteBase /
+ # if trying to access with out http go to https
+    RewriteCond %{HTTPS} off
+    RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+# If accessed via "www" redirect to "non www"
+    RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+    RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
 
+# if the links are not actual files or directories, then go to index
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^ index.html [L]
