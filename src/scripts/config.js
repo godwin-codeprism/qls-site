@@ -110,9 +110,9 @@ function configFun ($stateProvider, $urlRouterProvider, ngMetaProvider, $locatio
 			templateUrl: "views/classroom_courses/itil_4_foundation.html",
 			resolve: {
 				data: (['ngMeta'], function (ngMeta) {
-					ngMeta.setTitle('ITIL Foundation Certification|Training|Course|Cost in Hyderabad');
-					ngMeta.setTag('description', 'We are best institute in Ameerpet Hyderabad offering ITIL Courses|Training. The ITIL foundation certification course fees are affordable by all.');
-					ngMeta.setTag('keywords', 'ITIL Certification Course in hyderabad, ITIL  Foundation Certification Fees,    ITIL Foundation Certification in Hyderabad, itil certification cost, itil foundation course, itil foundation exam cost, itil foundation training, itil foundation exam fee, itil certification online, itil foundation certification cost, itil training in hyderabad, what is itil certification, itil certification cost in india');
+					ngMeta.setTitle('Best ITIL V4 Foundation Certification|Training|Course Hyderabad');
+					ngMeta.setTag('description', 'Quicklearn system TOP ITIL V4 Foundation Certification|Training|Course|Cost in Hyderabad. We provide the best ITIL V4 training institute in Hyderabad.');
+					ngMeta.setTag('keywords', 'ITIL v4 Certification Course in hyderabad, ITIL v4 Foundation Certification Fees,  ITIL v4 Foundation Certification in Hyderabad, itil v4 certification cost, itil v4 foundation course, itil v4 foundation exam cost, itil v4 foundation training, itil v4 foundation exam fee, itil v4 certification online, itil v4 foundation certification cost, itil v4training in hyderabad, what is itil v4 certification ');
 				})
 			},
 			meta: {
