@@ -111,7 +111,7 @@ function configFun ($stateProvider, $urlRouterProvider, ngMetaProvider, $locatio
 			resolve: {
 				data: (['ngMeta'], function (ngMeta) {
 					ngMeta.setTitle('Best ITIL V4 Foundation Certification|Training|Course Hyderabad');
-					ngMeta.setTag('description', 'Quicklearn system TOP ITIL V4 Foundation Certification|Training|Course|Cost in Hyderabad. We provide the best ITIL V4 training institute in Hyderabad.');
+					ngMeta.setTag('description', 'Quicklearn System TOP ITIL V4 Foundation Certification|Training|Course|Cost in Hyderabad. We provide the best ITIL V4 training institute in Hyderabad.');
 					ngMeta.setTag('keywords', 'ITIL v4 Certification Course in hyderabad, ITIL v4 Foundation Certification Fees,  ITIL v4 Foundation Certification in Hyderabad, itil v4 certification cost, itil v4 foundation course, itil v4 foundation exam cost, itil v4 foundation training, itil v4 foundation exam fee, itil v4 certification online, itil v4 foundation certification cost, itil v4training in hyderabad, what is itil v4 certification ');
 				})
 			},
