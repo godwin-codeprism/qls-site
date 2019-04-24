@@ -83,7 +83,7 @@ function HomeControllerFun ($scope, $http) {
         "Scrum Master",
         "Certified Scrum Product Owner (CSPO)",
         "Managing Successful Programs",
-        "SAFe 4.5 (SAFe Agilist)",
+        "SAFe 4.6 (SAFe Agilist)",
         "DevOps Master",
         "Six Sigma Green Belt",
         "Six Sigma Black Belt",

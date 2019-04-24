@@ -24,7 +24,7 @@ function appControllerFun ($rootScope, $scope,$http) {
     "Prince2 Agile",
     "Scrum Master",
     "Managing Successful Programs",
-    "SAFe 4.5 (SAFe Agilist)",
+    "SAFe 4.6 (SAFe Agilist)",
     "DevOps Master",
     "Six Sigma Green Belt",
     "Six Sigma Black Belt",

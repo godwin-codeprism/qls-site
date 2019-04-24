@@ -104,3 +104,6 @@ body {
 .blur{
     filter: blur(5px);
 }
+.container-fluid{
+    max-width: 1366px;
+}
