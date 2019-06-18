@@ -2,3 +2,4 @@
 /bower_components/
 /dist/
 /backup/
+.package-lock.json
