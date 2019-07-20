@@ -45,7 +45,8 @@ function appControllerFun ($rootScope, $scope,$http) {
     if (
       $scope.siteContact.fullname != "" &&
       $scope.siteContact.email != "" &&
-      $scope.siteContact.message != ""
+      $scope.siteContact.message != "" &&
+      $scope.siteContact.mobile != ""
     ) {
       $http
         .post("/endpoints/send-mail.php", $scope.siteContact)
@@ -66,7 +67,7 @@ function appControllerFun ($rootScope, $scope,$http) {
     } else {
       $scope.siteContactSubmit = "Submit";
       $scope.contactSubmitted = false;
-      alert("Something went wrong! Please refresh the page and try again.");
+      alert("Please fill all the required fields before you submit.");
     }
   };
 

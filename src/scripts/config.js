@@ -472,9 +472,9 @@ function configFun($stateProvider, $urlRouterProvider, ngMetaProvider, $location
 				disableUpdate: true
 			}
 		})
-		.state("app.cspo", {
+		.state("app.popm", {
 			url: "/certified-scrum-product-owner",
-			templateUrl: "views/classroom_courses/cspo.component.html",
+			templateUrl: "views/classroom_courses/product_owner.component.html",
 			resolve: {
 				data: (['ngMeta'], function (ngMeta) {
 					ngMeta.setTitle('Certified Scrum Product Owner CSPO Training Hyderabad | CSPO Certification Course in Hyderabad');

@@ -2,7 +2,8 @@
 	<div class="container-fluid">
 		<div class="navbar-header col-xs-12 col-sm-12 col-md-1 col-lg-1" style="padding:0px; margin:0px;">
 			<button class="g-navbar-toggle hidden-md hidden-lg" ng-click="mobileMenuToggle()">
-				<i class="fa fa-lg" aria-hidden="true" ng-class="{'fa-times':mobileMenuState == true,'fa-bars':mobileMenuState == false}"></i>
+				<i class="fa fa-lg" aria-hidden="true"
+					ng-class="{'fa-times':mobileMenuState == true,'fa-bars':mobileMenuState == false}"></i>
 			</button>
 			<a class="navbar-brand" style="padding-top:10px;" ui-sref="app.home">
 				<img src="../images/logo_nav.png" alt="Quick LearnSystems">
@@ -116,22 +117,22 @@
 									<a ui-sref="app.prince2agile">PRINCE2 Agile Practitioner</a>
 								</li>
 								<li>
-									<a ui-sref="app.scrum">Professional Scrum Master</a>
-								</li>
-								<li>
-									<a ui-sref="app.cspo">Certified Scrum Product Owner (CSPO)</a>
-								</li>
-								<li>
 									<a ui-sref="app.msp">Managing Successful Programs</a>
 								</li>
 								<li>
-									<a ui-sref="app.safe">SAFe 4.6 (SAFe Agilist)</a>
+									<a ui-sref="app.scrum">Professional Scrum Master</a>
+								</li>
+								<li>
+									<a ui-sref="app.safe">SAFe Agile 4.6</a>
+								</li>
+								<li>
+									<a ui-sref="app.popm">SAFe POPM 4.6</a>
+								</li>
+								<li>
+									<a ui-sref="app.doi">DevOps Foundation</a>
 								</li>
 								<li>
 									<a ui-sref="app.dev_ops">DevOps Master</a>
-								</li>
-								<li>
-									<a ui-sref="app.doi">DevOps Foundation from DOI</a>
 								</li>
 							</ul>
 						</li>
@@ -199,7 +200,8 @@
 					<a data-toggle="collapse" data-target="#li-ServiceManagement">Service Management
 						<span class="caret"></span>
 					</a>
-					<ul class="dropdown-mobile-menu dropdown-mobile-intial level-2 list-4 panel-collapse collapse" id="li-ServiceManagement">
+					<ul class="dropdown-mobile-menu dropdown-mobile-intial level-2 list-4 panel-collapse collapse"
+						id="li-ServiceManagement">
 						<li>
 							<a ui-sref="app.itil_4_foundation">ITIL 4 Foundation</a>
 						</li>
@@ -210,12 +212,14 @@
 							<a ui-sref="app.itil_intermediate" data-toggle="collapse" data-target="#li-Intermediate">ITIL Intermediate
 								<span class="caret"></span>
 							</a>
-							<ul class="dropdown-mobile-menu dropdown-mobile-intial level-3 list-2 panel-collapse collapse" id="li-Intermediate">
+							<ul class="dropdown-mobile-menu dropdown-mobile-intial level-3 list-2 panel-collapse collapse"
+								id="li-Intermediate">
 								<li class="dropdown-mobile-submenu">
 									<a data-toggle="collapse" data-target="#li-LifecycleModules">ITIL Lifecycle Modules
 										<span class="caret"></span>
 									</a>
-									<ul class="dropdown-mobile-menu dropdown-mobile-intial level-4 list-5 panel-collapse collapse" id="li-LifecycleModules">
+									<ul class="dropdown-mobile-menu dropdown-mobile-intial level-4 list-5 panel-collapse collapse"
+										id="li-LifecycleModules">
 										<li>
 											<a ui-sref="app.service_strategy">ITIL Service Strategy</a>
 										</li>
@@ -237,7 +241,8 @@
 									<a data-toggle="collapse" data-target="#li-CapabilityModule">ITIL Capability Module
 										<span class="caret"></span>
 									</a>
-									<ul class="dropdown-mobile-menu dropdown-mobile-intial level-4 list-4 panel-collapse collapse" id="li-CapabilityModule">
+									<ul class="dropdown-mobile-menu dropdown-mobile-intial level-4 list-4 panel-collapse collapse"
+										id="li-CapabilityModule">
 										<li>
 											<a ui-sref="app.soa">ITIL Service, Offering and Agreement (SOA)</a>
 										</li>
@@ -258,7 +263,8 @@
 							<a data-toggle="collapse" data-target="#li-ITILExpert">ITIL Expert
 								<span class="caret"></span>
 							</a>
-							<ul class="dropdown-mobile-menu dropdown-mobile-intial level-3 list-1 panel-collapse collapse" id="li-ITILExpert">
+							<ul class="dropdown-mobile-menu dropdown-mobile-intial level-3 list-1 panel-collapse collapse"
+								id="li-ITILExpert">
 								<li>
 									<a ui-sref="app.malc">ITIL
 										<sup>&reg;</sup> Managing Across The Lifecycle</a>
@@ -274,7 +280,8 @@
 					<a data-toggle="collapse" data-target="#li-ProjectProgramManagement">Project & Program Management
 						<span class="caret"></span>
 					</a>
-					<ul class="dropdown-mobile-menu dropdown-mobile-intial level-2 list-10 panel-collapse collapse" id="li-ProjectProgramManagement">
+					<ul class="dropdown-mobile-menu dropdown-mobile-intial level-2 list-10 panel-collapse collapse"
+						id="li-ProjectProgramManagement">
 						<li>
 							<a ui-sref="app.capm">CAPM</a>
 						</li>
@@ -294,22 +301,22 @@
 							<a ui-sref="app.prince2agile">PRINCE2 Agile Practitioner</a>
 						</li>
 						<li>
-							<a ui-sref="app.scrum">Professional Scrum Master</a>
-						</li>
-						<li>
-							<a ui-sref="app.cspo">Certified Scrum Product Owner (CSPO)</a>
-						</li>
-						<li>
 							<a ui-sref="app.msp">Managing Successful Programs</a>
 						</li>
 						<li>
-							<a ui-sref="app.safe">SAFe 4.6 (SAFe Agilist)</a>
+							<a ui-sref="app.scrum">Professional Scrum Master</a>
+						</li>
+						<li>
+							<a ui-sref="app.safe">SAFe Agile 4.6</a>
+						</li>
+						<li>
+							<a ui-sref="app.popm">SAFe POPM 4.6</a>
+						</li>
+						<li>
+							<a ui-sref="app.doi">DevOps Foundation</a>
 						</li>
 						<li>
 							<a ui-sref="app.dev_ops">DevOps Master</a>
-						</li>
-						<li>
-							<a ui-sref="app.doi">DevOps Foundation from DOI</a>
 						</li>
 					</ul>
 				</li>
@@ -317,7 +324,8 @@
 					<a data-toggle="collapse" data-target="#li-QualityManagement">Quality Management
 						<span class="caret"></span>
 					</a>
-					<ul class="dropdown-mobile-menu dropdown-mobile-intial level-2 list-2 panel-collapse collapse" id="li-QualityManagement">
+					<ul class="dropdown-mobile-menu dropdown-mobile-intial level-2 list-2 panel-collapse collapse"
+						id="li-QualityManagement">
 						<li>
 							<a ui-sref="app.green_belt">Lean Six Sigma Green Belt</a>
 						</li>
@@ -330,7 +338,8 @@
 					<a data-toggle="collapse" data-target="#li-ITGovernanceArchitecture">IT Governance & Architecture
 						<span class="caret"></span>
 					</a>
-					<ul class="dropdown-mobile-menu dropdown-mobile-intial level-2 list-2 panel-collapse collapse" id="li-ITGovernanceArchitecture">
+					<ul class="dropdown-mobile-menu dropdown-mobile-intial level-2 list-2 panel-collapse collapse"
+						id="li-ITGovernanceArchitecture">
 						<li>
 							<a ui-sref="app.cobit">COBIT 5 Foundation</a>
 						</li>
@@ -359,39 +368,44 @@
 	</div>
 	<div class="enquiry-form-container">
 		<div class="container-fluid">
-			<form class="form-horizontal">
+			<form class="form-horizontal" name="enquiryForm">
 				<div class="form-group">
 					<div class="col-sm-12">
-						<input type="text" ng-model="siteContact.fullname" class="form-control" id="fullName" placeholder="Full Name"
-						 required>
+						<input type="text" ng-model="siteContact.fullname" class="form-control" id="fullName"
+							placeholder="Full Name" required>
 					</div>
 				</div>
 				<div class="form-group">
 					<div class="col-sm-12">
-						<input type="text" ng-model="siteContact.email" class="form-control" id="email" placeholder="Email" required>
+						<input type="text" ng-model="siteContact.email" class="form-control" id="email" placeholder="Email"
+							required>
 					</div>
 				</div>
 				<div class="form-group">
 					<div class="col-sm-12">
-						<input type="text" ng-model="siteContact.mobile" class="form-control" id="mobile" placeholder="Mobile Number">
+						<input type="text" ng-model="siteContact.mobile" class="form-control" id="mobile"
+							placeholder="Mobile Number" required>
 					</div>
 				</div>
 				<div class="form-group">
 					<div class="col-sm-12">
-						<select class="form-control" id="select" ng-model="siteContact.courseInterested" ng-init="siteContact.courseInterested = coursesList[0]">
+						<select class="form-control" id="select" ng-model="siteContact.courseInterested"
+							ng-init="siteContact.courseInterested = coursesList[0]" required>
 							<option ng-repeat="course in coursesList" ng-disabled="$index == 0" value="{{course}}">{{course}}</option>
 						</select>
 					</div>
 				</div>
 				<div class="form-group">
 					<div class="col-sm-12">
-						<textarea class="form-control" rows="3" id="textArea" placeholder="Your Remarks" ng-model="siteContact.message"></textarea>
+						<textarea class="form-control" rows="3" id="textArea" placeholder="Your Remarks"
+							ng-model="siteContact.message"></textarea>
 					</div>
 				</div>
 				<div class="form-group">
 					<div class="col-sm-12 text-center">
-						<button class="btn btn-primary btn-block btn-sm" ng-class="siteContactSubmit == 'Submit' ? 'btn-primary' :'btn-success'"
-						 ng-disabled="siteContactSubmit !== 'Submit'" type="submit" ng-click="contactSubmit()">
+						<button class="btn btn-primary btn-block btn-sm"
+							ng-class="siteContactSubmit == 'Submit' ? 'btn-primary' :'btn-success'"
+							ng-disabled="siteContactSubmit !== 'Submit'" type="submit" ng-click="contactSubmit()">
 							<i class="fa fa-cog fa-spin fa-lg fa-fw" ng-show="contactSubmitted"></i>
 							{{siteContactSubmit}}</button>
 					</div>
@@ -467,7 +481,8 @@
 					<h3 class="text-center">Finds us on</h3>
 					<ul class="social-network social-circle">
 						<li>
-							<a href="https://www.facebook.com/QuickLearn-Systems-860154054085242" class="icoFacebook" title="Facebook">
+							<a href="https://www.facebook.com/QuickLearn-Systems-860154054085242" class="icoFacebook"
+								title="Facebook">
 								<i class="fa fa-facebook"></i>
 							</a>
 						</li>
@@ -544,20 +559,26 @@
 					<h3 class="text-left">Quick Enquiry</h3>
 					<div class="row">
 						<div class="col-sm-6 form-group">
-							<input class="form-control" id="name" name="name" placeholder="Name" type="text" ng-model="siteContact.fullname"
-							 required>
+							<input class="form-control" id="name" name="name" placeholder="Name" type="text"
+								ng-model="siteContact.fullname" required>
 						</div>
 						<div class="col-sm-6 form-group">
-							<input class="form-control" id="email" name="email" placeholder="Email" type="email" ng-model="siteContact.email"
-							 required>
+							<input class="form-control" id="email" name="email" placeholder="Email" type="email"
+								ng-model="siteContact.email" required>
+						</div>
+						<div class="col-sm-12 form-group">
+							<input class="form-control" id="mobile" name="mobile" placeholder="Mobile Number" type="tel"
+								ng-model="siteContact.mobile" required>
 						</div>
 					</div>
-					<textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5" ng-model="siteContact.message"></textarea>
+					<textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="4"
+						ng-model="siteContact.message"></textarea>
 					<br>
 					<div class="row">
 						<div class="col-sm-12 form-group">
-							<button type="submit" class="btn btn-primary btn-block btn-sm" ng-class="siteContactSubmit == 'Submit' ? 'btn-primary' :'btn-success'"
-							 ng-disabled="siteContactSubmit !== 'Submit'" type="submit" ng-click="contactSubmit()">
+							<button type="submit" class="btn btn-primary btn-block btn-sm"
+								ng-class="siteContactSubmit == 'Submit' ? 'btn-primary' :'btn-success'"
+								ng-disabled="siteContactSubmit !== 'Submit'" type="submit" ng-click="contactSubmit()">
 								<i class="fa fa-cog fa-spin fa-lg fa-fw" ng-show="contactSubmitted"></i>
 								{{siteContactSubmit}}</button>
 						</div>
