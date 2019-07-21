@@ -1,4 +1,4 @@
-function appControllerFun ($rootScope, $scope,$http) {
+function appControllerFun($rootScope, $scope, $http) {
   $rootScope.enquiryState = false;
   $rootScope.mobileMenuState = false;
   $scope.contactSubmitted = false;
@@ -15,16 +15,17 @@ function appControllerFun ($rootScope, $scope,$http) {
     "ITIL Release, Control and Validation (RCV)",
     "ITIL Operational, Support and Analysis (OSA)",
     "ITIL®  Managing Across The Lifecycle",
-    "SIAM Foundation",
-    "CAPM",
+    "SIAM Foundation", "CAPM",
     "PMP",
     "ACP",
     "Prince2 Foundation",
     "Prince2 Practitioner",
-    "Prince2 Agile",
-    "Scrum Master",
+    "Prince2 Agile Practitioner",
     "Managing Successful Programs",
-    "SAFe 4.6 (SAFe Agilist)",
+    "Professional Scrum Master",
+    "SAFe Agile 4.6",
+    "SAFe POPM 4.6",
+    "DevOps Foundation",
     "DevOps Master",
     "Six Sigma Green Belt",
     "Six Sigma Black Belt",
@@ -39,7 +40,7 @@ function appControllerFun ($rootScope, $scope,$http) {
     message: ""
   };
   $scope.siteContactSubmit = "Submit";
-  $scope.contactSubmit = function() {
+  $scope.contactSubmit = function () {
     $scope.contactSubmitted = true;
     $scope.siteContactSubmit = "Sending...";
     if (
@@ -50,13 +51,13 @@ function appControllerFun ($rootScope, $scope,$http) {
     ) {
       $http
         .post("/endpoints/send-mail.php", $scope.siteContact)
-        .then(function(res) {
+        .then(function (res) {
           if (res.data == "ok") {
             $scope.siteContactSubmit = "Message sent sucessfully";
             $scope.contactSubmitted = false;
           }
         })
-        .catch(function(err) {
+        .catch(function (err) {
           console.error(err);
           $scope.siteContactSubmit = "Submit";
           $scope.contactSubmitted = false;
@@ -71,11 +72,11 @@ function appControllerFun ($rootScope, $scope,$http) {
     }
   };
 
-  $scope.enquiryToggle = function() {
+  $scope.enquiryToggle = function () {
     $rootScope.enquiryState = $rootScope.enquiryState ? false : true;
   };
 
-  $scope.mobileMenuToggle = function() {
+  $scope.mobileMenuToggle = function () {
     if ($rootScope.mobileMenuState) {
       $rootScope.mobileMenuState = false;
     } else {
@@ -84,4 +85,4 @@ function appControllerFun ($rootScope, $scope,$http) {
   };
 }
 angular.module("qls").controller("appController", appControllerFun);
-appControllerFun.$inject = ["$rootScope","$scope","$http"];
+appControllerFun.$inject = ["$rootScope", "$scope", "$http"];
