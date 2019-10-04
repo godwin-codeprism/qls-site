@@ -70,6 +70,10 @@
     height: 40px;
     padding: 10px;
     transition: all .51s ease;
+    max-width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .godwin {
