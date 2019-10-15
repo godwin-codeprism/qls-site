@@ -40,19 +40,24 @@
 									<a ui-sref="app.itil_foundation">ITIL V3 Foundation Training & Certification</a>
 								</li>
 								<li>
-									<a ui-sref="app.service_operation">ITIL Intermediate Service Operation Training & Certification</a>
+									<a ui-sref="app.service_operation">ITIL Intermediate Service Operation Training &
+										Certification</a>
 								</li>
 								<li>
-									<a ui-sref="app.service_transition">ITIL Intermediate Service Transition Training & Certification</a>
+									<a ui-sref="app.service_transition">ITIL Intermediate Service Transition Training &
+										Certification</a>
 								</li>
 								<li>
-									<a ui-sref="app.service_strategy">ITIL Intermediate Service Strategy Training & Certification</a>
+									<a ui-sref="app.service_strategy">ITIL Intermediate Service Strategy Training &
+										Certification</a>
 								</li>
 								<li>
-									<a ui-sref="app.service_design">ITIL Intermediate Service Design Training & Certification</a>
+									<a ui-sref="app.service_design">ITIL Intermediate Service Design Training &
+										Certification</a>
 								</li>
 								<li>
-									<a ui-sref="app.continual_service">ITIL Intermediate Continuous Service Improvement</a>
+									<a ui-sref="app.continual_service">ITIL Intermediate Continuous Service
+										Improvement</a>
 								</li>
 								<li>
 									<a ui-sref="app.osa">ITIL Intermediate OSA Training & Certification</a>
@@ -75,7 +80,7 @@
 								<li>
 									<a ui-sref="app.siam">SIAM Professional Training & Certification</a>
 								</li>
-						
+
 							</ul>
 						</li>
 						<li class="dropdown-submenu">
@@ -168,7 +173,8 @@
 			<a aria-expanded="false" data-toggle="collapse" data-target="#li-About">About
 				<span class="caret"></span>
 			</a>
-			<ul class="dropdown-mobile-menu dropdown-mobile-intial level-1 list-1 panel-collapse collapse" id="li-About">
+			<ul class="dropdown-mobile-menu dropdown-mobile-intial level-1 list-1 panel-collapse collapse"
+				id="li-About">
 				<li>
 					<a ui-sref="app.about">Mission /Vision</a>
 				</li>
@@ -178,7 +184,8 @@
 			<a aria-expanded="false" data-toggle="collapse" data-target="#li-Classroom">Classroom Courses
 				<span class="caret"></span>
 			</a>
-			<ul class="dropdown-mobile-menu dropdown-mobile-intial level-1 list-4 panel-collapse collapse" id="li-Classroom">
+			<ul class="dropdown-mobile-menu dropdown-mobile-intial level-1 list-4 panel-collapse collapse"
+				id="li-Classroom">
 				<li class="dropdown-mobile-submenu">
 					<a data-toggle="collapse" data-target="#li-ServiceManagement">Service Management
 						<span class="caret"></span>
@@ -192,16 +199,20 @@
 							<a ui-sref="app.itil_foundation">ITIL V3 Foundation Training & Certification</a>
 						</li>
 						<li>
-							<a ui-sref="app.service_operation">ITIL Intermediate Service Operation Training & Certification</a>
+							<a ui-sref="app.service_operation">ITIL Intermediate Service Operation Training &
+								Certification</a>
 						</li>
 						<li>
-							<a ui-sref="app.service_transition">ITIL Intermediate Service Transition Training & Certification</a>
+							<a ui-sref="app.service_transition">ITIL Intermediate Service Transition Training &
+								Certification</a>
 						</li>
 						<li>
-							<a ui-sref="app.service_strategy">ITIL Intermediate Service Strategy Training & Certification</a>
+							<a ui-sref="app.service_strategy">ITIL Intermediate Service Strategy Training &
+								Certification</a>
 						</li>
 						<li>
-							<a ui-sref="app.service_design">ITIL Intermediate Service Design Training & Certification</a>
+							<a ui-sref="app.service_design">ITIL Intermediate Service Design Training &
+								Certification</a>
 						</li>
 						<li>
 							<a ui-sref="app.continual_service">ITIL Intermediate Continuous Service Improvement</a>
@@ -330,8 +341,8 @@
 				</div>
 				<div class="form-group">
 					<div class="col-sm-12">
-						<input type="text" ng-model="siteContact.email" class="form-control" id="email" placeholder="Email"
-							required>
+						<input type="text" ng-model="siteContact.email" class="form-control" id="email"
+							placeholder="Email" required>
 					</div>
 				</div>
 				<div class="form-group">
@@ -344,7 +355,8 @@
 					<div class="col-sm-12">
 						<select class="form-control" id="select" ng-model="siteContact.courseInterested"
 							ng-init="siteContact.courseInterested = coursesList[0]" required>
-							<option ng-repeat="course in coursesList" ng-disabled="$index == 0" value="{{course}}">{{course}}</option>
+							<option ng-repeat="course in coursesList" ng-disabled="$index == 0" value="{{course}}">
+								{{course}}</option>
 						</select>
 					</div>
 				</div>
@@ -396,6 +408,53 @@
 </div>
 <div ng-class="{'blur':mobileMenuState}">
 	<ui-view></ui-view>
+	<div class="projects">
+		<b>Service Management:</b><a ui-sref="app.itil_4_foundation"> ITIL 4 Foundation Training & Certification </a>|<a
+			ui-sref="app.itil_foundation"> ITIL V4
+			Foundation Training & Certification </a>|<a ui-sref="app.itil_foundation"> ITIL V3 Foundation Training &
+			Certification </a>|<a ui-sref="app.service_operation"> ITIL Intermediate Service Operation Training &
+			Certification </a>|<a ui-sref="app.service_transition"> ITIL
+			Intermediate Service Transition Training & Certification </a>|<a ui-sref="app.service_strategy"> ITIL
+			Intermediate Service
+			Strategy Training & Certification </a>|<a ui-sref="app.service_design"> ITIL Intermediate Service Design
+			Training &
+			Certification </a>|<a ui-sref="app.continual_service"> ITIL Intermediate Continuous Service Improvement
+		</a>|<a ui-sref="app.osa"> ITIL
+			Intermediate OSA Training & Certification </a>|<a ui-sref="app.rcv"> ITIL Intermediate RCV Training &
+			Certification
+		</a>|<a ui-sref="app.ppo"> ITIL Intermediate PPO Training & Certification </a>|<a ui-sref="app.soa"> ITIL
+			Intermediate SOA
+			Training & Certification </a>|<a ui-sref="app.malc"> ITIL MALC/Expert Training & Certification </a>|<a
+			ui-sref="app.siam">
+			SIAM Foundation Training & Certification </a>|<a ui-sref="app.siam"> SIAM Professional Training &
+			Certification </a></br></br>
+
+		<b> Project & Program Management </b>:<a ui-sref="app.capm"> CAPM Certification Training </a>|<a
+			ui-sref="app.pmp"> PMP
+			Certification Training </a>|<a ui-sref="app.acp"> ACP Certification Training </a>|<a
+			ui-sref="app.prince2foundation"> Prince2 Foundation
+			Certification Training </a>|<a ui-sref="app.prince2practitioner"> Prince2 Practitioner Certification
+			Training </a>|<a ui-sref="app.prince2practitioner">
+			Prince2 Foundation & Practitioner Training Certification </a>|<a ui-sref="app.prince2agile"> Prince2 Agile
+			Practitioner
+			Certification Training </a>|<a ui-sref="app.msp"> MSP Foundation Certification Training MSP Practitioner
+			Certification Training </a>|<a ui-sref="app.msp"> MSP Certification Training </a>|<a ui-sref="app.scrum">
+			Professional Scrum
+			Master Certification Training </a>|<a ui-sref="app.safe"> SAFe Agile 4.6 Certification Training
+		</a>|<a ui-sref="app.popm"> SAFe POPM 4.6 Certification Training </a>|<a ui-sref="app.doi"> DevOps
+			Foundation Certification Training </a>|<a ui-sref="app.dev_ops"> DevOps Master Certification Training
+		</a></br></br>
+
+		<b> Quality Management </b>:<a ui-sref="app.green_belt"> Lean Six Sigma Green Belt Training & Certification
+		</a>|<a ui-sref="app.black_belt"> Lean Six Sigma Black Belt Training & Certification </a>|<a
+			ui-sref="app.green_belt"> Six Sigma Green Belt
+			Training & Certification </a>|<a ui-sref="app.black_belt"> Six Sigma Black Belt Training & Certification
+		</a>|<a ui-sref="app.green_belt"> Six Sigma Green & Black Belt Combo Training & Certification </a></br></br>
+
+		<b> IT Governance & Architecture </b>:<a ui-sref="app.cobit"> Cobit Foundation Training & Certification </a>|<a
+			ui-sref="app.cobit"> Cobit5 Foundation </a>|<a ui-sref="app.togaf"> TOGAF Training & Certification </a>
+
+	</div>
 	<footer class="container-fluid text-center" style="padding:0px">
 		<div class="container-fluid">
 			<div class="row">
@@ -404,29 +463,35 @@
 						<h3>Popular Courses</h3>
 						<ul class="popular-courses">
 							<li>
-								<a ui-sref="app.itil_4_foundation">ITIL 4 Foundation</a>
+								<a ui-sref="app.itil_4_foundation">ITIL 4 Foundation Certification</a>
 							</li>
 							<li>
-								<a ui-sref="app.prince2practitioner">Prince 2 Agile</a>
+								<a ui-sref="app.scrum">PSM Certification</a>
 							</li>
 							<li>
-								<a ui-sref="app.pmp">PMP</a>
+								<a ui-sref="app.safe">SAFe Agile 4.6 Certification </a>
+							</li>
+							
+							<li>
+								<a ui-sref="app.pmp">PMP Certification</a>
 							</li>
 							<li>
-								<a ui-sref="app.prince2foundation">Prince2</a>
+								<a ui-sref="app.prince2foundation">Prince2 Foundation Certification</a>
 							</li>
 							<li>
-								<a ui-sref="app.dev_ops">DevOps Master</a>
+								<a ui-sref="app.prince2practitioner">Prince2 Practitioner Certification</a>
 							</li>
 							<li>
-								<a ui-sref="app.scrum">Professional Scrum Master</a>
-							</li>
+									<a ui-sref="app.prince2agile">Prince2 Agile Practitioner Certification</a>
+								</li>
+								<li>
+										<a ui-sref="app.green_belt">Lean Six Sigma Green Belt Certification</a>
+									</li>
+
 							<li>
-								<a ui-sref="app.safe">Safe Agile</a>
+								<a ui-sref="app.dev_ops">DevOps Foundation Certification</a>
 							</li>
-							<li>
-								<a ui-sref="app.green_belt">Lean Six Sigma Green Belt</a>
-							</li>
+							
 						</ul>
 					</div>
 				</div>
@@ -450,7 +515,8 @@
 							</a>
 						</li>
 						<li>
-							<a href="https://in.linkedin.com/in/quicklearn-systems-1494ba12a" class="icoLinkedin" title="Linkedin">
+							<a href="https://in.linkedin.com/in/quicklearn-systems-1494ba12a" class="icoLinkedin"
+								title="Linkedin">
 								<i class="fa fa-linkedin"></i>
 							</a>
 						</li>
@@ -541,7 +607,8 @@
 		</div>
 		<div class="container-fluid footer-band">
 			<div class="col-lg-12">
-				<h6>&copy; 2018-2019 - QuickLearn Systems. All Rights Reserved. The certification names are the trademarks of
+				<h6>&copy; 2018-2019 - QuickLearn Systems. All Rights Reserved. The certification names are the
+					trademarks of
 					their respective owners.
 				</h6>
 			</div>
