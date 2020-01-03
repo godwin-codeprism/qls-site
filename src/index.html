@@ -8,8 +8,8 @@
 <head>
     <meta charset="UTF-8">
     <title ng-bind="ngMeta.title"></title>
-    <base href="http://localhost:3000/">
-    <!-- <base id="base" href="https://quicklearnsys.com/"> -->
+    <!-- <base href="http://localhost:3000/"> -->
+    <base id="base" href="https://quicklearnsys.com/">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{ngMeta.description}}" />
@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="scripts/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css"
         type="text/css" />
     <!--Start of Zopim Live Chat Script -->
-    <!-- <script type="text/javascript">
+    <script type="text/javascript">
         window.$zopim || (function (d, s) {
             var z = $zopim = function (c) {
                     z._.push(c)
@@ -40,7 +40,7 @@
             type = "text/javascript";
             e.parentNode.insertBefore($, e)
         })(document, "script");
-    </script> -->
+    </script>
     <!--End of Zopim Live Chat Script-->
     <!--Google Analytics-->
     <script>
@@ -96,7 +96,7 @@
         function loadJS(file) {
             var jsElm = document.createElement("script");
             jsElm.type = "text/javascript";
-            jsElm.src = file + '?id=v11';
+            jsElm.src = file + '?id=v17';
             document.body.appendChild(jsElm);
         }
         loadJS("godwin.js");
@@ -141,6 +141,19 @@
     </script>
     <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
     </script>
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "QuickLearn Systems",
+          "url": "https://quciklearnsys.com",
+          "sameAs": [
+            "https://www.facebook.com/quicklearnsystems/",
+            "https://twitter.com/quicklearnsys",
+            "https://in.linkedin.com/in/quicklearn-systems-1494ba12a"
+          ]
+        }
+        </script>
     <noscript>
         <div style="display:inline;">
             <img height="1" width="1" alt="quicklearnsys" style="border-style:none;"
