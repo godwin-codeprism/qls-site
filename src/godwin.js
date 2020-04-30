@@ -59410,164 +59410,164 @@
 					disableUpdate: true
 				}
 			})
-			// .state("app.itil_4_foundation", {
-			// 	url: "/itil4foundation",
-			// 	templateUrl: "views/classroom_courses/itil_4_foundation.html",
-			// 	resolve: {
-			// 		data: (['ngMeta'], function (ngMeta) {
-			// 			ngMeta.setTitle('Best ITIL V4 Foundation Certification|Training|Course Hyderabad');
-			// 			ngMeta.setTag('description', 'Quicklearn System TOP ITIL V4 Foundation Certification|Training|Course|Cost in Hyderabad. We provide the best ITIL V4 training institute in Hyderabad.');
-			// 			ngMeta.setTag('keywords', 'ITIL v4 Certification Course in hyderabad, ITIL v4 Foundation Certification Fees,  ITIL v4 Foundation Certification in Hyderabad, itil v4 certification cost, itil v4 foundation course, itil v4 foundation exam cost, itil v4 foundation training, itil v4 foundation exam fee, itil v4 certification online, itil v4 foundation certification cost, itil v4training in hyderabad, what is itil v4 certification ');
-			// 		})
-			// 	},
-			// 	meta: {
-			// 		disableUpdate: true
-			// 	}
-			// })
-			// .state("app.itil_intermediate", {
-			// 	url: "/itil-intermediate",
-			// 	templateUrl: "views/classroom_courses/intermediate.component.html",
-			// 	resolve: {
-			// 		data: (['ngMeta'], function (ngMeta) {
-			// 			ngMeta.setTitle('ITIL Intermediaate training in hyderabad class room trainings – quicklearnsys.com');
-			// 			ngMeta.setTag('description', 'Quicklearnsys.com offers best ITIL Intermediate level training in hyderabad. Learn from the experienced lecturers in the proven methodology for sure success.');
-			// 			ngMeta.setTag('keywords', 'itil foundation, ITIL foundation course hyderabad, itil foundation exam, itil foundation training, itil foundation cost');
-			// 		})
-			// 	},
-			// 	meta: {
-			// 		disableUpdate: true
-			// 	}
-			// }).state("app.service_strategy", {
-			// 	url: "/itil-service-strategy",
-			// 	templateUrl: "views/classroom_courses/service_strategy.component.html",
-			// 	resolve: {
-			// 		data: (['ngMeta'], function (ngMeta) {
-			// 			ngMeta.setTitle('ITIL service strategy course training in hyderabad by experts from quicklearnsys.com');
-			// 			ngMeta.setTag('description', 'Learn ITIL service strategy from the best in industry trainers. 100% Pass Assurance or we pay your exam fees.');
-			// 			ngMeta.setTag('keywords', 'itil service strategy, itil life cycle, itil strategy course, itil training hyderabad, itil service strategy hyderabad');
-			// 		})
-			// 	},
-			// 	meta: {
-			// 		disableUpdate: true
-			// 	}
-			// }).state("app.service_design", {
-			// 	url: "/itil-design-hyderabad",
-			// 	templateUrl: "views/classroom_courses/service_design.component.html",
-			// 	resolve: {
-			// 		data: (['ngMeta'], function (ngMeta) {
-			// 			ngMeta.setTitle('ITIL design Hyderabad | ITIL design fees | ITIL Service Design quicklearnsys.com');
-			// 			ngMeta.setTag('description', 'Learn ITIL service design in Hyderabad. Best cost per price. Get trained by the experts in industry. We offer 100% pass assurance in the exams.');
-			// 			ngMeta.setTag('keywords', 'itil design hyderabad, itil design fees, ITIL Service Design, itil service design course hyderabad');
-			// 		})
-			// 	},
-			// 	meta: {
-			// 		disableUpdate: true
-			// 	}
-			// }).state("app.service_transition", {
-			// 	url: "/itil-service-transition",
-			// 	templateUrl: "views/classroom_courses/service_transition.component.html",
-			// 	resolve: {
-			// 		data: (['ngMeta'], function (ngMeta) {
-			// 			ngMeta.setTitle('ITIL Service Transition | itil service transition training |  itil service hyderabad');
-			// 			ngMeta.setTag('description', 'Best ITIL service transition institutes in Hyderabad. Try quicklearnsys.com for the cost effective yet reliable ITIL service transition coaching in the twin cities Hyderabad and Secunderabad.');
-			// 			ngMeta.setTag('keywords', 'ITIL Service Transition, service transition itil, itil service hyderabad, itil service transition training');
-			// 		})
-			// 	},
-			// 	meta: {
-			// 		disableUpdate: true
-			// 	}
-			// }).state("app.service_operation", {
-			// 	url: "/itil-service-operation",
-			// 	templateUrl: "views/classroom_courses/service_operation.component.html",
-			// 	resolve: {
-			// 		data: (['ngMeta'], function (ngMeta) {
-			// 			ngMeta.setTitle('ITIL Service Operation | itil service operation Hyderabad | itil life cycle hyderabad');
-			// 			ngMeta.setTag('description', 'ITIL service operation in Hyderabad. We offer quality training with best Infrastructure. ITIL foundation course starting at 13,999 Rs only.');
-			// 			ngMeta.setTag('keywords', 'ITIL Service Operation, itil service operation hyderabad, itil life cycle hyderabad, itil service operation process, itil service operation training');
-			// 		})
-			// 	},
-			// 	meta: {
-			// 		disableUpdate: true
-			// 	}
-			// }).state("app.continual_service", {
-			// 	url: "/itil-continual-service",
-			// 	templateUrl: "views/classroom_courses/continual_service.component.html",
-			// 	resolve: {
-			// 		data: (['ngMeta'], function (ngMeta) {
-			// 			ngMeta.setTitle('ITIL Continual Service Improvement |  itil continual service Hyderabad');
-			// 			ngMeta.setTag('description', 'itil continual service improvement training in Hyderabad. We are the one stop solution for the ITIL certification in Hyderabad.');
-			// 			ngMeta.setTag('keywords', 'ITIL Continual Service Improvement, continual service itil, itil continual service hyderabad, itil continual service improvement training');
-			// 		})
-			// 	},
-			// 	meta: {
-			// 		disableUpdate: true
-			// 	}
-			// }).state("app.soa", {
-			// 	url: "/itil-soa-hyderabad",
-			// 	templateUrl: "views/classroom_courses/soa.component.html",
-			// 	resolve: {
-			// 		data: (['ngMeta'], function (ngMeta) {
-			// 			ngMeta.setTitle('itil soa Hyderabad | itil soa | itil soa certification quicklearnsys.com ');
-			// 			ngMeta.setTag('description', 'ITIL service offerings training in Hyderabad from quicklearnsys.com. 100% pass assurance well qualified lectures. Feasible learning modules.');
-			// 			ngMeta.setTag('keywords', 'itil soa hyderabad, itil soa, itil soa certification, itil soa course fees');
-			// 		})
-			// 	},
-			// 	meta: {
-			// 		disableUpdate: true
-			// 	}
-			// }).state("app.ppo", {
-			// 	url: "/itil-ppo",
-			// 	templateUrl: "views/classroom_courses/ppo.component.html",
-			// 	resolve: {
-			// 		data: (['ngMeta'], function (ngMeta) {
-			// 			ngMeta.setTitle('ITIL PPO - ITIL planning protection and optimization in hyderabad');
-			// 			ngMeta.setTag('description', 'ITIL PPO training in Hyderabad. Learn from highly qualified and experience lecturers. We assure 100% pass accuracy.');
-			// 			ngMeta.setTag('keywords', 'itil ppo, itil planning, itil planning hyderabad, itil ppo course fees');
-			// 		})
-			// 	},
-			// 	meta: {
-			// 		disableUpdate: true
-			// 	}
-			// }).state("app.rcv", {
-			// 	url: "/itil-rcv",
-			// 	templateUrl: "views/classroom_courses/rcv.component.html",
-			// 	resolve: {
-			// 		data: (['ngMeta'], function (ngMeta) {
-			// 			ngMeta.setTitle('ITIl release control and validation courses in Hyderabad quicklearnsys.com');
-			// 			ngMeta.setTag('description', 'ITIL release control and validation course in hyderabad. High Experienced and real time trainers. 100% Pass Assurance or we pay your exam fees. ');
-			// 			ngMeta.setTag('keywords', 'itil rcv, ITIL Release, itil Control and Validation, itil rcv hyderabad, itil change management');
-			// 		})
-			// 	},
-			// 	meta: {
-			// 		disableUpdate: true
-			// 	}
-			// }).state("app.osa", {
-			// 	url: "/itil-osa",
-			// 	templateUrl: "views/classroom_courses/osa.component.html",
-			// 	resolve: {
-			// 		data: (['ngMeta'], function (ngMeta) {
-			// 			ngMeta.setTitle('ITIL operational support and analysis training in Hyderabad-quicklearnsys.com');
-			// 			ngMeta.setTag('description', 'ITIL operational support and analysis training in Hyderabad. We give 100% pass assurance and Quality Training Delivery with best Infrastructure.');
-			// 			ngMeta.setTag('keywords', 'itil osa hyderabad, itil Operational Support and Analysis, itil osa, itil intermediate osa');
-			// 		})
-			// 	},
-			// 	meta: {
-			// 		disableUpdate: true
-			// 	}
-			// }).state("app.malc", {
-			// 	url: "/itil-malc",
-			// 	templateUrl: "views/classroom_courses/malc.component.html",
-			// 	resolve: {
-			// 		data: (['ngMeta'], function (ngMeta) {
-			// 			ngMeta.setTitle('ITIL managing across the lifecycle courses in Hyderabad-quicklearnsys.com');
-			// 			ngMeta.setTag('description', 'ITIL certification courses in Hyderabad. Best price per quality assured. Highly professional and qualified real time trainers. 100 % pass assurance.');
-			// 			ngMeta.setTag('keywords', 'itil malc, ITIL Managing across the Lifecycle, itil management hyderabad, itil malc hyderabad, itil managing across the lifecycle training');
-			// 		})
-			// 	},
-			// 	meta: {
-			// 		disableUpdate: true
-			// 	}
-			// })
+			.state("app.itil_4_foundation", {
+				url: "/itil4foundation",
+				templateUrl: "views/classroom_courses/itil_4_foundation.html",
+				resolve: {
+					data: (['ngMeta'], function (ngMeta) {
+						ngMeta.setTitle('Best ITIL V4 Foundation Certification|Training|Course Hyderabad');
+						ngMeta.setTag('description', 'Quicklearn System TOP ITIL V4 Foundation Certification|Training|Course|Cost in Hyderabad. We provide the best ITIL V4 training institute in Hyderabad.');
+						ngMeta.setTag('keywords', 'ITIL v4 Certification Course in hyderabad, ITIL v4 Foundation Certification Fees,  ITIL v4 Foundation Certification in Hyderabad, itil v4 certification cost, itil v4 foundation course, itil v4 foundation exam cost, itil v4 foundation training, itil v4 foundation exam fee, itil v4 certification online, itil v4 foundation certification cost, itil v4training in hyderabad, what is itil v4 certification ');
+					})
+				},
+				meta: {
+					disableUpdate: true
+				}
+			})
+			.state("app.itil_intermediate", {
+				url: "/itil-intermediate",
+				templateUrl: "views/classroom_courses/intermediate.component.html",
+				resolve: {
+					data: (['ngMeta'], function (ngMeta) {
+						ngMeta.setTitle('ITIL Intermediaate training in hyderabad class room trainings – quicklearnsys.com');
+						ngMeta.setTag('description', 'Quicklearnsys.com offers best ITIL Intermediate level training in hyderabad. Learn from the experienced lecturers in the proven methodology for sure success.');
+						ngMeta.setTag('keywords', 'itil foundation, ITIL foundation course hyderabad, itil foundation exam, itil foundation training, itil foundation cost');
+					})
+				},
+				meta: {
+					disableUpdate: true
+				}
+			}).state("app.service_strategy", {
+				url: "/itil-service-strategy",
+				templateUrl: "views/classroom_courses/service_strategy.component.html",
+				resolve: {
+					data: (['ngMeta'], function (ngMeta) {
+						ngMeta.setTitle('ITIL service strategy course training in hyderabad by experts from quicklearnsys.com');
+						ngMeta.setTag('description', 'Learn ITIL service strategy from the best in industry trainers. 100% Pass Assurance or we pay your exam fees.');
+						ngMeta.setTag('keywords', 'itil service strategy, itil life cycle, itil strategy course, itil training hyderabad, itil service strategy hyderabad');
+					})
+				},
+				meta: {
+					disableUpdate: true
+				}
+			}).state("app.service_design", {
+				url: "/itil-design-hyderabad",
+				templateUrl: "views/classroom_courses/service_design.component.html",
+				resolve: {
+					data: (['ngMeta'], function (ngMeta) {
+						ngMeta.setTitle('ITIL design Hyderabad | ITIL design fees | ITIL Service Design quicklearnsys.com');
+						ngMeta.setTag('description', 'Learn ITIL service design in Hyderabad. Best cost per price. Get trained by the experts in industry. We offer 100% pass assurance in the exams.');
+						ngMeta.setTag('keywords', 'itil design hyderabad, itil design fees, ITIL Service Design, itil service design course hyderabad');
+					})
+				},
+				meta: {
+					disableUpdate: true
+				}
+			}).state("app.service_transition", {
+				url: "/itil-service-transition",
+				templateUrl: "views/classroom_courses/service_transition.component.html",
+				resolve: {
+					data: (['ngMeta'], function (ngMeta) {
+						ngMeta.setTitle('ITIL Service Transition | itil service transition training |  itil service hyderabad');
+						ngMeta.setTag('description', 'Best ITIL service transition institutes in Hyderabad. Try quicklearnsys.com for the cost effective yet reliable ITIL service transition coaching in the twin cities Hyderabad and Secunderabad.');
+						ngMeta.setTag('keywords', 'ITIL Service Transition, service transition itil, itil service hyderabad, itil service transition training');
+					})
+				},
+				meta: {
+					disableUpdate: true
+				}
+			}).state("app.service_operation", {
+				url: "/itil-service-operation",
+				templateUrl: "views/classroom_courses/service_operation.component.html",
+				resolve: {
+					data: (['ngMeta'], function (ngMeta) {
+						ngMeta.setTitle('ITIL Service Operation | itil service operation Hyderabad | itil life cycle hyderabad');
+						ngMeta.setTag('description', 'ITIL service operation in Hyderabad. We offer quality training with best Infrastructure. ITIL foundation course starting at 13,999 Rs only.');
+						ngMeta.setTag('keywords', 'ITIL Service Operation, itil service operation hyderabad, itil life cycle hyderabad, itil service operation process, itil service operation training');
+					})
+				},
+				meta: {
+					disableUpdate: true
+				}
+			}).state("app.continual_service", {
+				url: "/itil-continual-service",
+				templateUrl: "views/classroom_courses/continual_service.component.html",
+				resolve: {
+					data: (['ngMeta'], function (ngMeta) {
+						ngMeta.setTitle('ITIL Continual Service Improvement |  itil continual service Hyderabad');
+						ngMeta.setTag('description', 'itil continual service improvement training in Hyderabad. We are the one stop solution for the ITIL certification in Hyderabad.');
+						ngMeta.setTag('keywords', 'ITIL Continual Service Improvement, continual service itil, itil continual service hyderabad, itil continual service improvement training');
+					})
+				},
+				meta: {
+					disableUpdate: true
+				}
+			}).state("app.soa", {
+				url: "/itil-soa-hyderabad",
+				templateUrl: "views/classroom_courses/soa.component.html",
+				resolve: {
+					data: (['ngMeta'], function (ngMeta) {
+						ngMeta.setTitle('itil soa Hyderabad | itil soa | itil soa certification quicklearnsys.com ');
+						ngMeta.setTag('description', 'ITIL service offerings training in Hyderabad from quicklearnsys.com. 100% pass assurance well qualified lectures. Feasible learning modules.');
+						ngMeta.setTag('keywords', 'itil soa hyderabad, itil soa, itil soa certification, itil soa course fees');
+					})
+				},
+				meta: {
+					disableUpdate: true
+				}
+			}).state("app.ppo", {
+				url: "/itil-ppo",
+				templateUrl: "views/classroom_courses/ppo.component.html",
+				resolve: {
+					data: (['ngMeta'], function (ngMeta) {
+						ngMeta.setTitle('ITIL PPO - ITIL planning protection and optimization in hyderabad');
+						ngMeta.setTag('description', 'ITIL PPO training in Hyderabad. Learn from highly qualified and experience lecturers. We assure 100% pass accuracy.');
+						ngMeta.setTag('keywords', 'itil ppo, itil planning, itil planning hyderabad, itil ppo course fees');
+					})
+				},
+				meta: {
+					disableUpdate: true
+				}
+			}).state("app.rcv", {
+				url: "/itil-rcv",
+				templateUrl: "views/classroom_courses/rcv.component.html",
+				resolve: {
+					data: (['ngMeta'], function (ngMeta) {
+						ngMeta.setTitle('ITIl release control and validation courses in Hyderabad quicklearnsys.com');
+						ngMeta.setTag('description', 'ITIL release control and validation course in hyderabad. High Experienced and real time trainers. 100% Pass Assurance or we pay your exam fees. ');
+						ngMeta.setTag('keywords', 'itil rcv, ITIL Release, itil Control and Validation, itil rcv hyderabad, itil change management');
+					})
+				},
+				meta: {
+					disableUpdate: true
+				}
+			}).state("app.osa", {
+				url: "/itil-osa",
+				templateUrl: "views/classroom_courses/osa.component.html",
+				resolve: {
+					data: (['ngMeta'], function (ngMeta) {
+						ngMeta.setTitle('ITIL operational support and analysis training in Hyderabad-quicklearnsys.com');
+						ngMeta.setTag('description', 'ITIL operational support and analysis training in Hyderabad. We give 100% pass assurance and Quality Training Delivery with best Infrastructure.');
+						ngMeta.setTag('keywords', 'itil osa hyderabad, itil Operational Support and Analysis, itil osa, itil intermediate osa');
+					})
+				},
+				meta: {
+					disableUpdate: true
+				}
+			}).state("app.malc", {
+				url: "/itil-malc",
+				templateUrl: "views/classroom_courses/malc.component.html",
+				resolve: {
+					data: (['ngMeta'], function (ngMeta) {
+						ngMeta.setTitle('ITIL managing across the lifecycle courses in Hyderabad-quicklearnsys.com');
+						ngMeta.setTag('description', 'ITIL certification courses in Hyderabad. Best price per quality assured. Highly professional and qualified real time trainers. 100 % pass assurance.');
+						ngMeta.setTag('keywords', 'itil malc, ITIL Managing across the Lifecycle, itil management hyderabad, itil malc hyderabad, itil managing across the lifecycle training');
+					})
+				},
+				meta: {
+					disableUpdate: true
+				}
+			})
 			.state("app.capm", {
 				url: "/capm-course",
 				templateUrl: "views/classroom_courses/capm.component.html",
@@ -59608,46 +59608,46 @@
 					disableUpdate: true
 				}
 			})
-			// .state("app.prince2foundation", {
-			// 	url: "/prince2certificationhyderabad",
-			// 	templateUrl: "views/classroom_courses/p2f.component.html",
-			// 	resolve: {
-			// 		data: (['ngMeta'], function (ngMeta) {
-			// 			ngMeta.setTitle('Prince2 Certification Classes | Training Institute | Hyderabad');
-			// 			ngMeta.setTag('description', 'QuickLearn Systems is the best Prince2 training institutes in Ameerpet Hyderabad. We conduct many courses including Prince2 certification training.');
-			// 			ngMeta.setTag('keywords', 'Prince2 Training Institutes In Hyderabad, Prince2 Certification Training in hyderabad, Prince2 Training Instutes, prince2 foundation & practitioner training, prince2 foundation online, prince2 certification cost in hyderabad, prince2 certification training institute in hyderabad');
-			// 		})
-			// 	},
-			// 	meta: {
-			// 		disableUpdate: true
-			// 	}
-			// }).state("app.prince2practitioner", {
-			// 	url: "/prince2agiletraininghyderabad",
-			// 	templateUrl: "views/classroom_courses/p2p.component.html",
-			// 	resolve: {
-			// 		data: (['ngMeta'], function (ngMeta) {
-			// 			ngMeta.setTitle('Prince2 Agile certification | Practitioner | Online Training classes');
-			// 			ngMeta.setTag('description', 'QuickLearn Systems Hyderabad conducts Prince2 Agile online training classes. Get trained in Prince2 Agile Practitioner qualification and Certification.');
-			// 			ngMeta.setTag('keywords', 'Prince2 Agile Practitioner,Prince2 Agile Certification, prince2 practitioner hyderabad, Prince2 Online Training, Prince2 Online Classes');
-			// 		})
-			// 	},
-			// 	meta: {
-			// 		disableUpdate: true
-			// 	}
-			// }).state("app.prince2agile", {
-			// 	url: "/prince2agilepractitioner",
-			// 	templateUrl: "views/classroom_courses/p2a.component.html",
-			// 	resolve: {
-			// 		data: (['ngMeta'], function (ngMeta) {
-			// 			ngMeta.setTitle('Prince2 Foundation Training | Certification with Pass Guarantee');
-			// 			ngMeta.setTag('description', 'Are you searching Hydearabad for Prince2 certification with a pass guarantee ?. QuickLearn Systems is the best place for Prince2 foundation certification.');
-			// 			ngMeta.setTag('keywords', 'Prince2 Certification With Pass Guarantee, Prince2 Foundation Certification');
-			// 		})
-			// 	},
-			// 	meta: {
-			// 		disableUpdate: true
-			// 	}
-			// })
+			.state("app.prince2foundation", {
+				url: "/prince2certificationhyderabad",
+				templateUrl: "views/classroom_courses/p2f.component.html",
+				resolve: {
+					data: (['ngMeta'], function (ngMeta) {
+						ngMeta.setTitle('Prince2 Certification Classes | Training Institute | Hyderabad');
+						ngMeta.setTag('description', 'QuickLearn Systems is the best Prince2 training institutes in Ameerpet Hyderabad. We conduct many courses including Prince2 certification training.');
+						ngMeta.setTag('keywords', 'Prince2 Training Institutes In Hyderabad, Prince2 Certification Training in hyderabad, Prince2 Training Instutes, prince2 foundation & practitioner training, prince2 foundation online, prince2 certification cost in hyderabad, prince2 certification training institute in hyderabad');
+					})
+				},
+				meta: {
+					disableUpdate: true
+				}
+			}).state("app.prince2practitioner", {
+				url: "/prince2agiletraininghyderabad",
+				templateUrl: "views/classroom_courses/p2p.component.html",
+				resolve: {
+					data: (['ngMeta'], function (ngMeta) {
+						ngMeta.setTitle('Prince2 Agile certification | Practitioner | Online Training classes');
+						ngMeta.setTag('description', 'QuickLearn Systems Hyderabad conducts Prince2 Agile online training classes. Get trained in Prince2 Agile Practitioner qualification and Certification.');
+						ngMeta.setTag('keywords', 'Prince2 Agile Practitioner,Prince2 Agile Certification, prince2 practitioner hyderabad, Prince2 Online Training, Prince2 Online Classes');
+					})
+				},
+				meta: {
+					disableUpdate: true
+				}
+			}).state("app.prince2agile", {
+				url: "/prince2agilepractitioner",
+				templateUrl: "views/classroom_courses/p2a.component.html",
+				resolve: {
+					data: (['ngMeta'], function (ngMeta) {
+						ngMeta.setTitle('Prince2 Foundation Training | Certification with Pass Guarantee');
+						ngMeta.setTag('description', 'Are you searching Hydearabad for Prince2 certification with a pass guarantee ?. QuickLearn Systems is the best place for Prince2 foundation certification.');
+						ngMeta.setTag('keywords', 'Prince2 Certification With Pass Guarantee, Prince2 Foundation Certification');
+					})
+				},
+				meta: {
+					disableUpdate: true
+				}
+			})
 			.state("app.scrum", {
 				url: "/psmcertification",
 				templateUrl: "views/classroom_courses/scrum.component.html",
@@ -59808,20 +59808,20 @@
 					disableUpdate: true
 				}
 			})
-			// .state("app.accreditations", {
-			// 	url: "/IT-certifications-hyderabad",
-			// 	template: accreditationsTemplate,
-			// 	resolve: {
-			// 		data: (['ngMeta'], function (ngMeta) {
-			// 			ngMeta.setTitle('IT certifications Hyderabad | itil Hyderabad | itil certification Hyderabad | prince2 certification');
-			// 			ngMeta.setTag('description', 'Get certified today !! One stop solution for your all IT certifications in hyderabad. ITIL certifications, PMP and DEVops certifications at the best price per value in Hyderabad.');
-			// 			ngMeta.setTag('keywords', 'IT certifications hyderabad, itil hyderabad, itil certification hyderabad, prince2 certification, project management institute certification, pmi certification hyderabad');
-			// 		})
-			// 	},
-			// 	meta: {
-			// 		disableUpdate: true
-			// 	}
-			// })
+			.state("app.accreditations", {
+				url: "/IT-certifications-hyderabad",
+				template: accreditationsTemplate,
+				resolve: {
+					data: (['ngMeta'], function (ngMeta) {
+						ngMeta.setTitle('IT certifications Hyderabad | itil Hyderabad | itil certification Hyderabad | prince2 certification');
+						ngMeta.setTag('description', 'Get certified today !! One stop solution for your all IT certifications in hyderabad. ITIL certifications, PMP and DEVops certifications at the best price per value in Hyderabad.');
+						ngMeta.setTag('keywords', 'IT certifications hyderabad, itil hyderabad, itil certification hyderabad, prince2 certification, project management institute certification, pmi certification hyderabad');
+					})
+				},
+				meta: {
+					disableUpdate: true
+				}
+			})
 			.state("app.privacy", {
 				url: "/privacy-policy",
 				template: privacyTemplate,
@@ -59846,7 +59846,7 @@
 /* 81 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = "<nav class=\"navbar navbar-default navbar-fixed-top\" role=\"navigation\">\n\t<div class=\"container-fluid\">\n\t\t<div class=\"navbar-header col-xs-12 col-sm-12 col-md-1 col-lg-1\" style=\"padding:0px; margin:0px;\">\n\t\t\t<button class=\"g-navbar-toggle hidden-md hidden-lg\" ng-click=\"mobileMenuToggle()\">\n\t\t\t\t<i class=\"fa fa-lg\" aria-hidden=\"true\"\n\t\t\t\t\tng-class=\"{'fa-times':mobileMenuState == true,'fa-bars':mobileMenuState == false}\"></i>\n\t\t\t</button>\n\t\t\t<a class=\"navbar-brand\" style=\"padding-top:10px;\" ui-sref=\"app.home\">\n\t\t\t\t<img src=\"" + __webpack_require__(82) + "\" alt=\"Quick LearnSystems\">\n\t\t\t</a>\n\t\t</div>\n\t\t<div class=\"collapse navbar-collapse hidden-sm\">\n\t\t\t<ul class=\"nav navbar-nav hidden-sm\">\n\t\t\t\t<li>\n\t\t\t\t\t<a ui-sref=\"app.home\">Home</a>\n\t\t\t\t</li>\n\t\t\t\t<li class=\"dropdown\">\n\t\t\t\t\t<a aria-expanded=\"false\">\n\t\t\t\t\t\tAbout\n\t\t\t\t\t\t<span class=\"caret\"></span>\n\t\t\t\t\t</a>\n\t\t\t\t\t<ul class=\"dropdown-menu dropdown-intial\">\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a ui-sref=\"app.about\">Mission /Vision</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t</ul>\n\t\t\t\t</li>\n\t\t\t\t<li class=\"dropdown\">\n\t\t\t\t\t<a aria-expanded=\"false\">Classroom Courses\n\t\t\t\t\t\t<span class=\"caret\"></span>\n\t\t\t\t\t</a>\n\t\t\t\t\t<ul class=\"dropdown-menu dropdown-intial\">\n\t\t\t\t\t\t<li class=\"dropdown-submenu\">\n\t\t\t\t\t\t\t<a>Service Management</a>\n\t\t\t\t\t\t\t<ul class=\"dropdown-menu dropdown-intial\">\n\t\t\t\t\t\t\t\t<!-- <li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.itil_4_foundation\">ITIL 4 Foundation Training & Certification</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.itil_foundation\">ITIL V3 Foundation Training & Certification</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.service_operation\">ITIL Intermediate Service Operation Training &\n\t\t\t\t\t\t\t\t\t\tCertification</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.service_transition\">ITIL Intermediate Service Transition Training &\n\t\t\t\t\t\t\t\t\t\tCertification</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.service_strategy\">ITIL Intermediate Service Strategy Training &\n\t\t\t\t\t\t\t\t\t\tCertification</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.service_design\">ITIL Intermediate Service Design Training &\n\t\t\t\t\t\t\t\t\t\tCertification</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.continual_service\">ITIL Intermediate Continuous Service\n\t\t\t\t\t\t\t\t\t\tImprovement</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.osa\">ITIL Intermediate OSA Training & Certification</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.rcv\">ITIL Intermediate RCV Training & Certification</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.ppo\">ITIL Intermediate PPO Training & Certification</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.soa\">ITIL Intermediate SOA Training & Certification</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.malc\">ITIL MALC/Expert Training & Certification</a>\n\t\t\t\t\t\t\t\t</li> -->\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.siam\">SIAM Foundation Training & Certification</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.siam\">SIAM Professional Training & Certification</a>\n\t\t\t\t\t\t\t\t</li>\n\n\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li class=\"dropdown-submenu\">\n\t\t\t\t\t\t\t<a>Project &amp; Program Management</a>\n\t\t\t\t\t\t\t<ul class=\"dropdown-menu dropdown-intial\">\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.capm\">CAPM Certification Training</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.pmp\">PMP Certification Training</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.acp\">ACP Certification Training</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<!-- <li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.prince2foundation\">Prince2 Foundation Certification Training</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.prince2practitioner\">Prince2 Practitioner Certification Training</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.prince2agile\">Prince2 Agile Practitioner Certification Training</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.msp\">MSP Certification Training</a>\n\t\t\t\t\t\t\t\t</li> -->\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.scrum\">PSM Certification Training </a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.safe\">SAFe Agile 4.6 Certification Training</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.popm\">SAFe POPM 4.6 Certification Training</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.doi\">DevOps Foundation Certification Training</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.dev_ops\">DevOps Master Certification Training</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li class=\"dropdown-submenu\">\n\t\t\t\t\t\t\t<a>Quality Management</a>\n\t\t\t\t\t\t\t<ul class=\"dropdown-menu dropdown-intial\">\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.green_belt\">Lean Six Sigma Green Belt Training & Certification</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.black_belt\">Lean Six Sigma Black Belt Training & Certification</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li class=\"dropdown-submenu\">\n\t\t\t\t\t\t\t<a>IT Governance &amp; Architecture</a>\n\t\t\t\t\t\t\t<ul class=\"dropdown-menu dropdown-intial\">\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.cobit\">Cobit Foundation Training & Certification </a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.togaf\">TOGAF Training & Certification</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t</ul>\n\t\t\t\t</li>\n\t\t\t\t<li>\n\t\t\t\t\t<a ui-sref=\"app.upcoming_events\">Upcoming Events</a>\n\t\t\t\t</li>\n\t\t\t\t<li>\n\t\t\t\t\t<a ui-sref=\"app.services\">Services</a>\n\t\t\t\t</li>\n\t\t\t\t<li>\n\t\t\t\t\t<a ui-sref=\"app.contact\">Contact Us</a>\n\t\t\t\t</li>\n\t\t\t</ul>\n\t\t</div>\n\t</div>\n</nav>\n<div class=\"mobile-menu-container\" ng-show=\"mobileMenuState\"></div>\n<div class=\"mobile-menu-panel\" ng-show=\"mobileMenuState\">\n\t<h3>Menu</h3>\n\t<hr>\n\t<ul class=\"mobile-menu-list\">\n\t\t<li>\n\t\t\t<a ui-sref=\"app.home\">Home</a>\n\t\t</li>\n\t\t<li class=\"dropdown-mobile\">\n\t\t\t<a aria-expanded=\"false\" data-toggle=\"collapse\" data-target=\"#li-About\">About\n\t\t\t\t<span class=\"caret\"></span>\n\t\t\t</a>\n\t\t\t<ul class=\"dropdown-mobile-menu dropdown-mobile-intial level-1 list-1 panel-collapse collapse\" id=\"li-About\">\n\t\t\t\t<li>\n\t\t\t\t\t<a ui-sref=\"app.about\">Mission /Vision</a>\n\t\t\t\t</li>\n\t\t\t</ul>\n\t\t</li>\n\t\t<li class=\"dropdown-mobile\">\n\t\t\t<a aria-expanded=\"false\" data-toggle=\"collapse\" data-target=\"#li-Classroom\">Classroom Courses\n\t\t\t\t<span class=\"caret\"></span>\n\t\t\t</a>\n\t\t\t<ul class=\"dropdown-mobile-menu dropdown-mobile-intial level-1 list-4 panel-collapse collapse\" id=\"li-Classroom\">\n\t\t\t\t<li class=\"dropdown-mobile-submenu\">\n\t\t\t\t\t<a data-toggle=\"collapse\" data-target=\"#li-ServiceManagement\">Service Management\n\t\t\t\t\t\t<span class=\"caret\"></span>\n\t\t\t\t\t</a>\n\t\t\t\t\t<ul class=\"dropdown-mobile-menu dropdown-mobile-intial level-2 list-4 panel-collapse collapse\"\n\t\t\t\t\t\tid=\"li-ServiceManagement\">\n\t\t\t\t\t\t<!-- <li>\n\t\t\t\t\t\t\t<a ui-sref=\"app.itil_4_foundation\">ITIL 4 Foundation Training & Certification</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a ui-sref=\"app.itil_foundation\">ITIL V3 Foundation Training & Certification</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a ui-sref=\"app.service_operation\">ITIL Intermediate Service Operation Training &\n\t\t\t\t\t\t\t\tCertification</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a ui-sref=\"app.service_transition\">ITIL Intermediate Service Transition Training &\n\t\t\t\t\t\t\t\tCertification</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a ui-sref=\"app.service_strategy\">ITIL Intermediate Service Strategy Training &\n\t\t\t\t\t\t\t\tCertification</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a ui-sref=\"app.service_design\">ITIL Intermediate Service Design Training &\n\t\t\t\t\t\t\t\tCertification</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a ui-sref=\"app.continual_service\">ITIL Intermediate Continuous Service Improvement</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a ui-sref=\"app.osa\">ITIL Intermediate OSA Training & Certification</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a ui-sref=\"app.rcv\">ITIL Intermediate RCV Training & Certification</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a ui-sref=\"app.ppo\">ITIL Intermediate PPO Training & Certification</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a ui-sref=\"app.soa\">ITIL Intermediate SOA Training & Certification</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a ui-sref=\"app.malc\">ITIL MALC/Expert Training & Certification</a> -->\n\t\t\t\t</li>\n\t\t\t\t<li>\n\t\t\t\t\t<a ui-sref=\"app.siam\">SIAM Foundation Training & Certification</a>\n\t\t\t\t</li>\n\t\t\t\t<li>\n\t\t\t\t\t<a ui-sref=\"app.siam\">SIAM Professional Training & Certification</a>\n\t\t\t\t</li>\n\t\t\t</ul>\n\t\t</li>\n\t\t<li class=\"dropdown-mobile-submenu\">\n\t\t\t<a data-toggle=\"collapse\" data-target=\"#li-ProjectProgramManagement\">Project & Program Management\n\t\t\t\t<span class=\"caret\"></span>\n\t\t\t</a>\n\t\t\t<ul class=\"dropdown-mobile-menu dropdown-mobile-intial level-2 list-10 panel-collapse collapse\"\n\t\t\t\tid=\"li-ProjectProgramManagement\">\n\t\t\t\t<li>\n\t\t\t\t\t<a ui-sref=\"app.capm\">CAPM Certification Training</a>\n\t\t\t\t</li>\n\t\t\t\t<li>\n\t\t\t\t\t<a ui-sref=\"app.pmp\">PMP Certification Training</a>\n\t\t\t\t</li>\n\t\t\t\t<li>\n\t\t\t\t\t<a ui-sref=\"app.acp\">ACP Certification Training</a>\n\t\t\t\t</li>\n\t\t\t\t<!-- <li>\n\t\t\t\t\t\t\t<a ui-sref=\"app.prince2foundation\">Prince2 Foundation Certification Training</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a ui-sref=\"app.prince2practitioner\">Prince2 Practitioner Certification Training</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a ui-sref=\"app.prince2agile\">Prince2 Agile Practitioner Certification Training</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a ui-sref=\"app.msp\">MSP Certification Training</a> -->\n\t\t</li>\n\t\t<li>\n\t\t\t<a ui-sref=\"app.scrum\">PSM Certification Training </a>\n\t\t</li>\n\t\t<li>\n\t\t\t<a ui-sref=\"app.safe\">SAFe Agile 4.6 Certification Training</a>\n\t\t</li>\n\t\t<li>\n\t\t\t<a ui-sref=\"app.popm\">SAFe POPM 4.6 Certification Training</a>\n\t\t</li>\n\t\t<li>\n\t\t\t<a ui-sref=\"app.doi\">DevOps Foundation Certification Training</a>\n\t\t</li>\n\t\t<li>\n\t\t\t<a ui-sref=\"app.dev_ops\">DevOps Master Certification Training</a>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li class=\"dropdown-mobile-submenu\">\n\t\t<a data-toggle=\"collapse\" data-target=\"#li-QualityManagement\">Quality Management\n\t\t\t<span class=\"caret\"></span>\n\t\t</a>\n\t\t<ul class=\"dropdown-mobile-menu dropdown-mobile-intial level-2 list-2 panel-collapse collapse\"\n\t\t\tid=\"li-QualityManagement\">\n\t\t\t<li>\n\t\t\t\t<a ui-sref=\"app.green_belt\">Lean Six Sigma Green Belt Training & Certification</a>\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\t<a ui-sref=\"app.black_belt\">Lean Six Sigma Black Belt Training & Certification</a>\n\t\t\t</li>\n\t\t</ul>\n\t</li>\n\t<li class=\"dropdown-mobile-submenu\">\n\t\t<a data-toggle=\"collapse\" data-target=\"#li-ITGovernanceArchitecture\">IT Governance & Architecture\n\t\t\t<span class=\"caret\"></span>\n\t\t</a>\n\t\t<ul class=\"dropdown-mobile-menu dropdown-mobile-intial level-2 list-2 panel-collapse collapse\"\n\t\t\tid=\"li-ITGovernanceArchitecture\">\n\t\t\t<li>\n\t\t\t\t<a ui-sref=\"app.cobit\">Cobit Foundation Training & Certification </a>\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\t<a ui-sref=\"app.togaf\">TOGAF Training & Certification</a>\n\t\t\t</li>\n\t\t</ul>\n\t</li>\n\t</ul>\n\t</li>\n\t<li>\n\t\t<a ui-sref=\"app.upcoming_events\">Upcoming Events</a>\n\t</li>\n\t<li>\n\t\t<a ui-sref=\"app.services\">Services</a>\n\t</li>\n\t<li>\n\t\t<a ui-sref=\"app.contact\">Contact Us</a>\n\t</li>\n\t</ul>\n</div>\n<div class=\"enquiry-container\" ng-class=\"enquiryState ? 'enquiry-open' : 'enquiry-close'\">\n\t<div class=\"enquiry-label\" ng-click=\"enquiryToggle()\">\n\t\t<p>\n\t\t\t<i class=\"fa fa-question-circle\" aria-hidden=\"true\"></i> Enquiry</p>\n\t</div>\n\t<div class=\"enquiry-form-container\">\n\t\t<div class=\"container-fluid\">\n\t\t\t<form class=\"form-horizontal\" name=\"enquiryForm\">\n\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t<div class=\"col-sm-12\">\n\t\t\t\t\t\t<input type=\"text\" ng-model=\"siteContact.fullname\" class=\"form-control\" id=\"fullName\"\n\t\t\t\t\t\t\tplaceholder=\"Full Name\" required>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t<div class=\"col-sm-12\">\n\t\t\t\t\t\t<input type=\"text\" ng-model=\"siteContact.email\" class=\"form-control\" id=\"email\" placeholder=\"Email\"\n\t\t\t\t\t\t\trequired>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t<div class=\"col-sm-12\">\n\t\t\t\t\t\t<input type=\"text\" ng-model=\"siteContact.mobile\" class=\"form-control\" id=\"mobile\"\n\t\t\t\t\t\t\tplaceholder=\"Mobile Number\" required>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t<div class=\"col-sm-12\">\n\t\t\t\t\t\t<select class=\"form-control\" id=\"select\" ng-model=\"siteContact.courseInterested\"\n\t\t\t\t\t\t\tng-init=\"siteContact.courseInterested = coursesList[0]\" required>\n\t\t\t\t\t\t\t<option ng-repeat=\"course in coursesList\" ng-disabled=\"$index == 0\" value=\"{{course}}\">\n\t\t\t\t\t\t\t\t{{course}}</option>\n\t\t\t\t\t\t</select>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t<div class=\"col-sm-12\">\n\t\t\t\t\t\t<textarea class=\"form-control\" rows=\"3\" id=\"textArea\" placeholder=\"Your Remarks\"\n\t\t\t\t\t\t\tng-model=\"siteContact.message\"></textarea>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t<div class=\"col-sm-12 text-center\">\n\t\t\t\t\t\t<button class=\"btn btn-primary btn-block btn-sm\"\n\t\t\t\t\t\t\tng-class=\"siteContactSubmit == 'Submit' ? 'btn-primary' :'btn-success'\"\n\t\t\t\t\t\t\tng-disabled=\"siteContactSubmit !== 'Submit'\" type=\"submit\" ng-click=\"contactSubmit()\">\n\t\t\t\t\t\t\t<i class=\"fa fa-cog fa-spin fa-lg fa-fw\" ng-show=\"contactSubmitted\"></i>\n\t\t\t\t\t\t\t{{siteContactSubmit}}</button>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</form>\n\t\t\t<div class=\"form-hide\" ng-show=\"siteContactSubmit == 'Message sent sucessfully'\">\n\t\t\t\t<div class=\"panel panel-default\" style=\"width:80%;\">\n\t\t\t\t\t<div class=\"panel-heading text-center\" style=\"line-height:0px;\">\n\t\t\t\t\t\t<h3 class=\"text-success\">\n\t\t\t\t\t\t\t<i class=\"ion-ios-checkmark-outline text-success\"></i> Message Sent</h3>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"panel-body text-center\">\n\t\t\t\t\t\t<p>Thank you for contacting\n\t\t\t\t\t\t\t<br>QuickLearn Systems.\n\t\t\t\t\t\t\t<br>\n\t\t\t\t\t\t\t<br> A team member will be in touch with you shortly.</p>\n\t\t\t\t\t\t<p>or</p>\n\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t<u>\n\t\t\t\t\t\t\t\t<b>Call us at</b>\n\t\t\t\t\t\t\t</u>\n\t\t\t\t\t\t\t<br> +91 9100195152</p>\n\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t<b>\n\t\t\t\t\t\t\t\t<u>Write us at:</u>\n\t\t\t\t\t\t\t</b>\n\t\t\t\t\t\t\t<br>\n\t\t\t\t\t\t\t<a href=\"mailto:training@quicklearnsys.com\">training@quicklearnsys.com</a>\n\t\t\t\t\t\t</p>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>\n<div ng-class=\"{'blur':mobileMenuState}\">\n\t<ui-view></ui-view>\n\t<div class=\"projects\">\n\t\t<b>Service Management:</b>\n\t\t<!-- <a ui-sref=\"app.itil_4_foundation\"> ITIL 4 Foundation Training & Certification </a>|<a\n\t\t\tui-sref=\"app.itil_foundation\"> ITIL V4\n\t\t\tFoundation Training & Certification </a>|<a ui-sref=\"app.itil_foundation\"> ITIL V3 Foundation Training &\n\t\t\tCertification </a>|<a ui-sref=\"app.service_operation\"> ITIL Intermediate Service Operation Training &\n\t\t\tCertification </a>|<a ui-sref=\"app.service_transition\"> ITIL\n\t\t\tIntermediate Service Transition Training & Certification </a>|<a ui-sref=\"app.service_strategy\"> ITIL\n\t\t\tIntermediate Service\n\t\t\tStrategy Training & Certification </a>|<a ui-sref=\"app.service_design\"> ITIL Intermediate Service Design\n\t\t\tTraining &\n\t\t\tCertification </a>|<a ui-sref=\"app.continual_service\"> ITIL Intermediate Continuous Service Improvement\n\t\t</a>|<a ui-sref=\"app.osa\"> ITIL\n\t\t\tIntermediate OSA Training & Certification </a>|<a ui-sref=\"app.rcv\"> ITIL Intermediate RCV Training &\n\t\t\tCertification\n\t\t</a>|<a ui-sref=\"app.ppo\"> ITIL Intermediate PPO Training & Certification </a>|<a ui-sref=\"app.soa\"> ITIL\n\t\t\tIntermediate SOA\n\t\t\tTraining & Certification </a>|<a ui-sref=\"app.malc\"> ITIL MALC/Expert Training & Certification </a>| -->\n\t\t<a ui-sref=\"app.siam\">\n\t\t\tSIAM Foundation Training & Certification </a>|<a ui-sref=\"app.siam\"> SIAM Professional Training &\n\t\t\tCertification </a></br></br>\n\n\t\t<b> Project & Program Management </b>:<a ui-sref=\"app.capm\"> CAPM Certification Training </a>|<a ui-sref=\"app.pmp\">\n\t\t\tPMP\n\t\t\tCertification Training </a>|<a ui-sref=\"app.acp\"> ACP Certification Training </a>|\n\t\t<!-- <a ui-sref=\"app.prince2foundation\"> Prince2 Foundation\n\t\t\tCertification Training </a>|<a ui-sref=\"app.prince2practitioner\"> Prince2 Practitioner Certification\n\t\t\tTraining </a>|<a ui-sref=\"app.prince2practitioner\">\n\t\t\tPrince2 Foundation & Practitioner Training Certification </a>|<a ui-sref=\"app.prince2agile\"> Prince2 Agile\n\t\t\tPractitioner\n\t\t\tCertification Training </a>|<a ui-sref=\"app.msp\"> MSP Foundation Certification Training MSP Practitioner\n\t\t\tCertification Training </a>|<a ui-sref=\"app.msp\"> MSP Certification Training </a> -->\n\t\t\t|\n\t\t<a ui-sref=\"app.scrum\">\n\t\t\tProfessional Scrum\n\t\t\tMaster Certification Training </a>|<a ui-sref=\"app.safe\"> SAFe Agile 4.6 Certification Training\n\t\t</a>|<a ui-sref=\"app.popm\"> SAFe POPM 4.6 Certification Training </a>|<a ui-sref=\"app.doi\"> DevOps\n\t\t\tFoundation Certification Training </a>|<a ui-sref=\"app.dev_ops\"> DevOps Master Certification Training\n\t\t</a></br></br>\n\n\t\t<b> Quality Management </b>:<a ui-sref=\"app.green_belt\"> Lean Six Sigma Green Belt Training & Certification\n\t\t</a>|<a ui-sref=\"app.black_belt\"> Lean Six Sigma Black Belt Training & Certification </a>|<a\n\t\t\tui-sref=\"app.green_belt\"> Six Sigma Green Belt\n\t\t\tTraining & Certification </a>|<a ui-sref=\"app.black_belt\"> Six Sigma Black Belt Training & Certification\n\t\t</a>|<a ui-sref=\"app.green_belt\"> Six Sigma Green & Black Belt Combo Training & Certification </a></br></br>\n\n\t\t<b> IT Governance & Architecture </b>:<a ui-sref=\"app.cobit\"> Cobit Foundation Training & Certification </a>|<a\n\t\t\tui-sref=\"app.cobit\"> Cobit5 Foundation </a>|<a ui-sref=\"app.togaf\"> TOGAF Training & Certification </a>\n\n\t</div>\n\t<footer class=\"container-fluid text-center\" style=\"padding:0px\">\n\t\t<div class=\"container-fluid\">\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-sm-3\">\n\t\t\t\t\t<div class=\"container-fluid text-left\" style=\"font-size:small\">\n\t\t\t\t\t\t<h3>Popular Courses</h3>\n\t\t\t\t\t\t<ul class=\"popular-courses\">\n\t\t\t\t\t\t\t<!-- <li>\n\t\t\t\t\t\t\t\t<a ui-sref=\"app.itil_4_foundation\">ITIL 4 Foundation Certification</a>\n\t\t\t\t\t\t\t</li> -->\n\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t<a ui-sref=\"app.scrum\">PSM Certification</a>\n\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t<a ui-sref=\"app.safe\">SAFe Agile 4.6 Certification </a>\n\t\t\t\t\t\t\t</li>\n\n\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t<a ui-sref=\"app.pmp\">PMP Certification</a>\n\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t<!-- <li>\n\t\t\t\t\t\t\t\t<a ui-sref=\"app.prince2foundation\">Prince2 Foundation Certification</a>\n\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t<a ui-sref=\"app.prince2practitioner\">Prince2 Practitioner Certification</a>\n\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t<a ui-sref=\"app.prince2agile\">Prince2 Agile Practitioner Certification</a>\n\t\t\t\t\t\t\t</li> -->\n\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t<a ui-sref=\"app.green_belt\">Lean Six Sigma Green Belt Certification</a>\n\t\t\t\t\t\t\t</li>\n\n\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t<a ui-sref=\"app.dev_ops\">DevOps Foundation Certification</a>\n\t\t\t\t\t\t\t</li>\n\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-sm-4\">\n\t\t\t\t\t<h3 class=\"text-center\">Finds us on</h3>\n\t\t\t\t\t<ul class=\"social-network social-circle\">\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a href=\"https://www.facebook.com/QuickLearn-Systems-860154054085242\" class=\"icoFacebook\"\n\t\t\t\t\t\t\t\ttitle=\"Facebook\">\n\t\t\t\t\t\t\t\t<i class=\"fa fa-facebook\"></i>\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a href=\"https://twitter.com/quicklearnsys\" class=\"icoTwitter\" title=\"Twitter\">\n\t\t\t\t\t\t\t\t<i class=\"fa fa-twitter\"></i>\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a href=\"https://plus.google.com/109738846000587914274\" class=\"icoGoogle\" title=\"Google +\">\n\t\t\t\t\t\t\t\t<i class=\"fa fa-google-plus\"></i>\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a href=\"https://in.linkedin.com/in/quicklearn-systems-1494ba12a\" class=\"icoLinkedin\" title=\"Linkedin\">\n\t\t\t\t\t\t\t\t<i class=\"fa fa-linkedin\"></i>\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t</ul>\n\t\t\t\t\t<h3 class=\"text-center\">Payment Options</h3>\n\t\t\t\t\t<small>We accept Payment by Cash, Cheque,\n\t\t\t\t\t\t<br />Online Fund Transfer and Credit Cards</small>\n\t\t\t\t\t<br />\n\t\t\t\t\t<ul class=\"social-network social-circle\">\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a href=\"#\" class=\"icoTwitter\" title=\"Visa\">\n\t\t\t\t\t\t\t\t<i class=\"fa fa-cc-visa\"></i>\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a href=\"#\" class=\"icoTwitter\" title=\"Master Card\">\n\t\t\t\t\t\t\t\t<i class=\"\tfa fa-cc-mastercard\"></i>\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a href=\"#\" class=\"icoTwitter\" title=\"Google Wallet\">\n\t\t\t\t\t\t\t\t<i class=\"fa fa-google-wallet\"></i>\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a href=\"#\" class=\"icoTwitter\" title=\"PayPal\">\n\t\t\t\t\t\t\t\t<i class=\"fa fa-paypal\"></i>\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t</ul>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-sm-2\">\n\t\t\t\t\t<h3 class=\"text-left\">Company</h3>\n\t\t\t\t\t<ul class=\"footer-company\">\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a ui-sref=\"app.about\">About Us</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a ui-sref=\"app.home\">Courses</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a ui-sref=\"app.upcoming_events\">Upcoming Events</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a ui-sref=\"app.contact\">Contact Us</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a ui-sref=\"app.terms\">Term and conditions</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a ui-sref=\"app.privacy\">Privacy Policy</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<!-- <li>\n\t\t\t\t\t\t\t<a ui-sref=\"app.accreditations\">Accreditation</a>\n\t\t\t\t\t\t</li> -->\n\t\t\t\t\t</ul>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-sm-3\">\n\t\t\t\t\t<h3 class=\"text-left\">Quick Enquiry</h3>\n\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t<div class=\"col-sm-6 form-group\">\n\t\t\t\t\t\t\t<input class=\"form-control\" id=\"name\" name=\"name\" placeholder=\"Name\" type=\"text\"\n\t\t\t\t\t\t\t\tng-model=\"siteContact.fullname\" required>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-sm-6 form-group\">\n\t\t\t\t\t\t\t<input class=\"form-control\" id=\"email\" name=\"email\" placeholder=\"Email\" type=\"email\"\n\t\t\t\t\t\t\t\tng-model=\"siteContact.email\" required>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-sm-12 form-group\">\n\t\t\t\t\t\t\t<input class=\"form-control\" id=\"mobile\" name=\"mobile\" placeholder=\"Mobile Number\" type=\"tel\"\n\t\t\t\t\t\t\t\tng-model=\"siteContact.mobile\" required>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<textarea class=\"form-control\" id=\"comments\" name=\"comments\" placeholder=\"Comment\" rows=\"4\"\n\t\t\t\t\t\tng-model=\"siteContact.message\"></textarea>\n\t\t\t\t\t<br>\n\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t<div class=\"col-sm-12 form-group\">\n\t\t\t\t\t\t\t<button type=\"submit\" class=\"btn btn-primary btn-block btn-sm\"\n\t\t\t\t\t\t\t\tng-class=\"siteContactSubmit == 'Submit' ? 'btn-primary' :'btn-success'\"\n\t\t\t\t\t\t\t\tng-disabled=\"siteContactSubmit !== 'Submit'\" type=\"submit\" ng-click=\"contactSubmit()\">\n\t\t\t\t\t\t\t\t<i class=\"fa fa-cog fa-spin fa-lg fa-fw\" ng-show=\"contactSubmitted\"></i>\n\t\t\t\t\t\t\t\t{{siteContactSubmit}}</button>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t\t<div class=\"container-fluid footer-band\">\n\t\t\t<div class=\"col-lg-12\">\n\t\t\t\t<h6>&copy; 2018-2019 - QuickLearn Systems. All Rights Reserved. The certification names are the\n\t\t\t\t\ttrademarks of\n\t\t\t\t\ttheir respective owners.\n\t\t\t\t</h6>\n\t\t\t</div>\n\t\t</div>\n\t</footer>\n</div>";
+	module.exports = "<nav class=\"navbar navbar-default navbar-fixed-top\" role=\"navigation\">\n\t<div class=\"container-fluid\">\n\t\t<div class=\"navbar-header col-xs-12 col-sm-12 col-md-1 col-lg-1\" style=\"padding:0px; margin:0px;\">\n\t\t\t<button class=\"g-navbar-toggle hidden-md hidden-lg\" ng-click=\"mobileMenuToggle()\">\n\t\t\t\t<i class=\"fa fa-lg\" aria-hidden=\"true\"\n\t\t\t\t\tng-class=\"{'fa-times':mobileMenuState == true,'fa-bars':mobileMenuState == false}\"></i>\n\t\t\t</button>\n\t\t\t<a class=\"navbar-brand\" style=\"padding-top:10px;\" ui-sref=\"app.home\">\n\t\t\t\t<img src=\"" + __webpack_require__(82) + "\" alt=\"Quick LearnSystems\">\n\t\t\t</a>\n\t\t</div>\n\t\t<div class=\"collapse navbar-collapse hidden-sm\">\n\t\t\t<ul class=\"nav navbar-nav hidden-sm\">\n\t\t\t\t<li>\n\t\t\t\t\t<a ui-sref=\"app.home\">Home</a>\n\t\t\t\t</li>\n\t\t\t\t<li class=\"dropdown\">\n\t\t\t\t\t<a aria-expanded=\"false\">\n\t\t\t\t\t\tAbout\n\t\t\t\t\t\t<span class=\"caret\"></span>\n\t\t\t\t\t</a>\n\t\t\t\t\t<ul class=\"dropdown-menu dropdown-intial\">\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a ui-sref=\"app.about\">Mission /Vision</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t</ul>\n\t\t\t\t</li>\n\t\t\t\t<li class=\"dropdown\">\n\t\t\t\t\t<a aria-expanded=\"false\">Classroom Courses\n\t\t\t\t\t\t<span class=\"caret\"></span>\n\t\t\t\t\t</a>\n\t\t\t\t\t<ul class=\"dropdown-menu dropdown-intial\">\n\t\t\t\t\t\t<li class=\"dropdown-submenu\">\n\t\t\t\t\t\t\t<a>Service Management</a>\n\t\t\t\t\t\t\t<ul class=\"dropdown-menu dropdown-intial\">\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.itil_4_foundation\">ITIL 4 Foundation Training & Certification</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.itil_foundation\">ITIL V3 Foundation Training & Certification</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.service_operation\">ITIL Intermediate Service Operation Training &\n\t\t\t\t\t\t\t\t\t\tCertification</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.service_transition\">ITIL Intermediate Service Transition Training &\n\t\t\t\t\t\t\t\t\t\tCertification</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.service_strategy\">ITIL Intermediate Service Strategy Training &\n\t\t\t\t\t\t\t\t\t\tCertification</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.service_design\">ITIL Intermediate Service Design Training &\n\t\t\t\t\t\t\t\t\t\tCertification</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.continual_service\">ITIL Intermediate Continuous Service\n\t\t\t\t\t\t\t\t\t\tImprovement</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.osa\">ITIL Intermediate OSA Training & Certification</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.rcv\">ITIL Intermediate RCV Training & Certification</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.ppo\">ITIL Intermediate PPO Training & Certification</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.soa\">ITIL Intermediate SOA Training & Certification</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.malc\">ITIL MALC/Expert Training & Certification</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.siam\">SIAM Foundation Training & Certification</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.siam\">SIAM Professional Training & Certification</a>\n\t\t\t\t\t\t\t\t</li>\n\n\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li class=\"dropdown-submenu\">\n\t\t\t\t\t\t\t<a>Project &amp; Program Management</a>\n\t\t\t\t\t\t\t<ul class=\"dropdown-menu dropdown-intial\">\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.capm\">CAPM Certification Training</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.pmp\">PMP Certification Training</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.acp\">ACP Certification Training</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.prince2foundation\">Prince2 Foundation Certification Training</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.prince2practitioner\">Prince2 Practitioner Certification Training</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.prince2agile\">Prince2 Agile Practitioner Certification Training</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.msp\">MSP Certification Training</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.scrum\">PSM Certification Training </a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.safe\">SAFe Agile 5 Certification Training</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.popm\">SAFe POPM 5 Certification Training</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.doi\">DevOps Foundation Certification Training</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.dev_ops\">DevOps Master Certification Training</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li class=\"dropdown-submenu\">\n\t\t\t\t\t\t\t<a>Quality Management</a>\n\t\t\t\t\t\t\t<ul class=\"dropdown-menu dropdown-intial\">\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.green_belt\">Lean Six Sigma Green Belt Training & Certification</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.black_belt\">Lean Six Sigma Black Belt Training & Certification</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li class=\"dropdown-submenu\">\n\t\t\t\t\t\t\t<a>IT Governance &amp; Architecture</a>\n\t\t\t\t\t\t\t<ul class=\"dropdown-menu dropdown-intial\">\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.cobit\">Cobit Foundation Training & Certification </a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t<a ui-sref=\"app.togaf\">TOGAF Training & Certification</a>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t</ul>\n\t\t\t\t</li>\n\t\t\t\t<li>\n\t\t\t\t\t<a ui-sref=\"app.upcoming_events\">Upcoming Events</a>\n\t\t\t\t</li>\n\t\t\t\t<li>\n\t\t\t\t\t<a ui-sref=\"app.services\">Services</a>\n\t\t\t\t</li>\n\t\t\t\t<li>\n\t\t\t\t\t<a ui-sref=\"app.contact\">Contact Us</a>\n\t\t\t\t</li>\n\t\t\t</ul>\n\t\t</div>\n\t</div>\n</nav>\n<div class=\"mobile-menu-container\" ng-show=\"mobileMenuState\"></div>\n<div class=\"mobile-menu-panel\" ng-show=\"mobileMenuState\">\n\t<h3>Menu</h3>\n\t<hr>\n\t<ul class=\"mobile-menu-list\">\n\t\t<li>\n\t\t\t<a ui-sref=\"app.home\">Home</a>\n\t\t</li>\n\t\t<li class=\"dropdown-mobile\">\n\t\t\t<a aria-expanded=\"false\" data-toggle=\"collapse\" data-target=\"#li-About\">About\n\t\t\t\t<span class=\"caret\"></span>\n\t\t\t</a>\n\t\t\t<ul class=\"dropdown-mobile-menu dropdown-mobile-intial level-1 list-1 panel-collapse collapse\" id=\"li-About\">\n\t\t\t\t<li>\n\t\t\t\t\t<a ui-sref=\"app.about\">Mission /Vision</a>\n\t\t\t\t</li>\n\t\t\t</ul>\n\t\t</li>\n\t\t<li class=\"dropdown-mobile\">\n\t\t\t<a aria-expanded=\"false\" data-toggle=\"collapse\" data-target=\"#li-Classroom\">Classroom Courses\n\t\t\t\t<span class=\"caret\"></span>\n\t\t\t</a>\n\t\t\t<ul class=\"dropdown-mobile-menu dropdown-mobile-intial level-1 list-4 panel-collapse collapse\" id=\"li-Classroom\">\n\t\t\t\t<li class=\"dropdown-mobile-submenu\">\n\t\t\t\t\t<a data-toggle=\"collapse\" data-target=\"#li-ServiceManagement\">Service Management\n\t\t\t\t\t\t<span class=\"caret\"></span>\n\t\t\t\t\t</a>\n\t\t\t\t\t<ul class=\"dropdown-mobile-menu dropdown-mobile-intial level-2 list-4 panel-collapse collapse\"\n\t\t\t\t\t\tid=\"li-ServiceManagement\">\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a ui-sref=\"app.itil_4_foundation\">ITIL 4 Foundation Training & Certification</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a ui-sref=\"app.itil_foundation\">ITIL V3 Foundation Training & Certification</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a ui-sref=\"app.service_operation\">ITIL Intermediate Service Operation Training &\n\t\t\t\t\t\t\t\tCertification</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a ui-sref=\"app.service_transition\">ITIL Intermediate Service Transition Training &\n\t\t\t\t\t\t\t\tCertification</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a ui-sref=\"app.service_strategy\">ITIL Intermediate Service Strategy Training &\n\t\t\t\t\t\t\t\tCertification</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a ui-sref=\"app.service_design\">ITIL Intermediate Service Design Training &\n\t\t\t\t\t\t\t\tCertification</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a ui-sref=\"app.continual_service\">ITIL Intermediate Continuous Service Improvement</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a ui-sref=\"app.osa\">ITIL Intermediate OSA Training & Certification</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a ui-sref=\"app.rcv\">ITIL Intermediate RCV Training & Certification</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a ui-sref=\"app.ppo\">ITIL Intermediate PPO Training & Certification</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a ui-sref=\"app.soa\">ITIL Intermediate SOA Training & Certification</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a ui-sref=\"app.malc\">ITIL MALC/Expert Training & Certification</a>\n\t\t\t\t</li>\n\t\t\t\t<li>\n\t\t\t\t\t<a ui-sref=\"app.siam\">SIAM Foundation Training & Certification</a>\n\t\t\t\t</li>\n\t\t\t\t<li>\n\t\t\t\t\t<a ui-sref=\"app.siam\">SIAM Professional Training & Certification</a>\n\t\t\t\t</li>\n\t\t\t</ul>\n\t\t</li>\n\t\t<li class=\"dropdown-mobile-submenu\">\n\t\t\t<a data-toggle=\"collapse\" data-target=\"#li-ProjectProgramManagement\">Project & Program Management\n\t\t\t\t<span class=\"caret\"></span>\n\t\t\t</a>\n\t\t\t<ul class=\"dropdown-mobile-menu dropdown-mobile-intial level-2 list-10 panel-collapse collapse\"\n\t\t\t\tid=\"li-ProjectProgramManagement\">\n\t\t\t\t<li>\n\t\t\t\t\t<a ui-sref=\"app.capm\">CAPM Certification Training</a>\n\t\t\t\t</li>\n\t\t\t\t<li>\n\t\t\t\t\t<a ui-sref=\"app.pmp\">PMP Certification Training</a>\n\t\t\t\t</li>\n\t\t\t\t<li>\n\t\t\t\t\t<a ui-sref=\"app.acp\">ACP Certification Training</a>\n\t\t\t\t</li>\n\t\t\t\t<li>\n\t\t\t\t\t\t\t<a ui-sref=\"app.prince2foundation\">Prince2 Foundation Certification Training</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a ui-sref=\"app.prince2practitioner\">Prince2 Practitioner Certification Training</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a ui-sref=\"app.prince2agile\">Prince2 Agile Practitioner Certification Training</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a ui-sref=\"app.msp\">MSP Certification Training</a>\n\t\t</li>\n\t\t<li>\n\t\t\t<a ui-sref=\"app.scrum\">PSM Certification Training </a>\n\t\t</li>\n\t\t<li>\n\t\t\t<a ui-sref=\"app.safe\">SAFe Agile 5 Certification Training</a>\n\t\t</li>\n\t\t<li>\n\t\t\t<a ui-sref=\"app.popm\">SAFe POPM 5 Certification Training</a>\n\t\t</li>\n\t\t<li>\n\t\t\t<a ui-sref=\"app.doi\">DevOps Foundation Certification Training</a>\n\t\t</li>\n\t\t<li>\n\t\t\t<a ui-sref=\"app.dev_ops\">DevOps Master Certification Training</a>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li class=\"dropdown-mobile-submenu\">\n\t\t<a data-toggle=\"collapse\" data-target=\"#li-QualityManagement\">Quality Management\n\t\t\t<span class=\"caret\"></span>\n\t\t</a>\n\t\t<ul class=\"dropdown-mobile-menu dropdown-mobile-intial level-2 list-2 panel-collapse collapse\"\n\t\t\tid=\"li-QualityManagement\">\n\t\t\t<li>\n\t\t\t\t<a ui-sref=\"app.green_belt\">Lean Six Sigma Green Belt Training & Certification</a>\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\t<a ui-sref=\"app.black_belt\">Lean Six Sigma Black Belt Training & Certification</a>\n\t\t\t</li>\n\t\t</ul>\n\t</li>\n\t<li class=\"dropdown-mobile-submenu\">\n\t\t<a data-toggle=\"collapse\" data-target=\"#li-ITGovernanceArchitecture\">IT Governance & Architecture\n\t\t\t<span class=\"caret\"></span>\n\t\t</a>\n\t\t<ul class=\"dropdown-mobile-menu dropdown-mobile-intial level-2 list-2 panel-collapse collapse\"\n\t\t\tid=\"li-ITGovernanceArchitecture\">\n\t\t\t<li>\n\t\t\t\t<a ui-sref=\"app.cobit\">Cobit Foundation Training & Certification </a>\n\t\t\t</li>\n\t\t\t<li>\n\t\t\t\t<a ui-sref=\"app.togaf\">TOGAF Training & Certification</a>\n\t\t\t</li>\n\t\t</ul>\n\t</li>\n\t</ul>\n\t</li>\n\t<li>\n\t\t<a ui-sref=\"app.upcoming_events\">Upcoming Events</a>\n\t</li>\n\t<li>\n\t\t<a ui-sref=\"app.services\">Services</a>\n\t</li>\n\t<li>\n\t\t<a ui-sref=\"app.contact\">Contact Us</a>\n\t</li>\n\t</ul>\n</div>\n<div class=\"enquiry-container\" ng-class=\"enquiryState ? 'enquiry-open' : 'enquiry-close'\">\n\t<div class=\"enquiry-label\" ng-click=\"enquiryToggle()\">\n\t\t<p>\n\t\t\t<i class=\"fa fa-question-circle\" aria-hidden=\"true\"></i> Enquiry</p>\n\t</div>\n\t<div class=\"enquiry-form-container\">\n\t\t<div class=\"container-fluid\">\n\t\t\t<form class=\"form-horizontal\" name=\"enquiryForm\">\n\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t<div class=\"col-sm-12\">\n\t\t\t\t\t\t<input type=\"text\" ng-model=\"siteContact.fullname\" class=\"form-control\" id=\"fullName\"\n\t\t\t\t\t\t\tplaceholder=\"Full Name\" required>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t<div class=\"col-sm-12\">\n\t\t\t\t\t\t<input type=\"text\" ng-model=\"siteContact.email\" class=\"form-control\" id=\"email\" placeholder=\"Email\"\n\t\t\t\t\t\t\trequired>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t<div class=\"col-sm-12\">\n\t\t\t\t\t\t<input type=\"text\" ng-model=\"siteContact.mobile\" class=\"form-control\" id=\"mobile\"\n\t\t\t\t\t\t\tplaceholder=\"Mobile Number\" required>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t<div class=\"col-sm-12\">\n\t\t\t\t\t\t<select class=\"form-control\" id=\"select\" ng-model=\"siteContact.courseInterested\"\n\t\t\t\t\t\t\tng-init=\"siteContact.courseInterested = coursesList[0]\" required>\n\t\t\t\t\t\t\t<option ng-repeat=\"course in coursesList\" ng-disabled=\"$index == 0\" value=\"{{course}}\">\n\t\t\t\t\t\t\t\t{{course}}</option>\n\t\t\t\t\t\t</select>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t<div class=\"col-sm-12\">\n\t\t\t\t\t\t<textarea class=\"form-control\" rows=\"3\" id=\"textArea\" placeholder=\"Your Remarks\"\n\t\t\t\t\t\t\tng-model=\"siteContact.message\"></textarea>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t<div class=\"col-sm-12 text-center\">\n\t\t\t\t\t\t<button class=\"btn btn-primary btn-block btn-sm\"\n\t\t\t\t\t\t\tng-class=\"siteContactSubmit == 'Submit' ? 'btn-primary' :'btn-success'\"\n\t\t\t\t\t\t\tng-disabled=\"siteContactSubmit !== 'Submit'\" type=\"submit\" ng-click=\"contactSubmit()\">\n\t\t\t\t\t\t\t<i class=\"fa fa-cog fa-spin fa-lg fa-fw\" ng-show=\"contactSubmitted\"></i>\n\t\t\t\t\t\t\t{{siteContactSubmit}}</button>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</form>\n\t\t\t<div class=\"form-hide\" ng-show=\"siteContactSubmit == 'Message sent sucessfully'\">\n\t\t\t\t<div class=\"panel panel-default\" style=\"width:80%;\">\n\t\t\t\t\t<div class=\"panel-heading text-center\" style=\"line-height:0px;\">\n\t\t\t\t\t\t<h3 class=\"text-success\">\n\t\t\t\t\t\t\t<i class=\"ion-ios-checkmark-outline text-success\"></i> Message Sent</h3>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"panel-body text-center\">\n\t\t\t\t\t\t<p>Thank you for contacting\n\t\t\t\t\t\t\t<br>QuickLearn Systems.\n\t\t\t\t\t\t\t<br>\n\t\t\t\t\t\t\t<br> A team member will be in touch with you shortly.</p>\n\t\t\t\t\t\t<p>or</p>\n\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t<u>\n\t\t\t\t\t\t\t\t<b>Call us at</b>\n\t\t\t\t\t\t\t</u>\n\t\t\t\t\t\t\t<br> +91 9100195152</p>\n\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\t<b>\n\t\t\t\t\t\t\t\t<u>Write us at:</u>\n\t\t\t\t\t\t\t</b>\n\t\t\t\t\t\t\t<br>\n\t\t\t\t\t\t\t<a href=\"mailto:training@quicklearnsys.com\">training@quicklearnsys.com</a>\n\t\t\t\t\t\t</p>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>\n<div ng-class=\"{'blur':mobileMenuState}\">\n\t<ui-view></ui-view>\n\t<div class=\"projects\">\n\t\t<b>Service Management:</b>\n\t\t<a ui-sref=\"app.itil_4_foundation\"> ITIL 4 Foundation Training & Certification </a>|<a\n\t\t\tui-sref=\"app.itil_foundation\"> ITIL V4\n\t\t\tFoundation Training & Certification </a>|<a ui-sref=\"app.itil_foundation\"> ITIL V3 Foundation Training &\n\t\t\tCertification </a>|<a ui-sref=\"app.service_operation\"> ITIL Intermediate Service Operation Training &\n\t\t\tCertification </a>|<a ui-sref=\"app.service_transition\"> ITIL\n\t\t\tIntermediate Service Transition Training & Certification </a>|<a ui-sref=\"app.service_strategy\"> ITIL\n\t\t\tIntermediate Service\n\t\t\tStrategy Training & Certification </a>|<a ui-sref=\"app.service_design\"> ITIL Intermediate Service Design\n\t\t\tTraining &\n\t\t\tCertification </a>|<a ui-sref=\"app.continual_service\"> ITIL Intermediate Continuous Service Improvement\n\t\t</a>|<a ui-sref=\"app.osa\"> ITIL\n\t\t\tIntermediate OSA Training & Certification </a>|<a ui-sref=\"app.rcv\"> ITIL Intermediate RCV Training &\n\t\t\tCertification\n\t\t</a>|<a ui-sref=\"app.ppo\"> ITIL Intermediate PPO Training & Certification </a>|<a ui-sref=\"app.soa\"> ITIL\n\t\t\tIntermediate SOA\n\t\t\tTraining & Certification </a>|<a ui-sref=\"app.malc\"> ITIL MALC/Expert Training & Certification </a>|\n\t\t<a ui-sref=\"app.siam\">\n\t\t\tSIAM Foundation Training & Certification </a>|<a ui-sref=\"app.siam\"> SIAM Professional Training &\n\t\t\tCertification </a></br></br>\n\n\t\t<b> Project & Program Management </b>:<a ui-sref=\"app.capm\"> CAPM Certification Training </a>|<a ui-sref=\"app.pmp\">\n\t\t\tPMP\n\t\t\tCertification Training </a>|<a ui-sref=\"app.acp\"> ACP Certification Training </a>|\n\t\t<a ui-sref=\"app.prince2foundation\"> Prince2 Foundation\n\t\t\tCertification Training </a>|<a ui-sref=\"app.prince2practitioner\"> Prince2 Practitioner Certification\n\t\t\tTraining </a>|<a ui-sref=\"app.prince2practitioner\">\n\t\t\tPrince2 Foundation & Practitioner Training Certification </a>|<a ui-sref=\"app.prince2agile\"> Prince2 Agile\n\t\t\tPractitioner\n\t\t\tCertification Training </a>|<a ui-sref=\"app.msp\"> MSP Foundation Certification Training MSP Practitioner\n\t\t\tCertification Training </a>|<a ui-sref=\"app.msp\"> MSP Certification Training </a>\n\t\t\t|\n\t\t<a ui-sref=\"app.scrum\">\n\t\t\tProfessional Scrum\n\t\t\tMaster Certification Training </a>|<a ui-sref=\"app.safe\"> SAFe Agile 5 Certification Training\n\t\t</a>|<a ui-sref=\"app.popm\"> SAFe POPM 5 Certification Training </a>|<a ui-sref=\"app.doi\"> DevOps\n\t\t\tFoundation Certification Training </a>|<a ui-sref=\"app.dev_ops\"> DevOps Master Certification Training\n\t\t</a></br></br>\n\n\t\t<b> Quality Management </b>:<a ui-sref=\"app.green_belt\"> Lean Six Sigma Green Belt Training & Certification\n\t\t</a>|<a ui-sref=\"app.black_belt\"> Lean Six Sigma Black Belt Training & Certification </a>|<a\n\t\t\tui-sref=\"app.green_belt\"> Six Sigma Green Belt\n\t\t\tTraining & Certification </a>|<a ui-sref=\"app.black_belt\"> Six Sigma Black Belt Training & Certification\n\t\t</a>|<a ui-sref=\"app.green_belt\"> Six Sigma Green & Black Belt Combo Training & Certification </a></br></br>\n\n\t\t<b> IT Governance & Architecture </b>:<a ui-sref=\"app.cobit\"> Cobit Foundation Training & Certification </a>|<a\n\t\t\tui-sref=\"app.cobit\"> Cobit5 Foundation </a>|<a ui-sref=\"app.togaf\"> TOGAF Training & Certification </a>\n\n\t</div>\n\t<footer class=\"container-fluid text-center\" style=\"padding:0px\">\n\t\t<div class=\"container-fluid\">\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-sm-3\">\n\t\t\t\t\t<div class=\"container-fluid text-left\" style=\"font-size:small\">\n\t\t\t\t\t\t<h3>Popular Courses</h3>\n\t\t\t\t\t\t<ul class=\"popular-courses\">\n\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t<a ui-sref=\"app.itil_4_foundation\">ITIL 4 Foundation Certification</a>\n\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t<a ui-sref=\"app.scrum\">PSM Certification</a>\n\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t<a ui-sref=\"app.safe\">SAFe Agile 5 Certification </a>\n\t\t\t\t\t\t\t</li>\n\n\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t<a ui-sref=\"app.pmp\">PMP Certification</a>\n\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t<a ui-sref=\"app.prince2foundation\">Prince2 Foundation Certification</a>\n\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t<a ui-sref=\"app.prince2practitioner\">Prince2 Practitioner Certification</a>\n\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t<a ui-sref=\"app.prince2agile\">Prince2 Agile Practitioner Certification</a>\n\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t<a ui-sref=\"app.green_belt\">Lean Six Sigma Green Belt Certification</a>\n\t\t\t\t\t\t\t</li>\n\n\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t<a ui-sref=\"app.dev_ops\">DevOps Foundation Certification</a>\n\t\t\t\t\t\t\t</li>\n\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-sm-4\">\n\t\t\t\t\t<h3 class=\"text-center\">Finds us on</h3>\n\t\t\t\t\t<ul class=\"social-network social-circle\">\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a href=\"https://www.facebook.com/QuickLearn-Systems-860154054085242\" class=\"icoFacebook\"\n\t\t\t\t\t\t\t\ttitle=\"Facebook\">\n\t\t\t\t\t\t\t\t<i class=\"fa fa-facebook\"></i>\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a href=\"https://twitter.com/quicklearnsys\" class=\"icoTwitter\" title=\"Twitter\">\n\t\t\t\t\t\t\t\t<i class=\"fa fa-twitter\"></i>\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a href=\"https://plus.google.com/109738846000587914274\" class=\"icoGoogle\" title=\"Google +\">\n\t\t\t\t\t\t\t\t<i class=\"fa fa-google-plus\"></i>\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a href=\"https://in.linkedin.com/in/quicklearn-systems-1494ba12a\" class=\"icoLinkedin\" title=\"Linkedin\">\n\t\t\t\t\t\t\t\t<i class=\"fa fa-linkedin\"></i>\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t</ul>\n\t\t\t\t\t<h3 class=\"text-center\">Payment Options</h3>\n\t\t\t\t\t<small>We accept Payment by Cash, Cheque,\n\t\t\t\t\t\t<br />Online Fund Transfer and Credit Cards</small>\n\t\t\t\t\t<br />\n\t\t\t\t\t<ul class=\"social-network social-circle\">\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a href=\"#\" class=\"icoTwitter\" title=\"Visa\">\n\t\t\t\t\t\t\t\t<i class=\"fa fa-cc-visa\"></i>\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a href=\"#\" class=\"icoTwitter\" title=\"Master Card\">\n\t\t\t\t\t\t\t\t<i class=\"\tfa fa-cc-mastercard\"></i>\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a href=\"#\" class=\"icoTwitter\" title=\"Google Wallet\">\n\t\t\t\t\t\t\t\t<i class=\"fa fa-google-wallet\"></i>\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a href=\"#\" class=\"icoTwitter\" title=\"PayPal\">\n\t\t\t\t\t\t\t\t<i class=\"fa fa-paypal\"></i>\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t</ul>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-sm-2\">\n\t\t\t\t\t<h3 class=\"text-left\">Company</h3>\n\t\t\t\t\t<ul class=\"footer-company\">\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a ui-sref=\"app.about\">About Us</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a ui-sref=\"app.home\">Courses</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a ui-sref=\"app.upcoming_events\">Upcoming Events</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a ui-sref=\"app.contact\">Contact Us</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a ui-sref=\"app.terms\">Term and conditions</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a ui-sref=\"app.privacy\">Privacy Policy</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<!-- <li>\n\t\t\t\t\t\t\t<a ui-sref=\"app.accreditations\">Accreditation</a>\n\t\t\t\t\t\t</li> -->\n\t\t\t\t\t</ul>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-sm-3\">\n\t\t\t\t\t<h3 class=\"text-left\">Quick Enquiry</h3>\n\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t<div class=\"col-sm-6 form-group\">\n\t\t\t\t\t\t\t<input class=\"form-control\" id=\"name\" name=\"name\" placeholder=\"Name\" type=\"text\"\n\t\t\t\t\t\t\t\tng-model=\"siteContact.fullname\" required>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-sm-6 form-group\">\n\t\t\t\t\t\t\t<input class=\"form-control\" id=\"email\" name=\"email\" placeholder=\"Email\" type=\"email\"\n\t\t\t\t\t\t\t\tng-model=\"siteContact.email\" required>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-sm-12 form-group\">\n\t\t\t\t\t\t\t<input class=\"form-control\" id=\"mobile\" name=\"mobile\" placeholder=\"Mobile Number\" type=\"tel\"\n\t\t\t\t\t\t\t\tng-model=\"siteContact.mobile\" required>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<textarea class=\"form-control\" id=\"comments\" name=\"comments\" placeholder=\"Comment\" rows=\"4\"\n\t\t\t\t\t\tng-model=\"siteContact.message\"></textarea>\n\t\t\t\t\t<br>\n\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t<div class=\"col-sm-12 form-group\">\n\t\t\t\t\t\t\t<button type=\"submit\" class=\"btn btn-primary btn-block btn-sm\"\n\t\t\t\t\t\t\t\tng-class=\"siteContactSubmit == 'Submit' ? 'btn-primary' :'btn-success'\"\n\t\t\t\t\t\t\t\tng-disabled=\"siteContactSubmit !== 'Submit'\" type=\"submit\" ng-click=\"contactSubmit()\">\n\t\t\t\t\t\t\t\t<i class=\"fa fa-cog fa-spin fa-lg fa-fw\" ng-show=\"contactSubmitted\"></i>\n\t\t\t\t\t\t\t\t{{siteContactSubmit}}</button>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t\t<div class=\"container-fluid footer-band\">\n\t\t\t<div class=\"col-lg-12\">\n\t\t\t\t<h6>&copy; 2018-2019 - QuickLearn Systems. All Rights Reserved. The certification names are the\n\t\t\t\t\ttrademarks of\n\t\t\t\t\ttheir respective owners.\n\t\t\t\t</h6>\n\t\t\t</div>\n\t\t</div>\n\t</footer>\n</div>";
 
 /***/ },
 /* 82 */
@@ -59978,30 +59978,30 @@
 	  $scope.contactSubmitted = false;
 	  $scope.coursesList = [
 	    "Select a course",
-	    // "ITIL 4 Foundation Training & Certification",
-	    // "ITIL V3 Foundation Training & Certification",
-	    // "ITIL Intermediate Service Operation Training & Certification",
-	    // "ITIL Intermediate Service Transition Training & Certification",
-	    // "ITIL Intermediate Service Strategy Training & Certification",
-	    // "ITIL Intermediate Service Design Training & Certification",
-	    // "ITIL Intermediate Continuous Service Improvement",
-	    // "ITIL Intermediate OSA Training & Certification",
-	    // "ITIL Intermediate RCV Training & Certification",
-	    // "ITIL Intermediate PPO Training & Certification",
-	    // "ITIL Intermediate SOA Training & Certification",
-	    // "ITIL MALC/Expert Training & Certification",
+	    "ITIL 4 Foundation Training & Certification",
+	    "ITIL V3 Foundation Training & Certification",
+	    "ITIL Intermediate Service Operation Training & Certification",
+	    "ITIL Intermediate Service Transition Training & Certification",
+	    "ITIL Intermediate Service Strategy Training & Certification",
+	    "ITIL Intermediate Service Design Training & Certification",
+	    "ITIL Intermediate Continuous Service Improvement",
+	    "ITIL Intermediate OSA Training & Certification",
+	    "ITIL Intermediate RCV Training & Certification",
+	    "ITIL Intermediate PPO Training & Certification",
+	    "ITIL Intermediate SOA Training & Certification",
+	    "ITIL MALC/Expert Training & Certification",
 	    "SIAM Foundation Training & Certification",
 	    "SIAM Professional Training & Certification",
 	    "CAPM Certification Training",
 	    "PMP Certification Training",
 	    "ACP Certification Training",
-	    // "Prince2 Foundation Certification Training",
-	    // "Prince2 Practitioner Certification Training",
-	    // "Prince2 Agile Practitioner Certification Training",
-	    // "MSP Certification Training",
+	    "Prince2 Foundation Certification Training",
+	    "Prince2 Practitioner Certification Training",
+	    "Prince2 Agile Practitioner Certification Training",
+	    "MSP Certification Training",
 	    "PSM Certification Training ",
-	    "SAFe Agile 4.6 Certification Training",
-	    "SAFe POPM 4.6 Certification Training",
+	    "SAFe Agile 5 Certification Training",
+	    "SAFe POPM 5 Certification Training",
 	    "DevOps Foundation Certification Training",
 	    "DevOps Master Certification Training",
 	    "Lean Six Sigma Green Belt Training & Certification",
@@ -60155,7 +60155,7 @@
 	        "Scrum Master",
 	        "Certified Scrum Product Owner (CSPO)",
 	        "Managing Successful Programs",
-	        "SAFe 4.6 (SAFe Agilist)",
+	        "SAFe 5 (SAFe Agilist)",
 	        "DevOps Master",
 	        "Six Sigma Green Belt",
 	        "Six Sigma Black Belt",
